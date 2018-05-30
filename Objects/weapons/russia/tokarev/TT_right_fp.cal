@@ -1,0 +1,143 @@
+#filepath = Animations\1st_person\weapons\Russia\TT_fp
+
+
+
+
+select_right_01							=	select_right_01.caf
+deselect_right_01						=	deselect_right_01.caf
+fidget_right_01							=	fidget_right_01.caf
+idle_right_01							=	idle_right_01.caf
+reload_chamber_empty_right_01					=	reload_chamber_empty_right_01.caf
+reload_chamber_full_right_01					=	reload_chamber_full_right_01.caf
+fire_bullets_burst_right_01					=	fire_bullets_burst_right_01.caf
+fire_bullets_right_01						=	fire_bullets_right_01.caf
+
+
+
+fire_right_01							=	fire_right_01.caf
+crawl_right_01							=	crawl_right_01.caf
+
+zoom_in_ironsight_right_01					=	zoom_in_ironsight_right_01.caf
+zoom_out_ironsight_right_01					=	zoom_out_ironsight_right_01.caf
+
+fire_bullets_right_ironsight_01					=	fire_bullets_right_ironsight_01.caf
+fire_bullets_burst_right_ironsight_01				=	fire_bullets_burst_right_ironsight_01.caf
+idle_right_ironsight_01						=	idle_right_ironsight_01.caf
+
+
+zoom_in_fc_right_01						=	zoom_in_fc_right_01.caf
+zoom_out_fc_right_01						=	zoom_out_fc_right_01.caf
+
+fire_bullets_right_fc_01					=	fire_bullets_right_fc_01.caf
+fire_bullets_burst_right_fc_01					=	fire_bullets_burst_right_fc_01.caf
+idle_right_fc_01						=	idle_right_fc_01.caf
+
+//raise weapon
+
+
+raise_right_01							=	raise_right_01.caf
+idle_raised_right_01						=	idle_raised_right_01.caf
+lower_right_01							=	lower_right_01.caf
+
+// zero G
+
+idle_to_zerog_right_01						=	idle_to_zerog_right_01.caf
+idle_zerog_right_01						=	idle_zerog_right_01.caf
+zerog_to_idle_right_01						=	zerog_to_idle_right_01.caf
+
+//modify anims
+
+enter_modify_right_01						=	enter_modify_right_01.caf
+modify_layer_right_01						=	modify_layer_right_01.caf
+leave_modify_right_01						=	leave_modify_right_01.caf
+
+
+// akimbo
+
+
+select_right_akimbo_01						=	select_right_akimbo_01.caf
+deselect_right_akimbo_01					=	deselect_right_akimbo_01.caf
+idle_right_akimbo_01						=	idle_right_akimbo_01.caf
+fire_bullets_right_akimbo_01					=	fire_bullets_right_akimbo_01.caf
+fire_bullets_burst_right_akimbo_01				=	fire_bullets_burst_right_akimbo_01.caf
+fire_bullets_burst_left_akimbo_01				=	fire_bullets_burst_left_akimbo_01.caf
+fire_burst_right_akimbo_01					=	fire_burst_right_akimbo_01.caf
+fire_right_akimbo_01						=	fire_right_akimbo_01.caf
+
+
+
+reload_chamber_empty_right_akimbo_01				=	reload_chamber_empty_right_akimbo_01.caf
+reload_chamber_full_right_akimbo_01				=	reload_chamber_full_right_akimbo_01.caf
+
+enter_modify_right_akimbo_01					=	enter_modify_right_akimbo_01.caf
+modify_layer_right_akimbo_01					=	modify_layer_right_akimbo_01.caf
+leave_modify_right_akimbo_01					=	leave_modify_right_akimbo_01.caf
+
+
+//raise weapon akimbo
+
+
+raise_right_akimbo_01						=	raise_right_akimbo_01.caf
+idle_raised_right_akimbo_01					=	idle_raised_right_akimbo_01.caf
+lower_right_akimbo_01						=	lower_right_akimbo_01.caf
+
+
+// zero G akimbo
+
+idle_to_zerog_right_akimbo_01					=	idle_to_zerog_right_akimbo_01.caf
+idle_zerog_right_akimbo_01					=	idle_zerog_right_akimbo_01.caf
+zerog_to_idle_right_akimbo_01					=	zerog_to_idle_right_akimbo_01.caf
+
+
+
+
+// for left hand actions
+
+grab_weapon_left_01						=	grab_weapon_left_01.caf
+
+//wrong naming convention
+remove_arm_left_01						=	remove_arm_left_01.caf
+
+//melee_attacks
+
+melee_right_01							=	melee_right_01.caf
+melee_right_akimbo_01						=	melee_right_akimbo_01.caf
+
+//melee_right_02						=	melee_right_02.caf
+//melee_right_akimbo_02						=	melee_right_akimbo_02.caf
+
+
+
+// attachment layers
+
+silencer_on_layer_right_01					=	silencer_on_layer_right_01.caf
+LAM_on_layer_right_01						=	LAM_on_layer_right_01.caf
+
+slider_back_layered_right_01					=	slider_back_layered_right_01.caf
+
+//firemode-switch layers (bone used:Safety_Lever_Base)
+
+firemode_right_lever_up_01						=	firemode_right_lever_up_01.caf
+firemode_right_lever_up_layer_01					=	firemode_right_lever_up_layer_01.caf
+firemode_right_lever_down_01						=	firemode_right_lever_down_01.caf
+firemode_right_lever_down_layer_01					=	firemode_right_lever_down_layer_01.caf
+
+
+
+//not used
+//point_down_down_right_01					=	point_down_down_right_01.caf
+//point_down_layered_right_01					=	point_down_layered_right_01.caf
+//point_down_up_right_01					=	point_down_up_right_01.caf
+
+//point_up_up_right_01						=	point_up_up_right_01.caf
+//point_up_layered_right_01					=	point_up_layered_right_01.caf
+//point_up_down_right_01					=	point_up_down_right_01.caf
+//point_down_down_right_akimbo_01				=	point_down_down_right_akimbo_01.caf
+//point_down_layered_right_akimbo_01				=	point_down_layered_right_akimbo_01.caf
+//point_down_up_right_akimbo_01					=	point_down_up_right_akimbo_01.caf
+
+//point_up_up_right_akimbo_01					=	point_up_up_right_akimbo_01.caf
+//point_up_layered_right_akimbo_01				=	point_up_layered_right_akimbo_01.caf
+//point_up_down_right_akimbo_01					=	point_up_down_right_akimbo_01.caf
+
+//not used

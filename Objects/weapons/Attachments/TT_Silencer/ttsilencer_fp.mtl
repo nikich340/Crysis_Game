@@ -1,0 +1,16 @@
+<Material Name="objects/weapons/attachments/TT_Silencer/TTSilencer_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="TTsil" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="" Diffuse="0.38039219,0.38039219,0.38039219" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/Attachments/TT_Silencer/Textures/TTSilencer.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/tt_silencer/textures/ttsilencer_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
