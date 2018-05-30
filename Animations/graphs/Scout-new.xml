@@ -1,0 +1,281 @@
+<AnimationSetup version="1">
+ <Character filename="Objects\Characters\Alien\Scout\scout_base.cdf"/>
+ <Inputs>
+  <KeyState name="Action" signalled="0" priority="101" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="idle">
+   <Key value="idle"/>
+  </KeyState>
+  <KeyState name="CarryItem" signalled="0" priority="100" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="none">
+   <Key value="lightObject"/>
+   <Key value="none"/>
+   <Key value="troopers"/>
+  </KeyState>
+  <FloatState name="Firing" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="10"/>
+  <IntegerState name="Health" signalled="0" priority="250" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="100"/>
+  <KeyState name="LocomotionState" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0">
+   <Key value="Idle"/>
+   <Key value="IdleToMove"/>
+   <Key value="Move"/>
+   <Key value="MoveToIdle"/>
+  </KeyState>
+  <KeyState name="Signal" signalled="1" priority="150" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="none">
+   <Key value="HeavyDamageLeft"/>
+   <Key value="HeavyDamageRight"/>
+   <Key value="dodgeLeft"/>
+   <Key value="dodgeRight"/>
+   <Key value="dropLightObject"/>
+   <Key value="fireMOAR"/>
+   <Key value="fireSingularityCannon"/>
+   <Key value="foundPlayer"/>
+   <Key value="goingDown"/>
+   <Key value="grabLightObject"/>
+   <Key value="largeHit"/>
+   <Key value="none"/>
+   <Key value="readyToFly"/>
+   <Key value="rotateLeft"/>
+   <Key value="rotateRight"/>
+   <Key value="smallHit"/>
+   <Key value="stop"/>
+  </KeyState>
+  <FloatState name="Speed" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="1000"/>
+  <KeyState name="Stance" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0">
+   <Key value="high"/>
+   <Key value="stand"/>
+  </KeyState>
+ </Inputs>
+ <States>
+  <State id="Alive" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <LocomotionState />
+   </SelectWhen>
+   <Template name="HunterAlive"/>
+  </State>
+  <State id="AnimatedDead" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Ragdoll">
+   <Template name="HunterDead"/>
+  </State>
+  <State id="CarryTroopers" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <CarryItem value="troopers"/>
+   </SelectWhen>
+   <Template animation="fly_carrytrooper_02" physics_blending="0.5" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="DropTroopers" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <Template animation="fly_droptrooper_02" physics_blending="0.5" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="FireMOAR" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="fireMOAR"/>
+   </SelectWhen>
+   <Template animation="fly_idle" physics_blending="" physics_jointLimit="" transition_time="" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="FireSingularityCannon" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="fireSingularityCannon"/>
+   </SelectWhen>
+   <Template TransitionTime="" animation="fly_fire_01" firing_time="" physics_blending="0" physics_jointLimit="" playback_speed="" transition_time="" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="FireToIdle" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="" animation="fly_fromFire_01" firing_time="" physics_blending="0" physics_jointLimit="" playback_speed="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="GrabLightObject" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="grabLightObject"/>
+   </SelectWhen>
+   <Template animation="fly_grabLightobject_01" physics_blending="" physics_jointLimit="" transition_time="" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="HeavyDamage" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="largeHit"/>
+   </SelectWhen>
+   <Template animation="fly_heavyHit_01" physics_blending="0.5" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="HeavyDamageLeft" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="HeavyDamageLeft"/>
+   </SelectWhen>
+   <Template animation="fly_heavyHit_left_01" physics_blending="0.5" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="HeavyDamageRight" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="HeavyDamageRight"/>
+   </SelectWhen>
+   <Template animation="fly_heavyHit_right_01" physics_blending="0.5" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="Idle" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <CarryItem value="none"/>
+    <Signal value="none"/>
+   </SelectWhen>
+  </State>
+  <State id="IdleToFire" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template animation="fly_toFire_01" physics_blending="0" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="LightDamage" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="smallHit"/>
+   </SelectWhen>
+   <Template animation="fly_lightHit_01" physics_blending="0.5" physics_jointLimit="" transition_time="0" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="Melee" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value=""/>
+   </SelectWhen>
+   <Template animation="fly_idle" physics_blending="" physics_jointLimit="" transition_time="" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="Move" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Speed min="3" max="100"/>
+   </SelectWhen>
+   <Template animation="fly_slow" physics_blending="0.5" physics_jointLimit="" transition_time="1.0" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="Ragdoll" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <Event onEnter="TurnRagdoll"/>
+  </State>
+  <State id="Stand" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Speed min="0" max="3"/>
+   </SelectWhen>
+   <Template animation="fly_idle" physics_blending="0.8" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="ThrowLightObject" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="dropLightObject"/>
+   </SelectWhen>
+   <Template animation="fly_throwLightobject_01" physics_blending="" physics_jointLimit="" transition_time="" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="dodgeLeft" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="dodgeLeft"/>
+   </SelectWhen>
+   <Template animation="fly_dodge_left_01" physics_blending="0.2" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="dodgeRight" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="dodgeRight"/>
+   </SelectWhen>
+   <Template animation="fly_dodge_right_01" physics_blending="0.2" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="foundPlayer" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="foundPlayer"/>
+   </SelectWhen>
+   <Template animation="fly_foundPlayer_01" physics_blending="0.25" physics_jointLimit="" transition_time="1.0" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="goingDown" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="goingDown"/>
+   </SelectWhen>
+   <Template animation="fly_slow_ground_01" physics_blending="0" physics_jointLimit="" transition_time="0.2" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="readyToFly" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="readyToFly"/>
+   </SelectWhen>
+   <Template animation="fly_readyTofly_01" physics_blending="0.5" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="rotateLeft" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="rotateLeft"/>
+   </SelectWhen>
+   <Template Loop="" TransitionTime="" animation="fly_rotate_left_01" physics_blending="1" physics_jointLimit="" playback_speed="" stay_in_state_until="" transition_time="0.5" name="TentacleAlienMovementTransition"/>
+  </State>
+  <State id="rotateRight" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="rotateRight"/>
+   </SelectWhen>
+   <Template animation="fly_rotate_right_01" physics_blending="1" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovementTransition"/>
+  </State>
+ </States>
+ <Transitions>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="CarryTroopers" to="DropTroopers"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="DropTroopers" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="DropTroopers" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="FireMOAR" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="FireMOAR" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="FireSingularityCannon" to="FireToIdle"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="FireToIdle" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="FireToIdle" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="GrabLightObject" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="GrabLightObject" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="HeavyDamage" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="HeavyDamage" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="HeavyDamageLeft" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="HeavyDamageLeft" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="HeavyDamageRight" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="HeavyDamageRight" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="IdleToFire" to="FireSingularityCannon"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="LightDamage" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="LightDamage" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Melee" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Melee" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="CarryTroopers"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="FireMOAR"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="GrabLightObject"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="HeavyDamage"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="HeavyDamageLeft"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="HeavyDamageRight"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="IdleToFire"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="LightDamage"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="Melee"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="ThrowLightObject"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="dodgeLeft"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="dodgeRight"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="foundPlayer"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="goingDown"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="readyToFly"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="rotateLeft"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Move" to="rotateRight"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="CarryTroopers"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="FireMOAR"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="GrabLightObject"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="HeavyDamage"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="HeavyDamageLeft"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="HeavyDamageRight"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="IdleToFire"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="LightDamage"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="Melee"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="ThrowLightObject"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Stand" to="foundPlayer"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="ThrowLightObject" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="ThrowLightObject" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="dodgeLeft" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="dodgeRight" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="foundPlayer" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="foundPlayer" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="goingDown" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="readyToFly" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="rotateLeft" to="Move"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="rotateRight" to="Move"/>
+ </Transitions>
+ <Views>
+  <View name="Default">
+   <State id="Alive" x="250" y="-1160"/>
+   <State id="AnimatedDead" x="190" y="-1210"/>
+   <State id="CarryTroopers" x="-890" y="-600"/>
+   <State id="DropTroopers" x="-880" y="-1050"/>
+   <State id="FireMOAR" x="-540" y="-490"/>
+   <State id="FireSingularityCannon" x="-340" y="-1330"/>
+   <State id="FireToIdle" x="-130" y="-1140"/>
+   <State id="GrabLightObject" x="-1280" y="-760"/>
+   <State id="HeavyDamage" x="130" y="-740"/>
+   <State id="HeavyDamageLeft" x="460" y="-650"/>
+   <State id="HeavyDamageRight" x="450" y="-840"/>
+   <State id="Idle" x="260" y="-1260"/>
+   <State id="IdleToFire" x="-390" y="-1140"/>
+   <State id="LightDamage" x="130" y="-930"/>
+   <State id="Melee" x="40" y="-470"/>
+   <State id="Move" x="-240" y="-720"/>
+   <State id="Ragdoll" x="240" y="-1320"/>
+   <State id="Stand" x="-250" y="-910"/>
+   <State id="ThrowLightObject" x="-1300" y="-890"/>
+   <State id="dodgeLeft" x="-410" y="-60"/>
+   <State id="dodgeRight" x="-90" y="-60"/>
+   <State id="foundPlayer" x="440" y="-290"/>
+   <State id="goingDown" x="-260" y="-340"/>
+   <State id="readyToFly" x="220" y="-130"/>
+   <State id="rotateLeft" x="-100" y="-220"/>
+   <State id="rotateRight" x="-420" y="-210"/>
+  </View>
+ </Views>
+</AnimationSetup>

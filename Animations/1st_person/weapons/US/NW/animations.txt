@@ -1,0 +1,57 @@
+
+
+ Directory of J:\Game02\Game\Objects\Weapons\US\NW\animations
+
+
+09.06.2006  09:38           186.596 beam_idle_01.caf
+09.06.2006  09:38           106.548 crawl_01.caf
+19.07.2006  15:33            18.204 deselect_fist_01.caf
+09.06.2006  09:38            75.160 grab_off_01.caf
+09.06.2006  09:38            61.944 grab_onto_01.caf
+19.07.2006  16:06           176.180 idle_01.caf
+20.07.2006  12:20           176.180 idle_fist_01.caf
+20.07.2006  12:19           176.180 idle_fist_right_01.caf
+19.07.2006  16:18           176.180 idle_fist_right_akimbo_01.caf
+09.06.2006  09:38           119.764 interact_handShieldsEyes_01.caf
+09.06.2006  09:38            68.548 jab_01.caf
+09.06.2006  09:38            61.308 jab_02.caf
+09.06.2006  09:38            68.028 jab_03.caf
+09.06.2006  09:38            68.548 jab_left_01.caf
+09.06.2006  09:38            89.380 ladder_climb_down_01.caf
+09.06.2006  09:38            87.644 ladder_climb_up_01.caf
+09.06.2006  09:38           188.328 ladder_get_off_top_01.caf
+09.06.2006  09:38            45.980 ladder_grab_onto_01.caf
+25.07.2006  09:58            63.340 melee_01.caf
+19.07.2006  16:26            39.036 off_screen_01.caf
+19.07.2006  16:27             6.052 off_screen_layer_01.caf
+19.07.2006  16:27            19.940 on_screen_01.caf
+25.07.2006  16:49            75.492 parachute_checkAltimeter_01.caf
+25.07.2006  16:41            73.756 parachute_float_idle_01.caf
+25.07.2006  16:42           177.916 parachute_glide_idle_01.caf
+25.07.2006  16:43            19.940 parachute_glide_leftToidle_01.caf
+25.07.2006  16:42            21.676 parachute_glide_left_01.caf
+25.07.2006  16:43            91.116 parachute_glide_left_layer_01.caf
+25.07.2006  16:47            21.676 parachute_glide_rightToidle_01.caf
+25.07.2006  16:44            21.676 parachute_glide_right_01.caf
+25.07.2006  16:44            91.116 parachute_glide_right_layer_01.caf
+25.07.2006  16:41            82.436 parachute_open_01.caf
+25.07.2006  16:40            44.244 parachute_start_01.caf
+09.06.2006  09:38           146.668 pick_up_beam_01.caf
+09.06.2006  09:38            64.032 punchdoor_01.caf
+26.07.2006  09:35            28.620 punch_left_01.caf
+20.07.2006  12:21            59.868 punch_left_right_01.caf
+21.07.2006  10:12            28.620 punch_right_01.caf
+19.07.2006  16:12            26.884 punch_right_akimbo_01.caf
+09.06.2006  09:38           250.272 remove_beam_01.caf
+19.07.2006  15:52            23.412 remove_fist_left_01.caf
+19.07.2006  15:52            23.412 remove_hand_left_01.caf
+19.07.2006  15:52            23.412 remove_left_fist_01.caf
+26.07.2006  09:46            35.564 select_fist_01.caf
+19.07.2006  16:17            26.884 select_fist_left_01.caf
+19.07.2006  16:17            26.884 select_left_fist_01.caf
+09.06.2006  09:38            59.868 swim_nw_forward_01.caf
+09.06.2006  09:38            39.036 swim_nw_forward_left_01.caf
+09.06.2006  09:38            61.604 swim_underwater_nw_forward_01.caf
+09.06.2006  09:38            44.244 swim_underwater_nw_forward_left_01.caf
+09.06.2006  09:38            68.548 throw_beam_01.caf
+           

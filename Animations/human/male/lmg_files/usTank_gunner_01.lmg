@@ -1,0 +1,12 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="IROT" />
+
+  <ExampleList>
+    <Example Position=" 0,-1, 0" AName="usTank_gunnerAimUp_01" />
+    <Example Position=" 0, 0, 0" AName="usTank_gunnerAimCenter_01" />
+    <Example Position=" 0, 1, 0" AName="usTank_gunnerAimDown_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>

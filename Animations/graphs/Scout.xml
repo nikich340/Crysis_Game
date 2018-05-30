@@ -1,0 +1,102 @@
+<AnimationSetup version="1">
+ <Character filename="objects\characters\alien\scout\scout.cdf"/>
+ <Inputs>
+  <KeyState name="Action" signalled="0" priority="101" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="1" mixinFilter="0" defaultValue="idle">
+   <Key value="fire"/>
+   <Key value="idle"/>
+  </KeyState>
+  <FloatState name="Firing" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="10"/>
+  <IntegerState name="Health" signalled="0" priority="250" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="100"/>
+  <KeyState name="LocomotionState" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0">
+   <Key value="Idle"/>
+   <Key value="IdleToMove"/>
+   <Key value="Move"/>
+   <Key value="MoveToIdle"/>
+  </KeyState>
+  <KeyState name="Signal" signalled="1" priority="150" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="1" mixinFilter="0" defaultValue="none">
+   <Key value="fire"/>
+   <Key value="fire2"/>
+   <Key value="none"/>
+   <Key value="stop"/>
+  </KeyState>
+  <FloatState name="Speed" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="1000"/>
+  <KeyState name="Stance" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0">
+   <Key value="high"/>
+   <Key value="stand"/>
+  </KeyState>
+ </Inputs>
+ <States>
+  <State id="Alive" allowSelect="0" includeInGame="1" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <LocomotionState />
+   </SelectWhen>
+   <Template name="HunterAlive"/>
+  </State>
+  <State id="AnimatedDead" allowSelect="0" includeInGame="1" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Ragdoll">
+   <Template name="HunterDead"/>
+  </State>
+  <State id="Fire" allowSelect="1" includeInGame="1" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="fire"/>
+    <Firing min="0" max="100"/>
+   </SelectWhen>
+   <Template TransitionTime="" animation="fly_fire_01" firing_time="" physics_blending="0" physics_jointLimit="" playback_speed="" transition_time="" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="Fire2" allowSelect="1" includeInGame="1" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="fire2"/>
+   </SelectWhen>
+   <Template animation="fly_slow" physics_blending="1" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="FireToIdle" allowSelect="0" includeInGame="1" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="" animation="fly_fromFire_01" firing_time="" physics_blending="0" physics_jointLimit="" playback_speed="" transition_time="" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="Idle" allowSelect="0" includeInGame="1" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive"/>
+  <State id="IdleToFire" allowSelect="0" includeInGame="1" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template animation="fly_toFire_01" physics_blending="0" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="Move" allowSelect="1" includeInGame="1" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Firing min="0" max="8"/>
+    <LocomotionState value="Move"/>
+   </SelectWhen>
+   <Template animation="fly_slow" physics_blending="1" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovement-new"/>
+  </State>
+  <State id="Ragdoll" allowSelect="0" includeInGame="1" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <Event onEnter="TurnRagdoll"/>
+  </State>
+  <State id="Stand" allowSelect="1" includeInGame="1" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Firing min="0" max="8"/>
+    <LocomotionState value="Idle"/>
+   </SelectWhen>
+   <Template animation="fly_idle" physics_blending="0.5" physics_jointLimit="" transition_time="0.5" name="TentacleAlienMovement-new"/>
+  </State>
+ </States>
+ <Transitions>
+  <Link forceFollowChance="0" cost="100" from="Fire" to="FireToIdle"/>
+  <Link forceFollowChance="0" cost="100" from="Fire2" to="Move"/>
+  <Link forceFollowChance="0" cost="100" from="Fire2" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" from="FireToIdle" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" from="IdleToFire" to="Fire"/>
+  <Link forceFollowChance="0" cost="100" from="Move" to="Fire2"/>
+  <Link forceFollowChance="0" cost="100" from="Move" to="Stand"/>
+  <Link forceFollowChance="0" cost="100" from="Stand" to="Fire2"/>
+  <Link forceFollowChance="0" cost="100" from="Stand" to="IdleToFire"/>
+  <Link forceFollowChance="0" cost="100" from="Stand" to="Move"/>
+ </Transitions>
+ <Views>
+  <View name="Default">
+   <State id="Alive" x="10" y="-780"/>
+   <State id="AnimatedDead" x="-60" y="-830"/>
+   <State id="Fire" x="-160" y="-1240"/>
+   <State id="Fire2" x="-330" y="-820"/>
+   <State id="FireToIdle" x="-60" y="-1070"/>
+   <State id="Idle" x="20" y="-880"/>
+   <State id="IdleToFire" x="-290" y="-1070"/>
+   <State id="Move" x="-200" y="-730"/>
+   <State id="Ragdoll" x="0" y="-940"/>
+   <State id="Stand" x="-250" y="-940"/>
+  </View>
+ </Views>
+</AnimationSetup>

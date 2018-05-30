@@ -1,0 +1,14 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="STF1" />
+  <CAPS code="WALK" />
+
+  <ExampleList>
+    <Example Position=" 0, 1, 0" AName="prone_walk_pistol_forward_slow_01" />
+    <Example Position=" 1, 0, 0" AName="prone_walkStrafe_pistol_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="prone_walk_pistol_back_slow_01" />
+    <Example Position="-1, 0, 0" AName="prone_walkStrafe_pistol_right_slow_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>

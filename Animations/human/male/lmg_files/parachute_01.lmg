@@ -1,0 +1,22 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="UDH1" />
+
+  <ExampleList>
+    <Example Position="-1,-1,+1" AName="parachute_diveHeadUpTurn_nw_right_01" />
+    <Example Position=" 0,-1,+1" AName="parachute_diveHeadUp_nw_01" />
+    <Example Position="+0,-1,+1" AName="parachute_diveHeadUpTurn_nw_left_01" />
+
+    <Example Position="-1,-1, 0" AName="parachute_floatTurn_nw_right_01" />
+    <Example Position=" 0,-1, 0" AName="parachute_floatIdle_nw_01" />
+    <Example Position="+1,-1, 0" AName="parachute_floatTurn_nw_left_01" />
+
+    <Example Position="-1,-1,-1" AName="parachute_diveHeadDownTurn_nw_right_01" />
+    <Example Position=" 0,-1,-1" AName="parachute_diveHeadDown_nw_01" />
+    <Example Position="+0,-1,-1" AName="parachute_diveHeadDownTurn_nw_left_01" />
+
+  </ExampleList>
+
+</LocomotionGroup>
+
+

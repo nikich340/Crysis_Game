@@ -1,0 +1,16 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="TSTP" />
+  <CAPS code="IROT" />
+
+  <ExampleList>
+    <Example Position=" 0,-1, 0" AName="stealth_steprotate_rifle_right_01" />
+    <Example Position=" 0, 0, 0" AName="stealth_step_rifle_idle_01" />
+    <Example Position=" 0, 1, 0" AName="stealth_steprotate_rifle_left_01" />
+  </ExampleList>
+
+  <MotionCombination>
+    <NewStyle Style="stealth_idleUBPose_rocket_01" />
+  </MotionCombination>
+
+</LocomotionGroup>

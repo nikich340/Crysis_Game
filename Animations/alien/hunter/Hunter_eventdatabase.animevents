@@ -1,0 +1,320 @@
+<anim_event_list>
+ <animation name="animations/alien/hunter/hunter_damagelarge_back_01.caf">
+  <event name="sound" time="0.03153" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelarge_front_01.caf">
+  <event name="sound" time="0.046829998" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelarge_left_01.caf">
+  <event name="sound" time="0.065140001" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelarge_right_01.caf">
+  <event name="sound" time="0.078570001" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelargehigh_back_01.caf">
+  <event name="sound" time="0.092249997" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelargehigh_front_01.caf">
+  <event name="sound" time="0.11949" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelargehigh_left_01.caf">
+  <event name="sound" time="0.099409997" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_damagelargehigh_right_01.caf">
+  <event name="sound" time="0.081380002" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_death_03.caf">
+  <event name="sound" time="0.15128" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.45041999" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.24927001" parameter="Sounds/alien:hunter:scream" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0" parameter="alien_special.Hunter.Pre_Self_Destruct_body" bone="cockpit" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0.61113" parameter="alien_special.Hunter.Pre_Self_Destruct_ground" bone="" offset="4,8,0" dir="4,8,0"/>
+  <event name="DeadHitGroundNow" time="0.61339998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0.61557001" parameter="alien_special.Hunter.SelfDestruct_body" bone="cockpit" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0.61557001" parameter="alien_special.Hunter.SelfDestruct_ground" bone="" offset="4,8,0" dir="4,8,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_deathhigh_01.caf">
+  <event name="sound" time="0.08856" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.57878" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.17936" parameter="Sounds/alien:hunter:scream" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="DeadHitGroundNow" time="0.69729" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0" parameter="alien_special.Hunter.Pre_Self_Destruct_body" bone="cockpit" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0.69725001" parameter="alien_special.Hunter.Pre_Self_Destruct_ground" bone="" offset="0,10,0" dir="0,10,0"/>
+  <event name="effect" time="0.69725001" parameter="alien_special.Hunter.SelfDestruct_body" bone="cockpit" offset="0,0,0" dir="0,0,0"/>
+  <event name="effect" time="0.69652998" parameter="alien_special.Hunter.SelfDestruct_ground" bone="" offset="0,10,0" dir="0,10,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_deckintroductionscene_01_a.caf">
+  <event name="sound" time="0.63703001" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67761999" parameter="Sounds/alien:hunter:close_call_stereo" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.8488" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_deckintroductionscene_01_b.caf">
+  <event name="sound" time="0.45872" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.52192998" parameter="Sounds/alien:hunter:surprise" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.55144" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.04369" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_highidletoidle_01.caf">
+  <event name="FrontRightUp" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.16605" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.22139999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.38744" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.40220001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.65680999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.66049999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.99000001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_idle_01.caf">
+  <event name="FrontLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_idletohighidle_01.caf">
+  <event name="FrontRightUp" time="0.04428" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.31733999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.41327" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.59039003" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.63098001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.63098001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.89297003" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_injuredscream_01.caf">
+  <event name="BackLeftUp" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.05164" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.73429" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.82287002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.026149999" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.080899999" parameter="Sounds/alien:hunter:scream" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.61159003" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.38183999" parameter="Sounds/alien:hunter:surprise" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_regenerate_01.caf">
+  <event name="RegenerateStart" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+
+ <animation name="animations/alien/hunter/hunter_rotate_01.lmg">
+  <event name="FrontLeftUp" time="0.081179999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.25092" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.47600999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.48339" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.66051" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.69740999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+
+ <animation name="animations/alien/hunter/hunter_rotatehigh_01.lmg">
+  <event name="FrontLeftUp" time="0.081179999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.25092" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.47600999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.48339" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.66051" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.69740999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+
+
+ <animation name="animations/alien/hunter/hunter_rotate_left_01.caf">
+  <event name="FrontLeftUp" time="0.081179999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.25092" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.47600999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.48339" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.66051" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.69740999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_rotate_right_01.caf">
+  <event name="FrontLeftUp" time="0.081179999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.25092" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.47600999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.48339" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.66051" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.69740999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+
+
+ <animation name="animations/alien/hunter/hunter_rotatehigh_left_01.lmg">
+  <event name="FrontLeftUp" time="0.081179999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.25092" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.47600999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.48339" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.66051" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.69740999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_rotatehigh_right_01.lmg">
+  <event name="FrontLeftUp" time="0.081179999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.25092" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28413001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.47600999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.48339" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.66051" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.69740999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+
+
+ <animation name="animations/alien/hunter/hunter_strafingfire_01.caf">
+  <event name="ShootingStart" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_throw_01.caf">
+  <event name="StartIK" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectGrabbed" time="0.1" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectThrown" time="0.53500003" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.094999999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.56" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.56400001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.60500002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.74000001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.815" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.85900003" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.93699998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.096299998" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.48006001" parameter="Sounds/alien:hunter:tongue_move" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.29923999" parameter="Sounds/alien:hunter:victory" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.28718001" parameter="Sounds/alien:hunter:throw_leg" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.80897999" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_throwhigh_01.caf">
+  <event name="Blabla" time="0.22499999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.033149999" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.095870003" parameter="Sounds/alien:hunter:victory" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.10693" parameter="Sounds/alien:hunter:tongue_shot" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.2888" parameter="Sounds/alien:hunter:throw_leg" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.80214" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="StartIK" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectGrabbed" time="0.092249997" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectThrown" time="0.49443001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.08856" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.28044" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.56088001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.57195002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.60514998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.72692001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.81178999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.86714" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.92987001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="New Event" time="1" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_throwhuman_01.caf">
+  <event name="StartIK" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectGrabbed" time="0.077" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectThrown" time="0.68199998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.02648" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.039329998" parameter="Sounds/alien:hunter:tongue_shot" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.087289996" parameter="Sounds/alien:hunter:tongue_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.28286001" parameter="Sounds/alien:hunter:tongue_move" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.64078999" parameter="Sounds/alien:hunter:tongue_throw" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.77692997" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.087549999" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_throwhumanhigh_01.caf">
+  <event name="StartIK" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectGrabbed" time="0.077" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ObjectThrown" time="0.68199998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018850001" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018850001" parameter="Sounds/alien:hunter:tongue_shot" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.085270002" parameter="Sounds/alien:hunter:tongue_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.26238999" parameter="Sounds/alien:hunter:tongue_move" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.6498" parameter="Sounds/alien:hunter:tongue_throw" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.76419002" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.066770002" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_throwvtol_01.caf">
+  <event name="sound" time="0.0341" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.12101" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.36736" parameter="Sounds/alien:hunter:throw_leg" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.84666002" parameter="Sounds/alien:hunter:face_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.91711003" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.36616001" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_walk_01.lmg">
+  <event name="FrontRightUp" time="0.14300001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.324" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.405" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.50099999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.64200002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.79699999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.87400001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_walk_forward_01.caf">
+  <event name="FrontRightUp" time="0.14300001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.324" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.405" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.50099999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.64200002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.79699999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.87400001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_walkhigh_01.lmg">
+  <event name="FrontRightUp" time="0.14300001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.324" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.405" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.50099999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.64200002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.79699999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.87400001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_walkhigh_forward_01.caf">
+  <event name="FrontRightUp" time="0.13653" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.32841" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.39482" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.50551999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.63466001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.78595001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.87450999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.98000002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_weaponattack_moac_01.caf">
+  <event name="FrontLeftUp" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.059039999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.062720001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.10701" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.11068" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.14758" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.15126" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.17709" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftUp" time="0.77486002" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontLeftDown" time="0.81913" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftUp" time="0.84495997" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackLeftDown" time="0.90030003" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightUp" time="0.91874999" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="FrontRightDown" time="0.95933998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightUp" time="0.96302998" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="BackRightDown" time="0.99000001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74536997" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.10497" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ShootingStart" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/alien/hunter/hunter_weaponattack_moachigh_01.caf">
+  <event name="sound" time="0.75882" parameter="Sounds/alien:hunter:face_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.097539999" parameter="Sounds/alien:hunter:taunt" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="ShootingStart" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

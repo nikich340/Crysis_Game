@@ -1,0 +1,2072 @@
+<Definitions>
+	<!-- 
+  <preset Name="UpperBody">
+    <Bone id="2018908708" errorpos="0.00001" errorrot="0.00001"  rotformat="8" posformat="0"/>
+    <Bone id="1967416031" errorpos="0.00001"  errorrot="0.00001" rotformat="8" posformat="0"/>
+  </preset>
+  -->
+	<AnimationDefinition>
+		<!--the reference model-->
+		<Model File="/../Objects/Characters/Human/US/NanoSuit/nanosuit_us.chr"/>
+		<!--the path with ALL animation we can use on this model-->
+		<Animation Path="human/male"/>
+		<!--for all animations use compression level 1-->
+		<COMPRESSION value="2"/>
+		<AUTOCOMPRESSION value="0.1"/>
+		<rootquality value="0.1" />	
+		<PRESET name="UpperBody"/>
+		<Database Path="human/male/male.dba"/>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<!--for all animations need to detect footplants-->
+		<FOOTPLANTS value="YES"/>
+		<!--we apply the BFA modification just on BIP-files. Aliens, vehicles and weapons don't need it. -->
+		<HUMAN value="YES"/>
+		<!--we apply different modifications to the weapons . Human and Aliens don't need it. -->
+		<WEAPON value="NO"/>
+		<!--a list of animation that need special handling-->
+		<RotatePosRoot value="L180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+		<SpecialAnimsList>
+			<!--   	<Animation APath="Aim" footplants="NO" compression="0" autocompression="0" /> -->
+      <Animation APath="cinematics" SkipSaveToDatabase="1" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+
+      <!-- AIMPOSES COMMON -->
+      <Animation APath="AimPoses" SkipSaveToDatabase="1" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>      
+
+			<Animation APath="swim" footplants="NO"/>
+
+			<Animation APath="relaxed_standIdleHandsBehindCOLoop_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="relaxed_standIdleHandsBehindCOLoop_02" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+
+
+			<Animation APath="usLTV" footplants="NO"/>
+			<Animation APath="usSmallboat" footplants="NO"/>
+			<Animation APath="usTank" footplants="NO"/>
+
+			<Animation APath="asianPatrolboat" footplants="NO"/>
+			<Animation APath="asianTank" footplants="NO"/>
+			<Animation APath="asianTruck" footplants="NO"/>
+			<Animation APath="civSpeedboat" footplants="NO"/>
+
+			<Animation APath="swim_toStealth_nw_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="swim_toStealth_nw_02.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="zeroG_idle_nw_01.caf" footplants="NO"/>
+
+			<Animation APath="usCarrier_radarConOpDialFiddle_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="usCarrier_toRadarConOpDialFiddle_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="usCarrier_fromRadarConOpDialFiddle_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="usCarrier_toConsoleOperatorTyping_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="usCarrier_fromConsoleOperatorTyping_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="usCarrier_consoleOperatorIdle_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="usCarrier_consoleOperatorTypingLoop_nw_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="0"/>
+
+			<Animation APath="crouch_idleKnee_rifle_01" footplants="NO" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="crouch_idleKnee_rifle_02" footplants="NO" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="crouch_idleKnee_rifle_03" footplants="NO" DeleteRotController="0" rootquality="0"/>
+			<Animation APath="crouch_idleKnee_rifle_04" footplants="NO" DeleteRotController="0" rootquality="0"/>
+
+
+			<Animation APath="stealth_runStopShort_rocket_forward_fast_rfoot_01" rootquality="0"/>
+
+			<Animation APath="relaxed_Sit" footplants="NO" DeletePosController="0" DeleteRotController="0"/>
+			<Animation APath="relaxed_toSit" footplants="NO" DeletePosController="0" DeleteRotController="0"/>
+			<Animation APath="relaxed_fromSit" footplants="NO" DeletePosController="0" DeleteRotController="0"/>
+			<Animation APath="relaxed_idleTappingFoot_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="1"/>
+			<Animation APath="relaxed_idleTeetering_01" footplants="NO" DeletePosController="0" DeleteRotController="0" rootquality="1"/>
+
+			<Animation APath="standUp_toCombat" RootQuality="2" footplants="NO"/>
+			<Animation APath="jump" RootQuality="0" footplants="NO"/>
+			<Animation APath="prone" RootQuality="2" footplants="NO"/>
+
+			<Animation APath="asianHelicopter" RootQuality="0" footplants="NO"/>
+		
+			<Animation APath="relaxed_idleSmoke" footplants="NO" DeletePosController="0" DeleteRotController="0"/>
+
+			<Animation APath="combat" DeletePosController="0" DeleteRotController="0"/>
+			<Animation APath="stealth" DeletePosController="0" DeleteRotController="0"/>
+			<Animation APath="crouch" DeletePosController="0" DeleteRotController="0"/>
+			<Animation APath="prone" DeletePosController="0" DeleteRotController="0"/>
+
+
+
+      <Animation APath="combat_walkStart_pistol_back_fast_lfoot_01.caf" footplants="NO"/>
+      <Animation APath="combat_walkStart_pistol_back_slow_lfoot_01.caf" footplants="NO"/>				
+			<Animation APath="combat_walkStart_pistol_back_fast_rfoot_01.caf" footplants="NO"/>
+			<Animation APath="crouch_flinch_rifle_01.caf" footplants="NO"/>				
+			<Animation APath="combat_walkStart_pistol_back_slow_rfoot_01.caf" footplants="NO"/>	
+			<Animation APath="combat_walkStart_pistol_forward_fast_lfoot_01.caf" footplants="NO"/>
+			<Animation APath="combat_walkStart_pistol_forward_fast_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_pistol_forward_slow_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_pistol_forward_slow_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_pistol_left_fast_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_pistol_left_slow_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStart_pistol_left_fast_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStart_pistol_left_slow_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStart_pistol_right_fast_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStart_pistol_right_slow_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStop_pistol_left_fast_rfoot_01.caf" footplants="NO"/>					
+			<Animation APath="asianTruck_toCrouchToGunnerIdle_01.caf" footplants="NO"/>					
+
+			<Animation APath="usVTOL_passenger03Exit_01.caf" footplants="NO"/>					
+			<Animation APath="usVTOL_passenger04Exit_01.caf" footplants="NO"/>					
+			<Animation APath="usVTOL_passenger06Exit_01.caf" footplants="NO"/>					
+			<Animation APath="usVTOL_passenger07Exit_01.caf" footplants="NO"/>					
+
+
+			<Animation APath="gunnerCrouch_walkStrafe_heavyGun_01.caf" footplants="NO" />
+			<Animation APath="relaxed_step_nw_forward_slow_lfoot_01.caf" rootquality="0"/>
+			<Animation APath="relaxed_step_nw_right_slow_rfoot_01.caf" rootquality="0"/>
+
+
+
+			<Animation APath="combat_kyong280JumpDown_mg_01.caf" footplants="NO"/>					
+			<Animation APath="combat_kyong280JumpUp_mg_01.caf" footplants="NO"/>					
+			<Animation APath="combat_kyong800JumpDown_mg_01.caf" footplants="NO"/>					
+			<Animation APath="combat_kyong8mJump_mg_01.caf" footplants="NO"/>					
+
+			<Animation APath="stealth_runStart_mg_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rocket_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_pistol_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_forward_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rocket_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStopShort_nw_back_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_nw_forward_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_nw_forward_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_pistol_back_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_pistol_forward_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_pistol_forward_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rifle_back_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rifle_back_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rifle_forward_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rifle_forward_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rocket_back_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rocket_back_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rocket_forward_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStopShort_rocket_forward_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStart_nw_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_nw_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_nw_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_nw_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_pistol_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_pistol_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_pistol_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_rifle_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStart_rifle_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStop_nw_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStop_nw_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStop_pistol_left_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_pistol_left_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_pistol_right_fast_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_pistol_right_slow_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_rifle_left_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_rifle_left_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_step_rifle_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_stepRotate_rocket_right_01.caf" RootQuality="2"/>
+			<Animation APath="combat_throwGrenade_pistol_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStrafeStop_rocket_left_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_rocket_left_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_rocket_right_fast_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStrafeStop_rocket_right_slow_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStart_pistol_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_reverse_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walk_rifle_back_fast_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walk_rifle_back_slow_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_nw_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_pistol_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_forward_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_reverse_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_reverse_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStart_rifle_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStop_nw_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStop_pistol_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStop_pistol_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStop_pistol_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStop_rifle_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStop_rifle_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_mg_bRight_slow_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_mg_fLeft_fast_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_nw_fLeft_fast_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_nw_bRight_slow_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_pistol_bRight_slow_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_pistol_fLeft_slow_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_pistol_fLeft_fast_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_rifle_bRight_slow_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_rifle_fLeft_fast_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeCross_rifle_bRight_fast_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_mg_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_nw_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_rifle_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_rifle_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_rifle_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_pistol_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_rifle_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_rifle_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_rocket_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_rocket_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_rocket_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStop_rocket_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_wallLeanOut_pistol_left_01.caf" RootQuality="2"/>
+			<Animation APath="combat_wallLeanOut_pistol_right_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_duckIdleEnd_pistol_left_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_duckIdleEnd_pistol_right_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_duckIdleStart_pistol_left_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_duckIdleStart_pistol_right_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walk_nw_forward_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walk_pistol_forward_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walk_rifle_forward_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walk_rocket_back_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_mg_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_nw_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_nw_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_pistol_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_pistol_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_rifle_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_walkStrafe_rocket_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="crouch_wallLeanOut_pistol_right_01.caf" RootQuality="2"/>
+			<Animation APath="hostage_sitToStand_01.caf" RootQuality="2"/>
+			<Animation APath="misc_firefighterRunFromDoor_nw_01.caf" RootQuality="2"/>
+			<Animation APath="misc_firefighterRunHelp_nw_01.caf" RootQuality="2"/>
+			<Animation APath="misc_putting_golfPutterEnd_01.caf" RootQuality="2"/>
+			<Animation APath="misc_putting_golfPutterStart_01.caf" RootQuality="2"/>
+			<Animation APath="combat_kyong300JumpUp_mg_01.caf" RootQuality="2"/>
+			<Animation APath="gunnerCrouch_walkStrafe_heavyGun_left_01.caf" RootQuality="2"/>
+			<Animation APath="gunnerCrouch_walkStrafe_heavyGun_right_01.caf" RootQuality="2"/>
+			<Animation APath="prone_toCombatMP_rifle_01.caf" RootQuality="2"/>
+			<Animation APath="prone_toCombatRun_rifle_back_01.caf" RootQuality="2"/>
+			<Animation APath="prone_toCombatRun_rifle_forward_01.caf" RootQuality="2"/>
+			<Animation APath="prone_toCombatRun_rifle_right_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_cleaningBoatStart_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_fromCowerInFear_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_fromCrouchSurrender_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_fromRepairGeneric_hammer_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_fromSitGroundResting_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_giveCPR_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_gurneyPushingGuy1End_gurney_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_gurneyPushingGuy1Start_gurney_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_guyWatchingCPR_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_idleFootOnWallEnd_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_idleSleepBedEnter_nw_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_idleSleepBedExit_nw_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_idleSmokeLight_lighter_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_ladderOffBottom_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_ladderOffTop_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_ladderOnBottom_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_ladderOnTop_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_leaningOverRailEnd_nw_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_leaningOverRailStart_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_leaningOverRailTalkingEnd_nw_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_operationDoctorIntro_scalpel_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_operationDoctorOutro_scalpel_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_repairGeneric_hammer_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_repairGeneric_hammer_02.caf" RootQuality="2"/>
+			<Animation APath="relaxed_repairOnSliderEnd_nw_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_repairOnSliderStart_nw_01.caf" RootQuality="1"/>
+			<Animation APath="relaxed_rotate_nw_left_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_rotate_nw_right_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_rotate_rifle_left_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_rotate_rifle_right_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_run_nw_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_run_nw_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_run_nw_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_sitDejectedEnd_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_sitDejectedStart_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_sitEnter_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_sitTableStart_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_sleepingWithHatOnFaceEnd_hat_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_standIdleHandsBehindCOStart_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_toCrouchSurrender_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_toRepairGeneric_hammer_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_toResearchIdle_microscope_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_toSitGroundResting_nw_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walk_nw_back_slow_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walk_nw_forward_slow_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walk_rifle_back_slow_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walkStart_nw_forward_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="relaxed_walkStart_nw_left_slow_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="relaxed_walkStart_nw_reverse_slow_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="relaxed_walkStart_nw_reverse_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="relaxed_walkStart_nw_right_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="relaxed_walkStart_rifle_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walkStart_rifle_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walkStop_rifle_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walkStop_rifle_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="relaxed_walkStrafe_rifle_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="standUp_toCombat_nw_back_01.caf" RootQuality="2" footplants="NO"/>
+			<Animation APath="standUp_toCombat_nw_stomach_01.caf" RootQuality="2" footplants="NO"/>
+			<Animation APath="stealth_fromBlinded_nw_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_fromBlinded_nw_02.caf" RootQuality="2"/>
+			<Animation APath="stealth_fromBlinded_pistol_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_fromBlinded_rifle_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_fromBlinded_rifle_02.caf" RootQuality="2"/>
+			<Animation APath="stealth_idleDeselect_mg_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_idleSelect_mg_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_rotate_nw_right_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_rotate_pistol_left_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_rotate_pistol_right_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_rotate_rifle_right_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_mg_forward_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_mg_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_mg_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_nw_back_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_nw_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_nw_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_pistol_back_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_pistol_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_pistol_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_pistol_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_rifle_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_rifle_left_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_run_rifle_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_mg_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_mg_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_mg_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_mg_reverse_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_mg_reverse_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_mg_reverse_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_back_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_nw_reverse_fast_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_nw_reverse_slow_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_nw_reverse_slow_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_nw_right_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="stealth_runStart_nw_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_pistol_back_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_pistol_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_pistol_back_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_pistol_forward_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStart_pistol_forward_slow_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_pistol_forward_slow_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_pistol_reverse_fast_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_pistol_right_fast_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_back_fast_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_forward_fast_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_forward_slow_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_forward_slow_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_left_fast_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="stealth_runStart_rifle_left_slow_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_reverse_fast_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_reverse_slow_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_runStart_rifle_reverse_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="stealth_runStart_rifle_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_mg_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_mg_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_mg_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_nw_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_nw_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_nw_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_nw_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_pistol_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_pistol_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_pistol_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_pistol_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_rifle_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_rifle_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_rifle_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_rifle_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafe_mg_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafe_mg_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafe_nw_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafe_pistol_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafe_pistol_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafe_rifle_left_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeCross_nw_bRight_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_nw_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_nw_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_pistol_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_pistol_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_pistol_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_rifle_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_rifle_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStart_rifle_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_mg_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_nw_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_nw_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_nw_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_nw_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_pistol_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_pistol_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_pistol_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_pistol_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_rifle_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_rifle_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_rifle_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStrafeStop_rifle_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_toBlinded_nw_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_mg_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_mg_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_mg_reverse_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_mg_reverse_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_mg_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_mg_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_back_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_back_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_forward_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_forward_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_reverse_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_reverse_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_nw_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_back_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_back_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_forward_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_reverse_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_reverse_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_reverse_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_right_fast_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_walkStart_pistol_right_slow_rfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_walkStart_rifle_back_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_back_slow_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="stealth_walkStart_rifle_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_left_slow_lfoot_01.caf" RootQuality="1"/>
+			<Animation APath="stealth_walkStart_rifle_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_reverse_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_reverse_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_rifle_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_mg_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_nw_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_nw_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_nw_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_pistol_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_pistol_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStop_pistol_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafe_mg_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafe_nw_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafe_rifle_right_fast_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafe_rifle_right_slow_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_mg_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_mg_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_mg_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_nw_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_nw_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_nw_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_nw_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_pistol_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_pistol_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_pistol_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_rifle_left_fast_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="stealth_walkStrafeStart_rifle_left_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_rifle_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStart_rifle_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_mg_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_mg_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_mg_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_nw_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_nw_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_nw_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_nw_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_pistol_left_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_pistol_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_pistol_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_rifle_left_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_rifle_right_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStrafeStop_rifle_right_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_forward_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_pistol_back_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_pistol_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_rifle_forward_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_mg_right_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_walkStrafeStart_nw_left_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_runStopShort_nw_back_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="stealth_walkStart_pistol_right_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="usSmallboat_passenger05Enter_01.caf" RootQuality="0"/>
+			<Animation APath="usCarrier_greenAttachPlaneCables_right_01.caf" RootQuality="0"/>
+			<Animation APath="usCarrier_greenAttachPlaneCables_right_02.caf" RootQuality="0"/>
+			<Animation APath="usCarrier_yellowCTakeOffPart01_nw_01.caf" RootQuality="0"/>
+			<Animation APath="usCarrier_yellowCTakeOffPart03_nw_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStart_pistol_reverse_fast_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStart_pistol_reverse_fast_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStart_pistol_reverse_slow_lfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStart_pistol_reverse_slow_rfoot_01.caf" RootQuality="0"/>
+			<Animation APath="combat_runStart_rifle_back_fast_rfoot_01.caf" RootQuality="0"/>
+
+
+
+
+
+
+			<Animation APath="combat_runStart_nw_forward_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_forward_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_forward_slow_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_reverse_fast_lfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_reverse_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_reverse_slow_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_right_fast_rfoot_01.caf" RootQuality="2"/>
+			<Animation APath="combat_runStart_nw_right_slow_rfoot_01.caf" RootQuality="2"/>
+
+			<Animation APath="relaxed_idleFootOnWallEnd_nw_01.caf" footplants="NO"/>
+			<Animation APath="combat_walkStrafeStart_nw_right_fast_rfoot_01.caf" footplants="NO"/>					
+			<Animation APath="combat_walkStrafeStart_nw_right_slow_rfoot_01.caf" footplants="NO"/>					
+			
+			<Animation APath="combat_walkStrafeStop_nw_left_fast_rfoot_01.caf" footplants="NO"/>					
+			<Animation APath="combat_walkStrafeStop_nw_left_slow_rfoot_01.caf" footplants="NO"/>					
+			<Animation APath="combat_walkStrafeStop_nw_right_fast_lfoot_01.caf" footplants="NO"/>					
+			<Animation APath="combat_walkStrafeStop_nw_right_slow_lfoot_01.caf" footplants="NO"/>
+						
+			<Animation APath="combat_walkStrafeStop_pistol_left_slow_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStop_pistol_right_fast_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStop_pistol_right_slow_lfoot_01.caf" footplants="NO"/>					
+			<Animation APath="combat_walkStrafeStop_rifle_left_fast_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStrafeStop_rifle_right_fast_lfoot_01.caf" footplants="NO"/>	
+
+			<Animation APath="combat_vaultOverHigh_nw_01" footplants="NO"/>
+			<Animation APath="combat_vaultOverHigh_nw_02" footplants="NO"/>
+			<Animation APath="combat_vaultOverHigh_nw_03" footplants="NO"/>
+			<Animation APath="combat_vaultOverHigh_nw_04" footplants="NO"/>
+
+
+			<Animation APath="gdc_dynamic_07.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0" RootQuality="0"/>		
+			<Animation APath="gdc_static_03.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0" RootQuality="0"/>		
+
+
+			<Animation APath="combat_fearFront_rifle_01.caf" footplants="NO" />		
+			<Animation APath="combat_fearLeft_rifle_01.caf" footplants="NO" />		
+			<Animation APath="combat_fearRight_rifle_01.caf" footplants="NO" />		
+			<Animation APath="combat_fearJump_rifle_01.caf" footplants="NO" />					
+			<Animation APath="combat_fearJumpFire_rifle_01.caf" footplants="NO" />		
+
+
+			<Animation APath="combat_walkStart_nw_back_fast_lfoot_01.caf" footplants="NO" />		
+			<Animation APath="combat_walkStart_nw_back_slow_lfoot_01.caf" footplants="NO" />		
+			<Animation APath="combat_walkStart_nw_back_fast_rfoot_01.caf" footplants="NO" />		
+			<Animation APath="combat_walkStart_nw_back_slow_rfoot_01.caf" footplants="NO" />					
+			<Animation APath="combat_walkStart_nw_left_fast_lfoot_01.caf" footplants="NO" />		
+			<Animation APath="combat_walkStart_nw_left_slow_lfoot_01.caf" footplants="NO" />		
+			
+			<Animation APath="combat_walkStart_nw_forward_fast_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_nw_forward_fast_rfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_nw_forward_slow_lfoot_01.caf" footplants="NO"/>		
+			<Animation APath="combat_walkStart_nw_forward_slow_rfoot_01.caf" footplants="NO"/>		
+
+			<Animation APath="prone_walk_rifle_back_slow_01.caf" footplants="NO"/>		
+
+			<Animation APath="relaxed_giveCPR_01.caf" footplants="NO" />
+			<Animation APath="crouch_wallLeanOut_rifle_right_01.caf" footplants="NO"/>
+			
+			<Animation APath="combat_step_rifle_forward_slow_rfoot_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+
+			<Animation APath="arm_left_horizontal.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>						
+
+			
+
+
+			<Animation APath="usSmallboat_gunnerAimCenter_01.caf" footplants="NO" />
+			<Animation APath="usSmallboat_gunnerAimDown_01" footplants="NO" />
+			<Animation APath="usSmallboat_gunnerAimUp_01" footplants="NO" />
+			
+			<Animation APath="relaxed_idleShift_02.caf" footplants="NO"/>		
+
+      
+      <!--
+
+      <Animation APath="asianTruck_gunnerAimCenter_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="asianTruck_gunnerAimDown_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="asianTruck_gunnerAimUp_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+
+			<Animation APath="usTank_gunnerAimCenter_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usTank_gunnerAimDown_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usTank_gunnerAimUp_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			
+			<Animation APath="usLTV_steering_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="asianTruck_steering_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usSmallBoat_steering_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+
+			<Animation APath="usLTV_passenger01Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usLTV_passenger02Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usLTV_passenger03Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usLTV_passenger04Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+
+			<Animation APath="usSmallBoat_passenger01Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usSmallBoat_passenger03Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usSmallBoat_passenger04Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="usSmallBoat_passenger05Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+
+			<Animation APath="asianTruck_passenger01Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="asianTruck_passenger02Idle_01.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+-->
+			<Animation APath="arm_right_horizontal.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+			<Animation APath="arm_both_vertical.caf" footplants="NO" compression="0" autocompression="0" DeletePosController="1" DeleteRotController="0"/>
+
+
+			      
+			<Animation APath="crouch_stepRotate_nw_left_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_nw_right_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_pistol_left_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_pistol_right_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_rifle_left_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_rifle_right_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_mg_left_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_stepRotate_mg_right_01.caf" footplants="NO" rootquality="0"/>
+
+
+			<Animation APath="prone_walk_rifle_forward_01.caf" footplants="NO"/>
+			<Animation APath="prone_idle_nw_01.caf" footplants="NO" preset="LowerBody"/>
+			<Animation APath="prone_idle_nw_02.caf" footplants="NO"/>
+			<Animation APath="prone_idle_nw_03.caf" footplants="NO"/>
+			<Animation APath="prone_idle_nw_04.caf" footplants="NO"/>
+			<Animation APath="prone_idle_pistol_01.caf" footplants="NO"/>
+			<Animation APath="prone_idle_pistol_02.caf" footplants="NO"/>
+			<Animation APath="prone_idle_pistol_03.caf" footplants="NO"/>
+			<Animation APath="prone_idle_pistol_04.caf" footplants="NO"/>
+			<Animation APath="prone_idle_pistol_05.caf" footplants="NO"/>
+			<Animation APath="prone_idle_rifle_01.caf" footplants="NO"/>
+			<Animation APath="prone_idle_rifle_02.caf" footplants="NO"/>
+			<Animation APath="prone_idle_rifle_03.caf" footplants="NO"/>
+			<Animation APath="prone_idle_rifle_04.caf" footplants="NO"/>
+			<Animation APath="prone_idle_rifle_05.caf" footplants="NO"/>
+			<Animation APath="prone_idle_mg_01.caf" footplants="NO"/>
+			<Animation APath="prone_idle_mg_02.caf" footplants="NO"/>
+			<Animation APath="prone_idle_mg_03.caf" footplants="NO"/>
+			<Animation APath="prone_idle_mg_04.caf" footplants="NO"/>
+			<Animation APath="prone_idle_mg_05.caf" footplants="NO"/>
+			<Animation APath="prone_idleFire_rifle_01.caf" footplants="NO"/>
+			<Animation APath="prone_idleShoot_pistol_01.caf" footplants="NO"/>
+			<Animation APath="prone_idleShoot_rifle_01.caf" footplants="NO"/>
+			<Animation APath="prone_idleReload_mg_01.caf" footplants="NO"/>
+			<Animation APath="prone_idleReload_pistol_01.caf" footplants="NO"/>
+			<Animation APath="prone_idleReload_rifle_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_nw_forward_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_nw_back_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_nw_left_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_nw_right_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_rifle_back_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_rifle_left_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_rifle_right_01.caf" footplants="NO"/>
+			<Animation APath="prone_walkStrafe_rifle_left_slow_01.caf" footplants="NO"/>
+			<Animation APath="prone_walkStrafe_rifle_right_slow_01.caf" footplants="NO"/>
+			<Animation APath="prone_rotate_nw_left_01.caf" footplants="NO"/>
+			<Animation APath="prone_rotate_nw_right_01.caf" footplants="NO"/>
+			<Animation APath="prone_rotate_rifle_left_01.caf" footplants="NO"/>
+			<Animation APath="prone_rotate_rifle_right_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_pistol_forward_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_pistol_back_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_pistol_left_01.caf" footplants="NO"/>
+			<Animation APath="prone_walk_pistol_right_01.caf" footplants="NO"/>
+
+			<Animation APath="vaultOver" footplants="NO"/>
+			<Animation APath="stealth_vaultOverHigh_nw_01.caf" footplants="NO"/>
+			<Animation APath="combat_kickDoorOpen_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jump_rifle_forward_01.caf" footplants="NO"/>
+			<Animation APath="combat_jump_pistol_forward_01.caf" footplants="NO"/>
+			<Animation APath="parachute_glideIdle_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_glideTurn_nw_left_01.caf" footplants="NO"/>
+			<Animation APath="parachute_glideTurn_nw_right_01.caf" footplants="NO"/>
+			<Animation APath="parachute_cutAway_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_diveHeadDown_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_diveHeadDownTurn_nw_left_01.caf" footplants="NO"/>
+			<Animation APath="parachute_diveHeadDownTurn_nw_right_01.caf" footplants="NO"/>
+			<Animation APath="parachute_diveHeadUp_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_diveHeadUpTurn_nw_left_01.caf" footplants="NO"/>
+			<Animation APath="parachute_diveHeadUpTurn_nw_right_01.caf" footplants="NO"/>
+			<Animation APath="parachute_fallWater_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_floatAltimeterCheck_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_floatIdle_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_floatIdle_nw_02.caf" footplants="NO"/>
+			<Animation APath="parachute_floatTurn_nw_left_01.caf" footplants="NO"/>
+			<Animation APath="parachute_floatTurn_nw_right_01.caf" footplants="NO"/>
+			<Animation APath="parachute_fromDiveHeadDown_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_fromDiveHeadUp_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_landWater_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_pullRipcord_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_signalBackOff_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_splashDown_nw_01.caf" footplants="NO"/>
+			<Animation APath="parachute_toDiveHeadUp_nw_01.caf" footplants="NO"/>
+			<Animation APath="combat_fromPeekIdleAim_pistol_leftReverse_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdleAim_pistol_rightReverse_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCombat_mg_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCombat_nw_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCombat_pistol_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCombat_rifle_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toStealth_mg_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toStealth_nw_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toStealth_pistol_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toStealth_rifle_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCrouch_mg_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCrouch_nw_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCrouch_pistol_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="prone_toCrouch_rifle_01.caf" footplants="NO" bodydirection="Identity"/>
+
+			<Animation APath="crouchAlerted_toProne_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="crouchAlerted_toStealth_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="crouchAlerted_toStealthAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="Crouch_toCombatAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="crouchAlerted_toCombatAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="crouchAlerted_toCombat_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="crouch_toStealthAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+
+ 			<Animation APath="combat_rotate_rifle_left_01.caf" RootQuality="0"/>
+			<Animation APath="combat_rotate_rifle_right_01.caf" RootQuality="0"/>
+
+			<Animation APath="crouch_step_mg_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_mg_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_mg_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_mg_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_mg_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_mg_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_mg_idle_01.caf" footplants="NO" rootquality="0"/>
+
+			<Animation APath="crouch_step_nw_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_nw_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_nw_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_nw_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_nw_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_nw_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+			<Animation APath="crouch_step_pistol_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_pistol_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_pistol_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_pistol_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_pistol_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_pistol_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+			<Animation APath="crouch_step_rifle_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_rifle_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_rifle_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_rifle_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_rifle_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="crouch_step_rifle_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+
+			<Animation APath="combat_step_mg_forward_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_mg_right_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_mg_back_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_mg_forward_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_mg_left_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_mg_back_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_mg_idle_01.caf" SpeedXY="0.01" FloorDist="0.01"/> 
+
+			<Animation APath="combat_step_nw_forward_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_nw_right_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_nw_back_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_nw_forward_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_nw_left_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_nw_back_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_nw_idle_01.caf" SpeedXY="0.01" FloorDist="0.01"/> 
+
+			<Animation APath="combat_step_pistol_forward_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_pistol_right_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_pistol_back_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_pistol_forward_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_pistol_left_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_pistol_back_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_pistol_idle_01.caf" SpeedXY="0.01" FloorDist="0.01"/> 
+
+			<Animation APath="combat_step_rifle_forward_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rifle_right_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rifle_back_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rifle_forward_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rifle_left_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rifle_back_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rifle_idle_01.caf" SpeedXY="0.01" FloorDist="0.01"/>
+
+			<Animation APath="combat_step_rocket_back_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rocket_back_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rocket_forward_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rocket_forward_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rocket_left_slow_lfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rocket_right_slow_rfoot_01.caf" SpeedXY="0.01" FloorDist="0.01" footplants="NO" rootquality="0"/>
+			<Animation APath="combat_step_rocket_idle_01.caf" SpeedXY="0.01" FloorDist="0.01"/>
+
+			<Animation APath="stealth_step_mg_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_mg_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_mg_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_mg_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_mg_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_mg_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+			<Animation APath="stealth_step_nw_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_nw_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_nw_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_nw_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_nw_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_nw_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+			<Animation APath="stealth_step_pistol_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_pistol_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_pistol_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_pistol_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_pistol_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_pistol_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+			<Animation APath="stealth_step_rifle_back_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_rifle_back_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_rifle_forward_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_rifle_forward_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_rifle_left_slow_lfoot_01.caf" footplants="NO" rootquality="0"/>
+			<Animation APath="stealth_step_rifle_right_slow_rfoot_01.caf" footplants="NO" rootquality="0"/>
+
+
+
+      <!-- RootQuality - THIS IS SPECIAL FLAG FOR SOLVING SLIDING FEET ISSUE -->
+			<Animation APath="prone_toCombatAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+      <!-- RootQuality - THIS IS SPECIAL FLAG FOR SOLVING SLIDING FEET ISSUE -->
+			<Animation APath="prone_toCrouchAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+      <!-- RootQuality - THIS IS SPECIAL FLAG FOR SOLVING SLIDING FEET ISSUE -->
+			<Animation APath="prone_toStealthAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+
+			<Animation APath="combatAlerted_toProne_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="combatAlerted_toStealth_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="combatAlerted_toStealthAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="Combat_toCrouchAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="Combat_toStealthAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="combatAlerted_toCrouchAlerted_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="combatAlerted_toCrouch_rifle_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+
+			<Animation APath="combat_wallLeanOut_rifle_left_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_peekIdle_rifle_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_peekIdle_rifle_rightReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdle_rifle_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdle_rifle_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdleAim_rifle_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdle_rifle_rightReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdle_rifle_rightReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdle_pistol_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdle_pistol_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdleAim_pistol_leftReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdle_pistol_rightReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdleAim_pistol_rightReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdle_pistol_rightReverse_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_wallLeanOut_rifle_right_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toPeekIdle_rifle_left_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_fromPeekIdle_rifle_left_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toPeekIdle_rifle_right_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_fromPeekIdle_rifle_right_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdle_rifle_right_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdle_rifle_right_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toPeekIdle_rifle_left_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_fromPeekIdle_rifle_left_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCrouchAlerted_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toRelaxed_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouchCoverIdle_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouchCoverIdle_rifle_02.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouchCoverIdle_rifle_03.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toProne_mg_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="combat_toProne_pistol_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="combat_toProne_nw_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="combat_toProne_rifle_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouch_mg_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouch_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouch_pistol_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toCrouch_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toStealth_mg_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toStealth_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toStealth_pistol_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_toStealth_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toProne_mg_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="stealth_toProne_nw_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="stealth_toProne_pistol_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="stealth_toProne_rifle_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="stealth_toCrouch_mg_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCrouch_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCrouch_pistol_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCrouch_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCombat_mg_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCombat_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCombat_pistol_01.caf" bodydirection="Identity"/>
+			<Animation APath="stealth_toCombat_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toProne_mg_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_toProne_nw_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_toProne_pistol_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_toProne_rifle_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_toStealth_mg_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toStealth_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toStealth_pistol_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toStealth_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toCombat_mg_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toCombat_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toCombat_pistol_01.caf" bodydirection="Identity"/>
+			<Animation APath="crouch_toCombat_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="relaxed_sleepingWithHatOnFaceEnd_hat_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="relaxed_sleepingWithHatOnFaceStart_hat_01.caf" footplants="NO" bodydirection="Identity" RootQuality="10"/>
+			<Animation APath="cineArmada_morrisonIntro_golfClub_01.caf" footplants="0" bodydirection="Identity"/>
+			<Animation APath="combat_sprintToDive_nw_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_sprintToDive_nw_02.caf" bodydirection="Identity"/>
+			<Animation APath="combat_sprintToDive_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_sprintToDive_rifle_02.caf" bodydirection="Identity"/>
+			<Animation APath="standUp_toCombat_nw_back_01.caf" bodydirection="Identity"/>
+			<Animation APath="standUp_toCombat_nw_stomach_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_runStart_rifle_forward_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_runStop_rifle_forward_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_walkStart_rifle_forward_01.caf" bodydirection="Identity"/>
+			<Animation APath="combat_walkStop_rifle_forward_01.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_passenger01Enter_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_passenger01Exit_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_passenger02Enter_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_passenger02Exit_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_toSeat04_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_toSeat05_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_toSeat06_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_toSeat07_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_toSeat08_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_toSeat09_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_toSeat10_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_toSeat11_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_fromSeat04_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_fromSeat05_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_fromSeat06_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_fromSeat07_rifle_01.caf" bodydirection="R90"/>
+			<Animation APath="asianTruck_fromSeat08_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_fromSeat09_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_fromSeat10_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_fromSeat11_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="asianTruck_passengerDeath_front_01.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_01.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_02.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_03.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_04.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_05.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_06.caf" bodydirection="Identity"/>
+			<Animation APath="asianTruck_jumpOutBack_rifle_07.caf" bodydirection="Identity"/>
+
+			<Animation APath="civSpeedboat_steering_01.caf" footplants="NO"/>
+			<Animation APath="civSpeedboat_steering_01.caf" footplants="NO"/>
+
+			<Animation APath="combat_runStart_rifle_reverse_01.caf" bodydirection="L180"/>
+			<Animation APath="combat_walkStrafe_rifle_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_walkStrafe_rifle_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_walkStrafe_rifle_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_walkStrafe_rifle_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_walk_rifle_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_walk_rifle_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_runStrafe_rifle_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_runStrafe_rifle_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_runStrafe_rifle_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_runStrafe_rifle_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_run_rifle_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_run_rifle_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_walkStrafe_nw_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_walkStrafe_nw_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_walkStrafe_nw_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_walkStrafe_nw_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_walk_nw_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_walk_nw_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_runStrafe_nw_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_runStrafe_nw_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="combat_runStrafe_nw_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_runStrafe_nw_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="combat_run_nw_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="combat_run_nw_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_walkStrafe_rifle_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_walkStrafe_rifle_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_walkStrafe_rifle_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_walkStrafe_rifle_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_walk_rifle_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_walk_rifle_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_runStrafe_rifle_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_runStrafe_rifle_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_runStrafe_rifle_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_runStrafe_rifle_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_run_rifle_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_run_rifle_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_walkStrafe_nw_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_walkStrafe_nw_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_walkStrafe_nw_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_walkStrafe_nw_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_walk_nw_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_walk_nw_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_runStrafe_nw_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_runStrafe_nw_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="stealth_runStrafe_nw_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_runStrafe_nw_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="stealth_run_nw_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="stealth_run_nw_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_walkStrafe_rifle_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_walkStrafe_rifle_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_walkStrafe_rifle_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_walkStrafe_rifle_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_walk_rifle_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_walk_rifle_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_runStrafe_rifle_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_runStrafe_rifle_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_runStrafe_rifle_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_runStrafe_rifle_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_run_rifle_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_run_rifle_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_walkStrafe_nw_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_walkStrafe_nw_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_walkStrafe_nw_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_walkStrafe_nw_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_walk_nw_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_walk_nw_back_fast_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_runStrafe_nw_left_slow_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_runStrafe_nw_left_fast_01.caf" movedirection="LEFT"/>
+			<Animation APath="crouch_runStrafe_nw_right_slow_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_runStrafe_nw_right_fast_01.caf" movedirection="RIGHT"/>
+			<Animation APath="crouch_run_nw_back_slow_01.caf" movedirection="BACK"/>
+			<Animation APath="crouch_run_nw_back_fast_01.caf" movedirection="BACK"/>
+
+			<Animation APath="cineMine_ab5_barnes_01700_01.caf" footplants="NO" bodydirection="Identity" />
+			<Animation APath="cineMine_ab5_barnes_01902_01.caf" footplants="NO" bodydirection="Identity" />
+			<Animation APath="cineMine_ab5_barnes_02000_01.caf" footplants="NO" bodydirection="Identity" />
+			<Animation APath="cineMine_ab5_barnes_02100_01.caf" footplants="NO" bodydirection="Identity" />
+			<Animation APath="cineMine_ab5_barnesdyingIdle_01.caf" footplants="NO"/>
+			<Animation APath="cineMine_ab5_barnesdyingIdle_02.caf" footplants="NO"/>
+			<Animation APath="cineMine_ab5_barnesIdleRifleDown_01.caf" footplants="NO"/>
+			<Animation APath="cineMine_ab5_barnesIdle_01.caf" footplants="NO"/>
+			<Animation APath="cineMine_ab5_barnesdying_02900_01.caf" footplants="NO"/>
+			<Animation APath="cineMine_ab5_barnesdying_03400_02.caf" footplants="NO"/>
+
+			<Animation APath="cineMine_ab5_scientist_01.caf" footplants="NO"  bodydirection="Identity" />
+			<Animation APath="cineMine_ab5_scientistIdle_01.caf" footplants="NO"/>
+			<Animation APath="cineMine_ab5scientistpanic_01.caf" footplants="NO" bodydirection="R90"/>
+			<Animation APath="cineMine_ab5scientistpanicIdle_01.caf" footplants="NO"/>
+
+			<Animation APath="cineMine_ab5_standoffBarnes_01.caf" footplants="NO" bodydirection="R90"/>
+			<Animation APath="cineMine_ab5_standoffKyong_01.caf" footplants="NO" bodydirection="Identity"/>
+
+
+			<Animation APath="combat_toWallLean_pistol_left_01.caf" bodydirection="R90"/>
+			<Animation APath="combat_toWallLean_pistol_right_01.caf" bodydirection="L90"/>
+			<Animation APath="combat_toWallLean_rifle_left_01.caf" bodydirection="R90"/>
+			<Animation APath="combat_toWallLean_rifle_right_01.caf" bodydirection="L90"/>
+
+		
+
+			<Animation APath="combat_jumpLoop_idle_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpLand_idle_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpTakeOff_idle_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpLoop_forward_rifle_lfoot_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpLand_forward_rifle_lfoot_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpTakeOff_forward_rifle_lfoot_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpLoop_back_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpLand_back_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpTakeOff_back_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpSuperMPLoop_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpSuperMPLand_rifle_01.caf" footplants="NO"/>
+			<Animation APath="combat_jumpSuperMPLand_rifle_02.caf" footplants="NO"/>
+			<Animation APath="combat_jumpSuperMPTakeOff_rifle_01.caf" footplants="NO"/>
+
+			<Animation APath="cineIsland_ab1_hawker_01720_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab1_hawker_01740_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab1_hawker_01840_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab1_hawkerFoodtable_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab1_bAndH2800_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab1_suitHawker_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab1_fishingCampHawker_03.caf" footplants="NO"/>
+
+			<Animation APath="cineIsland_ab2_hawker_03610_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab2_hawker_03620_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab2_hawker_03630_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_ab2_PatrolboatKoreanBarnes_01.caf" footplants="NO"/>
+			<Animation APath="cineIsland_jumpouthawker_01.caf" footplants="NO"/>
+
+			<Animation APath="combat_grenadeJump_rifle_01.caf" bodydirection="L90"/>
+			<Animation APath="combat_grenadeJump_rifle_02.caf" bodydirection="L90"/>
+			<Animation APath="combat_grenadeJump_rifle_03.caf" bodydirection="L90"/>
+
+			<Animation APath="crouch_duckIdleStart_mg_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdle_nw_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleStart_mg_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleEnd_mg_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdle_mg_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdle_mg_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleStart_pistol_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleStart_nw_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleEnd_nw_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleStart_pistol_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleStart_nw_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleEnd_pistol_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleEnd_pistol_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleEnd_nw_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdleEnd_mg_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdle_pistol_right_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdle_pistol_left_01.caf" footplants="NO" bodydirection="Identity"/>
+			<Animation APath="crouch_duckIdle_nw_right_01.caf" footplants="NO" bodydirection="Identity"/>
+
+      <Animation APath="prone" footplants="NO"/>
+      <Animation APath="prone" footplants="NO"/>
+      <!--<Animation APath="run" compression="100"/> -->
+		</SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+<AnimationDefinition>
+		<!--the reference model-->
+		<Model File="/../Objects/Characters/Human/US/officer/Morrison.chr"/>
+		<!--the path with ALL animation we can use on this model-->
+		<Animation Path="human/morrison"/>
+		<!--for all animations use compression level 1-->
+		<COMPRESSION value="2"/>
+		<AUTOCOMPRESSION value="0.1"/>
+		<rootquality value="0.1" />	
+		<PRESET name="UpperBody"/>
+		<Database Path="human/male/male.dba"/>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<!--for all animations need to detect footplants-->
+		<FOOTPLANTS value="YES"/>
+		<!--we apply the BFA modification just on BIP-files. Aliens, vehicles and weapons don't need it. -->
+		<HUMAN value="YES"/>
+		<!--we apply different modifications to the weapons . Human and Aliens don't need it. -->
+		<WEAPON value="NO"/>
+		<!--a list of animation that need special handling-->
+		<RotatePosRoot value="L180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+		<SpecialAnimsList>
+
+		</SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<AnimationDefinition>
+		<!--the reference model-->
+		<Model File="/../objects/characters/human/story/Helena_Rosenthal/Helena_Rosenthal.chr"/>
+		<!--the path with ALL animation we can use on this model-->
+		<Animation Path="human/female"/>
+		<!--for all animations use compression level 1-->
+		<COMPRESSION value="2"/>
+		<AUTOCOMPRESSION value="0.1"/>
+		<rootquality value="0.1" />	
+		<PRESET name="UpperBody"/>
+		<Database Path="human/female/female.dba"/>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<!--for all animations need to detect footplants-->
+		<FOOTPLANTS value="YES"/>
+		<!--we apply the BFA modification just on BIP-files. Aliens, vehicles and weapons don't need it. -->
+		<HUMAN value="YES"/>
+		<!--we apply different modifications to the weapons . Human and Aliens don't need it. -->
+		<WEAPON value="NO"/>
+		<!--a list of animation that need special handling-->
+		<RotatePosRoot value="L180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+    		<SkipSaveToDatabase value="1" />
+		<SpecialAnimsList>
+
+		<Animation APath="cinematics" SkipSaveToDatabase="1" footplants="NO" DeletePosController="0" DeleteRotController="0"/>
+
+   		 </SpecialAnimsList>
+
+
+		
+
+	</AnimationDefinition>
+
+
+	<AnimationDefinition>
+		<!--the reference model-->
+		<Model File="/../objects/characters/human/US/Archaeologist/Archaeologist_female_02.chr"/>
+		<!--the path with ALL animation we can use on this model-->
+		<Animation Path="human/female/cinematics/village/ab2"/>
+		<!--for all animations use compression level 1-->
+		<COMPRESSION value="2"/>
+		<AUTOCOMPRESSION value="0.1"/>
+		<rootquality value="0.1" />	
+		<PRESET name="UpperBody"/>
+		<Database Path="human/female/female.dba"/>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<!--for all animations need to detect footplants-->
+		<FOOTPLANTS value="YES"/>
+		<!--we apply the BFA modification just on BIP-files. Aliens, vehicles and weapons don't need it. -->
+		<HUMAN value="YES"/>
+		<!--we apply different modifications to the weapons . Human and Aliens don't need it. -->
+		<WEAPON value="NO"/>
+		<!--a list of animation that need special handling-->
+		<RotatePosRoot value="L180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+    		<SkipSaveToDatabase value="1" />
+		<SpecialAnimsList>
+
+		<Animation APath="cinematics" SkipSaveToDatabase="1" footplants="NO" DeletePosController="0" DeleteRotController="0"/>
+
+   		 </SpecialAnimsList>
+
+
+		
+
+	</AnimationDefinition>
+
+
+  
+	<!-- //animation definitions for the Alienbase (alien type) -->
+	<AnimationDefinition>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<Model File="/../objects/characters/alien/Alienbase/Alienbase.chr"/>
+		<Animation Path="alien/AlienBase"/>
+		<DataBase Path="alien/AlienBase/alienbase.dba"/>
+		<COMPRESSION value="1"/>
+		<FOOTPLANTS value="NO"/>
+		<AUTOCOMPRESSION value="0"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="NO"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for ?the Hunter? (alien type) -->
+	<AnimationDefinition>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<Model File="/../objects/characters/alien/hunter/hunter_body.chr"/>
+		<Animation Path="alien/hunter"/>
+		<Database Path="alien/hunter/hunter.dba"/>
+		<COMPRESSION value="1"/>
+		<FOOTPLANTS value="NO"/>
+		<AUTOCOMPRESSION value="0"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="NO"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+		<SpecialAnimsList>
+	<Animation APath="Hunter_DeckIntroductionScene_01_B.caf" rootquality="0"/>
+	<Animation APath="hunter_walk_forward_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_rotate_left_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_rotate_right_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_rotateHigh_left_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_rotateHigh_right_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_walkRotateHigh_left_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_walkRotateHigh_right_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_walkHigh_forward_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_walkRotate_left_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="hunter_walkRotate_right_01" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+
+
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for ?the Trooper? (alien type) -->
+	<AnimationDefinition>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<Model File="/../objects/characters/alien/trooper/trooper.chr"/>
+		<Animation Path="alien/trooper"/>
+		<Database Path="alien/trooper/trooper.dba"/>
+		<COMPRESSION value="1"/>
+		<FOOTPLANTS value="NO"/>
+		<AUTOCOMPRESSION value="0"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="NO"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for ?the Scout? (alien type) -->
+	<AnimationDefinition>
+		<DeletePosController value="1"/>
+		<DeleteRotController value="1"/>
+		<Model File="/../objects/characters/alien/scout/scout_body.chr"/>
+		<Animation Path="alien/scout"/>
+		<Database Path="alien/scout/scout.dba"/>
+		<COMPRESSION value="1"/>
+		<FOOTPLANTS value="NO"/>
+		<AUTOCOMPRESSION value="0"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="NO"/>
+		<RotatePosRoot value="L180"/>
+		<RotateQuatRoot value="L90"/>
+		<RotatePosChild value="L90"/>
+		<RotateQuatChild value="L90"/>
+	<SpecialAnimsList>
+	<Animation APath="fly_droptrooper_02" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+	<Animation APath="fly_carrytrooper_02" rootquality="0" DeletePosController="0" DeleteRotController="0"/>
+    	</SpecialAnimsList>
+	
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the FY71 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/asian/fy71/fy_71_fp.chr"/>
+		<Animation Path="1st_person/weapons/asian/fy71"/>
+		<Database Path="1st_person/weapons/asian/fy71/fy71.dba"/>
+		<COMPRESSION value="0"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the Shi_Ten (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/asian/Shi_Ten/Shi_Ten_vehicle.chr"/>
+		<Animation Path="1st_person/weapons/asian/Shi_Ten/vehicle"/>
+		<DataBase Path="1st_person/weapons/asian/Shi_Ten/vehicle/vehicle.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the Shi_Ten_mounted (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/asian/Shi_Ten/Shi_Ten_mounted_fp.chr"/>
+		<Animation Path="1st_person/weapons/asian/Shi_Ten/mounted_fp"/>
+		<DataBase Path="1st_person/weapons/asian/Shi_Ten/mounted_fp/mounted_fp.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the SCAR (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/scar/scar_l-c_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/scar"/>
+		<DataBase Path="1st_person/weapons/us/scar/scar.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the SOCOM Right (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/socom/socom_right_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/socom"/>
+		<DataBase Path="1st_person/weapons/us/socom/socom.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the AT_mine (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/AT_Mine/at_mine_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/AT_mine"/>
+		<DataBase Path="1st_person/weapons/us/AT_mine/AT_mine.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the C4 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/c4/c4_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/c4"/>
+		<DataBase Path="1st_person/weapons/us/c4/c4.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the CLAYMORE (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/claymore/claymore_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/claymore"/>
+		<Database Path="1st_person/weapons/us/claymore/claymore.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the Frag_Grenade Right (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Frag_Grenade/Frag_Grenade.chr"/>
+		<Animation Path="1st_person/weapons/us/Frag_Grenade/right"/>
+		<Database Path="1st_person/weapons/us/Frag_Grenade/right/right.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the Frag_Grenade Left (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Frag_Grenade/Frag_Grenade_left_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Frag_Grenade/left"/>
+		<Database Path="1st_person/weapons/us/Frag_Grenade/left/left.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the Gauss (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Gauss/Gauss_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Gauss/"/>
+		<Database Path="1st_person/weapons/us/Gauss/Gauss.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+
+	<!-- //animation definitions for the Detonator (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Detonator/Detonator_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Detonator"/>
+		<Database Path="1st_person/weapons/us/Detonator/Detonator.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the HURRICANE (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Hurricane/hurricane_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Hurricane"/>
+		<Database Path="1st_person/weapons/us/Hurricane/Hurricane.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the LAW (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/LAW/LAW_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/LAW"/>
+		<Database Path="1st_person/weapons/us/LAW/LAW.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the NW (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/NW/nw_arms_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/NW"/>
+		<Database Path="1st_person/weapons/us/NW/NW.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the Shotgun (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Shotgun/shotgun_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Shotgun"/>
+		<Database Path="1st_person/weapons/us/Shotgun/Shotgun.dba"/>
+		<COMPRESSION value="0"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+			<Animation APath="idle_raised_right_01.caf" compression="0" autocompression="0" DeletePosController="0" DeleteRotController="0"/>
+    </SpecialAnimsList>
+	
+	</AnimationDefinition>
+	<!-- //animation definitions for the SMG (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/SMG/SMG_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/SMG"/>
+		<Database Path="1st_person/weapons/us/SMG/SMG.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the SNIPER_DSG1 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/sniper_dsg1/sniper_dsg1_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/sniper_dsg1"/>
+		<Database Path="1st_person/weapons/us/sniper_dsg1/sniper_dsg1.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the Transceiver (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Transceiver/Transceiver_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Transceiver"/>
+		<Database Path="1st_person/weapons/us/Transceiver/Transceiver.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the Alien_Weapon_Mount (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Alien_Weapon_Mount/alien_weapon_mount_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Alien_Weapon_Mount/mount"/>
+		<Database Path="1st_person/weapons/us/Alien_Weapon_Mount/mount/mount.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the MOAR (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Alien_Weapon_Mount/moar_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Alien_Weapon_Mount/MOAR"/>
+		<Database Path="1st_person/weapons/us/Alien_Weapon_Mount/MOAR/MOAR.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the MOAC (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Alien_Weapon_Mount/moac_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Alien_Weapon_Mount/MOAC"/>
+		<Database Path="1st_person/weapons/us/Alien_Weapon_Mount/MOAC/MOAC.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+	<!-- //animation definitions for the Alien_Weapon_Mount_Vehicle (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Alien_Weapon_Mount/alien_weapon_mount_vehicle_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Alien_Weapon_Mount_vehicle/mount"/>
+		<Database Path="1st_person/weapons/us/Alien_Weapon_Mount_vehicle/mount/mount.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the LOCKPICK_KIT (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Equipment/Lockpick_Kit/Lockpick_Kit_fp.chr"/>
+		<Animation Path="1st_person/Equipment/Lockpick_Kit"/>
+		<Database Path="1st_person/Equipment/Lockpick_Kit/Lockpick_Kit.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the MEDICAL_KIT (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Equipment/Medical_Kit/medical_kit_fp.chr"/>
+		<Animation Path="1st_person/Equipment/Medical_Kit"/>
+		<Database Path="1st_person/Equipment/Medical_Kit/Medical_Kit.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the MINE_DEFUSER (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Equipment/Mine_Defuser/mine_defuser_fp.chr"/>
+		<Animation Path="1st_person/Equipment/mine_defuser"/>
+		<Database Path="1st_person/Equipment/mine_defuser/mine_defuser.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the PORTABLE_RADAR (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Equipment/Portable_Radar/portable_radar_fp.chr"/>
+		<Animation Path="1st_person/Equipment/portable_radar"/>
+		<Database Path="1st_person/Equipment/portable_radar/portable_radar.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the REPAIR_KIT (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Equipment/Repair_Kit/repair_kit_fp.chr"/>
+		<Animation Path="1st_person/Equipment/Repair_Kit"/>
+		<Database Path="1st_person/Equipment/Repair_Kit/Repair_Kit.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the STABILIZE_KIT (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Equipment/Stabilize_kit/stabilize_kit_fp.chr"/>
+		<Animation Path="1st_person/Equipment/stabilize_kit"/>
+		<Database Path="1st_person/Equipment/stabilize_kit/stabilize_kit.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	<!-- //animation definitions for the GAUSS MOUNTED(weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Gauss/Gauss_mounted.chr"/>
+		<Animation Path="1st_person/weapons/US/Gauss_mounted"/>
+		<Database Path="1st_person/weapons/US/Gauss_mounted/Gauss_mounted.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+	<!-- //animation definitions for the GAUSS VEHICLE(weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/Gauss/Gauss_vehicle.chr"/>
+		<Animation Path="1st_person/weapons/US/Gauss_vehicle"/>
+		<Database Path="1st_person/weapons/US/Gauss_vehicle/Gauss_vehicle.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<!-- //animation definitions for the TAC_gun(weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/TAC_gun/TAC_gun_fp.chr"/>
+		<Animation Path="1st_person/weapons/US/TAC_gun"/>
+		<Database Path="1st_person/weapons/US/TAC_gun/TAC_gun.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>	
+	<!-- //animation definitions for the NW_test (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/NW/nw_arms_test.chr"/>
+		<Animation Path="1st_person/weapons/us/NW_test"/>
+		<Database Path="1st_person/weapons/us/NW/nw_arms_test.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+	</SpecialAnimsList>
+	</AnimationDefinition>
+
+	<!-- //animation definitions for the grenade_launcher_rifle attachment (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Weapons/Attachments/grenade_launcher_rifle/grenade_launcher_rifle_fp.chr"/>
+		<Animation Path="1st_person/weapons/Attachments/grenade_launcher_rifle"/>
+		<Database Path="1st_person/weapons/Attachments/grenade_launcher_rifle/grenade_launcher_rifle.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+	</SpecialAnimsList>
+	</AnimationDefinition>
+
+	<!-- //animation definitions for the tactical_attachment (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Weapons/Attachments/tactical_attachment/tactical_attachment_fp.chr"/>
+		<Animation Path="1st_person/weapons/Attachments/tactical_attachment"/>
+		<Database Path="1st_person/weapons/Attachments/tactical_attachment/tactical_attachment.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+	</SpecialAnimsList>
+	</AnimationDefinition>
+
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Characters/Animals/Whiteshark/greatwhiteshark.chr"/>
+		<Animation Path="Animals/Whiteshark"/>
+		<Database Path="Animals/Whiteshark/Greatwhiteshark.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="NO"/>
+		<RotatePosRoot value="IDENTITY"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="IDENTITY"/>
+		<RotateQuatChild value="IDENTITY"/>  
+		<SpecialAnimsList>
+		</SpecialAnimsList>
+	</AnimationDefinition>
+
+
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/library/animated/carrier/tower_fall.chr"/>
+		<Animation Path="vehicles/us/carrier"/>
+		<Database Path="vehicles/us/carrier/carrier.dba"/>
+    <SkipSaveToDatabase value="1"/>
+    <COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="NO"/>
+		<RotatePosRoot value="IDENTITY"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="IDENTITY"/>
+		<RotateQuatChild value="IDENTITY"/>  
+		<SpecialAnimsList>
+		</SpecialAnimsList>
+	</AnimationDefinition>
+
+<!-- //animation definitions for the grenade_launcher_rifle attachment (weapon type) -->
+
+</Definitions>

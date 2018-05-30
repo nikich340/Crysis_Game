@@ -1,0 +1,25 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="6.7437254e-027" parameter="" bone="" offset="6.7437254e-027,1.4321506e-038,1.43215e-038" dir="6.7437254e-027,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/animals/whiteshark/shark_swim_01.lmg">
+  <event name="sound" time="0.065140001" parameter="Sounds/environment:random_oneshots_natural:shark_move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.54637003" parameter="Sounds/environment:random_oneshots_natural:shark_move_fast" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/animals/whiteshark/shark_swim_bite_01.lmg">
+  <event name="meleeDamage" time="0.33908001" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.092200004" parameter="Sounds/environment:random_oneshots_natural:shark_growl" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/animals/whiteshark/whiteshark_biteupperbody_01.caf">
+  <event name="sound" time="0.01067" parameter="Sounds/environment:random_oneshot_natural:shark_growl" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/animals/whiteshark/whiteshark_swimbigcurve_forward_01.caf">
+  <event name="sound" time="0.0033" parameter="Sounds/environment:random_oneshot_natural:shark_move_fast" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/animals/whiteshark/whiteshark_swimfast_forward_01.caf">
+  <event name="sound" time="0.37292999" parameter="Sounds/environment:random_oneshot_natural:shark_move_slow" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/animals/whiteshark/whiteshark_swimslow_forward_01.caf">
+  <event name="sound" time="0.04047" parameter="Sounds/environment:random_oneshot_natural:shark_move_fast" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

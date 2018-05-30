@@ -1,0 +1,252 @@
+<?xml version="1.0" ?><FacialSequence EndTime="36" Flags="0" StartTime="0">
+ <Channel Flags="8193" Name="Joystick_controls">
+  <Channel Flags="1" Name="Mouth">
+   <Channel Flags="1" Name="Open/Close - Wide/Narrow">
+    <Channel Flags="0" Name="Mouth_open_press">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_narrow_wide">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="1" Name="Smile/Frown">
+    <Channel Flags="0" Name="Mouth_smile_frown">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="1" Name="Lip_mover">
+    <Channel Flags="0" Name="Mouth_upperlip_raiser">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_chinraiser_depressor">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_blow_funnel">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="1" Name="Pucker/suck - Blow/Funnel">
+    <Channel Flags="0" Name="Mouth_pucker_suck">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_blow_funnel">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Pout/Pite - Dimple">
+    <Channel Flags="0" Name="Mouth_pout_bite">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="dimpler_">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Tongue">
+   <Channel Flags="8193" Name="left/righ_up/down">
+    <Channel Flags="0" Name="Tongue_left_right">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Tongue_up_down">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="out">
+    <Channel Flags="0" Name="Tongue_out">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Mouth_position">
+   <Channel Flags="0" Name="mouth_updown">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Mouth_left_right">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Nose">
+   <Channel Flags="0" Name="Nose_flare_compressor">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Nose_pusher_wrinkler">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Eyeballs">
+   <Channel Flags="0" Name="Eyes_Left_right">
+    <Spline Keys="0:0:0,7.5:0:0,8:-0.699495:0,8.86667:-0.699495:0,9.2:0:0,9.93333:-0.26708:0,10.2:-0.26708:0,11.0333:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Eyes_up_down">
+    <Spline Keys="0:0:0,9.23333:0:0,10.0667:-0.152617:0,10.5333:-0.152617:0,11.6667:0:0,"/>
+   </Channel>
+  </Channel>
+ </Channel>
+ <Channel Flags="8193" Name="Mocap">
+  <Channel Flags="1" Name="Head">
+   <Channel Flags="8193" Name="Look-at">
+    <Channel Flags="0" Name="Neck_up_down">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Neck_left_right">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Lean_left_right">
+    <Channel Flags="0" Name="Neck_lean">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Mouth">
+   <Channel Flags="0" Name="right_mouthcorner_y">
+    <Spline Keys="0:-0.279798:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_mouthcorner_x">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_mouthcorner_y">
+    <Spline Keys="0:-0.279798:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_mouthcorner_x">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="chin_y">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="chin_x">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Eyebrows">
+   <Channel Flags="0" Name="left_eyebrow_right_y">
+    <Spline Keys="0:-0.801239:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_eyebrow_left_y">
+    <Spline Keys="0:-0.801239:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_eyebrow_right_y">
+    <Spline Keys="0:-0.801239:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_eyebrow_left_y">
+    <Spline Keys="0:-0.801239:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Cheeks">
+   <Channel Flags="0" Name="Cheek_left_y">
+    <Spline Keys="0:0.585032:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Cheek_right_y">
+    <Spline Keys="0:0.585032:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Lips">
+   <Channel Flags="1" Name="bottom">
+    <Channel Flags="0" Name="left_lip_bottom_x">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="left_lip_bottom_y">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_bottom_x">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_bottom_y">
+     <Spline Keys="0:-0.419697:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="1" Name="top">
+    <Channel Flags="0" Name="left_lip_top_x">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="left_lip_top_y">
+     <Spline Keys="0:0.496005:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_top_x">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_top_y">
+     <Spline Keys="0:0.572314:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Nose">
+   <Channel Flags="0" Name="right_nose_y">
+    <Spline Keys="0:0.979293:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_nose_y">
+    <Spline Keys="0:0.254362:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Eyelids">
+   <Channel Flags="0" Name="right_eyelid_lower_y">
+    <Spline Keys="0:0.902984:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_eyelid_upper_y">
+    <Spline Keys="0:0.902984:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_eyelid_lower_y">
+    <Spline Keys="0:0.902984:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_eyelid_upper_y">
+    <Spline Keys="0:0.902984:0,"/>
+   </Channel>
+  </Channel>
+ </Channel>
+ <Channel Flags="8193" Name="LipSync">
+  <Channel Flags="2" Name="Phoneme Strength">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="64" Name="Lipsync Category Strength (_jaw_occlusion)">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+ </Channel>
+ <Channel Flags="1" Name="visimes">
+  <Channel Flags="0" Name="Visim_AA+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_Aw+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_B+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_D+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_EE+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_F+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_JH+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_K+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_L+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_N+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_o+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_R+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+  <Channel Flags="0" Name="Visim_S+">
+   <Spline Keys="0:0:0,"/>
+  </Channel>
+ </Channel>
+ 
+ 
+ 
+ 
+</FacialSequence>

@@ -1,0 +1,39 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="UDH3" />
+  <CAPS code="RUN_" />
+
+  <ExampleList>
+    <Example Position="-1,+1,+1" AName="relaxed_runUphill_nw_forward_fast_01" />
+    <Example Position=" 0,+1,+1" AName="relaxed_runUphill_nw_forward_fast_01" />
+    <Example Position="+0,+1,+1" AName="relaxed_runUphill_nw_forward_fast_01" />
+    <Example Position="-1, 0,+1" AName="relaxed_runUphill_nw_forward_fast_01" />
+    <Example Position=" 0, 0,+1" AName="relaxed_runUphill_nw_forward_fast_01" />
+    <Example Position="+0, 0,+1" AName="relaxed_runUphill_nw_forward_fast_01" />
+    <Example Position="-1,-1,+1" AName="relaxed_runUphill_nw_forward_slow_01" />
+    <Example Position=" 0,-1,+1" AName="relaxed_runUphill_nw_forward_slow_01" />
+    <Example Position="+0,-1,+1" AName="relaxed_runUphill_nw_forward_slow_01" />
+
+    <Example Position="-1,+1, 0" AName="relaxed_run_nw_left_fast_01" />
+    <Example Position=" 0,+1, 0" AName="relaxed_sprint_nw_forward_01" />
+    <Example Position="+1,+1, 0" AName="relaxed_run_nw_right_fast_01" />
+    <Example Position="-1, 0, 0" AName="relaxed_run_nw_left_fast_01" />
+    <Example Position=" 0, 0, 0" AName="relaxed_run_nw_forward_fast_01" />
+    <Example Position="+1, 0, 0" AName="relaxed_run_nw_right_fast_01" />
+    <Example Position="-1,-1, 0" AName="relaxed_run_nw_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="relaxed_run_nw_forward_slow_01" />
+    <Example Position="+1,-1, 0" AName="relaxed_run_nw_right_slow_01" />
+
+    <Example Position="-1,+1,-1" AName="relaxed_runDownhill_nw_forward_fast_01" />
+    <Example Position=" 0,+1,-1" AName="relaxed_runDownhill_nw_forward_fast_01" />
+    <Example Position="+0,+1,-1" AName="relaxed_runDownhill_nw_forward_fast_01" />
+    <Example Position="-1, 0,-1" AName="relaxed_runDownhill_nw_forward_fast_01" />
+    <Example Position=" 0, 0,-1" AName="relaxed_runDownhill_nw_forward_fast_01" />
+    <Example Position="+0, 0,-1" AName="relaxed_runDownhill_nw_forward_fast_01" />
+    <Example Position="-1,-1,-1" AName="relaxed_runDownhill_nw_forward_slow_01" />
+    <Example Position=" 0,-1,-1" AName="relaxed_runDownhill_nw_forward_slow_01" />
+    <Example Position="+0,-1,-1" AName="relaxed_runDownhill_nw_forward_slow_01" />
+
+  </ExampleList>
+
+</LocomotionGroup>

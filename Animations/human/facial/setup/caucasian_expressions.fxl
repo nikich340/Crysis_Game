@@ -1,0 +1,2588 @@
+<ExpressionLibrary>
+ <AllEffectors>
+  <Effector Name="_" Type="expression"/>
+  <Effector Name="_Angry" Type="expression"/>
+  <Effector Name="_AtEase" Type="expression"/>
+  <Effector Name="_Attention" Type="expression"/>
+  <Effector Name="_Blank" Type="expression"/>
+  <Effector Name="_Blink" Type="expression"/>
+  <Effector Name="_Blowing_cheeks" Type="morph"/>
+  <Effector Name="_Dead" Type="group"/>
+  <Effector Name="_Dead1" Type="expression"/>
+  <Effector Name="_Effort" Type="expression"/>
+  <Effector Name="_Eyebrows Up" Type="expression"/>
+  <Effector Name="_garbage" Type="group"/>
+  <Effector Name="_Happy" Type="expression"/>
+  <Effector Name="_jaw_occlusion" Type="group"/>
+  <Effector Name="_Lips wide narrow" Type="expression"/>
+  <Effector Name="_Neck Strainer Extra" Type="expression"/>
+  <Effector Name="_old_stuff" Type="group"/>
+  <Effector Name="_Open Eyes" Type="expression"/>
+  <Effector Name="_Open Jaw" Type="expression"/>
+  <Effector Name="_Open Mouth" Type="expression"/>
+  <Effector Name="_Pain" Type="expression"/>
+  <Effector Name="_Phonemes+" Type="group"/>
+  <Effector Name="_Phonemes-" Type="group"/>
+  <Effector Name="_Sad" Type="expression"/>
+  <Effector Name="_Sleeping" Type="expression"/>
+  <Effector Name="_Smile" Type="morph"/>
+  <Effector Name="_Squint" Type="expression"/>
+  <Effector Name="_System" Type="group"/>
+  <Effector Name="_Terrified" Type="expression"/>
+  <Effector Name="_Tired" Type="expression"/>
+  <Effector Name="_Underwater" Type="expression"/>
+  <Effector Name="_Upper Lip Raiser" Type="expression"/>
+  <Effector Name="_y" Type="expression"/>
+  <Effector Name="aa" Type="expression"/>
+  <Effector Name="aa+" Type="expression"/>
+  <Effector Name="aa-" Type="expression"/>
+  <Effector Name="aa_strong" Type="expression"/>
+  <Effector Name="actions" Type="group"/>
+  <Effector Name="advanced_expressions" Type="group"/>
+  <Effector Name="ae" Type="expression"/>
+  <Effector Name="ae+" Type="expression"/>
+  <Effector Name="ae-" Type="expression"/>
+  <Effector Name="ah" Type="expression"/>
+  <Effector Name="ah+" Type="expression"/>
+  <Effector Name="ah-" Type="expression"/>
+  <Effector Name="Angry" Type="expression"/>
+  <Effector Name="ao" Type="expression"/>
+  <Effector Name="ao+" Type="expression"/>
+  <Effector Name="ao-" Type="expression"/>
+  <Effector Name="aw" Type="expression"/>
+  <Effector Name="aw+" Type="expression"/>
+  <Effector Name="aw-" Type="expression"/>
+  <Effector Name="Aware_01" Type="expression"/>
+  <Effector Name="Aware_02" Type="expression"/>
+  <Effector Name="ax" Type="expression"/>
+  <Effector Name="ax+" Type="expression"/>
+  <Effector Name="ax-" Type="expression"/>
+  <Effector Name="ay" Type="expression"/>
+  <Effector Name="ay+" Type="expression"/>
+  <Effector Name="ay-" Type="expression"/>
+  <Effector Name="b" Type="expression"/>
+  <Effector Name="b+" Type="expression"/>
+  <Effector Name="b-" Type="expression"/>
+  <Effector Name="blank" Type="group"/>
+  <Effector Name="blink" Type="expression"/>
+  <Effector Name="Blowing_cheeks" Type="morph"/>
+  <Effector Name="Blowing_cheeks_" Type="expression"/>
+  <Effector Name="bottom" Type="group"/>
+  <Effector Name="Brow_inner raiser" Type="expression"/>
+  <Effector Name="brow_inner_raiser" Type="expression"/>
+  <Effector Name="Brow_inner_raiser02" Type="morph"/>
+  <Effector Name="Brow_inner_raiser_left" Type="morph"/>
+  <Effector Name="Brow_inner_raiser_lowerer" Type="expression"/>
+  <Effector Name="Brow_inner_raiser_right" Type="morph"/>
+  <Effector Name="brow_lowerer" Type="expression"/>
+  <Effector Name="Brow_lowerer_left" Type="morph"/>
+  <Effector Name="Brow_lowerer_right" Type="morph"/>
+  <Effector Name="brow_ouer_raiser" Type="expression"/>
+  <Effector Name="brow_outer_raiser" Type="expression"/>
+  <Effector Name="Brow_outer_raiser01" Type="morph"/>
+  <Effector Name="Brow_outer_raiser_left" Type="morph"/>
+  <Effector Name="Brow_outer_raiser_lowerer" Type="expression"/>
+  <Effector Name="Brow_outer_raiser_right" Type="morph"/>
+  <Effector Name="Brow_upper_lower" Type="expression"/>
+  <Effector Name="ch" Type="expression"/>
+  <Effector Name="ch+" Type="expression"/>
+  <Effector Name="ch-" Type="expression"/>
+  <Effector Name="cheeck_raiser_01" Type="morph"/>
+  <Effector Name="cheeck_raiser_02" Type="morph"/>
+  <Effector Name="Cheek_left_y" Type="expression"/>
+  <Effector Name="Cheek_Raiser" Type="expression"/>
+  <Effector Name="Cheek_raiser_01" Type="morph"/>
+  <Effector Name="Cheek_raiser_02" Type="morph"/>
+  <Effector Name="Cheek_Raiser_03" Type="morph"/>
+  <Effector Name="Cheek_Raiser_04" Type="morph"/>
+  <Effector Name="Cheek_Raiser_B" Type="expression"/>
+  <Effector Name="Cheek_Raiser_B_01" Type="morph"/>
+  <Effector Name="Cheek_Raiser_B_02" Type="morph"/>
+  <Effector Name="Cheek_raiser_left" Type="morph"/>
+  <Effector Name="Cheek_raiser_right" Type="morph"/>
+  <Effector Name="Cheek_right_y" Type="expression"/>
+  <Effector Name="Cheeks" Type="group"/>
+  <Effector Name="Cheeks Puffing" Type="expression"/>
+  <Effector Name="chin_raiser" Type="expression"/>
+  <Effector Name="Chin_raiser_left" Type="morph"/>
+  <Effector Name="Chin_raiser_right" Type="morph"/>
+  <Effector Name="chin_upper_raiser" Type="expression"/>
+  <Effector Name="chin_upper_rasier" Type="expression"/>
+  <Effector Name="chin_x" Type="expression"/>
+  <Effector Name="chin_y" Type="expression"/>
+  <Effector Name="Concentrated_01" Type="expression"/>
+  <Effector Name="Concentrated_02" Type="expression"/>
+  <Effector Name="Concentrated_03" Type="expression"/>
+  <Effector Name="ctr_eyebones" Type="group"/>
+  <Effector Name="ctrl_eyes" Type="group"/>
+  <Effector Name="ctrl_neck" Type="group"/>
+  <Effector Name="d" Type="expression"/>
+  <Effector Name="d+" Type="expression"/>
+  <Effector Name="d-" Type="expression"/>
+  <Effector Name="Dead_01" Type="expression"/>
+  <Effector Name="Dead_02" Type="expression"/>
+  <Effector Name="Dead_03" Type="expression"/>
+  <Effector Name="dh" Type="expression"/>
+  <Effector Name="dh+" Type="expression"/>
+  <Effector Name="dh-" Type="expression"/>
+  <Effector Name="Dimpler" Type="morph"/>
+  <Effector Name="dimpler_" Type="expression"/>
+  <Effector Name="Dimpler_left" Type="morph"/>
+  <Effector Name="Dimpler_right" Type="morph"/>
+  <Effector Name="dsdsdsdsfdsf" Type="bone" Attachment="Bip01 Head" PosOffset="0.23,-1.95,74.690002" RotOffset="0.41294488,0.057246797,-0.040142573"/>
+  <Effector Name="ea" Type="expression"/>
+  <Effector Name="eh" Type="expression"/>
+  <Effector Name="eh+" Type="expression"/>
+  <Effector Name="eh-" Type="expression"/>
+  <Effector Name="er" Type="expression"/>
+  <Effector Name="er+" Type="expression"/>
+  <Effector Name="er-" Type="expression"/>
+  <Effector Name="ey" Type="expression"/>
+  <Effector Name="ey+" Type="expression"/>
+  <Effector Name="ey-" Type="expression"/>
+  <Effector Name="Eye_Bones" Type="group"/>
+  <Effector Name="Eye_brows" Type="group"/>
+  <Effector Name="Eye_left_left_right" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0" RotOffset="0,0,0.52359903"/>
+  <Effector Name="Eye_left_lower_left" Type="expression"/>
+  <Effector Name="Eye_left_lower_middle" Type="expression"/>
+  <Effector Name="Eye_left_lower_right" Type="expression"/>
+  <Effector Name="Eye_left_middle_left" Type="expression"/>
+  <Effector Name="Eye_left_middle_right" Type="expression"/>
+  <Effector Name="Eye_left_up_down" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0" RotOffset="0.52359903,0,0"/>
+  <Effector Name="Eye_left_upper_left" Type="expression"/>
+  <Effector Name="Eye_left_upper_middle" Type="expression"/>
+  <Effector Name="Eye_left_upper_right" Type="expression"/>
+  <Effector Name="Eye_open_close" Type="expression"/>
+  <Effector Name="Eye_Right" Type="attachment" Attachment="" PosOffset="0,0,0" RotOffset="0,0,0"/>
+  <Effector Name="Eye_right_left_right" Type="bone" Attachment="eye_right_bone" PosOffset="0,0,0" RotOffset="0,0,0.52359903"/>
+  <Effector Name="Eye_right_lower_left" Type="expression"/>
+  <Effector Name="Eye_right_lower_middle" Type="expression"/>
+  <Effector Name="Eye_right_lower_right" Type="expression"/>
+  <Effector Name="Eye_right_middle_left" Type="expression"/>
+  <Effector Name="Eye_right_middle_right" Type="expression"/>
+  <Effector Name="Eye_right_up_down" Type="bone" Attachment="eye_right_bone" PosOffset="0,0,0" RotOffset="0.52359903,0,0"/>
+  <Effector Name="Eye_right_upper_left" Type="expression"/>
+  <Effector Name="Eye_right_upper_middle" Type="expression"/>
+  <Effector Name="Eye_right_upper_right" Type="expression"/>
+  <Effector Name="Eyeball_left_lower_left" Type="attachment" Attachment="eye_left" PosOffset="0,0,0" RotOffset="0.26179901,0,0.10472"/>
+  <Effector Name="Eyeball_left_lower_middle" Type="attachment" Attachment="eye_left" PosOffset="0,0,0" RotOffset="0,0,0.139626"/>
+  <Effector Name="Eyeball_left_lower_right" Type="attachment" Attachment="eye_left" PosOffset="0,0,0" RotOffset="-0.26179901,0,0.10472"/>
+  <Effector Name="Eyeball_left_upper_left" Type="attachment" Attachment="eye_left" PosOffset="0,0,0" RotOffset="0.26179901,0,-0.10472"/>
+  <Effector Name="Eyeball_left_upper_middle" Type="attachment" Attachment="eye_left" PosOffset="0,0,0" RotOffset="0,0,-0.139626"/>
+  <Effector Name="Eyeball_left_upper_right" Type="attachment" Attachment="eye_left" PosOffset="0,0,0" RotOffset="-0.26179901,0,-0.10472"/>
+  <Effector Name="Eyeball_right_lower_left" Type="attachment" Attachment="eye_right" PosOffset="0,0,0" RotOffset="-0.26179901,0,0.10472"/>
+  <Effector Name="Eyeball_right_lower_middle" Type="attachment" Attachment="eye_right" PosOffset="0,0,0" RotOffset="0,0,0.139626"/>
+  <Effector Name="Eyeball_right_lower_right" Type="attachment" Attachment="eye_right" PosOffset="0,0,0" RotOffset="0.26179901,0,0.10472"/>
+  <Effector Name="Eyeball_right_upper_left" Type="attachment" Attachment="eye_right" PosOffset="0,0,0" RotOffset="-0.26179901,0,-0.10472"/>
+  <Effector Name="Eyeball_right_upper_middle" Type="attachment" Attachment="eye_right" PosOffset="0,0,0" RotOffset="0,0,-0.139626"/>
+  <Effector Name="Eyeball_right_upper_right" Type="attachment" Attachment="eye_right" PosOffset="0,0,0" RotOffset="0.26179901,0,-0.10472"/>
+  <Effector Name="eyebones_left" Type="group"/>
+  <Effector Name="eyebones_left_left_right" Type="bone" Attachment="eye_left_bone" PosOffset="0,0,0" RotOffset="0,0,0"/>
+  <Effector Name="eyebones_left_up_down" Type="bone" Attachment="" PosOffset="0,0,0" RotOffset="0,0,0"/>
+  <Effector Name="eyebones_left_up_downfewfe" Type="expression"/>
+  <Effector Name="eyebones_right" Type="group"/>
+  <Effector Name="eyebones_right_left_right" Type="bone" Attachment="" PosOffset="0,0,0" RotOffset="0,0,0"/>
+  <Effector Name="eyebones_right_up_down" Type="bone" Attachment="" PosOffset="0,0,0" RotOffset="0,0,0"/>
+  <Effector Name="Eyelid_left_lower_left" Type="morph"/>
+  <Effector Name="Eyelid_left_lower_middle" Type="morph"/>
+  <Effector Name="Eyelid_left_lower_right" Type="morph"/>
+  <Effector Name="Eyelid_left_middle_left" Type="morph"/>
+  <Effector Name="Eyelid_left_middle_right" Type="morph"/>
+  <Effector Name="Eyelid_left_upper_left" Type="morph"/>
+  <Effector Name="Eyelid_left_upper_middle" Type="morph"/>
+  <Effector Name="Eyelid_left_upper_right" Type="morph"/>
+  <Effector Name="Eyelid_lower_lowerer" Type="expression"/>
+  <Effector Name="Eyelid_lower_lowerer_left" Type="morph"/>
+  <Effector Name="Eyelid_lower_lowerer_right" Type="morph"/>
+  <Effector Name="Eyelid_lower_raiser" Type="expression"/>
+  <Effector Name="Eyelid_lower_raiser_left" Type="morph"/>
+  <Effector Name="Eyelid_lower_raiser_right" Type="morph"/>
+  <Effector Name="Eyelid_right_lower_left" Type="morph"/>
+  <Effector Name="Eyelid_right_lower_middle" Type="morph"/>
+  <Effector Name="Eyelid_right_lower_right" Type="morph"/>
+  <Effector Name="Eyelid_right_middle_left" Type="morph"/>
+  <Effector Name="Eyelid_right_middle_right" Type="morph"/>
+  <Effector Name="Eyelid_right_upper_left" Type="morph"/>
+  <Effector Name="Eyelid_right_upper_middle" Type="morph"/>
+  <Effector Name="Eyelid_right_upper_right" Type="morph"/>
+  <Effector Name="Eyelid_right_upper_rightt" Type="morph"/>
+  <Effector Name="Eyelid_tightener" Type="expression"/>
+  <Effector Name="Eyelid_tightener_left" Type="morph"/>
+  <Effector Name="Eyelid_tightener_right" Type="morph"/>
+  <Effector Name="Eyelid_Tightner" Type="expression"/>
+  <Effector Name="Eyelid_upper_closer" Type="expression"/>
+  <Effector Name="Eyelid_upper_closer_left" Type="morph"/>
+  <Effector Name="Eyelid_upper_closer_right" Type="morph"/>
+  <Effector Name="Eyelid_upper_lowerer" Type="morph"/>
+  <Effector Name="Eyelid_upper_raiser" Type="expression"/>
+  <Effector Name="Eyelid_upper_raiser_left" Type="morph"/>
+  <Effector Name="Eyelid_upper_raiser_right" Type="morph"/>
+  <Effector Name="Eyes" Type="group"/>
+  <Effector Name="Eyes Closing" Type="expression"/>
+  <Effector Name="Eyes_Left_right" Type="expression"/>
+  <Effector Name="Eyes_up_down" Type="expression"/>
+  <Effector Name="f" Type="expression"/>
+  <Effector Name="f+" Type="expression"/>
+  <Effector Name="f-" Type="expression"/>
+  <Effector Name="Frown" Type="expression"/>
+  <Effector Name="Frown_Bulge" Type="morph"/>
+  <Effector Name="Frown_left" Type="morph"/>
+  <Effector Name="Frown_right" Type="morph"/>
+  <Effector Name="Frown_test" Type="group"/>
+  <Effector Name="g" Type="expression"/>
+  <Effector Name="g+" Type="expression"/>
+  <Effector Name="g-" Type="expression"/>
+  <Effector Name="gulp" Type="expression"/>
+  <Effector Name="h" Type="expression"/>
+  <Effector Name="h+" Type="expression"/>
+  <Effector Name="h-" Type="expression"/>
+  <Effector Name="Happy" Type="expression"/>
+  <Effector Name="Head_lean_left_right" Type="expression"/>
+  <Effector Name="Head_left_right" Type="expression"/>
+  <Effector Name="Head_up_down" Type="expression"/>
+  <Effector Name="ih" Type="expression"/>
+  <Effector Name="ih+" Type="expression"/>
+  <Effector Name="ih-" Type="expression"/>
+  <Effector Name="iy" Type="expression"/>
+  <Effector Name="iy+" Type="expression"/>
+  <Effector Name="iy-" Type="expression"/>
+  <Effector Name="j" Type="expression"/>
+  <Effector Name="j+" Type="expression"/>
+  <Effector Name="j-" Type="expression"/>
+  <Effector Name="Jaw_Dropper2" Type="morph"/>
+  <Effector Name="Jaw_dropper_01" Type="morph"/>
+  <Effector Name="Jaw_dropper_02" Type="morph"/>
+  <Effector Name="Jaw_Dropper_1" Type="morph"/>
+  <Effector Name="Jaw_Dropper_Closed" Type="morph"/>
+  <Effector Name="Jaw_front_masseter" Type="expression"/>
+  <Effector Name="Jaw_mover_left" Type="morph"/>
+  <Effector Name="Jaw_mover_right" Type="morph"/>
+  <Effector Name="Jaw_narrow_wide" Type="expression"/>
+  <Effector Name="Jaw_presser" Type="morph"/>
+  <Effector Name="Jaw_pusher" Type="morph"/>
+  <Effector Name="Jaw_right_left" Type="expression"/>
+  <Effector Name="Jawn_01" Type="expression"/>
+  <Effector Name="Jawn_02" Type="expression"/>
+  <Effector Name="Jawn_03" Type="expression"/>
+  <Effector Name="jh" Type="expression"/>
+  <Effector Name="jh+" Type="expression"/>
+  <Effector Name="jh-" Type="expression"/>
+  <Effector Name="Joystick_controls" Type="group"/>
+  <Effector Name="k" Type="expression"/>
+  <Effector Name="k+" Type="expression"/>
+  <Effector Name="k-" Type="expression"/>
+  <Effector Name="l" Type="expression"/>
+  <Effector Name="l+" Type="expression"/>
+  <Effector Name="l-" Type="expression"/>
+  <Effector Name="left_eyebrow_left_y" Type="expression"/>
+  <Effector Name="left_eyebrow_right_y" Type="expression"/>
+  <Effector Name="left_eyelid_lower_y" Type="expression"/>
+  <Effector Name="left_eyelid_upper_y" Type="expression"/>
+  <Effector Name="left_lip_bottom_x" Type="expression"/>
+  <Effector Name="left_lip_bottom_y" Type="expression"/>
+  <Effector Name="left_lip_top_x" Type="expression"/>
+  <Effector Name="left_lip_top_y" Type="expression"/>
+  <Effector Name="left_mouthcorner_x" Type="expression"/>
+  <Effector Name="left_mouthcorner_y" Type="expression"/>
+  <Effector Name="left_nose_y" Type="expression"/>
+  <Effector Name="Lid_tightner" Type="morph"/>
+  <Effector Name="Lip_Bite" Type="morph"/>
+  <Effector Name="Lip_Funneler" Type="morph"/>
+  <Effector Name="Lip_lower_depressor" Type="expression"/>
+  <Effector Name="Lip_lower_depressor_left" Type="morph"/>
+  <Effector Name="Lip_lower_depressor_right" Type="morph"/>
+  <Effector Name="lip_lower_retract" Type="expression"/>
+  <Effector Name="Lip_lower_retract_left" Type="morph"/>
+  <Effector Name="Lip_lower_retract_right" Type="morph"/>
+  <Effector Name="Lip_narrowwide" Type="expression"/>
+  <Effector Name="lip_pout" Type="expression"/>
+  <Effector Name="Lip_pout_01" Type="morph"/>
+  <Effector Name="Lip_pout_02" Type="morph"/>
+  <Effector Name="Lip_Presser" Type="morph"/>
+  <Effector Name="Lip_pucker" Type="morph"/>
+  <Effector Name="Lip_Pucker_1" Type="morph"/>
+  <Effector Name="Lip_Pucker_2" Type="morph"/>
+  <Effector Name="Lip_retract" Type="expression"/>
+  <Effector Name="Lip_stretcher" Type="expression"/>
+  <Effector Name="Lip_stretcher_left" Type="morph"/>
+  <Effector Name="Lip_stretcher_right" Type="morph"/>
+  <Effector Name="Lip_suck" Type="expression"/>
+  <Effector Name="Lip_suck_01" Type="morph"/>
+  <Effector Name="Lip_suck_02" Type="morph"/>
+  <Effector Name="lip_tightner" Type="expression"/>
+  <Effector Name="Lip_tightner_left" Type="morph"/>
+  <Effector Name="Lip_tightner_right" Type="morph"/>
+  <Effector Name="lip_upper_lowerer" Type="expression"/>
+  <Effector Name="Lip_upper_lowerer_left" Type="morph"/>
+  <Effector Name="Lip_upper_lowerer_right" Type="morph"/>
+  <Effector Name="Lip_upper_raiser" Type="expression"/>
+  <Effector Name="Lip_upper_raiser_02_left" Type="morph"/>
+  <Effector Name="Lip_upper_raiser_02_right" Type="morph"/>
+  <Effector Name="Lip_upper_raiser_left" Type="morph"/>
+  <Effector Name="Lip_upper_raiser_right" Type="morph"/>
+  <Effector Name="lips" Type="group"/>
+  <Effector Name="Look_Left" Type="morph"/>
+  <Effector Name="Lower_Lip_Depressor" Type="morph"/>
+  <Effector Name="m" Type="expression"/>
+  <Effector Name="m+" Type="expression"/>
+  <Effector Name="m-" Type="expression"/>
+  <Effector Name="Masseter" Type="morph"/>
+  <Effector Name="Mocap" Type="group"/>
+  <Effector Name="Mood_states" Type="group"/>
+  <Effector Name="Mouth" Type="group"/>
+  <Effector Name="Mouth_blow_funnel" Type="expression"/>
+  <Effector Name="Mouth_chinraiser_depressor" Type="expression"/>
+  <Effector Name="Mouth_funneler_blow" Type="expression"/>
+  <Effector Name="Mouth_left" Type="morph"/>
+  <Effector Name="Mouth_left_lower_narrow" Type="morph"/>
+  <Effector Name="Mouth_left_lower_wide" Type="morph"/>
+  <Effector Name="Mouth_left_right" Type="expression"/>
+  <Effector Name="Mouth_left_upper_narrow" Type="morph"/>
+  <Effector Name="Mouth_left_upper_wide" Type="morph"/>
+  <Effector Name="Mouth_narrow_wide" Type="expression"/>
+  <Effector Name="Mouth_narrow_wide_left" Type="expression"/>
+  <Effector Name="Mouth_narrow_wide_right" Type="expression"/>
+  <Effector Name="Mouth_open_press" Type="expression"/>
+  <Effector Name="Mouth_open_wide" Type="expression"/>
+  <Effector Name="Mouth_play_01" Type="expression"/>
+  <Effector Name="Mouth_play_02" Type="expression"/>
+  <Effector Name="Mouth_pout_bite" Type="expression"/>
+  <Effector Name="Mouth_pucker_suck" Type="expression"/>
+  <Effector Name="Mouth_right" Type="morph"/>
+  <Effector Name="Mouth_right_lower_narrow" Type="morph"/>
+  <Effector Name="Mouth_right_lower_wide" Type="morph"/>
+  <Effector Name="Mouth_right_top_narrow" Type="expression"/>
+  <Effector Name="Mouth_right_top_wide" Type="expression"/>
+  <Effector Name="Mouth_right_upper_narrow" Type="morph"/>
+  <Effector Name="Mouth_right_upper_wide" Type="morph"/>
+  <Effector Name="Mouth_smile_frown" Type="expression"/>
+  <Effector Name="mouth_up_down" Type="group"/>
+  <Effector Name="mouth_updown" Type="expression"/>
+  <Effector Name="Mouth_upllerlip_raiser" Type="expression"/>
+  <Effector Name="mouth_upper_lip_raiser" Type="expression"/>
+  <Effector Name="Mouth_upperlip_raiser" Type="expression"/>
+  <Effector Name="n" Type="expression"/>
+  <Effector Name="n+" Type="expression"/>
+  <Effector Name="n-" Type="expression"/>
+  <Effector Name="Neck Strainer" Type="morph"/>
+  <Effector Name="Neck_down" Type="expression"/>
+  <Effector Name="Neck_down_bonectrl" Type="bone" Attachment="Bip01 Head" PosOffset="0,0,0" RotOffset="0,0,0.69813168"/>
+  <Effector Name="Neck_lean" Type="expression"/>
+  <Effector Name="Neck_lean_left" Type="expression"/>
+  <Effector Name="Neck_lean_left_bonectrl" Type="bone" Attachment="Bip01 Head" PosOffset="0,0,0" RotOffset="0,-0.52359903,0"/>
+  <Effector Name="Neck_lean_right" Type="expression"/>
+  <Effector Name="Neck_lean_right_bonectrl" Type="bone" Attachment="Bip01 Head" PosOffset="0,0,0" RotOffset="0,0.52359903,0"/>
+  <Effector Name="Neck_left" Type="expression"/>
+  <Effector Name="Neck_left_bonectrl" Type="bone" Attachment="Bip01 Head" PosOffset="0,0,0" RotOffset="1.13446,0,0"/>
+  <Effector Name="Neck_left_right" Type="expression"/>
+  <Effector Name="Neck_Look_Down" Type="morph"/>
+  <Effector Name="Neck_look_Left" Type="morph"/>
+  <Effector Name="Neck_look_Right" Type="morph"/>
+  <Effector Name="Neck_look_Up" Type="morph"/>
+  <Effector Name="Neck_right" Type="expression"/>
+  <Effector Name="Neck_right_bonectrl" Type="bone" Attachment="Bip01 Head" PosOffset="0,0,0" RotOffset="-1.13446,0,0"/>
+  <Effector Name="Neck_strainer" Type="morph"/>
+  <Effector Name="Neck_Tilt_Left" Type="morph"/>
+  <Effector Name="Neck_tilt_right" Type="morph"/>
+  <Effector Name="Neck_up" Type="expression"/>
+  <Effector Name="Neck_up_bonectrl" Type="bone" Attachment="Bip01 Head" PosOffset="0,0,0" RotOffset="0,0,-0.69813198"/>
+  <Effector Name="Neck_up_down" Type="expression"/>
+  <Effector Name="ng" Type="expression"/>
+  <Effector Name="ng+" Type="expression"/>
+  <Effector Name="ng-" Type="expression"/>
+  <Effector Name="Nose" Type="group"/>
+  <Effector Name="nose wrinkler" Type="expression"/>
+  <Effector Name="Nose_" Type="expression"/>
+  <Effector Name="nose_compressor" Type="expression"/>
+  <Effector Name="Nose_flare" Type="morph"/>
+  <Effector Name="Nose_flare_compressor" Type="expression"/>
+  <Effector Name="nose_play_01" Type="expression"/>
+  <Effector Name="nose_play_02" Type="expression"/>
+  <Effector Name="Nose_presser" Type="morph"/>
+  <Effector Name="Nose_pusher" Type="morph"/>
+  <Effector Name="Nose_pusher_wrinkler" Type="expression"/>
+  <Effector Name="nose_wrinkler" Type="expression"/>
+  <Effector Name="Nose_wrinkler_left" Type="morph"/>
+  <Effector Name="Nose_wrinkler_right" Type="morph"/>
+  <Effector Name="nostirl_compressor" Type="expression"/>
+  <Effector Name="nostril compressor" Type="expression"/>
+  <Effector Name="Nostril_compressor" Type="morph"/>
+  <Effector Name="Nostril_Flare" Type="morph"/>
+  <Effector Name="Nostril_Wrinkler" Type="morph"/>
+  <Effector Name="Open_jaw" Type="expression"/>
+  <Effector Name="ow" Type="expression"/>
+  <Effector Name="ow+" Type="expression"/>
+  <Effector Name="ow-" Type="expression"/>
+  <Effector Name="oy" Type="expression"/>
+  <Effector Name="oy+" Type="expression"/>
+  <Effector Name="oy-" Type="expression"/>
+  <Effector Name="p" Type="expression"/>
+  <Effector Name="p+" Type="expression"/>
+  <Effector Name="p-" Type="expression"/>
+  <Effector Name="Pain" Type="group"/>
+  <Effector Name="Pain_shot_01" Type="expression"/>
+  <Effector Name="Pain_shot_02" Type="expression"/>
+  <Effector Name="Pain_shot_03" Type="expression"/>
+  <Effector Name="Phonemes" Type="group"/>
+  <Effector Name="r" Type="expression"/>
+  <Effector Name="r+" Type="expression"/>
+  <Effector Name="r-" Type="expression"/>
+  <Effector Name="Random_idles" Type="group"/>
+  <Effector Name="right_eyebrow_left_y" Type="expression"/>
+  <Effector Name="right_eyebrow_right_y" Type="expression"/>
+  <Effector Name="right_eyelid_lower_y" Type="expression"/>
+  <Effector Name="right_eyelid_upper_y" Type="expression"/>
+  <Effector Name="right_lip_bottom_x" Type="expression"/>
+  <Effector Name="right_lip_bottom_y" Type="expression"/>
+  <Effector Name="right_lip_top_x" Type="expression"/>
+  <Effector Name="right_lip_top_y" Type="expression"/>
+  <Effector Name="right_mouthcorner_x" Type="expression"/>
+  <Effector Name="right_mouthcorner_y" Type="expression"/>
+  <Effector Name="right_nose_y" Type="expression"/>
+  <Effector Name="Root" Flags="1" Type="group"/>
+  <Effector Name="s" Type="expression"/>
+  <Effector Name="s+" Type="expression"/>
+  <Effector Name="s-" Type="expression"/>
+  <Effector Name="Sad" Type="expression"/>
+  <Effector Name="sh" Type="expression"/>
+  <Effector Name="sh+" Type="expression"/>
+  <Effector Name="sh-" Type="expression"/>
+  <Effector Name="Simple_Controls" Type="group"/>
+  <Effector Name="Sleep" Type="expression"/>
+  <Effector Name="Sleeping" Type="group"/>
+  <Effector Name="Smile" Type="morph"/>
+  <Effector Name="Smile_1" Type="morph"/>
+  <Effector Name="Smile_2" Type="morph"/>
+  <Effector Name="Smile_left" Type="morph"/>
+  <Effector Name="Smile_right" Type="morph"/>
+  <Effector Name="Snear_Left" Type="morph"/>
+  <Effector Name="Surprised" Type="expression"/>
+  <Effector Name="Surprised_01" Type="expression"/>
+  <Effector Name="Surprised_02" Type="expression"/>
+  <Effector Name="t" Type="expression"/>
+  <Effector Name="t+" Type="expression"/>
+  <Effector Name="t-" Type="expression"/>
+  <Effector Name="test" Type="expression"/>
+  <Effector Name="test+" Type="expression"/>
+  <Effector Name="test-" Type="expression"/>
+  <Effector Name="test_cheeks" Type="expression"/>
+  <Effector Name="test_Chin_raiser" Type="expression"/>
+  <Effector Name="test_lip_lower" Type="expression"/>
+  <Effector Name="test_Lip_lower_depressor" Type="expression"/>
+  <Effector Name="test_Lip_lower_retract" Type="expression"/>
+  <Effector Name="test_lip_upper" Type="expression"/>
+  <Effector Name="test_Lip_upper_lowerer" Type="expression"/>
+  <Effector Name="test_Lip_upper_raiser_02" Type="expression"/>
+  <Effector Name="test_mouth_narrow_wide" Type="expression"/>
+  <Effector Name="th" Type="expression"/>
+  <Effector Name="th+" Type="expression"/>
+  <Effector Name="th-" Type="expression"/>
+  <Effector Name="Thorat" Type="expression"/>
+  <Effector Name="Throat" Type="expression"/>
+  <Effector Name="Throat_down" Type="morph"/>
+  <Effector Name="Throat_gulp" Type="expression"/>
+  <Effector Name="Throat_up_01" Type="morph"/>
+  <Effector Name="Throat_up_02" Type="morph"/>
+  <Effector Name="Tired" Type="expression"/>
+  <Effector Name="Tngue_up_down" Type="expression"/>
+  <Effector Name="Tongue_01" Type="expression"/>
+  <Effector Name="Tongue_02" Type="expression"/>
+  <Effector Name="Tongue_down" Type="morph"/>
+  <Effector Name="Tongue_in_out" Type="expression"/>
+  <Effector Name="Tongue_left" Type="morph"/>
+  <Effector Name="Tongue_left_right" Type="expression"/>
+  <Effector Name="Tongue_out" Type="morph"/>
+  <Effector Name="Tongue_right" Type="morph"/>
+  <Effector Name="Tongue_up" Type="morph"/>
+  <Effector Name="Tongue_up_down" Type="expression"/>
+  <Effector Name="top" Type="group"/>
+  <Effector Name="uh" Type="expression"/>
+  <Effector Name="uh+" Type="expression"/>
+  <Effector Name="uh-" Type="expression"/>
+  <Effector Name="underwater" Type="expression"/>
+  <Effector Name="Upper_EyeLid_Closer" Type="morph"/>
+  <Effector Name="Upper_EyeLid_Raiser" Type="morph"/>
+  <Effector Name="upper_lip_lowerer" Type="expression"/>
+  <Effector Name="Upper_lip_raiser" Type="expression"/>
+  <Effector Name="uppler_lip_lowerer" Type="expression"/>
+  <Effector Name="uw" Type="expression"/>
+  <Effector Name="uw+" Type="expression"/>
+  <Effector Name="uw-" Type="expression"/>
+  <Effector Name="v" Type="expression"/>
+  <Effector Name="v+" Type="expression"/>
+  <Effector Name="v-" Type="expression"/>
+  <Effector Name="Visim_ " Type="expression"/>
+  <Effector Name="Visim_AA" Type="expression"/>
+  <Effector Name="Visim_AA+" Type="expression"/>
+  <Effector Name="Visim_AA-" Type="expression"/>
+  <Effector Name="Visim_AW" Type="expression"/>
+  <Effector Name="Visim_Aw+" Type="expression"/>
+  <Effector Name="Visim_Aw-" Type="expression"/>
+  <Effector Name="Visim_B" Type="expression"/>
+  <Effector Name="Visim_B+" Type="expression"/>
+  <Effector Name="Visim_B-" Type="expression"/>
+  <Effector Name="Visim_D" Type="expression"/>
+  <Effector Name="Visim_D+" Type="expression"/>
+  <Effector Name="Visim_D-" Type="expression"/>
+  <Effector Name="Visim_EE" Type="expression"/>
+  <Effector Name="Visim_EE+" Type="expression"/>
+  <Effector Name="Visim_EE-" Type="expression"/>
+  <Effector Name="Visim_F" Type="expression"/>
+  <Effector Name="Visim_F+" Type="expression"/>
+  <Effector Name="Visim_F-" Type="expression"/>
+  <Effector Name="Visim_JH" Type="expression"/>
+  <Effector Name="Visim_JH+" Type="expression"/>
+  <Effector Name="Visim_JH-" Type="expression"/>
+  <Effector Name="Visim_K" Type="expression"/>
+  <Effector Name="Visim_K+" Type="expression"/>
+  <Effector Name="Visim_K-" Type="expression"/>
+  <Effector Name="Visim_L" Type="expression"/>
+  <Effector Name="Visim_L+" Type="expression"/>
+  <Effector Name="Visim_L-" Type="expression"/>
+  <Effector Name="Visim_N" Type="expression"/>
+  <Effector Name="Visim_N+" Type="expression"/>
+  <Effector Name="Visim_N-" Type="expression"/>
+  <Effector Name="Visim_O" Type="expression"/>
+  <Effector Name="Visim_o+" Type="expression"/>
+  <Effector Name="Visim_o-" Type="expression"/>
+  <Effector Name="Visim_R" Type="expression"/>
+  <Effector Name="Visim_R+" Type="expression"/>
+  <Effector Name="Visim_R-" Type="expression"/>
+  <Effector Name="Visim_S" Type="expression"/>
+  <Effector Name="Visim_S+" Type="expression"/>
+  <Effector Name="Visim_S-" Type="expression"/>
+  <Effector Name="Visim_x" Type="expression"/>
+  <Effector Name="Visim_x+" Type="expression"/>
+  <Effector Name="Visim_x-" Type="expression"/>
+  <Effector Name="Visimes" Type="group"/>
+  <Effector Name="Visimes+" Type="group"/>
+  <Effector Name="Visimes-" Type="group"/>
+  <Effector Name="w" Type="expression"/>
+  <Effector Name="w+" Type="expression"/>
+  <Effector Name="w-" Type="expression"/>
+  <Effector Name="x" Type="expression"/>
+  <Effector Name="y" Type="expression"/>
+  <Effector Name="y+" Type="expression"/>
+  <Effector Name="y-" Type="expression"/>
+  <Effector Name="z" Type="expression"/>
+  <Effector Name="z+" Type="expression"/>
+  <Effector Name="z-" Type="expression"/>
+  <Effector Name="zh" Type="expression"/>
+  <Effector Name="zh+" Type="expression"/>
+  <Effector Name="zh-" Type="expression"/>
+ </AllEffectors>
+ <Controllers>
+  <Effector Name="_">
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="_Angry">
+   <SubCtrl Weight="0.41" Keys="" Effector="nose_wrinkler"/>
+   <SubCtrl Weight="0.81" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Masseter"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="-0.22" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="0.72000003" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.46000001" Keys="" Effector="lip_tightner"/>
+   <SubCtrl Weight="0.98000002" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="0.38" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="0.34" Keys="" Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Weight="0.63" Keys="" Effector="brow_lowerer"/>
+   <SubCtrl Weight="0.34" Keys="" Effector="Jaw_pusher"/>
+   <SubCtrl Weight="0.5" Keys="" Effector="Neck Strainer"/>
+  </Effector>
+  <Effector Name="_AtEase">
+   <SubCtrl Weight="0.07" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.18000001" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="0.18000001" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.25" Keys="" Effector="Dimpler"/>
+   <SubCtrl Weight="-0.13" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="0.079999998" Keys="" Effector="Eyelid_upper_raiser"/>
+  </Effector>
+  <Effector Name="_Attention">
+   <SubCtrl Weight="0.34" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Masseter"/>
+   <SubCtrl Weight="0.36000001" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="0.25" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="0.34" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.62" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="0.88999999" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="0.31" Keys="" Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Weight="0.2" Keys="" Effector="brow_lowerer"/>
+  </Effector>
+  <Effector Name="_Blink">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer"/>
+  </Effector>
+  <Effector Name="_Dead1">
+   <SubCtrl Weight="-0.62" Keys="" Effector="nose_wrinkler"/>
+   <SubCtrl Weight="-0.19" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.28" Keys="" Effector="Jaw_dropper_01"/>
+   <SubCtrl Weight="0.17" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="0.090000004" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="0.15000001" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.25" Keys="" Effector="Lip_lower_depressor"/>
+   <SubCtrl Weight="0.28999999" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="0.81999999" Keys="" Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Weight="-0.25999999" Keys="" Effector="Jaw_pusher"/>
+   <SubCtrl Type="1" Weight="0.31" Keys="-1:-0.31,-0.0161812:0.0294118,0.993528:-0.176471," Effector="Jaw_mover_right"/>
+  </Effector>
+  <Effector Name="_Effort">
+   <SubCtrl Weight="0.68000001" Keys="" Effector="nose_wrinkler"/>
+   <SubCtrl Weight="0.87" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Masseter"/>
+   <SubCtrl Weight="-0.039999999" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="0.69" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="-0.13" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="-0.17" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.25" Keys="" Effector="Lip_pucker"/>
+   <SubCtrl Weight="0.14" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="0.07" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="0.68000001" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="0.31" Keys="" Effector="brow_lowerer"/>
+   <SubCtrl Weight="-0.17" Keys="" Effector="Nose_flare"/>
+   <SubCtrl Weight="0.5" Keys="" Effector="Neck Strainer"/>
+  </Effector>
+  <Effector Name="_Eyebrows Up">
+   <SubCtrl Weight="-0.23" Keys="" Effector="nose_wrinkler"/>
+   <SubCtrl Weight="0.47999999" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="0.41" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.50999999" Keys="" Effector="Eyelid_upper_raiser"/>
+  </Effector>
+  <Effector Name="_garbage">
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_right_lower_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_left_upper_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_left_upper_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_left_upper_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_left_lower_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_left_lower_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_left_lower_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_right_lower_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_right_lower_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_right_upper_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_right_upper_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyeball_right_upper_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Dead"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Open Jaw"/>
+   <SubCtrl Weight="1" Keys="" Effector="aa_strong"/>
+   <SubCtrl Weight="1" Keys="" Effector="Aware_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="blank"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_inner raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="brow_ouer_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheeks Puffing"/>
+   <SubCtrl Weight="1" Keys="" Effector="chin_upper_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="chin_upper_rasier"/>
+   <SubCtrl Weight="1" Keys="" Effector="Dead_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Dead_03"/>
+   <SubCtrl Weight="1" Keys="" Effector="ea"/>
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_left_up_downfewfe"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_Tightner"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyes Closing"/>
+   <SubCtrl Weight="1" Keys="" Effector="Head_lean_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Head_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Head_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_narrow_wide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_narrowwide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_retract"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_open_wide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_play_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="mouth_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_upllerlip_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="mouth_upper_lip_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="nose wrinkler"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose_"/>
+   <SubCtrl Weight="1" Keys="" Effector="nose_compressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="nostril compressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="Open_jaw"/>
+   <SubCtrl Weight="1" Keys="" Effector="Pain"/>
+   <SubCtrl Weight="1" Keys="" Effector="Random_idles"/>
+   <SubCtrl Weight="1" Keys="" Effector="Simple_Controls"/>
+   <SubCtrl Weight="1" Keys="" Effector="Sleeping"/>
+   <SubCtrl Weight="1" Keys="" Effector="Surprised"/>
+   <SubCtrl Weight="1" Keys="" Effector="test"/>
+   <SubCtrl Weight="1" Keys="" Effector="Thorat"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tngue_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_in_out"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_Raiser_B"/>
+   <SubCtrl Weight="1" Keys="" Effector="test_Lip_lower_retract"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_bottom_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_top_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_right_top_narrow"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_right_top_wide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Upper_lip_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Frown_test"/>
+   <SubCtrl Weight="1" Keys="" Effector="test_cheeks"/>
+   <SubCtrl Weight="1" Keys="" Effector="test_mouth_narrow_wide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_Right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Blowing_cheeks_"/>
+   <SubCtrl Weight="1" Keys="" Effector="uppler_lip_lowerer"/>
+   <SubCtrl Weight="1" Keys="" Effector="upper_lip_lowerer"/>
+   <SubCtrl Weight="1" Keys="" Effector="dsdsdsdsfdsf"/>
+   <SubCtrl Weight="1" Keys="" Effector="_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_middle_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_ "/>
+   <SubCtrl Weight="1" Keys="" Effector="j-"/>
+   <SubCtrl Weight="1" Keys="" Effector="j+"/>
+  </Effector>
+  <Effector Name="_Happy">
+   <SubCtrl Weight="0.68000001" Keys="" Effector="Masseter"/>
+   <SubCtrl Weight="0.23" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="0.34999999" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="0.50999999" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.34" Keys="" Effector="Dimpler"/>
+   <SubCtrl Weight="0.68000001" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="0.37" Keys="" Effector="Eyelid_upper_raiser"/>
+  </Effector>
+  <Effector Name="_jaw_occlusion">
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_dropper_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="_Neck Strainer Extra">
+   <SubCtrl Type="1" Weight="1" Keys="-1:-1,1:1," Effector="Neck Strainer"/>
+  </Effector>
+  <Effector Name="_old_stuff">
+   <SubCtrl Weight="1" Keys="" Effector="_Lips wide narrow"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Sad"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Happy"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Angry"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Blank"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Sleeping"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Dead1"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Terrified"/>
+   <SubCtrl Weight="1" Keys="" Effector="_AtEase"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Attention"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Tired"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Underwater"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Squint"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Effort"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Pain"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Eyebrows Up"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Open Mouth"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Blink"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Neck Strainer Extra"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Open Eyes"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Upper Lip Raiser"/>
+  </Effector>
+  <Effector Name="_Open Eyes">
+   <SubCtrl Type="1" Weight="-0.38999999" Keys="-1:0.39,1:-0.39," Effector="Eyelid_tightener"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:-1,1:1," Effector="Eyelid_upper_raiser"/>
+  </Effector>
+  <Effector Name="_Open Jaw">
+   <SubCtrl Type="1" Weight="1" Keys="-1:0,-0.00114286:0,0.497143:0.0285715,0.993143:1," Effector="Jaw_dropper_02"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0,0.00227785:0,0.501714:1,1:0.0285715," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.403189:1,-0.15262:0.828571,0.00683367:0.0285715,1:1," Effector="Lip_Presser"/>
+  </Effector>
+  <Effector Name="_Open Mouth">
+   <SubCtrl Type="1" Weight="1" Keys="-1:-1,1:1," Effector="Jaw_dropper_01"/>
+  </Effector>
+  <Effector Name="_Pain">
+   <SubCtrl Type="1" Weight="0.81999999" Keys="-1:-0.82,0.00934579:0.0294118,1:1," Effector="nose_wrinkler"/>
+   <SubCtrl Weight="0.87" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.62" Keys="" Effector="Masseter"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Type="1" Weight="0.62" Keys="-1:-0.62,0.0280374:0.0294118,0.990654:1," Effector="brow_outer_raiser"/>
+   <SubCtrl Type="1" Weight="0.5" Keys="-1:-0.5,0.0186916:0.0294118,1:0.705882," Effector="Frown"/>
+   <SubCtrl Weight="0.63" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Type="1" Weight="0.77999997" Keys="-1:-0.78,0.0186916:0.0294118,1:1," Effector="brow_lowerer"/>
+   <SubCtrl Weight="0.57999998" Keys="" Effector="Neck Strainer"/>
+  </Effector>
+  <Effector Name="_Phonemes+">
+   <SubCtrl Weight="1" Keys="" Effector="aa+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ae+"/>
+   <SubCtrl Weight="1" Keys="" Effector="aw+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ay+"/>
+   <SubCtrl Weight="1" Keys="" Effector="d+"/>
+   <SubCtrl Weight="1" Keys="" Effector="eh+"/>
+   <SubCtrl Weight="1" Keys="" Effector="er+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ey+"/>
+   <SubCtrl Weight="1" Keys="" Effector="g+"/>
+   <SubCtrl Weight="1" Keys="" Effector="k+"/>
+   <SubCtrl Weight="1" Keys="" Effector="l+"/>
+   <SubCtrl Weight="1" Keys="" Effector="m+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ow+"/>
+   <SubCtrl Weight="1" Keys="" Effector="oy+"/>
+   <SubCtrl Weight="1" Keys="" Effector="p+"/>
+   <SubCtrl Weight="1" Keys="" Effector="r+"/>
+   <SubCtrl Weight="1" Keys="" Effector="s+"/>
+   <SubCtrl Weight="1" Keys="" Effector="sh+"/>
+   <SubCtrl Weight="1" Keys="" Effector="_"/>
+   <SubCtrl Weight="1" Keys="" Effector="th+"/>
+   <SubCtrl Weight="1" Keys="" Effector="uw+"/>
+   <SubCtrl Weight="1" Keys="" Effector="v+"/>
+   <SubCtrl Weight="1" Keys="" Effector="w+"/>
+   <SubCtrl Weight="1" Keys="" Effector="y+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ah+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ao+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ax+"/>
+   <SubCtrl Weight="1" Keys="" Effector="b+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ch+"/>
+   <SubCtrl Weight="1" Keys="" Effector="dh+"/>
+   <SubCtrl Weight="1" Keys="" Effector="f+"/>
+   <SubCtrl Weight="1" Keys="" Effector="h+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ih+"/>
+   <SubCtrl Weight="1" Keys="" Effector="iy+"/>
+   <SubCtrl Weight="1" Keys="" Effector="jh+"/>
+   <SubCtrl Weight="1" Keys="" Effector="n+"/>
+   <SubCtrl Weight="1" Keys="" Effector="ng+"/>
+   <SubCtrl Weight="1" Keys="" Effector="t+"/>
+   <SubCtrl Weight="1" Keys="" Effector="uh+"/>
+   <SubCtrl Weight="1" Keys="" Effector="z+"/>
+   <SubCtrl Weight="1" Keys="" Effector="zh+"/>
+  </Effector>
+  <Effector Name="_Phonemes-">
+   <SubCtrl Weight="1" Keys="" Effector="aa-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ae-"/>
+   <SubCtrl Weight="1" Keys="" Effector="aw-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ay-"/>
+   <SubCtrl Weight="1" Keys="" Effector="d-"/>
+   <SubCtrl Weight="1" Keys="" Effector="eh-"/>
+   <SubCtrl Weight="1" Keys="" Effector="er-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ey-"/>
+   <SubCtrl Weight="1" Keys="" Effector="g-"/>
+   <SubCtrl Weight="1" Keys="" Effector="k-"/>
+   <SubCtrl Weight="1" Keys="" Effector="l-"/>
+   <SubCtrl Weight="1" Keys="" Effector="m-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ow-"/>
+   <SubCtrl Weight="1" Keys="" Effector="oy-"/>
+   <SubCtrl Weight="1" Keys="" Effector="p-"/>
+   <SubCtrl Weight="1" Keys="" Effector="r-"/>
+   <SubCtrl Weight="1" Keys="" Effector="s-"/>
+   <SubCtrl Weight="1" Keys="" Effector="sh-"/>
+   <SubCtrl Weight="1" Keys="" Effector="_"/>
+   <SubCtrl Weight="1" Keys="" Effector="th-"/>
+   <SubCtrl Weight="1" Keys="" Effector="uw-"/>
+   <SubCtrl Weight="1" Keys="" Effector="v-"/>
+   <SubCtrl Weight="1" Keys="" Effector="w-"/>
+   <SubCtrl Weight="1" Keys="" Effector="y-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ah-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ao-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ax-"/>
+   <SubCtrl Weight="1" Keys="" Effector="b-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ch-"/>
+   <SubCtrl Weight="1" Keys="" Effector="dh-"/>
+   <SubCtrl Weight="1" Keys="" Effector="f-"/>
+   <SubCtrl Weight="1" Keys="" Effector="h-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ih-"/>
+   <SubCtrl Weight="1" Keys="" Effector="iy-"/>
+   <SubCtrl Weight="1" Keys="" Effector="jh-"/>
+   <SubCtrl Weight="1" Keys="" Effector="n-"/>
+   <SubCtrl Weight="1" Keys="" Effector="ng-"/>
+   <SubCtrl Weight="1" Keys="" Effector="t-"/>
+   <SubCtrl Weight="1" Keys="" Effector="uh-"/>
+   <SubCtrl Weight="1" Keys="" Effector="z-"/>
+   <SubCtrl Weight="1" Keys="" Effector="zh-"/>
+  </Effector>
+  <Effector Name="_Sad">
+   <SubCtrl Weight="0.87" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="0.31999999" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="-0.47999999" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.49000001" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="-0.20999999" Keys="" Effector="Dimpler"/>
+   <SubCtrl Weight="0.31" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="0.22" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="0.74000001" Keys="" Effector="Eyelid_upper_raiser"/>
+  </Effector>
+  <Effector Name="_Sleeping">
+   <SubCtrl Weight="-0.44999999" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.090000004" Keys="" Effector="Jaw_dropper_01"/>
+   <SubCtrl Weight="0.11" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer"/>
+   <SubCtrl Weight="-0.029999999" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="-1" Keys="" Effector="Lip_lower_depressor"/>
+   <SubCtrl Weight="0.02" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="-0.31" Keys="" Effector="chin_raiser"/>
+  </Effector>
+  <Effector Name="_Squint">
+   <SubCtrl Weight="0.87" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.87" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="0.38" Keys="" Effector="brow_outer_raiser"/>
+  </Effector>
+  <Effector Name="_System">
+   <SubCtrl Weight="1" Keys="" Effector="Visimes"/>
+   <SubCtrl Weight="1" Keys="" Effector="Phonemes"/>
+   <SubCtrl Weight="1" Keys="" Effector="ctrl_neck"/>
+   <SubCtrl Weight="1" Keys="" Effector="_old_stuff"/>
+   <SubCtrl Weight="1" Keys="" Effector="advanced_expressions"/>
+   <SubCtrl Weight="1" Keys="" Effector="ctrl_eyes"/>
+   <SubCtrl Weight="1" Keys="" Effector="Joystick_controls"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mocap"/>
+  </Effector>
+  <Effector Name="_Terrified">
+   <SubCtrl Weight="0.82999998" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.28" Keys="" Effector="Jaw_dropper_01"/>
+   <SubCtrl Weight="0.17" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="0.95999998" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="-0.56999999" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.88999999" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="0.75" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="0.51999998" Keys="" Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Weight="0.34999999" Keys="" Effector="brow_lowerer"/>
+   <SubCtrl Weight="-0.30000001" Keys="" Effector="Jaw_mover_left"/>
+  </Effector>
+  <Effector Name="_Tired">
+   <SubCtrl Weight="0.14" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.28999999" Keys="" Effector="Jaw_dropper_01"/>
+   <SubCtrl Weight="0.38" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="-0.85000002" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="0.46000001" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="0.19" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="0.18000001" Keys="" Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Weight="0.11" Keys="" Effector="brow_lowerer"/>
+  </Effector>
+  <Effector Name="_Underwater">
+   <SubCtrl Weight="0.38999999" Keys="" Effector="nose_wrinkler"/>
+   <SubCtrl Weight="0.2" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.11" Keys="" Effector="Jaw_dropper_02"/>
+   <SubCtrl Weight="0.55000001" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="1" Keys="" Effector="lip_tightner"/>
+   <SubCtrl Weight="-0.47999999" Keys="" Effector="Lip_lower_depressor"/>
+   <SubCtrl Weight="0.37" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="0.18000001" Keys="" Effector="brow_lowerer"/>
+   <SubCtrl Weight="0.37" Keys="" Effector="Neck Strainer"/>
+  </Effector>
+  <Effector Name="_Upper Lip Raiser">
+   <SubCtrl Weight="1" Keys="" Effector="nose_wrinkler"/>
+   <SubCtrl Weight="0.37" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="0.38999999" Keys="" Effector="Lip_stretcher"/>
+  </Effector>
+  <Effector Name="aa">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA"/>
+  </Effector>
+  <Effector Name="aa+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA+"/>
+  </Effector>
+  <Effector Name="aa-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA-"/>
+  </Effector>
+  <Effector Name="actions">
+   <SubCtrl Weight="1" Keys="" Effector="blink"/>
+   <SubCtrl Weight="1" Keys="" Effector="underwater"/>
+   <SubCtrl Weight="1" Keys="" Effector="gulp"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_lean"/>
+   <SubCtrl Weight="1" Keys="" Effector="Pain_shot_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Pain_shot_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Pain_shot_03"/>
+   <SubCtrl Weight="1" Keys="" Effector="Surprised_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Surprised_02"/>
+  </Effector>
+  <Effector Name="advanced_expressions">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_suck"/>
+   <SubCtrl Weight="1" Keys="" Effector="lip_pout"/>
+   <SubCtrl Weight="1" Keys="" Effector="Throat"/>
+   <SubCtrl Weight="1" Keys="" Effector="lip_tightner"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_depressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="Frown"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_stretcher"/>
+   <SubCtrl Weight="1" Keys="" Effector="lip_upper_lowerer"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Weight="1" Keys="" Effector="chin_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="brow_inner_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="brow_lowerer"/>
+   <SubCtrl Weight="1" Keys="" Effector="brow_outer_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="lip_lower_retract"/>
+   <SubCtrl Weight="1" Keys="" Effector="nose_wrinkler"/>
+  </Effector>
+  <Effector Name="ae">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="ae+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.276923," Effector="Frown"/>
+  </Effector>
+  <Effector Name="ae-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="ah">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA"/>
+  </Effector>
+  <Effector Name="ah+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA+"/>
+  </Effector>
+  <Effector Name="ah-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA-"/>
+  </Effector>
+  <Effector Name="Angry">
+   <SubCtrl Type="1" Weight="1" Keys="0.00234747:0,1:0.507692," Effector="Frown"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00514579:0,1:0.369231," Effector="brow_outer_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00234747:0,1:1," Effector="brow_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0017153:-0.0285714,1:0.369231," Effector="nose_wrinkler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0017153:0,1:0.369231," Effector="Jaw_front_masseter"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00388098:0,1:0.938462," Effector="Eyelid_tightener"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00388098:0," Effector="Eyelid_lower_raiser"/>
+  </Effector>
+  <Effector Name="ao">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_O"/>
+  </Effector>
+  <Effector Name="ao+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o+"/>
+  </Effector>
+  <Effector Name="ao-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o-"/>
+  </Effector>
+  <Effector Name="aw">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AW"/>
+  </Effector>
+  <Effector Name="aw+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_Aw+"/>
+  </Effector>
+  <Effector Name="aw-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_Aw-"/>
+  </Effector>
+  <Effector Name="ax">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="ax+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+  </Effector>
+  <Effector Name="ax-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="ay">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA"/>
+  </Effector>
+  <Effector Name="ay+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00607908:-0.0181818,0.993139:0.261539," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00514579:-0.0153846,0.989708:0.538462," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0017153:0,1:0.107692," Effector="Lip_stretcher"/>
+  </Effector>
+  <Effector Name="ay-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA-"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0017153:0.0153847,1:0.369231," Effector="Lip_stretcher"/>
+  </Effector>
+  <Effector Name="b">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B"/>
+  </Effector>
+  <Effector Name="b+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B+"/>
+  </Effector>
+  <Effector Name="b-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B-"/>
+  </Effector>
+  <Effector Name="blink">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0015552:0,1:1," Effector="Eyelid_upper_closer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0043478:0,0.993779:-0.353846," Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00466561:-0.0153846,1:0.753846," Effector="Eyelid_lower_raiser"/>
+  </Effector>
+  <Effector Name="bottom">
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_bottom_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_bottom_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_bottom_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_bottom_y"/>
+  </Effector>
+  <Effector Name="brow_inner_raiser">
+   <SubCtrl Weight="1" Keys="" Effector="Brow_inner_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_inner_raiser_right"/>
+  </Effector>
+  <Effector Name="Brow_inner_raiser_lowerer">
+   <SubCtrl Type="1" Weight="1" Keys="-1:-0.654545,0.00564969:0,1:1," Effector="brow_inner_raiser"/>
+  </Effector>
+  <Effector Name="brow_lowerer">
+   <SubCtrl Weight="1" Keys="" Effector="Brow_lowerer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_lowerer_right"/>
+  </Effector>
+  <Effector Name="brow_outer_raiser">
+   <SubCtrl Weight="1" Keys="" Effector="Brow_outer_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_outer_raiser_right"/>
+  </Effector>
+  <Effector Name="Brow_outer_raiser_lowerer">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00348437:0," Effector="brow_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00350881:0,1:1," Effector="brow_outer_raiser"/>
+  </Effector>
+  <Effector Name="Brow_upper_lower">
+   <SubCtrl Type="1" Keys="0.00350058:0,1:1," Effector="brow_inner_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="brow_outer_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00116686:0," Effector="brow_lowerer"/>
+  </Effector>
+  <Effector Name="ch">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH"/>
+  </Effector>
+  <Effector Name="ch+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH+"/>
+  </Effector>
+  <Effector Name="ch-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH-"/>
+  </Effector>
+  <Effector Name="Cheek_left_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00257069:0.0181818,1:1," Effector="Cheek_raiser_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.398458:0,0.997748:0.4," Effector="Eyelid_lower_raiser_left"/>
+  </Effector>
+  <Effector Name="Cheek_Raiser">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00240964:0," Effector="Cheek_raiser_02"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00382161:0," Effector="Cheek_raiser_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00251256:0,1:1," Effector="Cheek_raiser_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="Cheek_raiser_left"/>
+  </Effector>
+  <Effector Name="Cheek_Raiser_B">
+   <SubCtrl Type="1" Keys="0.00596421:0,0.403579:0.981818,1:0," Effector="Cheek_Raiser_03"/>
+   <SubCtrl Type="1" Keys="0.395626:0,1:1," Effector="Cheek_Raiser_04"/>
+  </Effector>
+  <Effector Name="Cheek_right_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00257069:0,1:1," Effector="Cheek_raiser_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.398458:0,0.997748:0.4," Effector="Eyelid_lower_raiser_right"/>
+  </Effector>
+  <Effector Name="Cheeks">
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_right_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_left_y"/>
+  </Effector>
+  <Effector Name="chin_raiser">
+   <SubCtrl Weight="1" Keys="" Effector="Chin_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Chin_raiser_right"/>
+  </Effector>
+  <Effector Name="chin_x">
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_right_left"/>
+  </Effector>
+  <Effector Name="chin_y">
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_open_press"/>
+  </Effector>
+  <Effector Name="Concentrated_01">
+   <SubCtrl Type="1" Keys="0.00422835:0.0285715,1:0," Effector="Jaw_front_masseter"/>
+   <SubCtrl Type="1" Keys="0.00211418:0,1:0," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Keys="0.00211418:0.0857143,1:0," Effector="Mouth_pout_bite"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0285714,1:0," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0571429,1:0," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Keys="-0.00211418:0,1:0," Effector="Mouth_pucker_suck"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0285714,1:0," Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Type="1" Keys="0:0.0571429,1:0," Effector="Mouth_narrow_wide"/>
+   <SubCtrl Type="1" Keys="-0.00211418:0,1:0," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0571429,1:0," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0857143,1:0," Effector="Tongue_up_down"/>
+   <SubCtrl Type="1" Keys="0.00211418:0.0285715,1:0," Effector="Tongue_left_right"/>
+   <SubCtrl Type="1" Keys="0:-0.0571429,1:0," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Keys="0:0,1:0," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="Concentrated_02">
+   <SubCtrl Type="1" Keys="0.00422835:0.0285715,1:0," Effector="Jaw_front_masseter"/>
+   <SubCtrl Type="1" Keys="0.00211418:0,1:0," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Keys="0.00211418:0.0857143,1:0," Effector="Mouth_pout_bite"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0285714,1:0," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0571429,1:0," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Keys="-0.00211418:0,1:0," Effector="Mouth_pucker_suck"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0285714,1:0," Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Type="1" Keys="0:0.0571429,1:0," Effector="Mouth_narrow_wide"/>
+   <SubCtrl Type="1" Keys="-0.00211418:0,1:0," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0571429,1:0," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0857143,1:0," Effector="Tongue_up_down"/>
+   <SubCtrl Type="1" Keys="0.00211418:0.0285715,1:0," Effector="Tongue_left_right"/>
+   <SubCtrl Type="1" Keys="0:-0.0571429,1:0," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Keys="0:0,1:0," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="Concentrated_03">
+   <SubCtrl Type="1" Keys="0.00422835:0.0285715,1:0," Effector="Jaw_front_masseter"/>
+   <SubCtrl Type="1" Keys="0.00211418:0,1:0," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Keys="0.00211418:0.0857143,1:0," Effector="Mouth_pout_bite"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0285714,1:0," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0571429,1:0," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Keys="-0.00211418:0,1:0," Effector="Mouth_pucker_suck"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0285714,1:0," Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Type="1" Keys="0:0.0571429,1:0," Effector="Mouth_narrow_wide"/>
+   <SubCtrl Type="1" Keys="-0.00211418:0,1:0," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0571429,1:0," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Keys="0.00211418:-0.0857143,1:0," Effector="Tongue_up_down"/>
+   <SubCtrl Type="1" Keys="0.00211418:0.0285715,1:0," Effector="Tongue_left_right"/>
+   <SubCtrl Type="1" Keys="0:-0.0571429,1:0," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Keys="0:0,1:0," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="ctr_eyebones">
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_left"/>
+  </Effector>
+  <Effector Name="ctrl_eyes">
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_upper_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_lower_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_lower_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_lower_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_upper_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_upper_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_upper_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_lower_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_lower_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_lower_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_upper_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_upper_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_upper_middle"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_middle_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_middle_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_middle_right"/>
+  </Effector>
+  <Effector Name="ctrl_neck">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_up"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_lean_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_lean_right"/>
+  </Effector>
+  <Effector Name="d">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D"/>
+  </Effector>
+  <Effector Name="d+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D+"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00121802:0,1:1," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="d-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D-"/>
+  </Effector>
+  <Effector Name="dh">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D"/>
+  </Effector>
+  <Effector Name="dh+">
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0285714,0.994152:0.4," Effector="Mouth_narrow_wide"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0285714,0.994152:0.4," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00371742:-0.0571429,1:0.4," Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.997076:0.285714," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00163138:0,1:0.857143," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00319487:0,0.979532:0.285714," Effector="Tongue_up_down"/>
+  </Effector>
+  <Effector Name="dh-">
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0285714,1:0.314286," Effector="Mouth_narrow_wide"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0285714,1:0.257143," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00371742:-0.0571429,1:0.685714," Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00369006:0,0.996737:0.171429," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.993475:0.142857," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00163138:0,1:0.0857143," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00319487:0,0.990415:0.228571," Effector="Tongue_up_down"/>
+  </Effector>
+  <Effector Name="dimpler_">
+   <SubCtrl Type="1" Weight="1" Keys="0.00230947:0,1:1," Effector="Dimpler"/>
+  </Effector>
+  <Effector Name="eh">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="eh+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00365406:0,0.997732:0.430769," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0022676:0,1:0.769231," Effector="Lip_lower_depressor"/>
+  </Effector>
+  <Effector Name="eh-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="er">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_O"/>
+  </Effector>
+  <Effector Name="er+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o+"/>
+  </Effector>
+  <Effector Name="er-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o-"/>
+  </Effector>
+  <Effector Name="ey">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA"/>
+  </Effector>
+  <Effector Name="ey+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA-"/>
+  </Effector>
+  <Effector Name="ey-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA-"/>
+  </Effector>
+  <Effector Name="Eye_Bones">
+   <SubCtrl Weight="1" Keys="" Effector="Eyes_Left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyes_up_down"/>
+  </Effector>
+  <Effector Name="Eye_brows">
+   <SubCtrl Weight="1" Keys="" Effector="Brow_upper_lower"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_outer_raiser_lowerer"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_inner_raiser_lowerer"/>
+  </Effector>
+  <Effector Name="Eye_left_lower_left">
+   <SubCtrl Weight="0.40000001" Keys="" Effector="Eyelid_left_lower_left"/>
+   <SubCtrl Keys="" Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="Eye_left_lower_middle">
+   <SubCtrl Weight="0.80000001" Keys="" Effector="Eyelid_left_lower_middle"/>
+   <SubCtrl Keys="" Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="Eye_left_lower_right">
+   <SubCtrl Weight="0.60000002" Keys="" Effector="Eyelid_left_lower_right"/>
+   <SubCtrl Keys="" Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="Eye_left_middle_left">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_left_middle_left"/>
+  </Effector>
+  <Effector Name="Eye_left_middle_right">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_left_middle_right"/>
+  </Effector>
+  <Effector Name="Eye_left_upper_left">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_left_upper_left"/>
+   <SubCtrl Keys="" Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="Eye_left_upper_middle">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_left_upper_middle"/>
+   <SubCtrl Keys="" Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="Eye_left_upper_right">
+   <SubCtrl Weight="0.40000001" Keys="" Effector="Eyelid_left_upper_right"/>
+   <SubCtrl Keys="" Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="Eye_open_close">
+   <SubCtrl Type="1" Weight="1" Keys="-0.554023:1,-0.00178253:0," Effector="Eyelid_upper_closer"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00233102:0,1:1," Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.402299:-0.0181818," Effector="Eyelid_tightener"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.493045:0,0.826893:1," Effector="Eyelid_lower_lowerer"/>
+   <SubCtrl Type="1" Weight="-1" Keys="-0.549425:1,-0.00178253:0," Effector="Eyelid_lower_raiser"/>
+  </Effector>
+  <Effector Name="Eye_right_lower_left">
+   <SubCtrl Weight="0.60000002" Keys="" Effector="Eyelid_right_lower_left"/>
+  </Effector>
+  <Effector Name="Eye_right_lower_middle">
+   <SubCtrl Weight="0.80000001" Keys="" Effector="Eyelid_right_lower_middle"/>
+  </Effector>
+  <Effector Name="Eye_right_lower_right">
+   <SubCtrl Weight="0.40000001" Keys="" Effector="Eyelid_right_lower_right"/>
+  </Effector>
+  <Effector Name="Eye_right_middle_left">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_right_middle_left"/>
+  </Effector>
+  <Effector Name="Eye_right_middle_right">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_right_middle_right"/>
+  </Effector>
+  <Effector Name="Eye_right_upper_left">
+   <SubCtrl Weight="0.40000001" Keys="" Effector="Eyelid_right_upper_left"/>
+  </Effector>
+  <Effector Name="Eye_right_upper_middle">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_right_upper_middle"/>
+  </Effector>
+  <Effector Name="Eye_right_upper_right">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_right_upper_right"/>
+  </Effector>
+  <Effector Name="eyebones_left">
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_left_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_left_up_down"/>
+  </Effector>
+  <Effector Name="eyebones_right">
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_right_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="eyebones_right_up_down"/>
+  </Effector>
+  <Effector Name="Eyelid_lower_lowerer">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer_left"/>
+  </Effector>
+  <Effector Name="Eyelid_lower_raiser">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_raiser_right"/>
+  </Effector>
+  <Effector Name="Eyelid_tightener">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener_right"/>
+  </Effector>
+  <Effector Name="Eyelid_upper_closer">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer_right"/>
+  </Effector>
+  <Effector Name="Eyelid_upper_raiser">
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_raiser_right"/>
+  </Effector>
+  <Effector Name="Eyes">
+   <SubCtrl Weight="1" Keys="" Effector="Brow_outer_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_outer_raiser_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_lowerer_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_lowerer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_eyebrow_left_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_eyebrow_right_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_inner_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_inner_raiser_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_eyebrow_right_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_eyebrow_left_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_tightener_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_raiser_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_closer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_raiser_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_upper_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyelid_lower_lowerer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_eyelid_upper_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_eyelid_lower_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_eyelid_lower_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_eyelid_upper_y"/>
+  </Effector>
+  <Effector Name="Eyes_Left_right">
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_left_right"/>
+  </Effector>
+  <Effector Name="Eyes_up_down">
+   <SubCtrl Weight="1" Keys="" Effector="Eye_left_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_right_up_down"/>
+  </Effector>
+  <Effector Name="f">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F"/>
+  </Effector>
+  <Effector Name="f+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F+"/>
+  </Effector>
+  <Effector Name="f-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F-"/>
+  </Effector>
+  <Effector Name="Frown">
+   <SubCtrl Weight="1" Keys="" Effector="Frown_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Frown_left"/>
+  </Effector>
+  <Effector Name="Frown_test">
+   <SubCtrl Weight="1" Keys="" Effector="Frown_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Frown_right"/>
+  </Effector>
+  <Effector Name="g">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K"/>
+  </Effector>
+  <Effector Name="g+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K+"/>
+  </Effector>
+  <Effector Name="g-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K-"/>
+  </Effector>
+  <Effector Name="gulp">
+   <SubCtrl Type="1" Weight="1" Keys="0.00137174:-0.0285714,0.311386:1,0.843621:-0.285714,0.997257:0," Effector="Throat"/>
+  </Effector>
+  <Effector Name="h">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="h+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+  </Effector>
+  <Effector Name="h-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="Happy">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00111979:0.0153847,1:-0.261538," Effector="Eye_open_close"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.6," Effector="brow_inner_raiser"/>
+   <SubCtrl Type="1" Keys="-1:-0,-0.00114024:0," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.997558:0.446154," Effector="Cheek_raiser_02"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00447428:0,0.995439:0.538462," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00342071:0,1:0.107692," Effector="Lip_stretcher"/>
+  </Effector>
+  <Effector Name="ih">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S"/>
+  </Effector>
+  <Effector Name="ih+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S+"/>
+  </Effector>
+  <Effector Name="ih-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S-"/>
+  </Effector>
+  <Effector Name="iy">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="iy+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+  </Effector>
+  <Effector Name="iy-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="j">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH"/>
+  </Effector>
+  <Effector Name="j+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH+"/>
+  </Effector>
+  <Effector Name="j-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH-"/>
+  </Effector>
+  <Effector Name="Jaw_front_masseter">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.306376:0.169231,0.787879:0," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00268097:0,1:1," Effector="Jaw_pusher"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.269697:0.0571429,0.0030303:-0.0285714," Effector="Masseter"/>
+  </Effector>
+  <Effector Name="Jaw_right_left">
+   <SubCtrl Type="1" Weight="1" Keys="-0.985882:1,0.00246918:-0.0571429," Effector="Jaw_mover_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0015552:0,1:1," Effector="Jaw_mover_right"/>
+  </Effector>
+  <Effector Name="Jawn_01">
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0181818,0.836559:-0.145455,0.993548:0.909091," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0130435:-0.0181818,0.548387:-0.0363637,1:-1," Effector="Jaw_right_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0043478:0,0.539785:-0.0545455,0.986956:0.2," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:-0.254545," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00225735:0,1:-0.563636," Effector="Eye_open_close"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00225735:-0.0181818,1:-1," Effector="Brow_upper_lower"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00224721:0,0.774194:-0.0363637,0.991011:0.345455," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00674158:-0.0181818,1:0.563636," Effector="Mouth_pout_bite"/>
+  </Effector>
+  <Effector Name="Jawn_02">
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0181818,0.831715:0.290909,1:0.763636," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0130435:-0.0181818,1:-0.709091," Effector="Jaw_right_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0043478:0,0.710895:0,1:-0.509091," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:-0.254545," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00225735:0,0.642312:-1,0.982456:-1," Effector="Eye_open_close"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00225735:-0.0181818,0.991228:0.218182," Effector="Brow_upper_lower"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00224721:0,0.991011:0.345455," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00674158:-0.0181818,0.997807:0.709091," Effector="Mouth_pout_bite"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00438595:0,1:0.545455," Effector="Mouth_narrow_wide"/>
+  </Effector>
+  <Effector Name="Jawn_03">
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0181818,0.884406:0.454545,0.984733:0.763636," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0130435:-0.0181818,0.995633:0.6," Effector="Jaw_right_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0043478:0,0.995633:0.4," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.997819:-0.490909," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00225735:0,0.629226:-0.0363637,0.727372:-1,0.89313:-1,1:-0.272727," Effector="Eye_open_close"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00225735:-0.0181818,1:-0.709091," Effector="Brow_upper_lower"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00224721:0,1:0.527273," Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00674158:-0.0181818,1:0.563636," Effector="Mouth_pout_bite"/>
+  </Effector>
+  <Effector Name="jh">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH"/>
+  </Effector>
+  <Effector Name="jh+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH+"/>
+  </Effector>
+  <Effector Name="jh-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH-"/>
+  </Effector>
+  <Effector Name="Joystick_controls">
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_open_press"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_narrow_wide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_smile_frown"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_pucker_suck"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_right_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose_flare_compressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_open_close"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_front_masseter"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_out"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_pout_bite"/>
+   <SubCtrl Weight="1" Keys="" Effector="Throat"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose_pusher_wrinkler"/>
+   <SubCtrl Weight="1" Keys="" Effector="mouth_updown"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_lean"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_brows"/>
+   <SubCtrl Weight="1" Keys="" Effector="ctr_eyebones"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_Bones"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_funneler_blow"/>
+   <SubCtrl Weight="1" Keys="" Effector="dimpler_"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_blow_funnel"/>
+  </Effector>
+  <Effector Name="k">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K"/>
+  </Effector>
+  <Effector Name="k+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K+"/>
+  </Effector>
+  <Effector Name="k-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K-"/>
+  </Effector>
+  <Effector Name="l">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_L"/>
+  </Effector>
+  <Effector Name="l+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_L+"/>
+  </Effector>
+  <Effector Name="l-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_L-"/>
+  </Effector>
+  <Effector Name="left_eyebrow_left_y">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0015456:0,1:1," Effector="Brow_outer_raiser_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0,0:0," Effector="Brow_lowerer_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.309091,-0.39779:0," Effector="Eyelid_upper_closer_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.402016:0,0.99776:0.4," Effector="Eyelid_upper_raiser_left"/>
+  </Effector>
+  <Effector Name="left_eyebrow_right_y">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00335946:0.0181818,1:1," Effector="Brow_inner_raiser_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00273224:0," Effector="Brow_lowerer_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.402016:0,0.99776:0.4," Effector="Eyelid_upper_raiser_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.309091,-0.202688:0," Effector="Eyelid_upper_closer_left"/>
+  </Effector>
+  <Effector Name="left_eyelid_lower_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00111235:0,1:1," Effector="Eyelid_lower_lowerer_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.59733:1,-0.00111235:0," Effector="Eyelid_lower_raiser_left"/>
+   <SubCtrl Type="1" Weight="-0.2" Keys="-1:0.490909,-0.399333:0," Effector="Eyelid_tightener_left"/>
+  </Effector>
+  <Effector Name="left_eyelid_upper_y">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00111235:0,1:1," Effector="Eyelid_upper_raiser_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.60178:1,-0.00111235:0," Effector="Eyelid_upper_closer_left"/>
+   <SubCtrl Type="1" Weight="-0.2" Keys="-1:0.509091,-0.401557:0," Effector="Eyelid_tightener_left"/>
+  </Effector>
+  <Effector Name="left_lip_bottom_x">
+   <SubCtrl Type="1" Weight="1" Keys="0.00430416:0,1:0.4," Effector="Mouth_left_lower_wide"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.4,0.00283286:0," Effector="Mouth_left_lower_narrow"/>
+  </Effector>
+  <Effector Name="left_lip_bottom_y">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00126103:0," Effector="Lip_lower_depressor_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00263158:0,1:1," Effector="Chin_raiser_left"/>
+  </Effector>
+  <Effector Name="left_lip_top_x">
+   <SubCtrl Type="1" Weight="1" Keys="0.00307692:0,1:0.4," Effector="Mouth_left_upper_wide"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.4,0:0," Effector="Mouth_left_upper_narrow"/>
+  </Effector>
+  <Effector Name="left_lip_top_y">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00563698:0," Effector="Lip_upper_lowerer_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00338219:0,1:1," Effector="Lip_upper_raiser_02_left"/>
+  </Effector>
+  <Effector Name="left_mouthcorner_x">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00123609:0," Effector="Lip_tightner_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00370828:0,1:1," Effector="Lip_stretcher_left"/>
+  </Effector>
+  <Effector Name="left_mouthcorner_y">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00315457:0," Effector="Frown_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00123609:0,1:1," Effector="Cheek_raiser_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00248756:0,1:0.509091," Effector="Lip_stretcher_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.993243:0.490909," Effector="Eyelid_lower_raiser_left"/>
+  </Effector>
+  <Effector Name="left_nose_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00248756:0,1:1," Effector="Nose_wrinkler_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.204598:0,1:0.454545," Effector="Eyelid_tightener_left"/>
+   <SubCtrl Type="1" Weight="0.31" Keys="0.198208:0,1:0.454545," Effector="Eyelid_lower_raiser_left"/>
+  </Effector>
+  <Effector Name="Lip_lower_depressor">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00104712:0,1:1," Effector="Lip_lower_depressor_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00104712:0.0114943,1:1," Effector="Lip_lower_depressor_right"/>
+  </Effector>
+  <Effector Name="lip_lower_retract">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_retract_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_retract_right"/>
+  </Effector>
+  <Effector Name="lip_pout">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_pout_02"/>
+  </Effector>
+  <Effector Name="Lip_stretcher">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_stretcher_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_stretcher_right"/>
+  </Effector>
+  <Effector Name="Lip_suck">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_suck_02"/>
+  </Effector>
+  <Effector Name="lip_tightner">
+   <SubCtrl Type="1" Weight="1" Keys="0.00314136:0,1:1," Effector="Lip_tightner_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0052356:0.0114943,1:1," Effector="Lip_tightner_right"/>
+  </Effector>
+  <Effector Name="lip_upper_lowerer">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_lowerer_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_lowerer_left"/>
+  </Effector>
+  <Effector Name="Lip_upper_raiser">
+   <SubCtrl Type="1" Weight="1" Keys="0.00126743:0,1:1," Effector="Lip_upper_raiser_02_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00126743:0,1:1," Effector="Lip_upper_raiser_02_left"/>
+  </Effector>
+  <Effector Name="lips">
+   <SubCtrl Weight="1" Keys="" Effector="test_lip_upper"/>
+   <SubCtrl Weight="1" Keys="" Effector="test_lip_lower"/>
+   <SubCtrl Weight="1" Keys="" Effector="top"/>
+   <SubCtrl Weight="1" Keys="" Effector="bottom"/>
+  </Effector>
+  <Effector Name="m">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B"/>
+  </Effector>
+  <Effector Name="m+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B+"/>
+  </Effector>
+  <Effector Name="m-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B-"/>
+  </Effector>
+  <Effector Name="Mocap">
+   <SubCtrl Weight="1" Keys="" Effector="lips"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eyes"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheeks"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose"/>
+  </Effector>
+  <Effector Name="Mood_states">
+   <SubCtrl Weight="1" Keys="" Effector="Happy"/>
+   <SubCtrl Weight="1" Keys="" Effector="Sad"/>
+   <SubCtrl Weight="1" Keys="" Effector="Angry"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tired"/>
+   <SubCtrl Weight="1" Keys="" Effector="Sleep"/>
+   <SubCtrl Weight="1" Keys="" Effector="Concentrated_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Concentrated_03"/>
+   <SubCtrl Weight="1" Keys="" Effector="Concentrated_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Dead_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Aware_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="Surprised_01"/>
+  </Effector>
+  <Effector Name="Mouth">
+   <SubCtrl Weight="1" Keys="" Effector="right_mouthcorner_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_mouthcorner_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_mouthcorner_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_mouthcorner_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="chin_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="chin_y"/>
+  </Effector>
+  <Effector Name="Mouth_blow_funnel">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.293578:0," Effector="Blowing_cheeks"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00229358:0,1:1," Effector="Lip_Funneler"/>
+  </Effector>
+  <Effector Name="Mouth_chinraiser_depressor">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0:0," Effector="chin_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00288182:0,1:1," Effector="Lip_lower_depressor"/>
+  </Effector>
+  <Effector Name="Mouth_funneler_blow">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0021322:0,1:1," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.249467:0," Effector="Blowing_cheeks"/>
+  </Effector>
+  <Effector Name="Mouth_left_right">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0:0," Effector="Mouth_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00240964:0,1:1," Effector="Mouth_right"/>
+  </Effector>
+  <Effector Name="Mouth_narrow_wide">
+   <SubCtrl Type="1" Weight="1" Keys="0.00358427:0,1:1," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,-0.00325733:-0.0285714," Effector="lip_tightner"/>
+  </Effector>
+  <Effector Name="Mouth_narrow_wide_left">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0012837:0,1:1," Effector="Lip_stretcher_left"/>
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,0.00385109:0," Effector="Lip_tightner_left"/>
+  </Effector>
+  <Effector Name="Mouth_narrow_wide_right">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0012837:0,1:1," Effector="Lip_stretcher_right"/>
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,-0.00385109:0," Effector="Lip_tightner_right"/>
+  </Effector>
+  <Effector Name="Mouth_open_press">
+   <SubCtrl Type="1" Weight="1" Keys="0.502283:0,1:1," Effector="Jaw_dropper_02"/>
+   <SubCtrl Type="1" Weight="0.58999997" Keys="-1:1,-0.381818:0.507692,0.00253165:0," Effector="Lip_Presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.628571,-0.3376:0," Effector="Masseter"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00128698:0,0.495495:1,0.997426:0," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.639908:0.690909,-0.00265253:-0.0363637,1:-1," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="Mouth_play_01">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0051921:0,1:0.745455," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00103843:-0.0181818,0.997923:0.327273," Effector="Mouth_pucker_suck"/>
+  </Effector>
+  <Effector Name="Mouth_pout_bite">
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,0.00313485:0," Effector="lip_lower_retract"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00240964:0," Effector="Lip_pout_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00240964:0,1:1," Effector="lip_pout"/>
+  </Effector>
+  <Effector Name="Mouth_pucker_suck">
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,-0.0062893:-0.0285714," Effector="Lip_suck"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0285714,1:1," Effector="Lip_pucker"/>
+  </Effector>
+  <Effector Name="Mouth_smile_frown">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00234192:0," Effector="Frown"/>
+   <SubCtrl Keys="" Effector="Eyelid_tightener"/>
+   <SubCtrl Keys="" Effector="Neck Strainer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00241542:0,1:0.872727," Effector="Cheek_Raiser"/>
+   <SubCtrl Keys="" Effector="Lip_stretcher"/>
+  </Effector>
+  <Effector Name="mouth_updown">
+   <SubCtrl Type="1" Weight="1" Keys="0.00247526:0,0.985149:0.507692," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0:0," Effector="lip_upper_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.753846,0:-0.0153846," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00247526:0,1:1," Effector="chin_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00126421:-0.0153846,1:0.369231," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.292308,-0.00126421:0," Effector="Frown"/>
+  </Effector>
+  <Effector Name="Mouth_upperlip_raiser">
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,0.00118339:0," Effector="lip_upper_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00243309:0,1:1," Effector="Lip_upper_raiser"/>
+  </Effector>
+  <Effector Name="n">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_N"/>
+  </Effector>
+  <Effector Name="n+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_N+"/>
+  </Effector>
+  <Effector Name="n-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_N-"/>
+  </Effector>
+  <Effector Name="Neck_down">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_down_bonectrl"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_Look_Down"/>
+  </Effector>
+  <Effector Name="Neck_lean">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.0086956:0," Effector="Neck_lean_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00216925:0,1:1," Effector="Neck_lean_left"/>
+  </Effector>
+  <Effector Name="Neck_lean_left">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_lean_left_bonectrl"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_Tilt_Left"/>
+  </Effector>
+  <Effector Name="Neck_lean_right">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_lean_right_bonectrl"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_tilt_right"/>
+  </Effector>
+  <Effector Name="Neck_left">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_left_bonectrl"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_look_Left"/>
+  </Effector>
+  <Effector Name="Neck_left_right">
+   <SubCtrl Type="1" Weight="1" Keys="0.00462961:0,1:1," Effector="Neck_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00925922:0," Effector="Neck_right"/>
+  </Effector>
+  <Effector Name="Neck_right">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_right_bonectrl"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_look_Right"/>
+  </Effector>
+  <Effector Name="Neck_up">
+   <SubCtrl Weight="1" Keys="" Effector="Neck_up_bonectrl"/>
+   <SubCtrl Weight="1" Keys="" Effector="Neck_look_Up"/>
+  </Effector>
+  <Effector Name="Neck_up_down">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0:0," Effector="Neck_up"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="Neck_down"/>
+  </Effector>
+  <Effector Name="ng">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D"/>
+  </Effector>
+  <Effector Name="ng+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D+"/>
+  </Effector>
+  <Effector Name="ng-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D-"/>
+  </Effector>
+  <Effector Name="Nose">
+   <SubCtrl Weight="1" Keys="" Effector="right_nose_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_nose_y"/>
+  </Effector>
+  <Effector Name="Nose_flare_compressor">
+   <SubCtrl Type="1" Weight="1" Keys="-0.006993:0,1:1," Effector="Nose_flare"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00233102:0.0285715," Effector="Nostril_compressor"/>
+  </Effector>
+  <Effector Name="nose_play_01">
+   <SubCtrl Type="1" Weight="1" Keys="0.0043478:0.0181818,1:-1," Effector="Nose_pusher_wrinkler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:-0.181818," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0043478:0.0181818,1:-1," Effector="Nose_flare_compressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0086956:-0.0181818,1:-0.381818," Effector="Brow_upper_lower"/>
+  </Effector>
+  <Effector Name="nose_play_02">
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0181818,1:0.345455," Effector="Mouth_left_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0130435:-0.0181818,1:1," Effector="nose_play_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0043478:-0.0363637,1:-0.290909," Effector="Mouth_chinraiser_depressor"/>
+  </Effector>
+  <Effector Name="Nose_pusher_wrinkler">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0014472:0," Effector="Nose_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.0014472:0," Effector="Nose_pusher"/>
+   <SubCtrl Type="1" Keys="0.00220264:0,1:1," Effector="nose_wrinkler"/>
+  </Effector>
+  <Effector Name="nose_wrinkler">
+   <SubCtrl Weight="1" Keys="" Effector="Nose_wrinkler_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose_wrinkler_right"/>
+  </Effector>
+  <Effector Name="ow">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_O"/>
+  </Effector>
+  <Effector Name="ow+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o+"/>
+  </Effector>
+  <Effector Name="ow-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o-"/>
+  </Effector>
+  <Effector Name="oy">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_O"/>
+  </Effector>
+  <Effector Name="oy+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o+"/>
+  </Effector>
+  <Effector Name="oy-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o-"/>
+  </Effector>
+  <Effector Name="p">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B"/>
+  </Effector>
+  <Effector Name="p+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B+"/>
+  </Effector>
+  <Effector Name="p-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B-"/>
+  </Effector>
+  <Effector Name="Phonemes">
+   <SubCtrl Weight="1" Keys="" Effector="s"/>
+   <SubCtrl Weight="1" Keys="" Effector="ch"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Phonemes-"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Phonemes+"/>
+   <SubCtrl Weight="1" Keys="" Effector="aa"/>
+   <SubCtrl Weight="1" Keys="" Effector="ay"/>
+   <SubCtrl Weight="1" Keys="" Effector="ae"/>
+   <SubCtrl Weight="1" Keys="" Effector="ey"/>
+   <SubCtrl Weight="1" Keys="" Effector="ow"/>
+   <SubCtrl Weight="1" Keys="" Effector="b"/>
+   <SubCtrl Weight="1" Keys="" Effector="n"/>
+   <SubCtrl Weight="1" Keys="" Effector="l"/>
+   <SubCtrl Weight="1" Keys="" Effector="r"/>
+   <SubCtrl Weight="1" Keys="" Effector="d"/>
+   <SubCtrl Weight="1" Keys="" Effector="th"/>
+   <SubCtrl Weight="1" Keys="" Effector="f"/>
+   <SubCtrl Weight="1" Keys="" Effector="v"/>
+   <SubCtrl Weight="1" Keys="" Effector="ah"/>
+   <SubCtrl Weight="1" Keys="" Effector="ao"/>
+   <SubCtrl Weight="1" Keys="" Effector="aw"/>
+   <SubCtrl Weight="1" Keys="" Effector="ax"/>
+   <SubCtrl Weight="1" Keys="" Effector="dh"/>
+   <SubCtrl Weight="1" Keys="" Effector="eh"/>
+   <SubCtrl Weight="1" Keys="" Effector="er"/>
+   <SubCtrl Weight="1" Keys="" Effector="g"/>
+   <SubCtrl Weight="1" Keys="" Effector="h"/>
+   <SubCtrl Weight="1" Keys="" Effector="ih"/>
+   <SubCtrl Weight="1" Keys="" Effector="iy"/>
+   <SubCtrl Weight="1" Keys="" Effector="jh"/>
+   <SubCtrl Weight="1" Keys="" Effector="k"/>
+   <SubCtrl Weight="1" Keys="" Effector="m"/>
+   <SubCtrl Weight="1" Keys="" Effector="ng"/>
+   <SubCtrl Weight="1" Keys="" Effector="oy"/>
+   <SubCtrl Weight="1" Keys="" Effector="p"/>
+   <SubCtrl Weight="1" Keys="" Effector="sh"/>
+   <SubCtrl Weight="1" Keys="" Effector="t"/>
+   <SubCtrl Weight="1" Keys="" Effector="uh"/>
+   <SubCtrl Weight="1" Keys="" Effector="uw"/>
+   <SubCtrl Weight="1" Keys="" Effector="w"/>
+   <SubCtrl Weight="1" Keys="" Effector="y"/>
+   <SubCtrl Weight="1" Keys="" Effector="z"/>
+   <SubCtrl Weight="1" Keys="" Effector="zh"/>
+   <SubCtrl Weight="1" Keys="" Effector="_"/>
+   <SubCtrl Weight="1" Keys="" Effector="x"/>
+   <SubCtrl Weight="1" Keys="" Effector="_jaw_occlusion"/>
+   <SubCtrl Weight="1" Keys="" Effector="j"/>
+  </Effector>
+  <Effector Name="r">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R"/>
+  </Effector>
+  <Effector Name="r+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R+"/>
+  </Effector>
+  <Effector Name="r-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R-"/>
+  </Effector>
+  <Effector Name="Random_idles">
+   <SubCtrl Weight="1" Keys="" Effector="Throat_gulp"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jawn_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="nose_play_01"/>
+   <SubCtrl Weight="1" Keys="" Effector="nose_play_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jawn_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jawn_03"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_play_01"/>
+  </Effector>
+  <Effector Name="right_eyebrow_left_y">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00387097:0,1:1," Effector="Brow_inner_raiser_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00273224:0," Effector="Brow_lowerer_right"/>
+   <SubCtrl Type="1" Weight="0.25" Keys="0.402016:0,1:0.4," Effector="Eyelid_upper_raiser_right"/>
+   <SubCtrl Type="1" Weight="-0.30000001" Keys="-1:0.3,-0.198208:0," Effector="Eyelid_upper_closer_right"/>
+  </Effector>
+  <Effector Name="right_eyebrow_right_y">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0014556:0,1:1," Effector="Brow_outer_raiser_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0,0.0015456:0," Effector="Brow_lowerer_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.309091,-0.399776:0," Effector="Eyelid_upper_closer_right"/>
+   <SubCtrl Type="1" Weight="0.25" Keys="0.402016:0,1:0.4," Effector="Eyelid_upper_raiser_right"/>
+  </Effector>
+  <Effector Name="right_eyelid_lower_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00111235:0,1:1," Effector="Eyelid_lower_lowerer_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.60178:1,0.00111235:0," Effector="Eyelid_lower_raiser_right"/>
+   <SubCtrl Type="1" Weight="-0.5" Keys="-1:0.5,-0.399333:0," Effector="Eyelid_tightener_right"/>
+  </Effector>
+  <Effector Name="right_eyelid_upper_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00111235:0,1:1," Effector="Eyelid_upper_raiser_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.599555:1,0.00111235:0," Effector="Eyelid_upper_closer_right"/>
+   <SubCtrl Type="1" Weight="-0.5" Keys="-1:0.5,-0.397108:0," Effector="Eyelid_tightener_right"/>
+  </Effector>
+  <Effector Name="right_lip_bottom_x">
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.4,-0.0041841:0," Effector="Mouth_right_lower_narrow"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0013947:0,1:0.4," Effector="Mouth_right_lower_wide"/>
+  </Effector>
+  <Effector Name="right_lip_bottom_y">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.0037831:0," Effector="Lip_lower_depressor_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="Chin_raiser_right"/>
+  </Effector>
+  <Effector Name="right_lip_top_x">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.997426:0.4," Effector="Mouth_right_upper_wide"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:0.4,0:0," Effector="Mouth_right_upper_narrow"/>
+  </Effector>
+  <Effector Name="right_lip_top_y">
+   <SubCtrl Type="1" Weight="1" Keys="0.00430108:0,1:1," Effector="Lip_upper_raiser_02_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00215054:0," Effector="Lip_upper_lowerer_right"/>
+  </Effector>
+  <Effector Name="right_mouthcorner_x">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00123609:0," Effector="Lip_tightner_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00370828:0,1:1," Effector="Lip_stretcher_right"/>
+  </Effector>
+  <Effector Name="right_mouthcorner_y">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00105152:0," Effector="Frown_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00123609:0,1:1," Effector="Cheek_raiser_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00246914:0,0.997531:0.509091," Effector="Lip_stretcher_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.509091," Effector="Eyelid_lower_raiser_right"/>
+  </Effector>
+  <Effector Name="right_nose_y">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="Nose_wrinkler_right"/>
+   <SubCtrl Type="1" Weight="0.60000002" Keys="0.202299:0,1:0.454545," Effector="Eyelid_tightener_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.198208:0,1:0.490909," Effector="Eyelid_lower_raiser_right"/>
+  </Effector>
+  <Effector Name="Root">
+   <SubCtrl Weight="1" Keys="" Effector="Mood_states"/>
+   <SubCtrl Weight="1" Keys="" Effector="actions"/>
+   <SubCtrl Weight="1" Keys="" Effector="_System"/>
+   <SubCtrl Weight="1" Keys="" Effector="_Blank"/>
+   <SubCtrl Weight="1" Keys="" Effector="_garbage"/>
+  </Effector>
+  <Effector Name="s">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S"/>
+  </Effector>
+  <Effector Name="s+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S+"/>
+  </Effector>
+  <Effector Name="s-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S-"/>
+  </Effector>
+  <Effector Name="Sad">
+   <SubCtrl Type="1" Weight="1" Keys="0.00142658:0.0285715,1:0.485714," Effector="Frown"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00114024:0,0.993158:-0.523077," Effector="Brow_upper_lower"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00342071:0,1:0.415385," Effector="chin_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00114024:0,1:1," Effector="brow_inner_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00129366:0,1:0.457143," Effector="Eyelid_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0064683:0,1:0.415385," Effector="Eyelid_lower_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00114024:0,0.995439:-0.538462," Effector="brow_outer_raiser"/>
+  </Effector>
+  <Effector Name="sh">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="sh+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+  </Effector>
+  <Effector Name="sh-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="Simple_Controls">
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_open_press"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_narrow_wide"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_smile_frown"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_pucker_suck"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_right_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_Raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose_flare_compressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Weight="1" Keys="" Effector="Eye_open_close"/>
+   <SubCtrl Weight="1" Keys="" Effector="Brow_upper_lower"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_front_masseter"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_out"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Tongue_left_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_upperlip_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_pout_bite"/>
+   <SubCtrl Weight="1" Keys="" Effector="Throat"/>
+   <SubCtrl Weight="1" Keys="" Effector="Nose_pusher_wrinkler"/>
+   <SubCtrl Weight="1" Keys="" Effector="mouth_updown"/>
+  </Effector>
+  <Effector Name="Sleep">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:-1," Effector="Eye_open_close"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0285714,1:0.476923," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00447428:0,1:-1," Effector="Mouth_chinraiser_depressor"/>
+  </Effector>
+  <Effector Name="t">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S"/>
+  </Effector>
+  <Effector Name="t+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S+"/>
+  </Effector>
+  <Effector Name="t-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S-"/>
+  </Effector>
+  <Effector Name="test">
+   <SubCtrl Type="1" Weight="1" Keys="0.00325727:0,0.496222:1,1:0," Effector="test-"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.496222:0,1:1," Effector="test+"/>
+  </Effector>
+  <Effector Name="test+">
+   <SubCtrl Keys="" Effector="Mouth_open_press"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_dropper_02"/>
+  </Effector>
+  <Effector Name="test-">
+   <SubCtrl Keys="" Effector="Mouth_open_press"/>
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_dropper_01"/>
+  </Effector>
+  <Effector Name="test_cheeks">
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Cheek_raiser_right"/>
+  </Effector>
+  <Effector Name="test_Chin_raiser">
+   <SubCtrl Weight="1" Keys="" Effector="Chin_raiser_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Chin_raiser_right"/>
+  </Effector>
+  <Effector Name="test_lip_lower">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0:0," Effector="test_Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00263158:0,1:1," Effector="test_Chin_raiser"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_bottom_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_bottom_y"/>
+  </Effector>
+  <Effector Name="test_Lip_lower_depressor">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_depressor_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_depressor_left"/>
+  </Effector>
+  <Effector Name="test_Lip_lower_retract">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_retract_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_lower_retract_right"/>
+  </Effector>
+  <Effector Name="test_lip_upper">
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,-0.00301205:0," Effector="test_Lip_upper_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="test_Lip_upper_raiser_02"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_top_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_top_y"/>
+  </Effector>
+  <Effector Name="test_Lip_upper_lowerer">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_lowerer_left"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_lowerer_right"/>
+  </Effector>
+  <Effector Name="test_Lip_upper_raiser_02">
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_raiser_02_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Lip_upper_raiser_02_left"/>
+  </Effector>
+  <Effector Name="test_mouth_narrow_wide">
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_narrow_wide_right"/>
+   <SubCtrl Weight="1" Keys="" Effector="Mouth_narrow_wide_left"/>
+  </Effector>
+  <Effector Name="th">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D"/>
+  </Effector>
+  <Effector Name="th+">
+   <SubCtrl Type="1" Weight="1" Keys="-0.0030303:-0.0285714,1:0.236364," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00313479:0,0.996865:0.2," Effector="Tongue_up_down"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D+"/>
+  </Effector>
+  <Effector Name="th-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00346017:0,1:0.2," Effector="Tongue_up_down"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00692046:-0.0181818,0.975779:0.254545," Effector="Tongue_out"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D-"/>
+  </Effector>
+  <Effector Name="Throat">
+   <SubCtrl Type="1" Keys="-0.982278:-1,0:0,1:0.0153847," Effector="Throat_down"/>
+   <SubCtrl Type="1" Keys="-1:-0,0.00127387:-0.0153846,0.496203:1,1:0," Effector="Throat_up_01"/>
+   <SubCtrl Type="1" Keys="0.501266:0,0.994937:1," Effector="Throat_up_02"/>
+  </Effector>
+  <Effector Name="Throat_gulp">
+   <SubCtrl Weight="1" Keys="" Effector="gulp"/>
+  </Effector>
+  <Effector Name="Tired">
+   <SubCtrl Type="1" Weight="1" Keys="0.00250626:-0.0285714,1:-0.485714," Effector="Eye_open_close"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0571429,0.989975:-0.371429," Effector="Mouth_chinraiser_depressor"/>
+  </Effector>
+  <Effector Name="Tongue_01">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00527984:0,0.993664:0.4," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00316787:0.0545454,0.997888:0.236364," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00105596:-0.0181818,0.993664:0.181818," Effector="Tongue_up_down"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00105596:-0.0545455,0.993664:-0.618182," Effector="Mouth_chinraiser_depressor"/>
+  </Effector>
+  <Effector Name="Tongue_02">
+   <SubCtrl Type="1" Weight="1" Keys="0.00527978:-0.0181818,0.389408:0.290909,1:0.327273," Effector="Mouth_open_press"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00311524:0.0545454," Effector="Tongue_up_down"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00105596:0,0.0866808:0.654545,0.88162:0.709091," Effector="Tongue_out"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00105596:0,0.0820353:0.836364,1:-1," Effector="Tongue_left_right"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0031153:0,0.150571:-0.418182," Effector="Mouth_chinraiser_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0031153:0.0181818,0.133956:-0.163636," Effector="Mouth_upperlip_raiser"/>
+  </Effector>
+  <Effector Name="Tongue_left_right">
+   <SubCtrl Type="1" Weight="-1" Keys="-1:1,-0.00420171:0," Effector="Tongue_left"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00609756:0,1:1," Effector="Tongue_right"/>
+  </Effector>
+  <Effector Name="Tongue_up_down">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="Tongue_up"/>
+   <SubCtrl Type="1" Weight="1" Keys="-1:1,0.00392163:-0.0285714," Effector="Tongue_down"/>
+  </Effector>
+  <Effector Name="top">
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_top_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_top_x"/>
+   <SubCtrl Weight="1" Keys="" Effector="left_lip_top_y"/>
+   <SubCtrl Weight="1" Keys="" Effector="right_lip_top_y"/>
+  </Effector>
+  <Effector Name="uh">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_O"/>
+  </Effector>
+  <Effector Name="uh+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o+"/>
+  </Effector>
+  <Effector Name="uh-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o-"/>
+  </Effector>
+  <Effector Name="underwater">
+   <SubCtrl Type="1" Weight="1" Keys="-1:-1,0:0,1:1," Effector="Blowing_cheeks"/>
+  </Effector>
+  <Effector Name="uw">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AW"/>
+  </Effector>
+  <Effector Name="uw+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_Aw+"/>
+  </Effector>
+  <Effector Name="uw-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_Aw-"/>
+  </Effector>
+  <Effector Name="v">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F"/>
+  </Effector>
+  <Effector Name="v+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F+"/>
+  </Effector>
+  <Effector Name="v-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F-"/>
+  </Effector>
+  <Effector Name="Visim_AA">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_AA+"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00215983:0,0.602592:1,1:0," Effector="Visim_AA-"/>
+  </Effector>
+  <Effector Name="Visim_AA+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00626957:0,1:1," Effector="Jaw_dropper_02"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00121802:-0.0153846,1:-0.28," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00331492:0,1:0.373333," Effector="Lip_lower_depressor"/>
+  </Effector>
+  <Effector Name="Visim_AA-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00626957:-0.0181818,1:1," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00626957:0,1:0.2," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00121802:0,1:-0.0615385," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.327273," Effector="chin_raiser"/>
+  </Effector>
+  <Effector Name="Visim_AW">
+   <SubCtrl Type="1" Weight="1" Keys="0.399568:0,1:1," Effector="Visim_Aw+"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00215983:0,0.604752:1,1:0.0105263," Effector="Visim_Aw-"/>
+  </Effector>
+  <Effector Name="Visim_Aw+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00242126:0.0181818,0.99148:0.563218," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00125468:0,1:1," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00248754:0,1:-0.333333," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00114286:0,1:0.68," Effector="nostirl_compressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0031881:0,1:0.367816," Effector="lip_upper_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00532481:0.0114943,0.99787:0.310345," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00319489:-0.0114943,0.99787:0.264368," Effector="lip_tightner"/>
+  </Effector>
+  <Effector Name="Visim_Aw-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00242126:0,1:1," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00242126:0,0.997506:0.493333," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.997699:0.307692," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00170946:0,0.996737:0.230769," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00854707:-0.0363637,0.983051:0.338462," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00115073:0,1:0.169231," Effector="lip_upper_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00248754:0,1:-0.369231," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00114286:0,1:0.169231," Effector="Nose_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00114286:0,1:0.4," Effector="Nostril_compressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0010627:0,1:0.6," Effector="lip_upper_lowerer"/>
+  </Effector>
+  <Effector Name="Visim_B">
+   <SubCtrl Type="1" Weight="1" Keys="0.399568:0,1:1," Effector="Visim_B+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0,0.604752:1,1:0," Effector="Visim_B-"/>
+  </Effector>
+  <Effector Name="Visim_B+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00284898:0,1:0.149425," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.448276," Effector="Neck_strainer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00115073:0,1:1," Effector="Lip_suck"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00342858:0,1:1," Effector="Nostril_compressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00203666:-0.0229885,1:0.517241," Effector="Jaw_dropper_01"/>
+  </Effector>
+  <Effector Name="Visim_B-">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.492308," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.781818," Effector="Lip_Presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00316453:0,1:0.266667," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00494236:0,1:0.563636," Effector="Nose_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00164747:0,1:0.472727," Effector="Nose_pusher"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00115073:0,1:0.0615385," Effector="Lip_suck"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0010627:0,1:0.145455," Effector="lip_upper_lowerer"/>
+  </Effector>
+  <Effector Name="Visim_D">
+   <SubCtrl Type="1" Weight="1" Keys="0.302376:0,1:1," Effector="Visim_D+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0,0.583153:1,1:0.0105263," Effector="Visim_D-"/>
+  </Effector>
+  <Effector Name="Visim_D+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00507617:-0.0181818,0.620948:0.0266666,1:0.52," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00114286:0,0.620948:0.853333,1:0.965517," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00253808:-0.0181818,0.61596:0.08,1:0.62069," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00253808:-0.0181818,1:0.482759," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00284898:0,1:0.773333," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Keys="-0.00248754:0,1:0.307692," Effector="Throat"/>
+   <SubCtrl Type="1" Keys="0.00248754:0,1:0.2," Effector="Neck_strainer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0025641:0,1:0.693333," Effector="nose_wrinkler"/>
+  </Effector>
+  <Effector Name="Visim_D-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00549448:0," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.2," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00130725:0,1:0.127273," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00392157:0,0.994812:0.818182," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.581818," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00166392:0,1:0.230769," Effector="Frown"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0153846,1:0.384615," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.985075:0.230769," Effector="lip_lower_retract"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00248754:0,0.995025:0.569231," Effector="Throat"/>
+  </Effector>
+  <Effector Name="Visim_EE">
+   <SubCtrl Type="1" Weight="1" Keys="0.313175:0,1:1," Effector="Visim_EE+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0,0.606911:1,1:0," Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="Visim_EE+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00163138:0,1:1," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00139081:-0.0181818,1:0.546667," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00417244:0.0181818,1:1," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00385106:0,1:1," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00170946:-0.0181818,1:0.666667," Effector="Neck_strainer"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.003268:0,1:0.6," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00125468:0,1:0.706667," Effector="nose_wrinkler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0133333,1:0.106667," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="0.10000001" Keys="0:0,1:0.24," Effector="Eyelid_lower_raiser_right"/>
+   <SubCtrl Type="1" Weight="0.10000001" Keys="0:0,1:0.146667," Effector="Eyelid_lower_raiser_left"/>
+  </Effector>
+  <Effector Name="Visim_EE-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00141847:-0.0181818,1:0.127273," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00653601:0,1:0.363636," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00283289:0,1:0.127273," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00566578:0.0181818,1:0.381818," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00119472:0,1:0.246154," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00248754:0,1:0.461538," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00103842:0,1:1," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="Visim_F">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_F+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0.0105263,0.600432:0.989474,1:0.0105263," Effector="Visim_F-"/>
+  </Effector>
+  <Effector Name="Visim_F+">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00133866:0,1:1," Effector="lip_lower_retract"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00131059:0.0181818,1:0.453333," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00131059:-0.0181818,1:0.573333," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00401604:0,1:0.346667," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.632184," Effector="chin_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.989744:0.653333," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.866667," Effector="nose_wrinkler"/>
+  </Effector>
+  <Effector Name="Visim_F-">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.727273," Effector="lip_lower_retract"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00313485:0,1:0.418182," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00313485:0.0181818,1:0.527273," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00290692:0.0181818,1:0.0181818," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00208768:0,1:0.290909," Effector="lip_upper_lowerer"/>
+  </Effector>
+  <Effector Name="Visim_JH">
+   <SubCtrl Type="1" Weight="1" Keys="0.399568:0,1:1," Effector="Visim_JH+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0,0.602592:1,1:0.0105263," Effector="Visim_JH-"/>
+  </Effector>
+  <Effector Name="Visim_JH+">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00171524:0,1:0.72," Effector="nose_wrinkler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00248754:0,1:0.476923," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0025641:0,1:0.793103," Effector="lip_pout"/>
+  </Effector>
+  <Effector Name="Visim_JH-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00706708:0,1:1," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.989399:0.353846," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.692308," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.353846," Effector="lip_pout"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00182152:0,1:0.353846," Effector="lip_tightner"/>
+  </Effector>
+  <Effector Name="Visim_K">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_K+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0105263,0.598272:1,1:0.0105263," Effector="Visim_K-"/>
+  </Effector>
+  <Effector Name="Visim_K+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00273967:-0.0181818,0.995749:0.727273," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00133866:0,0.994521:0.4," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0363637,1:0.618182," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00170946:-0.0181818,1:1," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00110497:0.0181818,0.99337:0.636364," Effector="Jaw_presser"/>
+  </Effector>
+  <Effector Name="Visim_K-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00272477:-0.0181818,1:0.272727," Effector="Upper_lip_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00272477:-0.0363637,1:0.163636," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:-0.0181818,1:0.145455," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00139469:0,1:0.145455," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00418413:0,1:0.6," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00170946:-0.0181818,0.996581:0.6," Effector="Throat"/>
+  </Effector>
+  <Effector Name="Visim_L">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_L+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00647948:0,0.602592:1,1:0," Effector="Visim_L-"/>
+  </Effector>
+  <Effector Name="Visim_L+">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00306749:0,1:0.356322," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00613499:0,0.997475:0.386667," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00412655:0,1:0.091954," Effector="Jaw_dropper_02"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0015552:0,0.997884:1," Effector="lip_pout"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00505051:0,1:0.36," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00505051:0,1:0.346667," Effector="nose_wrinkler"/>
+  </Effector>
+  <Effector Name="Visim_L-">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00156492:0,1:0.2," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0021692:0," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00331492:0,1:0.381818," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00349653:0,1:0.163636," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00180179:-0.0181818," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00331492:0,1:0.527273," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00110497:0,1:0.254545," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00110497:0,1:0.454545," Effector="Lip_Funneler"/>
+  </Effector>
+  <Effector Name="Visim_N">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_N+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0,0.600432:1,1:0," Effector="Visim_N-"/>
+  </Effector>
+  <Effector Name="Visim_N+">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00306749:0,1:0.786667," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00110497:0,1:0.386667," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00501253:0,1:0.804598," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00505051:0,1:0.533333," Effector="nose_wrinkler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0075188:0,1:1," Effector="lip_tightner"/>
+  </Effector>
+  <Effector Name="Visim_N-">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00156492:0,1:0.2," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00156492:0.0181818,1:0.381818," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00164747:-0.0545455,0.996933:0.4," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00349653:0,1:0.163636," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00180179:-0.0181818,0.996933:0.109091," Effector="Lip_upper_raiser"/>
+  </Effector>
+  <Effector Name="Visim_O">
+   <SubCtrl Type="1" Weight="1" Keys="0.362851:0,1:1," Effector="Visim_o+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00215983:0.0105263,0.356371:0.852632,0.641469:0.8,1:0," Effector="Visim_o-"/>
+  </Effector>
+  <Effector Name="Visim_o+">
+   <SubCtrl Type="1" Weight="1" Keys="0.00242126:0.0181818,1:0.293333," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00125468:0,1:1," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00484264:0,1:1," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00248754:0,1:-0.461538," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00110497:0,1:0.413793," Effector="lip_pout"/>
+  </Effector>
+  <Effector Name="Visim_o-">
+   <SubCtrl Type="1" Weight="1" Keys="0.00242126:0,1:1," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00242126:0,0.997506:0.493333," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.997699:0.307692," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00170946:0,0.996737:0.230769," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00854707:-0.0363637,0.983051:0.338462," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00115073:0,1:0.169231," Effector="lip_upper_lowerer"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00248754:0,1:-0.369231," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00114286:0,1:0.169231," Effector="Nose_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00114286:0,1:0.4," Effector="Nostril_compressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0031881:0,1:0.581818," Effector="lip_upper_lowerer"/>
+  </Effector>
+  <Effector Name="Visim_R">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_R+"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00431965:0,0.598272:1,1:0.0105263," Effector="Visim_R-"/>
+  </Effector>
+  <Effector Name="Visim_R+">
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:1," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00250627:0,1:0.92," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.613333," Effector="Throat"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00250627:0,1:0.773333," Effector="nose_wrinkler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00505051:0,1:0.826667," Effector="Lip_lower_depressor"/>
+  </Effector>
+  <Effector Name="Visim_R-">
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0181818,1:0.436364," Effector="lip_tightner"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0027473:0,0.997875:0.236364," Effector="Lip_pucker"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,1:0.0461539," Effector="Lip_suck"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.0030303:0,0.994245:0.230769," Effector="Jaw_dropper_01"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00103842:0,1:0.418182," Effector="Lip_Funneler"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00143886:0,1:0.661538," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00103842:0,0.995846:0.490909," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.0010627:0,1:0.636364," Effector="lip_upper_lowerer"/>
+  </Effector>
+  <Effector Name="Visim_S">
+   <SubCtrl Type="1" Weight="1" Keys="0.401728:0,1:1," Effector="Visim_S+"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00215983:0,0.602592:1,1:0," Effector="Visim_S-"/>
+  </Effector>
+  <Effector Name="Visim_S+">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00125468:0,1:0.626667," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00158477:-0.0181818,1:1," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00125468:0,1:0.626667," Effector="Lip_stretcher"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00158477:0,1:0.4," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00792396:-0.0181818,1:1," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0,0.985122:0.114943," Effector="Neck_strainer"/>
+  </Effector>
+  <Effector Name="Visim_S-">
+   <SubCtrl Type="1" Weight="1" Keys="-0.00365406:0,1:1," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00382161:0,0.967655:0.353846," Effector="Lip_upper_raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00806451:-0.0181818,0.994905:0.523077," Effector="Lip_lower_depressor"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00325727:-0.0181818,0.992692:0.0769231," Effector="Cheek_Raiser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0:0.0181818,0.995128:0.0461539," Effector="Lip_stretcher"/>
+  </Effector>
+  <Effector Name="Visim_x">
+   <SubCtrl Type="1" Weight="1" Keys="0.3979:0,1:1," Effector="Visim_x-"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00116686:0,0.600933:1,1:0," Effector="Visim_x+"/>
+  </Effector>
+  <Effector Name="Visim_x+">
+   <SubCtrl Type="1" Weight="1" Keys="0.0031348:-0.0114943,1:1," Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="-0.00121802:0,1:0.215385," Effector="Dimpler"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00104493:0,1:1," Effector="Masseter"/>
+  </Effector>
+  <Effector Name="Visim_x-">
+   <SubCtrl Weight="1" Keys="" Effector="Jaw_presser"/>
+   <SubCtrl Type="1" Weight="1" Keys="0.00121808:0,0.997564:0.0923077," Effector="Dimpler"/>
+  </Effector>
+  <Effector Name="Visimes">
+   <SubCtrl Weight="1" Keys="" Effector="Visimes-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visimes+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AW"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_L"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_O"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_N"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_x"/>
+  </Effector>
+  <Effector Name="Visimes+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_N+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_L+"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_Aw+"/>
+  </Effector>
+  <Effector Name="Visimes-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_AA-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_o-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_B-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_N-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_F-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_S-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_K-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_JH-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_L-"/>
+   <SubCtrl Weight="1" Keys="" Effector="Visim_Aw-"/>
+  </Effector>
+  <Effector Name="w">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R"/>
+  </Effector>
+  <Effector Name="w+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R+"/>
+  </Effector>
+  <Effector Name="w-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_R-"/>
+  </Effector>
+  <Effector Name="x">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_x"/>
+  </Effector>
+  <Effector Name="y">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D"/>
+  </Effector>
+  <Effector Name="y+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D+"/>
+  </Effector>
+  <Effector Name="y-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_D-"/>
+  </Effector>
+  <Effector Name="z">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="z+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+  </Effector>
+  <Effector Name="z-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+  <Effector Name="zh">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE"/>
+  </Effector>
+  <Effector Name="zh+">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE+"/>
+  </Effector>
+  <Effector Name="zh-">
+   <SubCtrl Weight="1" Keys="" Effector="Visim_EE-"/>
+  </Effector>
+ </Controllers>
+</ExpressionLibrary>

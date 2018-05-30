@@ -1,0 +1,11 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="M2I1" />
+  <CAPS code="M2I_" />
+
+  <ExampleList>
+    <Example Position=" 0, 0, 0" AName="stealth_walkStop_mg_forward_slow_rfoot_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>

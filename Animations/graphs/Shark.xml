@@ -1,0 +1,89 @@
+<AnimationSetup version="1">
+ <Character filename="objects\characters\human\asian\Rifleman_light\Rifleman_light_standard.cdf"/>
+ <Inputs>
+  <KeyState name="Action" signalled="0" priority="85" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="1" mixinFilter="0" defaultValue="idle">
+   <Key value="idle"/>
+  </KeyState>
+  <IntegerState name="Health" signalled="0" priority="100" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="100"/>
+  <KeyState name="Signal" signalled="1" priority="90" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="1" mixinFilter="0" defaultValue="none">
+   <Key value="melee"/>
+   <Key value="meleeSprint"/>
+   <Key value="none"/>
+  </KeyState>
+  <FloatState name="Speed" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="1000"/>
+  <KeyState name="Stance" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="default">
+   <Key value="default"/>
+  </KeyState>
+ </Inputs>
+ <States>
+  <State id="+Attack" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template aim_pose="" animation="whiteshark_biteUpperBody_01" end_aim_pose="" mp_playback_speed="" playback_speed="0.5" stay_in_state_until="" structure="" transition_time="0.01" name="UpperBodyOneShot"/>
+  </State>
+  <State id="+Nothing" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive"/>
+  <State id="Alive" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Signal value="none"/>
+    <Speed />
+    <Stance />
+   </SelectWhen>
+   <Template animation="" playback_speed="" name="Default"/>
+  </State>
+  <State id="AttackSprint" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="meleeSprint"/>
+   </SelectWhen>
+   <Template aim_pose="" animation="whiteshark_biteUpperBody_01" end_aim_pose="" mp_playback_speed="" playback_speed="" structure="" transition_time="0.5" name="IdleToIdle"/>
+  </State>
+  <State id="Ragdoll" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="SimpleAlienDead"/>
+  </State>
+  <State id="Swim" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Speed />
+   </SelectWhen>
+   <Template aim_pose="" animation="shark_swim_01" key_time="" playback_speed="" structure="" transition_time="" name="Movement"/>
+  </State>
+  <State id="SwimBite" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="melee"/>
+    <Speed />
+   </SelectWhen>
+   <Template aim_pose="" animation="shark_swim_bite_01" delta_angle_max="" delta_angle_min="" key_time="" playback_speed="" structure="" transition_time="1" name="SwimTransition"/>
+  </State>
+  <State id="SwimFast" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Speed min="10" max="1000"/>
+   </SelectWhen>
+   <Template TransitionTime="" aim_pose="" animation="whiteshark_swimFast_forward_01" animation2="" key_time="" physics_blending="" physics_jointLimit="" playback_speed="" select_speed_fast="" select_speed_slow="" speed_fast="" speed_slow="" structure="" transition_time="0.5" name="Movement"/>
+  </State>
+  <State id="SwimSlow" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Speed min="0" max="10"/>
+   </SelectWhen>
+   <Template aim_pose="" animation="whiteshark_swimFast_forward_01" animation2="" key_time="" playback_speed="" select_speed_fast="" select_speed_slow="" structure="" transition_time="0.5" name="Movement"/>
+  </State>
+ </States>
+ <Transitions>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="+Attack" to="+Nothing"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="+Nothing" to="+Attack"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="AttackSprint" to="SwimSlow"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Swim" to="SwimBite"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="SwimBite" to="Swim"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="SwimFast" to="SwimSlow"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="SwimSlow" to="AttackSprint"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="SwimSlow" to="SwimFast"/>
+ </Transitions>
+ <Views>
+  <View name="+UB">
+   <State id="+Attack" x="-200" y="-80"/>
+   <State id="+Nothing" x="-210" y="-190"/>
+  </View>
+  <View name="All">
+   <State id="AttackSprint" x="-490" y="-300"/>
+   <State id="Swim" x="-660" y="-410"/>
+   <State id="SwimBite" x="-704" y="-524"/>
+   <State id="SwimFast" x="-590" y="-60"/>
+   <State id="SwimSlow" x="-320" y="10"/>
+  </View>
+ </Views>
+</AnimationSetup>

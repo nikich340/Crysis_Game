@@ -1,0 +1,100 @@
+<Joysticks>
+ <Joystick ID="FD2029FFB6EE14BD" Name="Mouth">
+  <Centre x="125" y="115"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Mouth::Mouth_open/close_wide/narrow::Mouth_narrow_wide::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Bubblegum::Mouth_open_press::" Flipped="1"/>
+ </Joystick>
+ <Joystick ID="57746ADFC5D522DF" Name="Jaw">
+  <Centre x="355" y="115"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Bubblegum::Jaw_right_left::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Jaw::Jaw_front_masseter::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="288CFED815DCF5BB" Name="Tongue direction">
+  <Centre x="1015" y="115"/>
+  <Dimensions x="85" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Tongue::left/righ_up/down::Tongue_left_right::" Flipped="1"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Tongue::left/righ_up/down::Tongue_up_down::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="3A1A1F54A8476231" Name="Out">
+  <Centre x="1120" y="115"/>
+  <Dimensions x="20" y="105"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Tongue::out::Tongue_out::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="71E54583FD4C479A" Name="Lips">
+  <Centre x="355" y="345"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Mouth::Lip_mover::Mouth_chinraiser_depressor::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Mouth::Lip_mover::Mouth_upperlip_raiser::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="95F85607C5B61B3D" Name="Bubblegum">
+  <Centre x="125" y="795"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Bubblegum::Jaw_right_left::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Bubblegum::Mouth_open_press::" Flipped="1"/>
+ </Joystick>
+ <Joystick ID="23A70BCE508163D1" Name="Mouth Position">
+  <Centre x="125" y="345"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Mouth_position::Mouth_left_right::" Flipped="1"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Mouth_position::mouth_updown::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="62ECCDE958A1670" Name="Head">
+  <Centre x="1035" y="325"/>
+  <Dimensions x="105" y="85"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Neck::Look-at::Neck_left_right::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Neck::Look-at::Neck_up_down::" Flipped="1"/>
+ </Joystick>
+ <Joystick ID="B5859364FF66B90E" Name="Lean">
+  <Centre x="1035" y="430"/>
+  <Dimensions x="105" y="20"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Neck::Lean_left_right::Neck_lean::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="2977C97E78C8FCD2" Name="Eyebrow Balance">
+  <Centre x="655" y="460"/>
+  <Dimensions x="105" y="20"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::EyeBrows::Balance::" Flipped="1"/>
+ </Joystick>
+ <Joystick ID="BCD2C5A58B3D68FE" Name="Balance v Eye_open_close">
+  <Centre x="655" y="115"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Eyes::Balance::" Flipped="1"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Eyes::Open_close::Eye_open_close::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="903FD0F459AA0F34" Name="Balance v Mouth_smile_frown">
+  <Centre x="355" y="575"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Mouth::Balance::" Flipped="1"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Mouth::Smile/Frown::Mouth_smile_frown::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="ACFA935C8ABEA8C9" Name="Nose">
+  <Centre x="980" y="530"/>
+  <Dimensions x="50" y="50"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Nose::Nose_flare_compressor::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Nose::Nose_pusher_presser::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="B0F1EFAA302628FD" Name="Mouth_pucker_suck v Mouth_blow">
+  <Centre x="125" y="575"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Mouth::Pucker/suck_blow::Mouth_pucker_suck::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Mouth::Pucker/suck_blow::Blowing_cheeks::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="18E4BF2DC8A19891" Name="Eyebrows">
+  <Centre x="655" y="340"/>
+  <Dimensions x="105" y="100"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::EyeBrows::temp::Brow_outer_raiser_lowerer::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::EyeBrows::temp::Brow_inner_raiser_lowerer::" Flipped="0"/>
+ </Joystick>
+ <Joystick ID="C8C54AB9AB9BA06E" Name="Mouth_pout_bite">
+  <Centre x="355" y="795"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Mouth::lip_temp::Mouth_pout_bite::" Flipped="1"/>
+ </Joystick>
+ <Joystick ID="ED769F643742A685" Name="Eyes_Left_right v Eyes_up_down">
+  <Centre x="655" y="615"/>
+  <Dimensions x="105" y="105"/>
+  <Channel Axis="Horizontal" Channel="Joystick_controls::Eye_balls::Eyes_Left_right::" Flipped="0"/>
+  <Channel Axis="Vertical" Channel="Joystick_controls::Eye_balls::Eyes_up_down::" Flipped="0"/>
+ </Joystick>
+</Joysticks>

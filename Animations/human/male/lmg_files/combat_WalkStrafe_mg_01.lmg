@@ -1,0 +1,46 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="S_H2" />
+  <CAPS code="WALK" />
+
+  <ExampleList>
+    <Example Position=" 0, 1, 0" AName="combat_walkUphill_mg_forward_fast_01" />
+    <Example Position="-1, 0, 0" AName="combat_walkStrafe_mg_left_fast_01" />
+    <Example Position=" 0,-1, 0" AName="combat_walk_mg_back_fast_01" />
+    <Example Position=" 1, 0, 0" AName="combat_walkStrafe_mg_right_fast_01" />
+    <Example Position=" 0, 1, 0" AName="combat_walkUphill_mg_forward_slow_01" />
+    <Example Position="-1, 0, 0" AName="combat_walkStrafe_mg_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="combat_walk_mg_back_slow_01" />
+    <Example Position=" 1, 0, 0" AName="combat_walkStrafe_mg_right_slow_01" />
+
+
+
+    <Example Position=" 0, 1, 0" AName="combat_walk_mg_forward_fast_01" />
+    <Example Position="-1, 1, 0" AName="combat_walkStrafeCross_mg_fLeft_fast_01" />
+    <Example Position=" 1, 0, 0" AName="combat_walkStrafe_mg_left_fast_01" />
+    <Example Position=" 0,-1, 0" AName="combat_walk_mg_back_fast_01" />
+    <Example Position=" 1,-1, 0" AName="combat_walkStrafeCross_mg_bRight_fast_01" />
+    <Example Position="+1, 0, 0" AName="combat_walkStrafe_mg_right_fast_01" />
+
+    <Example Position=" 0, 1, 0" AName="combat_walk_mg_forward_slow_01" />
+    <Example Position="-1, 1, 0" AName="combat_walkStrafeCross_mg_fLeft_slow_01" />
+    <Example Position=" 1, 0, 0" AName="combat_walkStrafe_mg_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="combat_walk_mg_back_slow_01" />
+    <Example Position=" 1,-1, 0" AName="combat_walkStrafeCross_mg_bRight_slow_01" />
+    <Example Position="+1, 0, 0" AName="combat_walkStrafe_mg_right_slow_01" />
+
+
+
+    <Example Position=" 0, 1, 0" AName="combat_walkDownhill_mg_forward_fast_01" />
+    <Example Position="-1, 0, 0" AName="combat_walkStrafe_mg_left_fast_01" />
+    <Example Position=" 0,-1, 0" AName="combat_walk_mg_back_fast_01" />
+    <Example Position=" 1, 0, 0" AName="combat_walkStrafe_mg_right_fast_01" />
+    <Example Position=" 0, 1, 0" AName="combat_walkDownhill_mg_forward_slow_01" />
+    <Example Position="-1, 0, 0" AName="combat_walkStrafe_mg_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="combat_walk_mg_back_slow_01" />
+    <Example Position=" 1, 0, 0" AName="combat_walkStrafe_mg_right_slow_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>
+

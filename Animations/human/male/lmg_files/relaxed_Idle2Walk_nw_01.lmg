@@ -1,0 +1,17 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="I2M1" />
+  <CAPS code="I2W_" />
+
+  <ExampleList>
+    <Example Position=" 0, 0, 0" AName="relaxed_walkStart_nw_forward_slow_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="relaxed_walkStart_nw_right_slow_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="relaxed_walkStart_nw_reverse_slow_rfoot_01" />
+
+    <Example Position=" 0, 0, 0" AName="relaxed_walkStart_nw_forward_slow_lfoot_01" />
+    <Example Position=" 0, 0, 0" AName="relaxed_walkStart_nw_left_slow_lfoot_01" />
+    <Example Position=" 0, 0, 0" AName="relaxed_walkStart_nw_reverse_slow_lfoot_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>

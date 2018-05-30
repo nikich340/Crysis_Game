@@ -1,0 +1,250 @@
+<FacialSequence Flags="0" StartTime="0" EndTime="8.3199997" Sound="animations/human/facial/c17/relaxed_idlesmokedrag_cigarette_02.wav" Joysticks="my joystick bloco.joy" SkeletonAnimation="relaxed_idleSmokeDrag_cigarette_02">
+ <Channel Flags="8193" Name="Joystick_controls">
+  <Channel Flags="8193" Name="Mouth">
+   <Channel Flags="8193" Name="Open/Close - Wide/Narrow">
+    <Channel Flags="0" Name="Mouth_open_press">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_narrow_wide">
+     <Spline Keys="0:0:0,3.72:-0.0303392:0,4.24:-0.852575:0,4.84:-0.857963:0,5.08:-0.0188034:0,6.96:-0.0110409:0,7.48:-0.833277:0,8.04:-0.394805:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Smile/Frown">
+    <Channel Flags="0" Name="Mouth_smile_frown">
+     <Spline Keys="0:0:0,2.08:0:65536,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="8193" Name="Lip_mover">
+    <Channel Flags="0" Name="Mouth_upperlip_raiser">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_chinraiser_depressor">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_blow_funnel">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Pucker/suck - Blow/Funnel">
+    <Channel Flags="0" Name="Mouth_pucker_suck">
+     <Spline Keys="0:0:0,0.84:0.00883043:0,1.44:0:0,1.68:1:0,2.8:0.961404:0,3.28:0:0,3.6:0:0,5.76:0.0107463:0,5.96:1:0,6.72:0.749123:0,7.04:0.0481763:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_blow_funnel">
+     <Spline Keys="0:0:0,0.84:0:0,1.44:0:0,3.28:0:0,3.6:0:0,4.12:-0.865185:0,4.6:-0.770539:0,4.92:-0.0182783:0,5.6:0.0371732:0,5.76:0.0267397:0,7.04:0.00957993:0,7.36:-1:65536,7.84:-0.693346:0,8.12:-0.11477:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Pout/Pite - Dimple">
+    <Channel Flags="0" Name="Mouth_pout_bite">
+     <Spline Keys="0:0:0,3.76:0:0,7.28:0:0,8.08:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="dimpler_">
+     <Spline Keys="0:0:0,7.28:0:0,8.08:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="EyeBrows">
+   <Channel Flags="8193" Name="up_down"/>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="8193" Name="temp">
+    <Channel Flags="0" Name="Brow_outer_raiser_lowerer">
+     <Spline Keys="0:0:0,0.32:0.000420722:0,0.64:-0.190264:0,1.64:0.00982798:0,2:-0.00443307:0,2.12:-0.172406:0,2.84:-0.17024:0,3.08:-0.00113967:0,5.04:0:0,5.36:-0.354503:0,5.96:-0.227903:0,6.48:0.0480001:0,7.08:-0.253213:0,7.36:-3.72529e-009:0,7.64:0.448195:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Brow_inner_raiser_lowerer">
+     <Spline Keys="0:0:0,0.32:-0.00129085:0,0.64:-0.20305:0,1.64:-0.030154:0,2:-0.0781937:0,2.12:-0.251282:0,2.84:-0.25793:0,3.08:-0.0882985:0,5.04:0:0,5.36:0.0213201:0,5.96:0.0334788:0,6.52:-0.453754:0,7.08:0.881019:0,7.64:0.419152:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Eyes">
+   <Channel Flags="8193" Name="Open_close">
+    <Channel Flags="0" Name="Eye_open_close">
+     <Spline Keys="0:0:0,0.2:0.00664354:0,0.44:0:0,0.64:-0.0120884:0,1.28:0.0120879:0,1.84:0.0152971:0,1.96:-0.419329:0,2.08:0.00865348:0,2.88:0.0362637:0,3.04:-0.664835:0,3.28:-0.664835:0,3.44:-0.012088:0,4.32:-0.0383092:0,4.4:-0.472935:0,4.48:-0.0181497:0,5.28:-0.0155225:0,7.52:0.00465668:0,7.6:-0.662805:0,7.68:-0.0019869:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Jaw">
+   <Channel Flags="0" Name="Jaw_front_masseter">
+    <Spline Keys="0:0:0,1.48:0:0,1.76:0.301564:0,2.72:0:0,3.2:0:0,5.6:0:0,6.24:-0.0192982:0,6.52:0.282266:0,7.16:-0.0192982:65536,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Jaw_right_left">
+    <Spline Keys="0:0:0,3.2:0:0,3.48:0:0,5.6:0:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Tongue">
+   <Channel Flags="8193" Name="left/righ_up/down">
+    <Channel Flags="0" Name="Tongue_left_right">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Tongue_up_down">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="out">
+    <Channel Flags="0" Name="Tongue_out">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Mouth_position">
+   <Channel Flags="0" Name="mouth_updown">
+    <Spline Keys="0:0:0,1.44:0:0,1.88:-1.04132:0,3.52:0:0,5.96:5.58794e-008:0,6.4:-0.980702:0,7.16:-0.0192982:65536,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Mouth_left_right">
+    <Spline Keys="0:0:0,1.44:0:0,1.88:0.0294118:0,3.52:0:0,3.6:0:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Bubblegum">
+   <Channel Flags="0" Name="Mouth_open_press">
+    <Spline Keys="0:0:0,3.72:-0.016921:0,4.2:0.336999:0,4.8:0.335679:0,5.08:-0.0188034:0,6.96:0.00237725:0,7.44:0.356297:0,8.04:0.354977:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Jaw_right_left">
+    <Spline Keys="0:0:0,1.48:-0.0017831:0,2.72:-0.00315161:0,6.24:-0.0210813:0,7.16:-0.0224498:65536,8.12:-0.0108264:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Head">
+   <Channel Flags="8193" Name="Look-at">
+    <Channel Flags="0" Name="Neck_up_down">
+     <Spline Keys="0:0:0,3.48:2.6077e-008:0,5.6:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Neck_left_right">
+     <Spline Keys="0:0:0,3.48:2.6077e-008:0,5.6:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Lean_left_right">
+    <Channel Flags="0" Name="Neck_lean">
+     <Spline Keys="0:0:0,4:0:0,5.6:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Nose">
+   <Channel Flags="0" Name="Nose_flare_compressor">
+    <Spline Keys="0:0:0,1.92:7.63685e-008:0,2.6:-0.981197:0,3.68:7.63685e-008:0,6.16:0.0466126:0,6.6:-1:0,7.16:0.0200417:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Nose_pusher_wrinkler">
+    <Spline Keys="0:0:0,1.92:7.63685e-008:0,2.6:-0.981197:0,3.68:7.63685e-008:0,6.16:4.76837e-007:0,6.6:-1:0,7.16:-0.00853184:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Eyeballs">
+   <Channel Flags="0" Name="Eyes_Left_right">
+    <Spline Keys="0:0:0,0.44:-0.00175947:0,0.56:-0.0155883:0,0.88:-0.00194263:0,0.92:0.411898:0,1.32:0.419769:0,1.36:-0.0155228:0,2.28:0.0387981:0,2.32:-0.511559:0,2.72:-0.503688:0,2.76:0.0252179:0,3.32:-0.00194263:0,3.36:-0.5523:0,3.76:-0.0426746:0,3.8:0.486232:0,4.24:-0.00194263:0,4.28:0.411898:0,4.68:0.419769:0,5.08:0.390631:0,5.32:-0.0380869:0,5.36:-0.385367:0,5.76:-0.377496:0,5.8:-0.0516671:0,6.44:0.0135197:0,6.48:0.367766:0,6.88:0.367766:0,6.92:-0.00384904:0,7.08:-0.0950823:0,7.6:0.0326298:0,7.68:-0.366274:0,8.04:-0.389343:0,8.12:-0.00622651:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Eyes_up_down">
+    <Spline Keys="0:0:0,0.44:0.00419319:0,0.56:-0.701234:0,1.76:-0.702377:0,1.88:-0.393827:0,2.96:-0.425473:0,3.92:-0.130599:0,4.92:-0.114701:0,6.2:0.0135803:0,6.96:0.00648575:0,7.64:-0.158989:0,8.16:-0.158989:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+ </Channel>
+ <Channel Flags="8193" Name="Mocap">
+  <Channel Flags="8193" Name="Mouth">
+   <Channel Flags="0" Name="right_mouthcorner_y">
+    <Spline Keys="0:0:0,0.96:0:0,1.48:0:0,1.96:0.019802:0,3.2:0:0,5.32:0:0,6.28:0:0,7.48:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_mouthcorner_x">
+    <Spline Keys="0:0:0,0.96:0:0,1.48:0:0,1.96:-0.757351:0,3.2:-0.32807:0,5.32:0:0,6.28:-0.829693:0,7.48:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_mouthcorner_y">
+    <Spline Keys="0:0:0,0.96:0:0,1.48:0:0,1.96:0:0,3.2:-0.0192981:0,5.32:0:0,6.28:-0.0803292:0,7.48:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_mouthcorner_x">
+    <Spline Keys="0:0:0,0.96:0:0,1.48:0:0,1.96:-0.714035:0,3.2:-0.289474:0,5.32:0:0,6.28:-0.814328:0,7.48:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="chin_y">
+    <Spline Keys="0:0:0,1.12:0:0,1.44:0.270175:0,1.64:0.154386:0,1.84:-0.521228:0,2.6:-0.423077:0,2.8:0:0,3:0.158083:0,3.24:-0.00709647:0,3.56:-0.0283871:65536,3.8:-0.755425:0,4.6:-0.77484:0,5.04:-0.103991:0,5.48:0.00736853:0,5.68:0.289474:0,6.04:0.0507109:0,6.64:-0.230932:0,6.84:-0.270175:0,7.08:-0.658934:0,7.88:-0.678349:0,8.32:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="chin_x">
+    <Spline Keys="0:0:0,1.12:0:0,1.6:3.42727e-007:0,2.8:0:0,5.16:0.0483516:0,5.68:0.0954736:0,6.04:0.0290534:0,6.64:0.0131733:0,6.84:0.0192983:0,7.12:0.0291333:0,8.04:0.046552:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Eyebrows">
+   <Channel Flags="0" Name="left_eyebrow_right_y">
+    <Spline Keys="0:0:0,5.16:0:0,6.04:0:0,7.4:0.054321:0,7.6:0.434479:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_eyebrow_left_y">
+    <Spline Keys="0:0:0,5.16:0:0,6.04:0:0,7.4:0.054321:0,7.6:0.424395:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_eyebrow_right_y">
+    <Spline Keys="0:0:0,5.16:0:0,5.72:0.966843:0,6.88:1:0,7.64:0.963787:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_eyebrow_left_y">
+    <Spline Keys="0:0:0,5.16:0:0,6.16:-1:0,7.56:0.212114:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Cheeks">
+   <Channel Flags="0" Name="Cheek_left_y">
+    <Spline Keys="0:0:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Cheek_right_y">
+    <Spline Keys="0:0:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Lips">
+   <Channel Flags="8193" Name="bottom">
+    <Channel Flags="0" Name="left_lip_bottom_x">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="left_lip_bottom_y">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_bottom_x">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_bottom_y">
+     <Spline Keys="0:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="top">
+    <Channel Flags="0" Name="left_lip_top_x">
+     <Spline Keys="0:0:0,1.44:0:0,1.88:0.0315619:0,3.52:0:0,4:-0.0789474:0,5.32:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="left_lip_top_y">
+     <Spline Keys="0:0:0,1.44:0:0,1.88:0.472195:0,3.52:0:0,4:0.295082:0,5.32:0:0,5.6:0:0,6.04:0.0192983:0,6.48:0.317809:65536,6.92:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_top_x">
+     <Spline Keys="0:0:0,1.44:0:0,1.88:0.0192358:0,3.52:0:0,4:-0.289474:0,5.32:0:0,8.32:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="right_lip_top_y">
+     <Spline Keys="0:0:0,1.44:0:0,1.88:0.376013:0,3.52:0:0,4:0.262295:0,5.32:0:0,5.6:0:0,6.04:0.0192983:0,6.48:0.318118:65536,6.92:0:0,8.32:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Nose">
+   <Channel Flags="0" Name="right_nose_y">
+    <Spline Keys="0:0:0,1.84:-0.0519637:0,2.36:0.641111:65536,3.08:0.435604:0,3.64:-0.0192983:0,5.88:-0.0133672:0,6.2:0.699005:0,6.76:0.51521:0,7.12:-4.47035e-008:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_nose_y">
+    <Spline Keys="0:0:0,1.84:-0.0519637:0,2.36:0.641111:65536,3.08:0.435604:0,3.64:-0.0192983:0,5.88:-0.0133672:0,6.2:0.699005:0,6.76:0.51521:0,7.12:-4.47035e-008:0,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Eyelids">
+   <Channel Flags="0" Name="right_eyelid_lower_y">
+    <Spline Keys="0:0:0,3.64:0.0171514:0,4.88:0:0,6.96:0.0315123:0,7.28:0.024:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="right_eyelid_upper_y">
+    <Spline Keys="0:0:0,3.64:0.0389437:0,4.88:0:0,5.48:-0.257859:0,5.96:-0.326419:0,6.36:-0.667382:0,6.92:-0.485823:0,7.6:-0.0302468:65536,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_eyelid_lower_y">
+    <Spline Keys="0:0:0,3.64:0.0171514:0,4.88:0:0,6.96:0.0315123:0,7.28:0.024:0,8.32:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="left_eyelid_upper_y">
+    <Spline Keys="0:0:0,3.64:0.0389437:0,4.88:0:0,5.48:-0.257859:0,5.96:-0.326419:0,6.36:-0.667382:0,6.92:-0.485823:0,7.6:-0.0302468:65536,8.32:0:0,"/>
+   </Channel>
+  </Channel>
+ </Channel>
+ <Channel Flags="1" Name="LipSync">
+  <Channel Flags="2" Name="Phoneme Strength">
+   <Spline Keys="0:0:0,8.32:0:0,"/>
+  </Channel>
+  <Channel Flags="64" Name="Lipsync Category Strength (_jaw_occlusion)">
+   <Spline Keys="0:0:0,8.32:0:0,"/>
+  </Channel>
+ </Channel>
+ <Sentence Text="">
+  <Words />
+ </Sentence>
+</FacialSequence>

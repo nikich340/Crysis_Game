@@ -1,0 +1,53 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="STH2" />
+  <CAPS code="RUN_" />
+
+  <ExampleList>
+    <Example Position=" 0, 1, 0" AName="combat_runUphill_rifle_forward_fast_01" />
+    <Example Position="-1, 0, 0" AName="combat_runStrafe_rifle_left_fast_01" />
+    <Example Position=" 0,-1, 0" AName="combat_run_rifle_back_fast_01" />
+    <Example Position=" 1, 0, 0" AName="combat_runStrafe_rifle_right_fast_01" />
+    <Example Position=" 0, 1, 0" AName="combat_runUphill_rifle_forward_slow_01" />
+    <Example Position="-1, 0, 0" AName="combat_runStrafe_rifle_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="combat_run_rifle_back_slow_01" />
+    <Example Position=" 1, 0, 0" AName="combat_runStrafe_rifle_right_slow_01" />
+
+
+
+    <Example Position=" 0, 1, 0" AName="combat_sprint_rifle_forward_01" />
+    <Example Position="-1, 1, 0" AName="combat_runStrafeCross_rifle_fLeft_fast_01" />
+    <Example Position=" 1, 0, 0" AName="combat_runStrafe_rifle_left_fast_01" />
+    <Example Position=" 0,-1, 0" AName="combat_run_rifle_back_fast_01" />
+    <Example Position=" 1,-1, 0" AName="combat_runStrafeCross_rifle_bRight_fast_01" />
+    <Example Position="+1, 0, 0" AName="combat_runStrafe_rifle_right_fast_01" />
+
+    <Example Position=" 0, 0, 0" AName="combat_run_rifle_forward_fast_01" />
+
+    <Example Position=" 0, 1, 0" AName="combat_run_rifle_forward_slow_01" />
+    <Example Position="-1, 1, 0" AName="combat_runStrafeCross_rifle_fLeft_slow_01" />
+    <Example Position=" 1, 0, 0" AName="combat_runStrafe_rifle_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="combat_run_rifle_back_slow_01" />
+    <Example Position=" 1,-1, 0" AName="combat_runStrafeCross_rifle_bRight_slow_01" />
+    <Example Position="+1, 0, 0" AName="combat_runStrafe_rifle_right_slow_01" />
+
+    <Example Position="-1,+1, 0" AName="combat_run_rifle_left_fast_01" />
+    <Example Position="+1,+1, 0" AName="combat_run_rifle_right_fast_01" />
+    <Example Position="-1,-1, 0" AName="combat_run_rifle_left_slow_01" />
+    <Example Position="+1,-1, 0" AName="combat_run_rifle_right_slow_01" />
+
+
+
+
+    <Example Position=" 0, 1, 0" AName="combat_runDownhill_rifle_forward_fast_01" />
+    <Example Position="-1, 0, 0" AName="combat_runStrafe_rifle_left_fast_01" />
+    <Example Position=" 0,-1, 0" AName="combat_run_rifle_back_fast_01" />
+    <Example Position=" 1, 0, 0" AName="combat_runStrafe_rifle_right_fast_01" />
+    <Example Position=" 0, 1, 0" AName="combat_runDownhill_rifle_forward_slow_01" />
+    <Example Position="-1, 0, 0" AName="combat_runStrafe_rifle_left_slow_01" />
+    <Example Position=" 0,-1, 0" AName="combat_run_rifle_back_slow_01" />
+    <Example Position=" 1, 0, 0" AName="combat_runStrafe_rifle_right_slow_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>

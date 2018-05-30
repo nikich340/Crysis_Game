@@ -1,0 +1,145 @@
+<FacialSequence Flags="0" StartTime="0" EndTime="1" Sound="" Joysticks="animations/human/facial/setup/basic_joystick_setup.joy">
+ <Channel Flags="8193" Name="Joystick_controls">
+  <Channel Flags="8193" Name="Mouth">
+   <Channel Flags="8193" Name="Mouth_open/close_wide/narrow">
+    <Channel Flags="0" Name="Mouth_open_press">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_narrow_wide">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Happy_sad">
+    <Channel Flags="0" Name="Happy_sad">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Smile/Frown">
+    <Channel Flags="0" Name="Mouth_smile_frown">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="8193" Name="Lip_mover">
+    <Channel Flags="0" Name="Mouth_upperlip_raiser">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Mouth_chinraiser_depressor">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Pucker/suck_blow">
+    <Channel Flags="0" Name="Mouth_pucker_suck">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Blowing_cheeks">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="lip_temp">
+    <Channel Flags="0" Name="Mouth_pout_bite">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="EyeBrows">
+   <Channel Flags="8193" Name="up_down"/>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="8193" Name="temp">
+    <Channel Flags="0" Name="Brow_outer_raiser_lowerer">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Brow_inner_raiser_lowerer">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Eyes">
+   <Channel Flags="8193" Name="Open_close">
+    <Channel Flags="0" Name="Eye_open_close">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8" Name="Balance">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Jaw">
+   <Channel Flags="0" Name="Jaw_front_masseter">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Jaw_right_left">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Tongue">
+   <Channel Flags="8193" Name="left/righ_up/down">
+    <Channel Flags="0" Name="Tongue_left_right">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Tongue_up_down">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="out">
+    <Channel Flags="0" Name="Tongue_out">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Mouth_position">
+   <Channel Flags="0" Name="mouth_updown">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Mouth_left_right">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Bubblegum">
+   <Channel Flags="0" Name="Mouth_open_press">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Jaw_right_left">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="8193" Name="Neck">
+   <Channel Flags="8193" Name="Look-at">
+    <Channel Flags="0" Name="Neck_up_down">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+    <Channel Flags="0" Name="Neck_left_right">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+   <Channel Flags="8193" Name="Lean_left_right">
+    <Channel Flags="0" Name="Neck_lean">
+     <Spline Keys="0:0:0,"/>
+    </Channel>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Nose">
+   <Channel Flags="0" Name="Nose_flare_compressor">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Nose_pusher_presser">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+  <Channel Flags="1" Name="Eyeballs">
+   <Channel Flags="0" Name="Eyes_Left_right">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+   <Channel Flags="0" Name="Eyes_up_down">
+    <Spline Keys="0:0:0,"/>
+   </Channel>
+  </Channel>
+ </Channel>
+ <Sentence Text="">
+  <Words />
+ </Sentence>
+</FacialSequence>

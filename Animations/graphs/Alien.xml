@@ -1,0 +1,589 @@
+<AnimationSetup version="1">
+ <Character filename="Objects/characters/alien/alienbase/alienBase.cdf"/>
+ <Inputs>
+  <KeyState name="Action" signalled="0" priority="101" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="1" mixinFilter="0" defaultValue="idle">
+   <Key value="carryObject"/>
+   <Key value="cower"/>
+   <Key value="eatTorso"/>
+   <Key value="grabStruggleFP"/>
+   <Key value="idle"/>
+   <Key value="inspectObject"/>
+   <Key value="meleeAttackBender"/>
+   <Key value="meleeMoveBender"/>
+   <Key value="rollTest"/>
+   <Key value="useHologram"/>
+  </KeyState>
+  <IntegerState name="Aiming" signalled="0" priority="9" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="2" min="0" max="2"/>
+  <FloatState name="DesiredSpeed" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="1000"/>
+  <FloatState name="Firing" signalled="0" priority="1" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="10"/>
+  <IntegerState name="Health" signalled="0" priority="300" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="1000" min="0" max="1000"/>
+  <KeyState name="Signal" signalled="1" priority="100" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="1" mixinFilter="0" defaultValue="none">
+   <Key value="activate"/>
+   <Key value="bowSoldier"/>
+   <Key value="dropObject"/>
+   <Key value="enemyLost"/>
+   <Key value="listen"/>
+   <Key value="melee"/>
+   <Key value="meleeRollOutBender"/>
+   <Key value="none"/>
+   <Key value="pickUpObject"/>
+   <Key value="threaten"/>
+  </KeyState>
+  <KeyState name="SignalReaction" signalled="1" priority="200" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" defaultValue="none">
+   <Key value="none"/>
+  </KeyState>
+  <FloatState name="Speed" signalled="0" priority="5" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="1000"/>
+  <KeyState name="Stance" signalled="0" priority="10" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0">
+   <Key value="prone"/>
+   <Key value="vertAlerted"/>
+   <Key value="vertRelaxed"/>
+  </KeyState>
+  <KeyState name="Vehicle" signalled="0" priority="150" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0">
+   <Key value="Alien_warrior"/>
+   <Key value="none"/>
+  </KeyState>
+  <IntegerState name="VehicleSeat" signalled="0" priority="140" attachToBlendWeight="-1" blendWeightMoveSpeed="0" forceGuard="0" mixinFilter="0" min="0" max="10"/>
+ </Inputs>
+ <States>
+  <State id="Alive" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Firing min="0" max="9.9989996"/>
+    <Signal value="none"/>
+    <SignalReaction value="none"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" physics_blending="30" name="TentacleAlienAlive"/>
+  </State>
+  <State id="Dead" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <Template name="TentacleAlienDead"/>
+  </State>
+  <State id="DummyWeight" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="Default"/>
+  </State>
+  <State id="Hub" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="Default"/>
+  </State>
+  <State id="Idle" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Firing min="0" max="9.9989996"/>
+    <Speed min="0" max="0.5"/>
+   </SelectWhen>
+  </State>
+  <State id="ProneIdleCarrySlow" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Action value="carryObject"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="ProneIdleFast" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+  </State>
+  <State id="ProneIdleSlow" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+  </State>
+  <State id="ProneMoveCarryFast" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Action value="carryObject"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="ProneMoveCarrySlow" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Action value="carryObject"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="ProneMoveFast[Aiming]" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Speed />
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_flyProne_forward_fast_01" land_preDelay="" physics_blending="0.4" physics_damping="" physics_jointLimit="" playback_speed="1" speed_fast="1000" speed_slow="11" name="TentacleAlienMovement"/>
+   <Parameterization>
+    <Parameter id="Aiming">
+     <Value id="Aim"/>
+     <Value id="Idle"/>
+    </Parameter>
+    <Override id="Aim">
+     <SelectWhen>
+      <Aiming value="1"/>
+     </SelectWhen>
+     <Template animation="alien_flyProneAim_forward_fast_01"/>
+    </Override>
+    <Override id="Idle">
+     <SelectWhen>
+      <Aiming value="0"/>
+     </SelectWhen>
+    </Override>
+   </Parameterization>
+  </State>
+  <State id="ProneMoveSlow[Aiming]" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="ProneIdleSlow">
+   <SelectWhen>
+    <Speed />
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_flyProne_forward_slow_01" land_preDelay="" physics_blending="0.4" physics_damping="" physics_jointLimit="" playback_speed="1" speed_fast="11" speed_slow="1" name="TentacleAlienMovement"/>
+   <Parameterization>
+    <Parameter id="Aiming">
+     <Value id="Aim"/>
+     <Value id="Idle"/>
+    </Parameter>
+    <Override id="Aim">
+     <SelectWhen>
+      <Aiming value="1"/>
+     </SelectWhen>
+     <Template animation="alien_flyProneAim_forward_slow_01"/>
+    </Override>
+    <Override id="Idle">
+     <SelectWhen>
+      <Aiming value="0"/>
+     </SelectWhen>
+    </Override>
+   </Parameterization>
+  </State>
+  <State id="VertFiring" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Firing min="9.9899998" max="10"/>
+    <Signal />
+    <Speed />
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_fireWeaponVert_01" firing_time="" land_preDelay="" physics_blending=".3" physics_damping="" physics_jointLimit="" playback_speed=".5" speed_fast="1000" speed_slow="0" name="TentacleAlienMovement"/>
+  </State>
+  <State id="VertIdleAlerted" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Signal value="none"/>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+  </State>
+  <State id="VertIdleRelaxed" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Idle">
+   <SelectWhen>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+  </State>
+  <State id="VertMeleeAttack" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="VertMoveAlerted" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+  </State>
+  <State id="VertMoveRelaxed" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_idleVert_relaxed_01" land_preDelay="" physics_blending="0.5" physics_jointLimit="" playback_speed="" speed_fast="1" speed_slow="0.001" name="TentacleAlienMovement"/>
+  </State>
+  <State id="alien_carryObjectWithBracerLoop_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="1" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="carryObject"/>
+   </SelectWhen>
+   <Template TransitionTime=".1" animation="alien_carryObjectWithBracerLoop_01" land_preDelay="" physics_blending=".1" physics_jointLimit="" playback_speed="1" speed_fast="" speed_slow="" name="TentacleAlienMovement"/>
+   <AttachmentEffect attachment="gravitybubble" pos="0,0,0" effect="" sizeScaleInput="" sizeScaleOffset="0" sizeScaleMult="1" countScaleInput="" countScaleOffset="0" countScaleMult="1"/>
+  </State>
+  <State id="alien_fireWeaponVert02_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="VertFiring">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_fireWeaponVert02_01" firing_time="" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_fireWeaponVert_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_fireWeaponVert_01" firing_time="3" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_flyProneEnemyLocated_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="0.2" animation="alien_replaceMe_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_flyProneEnemyLost_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="enemyLost"/>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_flyProneEnemyLost_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_flyProneIdle_fast_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_flyProneIdle_fast_01" physics_blending=".5" physics_damping="" physics_jointLimit="" playback_speed="" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_flyProneIdle_slow_01" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="1" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_flyProneIdle_slow_01" physics_blending=".3" physics_damping="" physics_jointLimit="" playback_speed="1" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_fromFireVert_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_fromFireWeaponVert_01" physics_blending=".4" physics_damping="" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_fromMeleeAttack_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="" animation="" physics_blending="" physics_damping="" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_grabbed_struggle_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="1" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="grabStruggleFP"/>
+   </SelectWhen>
+   <Template TransitionTime="0.01" aim_pose="" animation="alien_grabbed_struggle_01" physics_blending="0.1" physics_jointLimit="" playback_speed="" structure="" transition_time="" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_hologramUsageDanceEnd_01" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="" animation="alien_hologramUsageDanceEnd_01" physics_blending=".1" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_hologramUsageDanceLoop_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="1" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="useHologram"/>
+    <Health />
+   </SelectWhen>
+   <Template TransitionTime=".2" animation="alien_hologramUsageDanceLoop_01" physics_blending=".1" physics_jointLimit="" playback_speed="1" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_hologramUsageDanceStart_01" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="" animation="alien_hologramUsageDanceStart_01" physics_blending=".1" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_idleAim" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime=".1" animation="alien_idleAim_01" physics_blending=".5" physics_damping="" physics_jointLimit="" playback_speed="1" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_idleVert[Aiming]_alerted_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="idle"/>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_idleVert_alerted_01" land_preDelay="" physics_blending="0.6" physics_damping="" physics_jointLimit="" playback_speed="" speed_fast="1000" speed_slow="0" name="TentacleAlienMovement"/>
+   <Parameterization>
+    <Parameter id="Aiming">
+     <Value id="Aim"/>
+     <Value id="Idle"/>
+    </Parameter>
+    <Override id="Aim">
+     <SelectWhen>
+      <Aiming value="1"/>
+     </SelectWhen>
+     <Template animation="alien_idleAim_01"/>
+    </Override>
+    <Override id="Idle">
+     <SelectWhen>
+      <Aiming value="0"/>
+     </SelectWhen>
+    </Override>
+   </Parameterization>
+  </State>
+  <State id="alien_idleVert[Aiming]_relaxed_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="idle"/>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_idleVert_relaxed_01" land_preDelay="" physics_blending="0.6" physics_damping="" physics_jointLimit="" playback_speed="1" speed_fast="1000" speed_slow="0" name="TentacleAlienMovement"/>
+   <Parameterization>
+    <Parameter id="Aiming">
+     <Value id="Aim"/>
+     <Value id="Idle"/>
+    </Parameter>
+    <Override id="Aim">
+     <SelectWhen>
+      <Aiming value="1"/>
+     </SelectWhen>
+     <Template animation="alien_idleAim_01"/>
+    </Override>
+    <Override id="Idle">
+     <SelectWhen>
+      <Aiming value="0"/>
+     </SelectWhen>
+    </Override>
+   </Parameterization>
+  </State>
+  <State id="alien_inspectingObjectEnd_01" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="1" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime=".2" aim_pose="" animation="alien_inspectingObjectEnd_01" end_aim_pose="" physics_blending=".1" physics_jointLimit="" playback_speed="1" stay_in_state_until="" structure="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_inspectingObjectLoop_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="1" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="inspectObject"/>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+   <Template TransitionTime=".2" animation="alien_inspectingObjectLoop_01" physics_blending=".1" physics_jointLimit="" playback_speed="1" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_inspectingObjectStart_01" allowSelect="0" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="2" MovementControlMethodV="1" animationControlledView="0" hurryable="1" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime=".2" aim_pose="" animation="alien_inspectingObjectStart_01" end_aim_pose="" physics_blending=".1" physics_jointLimit="" playback_speed="1" stay_in_state_until="" structure="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_meleeAttackBender" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="meleeAttackBender"/>
+    <Stance />
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_meleeAttackBender_01" physics_blending=".2" physics_damping="" physics_jointLimit="10" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_meleeAttackMiss_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <Template name="Default"/>
+  </State>
+  <State id="alien_meleeAttack_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="" physics_blending="0.1" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_meleeAttack_02" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="" animation="" physics_blending="" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_meleeMoveBender" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="meleeMoveBender"/>
+    <Stance />
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_flyProneAttack_forward_fast_01" land_preDelay="" physics_blending=".3" physics_damping="" physics_jointLimit="10" playback_speed="1" speed_fast="1000" speed_slow="1" stay_in_state_until="" name="TentacleAlienMovement"/>
+  </State>
+  <State id="alien_meleeRollOutBender" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="meleeRollOutBender"/>
+    <Stance />
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_meleeRollOutFinishBender_01" physics_blending=".5" physics_damping="" physics_jointLimit="10" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_melee_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="melee"/>
+    <Stance />
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_melee_01" physics_blending="0.1" physics_damping="" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_melee_initialize" allowSelect="0" includeInGame="1" canMix="0" cost="0" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="" name="AnyCharacterForceStartImmediately"/>
+  </State>
+  <State id="alien_melee_initialize2" allowSelect="0" includeInGame="1" canMix="0" cost="0" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="AnyCharacterForceStartImmediately"/>
+  </State>
+  <State id="alien_observe_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="alien_openMouthAttack_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="alien_operateMachine_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="alien_proneSearch_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_proneSearch_01" physics_blending="0.5" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_proneThreaten_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <DesiredSpeed min="0" max="1000"/>
+    <Signal value="threaten"/>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_proneThreaten_01" physics_blending="0.5" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_proneToVertFollowThrough_fast" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="" aim_pose="" animation="alien_proneToVertFollowThrough_fast_01" land_preDelay="" physics_blending=".5" physics_jointLimit="" playback_speed="1" speed_fast="1000" speed_slow="0" structure="" name="TentacleAlienMovement"/>
+  </State>
+  <State id="alien_proneToVertFollowThrough_slow" allowSelect="0" includeInGame="0" canMix="0" cost="0" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="0.1" animation="alien_proneToVertFollowThrough_slow_01" land_preDelay="" physics_blending=".5" physics_jointLimit="" playback_speed="1" speed_fast="1000" speed_slow="0" name="TentacleAlienMovement"/>
+  </State>
+  <State id="alien_proneToVert_alerted_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="0.2" animation="alien_proneToVert_alerted_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="1" speed_fast="0" speed_slow="1000" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_proneToVert_initFast" allowSelect="0" includeInGame="0" canMix="0" cost="0" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="AnyCharacterForceStartImmediately"/>
+  </State>
+  <State id="alien_proneToVert_initSlow" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="AnyCharacterForceStartImmediately"/>
+  </State>
+  <State id="alien_proneToVert_relaxed_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="0.4" animation="alien_proneToVert_relaxed_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="1" speed_fast="1000" speed_slow="0" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_talkProne_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="alien_talkProne_02" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="prone"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="alien_talkVert_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template name="Default"/>
+  </State>
+  <State id="alien_toFireVert_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_toFireWeaponVert_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdle"/>
+  </State>
+  <State id="alien_toMeleeAttack_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="melee"/>
+   </SelectWhen>
+   <Template TransitionTime="" animation="" physics_blending="" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertEnemyLocated_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_vertEnemyLocated_01" physics_blending="0.5" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertEnemyLost_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="enemyLost"/>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_vertEnemyLost_01" physics_blending="0.5" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertListen_alerted_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="listen"/>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_vertListen_01" physics_blending="0.5" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertListen_relaxed_01" allowSelect="1" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Signal value="listen"/>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_vertListen_01" physics_blending="0.5" physics_jointLimit="" playback_speed="" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertSearch_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Stance value="vertRelaxed"/>
+   </SelectWhen>
+  </State>
+  <State id="alien_vertThreaten_01" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <DesiredSpeed min="0" max="1000"/>
+    <Signal value="threaten"/>
+    <Stance value="vertAlerted"/>
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_vertThreaten_01" physics_blending="0.5" physics_jointLimit="" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertThreaten_01_relaxed" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="idle"/>
+    <DesiredSpeed />
+    <Health />
+    <Signal value="threaten"/>
+    <Speed />
+    <Stance />
+   </SelectWhen>
+   <Template TransitionTime="0.2" animation="alien_vertThreaten_01" physics_blending="0.5" physics_jointLimit="" playback_speed="1" stay_in_state_until="0.95" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertToProne_fast_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="0.1" animation="alien_vertToProne_fast_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="2" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="alien_vertToProne_initFast" allowSelect="0" includeInGame="0" canMix="0" cost="0" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="AnyCharacterForceStartImmediately"/>
+  </State>
+  <State id="alien_vertToProne_initSlow" allowSelect="0" includeInGame="0" canMix="0" cost="0" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template name="AnyCharacterForceStartImmediately"/>
+  </State>
+  <State id="alien_vertToProne_slow_01" allowSelect="0" includeInGame="0" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <Template TransitionTime="0.4" animation="alien_vertToProne_slow_01" physics_blending="0.5" physics_damping="" physics_jointLimit="" playback_speed="2" stay_in_state_until="" name="TentacleAlienIdleToIdle"/>
+  </State>
+  <State id="rollTest" allowSelect="1" includeInGame="1" canMix="0" cost="100" MovementControlMethodH="3" MovementControlMethodV="1" animationControlledView="0" hurryable="0" NoCollider="0" additionalTurnMultiplier="3" skipFirstPerson="0" snapshotTime="0.5" extend="Alive">
+   <SelectWhen>
+    <Action value="rollTest"/>
+   </SelectWhen>
+   <Template TransitionTime="0.1" animation="alien_meleeRollOutFinishBender_01" physics_blending="0" physics_damping="" physics_jointLimit="10" playback_speed="1" stay_in_state_until="" name="TentacleAlienIdle"/>
+  </State>
+ </States>
+ <Transitions>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="ProneIdleSlow"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="ProneMoveFast[Aiming]"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="ProneMoveSlow[Aiming]"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_hologramUsageDanceStart_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_idleVert[Aiming]_alerted_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_idleVert[Aiming]_relaxed_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_inspectingObjectStart_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_meleeAttackBender"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_meleeMoveBender"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_meleeRollOutBender"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_proneThreaten_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_vertThreaten_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="Hub" to="alien_vertThreaten_01_relaxed"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="ProneIdleSlow" to="Hub"/>
+  <Link forceFollowChance="1" cost="100" transitionTime="0" from="ProneIdleSlow" to="alien_flyProneIdle_slow_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="ProneMoveFast[Aiming]" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="ProneMoveSlow[Aiming]" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_flyProneIdle_slow_01" to="ProneIdleSlow"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_hologramUsageDanceEnd_01" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_hologramUsageDanceLoop_01" to="alien_hologramUsageDanceEnd_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_hologramUsageDanceStart_01" to="alien_hologramUsageDanceLoop_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_idleVert[Aiming]_alerted_01" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_idleVert[Aiming]_relaxed_01" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_inspectingObjectEnd_01" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_inspectingObjectLoop_01" to="alien_inspectingObjectEnd_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_inspectingObjectStart_01" to="alien_inspectingObjectLoop_01"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_meleeAttackBender" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_meleeAttackBender" to="alien_melee_initialize2"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_meleeMoveBender" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_meleeMoveBender" to="alien_melee_initialize"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_meleeRollOutBender" to="Hub"/>
+  <Link forceFollowChance="0" cost="0" transitionTime="0" from="alien_melee_initialize" to="alien_meleeAttackBender"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_melee_initialize2" to="alien_meleeRollOutBender"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_proneThreaten_01" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_vertThreaten_01" to="Hub"/>
+  <Link forceFollowChance="0" cost="100" transitionTime="0" from="alien_vertThreaten_01_relaxed" to="Hub"/>
+ </Transitions>
+ <Views>
+  <View name="ActionsAndSignals">
+   <State id="Hub" x="290" y="-1470"/>
+   <State id="alien_grabbed_struggle_01" x="-400" y="-2050"/>
+   <State id="alien_hologramUsageDanceEnd_01" x="740" y="-1310"/>
+   <State id="alien_hologramUsageDanceLoop_01" x="740" y="-1380"/>
+   <State id="alien_hologramUsageDanceStart_01" x="740" y="-1450"/>
+   <State id="alien_inspectingObjectEnd_01" x="740" y="-1610"/>
+   <State id="alien_inspectingObjectLoop_01" x="740" y="-1700"/>
+   <State id="alien_inspectingObjectStart_01" x="740" y="-1780"/>
+   <State id="alien_meleeAttackBender" x="730" y="-2090"/>
+   <State id="alien_meleeMoveBender" x="730" y="-2240"/>
+   <State id="alien_meleeRollOutBender" x="730" y="-1960"/>
+   <State id="alien_melee_initialize" x="730" y="-2160"/>
+   <State id="alien_melee_initialize2" x="730" y="-2020"/>
+   <State id="alien_proneThreaten_01" x="-380" y="-1190"/>
+   <State id="alien_vertThreaten_01" x="-380" y="-1280"/>
+   <State id="alien_vertThreaten_01_relaxed" x="-380" y="-1370"/>
+  </View>
+  <View name="Movement">
+   <State id="Hub" x="-1170" y="-380"/>
+   <State id="ProneIdleSlow" x="-1640" y="-240"/>
+   <State id="ProneMoveFast[Aiming]" x="-1640" y="-480"/>
+   <State id="ProneMoveSlow[Aiming]" x="-1640" y="-380"/>
+   <State id="alien_flyProneIdle_slow_01" x="-2090" y="-130"/>
+   <State id="alien_idleVert[Aiming]_alerted_01" x="-760" y="-440"/>
+   <State id="alien_idleVert[Aiming]_relaxed_01" x="-760" y="-330"/>
+  </View>
+ </Views>
+</AnimationSetup>

@@ -1,0 +1,23 @@
+<LocomotionGroup>
+
+  <BLENDTYPE type="I2M2" />
+  <CAPS code="I2M_" />
+
+  <ExampleList>
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_forward_slow_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_right_slow_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_reverse_slow_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_forward_slow_lfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_left_slow_lfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_reverse_slow_lfoot_01" />
+
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_forward_fast_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_right_fast_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_reverse_fast_rfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_forward_fast_lfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_left_fast_lfoot_01" />
+    <Example Position=" 0, 0, 0" AName="combat_runStart_rocket_reverse_fast_lfoot_01" />
+  </ExampleList>
+
+
+</LocomotionGroup>

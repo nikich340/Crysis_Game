@@ -1,0 +1,1785 @@
+<ExpressionLibrary>
+ <AllEffectors>
+  <Effector Name="_" Type="expression" />
+  <Effector Name="_Angry" Type="expression" />
+  <Effector Name="_AtEase" Type="expression" />
+  <Effector Name="_Attention" Type="expression" />
+  <Effector Name="_Blank" Type="expression" />
+  <Effector Name="_Blink" Type="expression" />
+  <Effector Name="_Blowing_cheeks" Type="morph" />
+  <Effector Name="_Dead" Type="group" />
+  <Effector Name="_Dead1" Type="expression" />
+  <Effector Name="_Effort" Type="expression" />
+  <Effector Name="_Eyebrows Up" Type="expression" />
+  <Effector Name="_Happy" Type="expression" />
+  <Effector Name="_Lips wide narrow" Type="expression" />
+  <Effector Name="_Neck Strainer Extra" Type="expression" />
+  <Effector Name="_old_stuff" Type="group" />
+  <Effector Name="_Open Eyes" Type="expression" />
+  <Effector Name="_Open Jaw" Type="expression" />
+  <Effector Name="_Open Mouth" Type="expression" />
+  <Effector Name="_Pain" Type="expression" />
+  <Effector Name="_Sad" Type="expression" />
+  <Effector Name="_Sleeping" Type="expression" />
+  <Effector Name="_Smile" Type="morph" />
+  <Effector Name="_Squint" Type="expression" />
+  <Effector Name="_Terrified" Type="expression" />
+  <Effector Name="_Tired" Type="expression" />
+  <Effector Name="_Underwater" Type="expression" />
+  <Effector Name="_Upper Lip Raiser" Type="expression" />
+  <Effector Name="aa" Type="expression" />
+  <Effector Name="aa+" Type="expression" />
+  <Effector Name="aa_strong" Type="expression" />
+  <Effector Name="actions" Type="group" />
+  <Effector Name="ae" Type="expression" />
+  <Effector Name="ae+" Type="expression" />
+  <Effector Name="ah" Type="expression" />
+  <Effector Name="ah+" Type="expression" />
+  <Effector Name="Angry" Type="expression" />
+  <Effector Name="animated_expressions" Type="group" />
+  <Effector Name="ao" Type="expression" />
+  <Effector Name="ao+" Type="expression" />
+  <Effector Name="aw" Type="expression" />
+  <Effector Name="aw+" Type="expression" />
+  <Effector Name="Aware_01" Type="expression" />
+  <Effector Name="Aware_02" Type="expression" />
+  <Effector Name="ax" Type="expression" />
+  <Effector Name="ax+" Type="expression" />
+  <Effector Name="ay" Type="expression" />
+  <Effector Name="ay+" Type="expression" />
+  <Effector Name="b" Type="expression" />
+  <Effector Name="b+" Type="expression" />
+  <Effector Name="blank" Type="group" />
+  <Effector Name="blink" Type="expression" />
+  <Effector Name="Blowing_cheeks" Type="morph" />
+  <Effector Name="Brow_inner raiser" Type="expression" />
+  <Effector Name="Brow_Inner_Raiser" Type="morph" />
+  <Effector Name="Brow_Lowerer" Type="morph" />
+  <Effector Name="Brow_lowerer_left" Type="morph" />
+  <Effector Name="Brow_lowerer_right" Type="morph" />
+  <Effector Name="Brow_Outer_Raiser" Type="morph" />
+  <Effector Name="Brow_outer_raiser_left" Type="morph" />
+  <Effector Name="Brow_outer_raiser_right" Type="morph" />
+  <Effector Name="Brow_upper_lower" Type="expression" />
+  <Effector Name="ch" Type="expression" />
+  <Effector Name="ch+" Type="expression" />
+  <Effector Name="Cheek_Raiser" Type="expression" />
+  <Effector Name="Cheek_raiser_01" Type="morph" />
+  <Effector Name="Cheek_raiser_02" Type="morph" />
+  <Effector Name="Cheek_raiser_left" Type="morph" />
+  <Effector Name="Cheek_raiser_right" Type="morph" />
+  <Effector Name="Cheeks Puffing" Type="expression" />
+  <Effector Name="Chin_Raiser" Type="morph" />
+  <Effector Name="chin_upper_raiser" Type="expression" />
+  <Effector Name="chin_upper_rasier" Type="expression" />
+  <Effector Name="Concentrated_01" Type="expression" />
+  <Effector Name="Concentrated_02" Type="expression" />
+  <Effector Name="Concentrated_03" Type="expression" />
+  <Effector Name="ctrl_eyes" Type="group" />
+  <Effector Name="ctrl_neck" Type="group" />
+  <Effector Name="d" Type="expression" />
+  <Effector Name="d+" Type="expression" />
+  <Effector Name="Dead_01" Type="expression" />
+  <Effector Name="Dead_02" Type="expression" />
+  <Effector Name="Dead_03" Type="expression" />
+  <Effector Name="dh" Type="expression" />
+  <Effector Name="dh+" Type="expression" />
+  <Effector Name="Dimpler" Type="morph" />
+  <Effector Name="Dimpler_left" Type="morph" />
+  <Effector Name="Dimpler_right" Type="morph" />
+  <Effector Name="eh" Type="expression" />
+  <Effector Name="eh+" Type="expression" />
+  <Effector Name="er" Type="expression" />
+  <Effector Name="er+" Type="expression" />
+  <Effector Name="ey" Type="expression" />
+  <Effector Name="ey+" Type="expression" />
+  <Effector Name="Eye_left_lower_left" Type="expression" />
+  <Effector Name="Eye_left_lower_middle" Type="expression" />
+  <Effector Name="Eye_left_lower_right" Type="expression" />
+  <Effector Name="Eye_left_upper_left" Type="expression" />
+  <Effector Name="Eye_left_upper_middle" Type="expression" />
+  <Effector Name="Eye_left_upper_right" Type="expression" />
+  <Effector Name="Eye_open_close" Type="expression" />
+  <Effector Flags="2" Name="Eye_Right" Type="group" />
+  <Effector Attachment="" Name="Eyeball_left_lower_left" PosOffset="0,0,0" RotOffset="0,0,0" Type="attachment" />
+  <Effector Attachment="" Name="Eyeball_left_lower_middle" PosOffset="0,0,0" RotOffset="0,0,0" Type="attachment" />
+  <Effector Attachment="" Name="Eyeball_left_lower_right" PosOffset="0,0,0" RotOffset="0,0,0" Type="attachment" />
+  <Effector Attachment="" Name="Eyeball_left_upper_left" PosOffset="0,0,0" RotOffset="0,0,0" Type="attachment" />
+  <Effector Attachment="" Name="Eyeball_left_upper_middle" PosOffset="0,0,0" RotOffset="0,0,0" Type="attachment" />
+  <Effector Attachment="" Name="Eyeball_left_upper_right" PosOffset="0,0,0" RotOffset="0,0,0" Type="attachment" />
+  <Effector Name="Eyelid_left_lower_left" Type="morph" />
+  <Effector Name="Eyelid_left_lower_middle" Type="morph" />
+  <Effector Name="Eyelid_left_lower_right" Type="morph" />
+  <Effector Name="Eyelid_left_upper_left" Type="morph" />
+  <Effector Name="Eyelid_left_upper_middle" Type="morph" />
+  <Effector Name="Eyelid_left_upper_right" Type="morph" />
+  <Effector Name="Eyelid_lower_loweerer" Type="expression" />
+  <Effector Name="Eyelid_lower_lowerer" Type="morph" />
+  <Effector Name="Eyelid_lower_raiser" Type="morph" />
+  <Effector Name="Eyelid_right_lower_left" Type="morph" />
+  <Effector Name="Eyelid_right_lower_middle" Type="morph" />
+  <Effector Name="Eyelid_right_lower_right" Type="morph" />
+  <Effector Name="Eyelid_right_upper_left" Type="morph" />
+  <Effector Name="Eyelid_right_upper_middle" Type="morph" />
+  <Effector Name="Eyelid_right_upper_right" Type="morph" />
+  <Effector Name="Eyelid_right_upper_rightt" Type="morph" />
+  <Effector Name="EyeLid_Tightener" Type="morph" />
+  <Effector Name="Eyelid_tightener_left" Type="morph" />
+  <Effector Name="Eyelid_tightener_right" Type="morph" />
+  <Effector Name="Eyelid_Tightner" Type="expression" />
+  <Effector Name="Eyelid_upper_closer" Type="morph" />
+  <Effector Name="Eyelid_upper_closer_left" Type="morph" />
+  <Effector Name="Eyelid_upper_closer_right" Type="morph" />
+  <Effector Name="Eyelid_upper_lowerer" Type="morph" />
+  <Effector Name="Eyelid_upper_raiser" Type="morph" />
+  <Effector Name="Eyelid_upper_raiser_left" Type="morph" />
+  <Effector Name="Eyelid_upper_raiser_right" Type="morph" />
+  <Effector Name="Eyes Closing" Type="expression" />
+  <Effector Name="f" Type="expression" />
+  <Effector Name="f+" Type="expression" />
+  <Effector Name="Frown" Type="morph" />
+  <Effector Name="Frown_Bulge" Type="morph" />
+  <Effector Name="g" Type="expression" />
+  <Effector Name="g+" Type="expression" />
+  <Effector Name="gulp" Type="expression" />
+  <Effector Name="h+" Type="expression" />
+  <Effector Name="h-" Type="expression" />
+  <Effector Name="Happy" Type="expression" />
+  <Effector Name="ih" Type="expression" />
+  <Effector Name="ih+" Type="expression" />
+  <Effector Name="iy" Type="expression" />
+  <Effector Name="iy+" Type="expression" />
+  <Effector Name="Jaw_Dropper2" Type="morph" />
+  <Effector Name="Jaw_dropper_01" Type="morph" />
+  <Effector Name="Jaw_dropper_02" Type="morph" />
+  <Effector Name="Jaw_Dropper_1" Type="morph" />
+  <Effector Name="Jaw_Dropper_Closed" Type="morph" />
+  <Effector Name="Jaw_front_masseter" Type="expression" />
+  <Effector Name="Jaw_mover_left" Type="morph" />
+  <Effector Name="Jaw_mover_right" Type="morph" />
+  <Effector Name="Jaw_narrow_wide" Type="expression" />
+  <Effector Name="Jaw_presser" Type="morph" />
+  <Effector Name="Jaw_pusher" Type="morph" />
+  <Effector Name="Jaw_right_left" Type="expression" />
+  <Effector Name="Jawn_01" Type="expression" />
+  <Effector Name="Jawn_02" Type="expression" />
+  <Effector Name="Jawn_03" Type="expression" />
+  <Effector Name="jh" Type="expression" />
+  <Effector Name="jh+" Type="expression" />
+  <Effector Name="k" Type="expression" />
+  <Effector Name="k+" Type="expression" />
+  <Effector Name="l" Type="expression" />
+  <Effector Name="l+" Type="expression" />
+  <Effector Name="Lid_tightner" Type="morph" />
+  <Effector Name="Lip_Bite" Type="morph" />
+  <Effector Name="Lip_Funneler" Type="morph" />
+  <Effector Name="Lip_lower_depressor" Type="morph" />
+  <Effector Name="Lip_lower_retract" Type="morph" />
+  <Effector Name="Lip_narrowwide" Type="expression" />
+  <Effector Name="Lip_pout" Type="morph" />
+  <Effector Name="Lip_pout_01" Type="morph" />
+  <Effector Name="Lip_pout_02" Type="morph" />
+  <Effector Name="Lip_Presser" Type="morph" />
+  <Effector Name="Lip_pucker" Type="morph" />
+  <Effector Name="Lip_Pucker_1" Type="morph" />
+  <Effector Name="Lip_Pucker_2" Type="morph" />
+  <Effector Name="Lip_retract" Type="expression" />
+  <Effector Name="Lip_Stretcher" Type="morph" />
+  <Effector Name="Lip_stretcher_left" Type="morph" />
+  <Effector Name="Lip_stretcher_right" Type="morph" />
+  <Effector Name="Lip_suck" Type="expression" />
+  <Effector Name="Lip_suck_01" Type="morph" />
+  <Effector Name="Lip_suck_02" Type="morph" />
+  <Effector Name="Lip_tightner" Type="morph" />
+  <Effector Name="Lip_upper_lowerer" Type="morph" />
+  <Effector Name="Lip_upper_raiser_01" Type="morph" />
+  <Effector Name="Lip_upper_raiser_02" Type="morph" />
+  <Effector Name="Lip_upper_raiser_left" Type="morph" />
+  <Effector Name="Lip_upper_raiser_right" Type="morph" />
+  <Effector Name="Lower_Lip_Depressor" Type="morph" />
+  <Effector Name="m" Type="expression" />
+  <Effector Name="m+" Type="expression" />
+  <Effector Name="Masseter" Type="morph" />
+  <Effector Name="Mood_states" Type="group" />
+  <Effector Name="Mouth_chinraiser_depressor" Type="expression" />
+  <Effector Name="Mouth_left" Type="morph" />
+  <Effector Name="Mouth_left_right" Type="expression" />
+  <Effector Name="Mouth_narrow_wide" Type="expression" />
+  <Effector Name="Mouth_open_press" Type="expression" />
+  <Effector Name="Mouth_open_wide" Type="expression" />
+  <Effector Name="Mouth_play_01" Type="expression" />
+  <Effector Name="Mouth_play_02" Type="expression" />
+  <Effector Name="Mouth_pout_bite" Type="expression" />
+  <Effector Name="Mouth_pucker_suck" Type="expression" />
+  <Effector Name="Mouth_right" Type="morph" />
+  <Effector Name="Mouth_smile_frown" Type="expression" />
+  <Effector Name="Mouth_upllerlip_raiser" Type="expression" />
+  <Effector Name="mouth_upper_lip_raiser" Type="expression" />
+  <Effector Name="Mouth_upperlip_raiser" Type="expression" />
+  <Effector Name="n" Type="expression" />
+  <Effector Name="n+" Type="expression" />
+  <Effector Name="Neck Strainer" Type="morph" />
+  <Effector Name="Neck_down" Type="expression" />
+  <Effector Attachment="" Name="Neck_down_bonectrl" PosOffset="0,0,0" RotOffset="0,0,0" Type="bone" />
+  <Effector Name="Neck_lean" Type="expression" />
+  <Effector Name="Neck_lean_left" Type="expression" />
+  <Effector Attachment="" Name="Neck_lean_left_bonectrl" PosOffset="0,0,0" RotOffset="0,0,0" Type="bone" />
+  <Effector Name="Neck_lean_right" Type="expression" />
+  <Effector Attachment="" Name="Neck_lean_right_bonectrl" PosOffset="0,0,0" RotOffset="0,0,0" Type="bone" />
+  <Effector Name="Neck_left" Type="expression" />
+  <Effector Attachment="" Name="Neck_left_bonectrl" PosOffset="0,0,0" RotOffset="0,0,0" Type="bone" />
+  <Effector Name="Neck_left_right" Type="expression" />
+  <Effector Name="Neck_right" Type="expression" />
+  <Effector Attachment="" Name="Neck_right_bonectrl" PosOffset="0,0,0" RotOffset="0,0,0" Type="bone" />
+  <Effector Name="Neck_up" Type="expression" />
+  <Effector Attachment="" Name="Neck_up_bonectrl" PosOffset="0,0,0" RotOffset="0,0,0" Type="bone" />
+  <Effector Name="Neck_up_down" Type="expression" />
+  <Effector Name="ng" Type="expression" />
+  <Effector Name="ng+" Type="expression" />
+  <Effector Name="Nose_" Type="expression" />
+  <Effector Name="Nose_flare" Type="morph" />
+  <Effector Name="Nose_flare_compressor" Type="expression" />
+  <Effector Name="nose_play_01" Type="expression" />
+  <Effector Name="nose_play_02" Type="expression" />
+  <Effector Name="Nose_presser" Type="morph" />
+  <Effector Name="Nose_pusher" Type="morph" />
+  <Effector Name="Nose_pusher_presser" Type="expression" />
+  <Effector Name="Nose_wrinkler" Type="morph" />
+  <Effector Name="Nostril_compressor" Type="morph" />
+  <Effector Name="Nostril_Flare" Type="morph" />
+  <Effector Name="Nostril_Wrinkler" Type="morph" />
+  <Effector Name="Open_jaw" Type="expression" />
+  <Effector Name="ow" Type="expression" />
+  <Effector Name="ow+" Type="expression" />
+  <Effector Name="oy" Type="expression" />
+  <Effector Name="oy+" Type="expression" />
+  <Effector Name="p" Type="expression" />
+  <Effector Name="p+" Type="expression" />
+  <Effector Name="Pain" Type="group" />
+  <Effector Name="Pain_shot_01" Type="expression" />
+  <Effector Name="Pain_shot_02" Type="expression" />
+  <Effector Name="Pain_shot_03" Type="expression" />
+  <Effector Name="Phonemes" Type="group" />
+  <Effector Name="Phonemes+" Type="group" />
+  <Effector Name="pout" Type="expression" />
+  <Effector Name="r" Type="expression" />
+  <Effector Name="r+" Type="expression" />
+  <Effector Name="Random_idles" Type="group" />
+  <Effector Flags="1" Name="Root" Type="group" />
+  <Effector Name="s" Type="expression" />
+  <Effector Name="s+" Type="expression" />
+  <Effector Name="Sad" Type="expression" />
+  <Effector Name="sh" Type="expression" />
+  <Effector Name="sh+" Type="expression" />
+  <Effector Name="Sleep" Type="expression" />
+  <Effector Name="Sleeping" Type="group" />
+  <Effector Name="Smile" Type="morph" />
+  <Effector Name="Smile_1" Type="morph" />
+  <Effector Name="Smile_2" Type="morph" />
+  <Effector Name="Smile_left" Type="morph" />
+  <Effector Name="Smile_right" Type="morph" />
+  <Effector Name="Snear_Left" Type="morph" />
+  <Effector Name="Surprised" Type="expression" />
+  <Effector Name="Surprised_01" Type="expression" />
+  <Effector Name="Surprised_02" Type="expression" />
+  <Effector Name="t" Type="expression" />
+  <Effector Name="t+" Type="expression" />
+  <Effector Name="th" Type="expression" />
+  <Effector Name="th+" Type="expression" />
+  <Effector Name="Throat" Type="expression" />
+  <Effector Name="Throat_down" Type="morph" />
+  <Effector Name="Throat_gulp" Type="expression" />
+  <Effector Name="Throat_up_01" Type="morph" />
+  <Effector Name="Throat_up_02" Type="morph" />
+  <Effector Name="Tired" Type="expression" />
+  <Effector Name="Tngue_up_down" Type="expression" />
+  <Effector Name="Tongue_01" Type="expression" />
+  <Effector Name="Tongue_02" Type="expression" />
+  <Effector Name="Tongue_down" Type="morph" />
+  <Effector Name="Tongue_in_out" Type="expression" />
+  <Effector Name="Tongue_left" Type="morph" />
+  <Effector Name="Tongue_left_right" Type="expression" />
+  <Effector Name="Tongue_out" Type="morph" />
+  <Effector Name="Tongue_right" Type="morph" />
+  <Effector Name="Tongue_up" Type="morph" />
+  <Effector Name="Tongue_up_down" Type="expression" />
+  <Effector Name="uh" Type="expression" />
+  <Effector Name="uh+" Type="expression" />
+  <Effector Name="underwater" Type="expression" />
+  <Effector Name="Upper_EyeLid_Closer" Type="morph" />
+  <Effector Name="Upper_EyeLid_Raiser" Type="morph" />
+  <Effector Name="uw" Type="expression" />
+  <Effector Name="uw+" Type="expression" />
+  <Effector Name="v" Type="expression" />
+  <Effector Name="v+" Type="expression" />
+  <Effector Name="Visimes" Type="group" />
+  <Effector Name="w" Type="expression" />
+  <Effector Name="w+" Type="expression" />
+  <Effector Name="y" Type="expression" />
+  <Effector Name="y+" Type="expression" />
+  <Effector Name="z" Type="expression" />
+  <Effector Name="z+" Type="expression" />
+  <Effector Name="zh" Type="expression" />
+  <Effector Name="zh+" Type="expression" />
+ </AllEffectors>
+ <Controllers>
+  <Effector Name="_" >
+   <SubCtrl Effector="Frown" Keys="" Weight="0.05" />
+  </Effector>
+  <Effector Name="_Angry" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="" Weight="0.41" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.81" />
+   <SubCtrl Effector="Masseter" Keys="" Weight="1" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="1" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="-0.22" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.72" />
+   <SubCtrl Effector="Lip_tightner" Keys="" Weight="0.46" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.98" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="0.38" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.34" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="" Weight="0.63" />
+   <SubCtrl Effector="Jaw_pusher" Keys="" Weight="0.34" />
+   <SubCtrl Effector="Neck Strainer" Keys="" Weight="0.5" />
+  </Effector>
+  <Effector Name="_AtEase" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.07" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.18" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.18" />
+   <SubCtrl Effector="Dimpler" Keys="" Weight="0.25" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="-0.13" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.08" />
+  </Effector>
+  <Effector Name="_Attention" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.34" />
+   <SubCtrl Effector="Masseter" Keys="" Weight="1" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="0.36" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.25" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.34" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.62" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="0.89" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.31" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="" Weight="0.2" />
+  </Effector>
+  <Effector Name="_Blink" >
+   <SubCtrl Effector="Eyelid_upper_closer" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="_Dead1" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="" Weight="-0.62" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="-0.19" />
+   <SubCtrl Effector="Jaw_dropper_01" Keys="" Weight="0.28" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="" Weight="0.17" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.09" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.15" />
+   <SubCtrl Effector="Lip_lower_depressor" Keys="" Weight="0.25" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.29" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.82" />
+   <SubCtrl Effector="Jaw_pusher" Keys="" Weight="-0.26" />
+   <SubCtrl Effector="Jaw_mover_right" Keys="-1:-0.31,-0.0161812:0.0294118,0.993528:-0.176471," Type="1" Weight="0.31" />
+  </Effector>
+  <Effector Name="_Effort" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="" Weight="0.68" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.87" />
+   <SubCtrl Effector="Masseter" Keys="" Weight="1" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="" Weight="-0.04" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="0.69" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="-0.13" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="-0.17" />
+   <SubCtrl Effector="Lip_pucker" Keys="" Weight="0.25" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.14" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.07" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="0.68" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="" Weight="0.31" />
+   <SubCtrl Effector="Nose_flare" Keys="" Weight="-0.17" />
+   <SubCtrl Effector="Neck Strainer" Keys="" Weight="0.5" />
+  </Effector>
+  <Effector Name="_Eyebrows Up" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="" Weight="-0.23" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.48" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.41" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.51" />
+  </Effector>
+  <Effector Name="_Happy" >
+   <SubCtrl Effector="Masseter" Keys="" Weight="0.68" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="" Weight="0.23" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.35" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.51" />
+   <SubCtrl Effector="Dimpler" Keys="" Weight="0.34" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.68" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.37" />
+  </Effector>
+  <Effector Name="_Neck Strainer Extra" >
+   <SubCtrl Effector="Neck Strainer" Keys="-1:-1,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="_old_stuff" >
+   <SubCtrl Effector="_Lips wide narrow" Keys="" Weight="1" />
+   <SubCtrl Effector="_Sad" Keys="" Weight="1" />
+   <SubCtrl Effector="_Happy" Keys="" Weight="1" />
+   <SubCtrl Effector="_Angry" Keys="" Weight="1" />
+   <SubCtrl Effector="_Blank" Keys="" Weight="1" />
+   <SubCtrl Effector="_Sleeping" Keys="" Weight="1" />
+   <SubCtrl Effector="_Dead1" Keys="" Weight="1" />
+   <SubCtrl Effector="_Terrified" Keys="" Weight="1" />
+   <SubCtrl Effector="_AtEase" Keys="" Weight="1" />
+   <SubCtrl Effector="_Attention" Keys="" Weight="1" />
+   <SubCtrl Effector="_Tired" Keys="" Weight="1" />
+   <SubCtrl Effector="_Underwater" Keys="" Weight="1" />
+   <SubCtrl Effector="_Squint" Keys="" Weight="1" />
+   <SubCtrl Effector="_Effort" Keys="" Weight="1" />
+   <SubCtrl Effector="_Pain" Keys="" Weight="1" />
+   <SubCtrl Effector="_Eyebrows Up" Keys="" Weight="1" />
+   <SubCtrl Effector="_Open Mouth" Keys="" Weight="1" />
+   <SubCtrl Effector="_Blink" Keys="" Weight="1" />
+   <SubCtrl Effector="_Neck Strainer Extra" Keys="" Weight="1" />
+   <SubCtrl Effector="_Open Eyes" Keys="" Weight="1" />
+   <SubCtrl Effector="_Upper Lip Raiser" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="_Open Eyes" >
+   <SubCtrl Effector="EyeLid_Tightener" Keys="-1:0.39,1:-0.39," Type="1" Weight="-0.39" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="-1:-1,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="_Open Jaw" >
+   <SubCtrl Effector="Jaw_dropper_02" Keys="-1:0,-0.00114286:0,0.497143:0.0285715,0.993143:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_dropper_01" Keys="-1:0,0.00227785:0,0.501714:1,1:0.0285715," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Presser" Keys="-0.403189:1,-0.15262:0.828571,0.00683367:0.0285715,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="_Open Mouth" >
+   <SubCtrl Effector="Jaw_dropper_01" Keys="-1:-1,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="_Pain" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="-1:-0.82,0.00934579:0.0294118,1:1," Type="1" Weight="0.82" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.87" />
+   <SubCtrl Effector="Masseter" Keys="" Weight="0.62" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="1" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="-1:-0.62,0.0280374:0.0294118,0.990654:1," Type="1" Weight="0.62" />
+   <SubCtrl Effector="Frown" Keys="-1:-0.5,0.0186916:0.0294118,1:0.705882," Type="1" Weight="0.5" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="0.63" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="-1:-0.78,0.0186916:0.0294118,1:1," Type="1" Weight="0.78" />
+   <SubCtrl Effector="Neck Strainer" Keys="" Weight="0.58" />
+  </Effector>
+  <Effector Name="_Sad" >
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="0.87" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.32" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="-0.48" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.49" />
+   <SubCtrl Effector="Dimpler" Keys="" Weight="-0.21" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.31" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="0.22" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.74" />
+  </Effector>
+  <Effector Name="_Sleeping" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="-0.45" />
+   <SubCtrl Effector="Jaw_dropper_01" Keys="" Weight="0.09" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="" Weight="0.11" />
+   <SubCtrl Effector="Eyelid_upper_closer" Keys="" Weight="1" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="-0.03" />
+   <SubCtrl Effector="Lip_lower_depressor" Keys="" Weight="-1" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.02" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="-0.31" />
+  </Effector>
+  <Effector Name="_Squint" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.87" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="0.87" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="0.38" />
+  </Effector>
+  <Effector Name="_Terrified" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.83" />
+   <SubCtrl Effector="Jaw_dropper_01" Keys="" Weight="0.28" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="" Weight="0.17" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.96" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="-0.57" />
+   <SubCtrl Effector="Lip_pout" Keys="" Weight="0.18" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.89" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.75" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.52" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="" Weight="0.35" />
+   <SubCtrl Effector="Jaw_mover_left" Keys="" Weight="-0.3" />
+  </Effector>
+  <Effector Name="_Tired" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.14" />
+   <SubCtrl Effector="Jaw_dropper_01" Keys="" Weight="0.29" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="" Weight="0.38" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="" Weight="-0.85" />
+   <SubCtrl Effector="Lip_pout" Keys="" Weight="0.39" />
+   <SubCtrl Effector="Frown" Keys="" Weight="0.46" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.19" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="" Weight="0.18" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="" Weight="0.11" />
+  </Effector>
+  <Effector Name="_Underwater" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="" Weight="0.39" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.2" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="" Weight="0.11" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="" Weight="0.55" />
+   <SubCtrl Effector="Lip_tightner" Keys="" Weight="1" />
+   <SubCtrl Effector="Lip_lower_depressor" Keys="" Weight="-0.48" />
+   <SubCtrl Effector="Chin_Raiser" Keys="" Weight="0.37" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="" Weight="0.18" />
+   <SubCtrl Effector="Neck Strainer" Keys="" Weight="0.37" />
+  </Effector>
+  <Effector Name="_Upper Lip Raiser" >
+   <SubCtrl Effector="Nose_wrinkler" Keys="" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="0.37" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="" Weight="0.39" />
+  </Effector>
+  <Effector Name="aa" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00119472:-0.0285714,1:0.457143," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.501266:0,1:-0.685714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="aa+" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00119472:-0.0285714,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.6," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0:-0.0571429,1:0.257143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="actions" >
+   <SubCtrl Effector="blink" Keys="" Weight="1" />
+   <SubCtrl Effector="underwater" Keys="" Weight="1" />
+   <SubCtrl Effector="gulp" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_left_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_up_down" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_lean" Keys="" Weight="1" />
+   <SubCtrl Effector="Pain_shot_01" Keys="" Weight="1" />
+   <SubCtrl Effector="Pain_shot_02" Keys="" Weight="1" />
+   <SubCtrl Effector="Pain_shot_03" Keys="" Weight="1" />
+   <SubCtrl Effector="Surprised_01" Keys="" Weight="1" />
+   <SubCtrl Effector="Surprised_02" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="ae" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0:-0.0285714,1:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00227785:-0.0285714,1:0.428571," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ae+" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0:-0.0285714,1:0.771429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00227785:-0.0285714,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:0,1:0.657143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ah" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="0:0,1:0.0857143," Type="1" Weight="0.34" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00227785:-0.0285714,1:0.514286," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00342071:0,0.997041:0.257143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ah+" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="0:0,1:0.257143," Type="1" Weight="0.34" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00227785:-0.0285714,0.997155:0.857143," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00342071:0,1:0.8," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.0014472:-0.0285714,0.99177:0.714286," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Angry" >
+   <SubCtrl Effector="Frown" Keys="-0.00171524:-0.0571429,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="0.00514579:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="0.00514579:-0.0285714,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Nose_wrinkler" Keys="0.0017153:-0.0285714,0.99657:0.714286," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_front_masseter" Keys="0.0017153:0,1:0.371429," Type="1" Weight="1" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="0.00388098:0,0.994825:0.171429," Type="1" Weight="1" />
+   <SubCtrl Effector="Eyelid_lower_raiser" Keys="0.00388098:0,0.994825:0.457143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="animated_expressions" >
+   <SubCtrl Effector="Lip_suck" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="ao" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00230944:-0.0285714,1:-0.685714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00196469:0,0.997097:0.2," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Funneler" Keys="0.00310564:0,0.996894:0.685714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ao+" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00230944:-0.0285714,1:-0.371429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00288188:-0.0285714,1:-0.485714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00196469:0,1:0.771429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00316453:-0.0285714,1:0.114286," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Funneler" Keys="0.00310564:0,0.996835:0.571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00632906:0,1:-0.257143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="aw" >
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00113505:0,0.997106:0.371429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00113511:0,1:-0.628571," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="0.00308645:-0.0285714,0.997106:0.628571," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="aw+" >
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00113505:0,0.996914:0.742857," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00113511:0,1:-0.114286," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="0.00308645:-0.0285714,1:0.114286," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00149477:0,1:0.342857," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Funneler" Keys="0.00149477:0,1:0.6," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00319493:-0.0285714,1:-0.4," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ax" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00340521:-0.0285714,0.503628:0.371429,0.997097:0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-0.0022831:0,1:-0.0857143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ax+" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00340521:-0.0285714,0.997155:0.771429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-0.0022831:0,1:0.371429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00143063:-0.0571429,0.997054:0.485714," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00281692:0.0285715,1:0.714286," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00281692:-0.0857143,0.99435:-0.657143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ay" >
+   <SubCtrl Effector="Dimpler" Keys="-1:-0.28,0.00246918:-0.0285714,0.997531:0.314286," Type="1" Weight="0.28" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-1:-1,0.00246918:-0.0285714,1:0.2," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-1:-1,-0.00246912:0.0285715,0.995062:0.171429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ay+" >
+   <SubCtrl Effector="Dimpler" Keys="0.00246918:-0.0285714,0.997531:0.314286," Type="1" Weight="0.28" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00246918:-0.0285714,0.997076:0.742857," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-0.00246912:0.0285715,0.997076:0.828571," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0.00147277:-0.0285714,1:0.714286," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00147277:-0.0285714,1:0.685714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0:0.0285715,1:-0.485714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="b" >
+   <SubCtrl Effector="Dimpler" Keys="0:0,1:0.4," Type="1" Weight="0.3" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00234193:0,1:-0.114286," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-0.00371748:-0.0571429,1:-0.142857," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="b+" >
+   <SubCtrl Effector="Dimpler" Keys="0:0,1:0.171429," Type="1" Weight="0.3" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00234193:0,1:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-0.00371748:-0.0571429,0.997076:-0.257143," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="0:0.0571429,0.997076:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="0.00292397:-0.0285714,1:-0.342857," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:-0.0571429,1:0.342857," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="blink" >
+   <SubCtrl Effector="Eyelid_upper_closer" Keys="0.0086956:-0.0363637,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="0.0043478:0,1:-0.436364," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Brow_upper_lower" >
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="0:0.0285715,0.759036:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_Outer_Raiser" Keys="-0.00429183:-0.0571429,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_Lowerer" Keys="-1:1,-0.00401604:-0.0285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ch" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00235295:0,0.996283:0.114286," Type="1" Weight="0.24" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00371742:-0.0285714,0.988848:0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00371742:-0.0285714,1:0.171429," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Funneler" Keys="0.00371742:0.0285715,1:0.314286," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.493671:0,0.994937:0.857143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ch+" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00235295:0,0.996283:0.114286," Type="1" Weight="0.24" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00371742:-0.0285714,0.988848:0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00371742:-0.0285714,1:0.171429," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Funneler" Keys="0.00371742:0.0285715,0.976608:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.493671:0,0.994937:0.857143," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:0.0285715,0.994152:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0.00292397:-0.0285714,1:0.857143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Cheek_Raiser" >
+   <SubCtrl Effector="Cheek_raiser_01" Keys="-1:0,0.00369:0,0.500597:1,0.997611:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_raiser_02" Keys="-1:0,0.00369:0.0285715,0.498208:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Concentrated_01" >
+   <SubCtrl Effector="Jaw_front_masseter" Keys="0.00422835:0.0285715,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00211418:0.0857143,1:0," Type="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="0.00211418:-0.0285714,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00211418:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00211418:-0.0285714,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="0.00211418:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.00211418:-0.0857143,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_left_right" Keys="0.00211418:0.0285715,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="Concentrated_02" >
+   <SubCtrl Effector="Jaw_front_masseter" Keys="0.00422835:0.0285715,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00211418:0.0857143,1:0," Type="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="0.00211418:-0.0285714,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00211418:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00211418:-0.0285714,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="0.00211418:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.00211418:-0.0857143,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_left_right" Keys="0.00211418:0.0285715,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="Concentrated_03" >
+   <SubCtrl Effector="Jaw_front_masseter" Keys="0.00422835:0.0285715,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00211418:0.0857143,1:0," Type="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="0.00211418:-0.0285714,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.00211418:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00211418:-0.0285714,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00211418:0,1:0," Type="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="0.00211418:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.00211418:-0.0857143,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_left_right" Keys="0.00211418:0.0285715,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0571429,1:0," Type="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="ctrl_eyes" >
+   <SubCtrl Effector="Eye_left_lower_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Eye_left_lower_middle" Keys="" Weight="1" />
+   <SubCtrl Effector="Eye_left_lower_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Eye_left_upper_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Eye_left_upper_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Eye_left_upper_middle" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="ctrl_neck" >
+   <SubCtrl Effector="Neck_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_up" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_down" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_lean_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Neck_lean_right" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="d" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:-0.0285714,1:0.314286," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0285714,1:0.0571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00371742:-0.0571429,1:0.342857," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00369006:0,0.996737:0.171429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0,0.993475:0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00163138:0,1:0.0857143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="d+" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:-0.0285714,0.997076:0.857143," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0285714,1:0.0571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00371742:-0.0571429,0.997076:0.571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00369006:0,1:0.485714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0,0.993475:0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00163138:0,0.997076:0.885714," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0.00292397:-0.0285714,0.997076:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="dh" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:-0.0285714,1:0.314286," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0285714,1:0.257143," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00371742:-0.0571429,1:0.685714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00369006:0,0.996737:0.171429," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0,0.993475:0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00163138:0,1:0.0857143," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00319487:0,0.990415:0.228571," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="dh+" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:-0.0285714,0.994152:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0:-0.0285714,0.994152:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.00371742:-0.0571429,1:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00369006:0,0.991228:0.285714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0,0.997076:0.285714," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="0.00163138:0,1:0.857143," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00319487:0,0.979532:0.285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="eh" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0.00146413:0,1:0.6," Type="1" Weight="1" />
+   <SubCtrl Effector="Dimpler" Keys="0.00146413:-0.0571429,1:0.542857," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="eh+" >
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.99431:0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.628571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0.00146413:0,0.991803:-0.228571," Type="1" Weight="1" />
+   <SubCtrl Effector="Dimpler" Keys="0.00146413:-0.0571429,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0.00403768:-0.0285714,0.986541:-0.142857," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="er" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.988287:0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.991215:-0.4," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.498734:0,0.994937:0.428571," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="er+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.994825:0.828571," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.994825:-0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.997413:0.6," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.628571," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.498734:0,0.994937:0.428571," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00129366:0,1:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00129366:-0.0285714,1:0.142857," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ey" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.994178:0.4," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.993174:0.571429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.997126:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.997126:0.257143," Type="1" />
+  </Effector>
+  <Effector Name="ey+" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.542857," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.885714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.99431:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.542857," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.994825:-0.371429," Type="1" />
+  </Effector>
+  <Effector Name="Eye_left_lower_left" >
+   <SubCtrl Effector="Eyelid_left_lower_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Eyeball_left_lower_left" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Eye_left_lower_middle" >
+   <SubCtrl Effector="Eyelid_left_lower_middle" Keys="" Weight="1" />
+   <SubCtrl Effector="Eyeball_left_lower_middle" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Eye_left_lower_right" >
+   <SubCtrl Effector="Eyelid_left_lower_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Eyeball_left_lower_right" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Eye_left_upper_left" >
+   <SubCtrl Effector="Eyelid_left_upper_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Eyeball_left_upper_left" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Eye_left_upper_middle" >
+   <SubCtrl Effector="Eyelid_left_upper_middle" Keys="" Weight="1" />
+   <SubCtrl Effector="Eyeball_left_upper_middle" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Eye_left_upper_right" >
+   <SubCtrl Effector="Eyelid_left_upper_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Eyeball_left_upper_right" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Eye_open_close" >
+   <SubCtrl Effector="Eyelid_upper_closer" Keys="-0.807229:0.857143,-0.00233102:-0.0285714," Type="1" Weight="1" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="-0.00233102:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="-1:1,-0.598394:-0.0285714,0.00401604:-0.0571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Eyelid_lower_lowerer" Keys="-0.00124222:0,0.493045:0,0.826893:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="f" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.990596:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.492163:0.142857,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.485893:0.2,0.99373:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.996865:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00626957:0.0285715,0.460815:-0.0571429,0.996865:-1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="f+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.990596:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.500657:0.142857,0.997372:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.996865:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.495401:-0.0285714,1:-0.971429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="g" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0.485714," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.99665:-0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.9866:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00940442:-0.0285714,1:0.742857," Type="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:-0.0571429,1:0.657143," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.00129366:-0.0285714,0.503234:0.0285715,0.981889:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="g+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0.6," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.628571," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00940442:-0.0285714,0.994744:0.571429," Type="1" />
+   <SubCtrl Effector="Jaw_presser" Keys="0:-0.0571429,1:0.657143," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.00129366:-0.0285714,0.503234:0.0285715,0.981889:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="gulp" >
+   <SubCtrl Effector="Throat" Keys="0.00137174:-0.0285714,0.311386:1,0.843621:-0.285714,0.997257:0," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="h+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.6," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.994805:0.6," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:1," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.571429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Throat" Keys="-0.00129366:0,0.681759:-0.114286,1:-1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="h-" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.542857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Throat" Keys="-0.00129366:0,0.681759:-0.114286,1:-1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Happy" >
+   <SubCtrl Effector="Smile" Keys="0.00142658:0.0285715,1:-0.0142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0.00427961:-0.0571429,1:0.472727," Type="1" Weight="1" />
+   <SubCtrl Effector="Eye_open_close" Keys="-0.00142652:-0.0285714,1:0.545455," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="-0.00375468:-0.0181818,1:-0.0181818," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="0:0,1:0.581818," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ih" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.542857," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.98995:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.6," Type="1" />
+  </Effector>
+  <Effector Name="ih+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.0857143," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.571429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.828571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0.0038023:-0.0571429,1:0.714286," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="iy" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.989916:0.428571," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.485714," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.989916:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.714286," Type="1" />
+  </Effector>
+  <Effector Name="iy+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.997155:0.571429," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.485714," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.994169:0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.995074:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.571429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.514286," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.0012579:-0.0285714,0.997484:0.285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Jaw_front_masseter" >
+   <SubCtrl Effector="Jaw_dropper_01" Keys="0:0,0.1:0.0285715,0.430303:0.228571,0.787879:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_pusher" Keys="0.0030303:-0.0285714,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Masseter" Keys="-1:1,-0.269697:0.0571429,0.0030303:-0.0285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Jaw_right_left" >
+   <SubCtrl Effector="Jaw_mover_left" Keys="-0.985882:1,0.00246918:-0.0571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_mover_right" Keys="-0.00246912:0.0285715,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Jawn_01" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0.0181818,0.836559:-0.145455,0.993548:0.909091," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_right_left" Keys="0.0130435:-0.0181818,0.548387:-0.0363637,1:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="0.0043478:0,0.539785:-0.0545455,0.986956:0.2," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0:0,1:-0.254545," Type="1" Weight="1" />
+   <SubCtrl Effector="Eye_open_close" Keys="-0.00225735:0,1:-0.563636," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_upper_lower" Keys="0.00225735:-0.0181818,1:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00224721:0,0.774194:-0.0363637,0.991011:0.345455," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0.00674158:-0.0181818,1:0.563636," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Jawn_02" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0.0181818,0.831715:0.290909,1:0.763636," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_right_left" Keys="0.0130435:-0.0181818,1:-0.709091," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="0.0043478:0,0.710895:0,1:-0.509091," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0:0,1:-0.254545," Type="1" Weight="1" />
+   <SubCtrl Effector="Eye_open_close" Keys="-0.00225735:0,0.642312:-1,0.982456:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_upper_lower" Keys="0.00225735:-0.0181818,0.991228:0.218182," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00224721:0,0.991011:0.345455," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0.00674158:-0.0181818,0.997807:0.709091," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0.00438595:0,1:0.545455," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Jawn_03" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0.0181818,0.884406:0.454545,0.984733:0.763636," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_right_left" Keys="0.0130435:-0.0181818,0.995633:0.6," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="0.0043478:0,0.995633:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0:0,0.997819:-0.490909," Type="1" Weight="1" />
+   <SubCtrl Effector="Eye_open_close" Keys="-0.00225735:0,0.629226:-0.0363637,0.727372:-1,0.89313:-1,1:-0.272727," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_upper_lower" Keys="0.00225735:-0.0181818,1:-0.709091," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="-0.00224721:0,1:0.527273," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0.00674158:-0.0181818,1:0.563636," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="jh" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.993475:0.542857," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.989933:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00671136:-0.0285714,0.996737:0.371429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="jh+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:1," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="0.00671136:-0.0285714,0.996737:0.371429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="k" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.9968:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.514286," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.495472:-0.0285714,1:0.514286," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="k+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.542857," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.6," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.989987:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.997497:-0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.994994:1," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.495472:-0.0285714,1:0.514286," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="l" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.989761:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00330031:-0.0571429,0.997783:0.428571," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.00330031:-0.0285714,1:0.285714," Type="1" />
+  </Effector>
+  <Effector Name="l+" >
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.994994:0.571429," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.992491:1," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00330031:-0.0571429,0.997783:0.428571," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.00330031:-0.0285714,1:0.285714," Type="1" />
+  </Effector>
+  <Effector Name="Lip_suck" >
+   <SubCtrl Effector="Lip_suck_01" Keys="-0.00209641:0,0.496855:1,1:-0.0285714," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_suck_02" Keys="0.501048:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="m" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.995647:-0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:-0.0857143," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="m+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,0.992883:0.828571," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.995647:-0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.997627:-1," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.99051:-0.0571429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:-0.0857143," Type="1" />
+  </Effector>
+  <Effector Name="Mood_states" >
+   <SubCtrl Effector="Happy" Keys="" Weight="1" />
+   <SubCtrl Effector="Sad" Keys="" Weight="1" />
+   <SubCtrl Effector="Angry" Keys="" Weight="1" />
+   <SubCtrl Effector="Tired" Keys="" Weight="1" />
+   <SubCtrl Effector="Sleep" Keys="" Weight="1" />
+   <SubCtrl Effector="Concentrated_01" Keys="" Weight="1" />
+   <SubCtrl Effector="Concentrated_03" Keys="" Weight="1" />
+   <SubCtrl Effector="Concentrated_02" Keys="" Weight="1" />
+   <SubCtrl Effector="Dead_01" Keys="" Weight="1" />
+   <SubCtrl Effector="Dead_02" Keys="" Weight="1" />
+   <SubCtrl Effector="Dead_03" Keys="" Weight="1" />
+   <SubCtrl Effector="Aware_01" Keys="" Weight="1" />
+   <SubCtrl Effector="Aware_02" Keys="" Weight="1" />
+   <SubCtrl Effector="Surprised_01" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_chinraiser_depressor" >
+   <SubCtrl Effector="Chin_Raiser" Keys="-1:1,0:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_lower_depressor" Keys="-0.00288182:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_left_right" >
+   <SubCtrl Effector="Mouth_left" Keys="-1:1,0:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_right" Keys="-0.00409836:-0.0857143,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_narrow_wide" >
+   <SubCtrl Effector="Lip_pucker" Keys="-0.397394:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Stretcher" Keys="0.00358427:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_tightner" Keys="-1:1,-0.00325733:-0.0285714," Type="1" Weight="-1" />
+  </Effector>
+  <Effector Name="Mouth_open_press" >
+   <SubCtrl Effector="Jaw_dropper_01" Keys="-1:0,0.00369:0,0.500597:1,0.997611:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Jaw_dropper_02" Keys="-1:0,0.00369:0.0285715,0.498208:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_Presser" Keys="-0.402628:1,-0.144564:0.542857,0:-0.0571429,1:0.59," Type="1" Weight="0.59" />
+   <SubCtrl Effector="Masseter" Keys="-1:0.628571,-0.3376:0,0.00160003:-0.0285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_play_01" >
+   <SubCtrl Effector="Mouth_left_right" Keys="-0.0051921:0,1:0.745455," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0.00103843:-0.0181818,0.997923:0.327273," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_pout_bite" >
+   <SubCtrl Effector="Lip_lower_retract" Keys="-1:1,0.00313485:0," Type="1" Weight="-1" />
+   <SubCtrl Effector="Lip_pout_01" Keys="0:-0.0142857,0.498137:1,1:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_pout_02" Keys="0.500621:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_pucker_suck" >
+   <SubCtrl Effector="Lip_suck" Keys="-1:1,-0.0062893:-0.0285714," Type="1" Weight="-1" />
+   <SubCtrl Effector="Lip_pucker" Keys="0:-0.0285714,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_smile_frown" >
+   <SubCtrl Effector="Frown" Keys="-0.795094:1,-0.00230944:-0.0285714," Type="1" Weight="1" />
+   <SubCtrl Effector="EyeLid_Tightener" Keys="0:-0.0285714,0.685921:0.0285715,1:0.742857," Type="1" Weight="1" />
+   <SubCtrl Effector="Neck Strainer" Keys="-1:0.285714,-0.636364:-0.0285714,-0.00144303:-0.0285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Mouth_upperlip_raiser" >
+   <SubCtrl Effector="Lip_upper_raiser_02" Keys="0.410405:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_upper_raiser_01" Keys="-0.00192678:-0.0285714,0.398844:1,1:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Lip_upper_lowerer" Keys="-1:1,0.00317466:0.0285715," Type="1" Weight="-1" />
+  </Effector>
+  <Effector Name="n" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.993363:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.995575:0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.996485:0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00110495:-0.0285714,0.99558:0.142857," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00331491:0,0.99116:0.2," Type="1" />
+  </Effector>
+  <Effector Name="n+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.685714," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,0.995255:0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.993363:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.995575:0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.997627:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00110495:-0.0285714,0.99558:0.142857," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00331491:0,0.99116:0.2," Type="1" />
+  </Effector>
+  <Effector Name="Neck_down" >
+   <SubCtrl Effector="Neck_down_bonectrl" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_lean" >
+   <SubCtrl Effector="Neck_lean_right" Keys="-1:1,0.0086956:0," Type="1" Weight="1" />
+   <SubCtrl Effector="Neck_lean_left" Keys="0.00216925:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_lean_left" >
+   <SubCtrl Effector="Neck_lean_left_bonectrl" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_lean_right" >
+   <SubCtrl Effector="Neck_lean_right_bonectrl" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_left" >
+   <SubCtrl Effector="Neck_left_bonectrl" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_left_right" >
+   <SubCtrl Effector="Neck_left" Keys="0.00462961:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Neck_right" Keys="-1:1,0.00925922:0," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_right" >
+   <SubCtrl Effector="Neck_right_bonectrl" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_up" >
+   <SubCtrl Effector="Neck_up_bonectrl" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Neck_up_down" >
+   <SubCtrl Effector="Neck_up" Keys="0:0,0.973913:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Neck_down" Keys="-1:1,0.0086956:-0.0181818," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ng" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.993363:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.995575:0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.457143," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.0571429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00110495:-0.0285714,0.99558:0.142857," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00331491:0,0.99116:0.2," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.503234:0,1:0.485714," Type="1" />
+  </Effector>
+  <Effector Name="ng+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.995255:0.314286," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.342857," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.995575:0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.485714," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00110495:-0.0285714,0.99558:0.142857," Type="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00331491:0,0.99116:0.2," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.503234:0,1:0.485714," Type="1" />
+  </Effector>
+  <Effector Name="Nose_flare_compressor" >
+   <SubCtrl Effector="Nose_flare" Keys="-0.006993:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Nostril_compressor" Keys="-1:1,-0.00233102:0.0285715," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="nose_play_01" >
+   <SubCtrl Effector="Nose_pusher_presser" Keys="0.0043478:0.0181818,1:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0:0,1:-0.181818," Type="1" Weight="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="-0.0043478:0.0181818,1:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_upper_lower" Keys="0.0086956:-0.0181818,1:-0.381818," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="nose_play_02" >
+   <SubCtrl Effector="Mouth_left_right" Keys="0:0.0181818,1:0.345455," Type="1" Weight="1" />
+   <SubCtrl Effector="nose_play_01" Keys="0.0130435:-0.0181818,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0.0043478:-0.0363637,1:-0.290909," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Nose_pusher_presser" >
+   <SubCtrl Effector="Nose_presser" Keys="-0.0014472:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Nose_pusher" Keys="-1:1,-0.0014472:0," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="ow" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0.4," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.994302:-0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.988604:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.99064:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.994302:0.171429," Type="1" />
+  </Effector>
+  <Effector Name="ow+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.997084:0.571429," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.985423:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.885714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.988604:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.995343:0.4," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.428571," Type="1" />
+  </Effector>
+  <Effector Name="oy" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.994398:0.371429," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.4," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.571429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.9941:0.342857," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.2652:0,0.723157:0.8,1:0.171429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="oy+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.994398:0.371429," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0.114286," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.828571," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.571429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.995343:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.0857143," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.9941:0.342857," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.2652:0,0.723157:0.8,1:0.171429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="p" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,0.987879:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.99697:-0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.990909:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:-0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.990909:-0.6," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:-0.571429," Type="1" />
+   <SubCtrl Effector="Jaw_front_masseter" Keys="0.0030303:-0.0285714,1:0.428571," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="p+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.114286," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,0.997672:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.99697:-0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.990909:-0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:-0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.990909:-0.6," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:-0.685714," Type="1" />
+   <SubCtrl Effector="Jaw_front_masseter" Keys="0.0030303:-0.0285714,1:0.428571," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Phonemes" >
+   <SubCtrl Effector="aa" Keys="" Weight="1" />
+   <SubCtrl Effector="ae" Keys="" Weight="1" />
+   <SubCtrl Effector="aw" Keys="" Weight="1" />
+   <SubCtrl Effector="ay" Keys="" Weight="1" />
+   <SubCtrl Effector="d" Keys="" Weight="1" />
+   <SubCtrl Effector="eh" Keys="" Weight="1" />
+   <SubCtrl Effector="er" Keys="" Weight="1" />
+   <SubCtrl Effector="ey" Keys="" Weight="1" />
+   <SubCtrl Effector="g" Keys="" Weight="1" />
+   <SubCtrl Effector="k" Keys="" Weight="1" />
+   <SubCtrl Effector="l" Keys="" Weight="1" />
+   <SubCtrl Effector="m" Keys="" Weight="1" />
+   <SubCtrl Effector="ow" Keys="" Weight="1" />
+   <SubCtrl Effector="oy" Keys="" Weight="1" />
+   <SubCtrl Effector="p" Keys="" Weight="1" />
+   <SubCtrl Effector="r" Keys="" Weight="1" />
+   <SubCtrl Effector="s" Keys="" Weight="1" />
+   <SubCtrl Effector="sh" Keys="" Weight="1" />
+   <SubCtrl Effector="_" Keys="" Weight="1" />
+   <SubCtrl Effector="th" Keys="" Weight="1" />
+   <SubCtrl Effector="uw" Keys="" Weight="1" />
+   <SubCtrl Effector="v" Keys="" Weight="1" />
+   <SubCtrl Effector="w" Keys="" Weight="1" />
+   <SubCtrl Effector="y" Keys="" Weight="1" />
+   <SubCtrl Effector="ah" Keys="" Weight="1" />
+   <SubCtrl Effector="ao" Keys="" Weight="1" />
+   <SubCtrl Effector="ax" Keys="" Weight="1" />
+   <SubCtrl Effector="b" Keys="" Weight="1" />
+   <SubCtrl Effector="ch" Keys="" Weight="1" />
+   <SubCtrl Effector="dh" Keys="" Weight="1" />
+   <SubCtrl Effector="f" Keys="" Weight="1" />
+   <SubCtrl Effector="h-" Keys="" Weight="1" />
+   <SubCtrl Effector="ih" Keys="" Weight="1" />
+   <SubCtrl Effector="iy" Keys="" Weight="1" />
+   <SubCtrl Effector="jh" Keys="" Weight="1" />
+   <SubCtrl Effector="n" Keys="" Weight="1" />
+   <SubCtrl Effector="ng" Keys="" Weight="1" />
+   <SubCtrl Effector="t" Keys="" Weight="1" />
+   <SubCtrl Effector="uh" Keys="" Weight="1" />
+   <SubCtrl Effector="z" Keys="" Weight="1" />
+   <SubCtrl Effector="zh" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Phonemes+" >
+   <SubCtrl Effector="aa+" Keys="" Weight="1" />
+   <SubCtrl Effector="ae+" Keys="" Weight="1" />
+   <SubCtrl Effector="aw+" Keys="" Weight="1" />
+   <SubCtrl Effector="ay+" Keys="" Weight="1" />
+   <SubCtrl Effector="d+" Keys="" Weight="1" />
+   <SubCtrl Effector="eh+" Keys="" Weight="1" />
+   <SubCtrl Effector="er+" Keys="" Weight="1" />
+   <SubCtrl Effector="ey+" Keys="" Weight="1" />
+   <SubCtrl Effector="g+" Keys="" Weight="1" />
+   <SubCtrl Effector="k+" Keys="" Weight="1" />
+   <SubCtrl Effector="l+" Keys="" Weight="1" />
+   <SubCtrl Effector="m+" Keys="" Weight="1" />
+   <SubCtrl Effector="ow+" Keys="" Weight="1" />
+   <SubCtrl Effector="oy+" Keys="" Weight="1" />
+   <SubCtrl Effector="p+" Keys="" Weight="1" />
+   <SubCtrl Effector="r+" Keys="" Weight="1" />
+   <SubCtrl Effector="s+" Keys="" Weight="1" />
+   <SubCtrl Effector="sh+" Keys="" Weight="1" />
+   <SubCtrl Effector="_" Keys="" Weight="1" />
+   <SubCtrl Effector="th+" Keys="" Weight="1" />
+   <SubCtrl Effector="uw+" Keys="" Weight="1" />
+   <SubCtrl Effector="v+" Keys="" Weight="1" />
+   <SubCtrl Effector="w+" Keys="" Weight="1" />
+   <SubCtrl Effector="y+" Keys="" Weight="1" />
+   <SubCtrl Effector="ah+" Keys="" Weight="1" />
+   <SubCtrl Effector="ao+" Keys="" Weight="1" />
+   <SubCtrl Effector="ax+" Keys="" Weight="1" />
+   <SubCtrl Effector="b+" Keys="" Weight="1" />
+   <SubCtrl Effector="ch+" Keys="" Weight="1" />
+   <SubCtrl Effector="dh+" Keys="" Weight="1" />
+   <SubCtrl Effector="f+" Keys="" Weight="1" />
+   <SubCtrl Effector="h+" Keys="" Weight="1" />
+   <SubCtrl Effector="ih+" Keys="" Weight="1" />
+   <SubCtrl Effector="iy+" Keys="" Weight="1" />
+   <SubCtrl Effector="jh+" Keys="" Weight="1" />
+   <SubCtrl Effector="n+" Keys="" Weight="1" />
+   <SubCtrl Effector="ng+" Keys="" Weight="1" />
+   <SubCtrl Effector="t+" Keys="" Weight="1" />
+   <SubCtrl Effector="uh+" Keys="" Weight="1" />
+   <SubCtrl Effector="z+" Keys="" Weight="1" />
+   <SubCtrl Effector="zh+" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="r" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.99697:0.2," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.981818:-0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.828571," Type="1" />
+  </Effector>
+  <Effector Name="r+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.995343:0.857143," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.994169:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.994169:-0.428571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.828571," Type="1" />
+  </Effector>
+  <Effector Name="Random_idles" >
+   <SubCtrl Effector="Throat_gulp" Keys="" Weight="1" />
+   <SubCtrl Effector="Jawn_01" Keys="" Weight="1" />
+   <SubCtrl Effector="nose_play_01" Keys="" Weight="1" />
+   <SubCtrl Effector="nose_play_02" Keys="" Weight="1" />
+   <SubCtrl Effector="Jawn_02" Keys="" Weight="1" />
+   <SubCtrl Effector="Jawn_03" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_play_01" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Root" >
+   <SubCtrl Effector="Phonemes" Keys="" Weight="1" />
+   <SubCtrl Effector="Phonemes+" Keys="" Weight="1" />
+   <SubCtrl Effector="Visimes" Keys="" Weight="1" />
+   <SubCtrl Effector="Mood_states" Keys="" Weight="1" />
+   <SubCtrl Effector="ctrl_eyes" Keys="" Weight="1" />
+   <SubCtrl Effector="animated_expressions" Keys="" Weight="1" />
+   <SubCtrl Effector="_old_stuff" Keys="" Weight="1" />
+   <SubCtrl Effector="actions" Keys="" Weight="1" />
+   <SubCtrl Effector="ctrl_neck" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="s" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.99697:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.628571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="s+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.114286," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:1," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.997672:0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.2," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.428571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.997672:0.942857," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="Sad" >
+   <SubCtrl Effector="Frown" Keys="0.00142658:0.0285715,1:0.485714," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_upper_lower" Keys="0.00713265:0.0285715,1:-0.857143," Type="1" Weight="1" />
+   <SubCtrl Effector="Chin_Raiser" Keys="0.00857627:-0.0285714,1:0.285714," Type="1" Weight="1" />
+   <SubCtrl Effector="Brow_Inner_Raiser" Keys="-0.00171524:-0.0285714,0.993139:0.942857," Type="1" Weight="1" />
+   <SubCtrl Effector="Eyelid_upper_raiser" Keys="0.00129366:0,1:0.457143," Type="1" Weight="1" />
+   <SubCtrl Effector="Eyelid_lower_raiser" Keys="0.0064683:0,1:0.771429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="sh" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.993939:0.914286," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.99697:0.4," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.516171:0,1:0.657143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="sh+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.993939:0.914286," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.995343:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.428571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:1," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.516171:0,1:0.657143," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Sleep" >
+   <SubCtrl Effector="Eye_open_close" Keys="0.00250626:-0.0571429,1:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="0:-0.0285714,1:0.485714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0.00239235:-0.0285714,1:-0.942857," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="t" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0.114286," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.0030303:-0.0571429,1:0.0571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0:-0.0285714,1:-0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.523933:0,0.997413:0.714286," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="t+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.995485:0.428571," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.995485:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.997743:0.742857," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.0030303:-0.0571429,1:0.0571429," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0:-0.0285714,1:-0.142857," Type="1" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="0.523933:0,0.997413:0.714286," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="th" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.993939:0.342857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.99697:0.885714," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="-0.0030303:-0.0285714,0.987879:0.371429," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.0030303:-0.0285714,1:0.2," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="th+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.993228:0.171429," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.995485:-0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.995485:-0.4," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.995485:0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.997743:0.0571429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.942857," Type="1" />
+   <SubCtrl Effector="Tongue_out" Keys="-0.0030303:-0.0285714,0.987879:0.371429," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.0030303:-0.0285714,1:0.2," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Throat" >
+   <SubCtrl Effector="Throat_down" Keys="-0.982278:-1,0:0,1:0," Type="1" />
+   <SubCtrl Effector="Throat_up_01" Keys="-1:-0,0.00253165:-0.0571429,0.496203:1,1:0," Type="1" />
+   <SubCtrl Effector="Throat_up_02" Keys="0.501266:0,0.994937:1," Type="1" />
+  </Effector>
+  <Effector Name="Throat_gulp" >
+   <SubCtrl Effector="gulp" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="Tired" >
+   <SubCtrl Effector="Eye_open_close" Keys="0.00250626:-0.0285714,1:-0.485714," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0:-0.0571429,0.989975:-0.371429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Tongue_01" >
+   <SubCtrl Effector="Mouth_open_press" Keys="-0.00527984:0,0.993664:0.4," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="0.00316787:0.0545454,0.997888:0.236364," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="0.00105596:-0.0181818,0.993664:0.181818," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0.00105596:-0.0545455,0.993664:-0.618182," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Tongue_02" >
+   <SubCtrl Effector="Mouth_open_press" Keys="0.00527978:-0.0181818,0.389408:0.290909,1:0.327273," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="-0.00311524:0.0545454," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="-0.00105596:0,0.0866808:0.654545,0.88162:0.709091," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_left_right" Keys="0.00105596:0,0.0820353:0.836364,1:-1," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="0.0031153:0,0.150571:-0.418182," Type="1" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0.0031153:0.0181818,0.133956:-0.163636," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Tongue_left_right" >
+   <SubCtrl Effector="Tongue_left" Keys="-1:1,-0.00420171:0," Type="1" Weight="-1" />
+   <SubCtrl Effector="Tongue_right" Keys="0.00609756:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="Tongue_up_down" >
+   <SubCtrl Effector="Tongue_up" Keys="0:0,1:1," Type="1" Weight="1" />
+   <SubCtrl Effector="Tongue_down" Keys="-1:1,0.00392163:-0.0285714," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="uh" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.991228:-0.285714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.994152:0.857143," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="uh+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.994169:0.514286," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.997084:0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.228571," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.987915:0.714286," Type="1" />
+  </Effector>
+  <Effector Name="underwater" >
+   <SubCtrl Effector="Blowing_cheeks" Keys="-1:-1,0:0,1:1," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="uw" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.991228:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:1," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.428571," Type="1" />
+  </Effector>
+  <Effector Name="uw+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,0.991176:0.457143," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.628571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,0.991176:0.542857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.0857143," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.997059:0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0.485714," Type="1" />
+  </Effector>
+  <Effector Name="v" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.885714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.994152:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,0.997076:-1," Type="1" />
+  </Effector>
+  <Effector Name="v+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.994118:0.485714," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-1," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.0571429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:-1," Type="1" />
+  </Effector>
+  <Effector Name="Visimes" >
+   <SubCtrl Effector="Mouth_open_press" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_smile_frown" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="" Weight="1" />
+   <SubCtrl Effector="Jaw_right_left" Keys="" Weight="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="" Weight="1" />
+   <SubCtrl Effector="Nose_flare_compressor" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="" Weight="1" />
+   <SubCtrl Effector="Eye_open_close" Keys="" Weight="1" />
+   <SubCtrl Effector="Brow_upper_lower" Keys="" Weight="1" />
+   <SubCtrl Effector="Jaw_front_masseter" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_left_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Tongue_out" Keys="" Weight="1" />
+   <SubCtrl Effector="Tongue_up_down" Keys="" Weight="1" />
+   <SubCtrl Effector="Tongue_left_right" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="" Weight="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="" Weight="1" />
+   <SubCtrl Effector="Throat" Keys="" Weight="1" />
+   <SubCtrl Effector="Nose_pusher_presser" Keys="" Weight="1" />
+  </Effector>
+  <Effector Name="w" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.997076:-1," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:-0.0285714," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.2," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="w+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.997076:-1," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0.142857," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0.4," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:-0.0285714," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:-0.2," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="y" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.994152:0.314286," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.828571," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.98538:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.979532:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.628571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.513583:-0.0285714,1:0.371429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="y+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0.685714," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,0.997084:0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.98538:0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.979532:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.628571," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Throat" Keys="0.513583:-0.0285714,1:0.371429," Type="1" Weight="1" />
+  </Effector>
+  <Effector Name="z" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.991228:0.314286," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.0857143," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.988304:0.685714," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.994152:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.257143," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.994152:0.771429," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="z+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.991228:0.314286," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.0857143," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,1:-0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:-0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.997084:0.371429," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.857143," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="zh" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,0.991228:0.714286," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.994152:0.314286," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,1:0.2," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,0.994152:0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+  <Effector Name="zh+" >
+   <SubCtrl Effector="Lip_Funneler" Keys="-0:0,1:0," Type="1" />
+   <SubCtrl Effector="Cheek_Raiser" Keys="-0:-0,0.994169:0.514286," Type="1" />
+   <SubCtrl Effector="Dimpler" Keys="-0:-0,1:0.657143," Type="1" />
+   <SubCtrl Effector="Mouth_narrow_wide" Keys="0:0,0.994169:0.628571," Type="1" />
+   <SubCtrl Effector="Mouth_open_press" Keys="-0:-0,1:0," Type="1" />
+   <SubCtrl Effector="Mouth_pucker_suck" Keys="-0:0,0.994169:-0.171429," Type="1" />
+   <SubCtrl Effector="Mouth_upperlip_raiser" Keys="0:-0,0.988338:0.514286," Type="1" />
+   <SubCtrl Effector="Mouth_chinraiser_depressor" Keys="-0:-0,1:0.942857," Type="1" />
+   <SubCtrl Effector="Mouth_pout_bite" Keys="-0:-0,1:0," Type="1" />
+  </Effector>
+ </Controllers>
+</ExpressionLibrary>

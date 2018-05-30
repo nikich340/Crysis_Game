@@ -1,0 +1,16 @@
+<LocomotionGroup>
+
+<BLENDTYPE type="S__1" />
+<CAPS code="RUN_" />
+
+<ExampleList>
+	<Example Position=" 0, 1, 0" AName="crouch_walk_rifle_forward_slow_01" />
+	<Example Position="-1, 1, 0" AName="crouch_walkStrafeCross_rifle_fLeft_slow_01" />
+	<Example Position=" 1, 0, 0" AName="crouch_walkStrafe_rifle_left_slow_01" />
+	<Example Position=" 0,-1, 0" AName="crouch_walk_rifle_back_slow_01" />
+	<Example Position=" 1,-1, 0" AName="crouch_walkStrafeCross_rifle_bRight_slow_01" />
+	<Example Position="+1, 0, 0" AName="crouch_walkStrafe_rifle_right_slow_01" />
+</ExampleList>
+</LocomotionGroup>
+
+
