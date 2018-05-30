@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" AlphaTest="0.1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/rubbish_papers/paper_04.dds" Filter="4" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

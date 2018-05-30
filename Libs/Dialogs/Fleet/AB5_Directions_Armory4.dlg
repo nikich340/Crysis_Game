@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB5_Directions_Armory4" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab5_amr003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="You need to go to the armory, sir.##"/>
+</DialogScript>

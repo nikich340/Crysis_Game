@@ -1,0 +1,6 @@
+<DialogScript Name="Ice.2_Barnes_After_This_is_Nomand" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/major_strickland_ice_ab2_x0001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/nomad_ice_ab2_cf79599a" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/major_strickland_ice_ab2_c0f3cc67" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/nomad_ice_ab2_ea8de197" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

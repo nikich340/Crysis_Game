@@ -1,0 +1,28 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="-60,10,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="600,50,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:SmartObjectHelper" flags="0" Id="4" pos="0,230,0" >
+   <Inputs entityId="0" soclass_class="JumpableTank" sohelper_helper="Jumpable:JumpPoint1" />
+  </Node>
+  <Node Class="AI:AISignal" flags="0" Id="5" pos="200,-90,0" >
+   <Inputs entityId="0" fValue="0" id="0" iValue="0" posValue="0,0,0" posValue2="0,0,0" signal="JUMP_TO" sValue="" />
+  </Node>
+  <Node Class="Time:Delay" flags="0" Id="6" pos="400,30,0" >
+   <Inputs delay="2" />
+  </Node>
+  <Node Class="AI:AISignal" flags="1" Id="7" pos="460,120,0" >
+   <Inputs entityId="0" fValue="0" id="0" iValue="0" posValue="0,0,0" posValue2="0,0,0" signal="GO_TO_JUMP" sValue="" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="5" nodeOut="4" portIn="posValue" portOut="pos" />
+  <Edge enabled="1" nodeIn="6" nodeOut="5" portIn="in" portOut="done" />
+  <Edge enabled="1" nodeIn="7" nodeOut="6" portIn="entityId" portOut="out" />
+  <Edge enabled="1" nodeIn="2" nodeOut="7" portIn="end" portOut="done" />
+ </Edges>
+</Graph>

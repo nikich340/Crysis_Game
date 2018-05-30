@@ -1,0 +1,347 @@
+<PrefabsLibrary Name="Lights">
+ <Prefab Name="AirField.Floodlight_Tower_a" Id="{A75B850C-D813-49FE-9F52-C97A65216F77}">
+  <Objects>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{5DCE0D0B-4C75-4D10-9C5A-961C585454AE}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1196" NotTriangulate="0" OutdoorOnly="0" Pos="1.4729004,2.1762695,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.67559016,0,0,-0.73727739" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{914E1FE6-BD70-4B54-8C83-D767248536D7}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1197" NotTriangulate="0" OutdoorOnly="0" Pos="1.4729004,2.1762695,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.67559016,0,0,-0.73727739" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{07CCC653-C19E-4C72-9CEA-097D515A7BCA}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1198" NotTriangulate="0" OutdoorOnly="0" Pos="1.5804443,3.4052734,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.67559016,0,0,-0.73727739" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{33B41722-C9F8-46EA-959C-F459F7008D94}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1199" NotTriangulate="0" OutdoorOnly="0" Pos="2.4313965,3.7504883,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.99904823,0,0,-0.043619379" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{5CF64507-6584-4F31-B63A-878B183ED1CA}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1200" NotTriangulate="0" OutdoorOnly="0" Pos="1.8631592,1.4429932,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.99904823,0,0,0.043619335" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{0DA3E6C8-0F17-4997-BD0B-A055422A97F8}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1201" NotTriangulate="0" OutdoorOnly="0" Pos="3.6049805,2.0661621,2.2271118" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.57357651,0,0,0.819152" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{AD122909-7426-4736-A067-2CA5284E6ED9}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1202" NotTriangulate="0" OutdoorOnly="0" Pos="1.5689697,1.5698242,2.2271118" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.90630776,0,0,-0.42261827" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{458476DB-521A-448A-B7ED-FF69E66E59BF}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1203" NotTriangulate="0" OutdoorOnly="0" Pos="2.8341064,3.5845947,2.2271118" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.34202015,0,0,0.93969262" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{FFA18E07-84A7-47BC-AD33-71F1F6D47493}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1204" NotTriangulate="0" OutdoorOnly="0" Pos="3.1837158,3.2073975,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.819152,0,0,-0.57357651" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{80C1BE4F-57CC-46E3-81DE-2F8E9075D399}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1205" NotTriangulate="0" OutdoorOnly="0" Pos="1.4729004,2.1762695,2.2271118" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.67559016,0,0,-0.73727739" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{A96F8887-6110-4054-8D6D-3D255A8A198E}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1206" NotTriangulate="0" OutdoorOnly="0" Pos="3.2346191,3.0966797,2.2271118" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.57357651,0,0,0.819152" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{B5817F25-852F-4169-87F6-C96D6A581CDE}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1207" NotTriangulate="0" OutdoorOnly="0" Pos="1.5804443,3.4052734,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.67559016,0,0,-0.73727739" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{23A5A2A7-35D4-4FC1-A55E-EEA435317B33}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1208" NotTriangulate="0" OutdoorOnly="0" Pos="3.0545654,3.3699951,2.3423615" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.38268346,0,0,0.9238795" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{52F7A5DA-40E3-4024-9FBF-09F9E0A586E7}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1209" NotTriangulate="0" OutdoorOnly="0" Pos="2.4313965,3.7504883,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.99904823,0,0,-0.043619379" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{14570110-562C-43CB-8394-78ADF779027D}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1210" NotTriangulate="0" OutdoorOnly="0" Pos="1.7498779,3.7241211,2.2271118" Prefab="Objects\library\architecture\barriers\sandbags\sandbag.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.95371699,0,0,0.30070573" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{474A73A0-A47C-400E-9843-B7BAC87049BC}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1211" NotTriangulate="0" OutdoorOnly="0" Pos="3.6054688,2.0480957,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.819152,0,0,-0.57357651" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{1FCD4060-7312-41B9-A70B-04B0E690538F}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1212" NotTriangulate="0" OutdoorOnly="0" Pos="3.1837158,3.2073975,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.819152,0,0,-0.57357651" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{DFF24256-012A-4460-8D77-CC2EBC349278}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1213" NotTriangulate="0" OutdoorOnly="0" Pos="1.8631592,1.4429932,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.99904823,0,0,0.043619335" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{120643D5-9D33-4801-9E21-F5A2ACABECE1}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1214" NotTriangulate="0" OutdoorOnly="0" Pos="3.0922852,1.5505371,0.68104553" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.99904823,0,0,0.043619335" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{5CE1F3BB-87F2-4708-AEB0-3B77CCAE3F95}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1215" NotTriangulate="0" OutdoorOnly="0" Pos="3.6054688,2.0480957,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.819152,0,0,-0.57357651" Type="Brush" ViewDistRatio="180"/>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{013BB907-1F91-4382-BE5B-7A5D6343CB72}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="sandbag_wall_high1216" NotTriangulate="0" OutdoorOnly="0" Pos="3.0922852,1.5505371,1.3487549" Prefab="Objects\library\architecture\barriers\sandbags\sandbag_wall_high.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Rotate="0.99904823,0,0,0.043619335" Type="Brush" ViewDistRatio="180"/>
+   <Object AreaId="0" CastShadow="1" Closed="1" ColorRGB="255" DisplayFilled="1" EntityClass="AreaShape" GroupId="0" Height="0" HiddenInGame="0" Id="{B17C99F4-DC0A-40D0-A9A6-00188F86C8A2}" Layer="Main" LodRatio="100" Name="ForbiddenArea34" Pos="4.1121826,1.375,1.0867157" RecvShadow="1" Type="ForbiddenArea" ViewDistRatio="100" Width="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-3.1496582,-0.3581543,-0.125"/>
+     <Point Pos="-2.9790039,2.7971191,-0.125"/>
+     <Point Pos="-0.75244141,2.6219482,0"/>
+    </Points>
+   </Object>
+   <Object CastLightmap="0" CastShadowMaps="1" ColorRGB="16777215" Hideable="0" Id="{B997785D-4598-472D-8191-089689CDD154}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="approach_light235" NotTriangulate="0" OutdoorOnly="0" Pos="2.5,2.625,0.875" Prefab="Objects\Brushes\airfield\lights\floodlight_tower.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="12" Rotate="0.70710683,0,0,-0.70710671" Scale="2,2,2" Type="Brush" ViewDistRatio="255"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{01FBDD94-8FA0-4F0C-9F7F-41668A08BE78}" Layer="Main" LodRatio="100" Material="Materials/sun/sun_beam" Name="SpotLights.SpotLight_Blue2" Pos="2.625,1.8843994,18.104797" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="0.69034553,0.15304591,0.15304592,-0.69034553" Type="EntityArchetype" ViewDistRatio="100"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="AirField.Runway_Light" Id="{BA9603BF-64FD-4D56-8094-D7ABF5D78182}">
+  <Objects>
+   <Object CastLightmap="0" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{C412C0B6-7EC0-40A7-BA79-315E035EBF32}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="approach_light220" NotTriangulate="0" OutdoorOnly="0" Pos="1.0786133,0.99389648,0.78598022" Prefab="Objects\Brushes\airfield\lights\runway_light.cgf" ReceiveLightmap="0" RecvShadowMaps="1" RndFlags="4" Type="Brush" ViewDistRatio="255"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{32910706-1AA6-42BD-958D-F48735A2BA2C}" Layer="Main" LodRatio="100" Material="Materials/Lightbeams/lightglow_white" Name="PointLights.PointLight_White5" Pos="1.083374,1,1.0833435" Prototype="{97945417-56FB-41AA-81F3-05B3CF8F791E}" RecvShadow="1" Rotate="0.73727733,0,-0.67559022,0" Type="EntityArchetype" ViewDistRatio="255"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Harbour.Floodlight_Tower" Id="{9C3837D0-2E22-46F7-9645-CD5835B0E582}">
+  <Objects>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{D3842D49-3F1D-4E85-A220-B11BC775147A}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="harbour_floodlight1" NotTriangulate="0" OutdoorOnly="0" Pos="2,2,0" Prefab="Objects\Library\Architecture\Harbour\light_system\harbour_floodlight.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="548" Type="Brush" ViewDistRatio="100"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{0255B633-3511-4607-8B51-6B0086CCB153}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White1" Pos="3,7.9997559,23.222847" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="1,0,0,4.2146851e-008" Type="EntityArchetype" ViewDistRatio="100"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Harbour.Floodlight_Tower_a" Id="{33D8D1B2-DC85-44CF-ACB4-61E1379F7CEC}">
+  <Objects>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{0BE06F3A-BDB1-40E8-9EDB-EE11B9EB223F}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White14" Pos="4.4226074,1.8676758,19" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="0.87873966,0.046204932,0.46703741,-0.086935483" Type="EntityArchetype" ViewDistRatio="100"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{347BD3F1-226B-474D-B004-D240342EBE02}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White17" Pos="3.5986328,3.8735352,19" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="0.75411177,-0.24416921,0.40079948,0.45940897" Type="EntityArchetype" ViewDistRatio="100"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{760457B2-5E97-492A-87C5-D6E20BD4D112}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White13" Pos="1.5847168,3.6223145,19" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="0.36551133,-0.39142659,0.1730887,0.82657546" Type="EntityArchetype" ViewDistRatio="100"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{2B35DBAF-54DD-468A-9FF5-761704D883DE}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White15" Pos="0.84472656,1.9763184,19" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="-0.18009432,-0.38638386,-0.077207133,0.90128386" Type="EntityArchetype" ViewDistRatio="100"/>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{7ACA96CF-9E17-45CD-8DC4-B5A7C646444F}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="harbour_floodlight3" NotTriangulate="0" OutdoorOnly="0" Pos="2.5959473,2.4914551,0" Prefab="Objects\Library\Architecture\Harbour\light_system\harbour_floodlight.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="548" Type="Brush" ViewDistRatio="100"/>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{DDAE27CE-FAFA-4CBF-A00B-E76F3486507B}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White12" Pos="2.4475098,0.7097168,19" Prototype="{328F965A-585F-4814-9C3E-D83B75533DCF}" RecvShadow="1" Rotate="0.64676547,0.29051659,0.2929095,-0.64148152" Type="EntityArchetype" ViewDistRatio="100"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Harbour.Streetlight" Id="{6E0DF7F1-AF97-42D5-83AA-5EF14A194A39}">
+  <Objects>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{DA9E12BB-BBF7-45BF-8BCC-C3A915D1F625}" Layer="Main" LodRatio="100" Material="Materials/lightbeams/lightbeam_floodlight" Name="PointLights.PointLight_White21" Pos="0.66503906,0.65844727,8.1202927" Prototype="{B4D57573-A512-42FC-8B66-86B1FCD0B949}" RecvShadow="1" Rotate="0.13683957,0.70187855,0.14024919,-0.68481499" Type="EntityArchetype" ViewDistRatio="100"/>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{3E0BB919-481E-4940-B65A-CA4D08D7108F}" Layer="Main" LightmapQuality="1" LodRatio="100" Name="harbour_streetlight1" NotTriangulate="0" OutdoorOnly="0" Pos="0.65429688,2.8476563,6.1035156e-005" Prefab="Objects\Library\Architecture\Harbour\light_system\harbour_streetlight.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="548" Type="Brush" ViewDistRatio="100"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Village.Hut_Roof_Light" Id="{5B578D81-E02F-46E3-AB1F-739DDD44DB4E}"/>
+ <Prefab Name="Mine.mobile_light" Id="{1C41275A-0DF8-4C14-B4C5-D740076DA406}">
+  <Objects>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{B90C78FD-FF17-4C83-A70A-60C74767BEDC}" Layer="houses" LodRatio="100" Name="machines/mobile light.mobile_light1" Pos="1.5367126,1.1867371,0.099693298" Prototype="{866FF1BE-9631-4D4E-995B-A663C4A96FD8}" RecvShadow="1" Type="EntityArchetype" ViewDistRatio="100"/>
+   <Object CastShadow="0" ColorRGB="65535" HiddenInGame="0" Id="{7CB8BE89-8F53-46FF-AE17-04FDF3E89FC7}" Layer="houses" LodRatio="100" Name="machines/mobile light.mobile_light_lamps1" Pos="1.8473053,1.2064362,1.8662262" Prototype="{4CDA3962-0269-46E2-A1BF-DA1F18EB16CA}" RecvShadow="1" Type="EntityArchetype" ViewDistRatio="100"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Village.Paper_Lantern_1" Id="{772149DE-1F1E-4176-86B1-C644410C147B}">
+  <Objects>
+   <Object Type="Rope" Layer="Clouds" Id="{70C58996-4AD8-46D5-8EC7-BF29D46E18E9}" Name="LowerRope" Pos="1,1.00458,1.12101" ColorRGB="65535" Material="rope" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.005" anchor_radius="0.02" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="10" friction="2" friction_pull="0.5" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0"/>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="0,-0.00454712,-0.121014"/>
+    </Points>
+   </Object>
+   <Object Type="Rope" Layer="Clouds" Id="{65ECA51E-2B15-4239-862E-B97D8565F4B5}" Name="UpperRope" Pos="1,1.00458,1.75511" ColorRGB="65535" Material="rope" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.005" anchor_radius="0.02" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="10" friction="2" friction_pull="2" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0"/>
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="0,-0.00454712,-0.245817"/>
+    </Points>
+   </Object>
+   <Object Type="Entity" Layer="Clouds" Id="{774BA9DC-177F-44EB-B668-EF4F63BE0632}" Name="Pendant" Pos="1.00201,1.00058,0.994804" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="BasicEntity">
+    <Properties bAutoGenAIHidePts="0" object_Model="objects/library/lights/paper_lantern/pennant.cgf" object_ModelFrozen="" bPickable="1" soclasses_SmartObjectClass="" bUsable="1" UseMessage="press USE to grab object!">
+     <Physics bActivateOnDamage="0" bArticulated="0" Density="-1" Mass="10" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Clouds" Id="{6F4AC31A-4C98-4CE6-B73F-7B36640D6023}" Name="LanternBody" Pos="1,1.00058,1.50911" ColorRGB="65535" Material="objects/library/lights/paper_lantern/paper_lantern" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="255" ViewDistRatio="255" HiddenInGame="0" RecvWind="0" EntityClass="DestroyableObject">
+    <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="" bExplode="1" fHealth="100" object_Model="objects/library/lights/paper_lantern/lantern.cgf" object_ModelDestroyed="objects/library/lights/paper_lantern/lantern_broken.cgf" ModelSubObject="" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseMessage="press USE to grab object!">
+     <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+     <DamageMultipliers fBullet="1" fCollision="1"/>
+     <Explosion Damage="0" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="0" EffectScale="0" HoleSize="0" Pressure="0" Radius="0" TerrainHoleSize="0">
+      <Direction x="0" y="0" z="1"/>
+     </Explosion>
+     <Physics bActivateOnDamage="0" Density="-1" Mass="25" bResting="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+     </Physics>
+     <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+     <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Clouds" Id="{7B1EC3DE-2E17-4439-81CD-FD9BF7790F5C}" Name="Light" Parent="{6F4AC31A-4C98-4CE6-B73F-7B36640D6023}" Pos="0,-0.0230103,-0.199699" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SimpleLight">
+    <Properties bActive="1" Radius="3">
+     <Color clrColor="0.992157,0.929412,0.815686" fColorMultiplier="2" fHDRDynamic="0" fSpecularPercentage="100"/>
+     <CoverageBuffer bBuildCoverage="1" bIndoorLight="0"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="0"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="90" texture_Texture=""/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="0"/>
+    </Properties>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:SimpleLight" pos="220,-140,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Active="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="4" Class="entity:DestroyableObject" pos="-220,-80,0" flags="0" InHideMask="511" OutHideMask="511" EntityGUID="{6F4AC31A-4C98-4CE6-B73F-7B36640D6023}" EntityGUID_64="4CE64C986F4AC31A">
+       <Inputs entityId="0" DisableUsable="0" EnableUsable="0" Explode="0" Hide="0" Hit="0" Reset="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="6" Class="entity:DestroyableObject" pos="-220,-140,0" flags="0" InHideMask="511" OutHideMask="511" EntityGUID="{F347697E-4294-4EE9-A32E-B9A659965367}" EntityGUID_64="4EE94294F347697E">
+       <Inputs entityId="0" DisableUsable="0" EnableUsable="0" Explode="0" Hide="0" Hit="0" Reset="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="7" Class="Logic:Any" pos="-30,-110,0" flags="0" InHideMask="63" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="8" Class="Math:SetNumber" pos="90,-140,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="7" nodeOut="4" portIn="in2" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="6" portIn="in1" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="7" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="7" portIn="set" portOut="out" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="8" portIn="Active" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Clouds" Id="{F347697E-4294-4EE9-A32E-B9A659965367}" Name="LanternBase" Pos="1.00201,1.00058,1.75661" ColorRGB="65535" Material="proxy" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="255" ViewDistRatio="255" HiddenInGame="0" RecvWind="0" EntityClass="DestroyableObject">
+    <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="" bExplode="0" fHealth="100" object_Model="objects/library/lights/paper_lantern/knot.cgf" object_ModelDestroyed="" ModelSubObject="" bPickable="0" bPlayerOnly="1" soclasses_SmartObjectClass="" bUsable="0" UseMessage="press USE to grab object!">
+     <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+     <DamageMultipliers fBullet="1" fCollision="1"/>
+     <Explosion Damage="1000" Decal="textures/decal/explo_decal.dds" Delay="0" Effect="explosions.grenade_air.explosion" EffectScale="1" HoleSize="10" Pressure="1000" Radius="10" TerrainHoleSize="5">
+      <Direction x="0" y="0" z="1"/>
+     </Explosion>
+     <Physics bActivateOnDamage="0" Density="-1" Mass="10" bResting="0" bRigidBody="0" bRigidBodyActive="0" bRigidBodyAfterDeath="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+     </Physics>
+     <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+     <Vulnerability bBullet="1" bCollision="1" bExplosion="1" bMelee="1" bOther="1"/>
+    </Properties>
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Fleet.Swinging_breakable_rope_hangar" Id="{CF4065A6-D087-4D76-AFCB-1BE0CF9F3A66}">
+  <Objects>
+   <Object Type="Entity" Layer="Damaged_island_interior" Id="{7F9B4330-27E5-474D-BC63-93564A4D67F8}" Name="Destroyable_light1" Pos="0.28198242,-0.00048828125,-0.31071472" ColorRGB="65535" Material="Objects/Library/Architecture/Aircraftcarrier/props/lights/carrier_light9" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="DestroyableObject">
+    <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="" bExplode="1" fHealth="200" object_Model="objects/library/architecture/aircraftcarrier/props/lights/light2b.cgf" object_ModelDestroyed="objects/library/architecture/aircraftcarrier/props/lights/light2b.cgf" ModelSubObject="" bPickable="0" bPlayerOnly="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+     <DamageMultipliers fBullet="1" fCollision="1"/>
+     <Explosion Damage="0" Decal="" Delay="0" Effect="" EffectScale="1" HoleSize="0" Pressure="0" Radius="0" TerrainHoleSize="0">
+      <DelayEffect Effect="" bHasDelayEffect="0">
+       <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+       <vOffset x="0" y="0" z="0"/>
+       <vRotation x="0" y="0" z="0"/>
+      </DelayEffect>
+      <Direction x="0" y="0" z="1"/>
+      <vOffset x="0" y="0" z="0"/>
+     </Explosion>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="75" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+      <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+     </Physics>
+     <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+     <Vulnerability bBullet="1" bCollision="0" bExplosion="1" bMelee="0" bOther="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Damaged_island_interior" Id="{4BEA77D0-79E2-410B-B716-26494009DC82}" Name="ParticleEffect414" Parent="{7F9B4330-27E5-474D-BC63-93564A4D67F8}" Pos="-0.62304688,0.016845703,0.027191162" Rotate="0.51108062,0.10863364,0.83400798,0.17727377" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.directional" bPrime="0" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="0.2"/>
+   </Object>
+   <Object Type="Entity" Layer="Damaged_island_interior" Id="{D0A261A5-C75A-4701-A096-930FE11B5D14}" Name="light_explosion" Parent="{7F9B4330-27E5-474D-BC63-93564A4D67F8}" Pos="-0.0012207031,-0.0012207031,-0.17736816" Rotate="0.70710683,0.70710677,0,0" Scale="2,2,2" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="0" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="explosions.light.fleet_light" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Damaged_island_interior" Id="{A843586B-F228-4FED-BA75-AD2DD6CC6B2B}" Name="FG_breakable_light_container" Pos="0.22045898,-0.0074462891,-0.31336975" Scale="0.050000012,0.050000012,0.050000012" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" bInVehicleOnly="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="Light_manager" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:RopeEntity" pos="-380,-240,0" flags="0" EntityGUID="{DF7F1944-79C5-44AD-88B1-EBF2811D1926}" EntityGUID_64="44AD79C5DF7F1944">
+       <Inputs entityId="0" Break="0" Hide="0" Remove="0" UnHide="0"/>
+      </Node>
+      <Node Id="4" Class="entity:RopeEntity" pos="-380,-150,0" flags="0" EntityGUID="{0C34261E-A826-4D4D-9784-2F9E61720431}" EntityGUID_64="4D4DA8260C34261E">
+       <Inputs entityId="0" Break="0" Hide="0" Remove="0" UnHide="0"/>
+      </Node>
+      <Node Id="6" Class="entity:DestroyableObject" pos="-20,-210,0" flags="0" EntityGUID="{7F9B4330-27E5-474D-BC63-93564A4D67F8}" EntityGUID_64="474D27E57F9B4330">
+       <Inputs entityId="0" DisableUsable="0" EnableUsable="0" Explode="0" Hide="0" Hit="0" Reset="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="8" Class="entity:ParticleEffect" pos="300,-210,0" flags="0" EntityGUID="{4BEA77D0-79E2-410B-B716-26494009DC82}" EntityGUID_64="410B79E24BEA77D0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="10" Class="entity:Light" pos="300,-120,0" flags="0">
+       <Inputs entityId="0" Active="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="11" Class="Logic:All" pos="-120,-180,0" flags="0" InHideMask="127" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="13" Class="entity:ParticleEffect" pos="300,-40,0" flags="0" EntityGUID="{D0A261A5-C75A-4701-A096-930FE11B5D14}" EntityGUID_64="4701C75AD0A261A5">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="4" nodeOut="2" portIn="Break" portOut="Break" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="2" portIn="in1" portOut="Break" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="4" portIn="Break" portOut="Break" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="4" portIn="in2" portOut="Break" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="6" portIn="Disable" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="10" nodeOut="6" portIn="Disable" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="6" portIn="Enable" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="11" portIn="Explode" portOut="Out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Damaged_island_interior" Id="{9A5BEA93-5344-4637-8378-0A7B6AF2B7EA}" Name="new_Light_Destroyed_210" Pos="0.25488281,0.054321289,-0.57745361" Rotate="-4.2160782e-009,-0.70710677,-4.2160777e-009,0.70710677" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" ViewDistRatio="100" HiddenInGame="0" EntityClass="Light">
+    <Properties bActive="1" Radius="5.15">
+     <Color clrDiffuse="0.929412,0.843137,0.611765" fDiffuseMultiplier="3" fHDRDynamic="1" fSpecularMultiplier="2"/>
+     <CoverageBuffer bBuildCoverage="1" bIndoorLight="1"/>
+     <Options bAffectsThisAreaOnly="1" bCastShadow="1" bFakeLight="0" object_RenderGeometry="" bUsedInRealTime="1"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="120" fProjectorNearPlane="0" texture_Texture="textures/lights/mobile_light.dds"/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="21"/>
+     <Test bFillLight="0" bNegativeLight="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Rope" Layer="Damaged_island_interior" Id="{0C34261E-A826-4D4D-9784-2F9E61720431}" Name="Rope41" Pos="-0.041625977,-0.039916992,-0.16181946" ColorRGB="65280" Material="Objects/Library/installations/electric/power_cables/electrical_prope_cable3" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.0099999998" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="10" friction="2" friction_pull="2" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0"/>
+    <Points>
+     <Point Pos="-0.046875,0.00024414063,-0.15003967"/>
+     <Point Pos="0.046142578,0,0.15014648"/>
+    </Points>
+   </Object>
+   <Object Type="Rope" Layer="Damaged_island_interior" Id="{DF7F1944-79C5-44AD-88B1-EBF2811D1926}" Name="Rope42" Pos="-0.041625977,0.037231445,-0.16201782" ColorRGB="65280" Material="Objects/Library/installations/electric/power_cables/electrical_prope_cable3" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.0099999998" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="10" friction="2" friction_pull="2" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0"/>
+    <Points>
+     <Point Pos="-0.046875,-0.00048828125,-0.14936829"/>
+     <Point Pos="0.046142578,0,0.15034485"/>
+    </Points>
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Fleet.Swinging_breakable_rope" Id="{BF27C21B-8B5F-40E1-9E48-9F1756A8EEC4}">
+  <Objects>
+   <Object Type="Entity" Layer="clipping" Id="{8DE35825-F0F8-4FA0-83A3-730A5CBB338E}" Name="Destroyable_light1" Pos="0.28198242,-0.00048828125,-0.31071472" Scale="0.5,0.5,0.5" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="DestroyableObject">
+    <Properties bAutoGenAIHidePts="0" fDamageTreshold="0" DestroyedSubObject="" bExplode="1" fHealth="200" object_Model="objects/library/architecture/aircraftcarrier/props/lights/light2b.cgf" object_ModelDestroyed="objects/library/architecture/aircraftcarrier/props/lights/light2b.cgf" ModelSubObject="" bPickable="0" bPlayerOnly="0" soclasses_SmartObjectClass="" bUsable="0" UseText="">
+     <Breakage fExplodeImpulse="0" fLifeTime="10" bSurfaceEffects="1"/>
+     <DamageMultipliers fBullet="1" fCollision="1"/>
+     <Explosion Damage="0" Decal="" Delay="0" Effect="" EffectScale="1" HoleSize="0" Pressure="0" Radius="0" TerrainHoleSize="0">
+      <DelayEffect Effect="" bHasDelayEffect="0">
+       <Params AttachForm="none" AttachType="none" bCountPerUnit="0" CountScale="1" bPrime="0" Scale="1" bSizePerUnit="0" SpawnPeriod="0"/>
+       <vOffset x="0" y="0" z="0"/>
+       <vRotation x="0" y="0" z="0"/>
+      </DelayEffect>
+      <Direction x="0" y="0" z="1"/>
+      <vOffset x="0" y="0" z="0"/>
+     </Explosion>
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" Density="-1" Mass="75" bPushableByPlayers="0" bRigidBody="1" bRigidBodyActive="1" bRigidBodyAfterDeath="1">
+      <Simulation damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+     </Physics>
+     <Sounds fAISoundRadius="30" sound_Alive="" sound_Dead="" sound_Dying=""/>
+     <Vulnerability bBullet="1" bCollision="0" bExplosion="1" bMelee="0" bOther="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="clipping" Id="{6659E00E-93CB-45E7-8B21-0BFB2ADF1C28}" Name="ParticleEffect414" Parent="{8DE35825-F0F8-4FA0-83A3-730A5CBB338E}" Pos="-0.62304688,0.016845703,0.027191162" Rotate="0.51108062,0.10863364,0.83400798,0.17727377" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="misc.sparks.directional" bPrime="0" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="0.2"/>
+   </Object>
+   <Object Type="Entity" Layer="clipping" Id="{E71D03D5-CF7D-4324-9CC1-CFD720C3A75B}" Name="light_explosion" Parent="{8DE35825-F0F8-4FA0-83A3-730A5CBB338E}" Pos="-0.0012207031,-0.0012207031,-0.17736816" Rotate="0.70710683,0.70710677,0,0" Scale="2,2,2" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="0" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="1" ParticleEffect="explosions.light.fleet_light" bPrime="1" PulsePeriod="0" Scale="1" soclasses_SmartObjectClass="" SpeedScale="1"/>
+   </Object>
+   <Object Type="Entity" Layer="clipping" Id="{71D8BBFE-4515-4B46-9510-CC0014BF13B2}" Name="new_Light_305" Parent="{8DE35825-F0F8-4FA0-83A3-730A5CBB338E}" Pos="0.0026855469,-0.020019531,-0.22961426" Rotate="0.70710671,0,0.70710683,0" Scale="1.9999999,2,1.9999999" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" ViewDistRatio="100" HiddenInGame="0" EntityClass="Light">
+    <Properties bActive="1" Radius="5">
+     <Color clrDiffuse="0.847059,0.941177,1" fDiffuseMultiplier="1" fHDRDynamic="2" fSpecularMultiplier="0.5"/>
+     <CoverageBuffer bBuildCoverage="1" bIndoorLight="1"/>
+     <Options bAffectsThisAreaOnly="0" bCastShadow="1" bFakeLight="0" object_RenderGeometry="" bUsedInRealTime="1"/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="120" fProjectorNearPlane="0" texture_Texture="textures/lights/mobile_light.dds"/>
+     <Style fCoronaDistIntensityFactor="1" fCoronaDistSizeFactor="1" fCoronaScale="1" nLightStyle="21"/>
+     <Test bFillLight="0" bNegativeLight="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="clipping" Id="{0DFB7C84-BE1B-49B1-A374-545344A7BB42}" Name="FG_breakable_light_container" Pos="0.22045898,-0.0074462891,-0.31336975" Scale="0.050000012,0.050000012,0.050000012" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" bInVehicleOnly="0" ScriptCommand="" species="-1" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="Light_manager" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:RopeEntity" pos="-380,-240,0" flags="0" EntityGUID="{DCFF9D9B-00A2-421C-963E-EA749DD1AA04}" EntityGUID_64="421C00A2DCFF9D9B">
+       <Inputs entityId="0" Break="0" Hide="0" Remove="0" UnHide="0"/>
+      </Node>
+      <Node Id="4" Class="entity:RopeEntity" pos="-380,-150,0" flags="0" EntityGUID="{527A3441-56FE-4F61-A8E6-E579601B1B0B}" EntityGUID_64="4F6156FE527A3441">
+       <Inputs entityId="0" Break="0" Hide="0" Remove="0" UnHide="0"/>
+      </Node>
+      <Node Id="6" Class="entity:DestroyableObject" pos="-20,-210,0" flags="0" EntityGUID="{8DE35825-F0F8-4FA0-83A3-730A5CBB338E}" EntityGUID_64="4FA0F0F88DE35825">
+       <Inputs entityId="0" DisableUsable="0" EnableUsable="0" Explode="0" Hide="0" Hit="0" Reset="0" UnHide="0" Used="0"/>
+      </Node>
+      <Node Id="8" Class="entity:ParticleEffect" pos="300,-210,0" flags="0" EntityGUID="{6659E00E-93CB-45E7-8B21-0BFB2ADF1C28}" EntityGUID_64="45E793CB6659E00E">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="10" Class="entity:Light" pos="300,-120,0" flags="0">
+       <Inputs entityId="0" Active="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="11" Class="Logic:All" pos="-120,-180,0" flags="0" InHideMask="127" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="13" Class="entity:ParticleEffect" pos="300,-40,0" flags="0" EntityGUID="{E71D03D5-CF7D-4324-9CC1-CFD720C3A75B}" EntityGUID_64="4324CF7DE71D03D5">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="4" nodeOut="2" portIn="Break" portOut="Break" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="2" portIn="in1" portOut="Break" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="4" portIn="Break" portOut="Break" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="4" portIn="in2" portOut="Break" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="6" portIn="Disable" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="10" nodeOut="6" portIn="Disable" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="6" portIn="Enable" portOut="Explode" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="11" portIn="Explode" portOut="Out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Rope" Layer="clipping" Id="{527A3441-56FE-4F61-A8E6-E579601B1B0B}" Name="Rope41" Pos="-0.041625977,-0.039916992,-0.16181946" ColorRGB="65280" Material="Objects/Library/installations/electric/power_cables/electrical_prope_cable3" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.0099999998" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="10" friction="2" friction_pull="2" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0"/>
+    <Points>
+     <Point Pos="-0.046875,0.00024414063,-0.15003967"/>
+     <Point Pos="0.046142578,0,0.15014648"/>
+    </Points>
+   </Object>
+   <Object Type="Rope" Layer="clipping" Id="{DCFF9D9B-00A2-421C-963E-EA749DD1AA04}" Name="Rope42" Pos="-0.041625977,0.037231445,-0.16201782" ColorRGB="65280" Material="Objects/Library/installations/electric/power_cables/electrical_prope_cable3" MatLayersMask="0" EntityClass="RopeEntity">
+    <Rope flags="3" radius="0.0099999998" anchor_radius="0.1" num_seg="8" num_sides="4" texu="1" texv="10" ph_num_seg="8" ph_sub_vtxs="3" mass="10" friction="2" friction_pull="2" wind="0,0,0" wind_var="0" air_resist="0" water_resist="0" joint_lim="0" max_force="0"/>
+    <Points>
+     <Point Pos="-0.046875,-0.00048828125,-0.14936829"/>
+     <Point Pos="0.046142578,0,0.15034485"/>
+    </Points>
+   </Object>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

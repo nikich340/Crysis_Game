@@ -1,0 +1,4 @@
+<DialogScript Name="Tutorial.AB2_Scientist_release_player" Description="">
+ <Line actor="2" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/scientist_2_tutorial_ab2_12345678" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/scientist_1_tutorial_ab2_a60431f5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

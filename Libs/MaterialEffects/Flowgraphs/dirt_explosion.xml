@@ -1,0 +1,113 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="25" Class="Image:FilterBlur" pos="60,330,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0.5"/>
+  </Node>
+  <Node Id="28" Class="Time:Delay" pos="310,750,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="53" Class="Image:FilterSharpen" pos="230,190,0" flags="0">
+   <Inputs Enabled="1" FilterSharpening_Type="0" FilterSharpening_Amount="0"/>
+  </Node>
+  <Node Id="56" Class="Time:Delay" pos="-130,260,0" flags="0">
+   <Inputs delay="1.9"/>
+  </Node>
+  <Node Id="61" Class="CrysisFX:ScreenFader" pos="470,720,0" flags="0">
+   <Inputs FadeGroup="1" UseCurColor="1" FadeInTime="3" FadeOutTime="0" color_FadeColor="0.286275,0.282353,0.188235" tex_TextureName="textures/sprites/hud/dirt1.tif"/>
+  </Node>
+  <Node Id="78" Class="Interpol:Float" pos="-130,360,0" flags="0">
+   <Inputs StartValue="0.5" EndValue="0" Time="4"/>
+  </Node>
+  <Node Id="80" Class="Interpol:Float" pos="50,220,0" flags="0">
+   <Inputs StartValue="3" EndValue="1" Time="1.1"/>
+  </Node>
+  <Node Id="81" Class="Logic:RandomSelect" pos="10,900,0" flags="0">
+   <Inputs outMin="1" outMax="1"/>
+  </Node>
+  <Node Id="82" Class="Time:Delay" pos="310,880,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="83" Class="CrysisFX:ScreenFader" pos="470,870,0" flags="0">
+   <Inputs FadeGroup="1" UseCurColor="1" FadeInTime="3" FadeOutTime="0" color_FadeColor="0.286275,0.282353,0.188235" tex_TextureName="textures/sprites/hud/dirt2.tif"/>
+  </Node>
+  <Node Id="84" Class="Time:Delay" pos="310,990,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="85" Class="CrysisFX:ScreenFader" pos="470,990,0" flags="0">
+   <Inputs FadeGroup="1" UseCurColor="1" FadeInTime="3" FadeOutTime="0" color_FadeColor="0.286275,0.282353,0.188235" tex_TextureName="textures/sprites/hud/dirt3.tif"/>
+  </Node>
+  <Node Id="86" Class="Time:Delay" pos="310,1100,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="87" Class="CrysisFX:ScreenFader" pos="470,1100,0" flags="0">
+   <Inputs FadeGroup="1" UseCurColor="1" FadeInTime="3" FadeOutTime="0" color_FadeColor="0.286275,0.282353,0.188235" tex_TextureName="textures/sprites/hud/dirt4.tif"/>
+  </Node>
+  <Node Id="88" Class="Time:Delay" pos="310,1210,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="89" Class="CrysisFX:ScreenFader" pos="470,1210,0" flags="0">
+   <Inputs FadeGroup="1" UseCurColor="1" FadeInTime="3" FadeOutTime="0" color_FadeColor="0.286275,0.282353,0.188235" tex_TextureName="textures/sprites/hud/dirt6.tif"/>
+  </Node>
+  <Node Id="90" Class="Time:Delay" pos="310,1320,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="91" Class="CrysisFX:ScreenFader" pos="470,1320,0" flags="0">
+   <Inputs FadeGroup="1" UseCurColor="1" FadeInTime="3" FadeOutTime="0" color_FadeColor="0.286275,0.282353,0.188235" tex_TextureName="textures/sprites/hud/dirt5.tif"/>
+  </Node>
+  <Node Id="187" Class="MaterialFX:HUDStartFX" pos="-380,360,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="188" Class="Time:Delay" pos="-170,490,0" flags="0">
+   <Inputs delay="6.2"/>
+  </Node>
+  <Node Id="189" Class="MaterialFX:HUDEndFX" pos="-50,490,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="195" Class="Time:Delay" pos="-130,890,0" flags="0">
+   <Inputs delay="0.2"/>
+  </Node>
+  <Node Id="197" Class="Camera:ViewShake" pos="-130,100,0" flags="0">
+   <Inputs Restrict="0" View="0" GroundOnly="0" Angle="2,2,2" Shift="0.02,0.02,0.02" Duration="1.3" Frequency="20" Randomness="4"/>
+  </Node>
+  <Node Id="198" Class="Input:Key" pos="-580,370,0" flags="0">
+   <Inputs Key="o"/>
+  </Node>
+  <Node Id="305" Class="CrysisFX:PostFXGlobal" pos="50,50,0" flags="0">
+   <Inputs Global_Brightness="1" Global_Contrast="1" Global_Saturation="1" Global_Sharpening="1" Global_ColorC="0" Global_ColorM="0" Global_ColorY="0" Global_ColorK="0" Global_ColorHue="0"/>
+  </Node>
+  <Node Id="306" Class="Interpol:Float" pos="-140,-10,0" flags="0">
+   <Inputs StartValue="0.2" EndValue="1" Time="0.5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="61" nodeOut="28" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="56" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="25" nodeOut="78" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="80" portIn="FilterSharpening_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="81" portIn="in" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="61" nodeOut="81" portIn="FadeOut" portOut="Out1" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="81" portIn="in" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="81" portIn="FadeOut" portOut="Out2" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="81" portIn="in" portOut="Out3" enabled="1"/>
+  <Edge nodeIn="85" nodeOut="81" portIn="FadeOut" portOut="Out3" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="81" portIn="in" portOut="Out4" enabled="1"/>
+  <Edge nodeIn="87" nodeOut="81" portIn="FadeOut" portOut="Out4" enabled="1"/>
+  <Edge nodeIn="88" nodeOut="81" portIn="in" portOut="Out5" enabled="1"/>
+  <Edge nodeIn="89" nodeOut="81" portIn="FadeOut" portOut="Out5" enabled="1"/>
+  <Edge nodeIn="90" nodeOut="81" portIn="in" portOut="Out6" enabled="1"/>
+  <Edge nodeIn="91" nodeOut="81" portIn="FadeOut" portOut="Out6" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="82" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="85" nodeOut="84" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="87" nodeOut="86" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="89" nodeOut="88" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="91" nodeOut="90" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="188" nodeOut="187" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="195" nodeOut="187" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="197" nodeOut="187" portIn="Trigger" portOut="Started" enabled="1"/>
+  <Edge nodeIn="306" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="189" nodeOut="188" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="195" portIn="In" portOut="out" enabled="1"/>
+  <Edge nodeIn="305" nodeOut="306" portIn="Global_Brightness" portOut="Value" enabled="1"/>
+ </Edges>
+</Graph>

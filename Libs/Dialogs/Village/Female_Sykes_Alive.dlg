@@ -1,0 +1,16 @@
+<DialogScript Name="Village.Female_Sykes_Alive" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/nomad_village_ab2_00153" anim="" facial="" delay="0.6" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="village/female_scientist_village_ab2_00154" anim="talk" facial="" delay="0.4" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/psycho_village_ab2_00155" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="village/female_scientist_village_ab2_00156" anim="talk" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/psycho_village_ab2_00157" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="village/female_scientist_village_ab2_00158" anim="talk" facial="" delay="0.25" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/psycho_village_ab2_00159" anim="" facial="" delay="0.4" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="village/female_scientist_village_ab2_00160" anim="talk" facial="" delay="0.3" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/psycho_village_ab2_00161" anim="" facial="" delay="0.7" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/prophet_village_ab2_00162" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/psycho_village_ab2_00163" anim="" facial="" delay="0.3" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/prophet_village_ab2_00164" anim="" facial="" delay="0.4" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/nomad_village_ab2_00165" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="village/female_scientist_village_ab2_00166" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

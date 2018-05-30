@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="269484034" SurfaceType="mat_plastic" Diffuse="1,0.133333,0.133333" Specular="1,1,1" Emissive="0,0,0" Shininess="80.5" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/autotest/detail_brighter.tif">
+   <TexMod TileU="4" TileV="4"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/woodsman/woodsman_head_ddn.tif" Amount="93">
+   <TexMod TileU="4" TileV="4"/>
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

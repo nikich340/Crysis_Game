@@ -1,0 +1,11 @@
+<DialogScript Name="Village.Korean_radio_start" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_1_village_ab1_400D5680" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_2_village_ab1_CEF47273" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_1_village_ab1_08975ECF" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_1_village_ab1_4F35391C" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_1_village_ab1_804ADAEC" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_2_village_ab1_A002721F" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_1_village_ab1_F4178D7F" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_2_village_ab1_9A39FC36" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/korean_soldier_1_village_ab1_7B62CF0A" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

@@ -1,0 +1,9 @@
+<Material Diffuse="0.36078432,0.36078432,0.36078432" Emissive="0,0,0" GenMask="1" MtlFlags="41" Opacity="1" Shader="Illum" Shininess="20" Specular="0,0,0" SurfaceType="mat_rock" >
+ <Textures>
+  <Texture File="textures/terrain/detail/cliff_shrubbery_slope_dry.tif" Filter="7" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

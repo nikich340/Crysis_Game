@@ -1,0 +1,15 @@
+<Material MtlFlags="9" Shader="Illum" GenMask="301990034" SurfaceType="mat_pebble" Diffuse="0.27451,0.258824,0.235294" Specular="0.301961,0.301961,0.301961" Emissive="0,0,0" Shininess="40" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/decals/dirt_on_road_3.tif" Filter="7">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/decals/dirt_on_road_3_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/camera_wetroad.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64" IndirLightMultiplier="1" EnvMapAmount="1.32" FresnelScale="1" FresnelBias="0" FresnelPow="5"/>
+ <MaterialLayers />
+</Material>

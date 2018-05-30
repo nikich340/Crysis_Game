@@ -1,0 +1,25 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ClientOnly">
+ <Nodes>
+  <Node Id="25" Class="Image:FilterBlur" pos="280,140,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+  </Node>
+  <Node Id="32" Class="CrysisFX:PostFXWaterDroplets" pos="280,200,0" flags="0">
+   <Inputs WaterDroplets_Active="1" WaterDroplets_Amount="0"/>
+  </Node>
+  <Node Id="78" Class="Interpol:Float" pos="40,180,0" flags="0">
+   <Inputs StartValue="1.4" EndValue="0" Time="5"/>
+  </Node>
+  <Node Id="120" Class="MaterialFX:HUDEndFX" pos="280,310,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="121" Class="MaterialFX:HUDStartFX" pos="-170,300,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="25" nodeOut="78" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="78" portIn="WaterDroplets_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="120" nodeOut="78" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="121" portIn="Start" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

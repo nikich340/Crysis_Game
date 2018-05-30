@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989904" SurfaceType="" Diffuse="0.48235297,0.48235297,0.48235297" Specular="0.097647101,0.097647101,0.097647101" Emissive="0,0,0" Shininess="5" Opacity="0.89999998">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/dirty_rust/rust_1.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/decal/burnt/oil_decal_long_spec.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams Displacement="0.025"/>
+ <MaterialLayers />
+</Material>

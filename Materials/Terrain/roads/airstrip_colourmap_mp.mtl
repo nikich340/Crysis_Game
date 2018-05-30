@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="" Diffuse="0.627451,0.627451,0.627451" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.40000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/airfield_blue.tif" Filter="7">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

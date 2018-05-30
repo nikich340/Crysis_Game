@@ -1,0 +1,31 @@
+<Graph Description="" Group="Levels" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="90,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="740,0,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="AI:AIAnim" pos="460,0,0" flags="0">
+   <Inputs entityId="0" animstateEx_name="surrenderKneel" signal="2"/>
+  </Node>
+  <Node Id="8" Class="AI:AIGotoSpeedStance" pos="460,230,0" flags="0" InHideMask="249" OutHideMask="7">
+   <Inputs entityId="0" pos="0,0,0" distance="1" StopDistance="0" run="1" stance="4"/>
+  </Node>
+  <Node Id="9" Class="Time:Delay" pos="280,260,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="10" Name="Add then Cancel fake GoTo" Class="_comment" pos="460,200,0" flags="0"/>
+  <Node Id="13" Class="Sound:PlaySoundEvent" pos="460,100,0" flags="0" InHideMask="127" OutHideMask="7">
+   <Inputs entityId="0" Enable="1" sound_SoundEvent="languages:tank:koreanofficer_tank_ab3_03030" Voice="1" Once="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="1" portIn="PlayTrigger" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="9" portIn="cancel" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

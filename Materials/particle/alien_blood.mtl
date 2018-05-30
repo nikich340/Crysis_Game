@@ -1,0 +1,15 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="24" SurfaceType="" Diffuse="0.078431375,0.078431375,0.078431375" Specular="5.8000002,5.8000002,5.8000002" Emissive="1,1,1" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/watershore/foam_tiled2.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/watershore/foam_tiled2_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Custom" File="textures/defaults/screencondensation.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SpecMultiplier="0.63999999" SpecBumpScale="2.404" AnimSpeed="0.75" PerturbationScale="5.8000002" PerturbationStrenght="0.5"/>
+ <MaterialLayers />
+</Material>

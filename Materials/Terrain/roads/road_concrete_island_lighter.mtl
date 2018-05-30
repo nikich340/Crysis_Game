@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="306184210" SurfaceType="mat_concrete" Diffuse="0.647059,0.572549,0.521569" Specular="0.141176,0.141176,0.141176" Emissive="0,0,0" Shininess="20" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_concrete_with_pepples_detailed.tif" Filter="6">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/roads/road_asphaltpatch_spec.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

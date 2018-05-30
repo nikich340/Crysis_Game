@@ -1,0 +1,50 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="80,10,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="400,10,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="3" InHideMask="15" OutHideMask="63" pos="60,80,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:AIGotoSpeedStance" flags="0" Id="4" pos="203,-10,0" >
+   <Inputs distance="1" entityId="0" pos="0,0,0" run="3" stance="2" />
+  </Node>
+  <Node Class="AI:AIAnim" flags="0" Id="5" pos="610,150,0" >
+   <Inputs count="1" entityId="0" name="callReinforcement" signal="1" />
+  </Node>
+  <Node Class="AI:AIUseObject" flags="0" Id="12" pos="430,-140,0" >
+   <Inputs entityId="0" objectId="0" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="1" Id="13" pos="1280,150,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AISignal" flags="0" Id="15" InHideMask="507" OutHideMask="6" pos="380,70,0" >
+   <Inputs entityId="0" fValue="0" id="0" iValue="0" posValue="0,0,0" posValue2="0,0,0" signal="MAKE_ME_IGNORANT" sValue="" />
+  </Node>
+  <Node Class="AI:AISignal" flags="0" Id="16" InHideMask="507" OutHideMask="6" pos="1020,150,0" >
+   <Inputs entityId="0" fValue="0" id="0" iValue="0" posValue="0,0,0" posValue2="0,0,0" signal="MAKE_ME_UNIGNORANT" sValue="" />
+  </Node>
+  <Node Class="AI:AILookAt" flags="0" Id="17" pos="440,150,0" >
+   <Inputs Direction="0,0,0" Duration="0" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AILookAt" flags="0" Id="18" pos="840,150,0" >
+   <Inputs Direction="0,0,0" Duration="0" entityId="0" pos="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="12" nodeOut="1" portIn="objectId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" />
+  <Edge enabled="1" nodeIn="17" nodeOut="3" portIn="Direction" portOut="fwdDir" />
+  <Edge enabled="1" nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" />
+  <Edge enabled="1" nodeIn="12" nodeOut="4" portIn="entityId" portOut="succeed" />
+  <Edge enabled="1" nodeIn="15" nodeOut="4" portIn="entityId" portOut="succeed" />
+  <Edge enabled="1" nodeIn="18" nodeOut="5" portIn="entityId" portOut="done" />
+  <Edge enabled="1" nodeIn="17" nodeOut="15" portIn="entityId" portOut="done" />
+  <Edge enabled="1" nodeIn="13" nodeOut="16" portIn="end" portOut="done" />
+  <Edge enabled="1" nodeIn="5" nodeOut="17" portIn="entityId" portOut="done" />
+  <Edge enabled="1" nodeIn="16" nodeOut="18" portIn="entityId" portOut="done" />
+ </Edges>
+</Graph>

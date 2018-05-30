@@ -1,0 +1,4 @@
+<DialogScript Name="Core.AB2_Lost_gravity" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_37226179" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="What the...? I think I just lost gravity."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_4342f262" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I m using thrusters to stabilize myself, but this is going to take some getting used to."/>
+</DialogScript>

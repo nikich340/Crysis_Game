@@ -1,0 +1,13 @@
+<GameTokensLibrary Name="camera_ab4_level_tokens" >
+ <GameToken Name="alarm_patrol" Type="Bool" Value="false" />
+ <GameToken Name="alarm_cafe" Type="Bool" Value="false" />
+ <GameToken Name="alarm_tank" Type="Bool" Value="false" />
+ <GameToken Name="player_in_cafe" Type="Bool" Value="false" />
+ <GameToken Name="inside_cafe_half_dead" Type="Bool" Value="false" />
+ <GameToken Name="inside_cafe_dead" Type="Bool" Value="false" />
+ <GameToken Name="alarm_hotel" Type="Bool" Value="false" />
+ <GameToken Name="cafe_tank_destroyed" Type="Bool" Value="false" />
+ <GameToken Name="helicopter_destroyed" Type="Bool" Value="false" />
+ <GameToken Name="hotel_dead" Type="Bool" Value="false" />
+ <GameToken Name="scientists_arrive" Type="Bool" Value="false" />
+</GameTokensLibrary>

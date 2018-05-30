@@ -1,0 +1,18 @@
+<Material MtlFlags="4" Shader="Fx_gravitybeamparticles" GenMask="0" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/alien_fire.tif">
+   <TexMod TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/sprites/31.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/sprites/blast_fall_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <MaterialLayers>
+  <Layer Name="Fireparticles" NoDraw="0">
+   <PublicParams BurnAmount="1" BurnOffset="0.1" VariationTileU="0.2" VariationTileV="0.2" VariationTileW="0.1" DetailTile="0.02" AnimSpeed="1" BaseDarkening="0.40000001" StartColor="0.69999999,0.39199999,0.093999997" EndColor="0.215,0.13699999,0.039000001"/>
+  </Layer>
+ </MaterialLayers>
+</Material>

@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB7_Crew_BridgeGreet" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="1" flagAGEP="0" sound="fleet/crewman_2_fleet_ab7_xu002" anim="saluteLazyCO" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Sir."/>
+</DialogScript>

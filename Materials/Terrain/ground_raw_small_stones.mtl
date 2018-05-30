@@ -1,0 +1,9 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="268435456" SurfaceType="mat_soil" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_raw_small_stone.dds" Filter="7">
+   <TexMod TileU="0.5" TileV="0.5"/>
+  </Texture>
+ </Textures>
+ <PublicParams Displacement="0.025" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

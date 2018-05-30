@@ -1,0 +1,5 @@
+<DialogScript Name="Fleet.AB8_Engie_Gimme_a_hint" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_0160CE48" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Tell me what I need to do."/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_7B2AD222" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="First you need to disable the circuit breakers in the exchange room. This ll allow you to restart the reactor safely."/>
+ <Line actor="1" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_09A05399" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Don t worry. I ll guide you through it."/>
+</DialogScript>

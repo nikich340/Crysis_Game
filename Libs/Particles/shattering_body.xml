@@ -1,0 +1,19 @@
+<ParticleLibrary Name="shattering_body" SandboxVersion="1.1.1.5534" ParticleVersion="17">
+ <Particles Name="body.shatter" Id="{D914590E-1E3F-4CB7-9638-6D7495D85552}">
+  <Params Continuous="true" Count="12" ParticleLifeTime="3" GeometryInPieces="true" Speed="0.2" AirResistance="0.41" PhysicsType="SimpleCollision" CollideTerrain="true" ViewDistanceAdjust="0"/>
+  <Childs>
+   <Particles Name="shatter2">
+    <Params Count="64" ParticleLifeTime="3" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_b_small.cgf" DiffuseLighting="0" Size="0.14,0.713" SecondGeneration="true" InheritVelocity="1" RandomOffset="0.1,0.1,0.1" Speed="0.29" AirResistance="0.47" EmitAngle="180,1" RandomAngles="100,,200" RandomRotationRate="333,333,333" Bounciness="0.001" Thickness="0.1" ViewDistanceAdjust="0" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="shatter3">
+    <Params Count="4" ParticleLifeTime="3,0.525" Texture="textures/sprites/blast_fall_ice.tif" SoftParticle="true" Alpha="0.465,0.386,,(0.1517857,1;1)" DiffuseLighting="4" DiffuseBacklighting="1" EmissiveLighting="1" Size="1.05,0.574,,(,0.05763904,64;1,1)" SecondGeneration="true" InheritVelocity="1" RandomOffset="0.2,0.2,0.2" Speed="0,0.376" AirResistance="0.18,0.604" FocusGravityDir="true" EmitAngle="180" ViewDistanceAdjust="0"/>
+   </Particles>
+   <Particles Name="shatter4">
+    <Params ParticleLifeTime="3,0.525" Texture="textures/sprites/snow_dust_dark.tif" SoftParticle="true" Alpha="0.248,0.386,,(0.1517857,1;1)" DiffuseLighting="6" DiffuseBacklighting="0.861" EmissiveLighting="1" Size="1.05,0.574,,(,0.05763904,64;1,1)" SecondGeneration="true" InheritVelocity="1" RandomOffset="0.2,0.2,0.2" Speed="0,0.376" AirResistance="0.18,0.307" FocusGravityDir="true" EmitAngle="180" ViewDistanceAdjust="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="body.wind" Id="{82272170-BE19-4354-8653-7C5B43F8144C}">
+  <Params Continuous="true" Count="0" ParticleLifeTime="0.1" BlendType="None" Texture="textures/sprites/muzzleflash/muzzle_round_tiled.tif" DiffuseLighting="0" Size="0" Speed="6.4" EmitAngle="180,1" ForceGeneration="Wind" ViewDistanceAdjust="0"/>
+ </Particles>
+</ParticleLibrary>

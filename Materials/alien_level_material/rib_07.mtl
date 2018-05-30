@@ -1,0 +1,21 @@
+<Material MtlFlags="0" Shader="Metal" GenMask="268480528" SurfaceType="mat_alien_basic_wall" Diffuse="0.26666668,0.26666668,0.26666668" Specular="0.43529415,0.43529415,0.43529415" Emissive="0,0,0" Shininess="1" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/alien_level_texture/rib07_tiles.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/alien_level_texture/rib07_tiles_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/alien_level_texture/rib07_tiles_ddn.tif" Filter="0" Amount="50">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Detail" File="textures/alien_level_texture/detail_bumpmaps/test_scratched.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SpecularMultiplier="0.428" AnisotropicShape="0.52499998" ReflectionAmount="0.36000001" FresnelBias="0.287" FresnelScale="20.200001" DetailBumpTillingU="8" DetailBumpTillingV="2" DetailBumpScale="1" DetailBlendAmount="0"/>
+ <MaterialLayers />
+</Material>

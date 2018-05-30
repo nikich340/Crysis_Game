@@ -1,0 +1,12 @@
+<Material Diffuse="0.427451,0.466667,0.392157" Emissive="0,0,0" GenMask="65" MtlFlags="0" Opacity="0.85" Shader="Illum" Specular="0,0,0" SurfaceType="mat_water" >
+ <Textures>
+  <Texture File="textures/terrain/river_water_color_faded_edges.tif" Filter="4" Map="Diffuse" >
+   <TexMod TexMod_UOscillatorAmplitude="1" TexMod_UOscillatorPhase="1" TexMod_UOscillatorRate="0.6" TexMod_UOscillatorType="2" TexMod_VOscillatorAmplitude="0.1" TexMod_VOscillatorPhase="0.1" TexMod_VOscillatorRate="0.1" TileU="0.25" />
+  </Texture>
+  <Texture File="textures/cubemaps/beach_blur.dds" Map="Environment" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64" Reflect="0.5" />
+ <MaterialLayers />
+</Material>

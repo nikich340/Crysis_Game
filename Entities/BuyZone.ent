@@ -1,0 +1,4 @@
+<Entity
+ Name="BuyZone" 
+ Script="Scripts/Entities/Multiplayer/BuyZone.lua"
+/>

@@ -1,0 +1,244 @@
+<Vegetation>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="157" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_med_yellow.cgf" GUID="{83650D61-EEF4-4D01-B283-C3BBBF66C679}" Hidden="0" Index="0" Category="Coastal_Road_Cliff">
+  <Instances>
+   <Instance Pos="1129.45,4141.48,113.137" Scale="1.89"/>
+   <Instance Pos="1119.15,4148.58,118.277" Scale="1.54"/>
+   <Instance Pos="1125.73,4151.83,125.246"/>
+   <Instance Pos="1123.66,4145.82,116.275" Scale="1.33"/>
+   <Instance Pos="1120.16,4146.73,114.623" Scale="1.39"/>
+   <Instance Pos="1126.21,4145.91,118.451" Scale="1.99"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="2" SizeVar="0.3" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="158" FileName="objects/natural/ground_plants/grass/toomb_grass_a.cgf" GUID="{62B3242B-0781-48A5-A807-4063999D5882}" Hidden="0" Index="0" Category="Coastal_Road_Cliff">
+  <Instances>
+   <Instance Pos="1125.31,4127.16,104.167" Scale="1.68275"/>
+   <Instance Pos="1124.54,4127.13,104.652" Scale="1.68047"/>
+   <Instance Pos="1125.07,4127.88,103.803" Scale="1.413"/>
+   <Instance Pos="1127.38,4127.71,108.405" Scale="1.34575"/>
+   <Instance Pos="1127.25,4126.44,107.841" Scale="1.26574"/>
+   <Instance Pos="1126.9,4126.04,106.658" Scale="1.46616"/>
+   <Instance Pos="1127.6,4126.94,109.061" Scale="1.61213"/>
+   <Instance Pos="1127.26,4121.28,110.249" Scale="1.19717"/>
+   <Instance Pos="1126.46,4123.79,109.427" Scale="1.43755"/>
+   <Instance Pos="1126.99,4121.96,110.249" Scale="1.23308"/>
+   <Instance Pos="1126.74,4122.72,109.972" Scale="1.35152"/>
+   <Instance Pos="1126.28,4125.16,106.53" Scale="1.18834"/>
+   <Instance Pos="1126.64,4124.59,108.385" Scale="1.45864"/>
+   <Instance Pos="1127.68,4123.28,110.195" Scale="1.32627"/>
+   <Instance Pos="1127.61,4124.73,109.692" Scale="1.49615"/>
+   <Instance Pos="1127.7,4125.73,109.424" Scale="1.2971"/>
+   <Instance Pos="1127.74,4122.82,110.256" Scale="1.57401"/>
+   <Instance Pos="1127.55,4125.2,109.303" Scale="1.57596"/>
+   <Instance Pos="1127.23,4123.57,109.927" Scale="1.68607"/>
+   <Instance Pos="1128.19,4127.1,110.413" Scale="2.05704"/>
+   <Instance Pos="1129.63,4126.82,110.466" Scale="1.69302"/>
+   <Instance Pos="1128.95,4127.52,110.468" Scale="1.24851"/>
+   <Instance Pos="1129.49,4126.78,110.457" Scale="1.74128"/>
+   <Instance Pos="1128.73,4121.4,110.347" Scale="1.26862"/>
+   <Instance Pos="1128.16,4121.27,110.34" Scale="1.23291"/>
+   <Instance Pos="1128.01,4121.66,110.339" Scale="1.3075"/>
+   <Instance Pos="1129.08,4122.12,110.35" Scale="1.28178"/>
+   <Instance Pos="1128.72,4124.57,110.351" Scale="1.69308"/>
+   <Instance Pos="1130.67,4123.05,110.379" Scale="1.38493"/>
+   <Instance Pos="1128.47,4126.69,110.392" Scale="1.48106"/>
+   <Instance Pos="1130.79,4125.33,110.454" Scale="1.28849"/>
+   <Instance Pos="1129.23,4126.57,110.433" Scale="1.66418"/>
+   <Instance Pos="1130.39,4125.81,110.471" Scale="1.29411"/>
+   <Instance Pos="1130.26,4126.15,110.481" Scale="1.37353"/>
+   <Instance Pos="1128.5,4125.81,110.341" Scale="1.36215"/>
+   <Instance Pos="1129.94,4123.48,110.36" Scale="1.23849"/>
+   <Instance Pos="1129.71,4126.2,110.457" Scale="1.7546"/>
+   <Instance Pos="1128.08,4123.3,110.339" Scale="1.31162"/>
+   <Instance Pos="1129.3,4124.7,110.375" Scale="1.30529"/>
+   <Instance Pos="1130.01,4124.68,110.402" Scale="1.25555"/>
+   <Instance Pos="1130.35,4123.92,110.378" Scale="1.56044"/>
+   <Instance Pos="1129.42,4123.13,110.354" Scale="1.34948"/>
+   <Instance Pos="1129.14,4125.73,110.393" Scale="1.29368"/>
+   <Instance Pos="1130.62,4124.91,110.433" Scale="1.40118"/>
+   <Instance Pos="1129.24,4122.74,110.352" Scale="1.17323"/>
+   <Instance Pos="1128.12,4122.3,110.34" Scale="1.4884"/>
+   <Instance Pos="1129.55,4122.33,110.356" Scale="2.42663"/>
+   <Instance Pos="1129.13,4123.45,110.351" Scale="1.62334"/>
+   <Instance Pos="1129.9,4123.09,110.36" Scale="1.77714"/>
+   <Instance Pos="1128.93,4123.11,110.349" Scale="1.64505"/>
+   <Instance Pos="1128.59,4125.14,110.347" Scale="2.05184"/>
+   <Instance Pos="1128.24,4123.87,110.341" Scale="2.33826"/>
+   <Instance Pos="1129.89,4125.19,110.426" Scale="1.62327"/>
+   <Instance Pos="1129.32,4125.35,110.396" Scale="2.17"/>
+   <Instance Pos="1123.28,4131.1,106.173" Scale="1.20788"/>
+   <Instance Pos="1124.54,4132,110.533" Scale="1.24061"/>
+   <Instance Pos="1122.87,4132.61,107.834" Scale="1.25677"/>
+   <Instance Pos="1123.59,4130.41,105.179" Scale="1.20974"/>
+   <Instance Pos="1123.24,4133.51,109.893" Scale="1.17675"/>
+   <Instance Pos="1124.84,4130.76,108.375" Scale="1.37727"/>
+   <Instance Pos="1122.37,4132.98,107.682" Scale="1.38946"/>
+   <Instance Pos="1123.4,4132.05,108.519" Scale="1.39469"/>
+   <Instance Pos="1124.22,4131.89,110.226" Scale="1.21214"/>
+   <Instance Pos="1124.14,4132.5,110.533" Scale="1.6683"/>
+   <Instance Pos="1123.68,4133.12,110.048" Scale="1.71736"/>
+   <Instance Pos="1124.87,4131.66,109.947" Scale="3.06884"/>
+   <Instance Pos="1122.52,4132.05,105.57" Scale="1.1968"/>
+   <Instance Pos="1124.97,4131,108.985" Scale="1.3612"/>
+   <Instance Pos="1125.02,4131.57,109.897" Scale="1.92855"/>
+   <Instance Pos="1124.7,4131.3,109.161" Scale="1.50696"/>
+   <Instance Pos="1126.05,4130.04,110.511" Scale="2.16766"/>
+   <Instance Pos="1126.72,4129.39,109.196" Scale="1.46955"/>
+   <Instance Pos="1123.02,4130.11,103.831" Scale="1.71543"/>
+   <Instance Pos="1124.37,4130.85,107.719" Scale="1.42698"/>
+   <Instance Pos="1123.66,4128.63,104.057" Scale="1.28698"/>
+   <Instance Pos="1125.2,4129.96,108.012" Scale="1.23392"/>
+   <Instance Pos="1124.82,4129.97,106.927" Scale="1.73406"/>
+   <Instance Pos="1123.71,4130.97,106.82" Scale="1.41632"/>
+   <Instance Pos="1124.6,4131.47,109.408" Scale="1.44437"/>
+   <Instance Pos="1125.88,4129.49,108.529" Scale="1.75331"/>
+   <Instance Pos="1123.56,4129.39,104.117" Scale="1.37148"/>
+   <Instance Pos="1125.03,4131.28,109.472" Scale="1.83599"/>
+   <Instance Pos="1124.14,4129.78,104.797" Scale="1.91806"/>
+   <Instance Pos="1124,4129.1,104.105" Scale="1.61312"/>
+   <Instance Pos="1125.59,4130.53,109.619" Scale="1.52407"/>
+   <Instance Pos="1126.05,4128.43,105.4" Scale="1.16456"/>
+   <Instance Pos="1126.69,4129.21,108.786" Scale="1.17991"/>
+   <Instance Pos="1125.22,4128.72,105.33" Scale="1.20231"/>
+   <Instance Pos="1125.58,4128.11,104.068" Scale="1.24324"/>
+   <Instance Pos="1126.11,4130.81,110.519" Scale="1.3399"/>
+   <Instance Pos="1126.04,4128.77,106.48" Scale="1.25355"/>
+   <Instance Pos="1126.46,4130.14,110.511" Scale="1.29225"/>
+   <Instance Pos="1124.29,4128.6,104.162" Scale="1.30992"/>
+   <Instance Pos="1127.13,4129.54,109.844" Scale="1.89902"/>
+   <Instance Pos="1124.97,4129.29,106.11" Scale="1.36279"/>
+   <Instance Pos="1126.65,4128.6,107.331" Scale="1.49206"/>
+   <Instance Pos="1126.71,4128.01,106.198" Scale="1.24724"/>
+   <Instance Pos="1127.11,4128.32,107.991" Scale="1.18511"/>
+   <Instance Pos="1127.87,4128.19,110.095" Scale="1.87831"/>
+   <Instance Pos="1127.75,4128.88,110.029" Scale="1.59727"/>
+   <Instance Pos="1128.4,4128.24,110.497" Scale="1.29564"/>
+   <Instance Pos="1125.01,4142.65,110.542" Scale="1.17226"/>
+   <Instance Pos="1127.68,4141.45,110.542" Scale="1.41188"/>
+   <Instance Pos="1122.58,4142.91,110.562" Scale="2.12413"/>
+   <Instance Pos="1121.73,4143.62,110.579" Scale="1.74496"/>
+   <Instance Pos="1123.06,4142.72,110.553" Scale="1.39121"/>
+   <Instance Pos="1122.08,4142.72,110.563" Scale="1.20797"/>
+   <Instance Pos="1123.95,4142.57,110.542" Scale="1.20127"/>
+   <Instance Pos="1123.78,4143.35,110.555" Scale="1.40911"/>
+   <Instance Pos="1125.92,4142.98,110.547" Scale="1.21097"/>
+   <Instance Pos="1125.14,4143.52,110.555" Scale="1.27615"/>
+   <Instance Pos="1123.04,4142.18,110.543" Scale="1.30417"/>
+   <Instance Pos="1126.17,4141.57,110.534" Scale="1.77814"/>
+   <Instance Pos="1126.11,4140.11,110.533" Scale="1.57667"/>
+   <Instance Pos="1125.84,4140.94,110.533" Scale="1.22071"/>
+   <Instance Pos="1125.24,4141.69,110.533" Scale="1.18174"/>
+   <Instance Pos="1124.57,4141.36,110.536" Scale="1.88034"/>
+   <Instance Pos="1127.38,4140.77,110.537" Scale="1.56481"/>
+   <Instance Pos="1127.07,4139.58,110.534" Scale="1.38364"/>
+   <Instance Pos="1127.92,4139.68,110.533" Scale="1.30139"/>
+   <Instance Pos="1127.01,4139.03,110.536" Scale="1.71876"/>
+   <Instance Pos="1129.65,4137.95,110.533" Scale="1.42905"/>
+   <Instance Pos="1129.97,4138.33,110.537" Scale="1.52682"/>
+   <Instance Pos="1129.11,4139.02,110.541" Scale="1.47286"/>
+   <Instance Pos="1130.51,4137.91,110.54" Scale="1.20981"/>
+   <Instance Pos="1129.48,4137.76,110.533" Scale="1.62142"/>
+   <Instance Pos="1128.12,4138.69,110.533" Scale="1.74202"/>
+   <Instance Pos="1130.54,4137.48,110.537" Scale="1.5149"/>
+   <Instance Pos="1129.16,4138.41,110.536" Scale="1.61675"/>
+   <Instance Pos="1130.54,4136.74,110.532" Scale="1.66517"/>
+   <Instance Pos="1128.6,4139.88,110.541" Scale="1.25235"/>
+   <Instance Pos="1129.26,4137.47,110.533" Scale="1.44025"/>
+   <Instance Pos="1128.87,4137.79,110.533" Scale="1.30602"/>
+   <Instance Pos="1116.04,4149.55,110.721" Scale="1.41237"/>
+   <Instance Pos="1119.56,4147.38,116.202" Scale="2.24304"/>
+   <Instance Pos="1117.87,4148.85,115.263" Scale="2.49947"/>
+   <Instance Pos="1118.3,4148.48,114.582" Scale="2.56854"/>
+   <Instance Pos="1118.93,4147.98,115.371" Scale="1.96533"/>
+   <Instance Pos="1119.75,4147.16,115.85" Scale="1.62119"/>
+   <Instance Pos="1119.89,4147.04,115.678" Scale="1.86879"/>
+   <Instance Pos="1119.12,4145.96,110.548" Scale="1.86073"/>
+   <Instance Pos="1117.73,4147.59,110.548" Scale="1.82025"/>
+   <Instance Pos="1120.97,4144.14,110.71" Scale="1.27736"/>
+   <Instance Pos="1121.77,4145.97,114.154" Scale="1.56485"/>
+   <Instance Pos="1120.46,4146.89,115.801" Scale="1.97775"/>
+   <Instance Pos="1121.55,4146.42,115.326" Scale="1.67438"/>
+   <Instance Pos="1121.41,4146.45,115.24" Scale="2.48164"/>
+   <Instance Pos="1121.3,4146.49,115.202" Scale="1.97364"/>
+   <Instance Pos="1121.13,4146.57,115.268" Scale="2.26604"/>
+   <Instance Pos="1121.71,4146.36,115.386" Scale="1.63662"/>
+   <Instance Pos="1122.38,4146.67,117.313" Scale="2.03964"/>
+   <Instance Pos="1120.36,4146.82,115.299" Scale="1.27533"/>
+   <Instance Pos="1120.1,4145.96,110.757" Scale="1.74098"/>
+   <Instance Pos="1120.53,4144.95,111.074" Scale="1.607"/>
+   <Instance Pos="1120.47,4144.68,110.884" Scale="1.43024"/>
+   <Instance Pos="1121.05,4144.32,110.918" Scale="1.57209"/>
+   <Instance Pos="1124.12,4144.69,112.912" Scale="1.34999"/>
+   <Instance Pos="1123.39,4145.26,114.3" Scale="1.38355"/>
+   <Instance Pos="1122.83,4145.61,114.745" Scale="2.82657"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="159" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_big_e.cgf" GUID="{92F9A276-9F75-445B-9155-993D401A0D6C}" Hidden="0" Index="0" Category="Coastal_Road_Cliff">
+  <Instances>
+   <Instance Pos="1128.78,4141.28,111.754" Angle="53"/>
+   <Instance Pos="1128.76,4141.4,111.825" Angle="115"/>
+   <Instance Pos="1128.46,4141.89,111.589" Angle="10"/>
+   <Instance Pos="1128.67,4141.61,111.842" Scale="0.7" Angle="64"/>
+   <Instance Pos="1129.39,4141.32,112.744" Angle="226"/>
+   <Instance Pos="1128.25,4143.07,113.373" Angle="159"/>
+   <Instance Pos="1128.6,4142.99,113.939" Angle="46"/>
+   <Instance Pos="1118.62,4151.38,124.394" Scale="0.89" Angle="2"/>
+   <Instance Pos="1119.95,4150.35,123.139" Angle="148"/>
+   <Instance Pos="1119.64,4151.08,124.373" Angle="197"/>
+   <Instance Pos="1118.74,4149.32,119.713" Angle="70"/>
+   <Instance Pos="1118.44,4150.59,123.204" Scale="1.01" Angle="161"/>
+   <Instance Pos="1118.58,4149.62,120.73" Angle="245"/>
+   <Instance Pos="1119.11,4148.09,116.629" Angle="183"/>
+   <Instance Pos="1119.43,4147.93,117.796" Angle="112"/>
+   <Instance Pos="1119.47,4148.13,118.539" Angle="56"/>
+   <Instance Pos="1119.71,4148.16,119.759" Angle="52"/>
+   <Instance Pos="1119.34,4148.77,119.441" Angle="184"/>
+   <Instance Pos="1119.54,4150.15,122.719" Angle="113"/>
+   <Instance Pos="1118.18,4149.03,117.107" Scale="1.69" Angle="102"/>
+   <Instance Pos="1118.78,4148.16,115.239" Angle="88"/>
+   <Instance Pos="1120.88,4150.61,123.628" Angle="132"/>
+   <Instance Pos="1123.64,4146.47,118.011" Angle="168"/>
+   <Instance Pos="1122.03,4145.13,112.93" Angle="53"/>
+   <Instance Pos="1122.67,4145.33,113.883" Angle="212"/>
+   <Instance Pos="1120.2,4147.82,120.178" Angle="145"/>
+   <Instance Pos="1120.04,4151.34,125.012" Angle="64"/>
+   <Instance Pos="1125.64,4144.88,114.038" Angle="112"/>
+   <Instance Pos="1125.94,4145.1,115.05" Angle="91"/>
+   <Instance Pos="1121.74,4147.96,121.234" Angle="149"/>
+   <Instance Pos="1120.32,4148.21,121.25" Angle="169"/>
+   <Instance Pos="1121.9,4146.14,114.952" Angle="25"/>
+   <Instance Pos="1123.51,4147.14,119.621" Angle="245"/>
+   <Instance Pos="1124.15,4144.98,113.923" Angle="72"/>
+   <Instance Pos="1126.1,4145.89,118.34" Angle="72"/>
+   <Instance Pos="1125.69,4144.5,112.571" Angle="80"/>
+   <Instance Pos="1127.66,4145.07,116.779" Angle="83"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="160" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_small_e.cgf" GUID="{7AA97277-6797-4A30-A6FA-5FCFDEC134F1}" Hidden="0" Index="0" Category="Coastal_Road_Cliff">
+  <Instances>
+   <Instance Pos="1129.32,4140.17,110.827" Scale="0.7"/>
+   <Instance Pos="1119.14,4151.68,125.148" Scale="1.26"/>
+   <Instance Pos="1118.55,4150.18,122.639" Scale="1.7"/>
+   <Instance Pos="1118.79,4149.58,120.767" Scale="2.39"/>
+   <Instance Pos="1122.56,4147.96,121.463" Scale="2"/>
+   <Instance Pos="1124.9,4144.95,114.08"/>
+   <Instance Pos="1124.6,4145.37,115.466"/>
+   <Instance Pos="1120.55,4147.36,118.134"/>
+   <Instance Pos="1120.44,4147.38,118.136"/>
+   <Instance Pos="1120.24,4147.41,118.114"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="161" FileName="objects/natural/bushes/cliffbush/cliff_bush_yellow_big.cgf" GUID="{0A83F030-BEE4-4A2B-9DE5-F31AEF2ED00A}" Hidden="0" Index="0" Category="Coastal_Road_Cliff">
+  <Instances>
+   <Instance Pos="1127.2,4144.97,115.981" Scale="0.49"/>
+   <Instance Pos="1122.1,4150.99,124.287" Scale="0.65182" Angle="6"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="162" FileName="objects/natural/ground_plants/small_leaves/small_leaves_big_70_w.cgf" GUID="{825B9273-4381-4902-AFD3-2C100724E426}" Hidden="0" Index="0" Category="Coastal_Road_Cliff">
+  <Instances>
+   <Instance Pos="1126.06,4143.14,110.619" Scale="0.7" Angle="53"/>
+   <Instance Pos="1118.1,4148.31,112.803" Angle="44"/>
+   <Instance Pos="1122.85,4150.58,123.484"/>
+   <Instance Pos="1124.19,4147.39,120.547"/>
+  </Instances>
+ </VegetationObject>
+</Vegetation>

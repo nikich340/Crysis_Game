@@ -1,0 +1,51 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="136" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_pebble" Diffuse="1,1,1" Specular="0.06666667,0.06666667,0.06666667" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/river_rocks.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/river_rocks_spec.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/river_rocks_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.74599999"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="136" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_pebble" Diffuse="1,1,1" Specular="0.06666667,0.06666667,0.06666667" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/river_rocks.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/river_rocks_spec.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/river_rocks_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.74599999"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="136" Shader="Terrain.Layer" GenMask="402657796" SurfaceType="mat_pebble" Diffuse="1,1,1" Specular="0.06666667,0.06666667,0.06666667" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/river_rocks.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/river_rocks_spec.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/river_rocks_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.017999999" SelfShadowStrength="3" DetailTextureStrength="0.74599999"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

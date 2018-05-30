@@ -1,0 +1,4 @@
+<DialogScript Name="Fleet.AB7_Loudspeaker_Event1_Launch" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/bridge_officer_2_fleet_ab7_FB65F9F7" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="All FlightDeck crew now ready for Event 1 launch. Aircraft personnel not on FlightDeck Operations leave the Flightdeck catwalk area."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/bridge_officer_2_fleet_ab7_A3CDC4B9" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Heads up on the Deck. Getting ready to shoot Cats 1 and 2. Clear the shot lines, clear the catwalk. Watch yourself on the bow. Heads up."/>
+</DialogScript>

@@ -1,0 +1,15 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="24" SurfaceType="" Diffuse="0.29019609,0.53725493,0.94901967" Specular="0.84705889,0.99607849,0.95294124" Emissive="1,1,1" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/fire_flame_alpha.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/sprites/blood/splat_1_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/blood/splat_1_spec.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SpecMultiplier="1.35" SpecBumpScale="0.43900001" AnimSpeed="0.12" PerturbationScale="5.8000002" PerturbationStrenght="0.579"/>
+ <MaterialLayers />
+</Material>

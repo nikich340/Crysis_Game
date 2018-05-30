@@ -1,0 +1,55 @@
+<Graph Description="" Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-30,-80,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="410,40,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="AI:AIGotoSpeedStance" pos="210,10,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="10" StopDistance="10" run="2" stance="2"/>
+  </Node>
+  <Node Id="5" Class="Time:Delay" pos="210,-150,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="6" Class="AI:AIAttTarget" pos="70,80,0" flags="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="7" Class="AI:ActionEnd" pos="210,150,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="8" Class="Entity:EntityPos" pos="20,170,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="9" Class="Vec3:SubVec3" pos="210,230,0" flags="0">
+   <Inputs A="0,0,0" B="0,0,0"/>
+  </Node>
+  <Node Id="10" Class="Vec3:MagnitudeVec3" pos="340,230,0" flags="0">
+   <Inputs vector="0,0,0"/>
+  </Node>
+  <Node Id="11" Class="Math:Less" pos="500,230,0" flags="1">
+   <Inputs A="60" B="0"/>
+  </Node>
+  <Node Id="12" Class="AI:AISignal" pos="350,-150,0" flags="0">
+   <Inputs entityId="0" signal="ABORT_ALL_ACTIONS" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0"/>
+  </Node>
+  <Node Id="13" Class="AI:ActionEnd" pos="630,230,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="in" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="end" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="5" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="6" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="6" portIn="cancel" portOut="none" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="6" portIn="A" portOut="pos" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="8" portIn="B" portOut="pos" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="9" portIn="vector" portOut="out" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="10" portIn="B" portOut="length" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="11" portIn="cancel" portOut="false" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,12 @@
+<Material MtlFlags="2048" Shader="Fireparticles_vs2" GenMask="1" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/fire_flame7.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/defaults/oceanwaves_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.01" BurnOffset="0" VariationTileU="0.04" VariationTileV="0.06" VariationTileW="0.03" BaseDarkening="1" Saturation="0.95" Contrast="1.11"/>
+ <MaterialLayers />
+</Material>

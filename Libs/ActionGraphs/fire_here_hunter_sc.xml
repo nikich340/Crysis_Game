@@ -1,0 +1,75 @@
+<Graph Description="" Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="100,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="750,50,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="30,110,0" flags="0" GraphEntity="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIShootAt" pos="360,50,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" targetPos="0,0,0" time="13" shots="-1" AimOnly="0" TargetId="0"/>
+  </Node>
+  <Node Id="5" Class="Vec3:AddVec3" pos="230,130,0" flags="0">
+   <Inputs A="0,0,0" B="0,0,4"/>
+  </Node>
+  <Node Id="6" Class="AI:SmartObjectEvent" pos="230,-80,0" flags="0">
+   <Inputs soevent_event="CanShootAt" userId="0" objectId="0"/>
+  </Node>
+  <Node Id="69" Class="Time:Delay" pos="230,50,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="71" Class="AI:AIWeaponSelect" pos="550,50,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="MOAR"/>
+  </Node>
+  <Node Id="72" Class="Math:Random" pos="80,270,0" flags="0">
+   <Inputs min="1" max="1"/>
+  </Node>
+  <Node Id="74" Class="Vec3:ToVec3" pos="270,250,0" flags="0">
+   <Inputs x="0" y="0" z="0"/>
+  </Node>
+  <Node Id="75" Class="Math:Random" pos="80,350,0" flags="0">
+   <Inputs min="1" max="1"/>
+  </Node>
+  <Node Id="76" Class="Math:Random" pos="40,460,0" flags="0">
+   <Inputs min="1" max="2"/>
+  </Node>
+  <Node Id="78" Class="Math:Mul" pos="300,460,0" flags="0">
+   <Inputs A="0" B="2"/>
+  </Node>
+  <Node Id="80" Class="Math:Random" pos="30,550,0" flags="0">
+   <Inputs min="0" max="1"/>
+  </Node>
+  <Node Id="81" Class="Math:Mul" pos="230,560,0" flags="0">
+   <Inputs A="0" B="2"/>
+  </Node>
+  <Node Id="82" Class="Math:Sub" pos="350,560,0" flags="0">
+   <Inputs A="0" B="1"/>
+  </Node>
+  <Node Id="83" Class="AI:AIWeaponSelect" pos="230,-200,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="SingularityCannon"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="1" portIn="objectId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="userId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="72" nodeOut="1" portIn="generate" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="75" nodeOut="1" portIn="generate" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="A" portOut="pos" enabled="1"/>
+  <Edge nodeIn="71" nodeOut="4" portIn="sink" portOut="done" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="5" portIn="targetPos" portOut="out" enabled="1"/>
+  <Edge nodeIn="69" nodeOut="6" portIn="in" portOut="noRule" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="69" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="71" portIn="end" portOut="done" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="72" portIn="x" portOut="out" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="74" portIn="B" portOut="vec3" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="75" portIn="y" portOut="out" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="76" portIn="A" portOut="outRounded" enabled="1"/>
+  <Edge nodeIn="74" nodeOut="78" portIn="z" portOut="out" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="80" portIn="A" portOut="outRounded" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="81" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="82" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="83" portIn="trigger" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

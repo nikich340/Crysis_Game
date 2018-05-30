@@ -1,0 +1,7 @@
+<DialogScript Name="Mine.AB4_Helena_Call_Near" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="5" facialWeight="0.5" facialFadeTime="0.5" desc="blank time delay"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab4_pu0006" anim="" facial="" delay="5.5" facialWeight="0.5" facialFadeTime="0.5" desc="in here"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab4_pu0005" anim="" facial="" delay="5" facialWeight="0.5" facialFadeTime="0.5" desc="hey over here"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab4_pu0007" anim="" facial="" delay="5.25" facialWeight="0.5" facialFadeTime="0.5" desc="come on i know a way out"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab4_pu0008" anim="" facial="" delay="6" facialWeight="0.5" facialFadeTime="0.5" desc="hey"/>
+</DialogScript>

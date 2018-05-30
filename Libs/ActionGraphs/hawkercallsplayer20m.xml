@@ -1,0 +1,21 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="20,10,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="330,0,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Sound:PlaySoundEvent" flags="0" Id="4" InHideMask="127" OutHideMask="7" pos="170,0,0" >
+   <Inputs Enable="1" entityId="0" Once="0" sound_SoundEvent="Languages:Island:hawker_island_ab1_01110" Voice="0" />
+  </Node>
+  <Node Class="Time:Delay" flags="0" Id="5" pos="170,60,0" >
+   <Inputs delay="3" />
+  </Node>
+  <Node Class="Game:LocalPlayer" flags="0" Id="6" pos="0,-20,0" />
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="PlayTrigger" portOut="UserId" />
+  <Edge enabled="1" nodeIn="5" nodeOut="1" portIn="in" portOut="UserId" />
+  <Edge enabled="1" nodeIn="2" nodeOut="5" portIn="end" portOut="out" />
+  <Edge enabled="1" nodeIn="4" nodeOut="6" portIn="entityId" portOut="entityId" />
+ </Edges>
+</Graph>

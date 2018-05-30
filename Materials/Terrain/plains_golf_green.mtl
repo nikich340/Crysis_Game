@@ -1,0 +1,9 @@
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" MtlFlags="45" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0,0,0" SurfaceType="mat_grass" >
+ <Textures>
+  <Texture File="textures/terrain/detail/plains_golf_green.tif" Filter="5" Map="Diffuse" >
+   <TexMod TileU="0.15000001" TileV="0.15000001" />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.02" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+ <MaterialLayers />
+</Material>

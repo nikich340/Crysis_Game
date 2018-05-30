@@ -1,0 +1,58 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="0.50588238,0.50588238,0.50588238" Emissive="0,0,0" GenMask="1543" MtlFlags="128" Name="x" Opacity="1" Shader="Terrain.Layer" Shininess="9.999999" Specular="0.10588236,0.15686275,0.21960786" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a_ddn.tif" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers>
+    <Layer Active="0" Name="Frozenlayer" >
+     <PublicParams BaseDarkening="0.1" EndFrostColor="0.82352948,0.84313732,0.90980399" FrostAmount="0.68300003" FrostBumpAmount="2" FrostDetailTileU="4" FrostDetailTileV="2" FrostMultiplier="1.5" FrostOffset="0.23800001" StartFrostColor="0.14509805,0.18039216,0.25490198" VariationAmount="0.47499999" VariationTileU="0.5" VariationTileV="0.5" VariationTileW="0.5" />
+    </Layer>
+    <Layer Active="0" Name="Burninglayer" >
+     <PublicParams BaseDarkening="0" BurnAmount="0.56" DetailTile="0.36000001" EndColor="0.062745102,0.090196081,0.18823531" StartColor="0.8588236,0.91372555,0.97647065" VariationTileU="3" VariationTileV="3" VariationTileW="1" />
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Diffuse="0.50588238,0.50588238,0.50588238" Emissive="0,0,0" GenMask="1543" MtlFlags="128" Name="y" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.10588236,0.15686275,0.21960786" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a_ddn.tif" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="0.50588238,0.50588238,0.50588238" Emissive="0,0,0" GenMask="1543" MtlFlags="128" Name="z" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.10588236,0.15686275,0.21960786" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="objects/natural/rocks/cliff_rocks/cliff_rock_a_ddn.tif" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

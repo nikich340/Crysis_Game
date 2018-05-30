@@ -1,0 +1,5 @@
+<DialogScript Name="Tank.AB1_marines_move_on_train_station" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tank/major_strickland_tank_ab2_AF5E003C" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tank/marine_1_tank_ab2_x0005" anim="" facial="" delay="0.30000001" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tank/marine_2_tank_ab2_x0005" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

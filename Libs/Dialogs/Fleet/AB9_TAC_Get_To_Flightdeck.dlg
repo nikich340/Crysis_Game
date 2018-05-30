@@ -1,0 +1,4 @@
+<DialogScript Name="Fleet.AB9_TAC_Get_To_Flightdeck" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab9_1DA630DE" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, the flight deck s overrun. We need to get off this ship. Hurry!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_CF3038FF" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I ll take care of the doc, Nomad. You get up on deck."/>
+</DialogScript>

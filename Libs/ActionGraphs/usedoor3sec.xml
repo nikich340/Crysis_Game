@@ -1,0 +1,21 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="540,-10,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Time:Delay" flags="0" Id="5" pos="420,0,0" >
+   <Inputs delay="2" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="130,0,0" />
+  <Node Class="AI:AIUseObject" flags="0" Id="4" pos="260,0,0" >
+   <Inputs entityId="0" objectId="0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="objectId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="2" nodeOut="5" portIn="end" portOut="out" />
+  <Edge enabled="1" nodeIn="5" nodeOut="4" portIn="in" portOut="done" />
+ </Edges>
+</Graph>

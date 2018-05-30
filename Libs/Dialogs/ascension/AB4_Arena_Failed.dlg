@@ -1,0 +1,6 @@
+<DialogScript Name="ascension.AB4_Arena_Failed" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/vtol_pilot_ascension_ab1_2001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Command, we&apos;re resuming take off. Where the fuck is our air support?"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/vtol_pilot_ascension_ab1_2002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We&apos;ve got incoming!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/vtol_pilot_ascension_ab1_2003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Lost an engine&gt; Shit&gt; We&apos;re going down!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/vtol_pilot_ascension_ab1_2004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="&lt;screams&gt;"/>
+</DialogScript>

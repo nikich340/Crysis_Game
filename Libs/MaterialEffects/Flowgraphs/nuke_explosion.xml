@@ -1,0 +1,51 @@
+<Graph Description="" Group="nuke test" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="4" Class="Time:Delay" pos="-140,120,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="6" Class="Interpol:Float" pos="200,-50,0" flags="0">
+   <Inputs StartValue="11" EndValue="1" Time="10"/>
+  </Node>
+  <Node Id="7" Class="Image:FilterSharpen" pos="370,-40,0" flags="0">
+   <Inputs Enabled="1" FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+  </Node>
+  <Node Id="9" Class="Image:ColorCorrection" pos="380,40,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="11" Class="Time:Delay" pos="-60,-220,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="12" Class="Camera:CameraShake" pos="100,-160,0" flags="0">
+   <Inputs t_Activate="0" Position="0,0,0" Radius="20" Strength="1" Duration="11" Frequency="0.05"/>
+  </Node>
+  <Node Id="13" Class="Entity:EntityPos" pos="-120,-160,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="14" Class="Game:LocalPlayer" pos="-280,-160,0" flags="0"/>
+  <Node Id="18" Class="Interpol:Float" pos="210,100,0" flags="0">
+   <Inputs StartValue="2" EndValue="1" Time="4"/>
+  </Node>
+  <Node Id="19" Class="MaterialFX:HUDStartFX" pos="-350,140,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="21" Class="MaterialFX:HUDEndFX" pos="-180,230,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="22" Class="Time:Delay" pos="-350,230,0" flags="0">
+   <Inputs delay="10"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="4" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="4" portIn="in" portOut="out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="4" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="6" portIn="FilterSharpening_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="11" portIn="t_Activate" portOut="out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="13" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="14" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="18" portIn="Global_User_Brightness" portOut="Value" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="19" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="19" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="22" portIn="Trigger" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,9 @@
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="33554433" MtlFlags="0" Opacity="0.99" Shader="Illum" Shininess="10" Specular="0,0,0" SurfaceType="" >
+ <Textures>
+  <Texture File="textures/decal/numbers/03.tif" IsTileU="0" IsTileV="0" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

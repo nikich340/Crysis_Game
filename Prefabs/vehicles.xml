@@ -1,0 +1,71 @@
+<PrefabsLibrary Name="vehicles">
+ <Prefab Name="Air.Asian_Helicopter" Id="{3F26F36E-82D2-49B0-84C2-D3E23284C165}">
+  <Objects>
+   <Object Type="TagPoint" Layer="Main" Id="{0EA6FEE9-2E2E-4B13-86B9-60111131897D}" Name="flyto1" Pos="65.2234,50.3496,70.2365" ColorRGB="16711680" EntityClass="TagPoint"/>
+   <Object Type="TagPoint" Layer="Main" Id="{E8ED6493-791E-4BD3-9F78-92C30ADD14F5}" Name="flyto" Pos="56.761,63.2334,58.1437" ColorRGB="16711680" EntityClass="TagPoint"/>
+   <Object Type="AINavigationModifier" Layer="Main" Id="{4623D168-8D65-4919-9475-FB2E9951F2FF}" Name="AINavigationModifier42" Pos="163.173,200.509,9.38576" ColorRGB="15171608" NavType="2" WaypointConnections="0" MaxHideSearchRadius="10" NodeAutoConnectDistance="8" Calculate3DNav="1" ThreeDNavVolumeRadius="10" ExtraLinkCostFactor="0" TriangulationSize="1" VehiclesInHumanNav="0" Width="0" Height="80" AreaId="0" GroupId="0" Priority="0" Closed="1" DisplayFilled="0" EntityClass="AreaShape" UseAreaIDForNavType="0">
+    <Points>
+     <Point Pos="0,0,0"/>
+     <Point Pos="-162.173,-87.1372,-1.86671"/>
+     <Point Pos="-131.434,-199.509,-8.38574"/>
+     <Point Pos="44.1455,-144.377,-8.21251"/>
+    </Points>
+   </Object>
+   <Object Prototype="{2B81C739-40C6-4277-98DF-DB226610BACE}" Type="EntityArchetype" Layer="Main" Id="{866887A0-73A8-4F8A-84CB-0E1192BA820C}" Name="ai_Heli1_Gunner" Pos="48.4309,89.7698,29.5265" Rotate="0.965926,0,0,0.258819" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0">
+    <Properties2 bAutoDisable="0" soclasses_SmartObjectClass="" aibehavior_behaviour="Job_StandIdle" groupid="100"/>
+   </Object>
+   <Object Prototype="{2B81C739-40C6-4277-98DF-DB226610BACE}" Type="EntityArchetype" Layer="Main" Id="{EA986310-DCAC-4845-925B-67A4435A4657}" Name="ai_Heli1_Driver" Pos="44.501,91.2397,29.8625" Rotate="0.965926,0,0,0.258819" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0">
+    <Properties2 bAutoDisable="0" soclasses_SmartObjectClass="" aibehavior_behaviour="Job_StandIdle" groupid="100"/>
+   </Object>
+   <Object Prototype="{56E51313-8317-43FC-B99E-BF6A3DCA1227}" Type="EntityArchetype" Layer="Main" Id="{FC02D86A-C137-4456-BB6D-6DD8475B79A2}" Name="Heli1" Pos="49.522,93.0076,28.5897" Rotate="0.669131,0,0,0.743145" ColorRGB="65535" FlattenArea="300" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0">
+    <Properties2 bAutoDisable="0" bCircularPath="0" FormationType="" PathName="" aibehavior_behaviour="HeliIdle" groupid="100"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:Asian_helicopter" pos="-255,-197,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Debug="0" Disable="0" DisableEngine="0" DisableMovement="0" Enable="0" EnableEngine="0" EnableMovement="0"/>
+      </Node>
+      <Node Id="3" Class="AI:AIExecute" pos="30,-200,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" objectId="0" soaction_action="approach_fast" maxAlertness="2" HighPriority="1"/>
+      </Node>
+      <Node Id="4" Class="Start" pos="-330,-390,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="5" Class="Entity:EntityId" pos="-130,-40,0" flags="0" EntityGUID="{E8ED6493-791E-4BD3-9F78-92C30ADD14F5}" EntityGUID_64="4BD3791EE8ED6493">
+       <Inputs entityId="0"/>
+      </Node>
+      <Node Id="6" Class="AI:AIGotoSpeedStance" pos="280,-200,0" flags="0" EntityGUID="{E8ED6493-791E-4BD3-9F78-92C30ADD14F5}" EntityGUID_64="4BD3791EE8ED6493">
+       <Inputs entityId="0" pos="0,0,0" distance="0" StopDistance="0" run="3" stance="4"/>
+      </Node>
+      <Node Id="7" Class="Entity:EntityPos" pos="50,-50,0" flags="0" EntityGUID="{0EA6FEE9-2E2E-4B13-86B9-60111131897D}" EntityGUID_64="4B132E2E0EA6FEE9">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="10" Class="Logic:AND" pos="202,-403,0" flags="0">
+       <Inputs A="0" B="0"/>
+      </Node>
+      <Node Id="11" Class="Vehicle:Enter" pos="-150,-490,0" flags="0" EntityGUID="{EA986310-DCAC-4845-925B-67A4435A4657}" EntityGUID_64="4845DCACEA986310">
+       <Inputs entityId="0" VehicleId="0" SeatNumber="1" Fast="1"/>
+      </Node>
+      <Node Id="12" Class="Vehicle:Enter" pos="-150,-370,0" flags="0" EntityGUID="{866887A0-73A8-4F8A-84CB-0E1192BA820C}" EntityGUID_64="4F8A73A8866887A0">
+       <Inputs entityId="0" VehicleId="0" SeatNumber="2" Fast="1"/>
+      </Node>
+      <Node Id="13" Class="Entity:EntityId" pos="-310,-310,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="6" nodeOut="3" portIn="sink" portOut="succeed" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="4" portIn="sink" portOut="output" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="4" portIn="sink" portOut="output" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="5" portIn="objectId" portOut="Id" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="7" portIn="pos" portOut="pos" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="10" portIn="sink" portOut="true" enabled="1"/>
+      <Edge nodeIn="10" nodeOut="11" portIn="A" portOut="succeed" enabled="1"/>
+      <Edge nodeIn="10" nodeOut="12" portIn="B" portOut="succeed" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="13" portIn="VehicleId" portOut="Id" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="13" portIn="VehicleId" portOut="Id" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

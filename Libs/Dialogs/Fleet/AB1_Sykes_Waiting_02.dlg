@@ -1,0 +1,5 @@
+<DialogScript Name="Fleet.AB1_Sykes_Waiting_02" Description="">
+ <Line actor="0" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_sykes/backtowork_02" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="sitGround" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

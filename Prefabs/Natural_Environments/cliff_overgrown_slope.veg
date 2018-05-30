@@ -1,0 +1,178 @@
+<Vegetation>
+ <VegetationObject Size="0.3" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="145" FileName="objects/natural/bushes/cliffbush/cliff_bush_green_big.cgf" GUID="{A9AEB16E-ED78-4780-A6CE-06A859582319}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1373.24,4647.29,110.11" Scale="0.3"/>
+   <Instance Pos="1375.91,4647.46,112.447" Scale="0.3"/>
+   <Instance Pos="1371.65,4644.49,107.906" Scale="0.3"/>
+   <Instance Pos="1368.61,4647.37,106.552" Scale="0.3"/>
+   <Instance Pos="1374.2,4644.7,110.33" Scale="0.3"/>
+   <Instance Pos="1376.85,4645.03,112.679" Scale="0.3"/>
+   <Instance Pos="1379.46,4647.64,114.303" Scale="0.3"/>
+   <Instance Pos="1370.58,4650.14,108.427" Scale="0.3"/>
+   <Instance Pos="1373.97,4651.07,110.979" Scale="0.3"/>
+   <Instance Pos="1369.39,4653.49,107.43" Scale="0.3"/>
+   <Instance Pos="1375.36,4655.79,110.31" Scale="0.3"/>
+   <Instance Pos="1371.98,4655.25,108.458" Scale="0.3"/>
+   <Instance Pos="1377.61,4653.04,113.534" Scale="0.3"/>
+   <Instance Pos="1376.47,4650.59,113.186" Scale="0.3"/>
+   <Instance Pos="1379.98,4650.61,114.556" Scale="0.3"/>
+   <Instance Pos="1393.06,4653.63,139.43" Brightness="75"/>
+   <Instance Pos="1390.48,4661.3,116.599" Scale="0.9317" Brightness="75"/>
+   <Instance Pos="1384.81,4671.78,115.956" Scale="0.3"/>
+   <Instance Pos="1375.42,4678.66,110.032" Scale="0.3"/>
+   <Instance Pos="1374.06,4675.25,109.194" Scale="0.3"/>
+   <Instance Pos="1382.5,4677.68,114.949" Scale="0.3"/>
+   <Instance Pos="1379.84,4678.76,113.373" Scale="0.3"/>
+   <Instance Pos="1381.56,4672.1,114.386" Scale="0.3"/>
+   <Instance Pos="1380.41,4675.18,113.509" Scale="0.3"/>
+   <Instance Pos="1377.89,4676.16,111.625" Scale="0.3"/>
+   <Instance Pos="1377.55,4672.61,111.232" Scale="0.3"/>
+   <Instance Pos="1382.83,4674.46,115.047" Scale="0.3"/>
+   <Instance Pos="1386.13,4677.47,116.048" Scale="0.3"/>
+   <Instance Pos="1385.6,4674.28,116.312" Scale="0.3"/>
+   <Instance Pos="1395.09,4672.9,131.149" Scale="1.51616" Brightness="75"/>
+   <Instance Pos="1375.04,4680.93,109.837" Scale="0.3"/>
+   <Instance Pos="1379.53,4687.69,113.963" Scale="0.3"/>
+   <Instance Pos="1379.48,4681.09,113.547" Scale="0.3"/>
+   <Instance Pos="1383.11,4685.66,115.595" Scale="0.3"/>
+   <Instance Pos="1383.37,4681.72,115.39" Scale="0.3"/>
+   <Instance Pos="1379.65,4685.31,113.978" Scale="0.3"/>
+   <Instance Pos="1387.51,4685.74,116.728" Scale="0.3"/>
+   <Instance Pos="1387.5,4680.99,116.68" Scale="0.3"/>
+   <Instance Pos="1389.48,4683.41,117.478" Scale="0.3"/>
+   <Instance Pos="1387.06,4683.34,116.512" Scale="0.3"/>
+   <Instance Pos="1380.77,4692.44,114.769" Scale="0.3"/>
+   <Instance Pos="1379.45,4690.06,114.008" Scale="0.3"/>
+   <Instance Pos="1383.51,4688.45,116.113" Scale="0.3"/>
+   <Instance Pos="1386.21,4688.24,116.928" Scale="0.3"/>
+   <Instance Pos="1388.52,4689.13,117.868" Scale="0.3"/>
+   <Instance Pos="1384.73,4692.77,117.634" Scale="0.3"/>
+   <Instance Pos="1387.73,4692.01,118.329" Scale="0.3"/>
+   <Instance Pos="1391.6,4688.62,119.118" Scale="0.3"/>
+   <Instance Pos="1398.01,4695.75,132.993"/>
+   <Instance Pos="1389.9,4702.66,126.454" Scale="1.53" Brightness="75"/>
+   <Instance Pos="1399.82,4697.22,135.66"/>
+   <Instance Pos="1378.22,4717.92,128.743" Scale="2.5" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="3" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="146" FileName="objects/natural/bushes/cliffbush/cliff_bush_yellow_big.cgf" GUID="{58C90AD3-EA46-4A31-9466-EBCAF8E56189}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1337.14,4839.08,147.657" Scale="3" Brightness="75"/>
+   <Instance Pos="1336.48,4863.44,165.157" Scale="3" Brightness="75"/>
+   <Instance Pos="1379.98,4860.3,161.76" Scale="3" Brightness="75"/>
+   <Instance Pos="1389.77,4859.89,166.093" Scale="3" Brightness="75"/>
+   <Instance Pos="1422.94,4860.26,165.935" Scale="3" Brightness="75"/>
+   <Instance Pos="1353.51,4886.87,171.182" Scale="3" Brightness="75"/>
+   <Instance Pos="1410.07,4883.2,188.387" Scale="3.78" Brightness="75"/>
+   <Instance Pos="1434.53,4883.39,193.087" Scale="3" Brightness="75"/>
+   <Instance Pos="1459.89,4882.37,189.67" Scale="3" Brightness="75"/>
+   <Instance Pos="1362.98,4892.8,172.962" Scale="4.05"/>
+   <Instance Pos="1376.93,4890.23,185.287" Scale="3" Brightness="75"/>
+   <Instance Pos="1400.05,4909.42,199.204" Scale="3" Brightness="75"/>
+   <Instance Pos="1430.51,4906.12,209.777" Scale="3" Brightness="75"/>
+   <Instance Pos="1455.48,4911.4,215.672" Scale="3" Brightness="75"/>
+   <Instance Pos="1343.52,5021.28,204.92" Scale="3" Brightness="75"/>
+   <Instance Pos="1333.43,5044.13,210.083" Scale="3" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="147" FileName="objects/natural/ground_plants/small_leaves/small_leaves_slope_east_a.cgf" GUID="{D27EE266-1912-4553-878C-FB074FDC30F2}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1374.8,4593.94,106.058" Scale="2.17" Angle="145"/>
+   <Instance Pos="1368.78,4597.55,104.788" Scale="1.24"/>
+   <Instance Pos="1375.12,4596.11,107.232" Scale="1.55"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="148" FileName="objects/natural/ground_plants/small_leaves/small_leaves_big_70_w_roots_a.cgf" GUID="{301CC647-12D8-4F5C-891F-6D2A4CCEFDE6}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1377.49,4590.43,116.322"/>
+   <Instance Pos="1377.59,4598.12,117.374" Scale="1.51"/>
+   <Instance Pos="1378.09,4593.52,119.268" Scale="1.26513" Brightness="75"/>
+   <Instance Pos="1388.17,4639.97,126.696" Scale="1.5368" Brightness="75" Angle="39"/>
+   <Instance Pos="1395.21,4667.74,130.512"/>
+   <Instance Pos="1393.53,4672.14,128.414" Scale="1.5721" Brightness="75" Angle="29"/>
+   <Instance Pos="1394.37,4678.81,128.551" Scale="1.44" Brightness="75" Angle="16"/>
+   <Instance Pos="1397.09,4687.28,131.604" Scale="2.07" Brightness="75"/>
+   <Instance Pos="1396.39,4692.34,130.741" Scale="1.8645" Brightness="75" Angle="7"/>
+   <Instance Pos="1393.86,4697.88,127.337" Scale="1.83" Angle="34"/>
+   <Instance Pos="1418.3,4723.26,153.554" Scale="2.9"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="149" FileName="objects/natural/rocks/vulkan_rocks/vulkan_rock_a.cgf" GUID="{8E543F13-29D0-44D9-AC7C-A6656AC4D646}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1365.85,4593.2,105.023" Scale="2.32" Brightness="75"/>
+   <Instance Pos="1372.77,4596.5,105.148" Scale="0.965764" Brightness="75" Angle="55"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1.4" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="20" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="150" FileName="objects/natural/trees/palm_tree/palm_tree_large_g.cgf" GUID="{9E050BC1-C016-4094-8EC5-45BFCDCA5E99}" Hidden="0" Index="0" Category="overgrown_slope"/>
+ <VegetationObject Size="0.6" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="151" FileName="objects/natural/trees/thin_leave_tree/thin_leave_tree_big_bright_green_sprite.cgf" GUID="{F1AAA46D-0CCD-4C9B-B186-BFD5EE0735EA}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1388.26,4639.03,124.325" Brightness="75" Angle="18"/>
+   <Instance Pos="1389.47,4642.28,128.317" Brightness="75"/>
+   <Instance Pos="1388.91,4649.76,130.993" Scale="0.6" Brightness="75"/>
+   <Instance Pos="1401.2,4682.3,138.656" Brightness="75"/>
+   <Instance Pos="1409.45,4683.68,154.012" Scale="0.966" Brightness="75"/>
+   <Instance Pos="1390.84,4700.16,123.703" Scale="0.6" Brightness="75" Angle="49"/>
+   <Instance Pos="1403.04,4699.44,141.618" Brightness="75"/>
+   <Instance Pos="1371.8,4708.03,122.614" Brightness="75"/>
+   <Instance Pos="1368.83,4711.21,121.957" Scale="0.77" Brightness="75" Angle="248"/>
+   <Instance Pos="1393.33,4710.27,136.726" Scale="0.6" Brightness="75"/>
+   <Instance Pos="1364.7,4717.67,120.853" Brightness="75"/>
+   <Instance Pos="1383.42,4715.23,128.31" Scale="1.3244" Brightness="75" Angle="243"/>
+   <Instance Pos="1395.69,4714.06,145.119" Brightness="75" Angle="238"/>
+   <Instance Pos="1392.99,4716.01,142.074" Scale="1.566"/>
+   <Instance Pos="1410.94,4717.92,154.552" Scale="1.83924" Brightness="75" Angle="235"/>
+   <Instance Pos="1357.43,4791.59,114.061" Brightness="75"/>
+   <Instance Pos="1339.89,4816.96,120.935" Scale="1.18" Brightness="75"/>
+   <Instance Pos="1361.76,4820.81,125.749" Scale="1.62" Brightness="75"/>
+   <Instance Pos="1346.83,4830.39,135.41" Brightness="75"/>
+   <Instance Pos="1359.31,4835.03,137.474" Scale="1.41" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="152" FileName="objects/natural/trees/jungle_tree_large/jungle_tree_large_med_bright_green.cgf" GUID="{528E54A6-FE05-46F7-AA9A-339675F099A8}" Hidden="0" Index="0" Category="overgrown_slope"/>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="153" FileName="objects/natural/trees/river_tree/river_tree_b.cgf" GUID="{D25ACAD6-6A35-499D-8E1C-A2EC8EF28216}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1383.08,4638.75,116.014" Scale="0.702855" Brightness="75" Angle="207"/>
+   <Instance Pos="1391.48,4639.24,127.697" Brightness="75"/>
+   <Instance Pos="1399.79,4683.62,134.011" Scale="0.961492" Brightness="75" Angle="212"/>
+   <Instance Pos="1375.08,4697.1,113.546" Scale="0.5236" Brightness="75" Angle="212"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="3" SizeVar="0" RandomRotation="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="1" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="154" FileName="objects/natural/bushes/junglebush/junglebush_deko_fl_red_a.cgf" GUID="{50FF1908-74E8-4187-80B5-783DAAFBA46E}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1382.52,4639.87,116.089" Scale="3" Brightness="75" Angle="97"/>
+   <Instance Pos="1381.52,4641.67,115.646" Scale="3" Brightness="75" Angle="54"/>
+   <Instance Pos="1382.54,4641.37,117.62" Scale="3" Brightness="75" Angle="170"/>
+   <Instance Pos="1383.28,4641.88,120.672" Scale="3" Brightness="75" Angle="105"/>
+   <Instance Pos="1382.96,4645.93,120.173" Scale="3" Brightness="75" Angle="9"/>
+   <Instance Pos="1382.48,4642.55,118.629" Scale="3" Brightness="75" Angle="2"/>
+   <Instance Pos="1381.23,4645.26,116.367" Scale="3" Brightness="75" Angle="63"/>
+   <Instance Pos="1382.41,4650.94,115.361" Scale="3" Brightness="75" Angle="255"/>
+   <Instance Pos="1383.07,4648.94,118.003" Scale="3" Brightness="75" Angle="136"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="3" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="1" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="155" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_med_bright_green.cgf" GUID="{2E6E50AA-6EFB-4DCE-8D53-A95D28733D02}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1380.52,4627.94,111.883" Scale="3.86" Brightness="75"/>
+   <Instance Pos="1357.68,4642.96,104.969" Scale="1.95" Brightness="75"/>
+   <Instance Pos="1388.77,4696.06,119.27" Scale="3"/>
+   <Instance Pos="1402.82,4705.52,145.033" Scale="3"/>
+   <Instance Pos="1336.81,4836.16,143.249" Scale="6.69" Brightness="75"/>
+   <Instance Pos="1375.84,4873.83,163.008" Scale="9.33" Brightness="75"/>
+   <Instance Pos="1365.64,4895.72,178.804" Scale="5.31" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="0.7" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="4" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" PrecalcShadow="0" AlphaBlend="0" SpriteDistRatio="1" ShadowDistRatio="1" MaxViewDistRatio="3" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="156" FileName="objects/natural/ground_plants/small_leaves/small_leaves_big_30_w.cgf" GUID="{82B8D75D-D097-4ED1-BC9E-F57613BFF1EF}" Hidden="0" Index="0" Category="overgrown_slope">
+  <Instances>
+   <Instance Pos="1373.79,4590.85,104.908" Scale="0.7"/>
+   <Instance Pos="1377.51,4587.95,114.588" Scale="1.5"/>
+   <Instance Pos="1372.34,4599.25,105.031" Scale="0.825"/>
+   <Instance Pos="1373.72,4592.23,104.917" Scale="0.7"/>
+   <Instance Pos="1372.18,4594.16,104.867" Scale="0.602"/>
+   <Instance Pos="1374.02,4595.41,105.421" Scale="0.6909"/>
+   <Instance Pos="1372.72,4597.61,105.24" Scale="0.66"/>
+   <Instance Pos="1369.5,4666.85,107.183" Scale="1.5" Brightness="75"/>
+   <Instance Pos="1372.54,4671.11,108.393" Scale="1.5" Brightness="75"/>
+   <Instance Pos="1374.18,4664.27,108.956" Scale="1.5" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+</Vegetation>

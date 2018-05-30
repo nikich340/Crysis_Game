@@ -1,0 +1,85 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="Math:SetNumber" flags="0" Id="14" pos="890,220,0" >
+   <Inputs in="0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="90,10,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="19" pos="1750,210,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Condition" flags="0" Id="6" pos="430,20,0" >
+   <Inputs condition="0" />
+  </Node>
+  <Node Class="Condition" flags="0" Id="15" pos="1490,210,0" >
+   <Inputs condition="0" />
+  </Node>
+  <Node Class="_comment" flags="0" Id="21" Name="Player is not at full health, heal him with 5hp per second" pos="1760,290,0" />
+  <Node Class="_comment" flags="0" Id="7" Name="Check if player has full health and quit if he does" pos="240,-30,0" />
+  <Node Class="_comment" flags="0" Id="20" Name="Player is at full health, end action" pos="1640,160,0" />
+  <Node Class="_comment" flags="0" Id="8" Name="Otherwise approach and heal him" pos="720,170,0" />
+  <Node Class="Game:ActorSetHealth" flags="0" Id="10" pos="1880,330,0" >
+   <Inputs entityId="0" Value="0" />
+  </Node>
+  <Node Class="Game:ActorGetHealth" flags="0" Id="9" pos="1620,330,0" >
+   <Inputs entityId="0" />
+  </Node>
+  <Node Class="Game:ActorCheckHealth" flags="0" Id="5" pos="240,10,0" >
+   <Inputs entityId="0" MaxHealth="100" MinHealth="100" />
+  </Node>
+  <Node Class="Math:Add" flags="0" Id="22" pos="1760,330,0" >
+   <Inputs A="0" B="5" />
+  </Node>
+  <Node Class="Math:SetNumber" flags="0" Id="12" pos="310,320,0" >
+   <Inputs in="1" />
+  </Node>
+  <Node Class="AI:AIGoto" flags="0" Id="4" pos="730,210,0" >
+   <Inputs distance="2" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="3" pos="310,200,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="790,20,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Game:ActorCheckHealth" flags="0" Id="18" pos="1290,210,0" >
+   <Inputs entityId="0" MaxHealth="100" MinHealth="100" />
+  </Node>
+  <Node Class="Time:Timer" flags="0" Id="11" pos="1140,240,0" >
+   <Inputs max="1" min="1" paused="0" period="1" />
+  </Node>
+  <Node Class="Logic:Any" flags="0" Id="13" pos="1020,280,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Math:Clamp" flags="0" Id="17" pos="2030,330,0" >
+   <Inputs in="0" max="100" min="0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" />
+  <Edge nodeIn="5" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="22" nodeOut="9" portIn="A" portOut="Health" />
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="15" nodeOut="18" portIn="condition" portOut="InRange" />
+  <Edge nodeIn="5" nodeOut="1" portIn="Trigger" portOut="ObjectId" />
+  <Edge nodeIn="6" nodeOut="5" portIn="condition" portOut="InRange" />
+  <Edge nodeIn="4" nodeOut="6" portIn="sink" portOut="false" />
+  <Edge nodeIn="13" nodeOut="14" portIn="in1" portOut="out" />
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="6" nodeOut="5" portIn="value" portOut="InRange" />
+  <Edge nodeIn="18" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="17" nodeOut="10" portIn="in" portOut="Health" />
+  <Edge nodeIn="11" nodeOut="13" portIn="paused" portOut="out" />
+  <Edge nodeIn="18" nodeOut="11" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="10" nodeOut="22" portIn="Value" portOut="out" />
+  <Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="9" nodeOut="15" portIn="Trigger" portOut="false" />
+  <Edge nodeIn="14" nodeOut="4" portIn="set" portOut="done" />
+  <Edge nodeIn="19" nodeOut="15" portIn="end" portOut="true" />
+  <Edge nodeIn="13" nodeOut="12" portIn="in2" portOut="out" />
+  <Edge nodeIn="10" nodeOut="15" portIn="Trigger" portOut="false" />
+  <Edge nodeIn="9" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="12" nodeOut="1" portIn="set" portOut="UserId" />
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="true" />
+  <Edge nodeIn="15" nodeOut="18" portIn="value" portOut="InRange" />
+ </Edges>
+</Graph>

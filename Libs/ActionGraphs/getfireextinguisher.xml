@@ -1,0 +1,37 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="790,10,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AIGrabObject" flags="0" Id="6" pos="650,0,0" >
+   <Inputs entityId="0" objectId="0" />
+  </Node>
+  <Node Class="AI:AIStance" flags="0" Id="7" pos="210,0,0" >
+   <Inputs entityId="0" stance="2" />
+  </Node>
+  <Node Class="AI:AISpeed" flags="0" Id="5" pos="350,0,0" >
+   <Inputs entityId="0" run="2" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="80,0,0" />
+  <Node Class="AI:AIGoto" flags="0" Id="4" pos="490,0,0" >
+   <Inputs distance="2" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="3" pos="20,70,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="5" nodeOut="7" portIn="sink" portOut="done" />
+  <Edge nodeIn="6" nodeOut="1" portIn="objectId" portOut="ObjectId" />
+  <Edge nodeIn="7" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="4" nodeOut="5" portIn="sink" portOut="done" />
+  <Edge nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" />
+  <Edge nodeIn="7" nodeOut="1" portIn="sink" portOut="UserId" />
+  <Edge nodeIn="6" nodeOut="4" portIn="sink" portOut="done" />
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="done" />
+  <Edge nodeIn="6" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" />
+ </Edges>
+</Graph>

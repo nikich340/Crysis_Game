@@ -1,0 +1,54 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="y" MtlFlags="168" Shader="Terrain.Layer" GenMask="268440196" SurfaceType="mat_rock_dusty" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.027450982,0.027450982,0.027450982" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/rock_mine.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/rock_mine_spec.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/rock_mine_ddn.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Environment" File="textures/defaults/fresnel_sampler.dds">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.28999999" FresnelScale="1" FresnelBias="0" ObmDisplacement="0.0040000002" PomDisplacement="0.012" SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="x" MtlFlags="168" Shader="Terrain.Layer" GenMask="268440196" SurfaceType="mat_rock_dusty" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.027450982,0.027450982,0.027450982" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/rock_mine.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/rock_mine_spec.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/rock_mine_ddn.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Environment" File="textures/defaults/fresnel_sampler.dds">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.28999999" FresnelScale="1" FresnelBias="0" ObmDisplacement="0.0040000002" PomDisplacement="0.012" SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="128" Shader="Terrain.Layer" GenMask="268439556" SurfaceType="mat_rock_dusty" Diffuse="0.38823533,0.38039219,0.36078432" Specular="0,0,0" Emissive="0,0,0" Shininess="11" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/ground_ps_is_97_mine.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/ground_ps_is_97_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.0080000004" PomDisplacement="0.011" SelfShadowStrength="2.595" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,24 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="160,380,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="700,330,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="AI:AIFollow" pos="290,380,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" leaderId="0"/>
+  </Node>
+  <Node Id="6" Class="AI:AISetCharacter" pos="470,260,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" aicharacter_character="Civilian"/>
+  </Node>
+  <Node Id="8" Class="AI:PerceptionScale" pos="470,180,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Scale="0.5" Audio="0.4"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="4" portIn="sink" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="4" portIn="Trigger" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

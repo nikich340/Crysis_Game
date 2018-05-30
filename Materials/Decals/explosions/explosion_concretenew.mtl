@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301993984" SurfaceType="" Diffuse="0.45882356,0.45882356,0.45882356" Specular="0.10980393,0.10980393,0.10980393" Emissive="0,0,0" Shininess="10" Opacity="0.98000002">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/explosion_decals/explosion_concretenew.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

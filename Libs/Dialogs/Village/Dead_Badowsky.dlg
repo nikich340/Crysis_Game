@@ -1,0 +1,5 @@
+<DialogScript Name="Village.Dead_Badowsky" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/nomad_village_ab3_a3ea2663" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/prophet_village_ab3_d81a61b1" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/prophet_village_ab3_l2345678" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

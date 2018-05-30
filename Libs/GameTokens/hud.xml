@@ -1,0 +1,12 @@
+<GameTokensLibrary Name="hud" >
+ <GameToken Name="fov" Type="Float" Value="0.000000" />
+ <GameToken Name="health" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.energy" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.armor" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.armordesired" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.speed" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.speeddesired" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.strength" Type="Float" Value="0.000000" />
+ <GameToken Name="nanosuit.strengthdesired" Type="Float" Value="0.000000" />
+ <GameToken Name="hidenormal" Type="Bool" Value="false" />
+</GameTokensLibrary>

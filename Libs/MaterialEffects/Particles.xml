@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>John Newfield</Author>
+  <LastAuthor>michaelr</LastAuthor>
+  <Created>2005-10-12T15:13:39Z</Created>
+  <LastSaved>2005-10-26T13:55:56Z</LastSaved>
+  <Company>Crytek</Company>
+  <Version>11.6568</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8370</WindowHeight>
+  <WindowWidth>15360</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>975</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:AutoFitWidth="0" ss:Width="201"/>
+   <Column ss:AutoFitWidth="0" ss:Width="197.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="126.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:AutoFitWidth="0" ss:Width="129"/>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">mat_pebble</Data></Cell>
+    <Cell><Data ss:Type="String">mat_grass</Data></Cell>
+    <Cell><Data ss:Type="String">mat_metal</Data></Cell>
+    <Cell><Data ss:Type="String">mat_alien_hunter_head</Data></Cell>
+    <Cell><Data ss:Type="String">mat_alien_hunter_torso</Data></Cell>
+    <Cell><Data ss:Type="String">mat_alien_hunter_leg</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mat_pebble</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">bullet.hit_default.a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mat_grass</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">bullet.hit_default.a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mat_metal</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_default.a</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_default.a</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_metal.a</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_incendiary.a</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_incendiary.a</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_incendiary.a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mat_alien_hunter_head</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mat_alien_hunter_torso</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mat_alien_hunter_leg</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">bullet</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">bullet.hit_hunter.hit</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_hunter.hit</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_hunter.hit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">gaussbullet</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">bullet.hit_hunter.hit</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_hunter.hit</Data></Cell>
+    <Cell><Data ss:Type="String">bullet.hit_hunter.hit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HighVelocityBullet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ExplosiveGrenade</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

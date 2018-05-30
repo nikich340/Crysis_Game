@@ -1,0 +1,10 @@
+<DialogScript Name="Island.Korean_conversation_1" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_3/idlechatter_close_00a" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_1/idlechatter_close_00b" anim="" facial="" delay="4" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_3/idlechatter_close_01a" anim="" facial="" delay="3" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_1/idlechatter_close_01b" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_3/idlechatter_close_02a" anim="" facial="" delay="4" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_1/idlechatter_close_02b" anim="" facial="" delay="3" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_3/idlechatter_close_04a" anim="" facial="" delay="5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ai_korean_soldier_1/idlechatter_close_04b" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

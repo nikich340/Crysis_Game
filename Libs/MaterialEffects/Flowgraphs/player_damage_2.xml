@@ -1,0 +1,36 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="271" Class="Interpol:Float" pos="40,-340,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="6"/>
+  </Node>
+  <Node Id="272" Class="Interpol:Float" pos="10,-500,0" flags="0">
+   <Inputs StartValue="-0.5" EndValue="0" Time="4"/>
+  </Node>
+  <Node Id="273" Class="Input:Key" pos="-440,-300,0" flags="0">
+   <Inputs Key="y"/>
+  </Node>
+  <Node Id="274" Class="MaterialFX:HUDStartFX" pos="-260,-310,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="277" Class="Image:FilterRadialBlur" pos="230,-350,0" flags="0">
+   <Inputs Enabled="1" FilterRadialBlurring_Amount="1" FilterRadialBlurring_ScreenPosX="0.5" FilterRadialBlurring_ScreenPosY="0.5" FilterRadialBlurring_Radius="0.6"/>
+  </Node>
+  <Node Id="292" Class="MaterialFX:HUDEndFX" pos="-220,-80,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="339" Class="Image:ColorCorrection" pos="240,-540,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="-1" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="341" Class="Camera:ViewShake" pos="60,-160,0" flags="0">
+   <Inputs Restrict="0" View="0" Angle="0,0,0" Shift="0.07,0.07,0.07" Duration="0.4" Frequency="40" Randomness="2"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="277" nodeOut="271" portIn="FilterRadialBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="292" nodeOut="271" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="339" nodeOut="272" portIn="Global_User_ColorC" portOut="Value" enabled="1"/>
+  <Edge nodeIn="271" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="272" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="341" nodeOut="274" portIn="Trigger" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

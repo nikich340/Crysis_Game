@@ -1,0 +1,11 @@
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="5" MtlFlags="45" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0,0,0" SurfaceType="mat_snow" >
+ <Textures>
+  <Texture File="textures/terrain/detail/frozen_ground/ground_snow.tif" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/detail/frozen_ground/ground_snow_ddn.tif" Map="Normalmap" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.02" EnvMapAmount="-0.41" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.23999999" />
+</Material>

@@ -1,0 +1,31 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="Entity:EntityPos" flags="0" Id="4" InHideMask="14" OutHideMask="54" pos="220,720,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:AIGotoSpeedStance" flags="0" Id="9" pos="360,640,0" >
+   <Inputs distance="1" entityId="0" pos="0,0,0" run="3" stance="2" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="13" pos="240,590,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="14" pos="740,670,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AIUseObject" flags="0" Id="16" pos="560,570,0" >
+   <Inputs entityId="0" objectId="0" />
+  </Node>
+  <Node Class="AI:AILookAt" flags="1" Id="17" pos="560,730,0" >
+   <Inputs Direction="0,0,0" Duration="1" entityId="0" pos="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="9" nodeOut="4" portIn="pos" portOut="pos" />
+  <Edge enabled="1" nodeIn="17" nodeOut="4" portIn="Direction" portOut="fwdDir" />
+  <Edge enabled="1" nodeIn="14" nodeOut="9" portIn="cancel" portOut="fail" />
+  <Edge enabled="1" nodeIn="16" nodeOut="9" portIn="entityId" portOut="succeed" />
+  <Edge enabled="1" nodeIn="17" nodeOut="9" portIn="entityId" portOut="succeed" />
+  <Edge enabled="1" nodeIn="4" nodeOut="13" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="9" nodeOut="13" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="16" nodeOut="13" portIn="objectId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="14" nodeOut="17" portIn="end" portOut="done" />
+ </Edges>
+</Graph>

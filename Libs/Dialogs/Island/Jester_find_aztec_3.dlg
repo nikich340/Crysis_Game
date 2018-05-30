@@ -1,0 +1,3 @@
+<DialogScript Name="Island.Jester_find_aztec_3" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/jester_island_ab2_findaztec3" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

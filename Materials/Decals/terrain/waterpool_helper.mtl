@@ -1,0 +1,8 @@
+<Material Diffuse="0.666667,0.729412,0.823529" Emissive="0,0,0" GenMask="0" MtlFlags="1024" Shader="Nodraw" Shininess="10" Specular="0.415686,0.415686,0.415686" SurfaceType="mat_mud" >
+ <Textures>
+  <Texture File="objects/library/architecture/aircraftcarrier/128gray.tif" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <MaterialLayers />
+</Material>

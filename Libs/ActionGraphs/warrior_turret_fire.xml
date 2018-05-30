@@ -1,0 +1,30 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-10,60,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="460,230,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="7" Class="entity:AlienTurret" pos="140,30,0" flags="0">
+   <Inputs entityId="0" DisableTurret="0" EnableTurret="0"/>
+  </Node>
+  <Node Id="139" Name="Warrior turret firing at the player." Class="_comment" pos="290,-60,0" flags="0"/>
+  <Node Id="145" Class="entity:AlienTurret" pos="290,160,0" flags="0">
+   <Inputs entityId="0" DisableTurret="0" EnableTurret="0"/>
+  </Node>
+  <Node Id="146" Class="Time:Delay" pos="290,230,0" flags="0">
+   <Inputs delay="2"/>
+  </Node>
+  <Node Id="147" Class="Time:RandomDelay" pos="140,110,0" flags="0">
+   <Inputs MinDelay="2" MaxDelay="3"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="7" nodeOut="1" portIn="EnableTurret" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="145" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="147" nodeOut="1" portIn="In" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="146" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="145" nodeOut="147" portIn="DisableTurret" portOut="Out" enabled="1"/>
+  <Edge nodeIn="146" nodeOut="147" portIn="in" portOut="Out" enabled="1"/>
+ </Edges>
+</Graph>

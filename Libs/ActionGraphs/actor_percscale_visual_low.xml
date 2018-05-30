@@ -1,0 +1,20 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-70,-40,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="260,-40,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="5" Class="Time:Delay" pos="70,40,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="12" Class="AI:PerceptionScale" pos="70,-40,0" flags="0">
+   <Inputs entityId="0" Scale="0.01" Audio="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="5" nodeOut="1" portIn="in" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="1" portIn="Trigger" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

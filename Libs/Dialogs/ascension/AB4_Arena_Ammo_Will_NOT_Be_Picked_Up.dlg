@@ -1,0 +1,3 @@
+<DialogScript Name="ascension.AB4_Arena_Ammo_Will_NOT_Be_Picked_Up" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_2003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Negative, two-zero. Our priority is to extract personnel. We can&apos;t risk another VTOL for a bullets transfer."/>
+</DialogScript>

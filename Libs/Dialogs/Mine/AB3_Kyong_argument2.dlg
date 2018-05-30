@@ -1,0 +1,8 @@
+<DialogScript Name="Mine.AB3_Kyong_argument2" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_03B9147F" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We must not delay further!"/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_00312" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Are the charges ready?"/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/korean_soldier_1_mine_ab2_00313" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Charges in place, sir."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_795F307B" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Prime the detonators."/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/korean_soldier_1_mine_ab2_F9DDA9C9" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Priming detonators."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_C4CB2FB2" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Alpha team, stand by."/>
+</DialogScript>

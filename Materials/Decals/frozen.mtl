@@ -1,0 +1,18 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301990032" SurfaceType="mat_snow" Diffuse="0.615686,0.80000001,0.90196103" Specular="0.81176502,0.83921599,0.870588" Emissive="0,0,0" Shininess="12" Opacity="1" AlphaTest="0.28">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/ice_broken_decal.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/frozen_ground/ice_broken_gloss.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/detail/frozen_ground/ice_broken_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/terrain/detail/frozen_ground/ice_envmap.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="0.30000001" FresnelScale="0.5" FresnelBias="1" ObmDisplacement="0.0040000002" PomDisplacement="0.025" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

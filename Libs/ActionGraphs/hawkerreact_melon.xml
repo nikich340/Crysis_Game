@@ -1,0 +1,25 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-210,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="400,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="-60,50,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="5" Class="HUD:DisplayInfoMessage" pos="120,-70,0" flags="0">
+   <Inputs message="Hawker Response: Melon" displayTime="5"/>
+  </Node>
+  <Node Id="6" Class="AI:AILookAt" pos="120,0,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" Direction="0,0,0" Duration="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="display" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

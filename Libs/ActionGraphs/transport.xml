@@ -1,0 +1,50 @@
+<Graph Description="" Group="" enabled="1">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="40,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="540,50,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="20,190,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIGoto" pos="140,-110,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="1"/>
+  </Node>
+  <Node Id="6" Class="AI:AIDropObject" pos="320,20,0" flags="0">
+   <Inputs entityId="0" impulse="0,0,0"/>
+  </Node>
+  <Node Id="7" Class="Game:ActorGrabObject" pos="210,130,0" flags="0">
+   <Inputs entityId="0" objectId="0" throw="0"/>
+  </Node>
+  <Node Id="9" Class="AI:AIModifyStates" pos="460,140,0" flags="0">
+   <Inputs entityId="0" sostates_states="-Busy,TransportStep2"/>
+  </Node>
+  <Node Id="10" Class="Time:Delay" pos="200,20,0" flags="0">
+   <Inputs delay="2"/>
+  </Node>
+  <Node Id="11" Class="AI:ActionAbort" pos="230,280,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="12" Class="AI:AIDropObject" pos="390,280,0" flags="0">
+   <Inputs entityId="0" impulse="0,0,0"/>
+  </Node>
+  <Node Id="13" Class="AI:ActionEnd" pos="580,290,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="4" portIn="entityId" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="4" portIn="sink" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="4" portIn="in" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="done" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="7" portIn="entityId" portOut="grabbedObjId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="10" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="11" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="12" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,51 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="164" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.074509799,0.0588235,0.0509804" Emissive="0,0,0" Shininess="12" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_basalt.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/cliff_basalt_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_basalt_ddn.tif" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.46799999"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="164" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.074509799,0.0588235,0.0509804" Emissive="0,0,0" Shininess="12" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_basalt.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/cliff_basalt_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_basalt_ddn.tif" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.46799999"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="164" Shader="Terrain.Layer" GenMask="268440068" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.074509799,0.0588235,0.0509804" Emissive="0,0,0" Shininess="12" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_basalt.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/cliff_basalt_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_basalt_ddn.tif" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.0040000002" SelfShadowStrength="3" DetailTextureStrength="0.46799999"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,4 @@
+<DialogScript Name="ascension.AB6_VTOLS_Open_Sea" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/vtol_pilot_ascension_ab1_X0003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Can t believe we made it out. Good job, Nomad. Appreciate the help."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/crewman_1_ascension_ab1_N0017" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Resuming flight formation at one zero niner.## Nineteen clicks and counting.## Let&apos;s get &apos;em back in one piece fellas."/>
+</DialogScript>

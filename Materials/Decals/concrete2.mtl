@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="mat_concrete" Diffuse="0.34901962,0.34901962,0.34901962" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/rock3.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/normals/5_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,29 @@
+<Material MtlFlags="768" >
+ <SubMaterials>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" MtlFlags="687" Name="x" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0,0,0" SurfaceType="" >
+   <Textures>
+    <Texture File="Textures/Terrain/detail/snow_plain_dirty.dds" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.039999999" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" MtlFlags="687" Name="y" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0,0,0" SurfaceType="" >
+   <Textures>
+    <Texture File="Textures/Terrain/detail/snow_plain_fully_covered.dds" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.039999999" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+  </Material>
+  <Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="0" MtlFlags="687" Name="z" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0,0,0" SurfaceType="" >
+   <Textures>
+    <Texture File="Textures/Terrain/detail/snow_plain_dry_grass.dds" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.039999999" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" EnvMapAmount="0.25" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+</Material>

@@ -1,0 +1,4 @@
+<DialogScript Name="ascension.AB5_Convoy" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_2005" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="All units, we have a convoy under attack on the road ahead. You are clear to provide assistance but our priority is to get these birds back to the carrier. Proceed with caution. Over."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/vtol_pilot_ascension_ab1_NU0003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Copy, command. We&apos;ve got bogies everywhere but we ll see what we can do."/>
+</DialogScript>

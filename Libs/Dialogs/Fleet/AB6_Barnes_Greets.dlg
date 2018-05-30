@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB6_Barnes_Greets" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/prophet_fleet_ab6_PU001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, you made it."/>
+</DialogScript>

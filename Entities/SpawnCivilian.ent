@@ -1,0 +1,1 @@
+<Entity Name="SpawnCivilian" Script="Scripts/Entities/AISpawners/SpawnCivilian.lua"/>

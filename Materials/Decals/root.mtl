@@ -1,0 +1,9 @@
+<Material MtlFlags="11" Shader="Illum" GenMask="33554433" SurfaceType="mat_soil" Diffuse="0.494118,0.494118,0.494118" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99" AlphaTest="0.01">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/roots.tif" Filter="6">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

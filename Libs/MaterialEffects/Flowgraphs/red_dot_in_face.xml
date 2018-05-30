@@ -1,0 +1,52 @@
+<Graph Description="" Group="test" enabled="1" MultiPlayer="ClientOnly">
+ <Nodes>
+  <Node Id="2" Class="Input:Key" pos="120,-370,0" flags="0">
+   <Inputs Key="f"/>
+  </Node>
+  <Node Id="14" Class="MaterialFX:HUDEndFX" pos="560,150,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="15" Class="MaterialFX:HUDStartFX" pos="110,-290,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="16" Class="Time:Delay" pos="370,150,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="23" Class="Interpol:Float" pos="400,-510,0" flags="0" InHideMask="31" OutHideMask="3">
+   <Inputs StartValue="0.2" EndValue="0" Time="0.5"/>
+  </Node>
+  <Node Id="29" Class="Image:ColorCorrection" pos="690,-400,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="31" Class="Interpol:Float" pos="400,-470,0" flags="0" InHideMask="31" OutHideMask="3">
+   <Inputs StartValue="2" EndValue="1" Time="0.5"/>
+  </Node>
+  <Node Id="32" Class="Interpol:Float" pos="390,-370,0" flags="0">
+   <Inputs StartValue="-0.1" EndValue="0" Time="0.35"/>
+  </Node>
+  <Node Id="33" Class="Interpol:Float" pos="400,-290,0" flags="0" InHideMask="31" OutHideMask="3">
+   <Inputs StartValue="0.1" EndValue="0" Time="0.35"/>
+  </Node>
+  <Node Id="34" Class="Interpol:Float" pos="400,-250,0" flags="0" InHideMask="31" OutHideMask="3">
+   <Inputs StartValue="0.1" EndValue="0" Time="0.35"/>
+  </Node>
+  <Node Id="39" Class="Interpol:Float" pos="400,-430,0" flags="0" InHideMask="31" OutHideMask="2">
+   <Inputs StartValue="3" EndValue="1" Time="0.5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="16" nodeOut="15" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="15" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="15" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="15" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="15" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="34" nodeOut="15" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="39" nodeOut="15" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="16" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="31" portIn="Global_User_Contrast" portOut="Value" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="32" portIn="Global_User_ColorC" portOut="Value" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="33" portIn="Global_User_ColorM" portOut="Value" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="34" portIn="Global_User_ColorY" portOut="Value" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="39" portIn="Global_User_Saturation" portOut="Value" enabled="1"/>
+ </Edges>
+</Graph>

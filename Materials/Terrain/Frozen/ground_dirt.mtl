@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_snow" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/frozen_ground/ground_snow_dirt.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/frozen_ground/ground_snow_dirt_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.012" PomDisplacement="0.012" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

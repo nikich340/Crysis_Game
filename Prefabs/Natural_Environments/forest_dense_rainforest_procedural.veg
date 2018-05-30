@@ -1,0 +1,58 @@
+<Vegetation>
+ <VegetationObject Size="1.5" SizeVar="0.2" RandomRotation="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="5" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="0" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="2" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="38" FileName="objects/natural/trees/branches/forest_ground_branches_1_f.cgf" GUID="{E8ADD7A8-9EDC-4222-8CC9-2E06179BCDA2}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="1.5" SizeVar="0.2" RandomRotation="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="5" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="0" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="2" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="0" FileName="objects/natural/trees/branches/forest_ground_branches_1_h.cgf" GUID="{6AC54F5D-66F8-4EC7-8751-5F45764B0195}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0.1" RandomRotation="0" Bending="0.2" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="5" ElevationMin="38" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="1" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="1" FileName="Objects/Natural/Plants/thin_leaves_plants/TL_big_b.cgf" GUID="{21E1E301-34EB-4A81-8A64-82F30A60837D}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="3" SizeVar="0.1" RandomRotation="0" Bending="0.1" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="3" ElevationMin="38" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="1" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="5" FileName="objects/natural/ground_plants/grpl_round_leafs_e.cgf" GUID="{FF070463-4BAB-470D-889E-0E5B1FD254A5}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="1.1" SizeVar="0.3" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="30" ElevationMin="38" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="1" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="6" FileName="objects/natural/bushes/tallbush/tall_bush_d.cgf" GUID="{66D66EA3-970D-4003-9D96-0A4DF397D42A}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="1.1" SizeVar="0.3" RandomRotation="0" Bending="0.5" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="30" ElevationMin="38" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="1" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="7" FileName="objects/natural/bushes/tallbush/tall_bush_b.cgf" GUID="{A3CF3954-07EE-4A50-A487-022FDA5BEACC}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+  <Instances />
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0.3" RandomRotation="0" Bending="0.3" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="30" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="0" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="0" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="8" FileName="objects/natural/bushes/groundfernbush/ground_fern_bush_big_a.cgf" GUID="{2BE6AA0D-58FB-4AD8-9271-A7E7B0F2ADB3}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="2" SizeVar="0.3" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="7" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="0" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="0" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="11" FileName="objects/natural/ground_plants/grpl_thin_leafs_a.cgf" GUID="{59FDE242-9B28-4B3B-9849-65D2494AD2CC}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="0.8" SizeVar="0.2" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="7" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="1" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.4" UseSprites="1" FadeSize="0" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="15" FileName="objects/natural/bushes/greenfernbush/green_fern_bush_d.cgf" GUID="{15BF7632-283F-41C7-9862-70FFE232F832}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="1.5" SizeVar="0" RandomRotation="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="0" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="19" FileName="objects/natural/ground_plants/forest_ground_patch_leafs_b.cgf" GUID="{7525CD68-8151-414E-906C-65007C5D0AB1}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+ <VegetationObject Size="1.5" SizeVar="0" RandomRotation="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="50" ElevationMax="1024" SlopeMin="0" SlopeMax="100" CastShadow="0" RecvShadow="1" PrecalcShadow="1" AlphaBlend="0" SpriteDistRatio="0" ShadowDistRatio="1" MaxViewDistRatio="0.5" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="20" FileName="objects/natural/ground_plants/forest_ground_patch_leafs_c.cgf" GUID="{01098FE6-48E9-43A5-961F-9D9CC2D8DC8E}" Hidden="0" Index="0" Category="Dense_Rain_Procedural">
+  <TerrainLayers>
+   <Layer Name="forest_leaves"/>
+  </TerrainLayers>
+ </VegetationObject>
+</Vegetation>

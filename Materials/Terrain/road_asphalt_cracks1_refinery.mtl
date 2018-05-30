@@ -1,0 +1,15 @@
+<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="268469376" SurfaceType="mat_concrete" Diffuse="0.89411771,0.89411771,0.89411771" Specular="0.60624504,0.61503118,0.70289278" Emissive="0,0,0" Shininess="7.5" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_asphalt3_smooth.tif" Filter="5">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/test1.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_002_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="0.54000002" FresnelScale="2.0599999" FresnelBias="0.059" DetailTextureStrength="0.75" DetailBumpTillingU="4" DetailBumpTillingV="4" DetailBumpScale="1" DetailBlendAmount="0"/>
+ <MaterialLayers />
+</Material>

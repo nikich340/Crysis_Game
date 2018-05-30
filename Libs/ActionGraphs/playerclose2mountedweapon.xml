@@ -1,0 +1,17 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="80,10,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="410,-20,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:SmartObjectEvent" flags="0" Id="4" pos="210,-20,0" >
+   <Inputs objectId="0" soevent_event="PlayerClose" userId="0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="objectId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="trigger" portOut="UserId" />
+  <Edge enabled="1" nodeIn="2" nodeOut="4" portIn="cancel" portOut="noRule" />
+  <Edge enabled="1" nodeIn="2" nodeOut="4" portIn="end" portOut="ruleName" />
+ </Edges>
+</Graph>

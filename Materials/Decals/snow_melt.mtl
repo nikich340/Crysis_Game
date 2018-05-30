@@ -1,0 +1,22 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989904" SurfaceType="" Diffuse="0.63921571,0.63921571,0.63921571" Specular="1,1,1" Emissive="0,0,0" Shininess="100" Opacity="0.89999998">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/snow_melt.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/decal/snow_melt.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/snow_melt_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Detail" File="textures/terrain/detail/plains_snow.tif" IsTileU="0">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers>
+  <Layer Name="FrozenLayer" NoDraw="0"/>
+  <Layer />
+  <Layer />
+ </MaterialLayers>
+</Material>

@@ -1,0 +1,15 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402658820" SurfaceType="mat_snow" Diffuse="0.92156899,0.92156899,0.92156899" Specular="0.45098001,0.45098001,0.45098001" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/frozen_ground/snow_spots.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/frozen_ground/grass_frozen_gloss_03.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/frozen_ground/snow_spots_ddn.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.011" PomDisplacement="0.011" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,43 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="80,10,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="830,10,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="3" pos="20,70,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:AILookAt" flags="0" Id="4" pos="420,30,0" >
+   <Inputs Direction="0,0,0" Duration="0.2" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AIGotoSpeedStance" flags="0" Id="5" pos="230,-20,0" >
+   <Inputs distance="0.5" entityId="0" pos="0,0,0" run="1" stance="1" />
+  </Node>
+  <Node Class="AI:AIAnim" flags="0" Id="7" pos="600,-20,0" >
+   <Inputs animstateEx_name="peekRight" count="1" entityId="0" signal="2" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="8" pos="590,100,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="9" pos="420,-60,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Time:Delay" flags="0" Id="10" pos="630,-100,0" >
+   <Inputs delay="4" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="3" portIn="Direction" portOut="fwdDir" />
+  <Edge enabled="1" nodeIn="5" nodeOut="3" portIn="pos" portOut="pos" />
+  <Edge enabled="1" nodeIn="7" nodeOut="4" portIn="entityId" portOut="succeed" />
+  <Edge enabled="1" nodeIn="8" nodeOut="4" portIn="cancel" portOut="fail" />
+  <Edge enabled="1" nodeIn="4" nodeOut="5" portIn="entityId" portOut="succeed" />
+  <Edge enabled="1" nodeIn="9" nodeOut="5" portIn="cancel" portOut="fail" />
+  <Edge enabled="1" nodeIn="2" nodeOut="7" portIn="cancel" portOut="fail" />
+  <Edge enabled="1" nodeIn="2" nodeOut="7" portIn="end" portOut="succeed" />
+  <Edge enabled="1" nodeIn="10" nodeOut="7" portIn="in" portOut="start" />
+  <Edge enabled="1" nodeIn="7" nodeOut="10" portIn="cancel" portOut="out" />
+ </Edges>
+</Graph>

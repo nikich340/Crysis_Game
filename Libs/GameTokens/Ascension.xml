@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="Ascension">
+ <GameToken Name="Rewards.Player_Escorted_VTOLs" Type="String" Value="false" Description="If player escorts VTOLs through Ascension, he will get a reward in Fleet :)"/>
+</GameTokensLibrary>

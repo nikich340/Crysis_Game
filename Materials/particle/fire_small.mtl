@@ -1,0 +1,5 @@
+<Material Diffuse="1,1,1" Emissive="1,1,1" GenMask="0" MtlFlags="2048" Opacity="1" Shader="Fireparticles_vs2" Shininess="10" Specular="0,0,0" SurfaceType="" >
+ <Textures />
+ <PublicParams AnimSpeed="0.69999999" BaseDarkening="0.5" BurnOffset="0.88099998" Contrast="2" Saturation="0.5" VariationTileU="1.1" VariationTileV="0.60000002" VariationTileW="0.5" />
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,373 @@
+<Graph>
+ <Nodes>
+  <Node Class="Logic:Multiplexer" flags="1" Id="138" pos="820,2560,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="137" Name="Number_4" pos="590,2470,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{4CC49813-4BA2-4E79-8EC3-AAC9D2A937B4}" EntityId="511" flags="1" Id="119" pos="270,2910,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="218" pos="710,880,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="115" pos="820,2700,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{CE592058-136D-48E8-833F-C99471332ABD}" EntityId="516" flags="1" Id="139" pos="970,2710,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="_comment" flags="1" Id="254" Name="Open your door here!" pos="2250,2200,0" />
+  <Node Class="Math:Counter" flags="1" Id="140" Name="Number_3" pos="560,2550,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="_comment" flags="1" Id="216" Name="Bundle inputs" pos="230,730,0" />
+  <Node Class="_comment" flags="1" Id="142" Name="Bundle inputs" pos="170,2620,0" />
+  <Node Class="_comment" flags="1" Id="108" Name="Bundle inputs" pos="170,1520,0" />
+  <Node Class="Math:Equal" flags="1" Id="204" pos="1380,2280,0" >
+   <Inputs A="0" B="3" />
+  </Node>
+  <Node Class="entity:DestroyableObject" EntityGUID="{D735F20A-FF55-4ABA-9972-3C34D9BB8BCD}" EntityId="521" flags="1" Id="144" pos="1980,2210,0" >
+   <Inputs DisableUsable="0" EnableUsable="0" entityId="0" Explode="0" Reset="0" Used="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{CFADF322-F477-4D0A-8BA5-F99F82FB11A1}" EntityId="515" flags="1" Id="134" pos="270,3030,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="_comment" flags="1" Id="112" Name="where it is" pos="620,1230,0" />
+  <Node Class="_comment" flags="1" Id="111" Name="Each hologram knows" pos="620,1200,0" />
+  <Node Class="_comment" flags="1" Id="110" Name="with any button" pos="-240,1320,0" />
+  <Node Class="_comment" flags="1" Id="109" Name="Movement can be started" pos="-240,1290,0" />
+  <Node Class="Logic:Multiplexer" flags="1" Id="135" pos="820,2980,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{347EE5FD-5F1B-40A9-8959-232273C59094}" EntityId="520" flags="1" Id="128" pos="970,2560,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{70AEF4C9-2B3C-4D43-9145-A49D3C2AF343}" EntityId="512" flags="1" Id="127" pos="270,2790,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="130" pos="820,2410,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{CE592058-136D-48E8-833F-C99471332ABD}" EntityId="516" flags="1" Id="129" pos="-290,2690,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="100" pos="820,1580,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="97" pos="820,1720,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{3F7571E8-112F-4E2F-A172-3E681344FD99}" EntityId="491" flags="1" Id="91" pos="-290,2000,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="96" Name="Number_2" pos="520,1510,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{DC8CB028-F27E-4411-8692-F3DAB5999630}" EntityId="166" flags="1" Id="70" pos="270,1790,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{BE5C703C-4A57-4FE6-97B6-799F89E6CD81}" EntityId="479" flags="1" Id="59" pos="-290,1360,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Start" flags="1" Id="61" pos="180,1350,0" />
+  <Node Class="Logic:Any" flags="1" Id="60" pos="170,1590,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Logic:Any" flags="1" Id="248" pos="1580,2430,0" >
+   <Inputs />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{57CB5C27-C1A3-4E44-9F21-A0665626F386}" EntityId="478" flags="1" Id="89" pos="-290,1780,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{BE5C703C-4A57-4FE6-97B6-799F89E6CD81}" EntityId="479" flags="1" Id="69" pos="970,1870,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="62" Name="Number_1" pos="460,1590,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{A46BFB90-8018-40A0-9787-C1FF030F0CFE}" EntityId="487" flags="1" Id="107" pos="970,1290,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{9ACED7C5-15A4-4A2B-92C0-D9DF31A38B01}" EntityId="132" flags="1" Id="66" pos="270,1670,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{3F7571E8-112F-4E2F-A172-3E681344FD99}" EntityId="491" flags="1" Id="104" pos="970,1440,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{D7D1B072-2ACD-43C9-9ED2-E3B86953B7A2}" EntityId="483" flags="1" Id="87" pos="-290,1570,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="106" pos="820,1290,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{A46BFB90-8018-40A0-9787-C1FF030F0CFE}" EntityId="487" flags="1" Id="93" pos="-290,2220,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{3E5B92B6-56BE-49B8-A738-D724DC09AAD8}" EntityId="126" flags="1" Id="83" pos="270,2150,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{8D02D957-33C7-4E6D-9C2B-FA5DCEE9C6DC}" EntityId="162" flags="1" Id="82" pos="270,2030,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{6756CC4F-7D6A-44EF-BBF1-C3C68E38FEC1}" EntityId="163" flags="1" Id="81" pos="270,1910,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="73" pos="820,1860,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{D7D1B072-2ACD-43C9-9ED2-E3B86953B7A2}" EntityId="483" flags="1" Id="98" pos="970,1730,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="102" Name="Number_4" pos="590,1350,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="103" pos="820,1440,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{57CB5C27-C1A3-4E44-9F21-A0665626F386}" EntityId="478" flags="1" Id="101" pos="970,1590,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="99" Name="Number_3" pos="560,1430,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="105" Name="Number_5" pos="620,1270,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{186CD2AA-49AD-42F8-A24E-2645187D515E}" EntityId="514" flags="1" Id="133" pos="270,3150,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{3659EEE8-E791-4E01-B7A6-D3B8DCB79068}" EntityId="518" flags="1" Id="120" pos="-290,2480,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Logic:Any" flags="1" Id="122" pos="170,2710,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{7F54B9D1-9065-413D-B4C2-FB80F7C0DFDF}" EntityId="513" flags="1" Id="132" pos="270,3270,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{A4A691C9-4EAE-4971-A1B1-8F5EDD5DA52B}" EntityId="517" flags="1" Id="131" pos="-290,3340,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="125" Name="Number_1" pos="460,2710,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{8AC2F215-2408-432F-A4D6-5C6693DD8F1E}" EntityId="519" flags="1" Id="126" pos="970,2410,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{3659EEE8-E791-4E01-B7A6-D3B8DCB79068}" EntityId="518" flags="1" Id="124" pos="970,2990,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{347EE5FD-5F1B-40A9-8959-232273C59094}" EntityId="520" flags="1" Id="123" pos="-290,2900,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Start" flags="1" Id="121" pos="180,2470,0" />
+  <Node Class="entity:BasicEntity" EntityGUID="{8AC2F215-2408-432F-A4D6-5C6693DD8F1E}" EntityId="519" flags="1" Id="117" pos="-290,3120,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="118" Name="Number_2" pos="520,2630,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="141" Name="Number_5" pos="620,2390,0" >
+   <Inputs in="0" max="5" reset="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{A4A691C9-4EAE-4971-A1B1-8F5EDD5DA52B}" EntityId="517" flags="1" Id="136" pos="970,2850,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Math:Equal" flags="1" Id="179" pos="1380,2220,0" >
+   <Inputs A="0" B="3" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="116" pos="820,2840,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Logic:Multiplexer" flags="1" Id="237" pos="710,1030,0" >
+   <Inputs Index="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{930C81CC-588B-4BB7-A06C-C01A17DBC975}" EntityId="489" flags="1" Id="238" pos="890,880,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Math:Equal" flags="1" Id="245" pos="1380,2160,0" >
+   <Inputs A="0" B="1" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="220" Name="Number_2" pos="520,740,0" >
+   <Inputs in="0" max="2" reset="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{DDD20B5B-9104-49A6-AC7C-3D05FFF8B14E}" EntityId="161" flags="1" Id="221" pos="330,1000,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Logic:AND" flags="1" Id="246" pos="1620,2230,0" >
+   <Inputs A="0" B="0" />
+  </Node>
+  <Node Class="HUD:DisplayInstructionMessage" flags="1" Id="249" pos="2270,2240,0" >
+   <Inputs displayTime="2" message="Puzzle solved!" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{83BC08D7-110C-4775-A71E-8861DD9F4D77}" EntityId="140" flags="1" Id="229" pos="330,880,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{C41EAFC6-230B-49EF-A721-560D57F38C49}" EntityId="488" flags="1" Id="231" pos="-230,780,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Logic:AND" flags="1" Id="214" pos="1510,2230,0" >
+   <Inputs A="0" B="0" />
+  </Node>
+  <Node Class="Condition" flags="1" Id="252" pos="1740,2240,0" >
+   <Inputs condition="0" />
+  </Node>
+  <Node Class="entity:BasicEntity" EntityGUID="{930C81CC-588B-4BB7-A06C-C01A17DBC975}" EntityId="489" flags="1" Id="222" pos="-230,570,0" >
+   <Inputs Activate="0" DisableUsable="0" EnableUsable="0" entityId="0" Hide="0" Remove="0" ResetAnimation="0" StartAnimation="0" SwitchToMaterial1="0" SwitchToMaterial2="0" SwitchToMaterialOriginal="0" UnHide="0" Used="0" />
+  </Node>
+  <Node Class="Start" flags="1" Id="223" pos="230,690,0" />
+  <Node Class="Logic:Any" flags="1" Id="224" pos="230,800,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" EntityGUID="{C41EAFC6-230B-49EF-A721-560D57F38C49}" EntityId="488" flags="1" Id="226" pos="890,990,0" >
+   <Inputs Destination="0,0,0" EaseDistance="0.25" entityId="0" Speed="1" Trigger="0" />
+  </Node>
+  <Node Class="Math:Counter" flags="1" Id="227" Name="Number_1" pos="520,800,0" >
+   <Inputs in="0" max="2" reset="0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="137" nodeOut="122" portIn="in" portOut="out" />
+  <Edge nodeIn="122" nodeOut="129" portIn="in2" portOut="Used" />
+  <Edge nodeIn="135" nodeOut="132" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="135" nodeOut="133" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="115" nodeOut="132" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="128" nodeOut="138" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="115" nodeOut="133" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="138" nodeOut="119" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="141" nodeOut="121" portIn="reset" portOut="output" />
+  <Edge nodeIn="138" nodeOut="133" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="116" nodeOut="132" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="116" nodeOut="118" portIn="Index" portOut="count" />
+  <Edge nodeIn="122" nodeOut="120" portIn="in1" portOut="Used" />
+  <Edge nodeIn="125" nodeOut="122" portIn="in" portOut="out" />
+  <Edge nodeIn="124" nodeOut="135" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="135" nodeOut="127" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="135" nodeOut="125" portIn="Index" portOut="count" />
+  <Edge nodeIn="237" nodeOut="229" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="140" nodeOut="122" portIn="in" portOut="out" />
+  <Edge nodeIn="115" nodeOut="140" portIn="Index" portOut="count" />
+  <Edge nodeIn="137" nodeOut="121" portIn="reset" portOut="output" />
+  <Edge nodeIn="138" nodeOut="132" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="138" nodeOut="134" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="116" nodeOut="134" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="136" nodeOut="116" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="136" nodeOut="116" portIn="Destination" portOut="out" />
+  <Edge nodeIn="140" nodeOut="121" portIn="reset" portOut="output" />
+  <Edge nodeIn="139" nodeOut="115" portIn="Destination" portOut="out" />
+  <Edge nodeIn="116" nodeOut="133" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="130" nodeOut="141" portIn="Index" portOut="count" />
+  <Edge nodeIn="138" nodeOut="137" portIn="Index" portOut="count" />
+  <Edge nodeIn="139" nodeOut="115" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="115" nodeOut="119" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="116" nodeOut="127" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="116" nodeOut="119" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="126" nodeOut="130" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="126" nodeOut="130" portIn="Destination" portOut="out" />
+  <Edge nodeIn="128" nodeOut="138" portIn="Destination" portOut="out" />
+  <Edge nodeIn="141" nodeOut="122" portIn="in" portOut="out" />
+  <Edge nodeIn="252" nodeOut="246" portIn="condition" portOut="out" />
+  <Edge nodeIn="204" nodeOut="140" portIn="A" portOut="count" />
+  <Edge nodeIn="214" nodeOut="179" portIn="A" portOut="out" />
+  <Edge nodeIn="246" nodeOut="245" portIn="A" portOut="out" />
+  <Edge nodeIn="248" nodeOut="121" portIn="in6" portOut="output" />
+  <Edge nodeIn="100" nodeOut="82" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="100" nodeOut="66" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="100" nodeOut="81" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="105" nodeOut="60" portIn="in" portOut="out" />
+  <Edge nodeIn="103" nodeOut="66" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="104" nodeOut="103" portIn="Destination" portOut="out" />
+  <Edge nodeIn="107" nodeOut="106" portIn="Destination" portOut="out" />
+  <Edge nodeIn="107" nodeOut="106" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="97" nodeOut="66" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="97" nodeOut="70" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="100" nodeOut="70" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="101" nodeOut="100" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="103" nodeOut="102" portIn="Index" portOut="count" />
+  <Edge nodeIn="106" nodeOut="105" portIn="Index" portOut="count" />
+  <Edge nodeIn="97" nodeOut="82" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="101" nodeOut="100" portIn="Destination" portOut="out" />
+  <Edge nodeIn="99" nodeOut="61" portIn="reset" portOut="output" />
+  <Edge nodeIn="98" nodeOut="97" portIn="Destination" portOut="out" />
+  <Edge nodeIn="98" nodeOut="97" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="97" nodeOut="81" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="103" nodeOut="81" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="103" nodeOut="83" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="102" nodeOut="61" portIn="reset" portOut="output" />
+  <Edge nodeIn="100" nodeOut="99" portIn="Index" portOut="count" />
+  <Edge nodeIn="99" nodeOut="60" portIn="in" portOut="out" />
+  <Edge nodeIn="106" nodeOut="70" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="96" nodeOut="61" portIn="reset" portOut="output" />
+  <Edge nodeIn="96" nodeOut="60" portIn="in" portOut="out" />
+  <Edge nodeIn="73" nodeOut="81" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="60" nodeOut="93" portIn="in5" portOut="Used" />
+  <Edge nodeIn="73" nodeOut="62" portIn="Index" portOut="count" />
+  <Edge nodeIn="73" nodeOut="66" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="69" nodeOut="73" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="62" nodeOut="60" portIn="in" portOut="out" />
+  <Edge nodeIn="60" nodeOut="59" portIn="in1" portOut="Used" />
+  <Edge nodeIn="62" nodeOut="61" portIn="reset" portOut="output" />
+  <Edge nodeIn="73" nodeOut="70" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="60" nodeOut="91" portIn="in4" portOut="Used" />
+  <Edge nodeIn="69" nodeOut="73" portIn="Destination" portOut="out" />
+  <Edge nodeIn="97" nodeOut="96" portIn="Index" portOut="count" />
+  <Edge nodeIn="60" nodeOut="89" portIn="in3" portOut="Used" />
+  <Edge nodeIn="73" nodeOut="82" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="73" nodeOut="83" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="60" nodeOut="87" portIn="in2" portOut="Used" />
+  <Edge nodeIn="97" nodeOut="83" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="103" nodeOut="82" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="105" nodeOut="61" portIn="reset" portOut="output" />
+  <Edge nodeIn="103" nodeOut="70" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="106" nodeOut="66" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="106" nodeOut="83" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="106" nodeOut="82" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="106" nodeOut="81" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="104" nodeOut="103" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="100" nodeOut="83" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="102" nodeOut="60" portIn="in" portOut="out" />
+  <Edge nodeIn="122" nodeOut="131" portIn="in5" portOut="Used" />
+  <Edge nodeIn="135" nodeOut="134" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="144" nodeOut="248" portIn="Reset" portOut="out" />
+  <Edge nodeIn="218" nodeOut="229" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="218" nodeOut="221" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="238" nodeOut="218" portIn="Destination" portOut="out" />
+  <Edge nodeIn="238" nodeOut="218" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="220" nodeOut="223" portIn="reset" portOut="output" />
+  <Edge nodeIn="220" nodeOut="224" portIn="in" portOut="out" />
+  <Edge nodeIn="237" nodeOut="227" portIn="Index" portOut="count" />
+  <Edge nodeIn="122" nodeOut="123" portIn="in3" portOut="Used" />
+  <Edge nodeIn="130" nodeOut="127" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="130" nodeOut="134" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="130" nodeOut="133" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="130" nodeOut="132" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="118" nodeOut="122" portIn="in" portOut="out" />
+  <Edge nodeIn="118" nodeOut="121" portIn="reset" portOut="output" />
+  <Edge nodeIn="130" nodeOut="119" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="124" nodeOut="135" portIn="Destination" portOut="out" />
+  <Edge nodeIn="122" nodeOut="117" portIn="in4" portOut="Used" />
+  <Edge nodeIn="135" nodeOut="119" portIn="Port2" portOut="pos" />
+  <Edge nodeIn="125" nodeOut="121" portIn="reset" portOut="output" />
+  <Edge nodeIn="138" nodeOut="127" portIn="Port3" portOut="pos" />
+  <Edge nodeIn="115" nodeOut="134" portIn="Port1" portOut="pos" />
+  <Edge nodeIn="115" nodeOut="127" portIn="Port4" portOut="pos" />
+  <Edge nodeIn="179" nodeOut="99" portIn="A" portOut="count" />
+  <Edge nodeIn="245" nodeOut="220" portIn="A" portOut="count" />
+  <Edge nodeIn="144" nodeOut="252" portIn="Explode" portOut="true" />
+  <Edge nodeIn="246" nodeOut="214" portIn="B" portOut="out" />
+  <Edge nodeIn="226" nodeOut="237" portIn="Trigger" portOut="out" />
+  <Edge nodeIn="227" nodeOut="224" portIn="in" portOut="out" />
+  <Edge nodeIn="224" nodeOut="222" portIn="in1" portOut="Used" />
+  <Edge nodeIn="227" nodeOut="223" portIn="reset" portOut="output" />
+  <Edge nodeIn="237" nodeOut="221" portIn="Port0" portOut="pos" />
+  <Edge nodeIn="218" nodeOut="220" portIn="Index" portOut="count" />
+  <Edge nodeIn="224" nodeOut="231" portIn="in2" portOut="Used" />
+  <Edge nodeIn="249" nodeOut="144" portIn="display" portOut="Explode" />
+  <Edge nodeIn="226" nodeOut="237" portIn="Destination" portOut="out" />
+  <Edge nodeIn="252" nodeOut="246" portIn="value" portOut="out" />
+  <Edge nodeIn="214" nodeOut="204" portIn="B" portOut="out" />
+  <Edge nodeIn="248" nodeOut="252" portIn="in5" portOut="false" />
+ </Edges>
+</Graph>

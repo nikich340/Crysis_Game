@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="306315280" SurfaceType="" Diffuse="0.73333335,0.64705884,0.55686277" Specular="0.039215688,0.039215688,0.039215688" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/decals/dirt_on_road_11_tileable.tif" Filter="4">
+   <TexMod TexMod_RotateType="1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/decals/dirt_on_road_11_tileable_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/decals/dirt_on_road_11_tileable_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

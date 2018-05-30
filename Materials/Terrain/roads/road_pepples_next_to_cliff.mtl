@@ -1,0 +1,14 @@
+<Material MtlFlags="9" Shader="Illum" GenMask="306184192" SurfaceType="mat_pebble" Diffuse="0.44705901,0.41176501,0.38039199" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_pepples_next_to_grass.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/roads/road_bump_03_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers>
+  <Layer Name="Frozenlayer" NoDraw="0"/>
+ </MaterialLayers>
+</Material>

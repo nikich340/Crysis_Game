@@ -1,0 +1,46 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="25" Class="Image:FilterBlur" pos="320,500,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+  </Node>
+  <Node Id="29" Class="CrysisFX:ScreenFader" pos="290,340,0" flags="0">
+   <Inputs FadeGroup="0" FadeInTime="0.6" FadeOutTime="0.02" color_FadeColor="0,0,0" tex_TextureName=""/>
+  </Node>
+  <Node Id="30" Class="Time:Delay" pos="140,350,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="53" Class="Image:FilterSharpen" pos="800,440,0" flags="0">
+   <Inputs Enabled="1" FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+  </Node>
+  <Node Id="56" Class="Time:Delay" pos="500,470,0" flags="0">
+   <Inputs delay="1.9"/>
+  </Node>
+  <Node Id="78" Class="Interpol:Float" pos="130,530,0" flags="1">
+   <Inputs StartValue="0.5" EndValue="0" Time="4"/>
+  </Node>
+  <Node Id="80" Class="Interpol:Float" pos="630,470,0" flags="0">
+   <Inputs StartValue="3" EndValue="1" Time="1.1"/>
+  </Node>
+  <Node Id="194" Class="Camera:ViewShake" pos="320,210,0" flags="0">
+   <Inputs Restrict="0" Angle="3,3,3" Shift="0.3,0.3,0.3" Duration="0.8" Frequency="10" Randomness="1"/>
+  </Node>
+  <Node Id="196" Class="MaterialFX:HUDStartFX" pos="-100,210,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="197" Class="MaterialFX:HUDEndFX" pos="260,680,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="29" nodeOut="30" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="56" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="25" nodeOut="78" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="197" nodeOut="78" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="80" portIn="FilterSharpening_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="196" portIn="FadeOut" portOut="Started" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="196" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="196" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="196" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="194" nodeOut="196" portIn="Trigger" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

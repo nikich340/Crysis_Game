@@ -1,0 +1,128 @@
+<EntityPrototypeLibrary Name="Pickups_MP" SandboxVersion="1.1.1.5188">
+ <EntityPrototype Name="Ammo/Cache.scarbullets_120" Id="{7249263E-FC65-454C-99E1-AF9EAE3B3AFB}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="bullet" Count="120" initialSetup="" objModel="objects/library/pickups/ammo_box/rifle_ammobox_90rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.explosivegrens_5" Id="{FF52F9A2-FC53-40AC-BAD0-9C9E9A0D59DB}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="explosivegrenade" Count="5" initialSetup="" objModel="objects/library/pickups/ammo_box/frag_grenade_box_5grenades.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="50" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.flashbangs_5" Id="{CF4C3250-FB85-4FFD-A24A-4DF97E3E798B}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="flashbang" Count="5" initialSetup="" objModel="objects/library/pickups/ammo_box/flashbang_box_5grenades.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="50" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.gaussbullets_20" Id="{C90A3248-AE80-46CC-BFC6-595704EF0827}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="gaussbullet" Count="20" initialSetup="" objModel="objects/library/pickups/ammo_box/gaussrifle_ammobox.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="40" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.pistolbullets_120" Id="{3DB7E3B9-77E2-4602-9527-8C01531E85E6}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="lightbullet" Count="120" initialSetup="" objModel="objects/library/pickups/ammo_box/pistol_ammobox_120rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.scargrenades_8" Id="{5BC3AF24-2E73-4E36-897A-1C4E0BCC0017}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="scargrenade" Count="8" initialSetup="" objModel="objects/library/pickups/ammo_box/rifle_grenade_box_8grenades.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.shotgunshells_32" Id="{C8E33F48-8526-4F72-A7BB-7491274D6DA3}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="shotgunshell" Count="32" initialSetup="" objModel="objects/library/pickups/ammo_box/shotgun_ammobox.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.smokegrenades_5" Id="{39B74870-F2B0-46CA-85A3-811F1D2CDC93}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="smokegrenade" Count="5" initialSetup="" objModel="objects/library/pickups/ammo_box/smoke_grenade_box_5grenades.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="50" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.sniperbullet_40" Id="{F6BA00C3-5640-46B2-BBA6-00951ED479B4}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="sniperbullet" Count="40" initialSetup="" objModel="objects/library/pickups/ammo_box/sniper_ammobox.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.scarbullets" Id="{907DC49B-D460-4B96-AE63-723CE79D67EE}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="bullet" Count="40" initialSetup="" objModel="objects/library/pickups/clip/scar_clip.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.hurricanebullets" Id="{5315972B-93C8-4320-9A21-534DEC15E07A}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="hurricanebullet" Count="200" initialSetup="" objModel="objects/library/pickups/clip/hurricane_clip.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="40" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.sniperbullets" Id="{FB30622A-D39D-4476-B55B-31014E932F02}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="sniperbullet" Count="10" initialSetup="" objModel="objects/library/pickups/clip/sniper_dsg1_clip.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Single.scargrenade" Id="{77DEBC22-1332-41A5-9083-B126B1C4F298}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="scargrenade" Count="1" initialSetup="" objModel="objects/weapons/shells/scar_gl_grenade.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.explosivegrens_8" Id="{8AB29139-E64B-426F-8B56-817FD3572477}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="explosivegrenade" Count="8" initialSetup="" objModel="objects/library/pickups/ammo_box/frag_grenade_box_8grenades.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="50" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.scarbullets_240" Id="{EF3F9BE8-98AF-40AD-A79F-9789F7AC9878}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="bullet" Count="240" initialSetup="" objModel="objects/library/pickups/ammo_box/rifle_ammobox_180rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.pistolbullets_240" Id="{78A8A394-C4F2-444A-9256-F23765566C62}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="lightbullet" Count="240" initialSetup="" objModel="objects/library/pickups/ammo_box/pistol_ammobox_240rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.fy71bullets_180" Id="{640A9144-1D32-4A2D-B986-DFAA6DD778DE}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="fybullet" Count="180" initialSetup="" objModel="objects/library/pickups/ammo_box/rifle_ammobox_180rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.fy71bullets_90" Id="{77110656-5DDC-4030-8033-4364502E136C}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="fybullet" Count="90" initialSetup="" objModel="objects/library/pickups/ammo_box/rifle_ammobox_90rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.smgbullets_150" Id="{F039712F-5D1C-4F9F-8BD1-3F68D2370970}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="smgbullet" Count="150" initialSetup="" objModel="objects/library/pickups/ammo_box/pistol_ammobox_120rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.smgbullets_300" Id="{1662DC4D-0C47-4F4D-9CB3-081D55CC4883}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="smgbullet" Count="300" initialSetup="" objModel="objects/library/pickups/ammo_box/pistol_ammobox_240rounds.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.fy71bullets" Id="{5146BDF8-F6EC-4330-93C6-BE86E32353E0}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="fybullet" Count="30" initialSetup="" objModel="objects/weapons/attachments/magazine_rifle/magazine_rifle_tp.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

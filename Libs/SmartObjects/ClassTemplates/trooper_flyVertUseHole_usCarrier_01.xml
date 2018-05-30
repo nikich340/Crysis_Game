@@ -1,0 +1,5 @@
+<sotemplate>
+	<object model="trooper_flyVertUseHole_usCarrier_01.cgf" />
+	<helper name="so_end_1" pos="-0.102318,3.81798,0" rot="3.13916e-007,0.0,0.0,-1.0" radius="1.0" projectOnGround="false" />
+	<helper name="so_start_1" pos="1.52588e-006,-2.95959,0" rot="1.0,0.0,0.0,0.0" radius="1.0" projectOnGround="false" />
+</sotemplate>

@@ -1,0 +1,5 @@
+<DialogScript Name="Fleet.AB8_Engie_In_Reactor_room" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_E064EE67" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="OK, I m in the reactor room."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_D11EE1EA" anim="" facial="" delay="0.75" facialWeight="0.5" facialFadeTime="0.5" desc="What next?"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_9016ED39" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Hit the big red switch!"/>
+</DialogScript>

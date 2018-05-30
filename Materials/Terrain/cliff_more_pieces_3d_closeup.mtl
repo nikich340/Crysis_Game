@@ -1,0 +1,42 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="268435460" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/road_soil_small_pepples.tif" Filter="7">
+     <TexMod TileU="0.12" TileV="0.12"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_more_pieces_ddn.tif">
+     <TexMod TileU="0.039999999" TileV="0.039999999"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="268435460" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/road_soil_small_pepples.tif" Filter="7">
+     <TexMod TileU="0.12" TileV="0.12"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_more_pieces_ddn.tif">
+     <TexMod TileU="0.039999999" TileV="0.039999999"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/road_soil_small_pepples.tif" Filter="7">
+     <TexMod TileU="0.12" TileV="0.12"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_more_pieces_ddn.tif">
+     <TexMod TileU="0.039999999" TileV="0.039999999"/>
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.011" PomDisplacement="0.028999999" SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

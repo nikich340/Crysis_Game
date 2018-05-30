@@ -1,0 +1,4 @@
+<DialogScript Name="Tutorial.AB4_Sykes_welcome_2" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/psycho_tutorial_ab4_1A0261E8" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/psycho_tutorial_ab4_C620D70A" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

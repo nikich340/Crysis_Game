@@ -1,0 +1,6 @@
+<DialogScript Name="ascension.plateau" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_1_ascension_ab1_N0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="One-Four, take up an overhead pattern. Keep the skies clear while we make the pick-up."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/nomad_ascension_ab1_0021" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Roger."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_1_ascension_ab1_N0003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Bandits, four o&apos;clock medium. One-Four you are clear to engage."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_1_ascension_ab1_N0004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Okay, we&apos;re down. Nomad, cover us so we can get the wounded onboard."/>
+</DialogScript>

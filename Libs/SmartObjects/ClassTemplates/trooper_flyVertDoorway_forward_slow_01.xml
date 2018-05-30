@@ -1,0 +1,5 @@
+<sotemplate>
+	<object model="trooper_flyVertDoorway_forward_slow_01.cgf" />
+	<helper name="so_start_1" pos="0,-0.946846,0" rot="-1.0,0.0,0.0,0.0" radius="0.1" projectOnGround="1" />
+	<helper name="so_end_1" pos="0,1.05375,0" rot="0.0,0.0,0.0,1.0" radius="0.1" projectOnGround="true" />
+</sotemplate>

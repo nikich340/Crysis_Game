@@ -1,0 +1,5 @@
+<DialogScript Name="Island.After_Boat" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/prophet_island_ab7_91f760c0" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/psycho_island_ab7_7214fdf1" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/prophet_island_ab7_1c96b49c" anim="" facial="" delay="0.40000001" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

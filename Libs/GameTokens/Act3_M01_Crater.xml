@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="Act3_M01_Crater">
+ <GameToken Name="Mission.Stealth_way" Type="Bool" Value="false"/>
+</GameTokensLibrary>

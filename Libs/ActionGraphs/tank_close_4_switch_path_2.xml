@@ -1,0 +1,16 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-100,180,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="590,180,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="2258" Class="AI:AISignal" pos="150,180,0" flags="1">
+   <Inputs entityId="0" signal="TO_TANKCLOSE_SWITCHPATH" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="US_tank_close_4_P2" id="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2258" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2258" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="2258" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

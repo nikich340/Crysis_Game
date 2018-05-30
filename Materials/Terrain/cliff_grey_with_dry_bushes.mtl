@@ -1,0 +1,42 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="5" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_grey_with_dry_bushes_highpassed.tif" Filter="5">
+     <TexMod TileU="0.04" TileV="0.04"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is4_ddn.tif" Filter="5">
+     <TexMod TileU="0.01" TileV="0.01"/>
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.08" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="5" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_grey_with_dry_bushes_highpassed.tif" Filter="7">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is4_ddn.tif" Filter="5">
+     <TexMod TileU="0.01" TileV="0.01"/>
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.08" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="5" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_grey_with_dry_bushes.tif" Filter="7">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is4_ddn.tif" Filter="5">
+     <TexMod TileU="0.01" TileV="0.01"/>
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.08" DetailTextureStrength="0.418"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

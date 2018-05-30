@@ -1,0 +1,43 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="-10,0,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="640,-50,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AISignal" flags="0" Id="4" pos="270,-40,0" >
+   <Inputs entityId="0" fValue="0" id="0" iValue="0" posValue="0,0,0" posValue2="0,0,0" signal="JUMP_TO" sValue="" />
+  </Node>
+  <Node Class="AI:SmartObjectHelper" flags="0" Id="5" pos="-90,100,0" >
+   <Inputs entityId="0" soclass_class="JumpableObstacle" sohelper_helper="JumpableObstacle:JumpPoint1" />
+  </Node>
+  <Node Class="Time:Delay" flags="0" Id="6" pos="470,-50,0" >
+   <Inputs delay="0.5" />
+  </Node>
+  <Node Class="AI:AIIgnore" flags="0" Id="9" pos="414.26526,-119.15321,0" >
+   <Inputs entityId="0" />
+  </Node>
+  <Node Class="AI:AIModifyStates" flags="0" Id="10" pos="110,-160,0" >
+   <Inputs entityId="0" sostates_states="Jumping" />
+  </Node>
+  <Node Class="AI:AIModifyStates" flags="0" Id="11" pos="150,130,0" >
+   <Inputs entityId="0" sostates_states="Busy-Idle" />
+  </Node>
+  <Node Class="AI:AILookAt" flags="0" Id="12" pos="540,40,0" >
+   <Inputs Direction="0,0,0" Duration="0" entityId="0" pos="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="5" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="9" nodeOut="1" portIn="Ignore" portOut="UserId" />
+  <Edge enabled="1" nodeIn="9" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="10" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="11" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="6" nodeOut="4" portIn="in" portOut="done" />
+  <Edge enabled="1" nodeIn="12" nodeOut="4" portIn="entityId" portOut="done" />
+  <Edge enabled="1" nodeIn="4" nodeOut="5" portIn="posValue" portOut="pos" />
+  <Edge enabled="1" nodeIn="9" nodeOut="6" portIn="Hostile" portOut="out" />
+  <Edge enabled="1" nodeIn="12" nodeOut="6" portIn="sink" portOut="out" />
+  <Edge enabled="1" nodeIn="2" nodeOut="12" portIn="end" portOut="done" />
+ </Edges>
+</Graph>

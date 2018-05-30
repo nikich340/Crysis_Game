@@ -1,0 +1,26 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-260,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="490,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="Entity:GetPos" pos="-50,80,0" flags="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="6" Class="entity:Trooper" pos="180,10,0" flags="0">
+   <Inputs entityId="0" Cloak="0" Disable="0" DisableUsable="0" Enable="0" EnableCloaked="0" EnableSearchBeam="0" EnableUsable="0" JumpAt="0,0,0" Kill="0" Spawn="0" UnCloak="0" Used="0" WakeUp="0"/>
+  </Node>
+  <Node Id="7" Class="Time:Delay" pos="-30,250,0" flags="1">
+   <Inputs delay="8"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="Get" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="in" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="4" portIn="JumpAt" portOut="Pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="Land" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="7" portIn="Kill" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,4 @@
+<Entity
+ Name="AIAlertness"
+ Script="Scripts/Entities/AI/AIAlertness.lua" 
+/>

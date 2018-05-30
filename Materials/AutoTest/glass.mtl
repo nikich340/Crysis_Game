@@ -1,0 +1,12 @@
+<Material MtlFlags="2048" Shader="Glass" GenMask="1" SurfaceType="mat_plastic" Diffuse="0.862745,0.780392,0.705882" Specular="0.722118,0.722118,0.722118" Emissive="0,0,0" Shininess="29" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/autotest/detail_brighter.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/defaults/tangent_reference_ddn.dds" Amount="93">
+   <TexMod TileU="4" TileV="4"/>
+  </Texture>
+ </Textures>
+ <PublicParams TintAmount="1" InsideTintAmount="1" ReflectionAmount="1" InsideReflectionAmount="1" RefrBumpScale="0.1" BackLightScale="1" FresnelBias="0.2" FilterColor="1,1,1"/>
+ <MaterialLayers />
+</Material>

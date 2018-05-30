@@ -1,0 +1,12 @@
+<Root>
+  <PS>
+    <Obj1_CapturePT Name="@PS_CapturePrototype" Description="@PS_CapturePrototype_Text" />
+    <Obj2_SecureAliens Name="@PS_SecureAliens" Description="@PS_SecureAliens_Text" />
+    <Obj3_BuildTAC Name="@PS_BuildTAC" Description="@PS_BuildTAC_Text" />
+    <Obj4_DestroyHQ Name="@PS_DestroyHQ" Description="@PS_DestroyHQ_Text" />
+
+    <SecObj1_Factory Name="@PS_CaptureVehicle" Description="@PS_CaptureVehicle_Text" secondary="true" />
+    <SecObj2_Bunker Name="@PS_CaptureBunker" Description="@PS_CaptureBunker_Text" secondary="true" />
+    <SecObj3_Turret Name="@PS_DestroyTurrets" Description="@PS_DestroyTurrets_Text" secondary="true" />
+  </PS>
+</Root>

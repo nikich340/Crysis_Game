@@ -1,0 +1,15 @@
+<Material Diffuse="0.50588238,0.50588238,0.50588238" Emissive="0.43921572,0.43921572,0.43921572" GenMask="4115" MtlFlags="0" Opacity="1" Shader="Illum" Shininess="10" Specular="5,5,5" SurfaceType="" >
+ <Textures>
+  <Texture File="objects/weapons/shells/shell_5,56.dds" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="objects/weapons/shells/shell_5,56_spec.dds" Map="Specular" >
+   <TexMod />
+  </Texture>
+  <Texture Amount="50" File="objects/weapons/shells/shell_5,56_ddn.dds" Map="Normalmap" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

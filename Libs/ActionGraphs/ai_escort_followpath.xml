@@ -1,0 +1,23 @@
+<Graph Description="" Group="Interaction" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-600,-580,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="320,-550,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="13" Class="AI:AIFollowPathSpeedStance" pos="60,-580,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" PathFindToStart="0" Reverse="0" StartNearest="1" Loops="0" path_name="AIPath1" run="1" stance="4"/>
+  </Node>
+  <Node Id="38" Class="AI:ActionStart" pos="-80,-580,0" flags="0"/>
+  <Node Id="39" Class="AI:AISignal" pos="-380,-580,0" flags="0">
+   <Inputs entityId="0" signal="DO_NOTHING" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="39" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="39" nodeOut="1" portIn="sink" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="13" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="13" portIn="end" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="38" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="39" portIn="sink" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

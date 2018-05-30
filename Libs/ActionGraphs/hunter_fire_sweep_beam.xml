@@ -1,0 +1,41 @@
+<Graph Description="" Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-30,-330,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="750,-330,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="5" Class="AI:AIShootAt" pos="360,-330,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" targetPos="0,0,0" time="1" shots="-1" AimOnly="0" TargetId="0"/>
+  </Node>
+  <Node Id="72" Class="AI:AIWeaponSelect" pos="100,-330,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="HunterSweepMOAR"/>
+  </Node>
+  <Node Id="73" Class="Entity:EntityPos" pos="-70,-200,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="75" Class="Vec3:ScaleVec3" pos="100,-140,0" flags="0">
+   <Inputs vector="0,0,0" scale="50"/>
+  </Node>
+  <Node Id="76" Class="Vec3:AddVec3" pos="240,-220,0" flags="0">
+   <Inputs A="0,0,0" B="0,0,0"/>
+  </Node>
+  <Node Id="83" Class="AI:AIWeaponSelect" pos="550,-180,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="MOAR"/>
+  </Node>
+  <Node Id="84" Class="AI:AIWeaponSelect" pos="550,-330,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="MOAR"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="72" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="5" portIn="sink" portOut="done" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="72" portIn="sink" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="72" portIn="sink" portOut="fail" enabled="1"/>
+  <Edge nodeIn="75" nodeOut="73" portIn="vector" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="73" portIn="A" portOut="pos" enabled="1"/>
+  <Edge nodeIn="76" nodeOut="75" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="76" portIn="targetPos" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="83" portIn="cancel" portOut="done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="84" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

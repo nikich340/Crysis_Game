@@ -1,0 +1,194 @@
+<profile>
+	<actionmap name="default" version="1">
+	   <action name="moveleft" onPress="1" onRelease="1">
+	      <key name="a"/>
+	   </action>
+	   <action name="moveright" onPress="1" onRelease="1">
+	      <key name="d"/>
+	   </action>
+	   <action name="moveforward" onPress="1" onRelease="1">
+	      <key name="w"/>
+	   </action>
+	   <action name="moveforward" onPress="1" onRelease="1">
+	      <key name="i"/>
+	   </action>
+	   <action name="moveback" onPress="1" onRelease="1">
+	      <key name="s"/>
+	   </action>
+	   <action name="jump" onPress="1" onRelease="1">
+	      <key name="space"/>
+	      <key name="xi_a"/>
+	   </action>
+	   <action name="crouch" onPress="1" onRelease="1">
+	      <key name="lctrl"/>
+	   </action>
+	   <action name="prone" onPress="1">
+	      <key name="v"/>
+	      <key name="xi_thumbl"/>
+	   </action>
+	   <action name="sprint" onPress="1" onRelease="1">
+	      <key name="lshift"/>
+	   </action>
+	   <action name="leanleft" onPress="1" onRelease="1" onHold="1">
+       <key name="q"/>
+     </action>
+     <action name="leanright" onPress="1" onRelease="1" onHold="1">
+	      <key name="e"/>
+	   </action>
+	   <action name="rotateyaw">
+	      <key name="maxis_x"/>
+	   </action>
+	   <action name="rotatepitch">
+	      <key name="maxis_y"/>
+	   </action>
+	   <action name="changeseat" onPress="1">
+	      <key name="lshift"/>
+	   </action>
+	   <action name="attack1" onPress="1" onRelease="1">
+	      <key name="mouse1"/>
+	      <key name="xi_triggerr_btn"/>
+	   </action>
+	   <action name="reload" onPress="1">
+	      <key name="r"/>
+	      <key name="xi_shoulderr"/>
+	   </action>
+	   <action name="drop" onPress="1">
+	      <key name="j"/>
+	   </action>
+	   <action name="nextitem" onPress="1">
+	      <key name="mwheel_up"/>
+	   </action>
+	   <action name="previtem" onPress="1">
+	      <key name="mwheel_down"/>
+	   </action>
+	   <action name="pistol" onPress="1">
+	      <key name="1"/>
+	   </action>
+	   <action name="rifle" onPress="1">
+	      <key name="2"/>
+	   </action>
+	   <action name="shotgun" onPress="1">
+	      <key name="3"/>
+	   </action>
+	   <action name="machinegun" onPress="1">
+	      <key name="4"/>
+	   </action>
+	   <action name="handgrenade" onPress="1">
+	      <key name="5"/>
+	   </action>
+	   <action name="explosive" onPress="1">
+	      <key name="6"/>
+	   </action>
+	   <action name="zoom" onPress="1" onRelease="1">
+	      <key name="mouse2"/>
+	      <key name="xi_thumbr"/>
+	   </action>
+	   <action name="binoculars" onPress="1">
+	      <key name="b"/>
+	      <key name="xi_dpad_up"/>
+	   </action>
+	   <action name="objectives" onPress="1" onRelease="1">
+	      <key name="tab"/>
+	   </action>
+	   <action name="scores" onPress="1" onRelease="1">
+	      <key name="tab"/>
+	   </action>
+	   <action name="invert_mouse" onPress="1">
+	      <key name="home"/>
+	   </action>
+	   <action name="zoom_in" onPress="1">
+	      <key name="mwheel_up"/>
+	   </action>
+	   <action name="zoom_out" onPress="1">
+	      <key name="mwheel_down"/>
+	   </action>
+	   <action name="use" onPress="1" onRelease="1">
+	      <key name="f"/>
+	      <key name="xi_b"/>
+	   </action>
+	   <action name="gboots" onPress="1">
+	      <key name="n"/>
+	   </action>
+		 <action name="grenade" onPress="1" onRelease="1">
+	      <key name="g"/>
+	   </action>
+	   <action name="lights" onPress="1">
+	      <key name="l"/>
+	   </action>
+	   <action name="save" onPress="1" consoleCmd="1" noModifiers="1">
+	      <key name="f5"/>
+	   </action>
+	   <action name="load" onPress="1" consoleCmd="1" noModifiers="1">
+	      <key name="f6"/>
+	   </action>
+	   <action name="xi_movex">
+	      <key name="xi_thumbly"/>
+	   </action>
+	   <action name="xi_movey">
+	      <key name="xi_thumblx"/>
+	   </action>
+	   <action name="xi_rotateyaw">
+	      <key name="xi_thumbrx"/>
+	   </action>
+	   <action name="xi_rotatepitch">
+	      <key name="xi_thumbry"/>
+	   </action>
+	   <action name="hud_mousex">
+	      <key name="maxis_x"/>
+	   </action>
+	   <action name="hud_mousey">
+	      <key name="maxis_y"/>
+	   </action>
+	   <action name="hud_mouseclick" onPress="1" onRelease="1">
+	      <key name="mouse1"/>
+	   </action>
+	   <action name="hud_mousemiddleclickpress" onPress="1">
+	      <key name="mouse3"/>
+	   </action>
+	   <action name="hud_mousemiddleclickrelease" onRelease="1">
+	      <key name="mouse3"/>
+	   </action>
+	   <action name="hud_pda_switch" onPress="1" noModifiers="1">
+	      <key name="tab"/>
+	   </action>
+	   <action name="hud_show_multiplayer_scoreboard" onPress="1" noModifiers="0">
+	      <key name="tab"/>
+	   </action>
+	   <action name="hud_hide_multiplayer_scoreboard" onRelease="1" noModifiers="0">
+	      <key name="tab"/>
+	   </action>
+	   <action name="hud_demo_mode" onPress="1" noModifiers="1">
+	      <key name="p"/>
+	   </action>
+	</actionmap>
+	<actionfilter name="no_move" type="actionFail">
+	   <filter name="leanleft"/>
+	   <filter name="leanright"/>
+	   <filter name="crouch"/>
+	   <filter name="jump"/>
+	   <filter name="moveleft"/>
+	   <filter name="moveright"/>
+	   <filter name="moveforward"/>
+	   <filter name="moveback"/>
+	   <filter name="sprint"/>
+	   <filter name="prone"/>
+	</actionfilter>
+	<actionfilter name="no_mouse" type="actionFail">
+	   <filter name="attack1"/>
+	   <filter name="rotateyaw"/>
+	   <filter name="rotatepitch"/>
+	   <filter name="nextitem"/>
+	   <filter name="previtem"/>
+	   <filter name="pistol"/>
+	   <filter name="rifle"/>
+	   <filter name="shotgun"/>
+	   <filter name="machinegun"/>
+	   <filter name="handgrenade"/>
+	   <filter name="explosive"/>
+	   <filter name="utilitie"/>
+	   <filter name="zoom"/>
+	   <filter name="binoculars"/>
+	   <filter name="reload"/>
+	   <filter name="drop"/>
+	</actionfilter>
+</profile>

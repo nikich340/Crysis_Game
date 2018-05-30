@@ -1,0 +1,18 @@
+<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="268441220" SurfaceType="mat_ice" Diffuse="0.8705883,0.8705883,0.8705883" Specular="0.15294118,0.15294118,0.15294118" Emissive="0,0,0" Shininess="15" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/frozen_ground/ice_flat.tif">
+   <TexMod TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/frozen_ground/ice_flat_cracks_gloss.dds">
+   <TexMod TileU="0.5" TileV="0.5"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/frozen_ground/grass_frozen_ddn.dds">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Environment" File="textures/terrain/detail/frozen_ground/ice_envmap.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="3" FresnelScale="3" FresnelBias="1" ObmDisplacement="0.0040000002" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

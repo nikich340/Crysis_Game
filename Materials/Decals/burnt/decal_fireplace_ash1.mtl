@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="452984832" SurfaceType="" Diffuse="0.26274511,0.24705884,0.20392159" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/burnt/fireplace_ash.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/burnt/fireplace_ash_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,13 @@
+<DialogScript Name="Tutorial.AB2_Squad_presentation" Description="">
+ <Line actor="3" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/jester_tutorial_ab2_E720E35A" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/psycho_tutorial_ab2_90646C7C" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/prophet_tutorial_ab2_3B2F28F2" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/prophet_tutorial_ab2_9F6723F4" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/psycho_tutorial_ab2_919957C6" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="3" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/prophet_tutorial_ab2_EC4EC712" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/jester_tutorial_ab2_21CA698C" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/prophet_tutorial_ab2_7ED27E80" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="3" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/jester_tutorial_ab2_6BDD7E85" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/prophet_tutorial_ab2_1AD425A6" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/psycho_tutorial_ab2_5274C676" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

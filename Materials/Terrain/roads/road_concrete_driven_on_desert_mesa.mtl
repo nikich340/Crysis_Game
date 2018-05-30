@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="302006272" SurfaceType="mat_concrete" Diffuse="0.7843138,0.73333335,0.7019608" Specular="0,0,0" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_concrete_driven_on.tif" Filter="6">
+   <TexMod />
+  </Texture>
+  <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_007_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1" DetailBumpTillingU="5" DetailBumpTillingV="5" DetailBumpScale="1" DetailBlendAmount="0"/>
+ <MaterialLayers />
+</Material>

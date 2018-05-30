@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="306184210" SurfaceType="mat_gravel" Diffuse="0.521569,0.521569,0.521569" Specular="0.282353,0.282353,0.282353" Emissive="0,0,0" Shininess="8" Opacity="0.63">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_on_palm_beach.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/roads/road_10_b_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/roads/road_10_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

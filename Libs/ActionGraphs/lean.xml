@@ -1,0 +1,25 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="0,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="780,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="120,90,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="5" Class="AI:AIAnimEx" pos="370,10,0" flags="1" GraphEntity="0">
+   <Inputs entityId="0" OneShot="0" animstateEx_Animation="idleFootOnWall" Speed="-1" Stance="-1" Position="0,0,0" StartRadius="0.1,0.1,0.1" Direction="0,0,0" DirTolerance="2" TargetRadius="0.05"/>
+  </Node>
+  <Node Id="6" Class="Time:Delay" pos="620,30,0" flags="0">
+   <Inputs delay="10"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="Sync" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="5" portIn="in" portOut="done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

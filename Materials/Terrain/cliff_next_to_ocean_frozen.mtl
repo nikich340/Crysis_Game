@@ -1,0 +1,51 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_rock" Diffuse="0.43921599,0.533333,0.56078398" Specular="1.2,1.2,1.2" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/rock_stone_011_highpass.dds" Filter="5">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/rock_stone_011_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/rock_stone_011_ddn.dds">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_rock" Diffuse="0.43921599,0.533333,0.56078398" Specular="1.2,1.2,1.2" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/rock_stone_011_highpass.dds" Filter="5">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/rock_stone_011_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/rock_stone_011_ddn.dds">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="402657796" SurfaceType="mat_rock" Diffuse="0.43921599,0.533333,0.56078398" Specular="1.2,1.2,1.2" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/rock_stone_011_highpass.dds" Filter="5">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/rock_stone_011_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/rock_stone_011_ddn.dds">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.011" PomDisplacement="0.027000001" SelfShadowStrength="3" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,18 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="306200592" SurfaceType="mat_concrete" Diffuse="0.49411768,0.49019611,0.4784314" Specular="0.035294119,0.035294119,0.035294119" Emissive="0,0,0" Shininess="5" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_village_raw.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/roads/road_village_raw_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/roads/road_village_raw_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_007_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1" DetailBumpTillingU="5" DetailBumpTillingV="5" DetailBumpScale="1" DetailBlendAmount="0"/>
+ <MaterialLayers />
+</Material>

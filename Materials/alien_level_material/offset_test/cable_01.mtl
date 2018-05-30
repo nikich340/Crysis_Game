@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Metal" GenMask="12291" SurfaceType="mat_metal" Diffuse="0.478431,0.478431,0.478431" Specular="0.435294,0.435294,0.435294" Emissive="0,0,0" Shininess="1" Opacity="1" GlowAmount="6.18">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/alien_level_texture/cable.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/alien_level_texture/cable_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/alien_level_texture/cable_ddn.tif" Amount="50">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SpecularMultiplier="0.64" AnisotropicShape="0.6"/>
+ <MaterialLayers />
+</Material>

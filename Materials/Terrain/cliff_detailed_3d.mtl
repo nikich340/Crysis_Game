@@ -1,0 +1,36 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="3" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.25098,0.25098,0.25098" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_more_pieces.dds" Filter="7">
+     <TexMod TileU="0.05" TileV="0.05"/>
+    </Texture>
+   </Textures>
+   <PublicParams Reflect="0.5" BumpOffset="0.08" FresnelScale="2.15" FresnelBias="0" FresnelPow="5" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="3" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.25098,0.25098,0.25098" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_more_pieces.dds" Filter="7">
+     <TexMod TileU="0.05" TileV="0.05"/>
+    </Texture>
+   </Textures>
+   <PublicParams Reflect="0.5" BumpOffset="0.08" FresnelScale="2.15" FresnelBias="0" FresnelPow="5" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="7" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.25098,0.25098,0.25098" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_more_pieces.dds" Filter="7">
+     <TexMod TileU="0.05" TileV="0.05"/>
+    </Texture>
+    <Texture Map="Normalmap" File="textures/terrain/detail/cliff_more_pieces_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams Reflect="0.5" BumpOffset="0.08" FresnelScale="2.15" FresnelBias="0" FresnelPow="5" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

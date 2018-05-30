@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="306184208" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="1.68627,1.68627,1.68627" Emissive="0,0,0" Shininess="2" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_10_b_frozen.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/roads/road_10_b_frozen_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/roads/road_10_ddn.tif" Filter="5">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

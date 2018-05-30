@@ -1,0 +1,11 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="419434500" SurfaceType="mat_leaves_terrain" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/forest_ground_track_big.tif" Filter="6">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/forest_ground_track_big_ddn.tif">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+ </Textures>
+ <PublicParams DetailTextureStrength="0.398" ObmDisplacement="0.0080000004" PomDisplacement="0.016000001" SelfShadowStrength="3"/>
+</Material>

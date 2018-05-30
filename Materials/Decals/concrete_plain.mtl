@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="303169536" SurfaceType="" Diffuse="0.3019608,0.3019608,0.3019608" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.97000003">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/concrete_plain.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/concrete_plain_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

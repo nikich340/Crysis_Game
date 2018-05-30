@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB8_Engie_Reactor_is_shut_down" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_7A611EFB" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Okay, the reactor s shut down, transferring power to secondary system. Great job!"/>
+</DialogScript>

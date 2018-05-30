@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="Act3_M03_Maintenance">
+ <GameToken Name="sewers.scavengers_alerted" Type="Bool" Value="false"/>
+</GameTokensLibrary>

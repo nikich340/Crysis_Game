@@ -1,0 +1,12 @@
+<Material MtlFlags="2052" Shader="Fx_outersphere" GenMask="16" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.941" GlowAmount="0.01">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/defaults/fringe_map.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/defaults/oceanwaves_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams Tilling="5.95" DetailTilling="1.23" SpeedMultiplier="0.12" DetailSpeedMultiplier="4.5" OffsetBump="1.602" DetailOffsetBump="1.502" DetailDistance="400" SurfaceThickness="10" SmookePuffBias="1" SmookePuffPow="8.24" SmookePuffBeginColor="0,0,0" SmookePuffEndColor="0.129412,0.352941,0.439216" GroundColor="0,0,0" FinalMultiplier="0.58" SunScattering="47.7" SunMultiplier="0.99"/>
+ <MaterialLayers />
+</Material>

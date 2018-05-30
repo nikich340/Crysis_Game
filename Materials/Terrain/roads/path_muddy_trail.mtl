@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="4198419" SurfaceType="mat_gravel" Diffuse="0.454902,0.403922,0.34902" Specular="0.411765,0.411765,0.411765" Emissive="0,0,0" Shininess="8" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/path_muddy_trail.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/roads/road_10_b_spec.tif">
+   <TexMod TileV="0.5"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/roads/road_10_ddn.tif" Filter="5">
+   <TexMod TileU="1.25" TileV="1.25"/>
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

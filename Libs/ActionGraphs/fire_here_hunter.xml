@@ -1,0 +1,46 @@
+<Graph Description="" Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-10,-340,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="730,-340,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="5" Class="AI:AIShootAt" pos="530,-370,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" targetPos="0,0,0" time="1" shots="-1" AimOnly="0" TargetId="0"/>
+  </Node>
+  <Node Id="55" Class="AI:AIAttTarget" pos="230,-230,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="56" Class="AI:ActionEnd" pos="530,-200,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="67" Class="AI:SmartObjectEvent" pos="320,-370,0" flags="0">
+   <Inputs soevent_event="CanShootAt" userId="0" objectId="0"/>
+  </Node>
+  <Node Id="83" Class="AI:AIWeaponSelect" pos="120,-400,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="MOAR"/>
+  </Node>
+  <Node Id="84" Class="AI:ActionEnd" pos="310,-460,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="85" Class="Logic:Blocker" pos="370,-100,0" flags="0">
+   <Inputs Block="0"/>
+  </Node>
+  <Node Id="86" Class="Logic:Gate" pos="370,-190,0" flags="0">
+   <Inputs Closed="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="67" nodeOut="1" portIn="objectId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="67" nodeOut="1" portIn="userId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="55" portIn="targetPos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="55" portIn="In" portOut="none" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="67" portIn="sink" portOut="noRule" enabled="1"/>
+  <Edge nodeIn="86" nodeOut="67" portIn="Close" portOut="noRule" enabled="1"/>
+  <Edge nodeIn="67" nodeOut="83" portIn="trigger" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="83" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="86" portIn="cancel" portOut="Out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,96 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="Entity:EntityPos" flags="0" Id="3" pos="150,70,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="9" pos="510,90,0" />
+  <Node Class="Entity:EntityPos" flags="0" Id="14" pos="790,120,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:AIGoto" flags="0" Id="4" pos="390,0,0" >
+   <Inputs distance="2.5" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="_comment" flags="0" Id="21" Name="Medic can't reach the patient. Stops treating him." pos="1670,140,0" />
+  <Node Class="_comment" flags="0" Id="18" Name="Check if patient still there - 2" pos="1270,50,0" />
+  <Node Class="_comment" flags="0" Id="6" Name="Patient is badly wounded. Medic will make according statement and approach the patient as fast as he can." pos="80,-80,0" />
+  <Node Class="_comment" flags="0" Id="12" Name="Medic tells the patient to stay still and approaches him again." pos="980,10,0" />
+  <Node Class="_comment" flags="0" Id="10" Name="Check if patient still there - 1" pos="590,-30,0" />
+  <Node Class="AI:ActionStart" flags="0" Id="23" pos="870,-110,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="19" pos="2200,40,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Condition" flags="0" Id="17" pos="1470,80,0" >
+   <Inputs condition="0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="16" pos="1150,160,0" />
+  <Node Class="AI:AIModifyStates" flags="0" Id="24" pos="1670,40,0" >
+   <Inputs entityId="0" sostates_states="Being_Treated-Heavily_Wounded,Lightly_Wounded,Medium_Wounded" />
+  </Node>
+  <Node Class="Entity:EntitiesInRange" flags="0" Id="8" pos="1300,80,0" >
+   <Inputs Entity1="0" Entity2="0" Range="4" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="1520,-90,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AIGoto" flags="0" Id="13" pos="1110,80,0" >
+   <Inputs distance="2.5" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AISpeed" flags="0" Id="5" pos="240,0,0" >
+   <Inputs entityId="0" run="2" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="100,0,0" />
+  <Node Class="Entity:EntitiesInRange" flags="0" Id="7" pos="660,10,0" >
+   <Inputs Entity1="0" Entity2="0" Range="4" />
+  </Node>
+  <Node Class="AI:AIModifyStates" flags="0" Id="15" pos="990,-90,0" >
+   <Inputs entityId="0" sostates_states="Being_Treated-Heavily_Wounded,Lightly_Wounded,Medium_Wounded" />
+  </Node>
+  <Node Class="Condition" flags="0" Id="11" pos="830,10,0" >
+   <Inputs condition="0" />
+  </Node>
+  <Node Class="Sound:PlaySound" flags="0" Id="27" pos="170,300,0" >
+   <Inputs entityId="0" FadeValue="1" InnerRadius="5" Loop="0" OuterRadius="10" Perception="0" Play="0" sound_SoundName="languages/voicepacks/us_medic/medic_approach_player_hw.wav" Volume="255" WeatherEffected="0" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="22" pos="1810,170,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Sound:PlaySound" flags="0" Id="29" pos="1080,240,0" >
+   <Inputs entityId="0" FadeValue="1" InnerRadius="5" Loop="0" OuterRadius="10" Perception="0" Play="0" sound_SoundName="languages/voicepacks/us_medic/medic_player_moves_away.wav" Volume="255" WeatherEffected="0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="25" pos="1550,10,0" />
+  <Node Class="_comment" flags="0" Id="28" Name="This node is to be replaced when characters\ncan finally speak" pos="220,240,0" />
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="22" nodeOut="17" portIn="end" portOut="false" />
+  <Edge nodeIn="14" nodeOut="9" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="4" nodeOut="5" portIn="entityId" portOut="done" />
+  <Edge nodeIn="19" nodeOut="24" portIn="end" portOut="done" />
+  <Edge nodeIn="13" nodeOut="11" portIn="sink" portOut="false" />
+  <Edge nodeIn="13" nodeOut="9" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="29" nodeOut="9" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="2" nodeOut="15" portIn="end" portOut="done" />
+  <Edge nodeIn="15" nodeOut="11" portIn="sink" portOut="true" />
+  <Edge nodeIn="15" nodeOut="23" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="13" nodeOut="14" portIn="pos" portOut="pos" />
+  <Edge nodeIn="7" nodeOut="4" portIn="Trigger" portOut="done" />
+  <Edge nodeIn="8" nodeOut="16" portIn="Entity1" portOut="UserId" />
+  <Edge nodeIn="11" nodeOut="7" portIn="value" portOut="InRange" />
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="17" nodeOut="8" portIn="condition" portOut="InRange" />
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" />
+  <Edge nodeIn="8" nodeOut="16" portIn="Entity2" portOut="ObjectId" />
+  <Edge nodeIn="27" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="24" nodeOut="17" portIn="sink" portOut="true" />
+  <Edge nodeIn="8" nodeOut="13" portIn="Trigger" portOut="done" />
+  <Edge nodeIn="27" nodeOut="1" portIn="Play" portOut="UserId" />
+  <Edge nodeIn="7" nodeOut="9" portIn="Entity1" portOut="UserId" />
+  <Edge nodeIn="5" nodeOut="1" portIn="sink" portOut="UserId" />
+  <Edge nodeIn="29" nodeOut="11" portIn="Play" portOut="false" />
+  <Edge nodeIn="11" nodeOut="7" portIn="condition" portOut="InRange" />
+  <Edge nodeIn="24" nodeOut="25" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="4" nodeOut="5" portIn="sink" portOut="done" />
+  <Edge nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="17" nodeOut="8" portIn="value" portOut="InRange" />
+  <Edge nodeIn="7" nodeOut="9" portIn="Entity2" portOut="ObjectId" />
+ </Edges>
+</Graph>

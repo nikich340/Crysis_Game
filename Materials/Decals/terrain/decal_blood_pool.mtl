@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.32549021,0.32549021,0.32549021" Specular="0.5,0.5,0.5" Emissive="0,0,0" Shininess="120" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/new_blood/wblood_1.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/sprites/new_blood/wblood_1_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/sprites/new_blood/wblood_1_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

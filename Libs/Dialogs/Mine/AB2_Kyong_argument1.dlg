@@ -1,0 +1,5 @@
+<DialogScript Name="Mine.AB2_Kyong_argument1" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab2_00315" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="General Kyong, this is crazy. The structure is far too unstable. The entire thing could collapse."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_00316" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I will not waste any more time! The charges are in place. We are ready to proceed."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab2_00317" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We can t do this. The seismic activity, the power surges... It all emanates from inside this structure... you heard what my father said... he was trying to warn us..."/>
+</DialogScript>

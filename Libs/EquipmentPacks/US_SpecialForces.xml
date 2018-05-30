@@ -1,0 +1,11 @@
+<EquipPack name="US_SpecialForces" primary="SCAR">
+ <Items>
+  <AIGrenades type="ItemGivable"/>
+  <AssaultScope type="ItemGivable"/>
+  <SCAR type="ItemGivable"/>
+  <Silencer type="ItemGivable"/>
+  <SOCOM type="ItemGivable"/>
+  <SOCOMSilencer type="ItemGivable"/>
+ </Items>
+ <Ammo a2ahomingmissile="0" acmo="0" bullet="0" bunkerbuster="0" c4explosive="0" dumbaamissile="0" exocetmissile="0" explosivegrenade="0" flashbang="0" gaussbullet="0" heavyacmo="0" helicoptermissile="0" homingmissile="0" hurricanebullet="0" incendiarybullet="0" lightacmo="0" lightbullet="0" rocket="0" scargrenade="0" shotgunshell="0" singularityprojectile="0" smokegrenade="0" sniperbullet="0" syringe="0" tacbullet="0" tacprojectile="0" tagbullet="0" tank125="0" tank30="0" tankaa="0" towmissile="0" vtolbullet="0"/>
+</EquipPack>

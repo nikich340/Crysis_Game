@@ -1,0 +1,20 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-110,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="450,30,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="Movement:RotateEntityTo" pos="70,-10,0" flags="0">
+   <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="0" Time="4"/>
+  </Node>
+  <Node Id="5" Class="Time:Delay" pos="310,30,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="Start" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="4" portIn="in" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

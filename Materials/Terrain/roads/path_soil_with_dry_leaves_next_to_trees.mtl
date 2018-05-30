@@ -1,0 +1,9 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="306184192" SurfaceType="mat_pebble" Diffuse="0.39215699,0.39215699,0.39215699" Specular="0,0,0" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/path_soil_with_dry_leaves_next_to_trees.tif" Filter="6">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

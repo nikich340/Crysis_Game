@@ -1,0 +1,18 @@
+<Material Diffuse="0.49019611,0.49019611,0.49019611" Emissive="0,0,0" GenMask="18055" MtlFlags="41" Opacity="1" Shader="Terrain.Layer" Shininess="95.436302" Specular="0.30588236,0.30588236,0.30588236" SurfaceType="mat_ice" >
+ <Textures>
+  <Texture File="textures/terrain/detail/ice_flat_cracks.tif" Filter="5" Map="Diffuse" >
+   <TexMod TileU="0.2" TileV="0.2" />
+  </Texture>
+  <Texture File="textures/terrain/detail/ice_flat_cracks_gloss.tif" Map="Specular" >
+   <TexMod TileU="0.2" TileV="0.2" />
+  </Texture>
+  <Texture File="textures/terrain/detail/ice_flat_cracks_ddn.tif" Filter="5" Map="Bumpmap" >
+   <TexMod TileU="0.029999999" TileV="0.029999999" />
+  </Texture>
+  <Texture File="textures/skys/day/box_34.dds" Map="Environment" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.039999999" DetailTextureStrength="1" FresnelBias="0.29463199" FresnelPow="1" FresnelScale="0.46941301" Reflect="0.298507" />
+ <MaterialLayers />
+</Material>

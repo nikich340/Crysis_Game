@@ -1,0 +1,4 @@
+<DialogScript Name="Sphere.AB13rdwave" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/marine_3_sphere_ab1_892CBE1g" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/marine_2_sphere_ab1_EB633B0g" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

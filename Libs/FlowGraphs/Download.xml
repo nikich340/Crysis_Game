@@ -1,0 +1,108 @@
+<Graph Description="" Group="AB_1">
+ <Nodes>
+  <Node Id="1046" Class="entity:InteractiveEntity" pos="1860,-370,0" flags="1" EntityGUID="{5F647A10-7240-48B8-B527-9EC7A9742C27}" EntityGUID_64="48B872405F647A10">
+   <Inputs entityId="0" Destroyed="0" Hit="0" ResetProgress="0" SetProgress="0" TurnedOff="0" TurnedOn="0" Use="0"/>
+  </Node>
+  <Node Id="1047" Class="HUD:DisplayTimedDebugMessage" pos="2750,-410,0" flags="1">
+   <Inputs Message="" DisplayTime="1" PosX="200" PosY="50" FontSize="2"/>
+  </Node>
+  <Node Id="1048" Class="Logic:Any" pos="1230,-290,0" flags="1" InHideMask="63" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="1049" Class="Time:Timer" pos="1360,-310,0" flags="1">
+   <Inputs period="0.1" min="0" max="1" paused="0"/>
+  </Node>
+  <Node Id="1050" Class="Start" pos="870,-240,0" flags="1">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="1051" Class="Math:SetNumber" pos="1060,-270,0" flags="1">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="1052" Class="Math:SetNumber" pos="1060,-210,0" flags="1">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="1053" Class="Math:Less" pos="2200,-380,0" flags="1">
+   <Inputs A="0" B="100"/>
+  </Node>
+  <Node Id="1054" Class="Math:SetNumber" pos="1060,-160,0" flags="1">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="1055" Class="HUD:DisplayTimedDebugMessage" pos="2750,-300,0" flags="1">
+   <Inputs Message="Adding info to minimap" DisplayTime="1" PosX="400" PosY="400" FontSize="4"/>
+  </Node>
+  <Node Id="1056" Class="Math:SetNumber" pos="1060,-320,0" flags="1">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="1057" Class="Entity:EntitiesInRange" pos="1610,-230,0" flags="1">
+   <Inputs Entity1="0" Entity2="0" Range="3"/>
+  </Node>
+  <Node Id="1058" Class="Game:LocalPlayer" pos="1460,-210,0" flags="1"/>
+  <Node Id="1059" Class="Entity:EntityId" pos="1310,-170,0" flags="1" EntityGUID="{5F647A10-7240-48B8-B527-9EC7A9742C27}" EntityGUID_64="48B872405F647A10">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="1061" Class="Entity:EntitiesInRange" pos="1810,-160,0" flags="1">
+   <Inputs Entity1="0" Entity2="0" Range="20"/>
+  </Node>
+  <Node Id="1062" Class="Game:LocalPlayer" pos="1620,-120,0" flags="1"/>
+  <Node Id="1063" Class="Entity:EntityId" pos="1470,-80,0" flags="1" EntityGUID="{5F647A10-7240-48B8-B527-9EC7A9742C27}" EntityGUID_64="48B872405F647A10">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="1064" Class="Math:SetNumber" pos="1060,-110,0" flags="1">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="1067" Class="Logic:Blocker" pos="2410,-280,0" flags="1">
+   <Inputs Block="0"/>
+  </Node>
+  <Node Id="1068" Class="Start" pos="1970,-220,0" flags="1">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="1069" Class="Logic:Any" pos="2290,-220,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="1070" Class="Math:SetNumber" pos="2140,-220,0" flags="1">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="1071" Class="Math:SetNumber" pos="2140,-170,0" flags="1">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="1072" Class="HUD:DisplayTimedDebugMessage" pos="1270,-10,0" flags="1">
+   <Inputs Message="Out of Range! Data download aborted!" DisplayTime="3" PosX="350" PosY="400" FontSize="3"/>
+  </Node>
+  <Node Id="1073" Class="HUD:DisplayTimedDebugMessage" pos="2750,-520,0" flags="1">
+   <Inputs Message="Downloading data: " DisplayTime="1" PosX="50" PosY="50" FontSize="2"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="1047" nodeOut="1046" portIn="Message" portOut="Progress" enabled="1"/>
+  <Edge nodeIn="1053" nodeOut="1046" portIn="A" portOut="Progress" enabled="1"/>
+  <Edge nodeIn="1056" nodeOut="1046" portIn="set" portOut="Destroyed" enabled="1"/>
+  <Edge nodeIn="1067" nodeOut="1046" portIn="In" portOut="Used" enabled="1"/>
+  <Edge nodeIn="1049" nodeOut="1048" portIn="paused" portOut="out" enabled="1"/>
+  <Edge nodeIn="1057" nodeOut="1049" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="1052" nodeOut="1050" portIn="set" portOut="output" enabled="1"/>
+  <Edge nodeIn="1048" nodeOut="1051" portIn="in1" portOut="out" enabled="1"/>
+  <Edge nodeIn="1048" nodeOut="1052" portIn="in2" portOut="out" enabled="1"/>
+  <Edge nodeIn="1047" nodeOut="1053" portIn="Trigger" portOut="true" enabled="1"/>
+  <Edge nodeIn="1054" nodeOut="1053" portIn="set" portOut="false" enabled="1"/>
+  <Edge nodeIn="1055" nodeOut="1053" portIn="Trigger" portOut="false" enabled="1"/>
+  <Edge nodeIn="1071" nodeOut="1053" portIn="set" portOut="false" enabled="1"/>
+  <Edge nodeIn="1073" nodeOut="1053" portIn="Trigger" portOut="true" enabled="1"/>
+  <Edge nodeIn="1048" nodeOut="1054" portIn="in3" portOut="out" enabled="1"/>
+  <Edge nodeIn="1048" nodeOut="1056" portIn="in4" portOut="out" enabled="1"/>
+  <Edge nodeIn="1046" nodeOut="1057" portIn="SetProgress" portOut="True" enabled="1"/>
+  <Edge nodeIn="1061" nodeOut="1057" portIn="Trigger" portOut="False" enabled="1"/>
+  <Edge nodeIn="1057" nodeOut="1058" portIn="Entity1" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="1057" nodeOut="1059" portIn="Entity2" portOut="Id" enabled="1"/>
+  <Edge nodeIn="1064" nodeOut="1061" portIn="set" portOut="False" enabled="1"/>
+  <Edge nodeIn="1061" nodeOut="1062" portIn="Entity1" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="1061" nodeOut="1063" portIn="Entity2" portOut="Id" enabled="1"/>
+  <Edge nodeIn="1046" nodeOut="1064" portIn="ResetProgress" portOut="out" enabled="1"/>
+  <Edge nodeIn="1048" nodeOut="1064" portIn="in5" portOut="out" enabled="1"/>
+  <Edge nodeIn="1072" nodeOut="1064" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="1051" nodeOut="1067" portIn="set" portOut="Out" enabled="1"/>
+  <Edge nodeIn="1070" nodeOut="1068" portIn="set" portOut="output" enabled="1"/>
+  <Edge nodeIn="1067" nodeOut="1069" portIn="Block" portOut="out" enabled="1"/>
+  <Edge nodeIn="1069" nodeOut="1070" portIn="in1" portOut="out" enabled="1"/>
+  <Edge nodeIn="1069" nodeOut="1071" portIn="in2" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

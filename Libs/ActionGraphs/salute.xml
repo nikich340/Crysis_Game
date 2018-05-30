@@ -1,0 +1,24 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="30,100,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="600,100,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AIGoto" flags="0" Id="3" pos="160,100,0" >
+   <Inputs distance="1" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AIAnim" flags="0" Id="4" pos="340,100,0" >
+   <Inputs count="1" entityId="0" name="relaxed_salute_nw_01" signal="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="5" pos="-30,160,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="3" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="5" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="4" nodeOut="3" portIn="entityId" portOut="done" />
+  <Edge enabled="1" nodeIn="2" nodeOut="4" portIn="end" portOut="done" />
+  <Edge enabled="1" nodeIn="3" nodeOut="5" portIn="pos" portOut="pos" />
+ </Edges>
+</Graph>

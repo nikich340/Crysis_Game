@@ -1,0 +1,4 @@
+<DialogScript Name="Island.Prophet_Cortez_patrol" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/prophet_island_ab3_PU007" anim="" facial="" delay="5" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/prophet_island_ab3_PU007b" anim="" facial="" delay="0.2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

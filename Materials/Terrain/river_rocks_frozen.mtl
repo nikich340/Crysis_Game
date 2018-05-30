@@ -1,0 +1,15 @@
+<Material MtlFlags="9" Shader="Terrain.Layer" GenMask="402658820" SurfaceType="mat_rock" Diffuse="0.78823501,0.78823501,0.78823501" Specular="0.95686299,0.95686299,0.95686299" Emissive="0,0,0" Shininess="3" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/river_water_stones_frozen.tif" Filter="5">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/river_water_stones_frozen_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/river_water_stones_ddn.tif">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0089999996" PomDisplacement="0.021" DetailTextureStrength="0.60699999"/>
+ <MaterialLayers />
+</Material>

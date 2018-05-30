@@ -1,0 +1,14 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="16" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/bubble.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/defaults/perlinnoise2d.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/fire_blur1_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.63" PerturbationScale="3.5" PerturbationStrenght="1.865"/>
+</Material>

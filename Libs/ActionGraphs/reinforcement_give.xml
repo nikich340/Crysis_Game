@@ -1,0 +1,16 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="60,20,0" />
+  <Node Class="AI:AISignal" flags="0" Id="4" InHideMask="511" OutHideMask="7" pos="200,20,0" >
+   <Inputs entityId="0" fValue="0" id="0" iValue="0" posValue="0,0,0" posValue2="0,0,0" signal="OnReinforcementRequested" sValue="" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="340,30,0" >
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="4" portIn="end" portOut="done" />
+  <Edge nodeIn="4" nodeOut="1" portIn="id" portOut="ObjectId" />
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" />
+ </Edges>
+</Graph>

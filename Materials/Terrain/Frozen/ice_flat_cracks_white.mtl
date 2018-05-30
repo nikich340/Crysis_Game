@@ -1,0 +1,14 @@
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="7" MtlFlags="41" Opacity="1" Shader="Terrain.Layer" Shininess="8" Specular="0.56862748,0.56862748,0.56862748" SurfaceType="mat_snow" >
+ <Textures>
+  <Texture File="textures/terrain/detail/frozen_ground/ice_broken.tif" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/detail/frozen_ground/ice_broken_ddn.tif" Map="Normalmap" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/detail/frozen_ground/ice_envmap.tif" Map="Environment" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.039999999" EnvMapAmount="0.30000001" FresnelBias="1" FresnelPow="2" FresnelScale="0.5" Reflect="0.1" />
+</Material>

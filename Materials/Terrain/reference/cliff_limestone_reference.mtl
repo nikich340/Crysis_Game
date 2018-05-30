@@ -1,0 +1,33 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="164" Shader="Terrain.Layer" GenMask="268435457" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/reference/ps_cove_cave_cliff_front.tif">
+     <TexMod TileU="0.025" TileV="0.025" OffsetU="-0.31" OffsetV="0.26"/>
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" DetailTextureStrength="0.746"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="164" Shader="Terrain.Layer" GenMask="268435457" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/reference/ps_cove_cave_cliff.tif">
+     <TexMod TileU="0.025" TileV="0.025" OffsetU="-0.31" OffsetV="0.26"/>
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" DetailTextureStrength="0.746"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="164" Shader="Terrain.Layer" GenMask="268435457" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/reference/ps_cove_cave_cliff_front.tif">
+     <TexMod TileU="0.025" TileV="0.025" OffsetU="-0.31" OffsetV="0.26"/>
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" DetailTextureStrength="0.746"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,39 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="60,110,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="940,200,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="200,300,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIGoto" pos="370,200,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="1"/>
+  </Node>
+  <Node Id="5" Class="AI:AISignal" pos="180,110,0" flags="0" InHideMask="507" OutHideMask="7">
+   <Inputs entityId="0" signal="ABORT_ALL_ACTIONS" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0"/>
+  </Node>
+  <Node Id="6" Class="AI:ActionAbort" pos="60,200,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="7" Class="AI:AISignal" pos="530,200,0" flags="0" InHideMask="507" OutHideMask="6">
+   <Inputs entityId="0" signal="ABORT_ALL_ACTIONS" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0"/>
+  </Node>
+  <Node Id="8" Class="AI:AIModifyStates" pos="200,200,0" flags="0">
+   <Inputs entityId="0" sostates_states="Busy"/>
+  </Node>
+  <Node Id="9" Class="AI:AIModifyStates" pos="770,200,0" flags="0">
+   <Inputs entityId="0" sostates_states="-Busy"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="4" portIn="entityId" portOut="done" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="6" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="6" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="7" portIn="entityId" portOut="done" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="8" portIn="entityId" portOut="done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="9" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

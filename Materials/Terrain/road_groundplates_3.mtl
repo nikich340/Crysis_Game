@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="268436995" SurfaceType="mat_grass" Diffuse="0.443137,0.427451,0.384314" Specular="0.831373,0.831373,0.831373" Emissive="0,0,0" Shininess="3" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_concr_tile_2_highpass.tif" Filter="5">
+   <TexMod TileU="0.3" TileV="0.3"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/ground_concr_tile_2_highpass_spec.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.03" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

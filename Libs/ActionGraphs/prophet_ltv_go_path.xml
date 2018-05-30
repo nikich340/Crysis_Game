@@ -1,0 +1,16 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="110,190,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="600,190,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="11" Class="AI:AIFollowPathSpeedStance" pos="270,190,0" flags="0">
+   <Inputs entityId="0" PathFindToStart="0" Reverse="0" StartNearest="0" Loops="0" path_name="AB2_Barnes_LTVpath_1" run="2" stance="4"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="11" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="11" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="11" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

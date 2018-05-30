@@ -1,0 +1,3 @@
+<DialogScript Name="Core.AB3_Strong_and_fast" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab2_ea67cbe0" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Whatever those things are, they re strong. And fast."/>
+</DialogScript>

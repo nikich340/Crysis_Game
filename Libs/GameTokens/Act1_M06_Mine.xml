@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="Act1_M06_Mine">
+ <GameToken Name="Quarry.Area_Alert" Type="Bool" Value="false"/>
+</GameTokensLibrary>

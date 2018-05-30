@@ -1,0 +1,46 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-170,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="740,40,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="-40,50,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="Movement:MoveEntityTo" pos="330,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="1" Speed="3" EaseDistance="0.5"/>
+  </Node>
+  <Node Id="11" Class="HUD:DisplayTimedDebugMessage" pos="330,-100,0" flags="0">
+   <Inputs Message="Moving to hoverspot..." DisplayTime="3" PosX="50" PosY="50" FontSize="3"/>
+  </Node>
+  <Node Id="12" Class="HUD:DisplayTimedDebugMessage" pos="600,90,0" flags="0">
+   <Inputs Message="Hoverspot reached..." DisplayTime="3" PosX="50" PosY="80" FontSize="3"/>
+  </Node>
+  <Node Id="13" Class="Time:Delay" pos="600,40,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="15" Class="HUD:DisplayInstructionMessage" pos="340,150,0" flags="0">
+   <Inputs text_message="Abort Action!!!" displayTime="3"/>
+  </Node>
+  <Node Id="16" Class="AI:ActionEnd" pos="490,220,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="17" Class="Time:Delay" pos="340,220,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="18" Class="Input:Key" pos="140,100,0" flags="0">
+   <Inputs Key="np_6"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Start" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="1" portIn="Enable" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="Destination" portOut="pos" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="4" portIn="in" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="13" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="17" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="18" portIn="Stop" portOut="Released" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="18" portIn="in" portOut="Released" enabled="1"/>
+ </Edges>
+</Graph>

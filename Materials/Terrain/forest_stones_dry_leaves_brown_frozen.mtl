@@ -1,0 +1,14 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="419435012" SurfaceType="mat_leaves_terrain" Diffuse="0.76470596,0.76470596,0.76470596" Specular="0.31764707,0.31764707,0.31764707" Emissive="0,0,0" Shininess="2" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/forest_ground_dry_leaves_brown_frozen.tif" Filter="6">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/forest_ground_dry_leaves_brown_frozen_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/forest_ground_dry_leaves_brown_frozen_ddn.tif">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams DetailTextureStrength="1" ObmDisplacement="0.0099999998" PomDisplacement="0.0070000002" SelfShadowStrength="3"/>
+</Material>

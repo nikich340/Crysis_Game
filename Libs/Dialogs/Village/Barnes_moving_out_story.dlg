@@ -1,0 +1,5 @@
+<DialogScript Name="Village.Barnes_moving_out_story" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/prophet_village_ab1_e2c8e739" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/psycho_village_ab1_6990c010" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="village/prophet_village_ab1_35d876e5" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

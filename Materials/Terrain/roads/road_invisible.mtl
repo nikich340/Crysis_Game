@@ -1,0 +1,10 @@
+<Material MtlFlags="1033" Shader="Nodraw" GenMask="0" SurfaceType="mat_pebble" Diffuse="0.17647099,0.17254899,0.156863" Specular="0.035294101,0.031372599,0.0282353" Emissive="0,0,0" Shininess="10" Opacity="0.80199999">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/64grey.dds" Filter="6">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <MaterialLayers>
+  <Layer Name="Frozenlayer" NoDraw="0"/>
+ </MaterialLayers>
+</Material>

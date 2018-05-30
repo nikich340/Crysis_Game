@@ -1,0 +1,152 @@
+<Vegetation>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="15" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_big_bright_green.cgf" GUID="{B1611419-FEEC-41AB-AE57-6346AAEEF47A}" Hidden="0" Hideable="0" Id="1" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="15" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_big_grey_green.cgf" GUID="{0D5ED5B1-F080-4C5F-B5F8-3A11DEB9BCF7}" Hidden="0" Hideable="0" Id="2" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="15" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_big_yellow.cgf" GUID="{8F3D5AF7-B9ED-40FD-B331-8AB24781A977}" Hidden="0" Hideable="0" Id="3" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="15" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_med_bright_green.cgf" GUID="{E44ACAB4-1208-4105-9444-CF91A32B5CE1}" Hidden="0" Hideable="0" Id="4" Index="0" MaxViewDistRatio="0.3" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="15" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_med_grey_green.cgf" GUID="{BD4B93CD-C97B-414E-895F-BB1ABE8CC85B}" Hidden="0" Hideable="0" Id="5" Index="0" MaxViewDistRatio="0.3" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="173.97861,229.13498,104.99933" Scale="0.78695506" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="15" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_med_yellow.cgf" GUID="{9C08AE22-F5E8-49BB-A7D0-E87CA9E2F246}" Hidden="0" Hideable="0" Id="6" Index="0" MaxViewDistRatio="0.3" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="0.035202026,0.081710815,0" Scale="0.96182579" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="10" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_small_bright_green.cgf" GUID="{C95B303D-D206-4A9B-A6B7-535BDEBD68B4}" Hidden="0" Hideable="0" Id="7" Index="0" MaxViewDistRatio="0.2" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="10" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_small_grey_green.cgf" GUID="{DD2B11AE-8B4F-4954-B5FC-7619A2FBB8C2}" Hidden="0" Hideable="0" Id="8" Index="0" MaxViewDistRatio="0.2" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="227.3745,222.99765,130.02425" Scale="1.1484207" />
+   <Instance Pos="230.77206,224.74599,129.04402" Scale="1.0186682" />
+   <Instance Pos="173.43855,229.83325,104.98245" Scale="0.7836464" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="10" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_small_yellow.cgf" GUID="{621DF032-5DAD-44CA-8489-CD959EE50F2C}" Hidden="0" Hideable="0" Id="9" Index="0" MaxViewDistRatio="0.2" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="1" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/ground_plants/grass/grass_a.cgf" GUID="{EB268058-366C-4BFD-8227-2320DF04570A}" Hidden="0" Hideable="0" Id="10" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="222.57552,220.9451,129.91566" Scale="1.1946929" />
+   <Instance Pos="224.90836,221.63896,129.82129" Scale="1.0436995" />
+   <Instance Pos="225.62273,222.27473,130.34395" Scale="0.89500666" />
+   <Instance Pos="227.06516,222.30208,129.2419" Scale="1.0064363" />
+   <Instance Pos="227.17966,223.85217,131.47043" Scale="1.0255898" />
+   <Instance Pos="228.6255,223.10361,128.99081" Scale="0.77503848" />
+   <Instance Pos="229.31084,223.72911,129.2009" Scale="1.277807" />
+   <Instance Pos="228.1145,224.3119,131.34619" Scale="1.0862179" />
+   <Instance Pos="232.20081,225.90302,128.94603" Scale="1.1078067" />
+   <Instance Pos="234.10297,226.75925,127.47589" Scale="0.8472026" />
+   <Instance Pos="175.61244,227.01578,105.146" Scale="1.0228065" />
+   <Instance Pos="233.1066,227.69408,130.29608" Scale="1.0205542" />
+   <Instance Pos="234.83615,227.37108,127.33498" Scale="1.1314646" />
+   <Instance Pos="174.33311,228.35567,105.04164" Scale="1.2117771" />
+   <Instance Pos="233.63469,228.55714,130.73694" Scale="0.9501785" />
+   <Instance Pos="234.52681,228.90579,129.90921" Scale="1.0020233" />
+   <Instance Pos="235.11642,228.0376,127.84945" Scale="0.86822766" />
+   <Instance Pos="234.83786,229.80304,130.68607" Scale="0.85829389" />
+   <Instance Pos="236.42043,229.533,128.10162" Scale="0.7824899" />
+   <Instance Pos="235.96924,230.46272,129.94434" Scale="0.79752809" />
+   <Instance Pos="237.34673,230.71565,128.63013" Scale="0.81316769" />
+   <Instance Pos="236.16235,231.1019,130.60448" Scale="1.0442488" />
+   <Instance Pos="236.02563,231.98206,132.00682" Scale="0.97208089" />
+   <Instance Pos="237.01175,231.58727,130.27411" Scale="0.82705891" />
+   <Instance Pos="238.53279,231.46935,128.33855" Scale="1.1564776" />
+   <Instance Pos="172.20804,232.24445,104.94241" Scale="0.80547982" />
+   <Instance Pos="237.10403,232.66737,131.6389" Scale="0.979684" />
+   <Instance Pos="238.0799,232.34779,130.0641" Scale="0.83577985" />
+   <Instance Pos="238.73445,233.0126,130.19868" Scale="1.2496078" />
+   <Instance Pos="239.95813,234.65498,130.72603" Scale="1.1507645" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="1" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/ground_plants/grass/grass_b.cgf" GUID="{B45495BA-B2F7-40C8-80AC-F1DCB8A15A2F}" Hidden="0" Hideable="0" Id="11" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="227.58641,223.68297,130.87341" Scale="1.0251869" />
+   <Instance Pos="228.40504,223.13095,129.26607" Scale="1.1019105" />
+   <Instance Pos="229.52275,223.79919,129.08087" Scale="0.78444564" />
+   <Instance Pos="228.85281,224.72377,131.17953" Scale="0.85454684" />
+   <Instance Pos="230.55159,224.25551,128.58382" Scale="0.81748891" />
+   <Instance Pos="231.35826,224.72548,128.29243" Scale="0.85235947" />
+   <Instance Pos="176.34099,226.11047,105.20708" Scale="0.93274885" />
+   <Instance Pos="232.86563,226.21405,128.44884" Scale="0.91160488" />
+   <Instance Pos="231.97522,227.12326,131.09087" Scale="1.2944701" />
+   <Instance Pos="233.15787,227.32835,129.67906" Scale="0.79046339" />
+   <Instance Pos="234.41231,227.58812,128.24289" Scale="1.068566" />
+   <Instance Pos="235.14719,227.77954,127.45248" Scale="1.0196753" />
+   <Instance Pos="235.13522,228.41701,128.34352" Scale="0.83102334" />
+   <Instance Pos="235.99146,228.63576,127.38672" Scale="0.80690795" />
+   <Instance Pos="173.83115,229.51488,104.99472" Scale="1.1157353" />
+   <Instance Pos="236.61696,229.19632,127.40852" Scale="0.86412007" />
+   <Instance Pos="237.33818,230.3824,128.16484" Scale="0.80702722" />
+   <Instance Pos="235.83765,231.52574,131.60693" Scale="1.2682852" />
+   <Instance Pos="236.79813,231.21982,130.00786" Scale="0.90115041" />
+   <Instance Pos="236.96048,232.88785,132.10056" Scale="0.80655044" />
+   <Instance Pos="237.83551,232.41103,130.4341" Scale="1.016068" />
+   <Instance Pos="239.01132,232.18542,128.79306" Scale="1.0322367" />
+   <Instance Pos="238.25935,233.30144,131.13399" Scale="0.77904075" />
+   <Instance Pos="239.11728,233.23477,130.04668" Scale="0.85644984" />
+   <Instance Pos="240.26234,234.04999,129.71542" Scale="0.85081911" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="5" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_big_a.cgf" GUID="{E25681AC-1CDD-4E59-8DF8-531DD3A1E8A4}" Hidden="0" Hideable="0" Id="12" Index="0" MaxViewDistRatio="0.15" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="0.4" Size="1.5" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="230.76865,225.61418,130.3401" Scale="1.2012743" />
+   <Instance Pos="239.75133,234.47041,130.78407" Scale="1.8518068" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="5" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_big_b.cgf" GUID="{707E3FB7-C958-4CED-8B72-9EE4CA51B149}" Hidden="0" Hideable="0" Id="13" Index="0" MaxViewDistRatio="0.15" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="0.4" Size="1.5" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="227.61375,223.24033,130.18639" Scale="1.3588785" />
+   <Instance Pos="238.0047,233.74065,132.02095" Scale="1.5295678" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="5" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_big_c.cgf" GUID="{F25011BA-74D2-4ACF-8486-10C43C164F1A}" Hidden="0" Hideable="0" Id="14" Index="0" MaxViewDistRatio="0.15" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="0.4" Size="1.5" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="234.49434,227.35912,127.79984" Scale="1.9127277" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="2" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_small_a.cgf" GUID="{4ABE8282-96C7-4153-9CB0-6843F17BA9D6}" Hidden="0" Hideable="0" Id="15" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.5" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="225.13565,222.14996,130.47562" Scale="1.2660508" />
+   <Instance Pos="226.73701,222.56184,129.90842" Scale="1.5091602" />
+   <Instance Pos="229.04935,223.39073,128.97116" Scale="1.240532" />
+   <Instance Pos="228.70924,224.72719,131.3372" Scale="1.9484345" />
+   <Instance Pos="231.45567,225.89618,129.90204" Scale="1.7882214" />
+   <Instance Pos="234.16107,227.36766,128.28172" Scale="1.2040111" />
+   <Instance Pos="235.42064,228.44264,127.95957" Scale="1.3536912" />
+   <Instance Pos="236.51955,229.98077,128.59068" Scale="1.226619" />
+   <Instance Pos="238.8746,231.90515,128.57112" Scale="1.2743822" />
+   <Instance Pos="237.22195,232.51869,131.30211" Scale="1.1583002" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="2" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_small_b.cgf" GUID="{29F80BAA-BBA9-4131-B297-387172286233}" Hidden="0" Hideable="0" Id="16" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.5" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="221.95172,220.64601,129.67525" Scale="1.752652" />
+   <Instance Pos="226.26021,222.91904,130.84651" Scale="1.1904162" />
+   <Instance Pos="227.60521,223.02499,129.87059" Scale="1.4030774" />
+   <Instance Pos="228.01196,224.26918,131.39105" Scale="1.2254263" />
+   <Instance Pos="229.0972,224.5016,130.58662" Scale="1.2902188" />
+   <Instance Pos="230.64046,224.39052,128.67632" Scale="1.5688727" />
+   <Instance Pos="231.11044,226.0517,130.56448" Scale="1.2868139" />
+   <Instance Pos="232.97672,226.02094,128.00206" Scale="1.4260368" />
+   <Instance Pos="232.80923,227.64793,130.6628" Scale="1.7219993" />
+   <Instance Pos="234.60884,228.01538,128.56441" Scale="1.9492035" />
+   <Instance Pos="236.62379,230.36189,129.00218" Scale="1.6230644" />
+   <Instance Pos="235.69579,231.47105,131.71654" Scale="1.1539599" />
+   <Instance Pos="239.02328,232.86221,129.66733" Scale="1.2674613" />
+   <Instance Pos="239.6317,234.01068,130.4485" Scale="1.3752353" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Shrubbery_Slope" ComplexBending="0" Density="2" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_small_c.cgf" GUID="{46B13533-C817-4BA2-B372-3A123059B6C0}" Hidden="0" Hideable="0" Id="17" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.5" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="0.19172668,0.157547,0" Scale="1.4115149" />
+   <Instance Pos="228.02905,222.90707,129.32974" Scale="1.2768852" />
+   <Instance Pos="229.8902,224.19226,129.28006" Scale="1.4627298" />
+   <Instance Pos="231.52916,225.73552,129.57315" Scale="1.1934339" />
+   <Instance Pos="234.12689,228.05298,129.32397" Scale="1.3115579" />
+   <Instance Pos="237.62871,230.26448,127.64367" Scale="1.8050035" />
+   <Instance Pos="237.5125,231.85559,130.05992" Scale="1.1804496" />
+   <Instance Pos="239.72569,233.45866,129.62752" Scale="1.4425608" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="40" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/trees/river_tree/river_tree_b.cgf" GUID="{23778D71-6E7E-4922-9F56-DE54D686307F}" Hidden="0" Hideable="0" Id="18" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.75" SizeVar="0.1" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="40" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/trees/river_tree/river_tree_c.cgf" GUID="{99A07596-EB48-42B4-BD8C-A9485061FC3B}" Hidden="0" Hideable="0" Id="19" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.75" SizeVar="0.1" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Shrubbery_Slope" ComplexBending="0" Density="40" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/trees/river_tree/river_tree_d.cgf" GUID="{C76C3251-87E3-4BA9-BDA1-4E5D72A0F758}" Hidden="0" Hideable="0" Id="20" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.75" SizeVar="0.1" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+</Vegetation>

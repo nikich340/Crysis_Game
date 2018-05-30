@@ -1,0 +1,21 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="40,-10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="690,-40,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="190,40,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="5" Class="AI:AIAnimEx" pos="420,-40,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" OneShot="1" animstateEx_Animation="pickNose" Speed="-1" Stance="-1" Position="0,0,0" StartRadius="0.1,0.1,0.1" Direction="0,0,0" DirTolerance="2" TargetRadius="0.05"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="Sync" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

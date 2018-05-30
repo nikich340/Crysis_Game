@@ -1,0 +1,6 @@
+<DialogScript Name="Core.AB1_Hearing_Machinery" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_d464acc3" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I m hearing something now... machinery."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_22ff0f49" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I ve never seen anything like this. It s dark... cold... incredibly cold... over 200 degrees below zero. The suit is struggling to compensate. This must be close to its operational limits."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_69f79e8d" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="The walls are irregular, profiled like the outer shell. It looks almost organic."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_759a4ead" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Not sure how long I can hold out in here. I really hope you guys can see this."/>
+</DialogScript>

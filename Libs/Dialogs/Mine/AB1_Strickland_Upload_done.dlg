@@ -1,0 +1,4 @@
+<DialogScript Name="Mine.AB1_Strickland_Upload_done" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_PU003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Fine job, son. We&apos;ve got firm intel on Kyong&apos;s location. He&apos;s holding the hostages inside the mine. You nav system&apos;s updated. Get those people outta there, soldier."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/nomad_mine_ab1_PU003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I&apos;m on it, Major."/>
+</DialogScript>

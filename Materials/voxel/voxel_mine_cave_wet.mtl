@@ -1,0 +1,42 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="y" MtlFlags="128" Shader="Terrain.Layer" GenMask="268439557" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="100" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_blocky.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_blocky_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" BumpOffset="0.01" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="x" MtlFlags="128" Shader="Terrain.Layer" GenMask="268439557" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="100" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_blocky.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_blocky_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" BumpOffset="0.01" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="128" Shader="Terrain.Layer" GenMask="268435461" SurfaceType="mat_rock_dusty" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="11" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cave_floor.tif">
+     <TexMod TileU="0.5" TileV="0.5"/>
+    </Texture>
+    <Texture Map="Normalmap" File="textures/terrain/detail/cliff_trench_01b_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

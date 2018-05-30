@@ -1,0 +1,12 @@
+<Material MtlFlags="2048" Shader="Fireparticles_vs2" GenMask="3" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.98" GlowAmount="0.33">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/alien_explosion2.tif">
+   <TexMod TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Normalmap" File="textures/defaults/oceanwaves_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.07" PerturbationScale="1.2" PerturbationStrenght="0.06"/>
+ <MaterialLayers />
+</Material>

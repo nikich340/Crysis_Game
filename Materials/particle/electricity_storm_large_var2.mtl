@@ -1,0 +1,12 @@
+<Material MtlFlags="2052" Shader="Fireparticles_vs2" GenMask="3" SurfaceType="" Diffuse="1,1,1" Specular="85.4902,85.4902,85.4902" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/cloud_alpha.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/sprites/refraction_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.33" PerturbationScale="0.82" PerturbationStrenght="0.18"/>
+ <MaterialLayers />
+</Material>

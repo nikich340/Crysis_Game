@@ -1,0 +1,12 @@
+<Material MtlFlags="2050" Shader="Water" GenMask="193" SurfaceType="mat_water" Diffuse="0.784314,0.784314,0.784314" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/watershore/frame##01_25(0.05).dds">
+   <TexMod TexMod_VOscillatorType="4" TexMod_VOscillatorRate="-0.1" TexMod_VOscillatorPhase="-0.1" TexMod_VOscillatorAmplitude="0.15"/>
+  </Texture>
+  <Texture Map="Normalmap" File="textures/defaults/white_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams WavesSpeed="4" FrequencyWave0="1" AnimPhaseWav0="0.77" AnimAmplitudeWav0="1" FrequencyWave1="1" AnimPhaseWav1="1.333" AnimAmplitudeWav1="1" DebugUVScale="64" BigWavesScale="2" SmallWavesScale="1" FresnelBias="0" SoftIntersectionFactor="1" FoamIntersectionFactor="0.5" DifractionAmount="1" ReflectionAmount="0.5" WhiteCapsAmount="0.75"/>
+ <MaterialLayers />
+</Material>

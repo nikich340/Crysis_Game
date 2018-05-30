@@ -1,0 +1,394 @@
+<profile>
+
+	<actionmap name="default" version="1">
+
+	   <action name="moveleft" onPress="1" onRelease="1">
+
+	      <key name="a"/>
+
+	   </action>
+
+	   <action name="moveright" onPress="1" onRelease="1">
+
+	      <key name="d"/>
+
+	   </action>
+
+	   <action name="moveforward" onPress="1" onRelease="1">
+
+	      <key name="w"/>
+
+	   </action>
+
+	   <action name="moveback" onPress="1" onRelease="1">
+
+	      <key name="s"/>
+
+	   </action>
+
+	   <action name="jump" onPress="1" onRelease="1">
+
+	      <key name="space"/>
+
+	      <key name="pad_cross"/>
+
+	   </action>
+
+	   <action name="crouch" onPress="1" onRelease="1">
+
+	      <key name="lctrl"/>
+
+	   </action>
+
+	   <action name="prone" onPress="1">
+
+	      <key name="v"/>
+
+	      <key name="pad_l3"/>
+
+	   </action>
+
+	   <action name="sprint" onPress="1" onRelease="1">
+
+	      <key name="lshift"/>
+
+	   </action>
+
+	   <action name="leanleft" onPress="1" onRelease="1" onHold="1">
+
+       <key name="q"/>
+
+     </action>
+
+     <action name="leanright" onPress="1" onRelease="1" onHold="1">
+
+	      <key name="e"/>
+
+	   </action>
+
+	   <action name="rotateyaw">
+
+	      <key name="maxis_x"/>
+
+	   </action>
+
+	   <action name="rotatepitch">
+
+	      <key name="maxis_y"/>
+
+	   </action>
+
+	   <action name="nextspawnpoint" onPress="1" noModifiers="1">
+
+	      <key name="f2"/>
+
+	   </action>
+
+	   <action name="flymode" onPress="1" noModifiers="1">
+
+	      <key name="f3"/>
+
+	      <key name="pad_square"/>
+
+	   </action>
+
+	   <action name="godmode" onPress="1" noModifiers="1">
+
+	      <key name="f4"/>
+
+	      <key name="pad_triangle"/>
+
+	   </action>
+
+	   <action name="changeseat" onPress="1">
+
+	      <key name="lshift"/>
+
+	   </action>
+
+	   <action name="attack1" onPress="1" onRelease="1">
+
+	      <key name="mouse1"/>
+
+	      <key name="pad_r1"/>
+
+	   </action>
+
+	   <action name="reload" onPress="1">
+
+	      <key name="r"/>
+
+	   </action>
+
+	   <action name="drop" onPress="1">
+
+	      <key name="j"/>
+
+	   </action>
+
+	   <action name="additem" onPress="1" noModifiers="1">
+
+	      <key name="f5"/>
+
+	   </action>
+
+	   <action name="nextitem" onPress="1">
+
+	      <key name="mwheel_up"/>
+
+	      <key name="1"/>
+
+	   </action>
+
+	   <action name="previtem" onPress="1">
+
+	      <key name="mwheel_down"/>
+
+	      <key name="2"/>
+
+	   </action>
+
+	   <action name="zoom" onPress="1" onRelease="1">
+
+	      <key name="mouse2"/>
+
+	      <key name="pad_r3"/>
+
+	   </action>
+
+	   <action name="firemode" onPress="1">
+
+	      <key name="x"/>
+
+	   </action>
+
+	   <action name="binoculars" onPress="1">
+
+	      <key name="b"/>
+
+	   </action>
+
+	   <action name="objectives" onPress="1" onRelease="1">
+
+	      <key name="tab"/>
+
+	   </action>
+
+	   <action name="scores" onPress="1" onRelease="1">
+
+	      <key name="tab"/>
+
+	   </action>
+
+	   <action name="debuggun" onPress="1">
+
+	      <key name="7"/>
+
+	   </action>
+
+	   <action name="zoom_in" onPress="1">
+
+	      <key name="mwheel_up"/>
+
+	   </action>
+
+	   <action name="zoom_out" onPress="1">
+
+	      <key name="mwheel_down"/>
+
+	   </action>
+
+	   <action name="thirdperson" onPress="1" noModifiers="1">
+
+	      <key name="f1"/>
+
+	   </action>
+
+	   <action name="use" onPress="1" onRelease="1">
+
+	      <key name="f"/>
+
+	   </action>
+
+	   <action name="ai_goto" onPress="1">
+
+	      <key name="z"/>
+
+	   </action>
+
+	   <action name="ai_follow" onPress="1">
+
+	      <key name="c"/>
+
+	   </action>
+
+	   <action name="modify" onPress="1">
+
+	      <key name="m"/>
+
+	   </action>
+
+	   <action name="gyroscope" onPress="1">
+
+	      <key name="h"/>
+
+	   </action>
+
+	   <action name="gboots" onPress="1">
+
+	      <key name="g"/>
+
+	   </action>
+
+	   <action name="lights" onPress="1">
+
+	      <key name="l"/>
+
+	   </action>
+
+	   <action name="save" onPress="1" consoleCmd="1" noModifiers="1">
+
+	      <key name="f5"/>
+
+	   </action>
+
+	   <action name="load" onPress="1" consoleCmd="1" noModifiers="1">
+
+	      <key name="f6"/>
+
+	   </action>
+
+	   <action name="suitoverload" onPress="1">
+
+	      <key name="u"/>
+
+	   </action>
+
+	   <action name="suitcamoflage" onPress="1">
+
+	      <key name="i"/>
+
+	   </action>
+
+	   <action name="suitsilence" onPress="1">
+
+	      <key name="o"/>
+
+	   </action>
+
+	   <action name="xi_movex">
+
+	      <key name="pad_stickly"/>
+
+	   </action>
+
+	   <action name="xi_movey">
+
+	      <key name="pad_sticklx"/>
+
+	   </action>
+
+	   <action name="xi_rotateyaw">
+
+	      <key name="pad_stickrx"/>
+
+	   </action>
+
+	   <action name="xi_rotatepitch">
+
+	      <key name="pad_stickry"/>
+
+	   </action>
+
+	   <action name="hud_nanosuit_nextitem" onPress="1">
+
+	      <key name="8"/>
+
+	   </action>
+
+	   <action name="hud_nanosuit_minus" onPress="1">
+
+	      <key name="9"/>
+
+	   </action>
+
+	   <action name="hud_nanosuit_plus" onPress="1">
+
+	      <key name="0"/>
+
+	   </action>
+
+	   <action name="hud_mousex">
+
+	      <key name="maxis_x"/>
+
+	   </action>
+
+	   <action name="hud_mousey">
+
+	      <key name="maxis_y"/>
+
+	   </action>
+
+	   <action name="hud_mouseclick" onPress="1" onRelease="1">
+
+	      <key name="mouse1"/>
+
+	   </action>
+
+	   <action name="hud_pda_switch" onPress="1" noModifiers="1">
+
+	      <key name="tab"/>
+
+	   </action>
+
+	   <action name="hud_demo_mode" onPress="1" noModifiers="1">
+
+	      <key name="p"/>
+
+	   </action>
+
+	</actionmap>
+
+	<actionfilter name="no_move" type="actionFail">
+
+	   <filter name="leanleft"/>
+
+	   <filter name="leanright"/>
+
+	   <filter name="crouch"/>
+
+	   <filter name="jump"/>
+
+	   <filter name="moveleft"/>
+
+	   <filter name="moveright"/>
+
+	   <filter name="moveforward"/>
+
+	   <filter name="moveback"/>
+
+	   <filter name="sprint"/>
+
+	   <filter name="prone"/>
+
+	</actionfilter>
+
+	<actionfilter name="modify_item" type="actionPass">
+
+	   <filter name="modify"/>
+
+	</actionfilter>
+
+	<actionfilter name="no_mouse" type="actionFail">
+
+	   <filter name="attack1"/>
+
+	   <filter name="rotateyaw"/>
+
+	   <filter name="rotatepitch"/>
+
+	</actionfilter>
+
+</profile>
+

@@ -1,0 +1,42 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="402653188" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.0666667,0.0666667,0.0666667" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_trench_03.dds" Filter="7">
+     <TexMod TileU="0.30000001" TileV="0.30000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_trench_01b_ddn.tif">
+     <TexMod TileU="0.30000001" TileV="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams PomDisplacement="0.0049999999" SelfShadowStrength="3" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="268435460" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.0666667,0.0666667,0.0666667" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_trench_03.dds" Filter="7">
+     <TexMod TileU="0.30000001" TileV="0.30000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_trench_01b_ddn.tif">
+     <TexMod TileU="0.30000001" TileV="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0.0666667,0.0666667,0.0666667" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_trench_03.dds" Filter="7">
+     <TexMod TileU="0.30000001" TileV="0.30000001"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_trench_01b_ddn.tif">
+     <TexMod TileU="0.30000001" TileV="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.0049999999" PomDisplacement="0.0049999999" SelfShadowStrength="3" DetailTextureStrength="0.5"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

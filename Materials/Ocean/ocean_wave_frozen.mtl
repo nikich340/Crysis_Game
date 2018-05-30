@@ -1,0 +1,21 @@
+<Material MtlFlags="0" Shader="Ice" GenMask="136339" SurfaceType="" Diffuse="0.164706,0.211765,0.219608" Specular="0.941177,0.941177,0.941177" Emissive="0,0,0" Shininess="6" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/frozen_ground/grass_frozen.dds">
+   <TexMod TileU="2" TileV="8"/>
+  </Texture>
+  <Texture Map="Specular" File="objects/natural/ice/ice_floe_side.dds" Filter="7">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/frozen_ground/ice_flat_cracks_ddn.tif" Filter="4">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Decal" File="textures/terrain/detail/frozen_ground/river_sss_bubbles.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams g_RefractionAmount="0.1" Absorption="34" fReflectAmount="0.507" scatterShadowColor="0.121569,0.239216,0.258824" distantScatterColor="0.784314,0.913726,0.956863" g_RefractionEta="1.3049" g_absorbCoeffR="1" g_absorbCoeffG="0.6" g_absorbCoeffB="0.6" OffsetScale="16" AirBubblesVisibility="0.208" AirBubblesTilesScale="0.5" AirBubblesShift="0.059" DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

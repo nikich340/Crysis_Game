@@ -1,0 +1,295 @@
+<ParticleLibrary Name="breakable_objects" SandboxVersion="1.1.1.5534" ParticleVersion="17">
+ <Particles Name="glass.window" Id="{EFB97EF5-A39C-4395-A4E4-782172844CBB}">
+  <Params Enabled="false" Count="60" ParticleLifeTime="20" SoftParticle="true" Alpha=",,,(0.5,1;1)" Size="0.7056,0.3055556" Speed="3.6356,0.3288591" GravityScale="0.9" EmitAngle="89.99999,1"/>
+  <Childs>
+   <Particles Name="a259">
+    <Params Count="80" ParticleLifeTime="7.6,0.634" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" SoftParticle="true" Alpha=",,,(0.4419643,1;1)" Size="0.04,0.386" RandomOffset="0.4,,0.4" Speed="1.46,0.564" GravityScale="0.9,0.347" EmitAngle="180,1" RandomAngles=",,90" RandomRotationRate="10,10,66" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.4"/>
+   </Particles>
+   <Particles Name="window1">
+    <Params Count="5" ParticleLifeTime=",0.416" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" Alpha="0.099,,,(;0.1741071,1;1)" DiffuseBacklighting="0.634" Size="0.58,0.396,,(,0.5681818;1,1)" Speed="1.04" EmitAngle="51.6"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="frozen_human.shatter" Id="{4779A018-F2CF-45AC-AAA5-459C95426AA6}">
+  <Params Enabled="false" ParticleLifeTime="10" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.2373494,0.1573604" AttachType="Render" Speed="3" GravityScale="1" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="shatter1">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="6,0.317" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_b_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.15,0.515" RandomOffset="0.5,,0.5" Speed="2,0.208" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="shatter2">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="6,0.376" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_c_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.16,0.693" Speed="3,0.277" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="shatter3">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="6,0.307" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_d_small.cgf" Alpha=",,,(0.5178571,1;1)" Size="0.15,0.762" Speed="5,0.347" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="222,222,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="dust">
+    <Params Enabled="false" SpawnDelay="0.14" ParticleLifeTime=",0.248" Texture="textures/sprites/snow_dust.tif" SoftParticle="true" Alpha="0.158,0.386,,(;0.1696429,1;1)" DiffuseBacklighting="0.495" Size="4.09,0.139,,(0.07142857,0.4772727;1,1)" Speed=",0.376" AirResistance="0.53,0.307" FocusGravityDir="true" EmitAngle="180" RandomAngles=",,180" RandomRotationRate=",,21" DrawLast="1"/>
+    <Childs>
+     <Particles Name="dust25">
+      <Params Count="5" SpawnDelay="0.08" ParticleLifeTime="4,0.248" Texture="textures/sprites/snow_dust.tif" SoftParticle="true" Alpha=",0.04,,(;0.1696429,1;0.46875,1;1)" DiffuseLighting="0.772" DiffuseBacklighting="0.198" Size="0.99,0.139,,(0.07142857,0.4772727;1,1)" Speed=",0.376" AirResistance=",0.307" FocusGravityDir="true" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,21" DrawLast="1"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="shatter_bb">
+    <Params Count="5" ParticleLifeTime="0.3,0.2556057" OrientToVelocity="true" Texture="textures/sprites/ice_blast.tif" SoftParticle="true" Alpha=",,,(;0.1160714,1;0.4955357,0.1590909;1)" DiffuseBacklighting="0.792" Size="1.64,,,(;0.1071429,0.5;1,1)" EmitAngle="180,1"/>
+   </Particles>
+   <Particles Name="shatter4">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="6,0.257" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.6383929,1;1)" Size="0.15,0.693" Speed="3,0.634" GravityScale="1" FocusGravityDir="true" EmitAngle="14.7,0.327" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="sprites">
+    <Params Count="50" ParticleLifeTime="5,0.366" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha=",,,(0.6383929,1;1)" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="2" EmissiveHDRDynamic="2" Size="0.1,0.515" RandomOffset="0.5,,0.5" Speed="5,0.208" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="shatter5">
+    <Params Count="40" ParticleLifeTime="3,0.376" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha=",,,(0.6383929,1;1)" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="2" EmissiveHDRDynamic="2" Size="0.18,0.802" RandomOffset="0.1,,0.1" Speed="0.7,0.584" GravityScale="1,0.436" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.178" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="frozen_human.vapor" Id="{64DC6A36-30B1-49D6-95FE-B056497CF597}">
+  <Params ParticleLifeTime="10" Material="Objects/Effects/natural/particle_ice_player" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.2373494,0.1573604" Speed="3" GravityScale="0.644" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="dust6">
+    <Params Count="2" Texture="textures/sprites/snow_dust.tif" Alpha=",,,(0.5,1;1)" Size="1.734935,,,(,0.05763904,64;1,1)" EmitAngle="180,1"/>
+   </Particles>
+   <Particles Name="shatter_bb1">
+    <Params Count="2" ParticleLifeTime="0.4030122,0.2556057" Texture="textures/sprites/ice_blast.tif" Alpha=",,,(0.5,1;1)" Size="1.558228,,,(,0.06417548,64;1,1)" EmitAngle="180,1"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="frozen_human.vapor_gun" Id="{71268177-2036-432D-81A0-2CCC1EA5826D}">
+  <Params Enabled="false" ParticleLifeTime="10" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" EmissiveLighting="1" Size="0.2373494,0.1573604" Speed="3" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="shatter4">
+    <Params Enabled="false" Count="8" ParticleLifeTime="3" Material="Objects/Effects/natural/particle_ice_player" Geometry="objects/effects/natural/particle_ice_b_small.cgf" Alpha=",,,(0.5,1;1)" EmissiveLighting="1" Size="0.04,0.861" PositionOffset="0.11,0.3" RandomOffset="0.06,0.04" Speed="0,0.455" GravityScale="1" EmitAngle="46.3,1" RandomAngles="33,90,90" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.1" Thickness="0.1"/>
+   </Particles>
+   <Particles Name="shatter5">
+    <Params Enabled="false" Count="8" ParticleLifeTime="3" Material="Objects/Effects/natural/particle_ice_player" Geometry="objects/effects/natural/particle_ice_c_small.cgf" Alpha=",,,(0.5,1;1)" EmissiveLighting="0.96" Size="0.04,0.762" PositionOffset="0.11,0.3" RandomOffset="0.06,0.04" Speed="3,0.455" GravityScale="0.634" EmitAngle="46.3,1" RandomAngles="33,90,90" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.1" Thickness="0.1"/>
+   </Particles>
+   <Particles Name="shatter6">
+    <Params Enabled="false" Count="8" ParticleLifeTime="3" Material="Objects/Effects/natural/particle_ice_player" Geometry="objects/effects/natural/particle_ice_d_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.04,0.673" PositionOffset="0.11,0.3" RandomOffset="0.06,0.04" Speed="3.1,0.584" GravityScale="0.673" FocusGravityDir="true" EmitAngle="50.5,1" RandomAngles="90,90,90" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.1" Thickness="0.1"/>
+   </Particles>
+   <Particles Name="dust6">
+    <Params Count="2" ParticleLifeTime="2.9,0.416" Texture="textures/sprites/snow_dust.tif" SoftParticle="true" Alpha=",,,(0.5,1;1)" EmissiveLighting="1" Size="3.45,,,(,0.05763904,64;1,1)" PositionOffset="0.11,0.3" RandomOffset="0.06,0.04" EmitAngle="174.7,1"/>
+   </Particles>
+   <Particles Name="shatter_bb1">
+    <Params Count="12" ParticleLifeTime="0.2,0.2556057" OrientToVelocity="true" Texture="textures/sprites/ice_shatter2.dds" SoftParticle="true" Alpha="0.455,,,(,1;1)" Color="(0.5490196,0.9294118,0.9490197)" EmissiveLighting="0.97" Size="0.06,,,(,0.5,64;1,1)" PositionOffset="0.11,0.3" RandomOffset="0.06,0.04" Speed="2,0.04" EmitAngle="180,1"/>
+   </Particles>
+   <Particles Name="vapor_gun1">
+    <Params Count="50" ParticleLifeTime="3" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha="0.317,,,(0.5,1;1)" DiffuseBacklighting="0.386" EmissiveLighting="2" Size="0.01,0.762" PositionOffset="0.11,0.3" RandomOffset="0.06,0.04" Speed="3,0.733" GravityScale="0.634" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,666" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.1" Thickness="0.1"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="tree_break.small" Id="{669A625A-B9A4-47AD-A883-C76E4E14410D}">
+  <Params Count="3" ParticleLifeTime="6,0.564" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.297,,,(;0.02439024,1;0.2631579,1;1)" Color="(0.5960785,0.5568628,0.5058824)" DiffuseLighting="0.495" DiffuseBacklighting="0.327" ReceiveShadows="true" Size="2.16,0.178,,(,0.7045454;1,1)" Stretch=",,,(,1;0.4375)" RandomOffset="0.5,0.3,0.5" Speed="0.6,0.683" AirResistance="0.2" GravityScale="0.02" RandomAngles=",,359" RandomRotationRate=",,15"/>
+  <Childs>
+   <Particles Name="geo3">
+    <Params Count="30" ParticleLifeTime="4,0.208" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" Geometry="objects/natural/trees/explosion_shape/tree_splinter.cgf" Alpha=",,,(0.6116071,1;1)" Color=",0.733" DiffuseLighting="0.267" DiffuseBacklighting="0.129" Size="0.7,1" Speed="8,0.881" GravityScale="1,0.366" EmitAngle="180,1" RandomRotationRate="300,300,300" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" Bounciness="0.198" DynamicFriction="10" DrawLast="2"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="sub_surfacing.chunks" Id="{512B57A3-AF2D-4BDD-8381-DB4B4C403145}">
+  <Params Enabled="false" ParticleLifeTime="10" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.2373494,0.1573604" Speed="3" GravityScale="1" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="dust">
+    <Params Continuous="true" Count="31" EmitterLifeTime="2" ParticleLifeTime=",0.525" Texture="textures/sprites/snow_dust.tif" SoftParticle="true" Alpha="0.645,0.386,,(0.1517857,1;1)" DiffuseBacklighting="0.495" Size="5.95,0.574,,(,0.05763904,64;1,1)" Speed="9.4,0.376" AirResistance="0.82,0.307" GravityScale="-0.079" FocusGravityDir="true" EmitAngle="14.7"/>
+   </Particles>
+   <Particles Name="shatter_bb">
+    <Params Count="21" ParticleLifeTime="1.7,0.2556057" Texture="textures/sprites/ice_blast.tif" SoftParticle="true" Alpha=",,,(;0.08928572,1;1)" DiffuseBacklighting="0.792" Size="5.25,0.188,,(,0.6136364,64;1,1)" Speed="7" GravityScale="0.604" EmitAngle="70.5,1" RandomAngles=",,180" RotationRate=",,32"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="icicle.shatter" Id="{4FFC3CC6-7A4B-4DC8-8F2C-919E1BEB3E7F}">
+  <Params Count="32" ParticleLifeTime="2" Material="Objects/natural/ice/icicle" Geometry="objects/effects/natural/particle_ice_a.cgf" Size="0.4,0.525" Speed="2.9" GravityScale="1,0.356" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="888,888,888"/>
+  <Childs>
+   <Particles Name="shatter1">
+    <Params Count="3" ParticleLifeTime="2,0.109" Texture="textures/sprites/smoke_ice.tif" Alpha="0.139,,,(;0.1116071,1;1)" DiffuseBacklighting="1" Size="2.11,,,(,0.2727273;0.34375,0.5227273;1,1)" Stretch="0.05,1" Speed="0.3" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,31"/>
+   </Particles>
+   <Particles Name="shatter2">
+    <Params Count="3" ParticleLifeTime="0.3,0.109" Texture="textures/sprites/blast_fall_ice2.tif" Alpha="0.604,,,(;0.1116071,1;1)" DiffuseBacklighting="1" Size="1.23,,,(,0.2727273;1,1)" Stretch="0.05,1" GravityScale="0.426" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,12"/>
+   </Particles>
+   <Particles Name="shatter3">
+    <Params Count="8" ParticleLifeTime="0.6,0.109" Texture="textures/sprites/blast_fall_ice2.tif" Alpha="0.178,,,(;0.1116071,1;1)" DiffuseBacklighting="1" Size="0.23,,,(,0.2727273;0.6160714,1)" Stretch="0.05,1" Speed="3.5" EmitAngle="180,1" RandomAngles=",,180"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="glass.bottle" Id="{92CB2C7E-AFB5-40B7-83F6-E5FE91679A4A}">
+  <Params Enabled="false" Count="60" ParticleLifeTime="20" SoftParticle="true" Alpha=",,,(0.5,1;1)" Size="0.7056,0.3055556" Speed="3.6356,0.3288591" GravityScale="0.9" EmitAngle="89.99999,1"/>
+  <Childs>
+   <Particles Name="a259">
+    <Params Count="30" ParticleLifeTime="4,0.396" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" SoftParticle="true" Alpha="0.485,,,(0.4419643,1;1)" DiffuseBacklighting="1" Size="0.02,0.644" PositionOffset=",0.1" RandomOffset="0.1,,0.1" Speed="3.5,0.564" GravityScale="0.9,0.347" EmitAngle="93.7,1" RandomAngles=",,359" RandomRotationRate=",,555" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.4"/>
+   </Particles>
+   <Particles Name="window1">
+    <Params Count="3" ParticleLifeTime=",0.416" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.297,,,(;0.1741071,1;1)" DiffuseLighting="0.594" DiffuseBacklighting="0.673" Size="0.58,0.396,,(,0.5681818;1,1)" Speed="0" GravityScale="0.059" EmitAngle="51.6" RandomAngles=",,359" RandomRotationRate=",,31"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="crockery.small" Id="{752C71E3-675C-4C7B-B8A2-726130B6252C}">
+  <Params Count="6" ParticleLifeTime="2" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.653,,,(;0.08482143,1;1)" Color="(0.5058824,0.5019608,0.3803922)" DiffuseLighting="0.396" DiffuseBacklighting="0.337" Size="0.8,0.505,,(,0.3181818,64;1,1)" Speed="0.6,0.693" AirResistance="0.35,0.653" GravityScale="-0.02,0.545" EmitAngle="85.3,1" RandomAngles=",,359" RandomRotationRate=",,31"/>
+  <Childs>
+   <Particles Name="small1">
+    <Params Count="17" Texture="textures/sprites/stones_tiled.dds" TextureTiling="4,2,,8" DiffuseLighting="0.396" DiffuseBacklighting="0.04" Size="0.03,0.624" Speed="4" GravityScale="1" EmitAngle="85.3,1" RandomAngles=",,359" RandomRotationRate=",,31" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.109"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Shatter.destroy" Id="{0971B00A-48BB-4312-8D8E-B5C59DEC1262}">
+  <Params RandomAngles=",,180"/>
+  <Childs>
+   <Particles Name="2">
+    <Params ParticleLifeTime="4,0.644" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.337,,,(0.1517857,1;1)" DiffuseLighting="0.307" DiffuseBacklighting="0.644" Size="1.7,0.525,,(,0.3409091;1,1)" PosRandomOffset="1.3" AirResistance="0.58" GravityScale="0.356" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,55"/>
+   </Particles>
+   <Particles Name="3">
+    <Params ParticleLifeTime="2,0.406" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha=",0.366,,(0.5089286,1;1)" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.16,0.495" GravityScale="1.3,,,(;0.1964286,1)" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="500,555,553" CollideTerrain="true" Bounciness="0.257" DynamicFriction="10"/>
+   </Particles>
+   <Particles Name="4">
+    <Params ParticleLifeTime="2,0.406" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha=",0.396,,(0.5089286,1;1)" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.11,0.455" PosRandomOffset="1" Speed="12,0.376" GravityScale="1.3" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="500,555,553" CollideTerrain="true" Bounciness="0.257" DynamicFriction="10"/>
+   </Particles>
+   <Particles Name="5">
+    <Params Count=",1" ParticleLifeTime="4,0.406" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Geometry="objects/effects/natural/particle_ice_c_small.cgf" Alpha=",0.366,,(0.5089286,1;1)" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.99,0.495" Speed="2" GravityScale="1.3,,,(;0.1964286,1)" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="500,555,553" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.257" DynamicFriction="10"/>
+   </Particles>
+   <Particles Name="6">
+    <Params Enabled="false" Count="0.05,1" ParticleLifeTime="0.3" BlendType="Additive" Texture="textures/sprites/glow1.dds" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="3.57,,,(,1;1)"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Shatter.edges" Id="{0F05F6AD-3DFD-41D0-8BC0-3F04D1BDC0B1}">
+  <Params ParticleLifeTime="3,0.465" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.485,,,(;0.02439024,1;0.2631579,1;1)" Color="(0.4117647,0.4039216,0.3803922)" DiffuseLighting="0.485" DiffuseBacklighting="0.317" Size="2,,,(,0.2553802;0.1785714,0.7045454;1,1)" Speed=",0.545" AirResistance="0.05" GravityScale="-0.05" EmitAngle="72.6" FillRateCost="3.74"/>
+  <Childs>
+   <Particles Name="a664">
+    <Params Count="4,0.297" ParticleLifeTime="2,0.208" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" Geometry="objects/natural/trees/explosion_shape/tree_splinter.cgf" Alpha=",,,(0.6116071,1;1)" Color=",0.733" DiffuseLighting="0.267" DiffuseBacklighting="0.129" Size="0.65,1,,(0.6919643,1;1,0.6363636)" Speed="8,0.881" GravityScale="1,0.366" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="300,300,300" Bounciness="0.099" DynamicFriction="10" DrawLast="2" ConfigMin="Medium"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="joint_break.generic" Id="{848FD0A4-BFEA-4252-86B7-355EFA6AC6C7}">
+  <Params ParticleLifeTime="3,0.564" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.624,,,(;0.04017857,1;1)" Color="(0.6862745,0.6862745,0.6862745)" DiffuseLighting="0.495" DiffuseBacklighting="0.327" Size="2.16,0.178,,(,0.2727273;0.03571429,0.5;1,1)" RandomOffset="0.3,,0.3" Speed="0.6,0.683" AirResistance="0.2" GravityScale="0.02" RandomAngles=",,359" RandomRotationRate=",,15"/>
+ </Particles>
+ <Particles Name="joint_break.shatter" Id="{2104E82E-3C55-4503-A6E0-49BC2F013E59}">
+  <Params RandomAngles=",,180"/>
+  <Childs>
+   <Particles Name="2">
+    <Params ParticleLifeTime="4,0.644" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.208,,,(0.1517857,1;1)" DiffuseLighting="0.307" DiffuseBacklighting="1" Size="1.7,0.525,,(,0.3409091;1,1)" PosRandomOffset="1.3" AirResistance="0.58" GravityScale="0.149" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,55"/>
+   </Particles>
+   <Particles Name="3">
+    <Params ParticleLifeTime="2,0.406" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha=",0.366,,(0.5089286,1;1)" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.16,0.495" GravityScale="1.3,,,(;0.1964286,1)" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="500,555,553" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.257" DynamicFriction="10"/>
+   </Particles>
+   <Particles Name="4">
+    <Params ParticleLifeTime="2,0.406" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Alpha=",0.396,,(0.5089286,1;1)" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.11,0.455" PosRandomOffset="1" Speed="12,0.376" GravityScale="1.3" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="500,555,553" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.257" DynamicFriction="10"/>
+   </Particles>
+   <Particles Name="5">
+    <Params Count=",1" ParticleLifeTime="4,0.406" Facing="Free" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Geometry="objects/effects/natural/particle_ice_c_small.cgf" Alpha=",0.366,,(0.5089286,1;1)" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.99,0.495" Speed="2" GravityScale="1.3,,,(;0.1964286,1)" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="500,555,553" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.257" DynamicFriction="10"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Shatter.vapor" Id="{FABB49EA-7B4C-4DBA-AADD-3CFF96BA8314}">
+  <Params Enabled="false" ParticleLifeTime="10" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.2373494,0.1573604" AttachType="Render" Speed="3" GravityScale="1" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="shatter1">
+    <Params Count="4" ParticleLifeTime="0.8,0.2556057" Texture="textures/sprites/snow_sheet.dds" SoftParticle="true" Alpha=",,,(;0.1160714,1;1)" DiffuseLighting="0.792" Size="1.64,0.366,,(,0.3863636;1,1)" Speed=",0.446" GravityScale="0.099,0.356" EmitAngle="180,1" RandomAngles=",,180" CameraMaxDistance="200"/>
+   </Particles>
+   <Particles Name="dust">
+    <Params Enabled="false" SpawnDelay="0.14" ParticleLifeTime=",0.248" Texture="textures/sprites/snow_dust.tif" SoftParticle="true" Alpha="0.158,0.386,,(;0.1696429,1;1)" DiffuseBacklighting="0.495" Size="4.09,0.139,,(0.07142857,0.4772727;1,1)" Speed=",0.376" AirResistance="0.53,0.307" FocusGravityDir="true" EmitAngle="180" RandomAngles=",,180" RandomRotationRate=",,21" DrawLast="1"/>
+    <Childs>
+     <Particles Name="dust25">
+      <Params Count=",0.614" SpawnDelay="0.08" ParticleLifeTime=",0.515" Texture="textures/sprites/snow_dust.tif" Alpha=",,,(;0.1696429,1;0.46875,1;1)" DiffuseLighting="0.772" DiffuseBacklighting="0.119" Size="1.52,0.139,,(0.07142857,0.4772727;1,1)" RandomOffset="0.8,,0.8" Speed="1.5,0.376" AirResistance=",0.307" FocusGravityDir="true" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,21" DrawLast="1" FillRateCost="7.48" CameraMaxDistance="100" CameraMinDistance="2.3"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="shatter_bb">
+    <Params ParticleLifeTime="0.5,0.2556057" Texture="textures/sprites/snowblast.tif" Alpha="0.248,,,(;0.1160714,1;1)" DiffuseBacklighting="1" Size="0.76,0.366,,(,0.3863636;1,1)" Speed=",0.446" GravityScale="0.7,0.356" EmitAngle="180,1" RandomAngles=",,180" CameraMaxDistance="200"/>
+   </Particles>
+   <Particles Name="sprites">
+    <Params Count="4" ParticleLifeTime="4,0.515" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Material="Materials/particle/glass_tiled" Alpha="0.515,,,(0.6383929,1;1)" Color="(0.3843138,0.7019608,0.909804)" Size="0.08,0.515" RandomOffset="0.5,,0.5" Speed="3,0.208" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="9.46" Thickness="0.1" FillRateCost="2" MotionBlurScale="0" ConfigMin="Medium"/>
+   </Particles>
+   <Particles Name="shatter5">
+    <Params Count="8" ParticleLifeTime="1.8,0.594" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Material="Materials/particle/glass_tiled" Alpha="0.743,,,(0.6383929,1;1)" Size="0.04,0.802" RandomOffset="0.1,,0.1" Speed="3,0.584" GravityScale="0.6,0.436" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="666,666,666" Bounciness="0.139" DynamicFriction="10" Thickness="0.1" FillRateCost="2" MotionBlurScale="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Shatter.shatter_large" Id="{67D09605-885D-4084-8E5E-A6E359CAB022}">
+  <Params ParticleLifeTime="10" Material="Objects/Effects/natural/particle_ice_player" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.2373494,0.1573604" Speed="3" GravityScale="0.644" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="dust6">
+    <Params Count="2" Texture="textures/sprites/snow_dust.tif" Alpha=",,,(0.5,1;1)" Size="1.734935,,,(,0.05763904,64;1,1)" EmitAngle="180,1"/>
+   </Particles>
+   <Particles Name="shatter_bb1">
+    <Params Count="2" ParticleLifeTime="0.4030122,0.2556057" Texture="textures/sprites/ice_blast.tif" Alpha=",,,(0.5,1;1)" Size="1.558228,,,(,0.06417548,64;1,1)" EmitAngle="180,1"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="joint_break.metal" Id="{AB6384A8-89C0-4BEF-B567-00423AEA3EC2}">
+  <Params RandomAngles=",,180"/>
+  <Childs>
+   <Particles Name="2">
+    <Params Count="6" ParticleLifeTime="3,0.644" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.366,,,(0.1517857,1;1)" DiffuseLighting="0.455" DiffuseBacklighting="0.129" Size="3.33,0.525,,(,0.3409091;1,1)" PosRandomOffset="0.3" AirResistance="0.41" GravityScale="-0.019" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,20"/>
+   </Particles>
+   <Particles Name="3">
+    <Params Count="8" ParticleLifeTime="3,0.525" Geometry="objects/vehicles/us_cargoplane_damaged/debris2.cgf" Alpha=",,,(0.8348214,1;1,,64)" Color="(0.5333334,0.4705883,0.3764706)" DiffuseLighting="0.8" DiffuseBacklighting="0.7" Size="0.15,0.713" Speed="9.4,0.49505" GravityScale="2,0.455446" EmitAngle="83.2,0.96" RandomAngles="360,360,360" RandomRotationRate="222,222,333" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" Bounciness="0.149" DynamicFriction="10" Thickness="0.5"/>
+   </Particles>
+   <Particles Name="4">
+    <Params Count="30" ParticleLifeTime="0.57,0.515" OrientToVelocity="true" BlendType="Additive" Texture="textures/sprites/spark_stretched1.tif" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="2" EmissiveHDRDynamic="2" Size="0.04,0.4429531,,(,1;1)" Stretch="0.01,,,(,1;0.4866071)" Speed="11.1,0.49505" AirResistance="1.99" GravityScale="1,0.455446" FocusAngle=",1" FocusAzimuth=",1" EmitAngle="180,1" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" Bounciness="0.5" DynamicFriction="10"/>
+   </Particles>
+   <Particles Name="5">
+    <Params ParticleLifeTime="0.09,0.812" BlendType="Additive" Texture="textures/sprites/glow1.tif" SoftParticle="true" Alpha=",1,,(0.1517857,1;1)" Color=",,,(,(1,1,1,1);1,(0.8470589,0.5411765,0.2392157,1))" DiffuseLighting="0" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="4.21,1" EmitAngle="180,1"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="joint_break.wood" Id="{48FC71A8-2631-44C6-8D10-D00F4332186E}">
+  <Params ParticleLifeTime="3,0.564" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.446,,,(;0.02439024,1;0.2631579,1;1)" Color="(0.5960785,0.5568628,0.5058824)" DiffuseLighting="0.495" DiffuseBacklighting="0.327" Size="2.16,0.178,,(,0.7045454;1,1)" Stretch=",,,(,1;0.4375)" RandomOffset="0.5,,0.5" Speed="0.6,0.683" GravityScale="0.02" RandomAngles=",,359" RandomRotationRate=",,15"/>
+  <Childs>
+   <Particles Name="geo3">
+    <Params Count="5" ParticleLifeTime="3,0.208" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" Geometry="objects/natural/trees/explosion_shape/tree_splinter.cgf" Alpha=",,,(0.6116071,1;1)" Color=",0.733" DiffuseLighting="0.267" DiffuseBacklighting="0.129" Size="0.75,1" Speed="8,0.881" GravityScale="1,0.366" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="300,300,300" Bounciness="0.099" DynamicFriction="10" ConfigMin="Medium"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Shatter.vapor_human" Id="{2A8BE563-FE26-4F3F-A941-3558757DF186}">
+  <Params Enabled="false" ParticleLifeTime="10" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.2373494,0.1573604" AttachType="Render" Speed="3" GravityScale="1" EmitAngle="180,1" Thickness="0.1"/>
+  <Childs>
+   <Particles Name="shatter1">
+    <Params Count="4" ParticleLifeTime="0.8,0.2556057" Texture="textures/sprites/snow_sheet.dds" SoftParticle="true" Alpha=",,,(;0.1160714,1;1)" DiffuseLighting="0.792" Size="1.64,0.366,,(,0.3863636;1,1)" Speed=",0.446" GravityScale="0.099,0.356" EmitAngle="180,1" RandomAngles=",,180" CameraMaxDistance="200"/>
+   </Particles>
+   <Particles Name="shatter2">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="4,0.376" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_c_small.cgf" Alpha=",,,(0.5,1;1)" Size="0.64,0.693" Speed="3,0.277" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0" CameraMaxDistance="200" ConfigMin="Medium"/>
+   </Particles>
+   <Particles Name="shatter3">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="4,0.307" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_d_small.cgf" Alpha=",,,(0.5178571,1;1)" Size="0.15,0.762" Speed="5,0.347" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="222,222,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0" ConfigMin="Medium"/>
+   </Particles>
+   <Particles Name="dust">
+    <Params Enabled="false" SpawnDelay="0.14" ParticleLifeTime=",0.248" Texture="textures/sprites/snow_dust.tif" SoftParticle="true" Alpha="0.158,0.386,,(;0.1696429,1;1)" DiffuseBacklighting="0.495" Size="4.09,0.139,,(0.07142857,0.4772727;1,1)" Speed=",0.376" AirResistance="0.53,0.307" FocusGravityDir="true" EmitAngle="180" RandomAngles=",,180" RandomRotationRate=",,21" DrawLast="1"/>
+    <Childs>
+     <Particles Name="dust25">
+      <Params Count=",0.614" SpawnDelay="0.08" ParticleLifeTime=",0.515" Texture="textures/sprites/snow_dust.tif" Alpha=",,,(;0.1696429,1;0.46875,1;1)" DiffuseLighting="0.772" DiffuseBacklighting="0.119" Size="1.52,0.139,,(0.07142857,0.4772727;1,1)" RandomOffset="0.8,,0.8" Speed="1.5,0.376" AirResistance=",0.307" FocusGravityDir="true" EmitAngle="180,1" RandomAngles=",,180" RandomRotationRate=",,21" DrawLast="1" FillRateCost="7.48" CameraMaxDistance="100" CameraMinDistance="2.3"/>
+     </Particles>
+    </Childs>
+   </Particles>
+   <Particles Name="shatter_bb">
+    <Params ParticleLifeTime="0.5,0.2556057" Texture="textures/sprites/snowblast.tif" SoftParticle="true" Alpha="0.248,,,(;0.1160714,1;1)" DiffuseBacklighting="1" Size="0.76,0.366,,(,0.3863636;1,1)" Speed=",0.446" GravityScale="0.7,0.356" EmitAngle="180,1" RandomAngles=",,180" CameraMaxDistance="200"/>
+   </Particles>
+   <Particles Name="shatter4">
+    <Params Enabled="false" Count=",1" ParticleLifeTime="4,0.257" Material="objects/effects/natural/particle_ice" Geometry="objects/effects/natural/particle_ice_a_small.cgf" Alpha=",,,(0.6383929,1;1)" Size="0.15,0.693" Speed="3,0.634" GravityScale="1" FocusGravityDir="true" EmitAngle="14.7,0.327" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="7.71" Thickness="0.1" MotionBlurScale="0"/>
+   </Particles>
+   <Particles Name="sprites">
+    <Params Count="4" ParticleLifeTime="4,0.515" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Material="Materials/particle/glass_tiled" Alpha="0.515,,,(0.6383929,1;1)" Color="(0.3843138,0.7019608,0.909804)" Size="0.08,0.515" RandomOffset="0.5,,0.5" Speed="3,0.208" GravityScale="1" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="333,333,333" PhysicsType="SimpleCollision" CollideTerrain="true" Bounciness="0.089" DynamicFriction="9.46" Thickness="0.1" FillRateCost="2" MotionBlurScale="0" ConfigMin="Medium"/>
+   </Particles>
+   <Particles Name="shatter5">
+    <Params Count="8" ParticleLifeTime="1.8,0.594" Texture="textures/sprites/glass_tiled.tif" TextureTiling="4,2,,8" Material="Materials/particle/glass_tiled" Alpha="0.743,,,(0.6383929,1;1)" Size="0.04,0.802" RandomOffset="0.1,,0.1" Speed="3,0.584" GravityScale="0.6,0.436" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="666,666,666" Bounciness="0.139" DynamicFriction="10" Thickness="0.1" FillRateCost="2" MotionBlurScale="0"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="joint_break.concrete" Id="{DFB1CE32-D23C-4890-B7E5-BA767D39032F}">
+  <Params Count=",0.881" ParticleLifeTime="2.5,0.564" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.624,,,(;0.04017857,1;1)" Color="(0.6862745,0.6862745,0.6862745)" DiffuseLighting="0.495" DiffuseBacklighting="0.327" Size="2.16,0.178,,(,0.2727273;0.03571429,0.5;1,1)" RandomOffset="0.3,,0.3" Speed="0.6,0.683" AirResistance="0.2" GravityScale="0.02" RandomAngles=",,359" RandomRotationRate=",,15"/>
+  <Childs>
+   <Particles Name="chip01">
+    <Params ParticleLifeTime="2.4,0.208" TextureTiling="2,2,,4" Geometry="objects/effects/natural/particle_rock_b.cgf" Alpha=",,,(0.6116071,1;1)" DiffuseLighting="0.267" DiffuseBacklighting="0.129" Size="1.75,0.614" Speed="8,0.881" GravityScale="1,0.366" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="300,300,300" Bounciness="0.099" DynamicFriction="10" DrawLast="2" ConfigMin="High"/>
+   </Particles>
+   <Particles Name="a178">
+    <Params ParticleLifeTime="2.4,0.208" TextureTiling="2,2,,4" Geometry="objects/effects/natural/particle_rock_a.cgf" Alpha=",,,(0.6116071,1;1)" DiffuseLighting="0.267" DiffuseBacklighting="0.129" Size="1.75,0.614" Speed="8,0.881" GravityScale="1,0.366" EmitAngle="180,1" RandomAngles="180,180,180" RandomRotationRate="300,300,300" Bounciness="0.099" DynamicFriction="10" DrawLast="2" ConfigMin="Medium"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="joint_break.box_break" Id="{03FD4B79-9CA6-4404-9A05-6D8FE3848A25}">
+  <Params Count="8" ParticleLifeTime="3,0.564" Texture="textures/sprites/smoke_massive_smoke_gren2.tif" TextureTiling="2,2,,4" SoftParticle="true" Alpha="0.356,,,(;0.05357143,1;0.2631579,1;1)" Color="(0.5960785,0.5568628,0.5058824)" DiffuseLighting="0.495" DiffuseBacklighting="0.129" Size="2.16,0.178,,(,0.2954545;0.08482143,0.5681818;1,1)" Stretch=",,,(,1;0.4375)" PositionOffset=",0.3" RandomOffset="0.5,0.5,0.5" Speed="0.6,0.683" GravityScale="0.02" RandomAngles=",,359" RandomRotationRate=",,15"/>
+  <Childs>
+   <Particles Name="geo3">
+    <Params Count="15" ParticleLifeTime="1.5,0.208" Texture="textures/sprites/wood_chip_tiled.tif" TextureTiling="2,2,,4" Geometry="objects/natural/trees/explosion_shape/tree_splinter.cgf" Alpha=",,,(0.6116071,1;1)" Color=",0.733" DiffuseLighting="0.267" DiffuseBacklighting="0.129" Size="1.3,0.832" Speed="8,0.881" GravityScale="1,0.366" FocusGravityDir="true" EmitAngle="84.2,1" RandomAngles="180,180,180" RandomRotationRate="300,300,300" PhysicsType="SimpleCollision" CollideTerrain="true" CollideStaticObjects="true" Bounciness="0.574" DynamicFriction="10" ConfigMin="Medium"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

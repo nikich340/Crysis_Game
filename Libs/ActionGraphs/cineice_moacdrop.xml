@@ -1,0 +1,24 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="100,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="1130,20,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="1407" Class="AI:AIAnim" pos="560,0,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" animstateEx_name="xCineIce_PutDownMOAC" signal="1"/>
+  </Node>
+  <Node Id="1408" Class="AI:AIAnim" pos="240,0,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" animstateEx_name="xCineIce_PutDownMOAC_UB" signal="1"/>
+  </Node>
+  <Node Id="1409" Class="AI:AIWeaponSelect" pos="880,0,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="SOCOM"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="1408" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="1409" nodeOut="1407" portIn="sink" portOut="done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="1408" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="1407" nodeOut="1408" portIn="sink" portOut="start" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="1409" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

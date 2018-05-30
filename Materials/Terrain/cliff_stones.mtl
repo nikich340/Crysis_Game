@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_rock" Diffuse="0.65490198,0.65490198,0.65490198" Specular="0.48627454,0.48627454,0.48627454" Emissive="0,0,0" Shininess="5" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/cliff_stones.tif">
+   <TexMod TileU="0.02" TileV="0.02"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_stones_ddn.tif">
+   <TexMod TileU="0.02" TileV="0.02"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.011" PomDisplacement="0.02" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,69 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="128" Shader="Terrain.Layer" GenMask="268440087" SurfaceType="mat_alien_wall" Diffuse="0.392157,0.392157,0.392157" Specular="0.466667,0.666667,0.713726" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/alien/generic_elements/spikes/spike_element.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/alien/generic_elements/spikes/spike_element_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/alien/generic_elements/spikes/spike_element_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/library/alien/generic_elements/spikes/spike_detail.tif">
+     <TexMod TileU="15" TileV="15"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/library/alien/generic_elements/spikes/spike_element_glow.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" BumpOffset="0.03" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="128" Shader="Terrain.Layer" GenMask="268440087" SurfaceType="mat_alien_wall" Diffuse="0.392157,0.392157,0.392157" Specular="0.466667,0.666667,0.713726" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/alien/generic_elements/spikes/spike_element.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/alien/generic_elements/spikes/spike_element_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/alien/generic_elements/spikes/spike_element_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/library/alien/generic_elements/spikes/spike_detail.tif">
+     <TexMod TileU="15" TileV="15"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/library/alien/generic_elements/spikes/spike_element_glow.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" BumpOffset="0.03" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="128" Shader="Terrain.Layer" GenMask="268440087" SurfaceType="mat_alien_wall" Diffuse="0.392157,0.392157,0.392157" Specular="0.466667,0.666667,0.713726" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/library/alien/generic_elements/spikes/spike_element.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/library/alien/generic_elements/spikes/spike_element_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/alien/generic_elements/spikes/spike_element_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/library/alien/generic_elements/spikes/spike_detail.tif">
+     <TexMod TileU="15" TileV="15"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/library/alien/generic_elements/spikes/spike_element_glow.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DebugUVScale="64" BumpOffset="0.03" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

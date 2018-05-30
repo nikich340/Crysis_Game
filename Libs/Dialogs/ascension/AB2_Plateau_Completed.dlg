@@ -1,0 +1,7 @@
+<DialogScript Name="ascension.AB2_Plateau_Completed" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_0024" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Fine job, Nomad, you&apos;re a natural. Skies are clear."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_0025" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="All units, airspace is clear, resume take off immediately."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_0026" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, stick with those friendlies."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_1_ascension_ab1_0027" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Appreciate the help, Nomad. There&apos;s another extraction point a couple of clicks up the valley."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_2_ascension_ab1_N0011" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Punch it, One-Four. Follow our lead."/>
+</DialogScript>

@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Metal" GenMask="268439555" SurfaceType="mat_alien_basic_wall" Diffuse="0.54902,0.54902,0.54902" Specular="0.615686,0.615686,0.615686" Emissive="0,0,0" Shininess="1.07" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/alien_level_texture/base_metal/generic_e.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/alien_level_texture/base_metal/generic_e_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/alien_level_texture/base_metal/generic_e_ddn.tif" Amount="50">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SpecularMultiplier="0.285" Glossiness="0.97"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,18 @@
+<Material Diffuse="0.41176474,0.41176474,0.41176474" Emissive="0,0,0" GenMask="4200467" MtlFlags="0" Opacity="1" Shader="Illum" Shininess="5" Specular="0.32941177,0.32941177,0.32941177" SurfaceType="" >
+ <Textures>
+  <Texture File="textures/alien_level_texture/ornamental/ornamental_c.tif" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/alien_level_texture/hallway_door/alien_detail.dds" Map="Specular" >
+   <TexMod />
+  </Texture>
+  <Texture Amount="50" File="textures/alien_level_texture/ornamental/ornamental_c_ddn.tif" Map="Normalmap" >
+   <TexMod />
+  </Texture>
+  <Texture File="objects/weapons/us/socom/socom_env.tif" Map="Environment" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

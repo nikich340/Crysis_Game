@@ -1,0 +1,42 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:AIGoto" flags="0" Id="3" pos="550,10,0" >
+   <Inputs distance="1" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AIGoto" flags="0" Id="15" pos="880,10,0" >
+   <Inputs distance="1" entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AIGrabObject" flags="0" Id="14" pos="730,10,0" >
+   <Inputs entityId="0" objectId="0" />
+  </Node>
+  <Node Class="AI:AIDropObject" flags="0" Id="16" pos="1040,10,0" >
+   <Inputs entityId="0" impulse="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="13" pos="400,120,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="12" pos="290,30,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="1240,30,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Math:SubVec3" flags="0" Id="18" pos="660,140,0" >
+   <Inputs A="0,0,0" B="0,-12,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="12" portIn="sink" portOut="UserId" />
+  <Edge nodeIn="16" nodeOut="15" portIn="sink" portOut="done" />
+  <Edge nodeIn="16" nodeOut="12" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="13" nodeOut="12" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="18" nodeOut="13" portIn="A" portOut="pos" />
+  <Edge nodeIn="15" nodeOut="12" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="2" nodeOut="16" portIn="end" portOut="done" />
+  <Edge nodeIn="3" nodeOut="13" portIn="pos" portOut="pos" />
+  <Edge nodeIn="15" nodeOut="14" portIn="sink" portOut="done" />
+  <Edge nodeIn="3" nodeOut="12" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="15" nodeOut="18" portIn="pos" portOut="out" />
+  <Edge nodeIn="14" nodeOut="12" portIn="objectId" portOut="ObjectId" />
+  <Edge nodeIn="14" nodeOut="3" portIn="sink" portOut="done" />
+  <Edge nodeIn="14" nodeOut="12" portIn="entityId" portOut="UserId" />
+ </Edges>
+</Graph>

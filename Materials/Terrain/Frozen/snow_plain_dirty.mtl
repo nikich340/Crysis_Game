@@ -1,0 +1,16 @@
+<Material MtlFlags="13" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_snow" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.21568629,0.21568629,0.21568629" Emissive="0,0,0" Shininess="2" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/frozen_ground/snow_plain_dirty.tif" Filter="5">
+   <TexMod TileU="0.15000001" TileV="0.15000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/frozen_ground/snow_plain_dirty_ddn.tif">
+   <TexMod TileU="0.15000001" TileV="0.15000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0070000002" PomDisplacement="0.015" SelfShadowStrength="3" DetailTextureStrength="1"/>
+ <MaterialLayers>
+  <Layer Name="Frozenlayerwip" NoDraw="0">
+   <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" WorldSpaceSnow="1" TintColor="1,1,1"/>
+  </Layer>
+ </MaterialLayers>
+</Material>

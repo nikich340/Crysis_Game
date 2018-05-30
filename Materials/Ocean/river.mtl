@@ -1,0 +1,15 @@
+<Material MtlFlags="2048" Shader="WaterSurface" GenMask="53" SurfaceType="mat_water" Diffuse="0.545098,0.545098,0.545098" Specular="0.227451,0.227451,0.227451" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/river_water_color.tif" Filter="4">
+   <TexMod TileU="4" TileV="2.51975" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.01" TexMod_UOscillatorPhase="1" TexMod_UOscillatorAmplitude="1"/>
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/detail/road_ground_stones_ddn.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/blue_sky.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams WavesSpeed="2" TransparencyRatio="1" BumpScale="0.5" BigWavesScale="2" SmallWavesScale="1" WaterColorAmount="1" ReflectionAmount="1" FresnelBias="0" FresnelPow="5" SunShinePow="32" SoftIntersectionFactor="1" WaterColor="0,0.12,0.2" WaterDeepColor="0,0.1,0.1"/>
+ <MaterialLayers />
+</Material>

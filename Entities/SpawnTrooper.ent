@@ -1,0 +1,1 @@
+<Entity Name="SpawnTrooper" Script="Scripts/Entities/AISpawners/SpawnTrooper.lua"/>

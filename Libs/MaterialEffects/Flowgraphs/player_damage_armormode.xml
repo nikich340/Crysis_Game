@@ -1,0 +1,70 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="274" Class="MaterialFX:HUDStartFX" pos="22030,49360,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="292" Class="MaterialFX:HUDEndFX" pos="22630,49660,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="296" Class="Image:ColorCorrection" pos="22510,49320,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="297" Class="Image:AlienInterference" pos="22640,49550,0" flags="0">
+   <Inputs Enabled="1" AlienInterference_Amount="0"/>
+  </Node>
+  <Node Id="298" Class="Interpol:Float" pos="22280,49320,0" flags="0">
+   <Inputs StartValue="-0.5" EndValue="0" Time="0.2"/>
+  </Node>
+  <Node Id="299" Class="Interpol:Float" pos="22490,49550,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="0.4"/>
+  </Node>
+  <Node Id="301" Class="Image:FilterSharpen" pos="22530,49180,0" flags="0">
+   <Inputs Enabled="1" FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+  </Node>
+  <Node Id="302" Class="Input:Key" pos="21860,49360,0" flags="0">
+   <Inputs Key="y"/>
+  </Node>
+  <Node Id="303" Class="Camera:ViewShake" pos="22290,49720,0" flags="0">
+   <Inputs Restrict="0" View="0" Angle="0.1,0.1,0.1" Shift="0.07,0.07,0.07" Duration="0.5" Frequency="20" Randomness="2"/>
+  </Node>
+  <Node Id="304" Class="Logic:Any" pos="22380,49180,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="305" Class="Math:SetNumber" pos="22240,49190,0" flags="0">
+   <Inputs in="6"/>
+  </Node>
+  <Node Id="306" Class="Math:SetNumber" pos="22240,49250,0" flags="0">
+   <Inputs in="1"/>
+  </Node>
+  <Node Id="307" Class="Time:Delay" pos="22110,49250,0" flags="0">
+   <Inputs delay="0.2"/>
+  </Node>
+  <Node Id="308" Class="Interpol:Float" pos="22280,49410,0" flags="0">
+   <Inputs StartValue="0.3" EndValue="1" Time="0.2"/>
+  </Node>
+  <Node Id="309" Class="HUD:InterferenceEffect" pos="22310,49870,0" flags="0">
+   <Inputs Distortion="20" Displacement="10" Alpha="1" Decay="4"/>
+  </Node>
+  <Node Id="310" Class="Time:Delay" pos="22470,49660,0" flags="0">
+   <Inputs delay="0.6"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="298" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="299" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="303" nodeOut="274" portIn="Trigger" portOut="Started" enabled="1"/>
+  <Edge nodeIn="305" nodeOut="274" portIn="set" portOut="Started" enabled="1"/>
+  <Edge nodeIn="307" nodeOut="274" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="308" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="309" nodeOut="274" portIn="Trigger" portOut="Started" enabled="1"/>
+  <Edge nodeIn="310" nodeOut="274" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="296" nodeOut="298" portIn="Global_User_ColorC" portOut="Value" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="299" portIn="AlienInterference_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="301" nodeOut="304" portIn="FilterSharpening_Amount" portOut="out" enabled="1"/>
+  <Edge nodeIn="304" nodeOut="305" portIn="in1" portOut="out" enabled="1"/>
+  <Edge nodeIn="304" nodeOut="306" portIn="in2" portOut="out" enabled="1"/>
+  <Edge nodeIn="306" nodeOut="307" portIn="set" portOut="out" enabled="1"/>
+  <Edge nodeIn="296" nodeOut="308" portIn="Global_User_Brightness" portOut="Value" enabled="1"/>
+  <Edge nodeIn="292" nodeOut="310" portIn="Trigger" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

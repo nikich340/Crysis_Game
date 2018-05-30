@@ -1,0 +1,1 @@
+<Entity Name="SpawnObserver" Script="Scripts/Entities/AISpawners/SpawnObserver.lua"/>

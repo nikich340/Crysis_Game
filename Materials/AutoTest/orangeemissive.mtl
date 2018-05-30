@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268439555" SurfaceType="mat_plastic" Diffuse="1,0.705882,0.0823529" Specular="0.721569,0.721569,0.721569" Emissive="1,1,1" Shininess="29" Opacity="1" AlphaTest="0.495">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/autotest/detail_brighter.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/defaults/tangent_reference_ddn.dds" Amount="93">
+   <TexMod TileU="4" TileV="4"/>
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

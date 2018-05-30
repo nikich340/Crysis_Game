@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="Act3_M02_Storage">
+ <GameToken Name="Progress.Stealth_way" Type="Bool" Value="false"/>
+</GameTokensLibrary>

@@ -1,0 +1,3 @@
+<DialogScript Name="Harbor.VTOL_player_stays_inside" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="harbor/marine_3_harbor_ab1_f3f986a0" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

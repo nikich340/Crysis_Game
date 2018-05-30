@@ -1,0 +1,20 @@
+<DialogScript Name="Fleet.AB4_CDC_CoreRecording" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="3" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab4_84c2a5fe" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sounds/alien:trooper:laser" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="254" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="254" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="3" lookatActor="254" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab8_6762c9d9" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sounds/alien:trooper:laser" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="3" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab9_6a983de7" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sounds/alien:trooper:laser" anim="" facial="" delay="3" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab9_95937575" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sounds/alien:trooper:laser" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab9_d84c2bba" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

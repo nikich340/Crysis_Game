@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Illum" GenMask="402784256" SurfaceType="mat_soil" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_is_93.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/ground_is_93_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0070000002" PomDisplacement="0.017999999" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

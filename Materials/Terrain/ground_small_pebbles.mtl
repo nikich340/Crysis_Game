@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_pebble" Diffuse="0.78823501,0.78823501,0.78823501" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_ground_stones.tif" Filter="6">
+   <TexMod TileU="2" TileV="2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/road_ground_stones_ddn.tif">
+   <TexMod TileU="2" TileV="2"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0080000004" PomDisplacement="0.022" SelfShadowStrength="3" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,45 @@
+<Graph Description="" Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-200,60,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="730,-30,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="AI:AIGoto" pos="-10,0,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="0" StopDistance="25"/>
+  </Node>
+  <Node Id="4" Class="Entity:EntityPos" pos="-140,130,0" flags="0" InHideMask="15" OutHideMask="62">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="5" Class="AI:AIGrabObject" pos="420,60,0" flags="0">
+   <Inputs entityId="0" objectId="0"/>
+  </Node>
+  <Node Id="7" Class="Time:Delay" pos="600,-30,0" flags="0">
+   <Inputs delay="0.3"/>
+  </Node>
+  <Node Id="14" Class="Time:Delay" pos="0,-100,0" flags="0">
+   <Inputs delay="25"/>
+  </Node>
+  <Node Id="16" Class="AI:ActionEnd" pos="530,-140,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="17" Class="AI:AISignal" pos="190,20,0" flags="0" InHideMask="379" OutHideMask="7">
+   <Inputs entityId="0" signal="HunterUseTentacle" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="Right" id="0"/>
+  </Node>
+  <Node Id="18" Class="AI:AIDropObject" pos="560,130,0" flags="1" GraphEntity="0">
+   <Inputs entityId="0" impulse="0,100,0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="objectId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="1" portIn="in" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="3" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="3" portIn="entityId" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="4" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="5" portIn="sink" portOut="done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="7" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="17" portIn="entityId" portOut="done" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="18" portIn="in" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

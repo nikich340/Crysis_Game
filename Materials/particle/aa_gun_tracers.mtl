@@ -1,0 +1,8 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="1" SurfaceType="" Diffuse="1,0.976471,0.690196" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="2.3">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/spark_stretched1_desat.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <MaterialLayers />
+</Material>

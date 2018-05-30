@@ -1,0 +1,5 @@
+<NodeList>
+<SimpleScript name="Log:LogMsg" script="Scripts/FlowNodes/Goon/GoonCapture.lua"/>
+<SimpleScript name="Time:SlowMo" script="Scripts/FlowNodes/Goon/GoonCapture.lua"/>
+<SimpleScript name="Script:RunString" script="Scripts/FlowNodes/Goon/GoonCapture.lua"/>
+</NodeList>

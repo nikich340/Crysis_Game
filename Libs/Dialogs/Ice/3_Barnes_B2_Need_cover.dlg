@@ -1,0 +1,3 @@
+<DialogScript Name="Ice.3_Barnes_B2_Need_cover" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/prophet_ice_ab2_x0006" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

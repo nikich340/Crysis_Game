@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989904" SurfaceType="mat_metal_pipe" Diffuse="0.50980395,0.50980395,0.50980395" Specular="0.290196,0.290196,0.290196" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/asphalt_patch_cover/manhole_round.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/decal/asphalt_patch_cover/manhole_round.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

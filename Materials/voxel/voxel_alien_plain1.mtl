@@ -1,0 +1,63 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="0.70980394,0.70980394,0.70980394" Emissive="0.043137256,0.043137256,0.043137256" GenMask="1671" MtlFlags="128" Name="x" Opacity="1" Shader="Terrain.Layer" Shininess="10.4" Specular="1.4618132,1.4618132,1.4618132" SurfaceType="" >
+   <Textures>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright7.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright4.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/obsidian_wall_ddn.tif" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/cubemaps/frozen_land_blur.dds" Map="Environment" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0" DetailTextureStrength="1" FresnelBias="0" FresnelPow="3.74" FresnelScale="0.19" Reflect="0" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="0.50196081,0.50196081,0.50196081" Emissive="0.043137256,0.043137256,0.043137256" GenMask="1671" MtlFlags="128" Name="y" Opacity="1" Shader="Terrain.Layer" Shininess="10.4" Specular="1.4618132,1.4618132,1.4618132" SurfaceType="" >
+   <Textures>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright7.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright4.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/obsidian_wall_ddn.tif" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/cubemaps/frozen_land_blur.dds" Map="Environment" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright.dds" Map="Detail" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0" DetailTextureStrength="1" FresnelBias="0" FresnelPow="3.74" FresnelScale="0.19" Reflect="0" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="0.50196081,0.50196081,0.50196081" Emissive="0.043137256,0.043137256,0.043137256" GenMask="1671" MtlFlags="128" Name="z" Opacity="1" Shader="Terrain.Layer" Shininess="10.4" Specular="1.4618132,1.4618132,1.4618132" SurfaceType="" >
+   <Textures>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright7.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/cliff_basalt_bright4.tif" Map="Specular" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/voxel/obsidian_wall_ddn.tif" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/cubemaps/frozen_land_blur.dds" Map="Environment" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0" DetailTextureStrength="1" FresnelBias="0" FresnelPow="3.74" FresnelScale="0.19" Reflect="0" />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

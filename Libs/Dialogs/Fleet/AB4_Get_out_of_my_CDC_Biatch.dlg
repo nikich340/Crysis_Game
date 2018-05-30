@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB4_Get_out_of_my_CDC_Biatch" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/morrison_fleet_ab4_7A9342A8" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="You need a hearing aid in that suit? I said get out!"/>
+</DialogScript>

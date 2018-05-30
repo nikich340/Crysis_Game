@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_mud" Diffuse="0.50588238,0.53333336,0.4666667" Specular="0,0,0" Emissive="0,0,0" Shininess="25.299999" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_mine_stones_2.tif" Filter="5">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/ground_mine_stones_2_ddn.tif" Filter="6">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0089999996" PomDisplacement="0.012" DetailTextureStrength="1.2640001"/>
+ <MaterialLayers />
+</Material>

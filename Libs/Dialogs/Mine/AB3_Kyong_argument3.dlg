@@ -1,0 +1,9 @@
+<DialogScript Name="Mine.AB3_Kyong_argument3" Description="">
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_00318" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="What did you do?! Get those generators back online!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab2_00319" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I can&apos;t stabilize the current. Something s draining power from our equipment."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_00320" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="You are stalling! Fix it. NOW!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/helena_mine_ab2_A4EB3091" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I m trying... this whole structure is a power sink."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/kyong_mine_ab2_2637049B" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Switch to secondary generators."/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/korean_soldier_1_mine_ab2_45E1EDCB" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc="Yes sir."/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/korean_soldier_1_mine_ab2_D32A4B9C" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Secondary generators activated."/>
+</DialogScript>

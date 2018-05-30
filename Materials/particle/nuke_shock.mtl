@@ -1,0 +1,15 @@
+<Material MtlFlags="2048" Shader="Glass" GenMask="273" SurfaceType="" Diffuse="1,0.976471,0.690196" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="1" GlowAmount="2.3">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/defaults/white.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/sprites/fire_blur1_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="materials/presets/materialtypes/textures/env_maps/probe_env00.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams TintAmount="1" InsideTintAmount="1" ReflectionAmount="0" InsideReflectionAmount="0" RefrBumpScale="0.846" BackLightScale="2.05" FilterColor="1,1,1" FresnelBias="0.653" ReflBumpScale="0.796" GradientMultiplier="4.27"/>
+ <MaterialLayers />
+</Material>

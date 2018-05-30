@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="33554432" SurfaceType="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/shadows/undertrees.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

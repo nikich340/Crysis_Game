@@ -1,0 +1,47 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="285245444" SurfaceType="mat_cliff" Diffuse="0.92549026,0.92549026,0.92549026" Specular="0.043137256,0.043137256,0.043137256" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_is2.tif" Filter="5">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is2_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_005_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DetailTextureStrength="0.57700002" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="1.5" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="285245444" SurfaceType="mat_cliff" Diffuse="0.92549026,0.92549026,0.92549026" Specular="0.043137256,0.043137256,0.043137256" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_is2.tif" Filter="5">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is2_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_005_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DetailTextureStrength="0.57700002" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="1.5" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="285249540" SurfaceType="mat_cliff" Diffuse="0.92549026,0.92549026,0.92549026" Specular="0.043137256,0.043137256,0.043137256" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_is2.tif" Filter="5">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_is2_ddn.tif">
+     <TexMod TileU="0.1" TileV="0.1"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_005_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams DetailTextureStrength="0.57700002" ObmDisplacement="0.0099999998" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="1.5" DetailBlendAmount="0"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

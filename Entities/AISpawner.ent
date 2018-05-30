@@ -1,0 +1,4 @@
+<Entity
+ Name="AISpawner"
+ Script="Scripts/Entities/AI/AISpawner.lua"
+/>

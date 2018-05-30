@@ -1,0 +1,308 @@
+<FXLib>
+	<Effect name="bm_banana">
+		<Sound>
+			<Name>sounds/physics:player_foley:bush_movement_banana</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="bm_palm">
+		<Sound>
+			<Name>sounds/physics:player_foley:bush_movement_palm</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.player.palm</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="bm_leave_long">
+		<Sound>
+			<Name>sounds/physics:player_foley:bush_movement_leave_long</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.player.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="bm_dry_leaves">
+		<Sound>
+			<Name>sounds/physics:player_foley:bush_movement_dry_leaves</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.player.leaves_dry</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="bm_dry_leaves_big">
+		<Sound>
+			<Name>sounds/physics:player_foley:bush_movement_dry_leaves_big</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.player.leaves</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="bf_concrete">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_concrete</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_dirt">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_dirt</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.dirt</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_drysand">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_drysand</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.sand</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_grass">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_grass</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_gravel">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_gravel</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_leaves">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_leaves</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_metalgrate">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_metalgrate</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+			<Effect name="bf_metalthick">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_metalthick</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_metalsheet">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_metalsheet</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_mud">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_mud</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.mud</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_rubblemetal">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_rubblemetal</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_rubblestone">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_rubblestone</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_rubblewood">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_rubblewood</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_tallgrass">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_tallgrass</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_concretewet">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_concretewet</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+		<Effect name="bf_waterdeep">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_waterdeep</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.water</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+			<Effect name="bf_waterslight">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_waterslight</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.water</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_woodhollow">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_woodhollow</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_woodsolid">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_woodsolid</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+	<Effect name="bf_vegetation">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_vegetation</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.generic</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_alien_floor">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_alienfloor</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.alien</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_alien_machine">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_alienmachine</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.alien</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_alien_glass">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_alienglass</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.alien</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="bf_alien_wall">
+		<Sound>
+			<Name>sounds/physics:player_foley:bodyfall_alienwall</Name>
+		</Sound>
+		<RandEffect>
+			<Particle>
+				<Name minscale="1" maxscale="1.3" maxscaledist="100">collisions.bodyfall.alien</Name>
+			</Particle>
+		</RandEffect>
+	</Effect>
+	
+</FXLib>

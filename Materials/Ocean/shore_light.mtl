@@ -1,0 +1,11 @@
+<Material Diffuse="0.30588236,0.30588236,0.30588236" Emissive="0,0,0" GenMask="0" MtlFlags="2" Opacity="1" Shader="WaterShore" Shininess="10" Specular="0,0,0" SurfaceType="mat_water" >
+ <Textures>
+  <Texture File="textures/watershore/frame##01_25(0.05).dds" Map="Diffuse" >
+   <TexMod TexMod_VOscillatorAmplitude="0.15000001" TexMod_VOscillatorPhase="-0.1" TexMod_VOscillatorRate="-0.1" TexMod_VOscillatorType="4" />
+  </Texture>
+  <Texture File="textures/defaults/white_ddn.dds" Map="Normalmap" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimLength="5.5" LayerAnimPhase="1.3" ShoreMoveBias="0.34999999" ShoreMoveScale="1" />
+</Material>

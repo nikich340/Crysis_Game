@@ -1,0 +1,8 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="0" SurfaceType="" Diffuse="0.11764707,0.24705884,0.98431379" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="100">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/cloud.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <MaterialLayers />
+</Material>

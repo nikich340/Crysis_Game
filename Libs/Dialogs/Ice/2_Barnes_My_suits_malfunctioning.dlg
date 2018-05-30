@@ -1,0 +1,3 @@
+<DialogScript Name="Ice.2_Barnes_My_suits_malfunctioning" Description="">
+ <Line actor="0" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="ice/prophet_ice_ab2_6d001d87" anim="talkCombatMG" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

@@ -1,0 +1,15 @@
+<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="402658820" SurfaceType="mat_snow" Diffuse="1,1,1" Specular="0.56862748,0.56862748,0.56862748" Emissive="0,0,0" Shininess="3" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_soil_frozen.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/road_soil_frozen_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/detail/road_soil_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.012" PomDisplacement="0.02" SelfShadowStrength="3" DetailTextureStrength="1.2640001"/>
+ <MaterialLayers />
+</Material>

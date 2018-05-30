@@ -1,0 +1,26 @@
+<GameTokensLibrary Name="music_fleet">
+ <GameToken Name="AB8_Reactor.troopers_burst_in" Type="String" Value="false" Description="Set to True when Troopers burst into the Reactor Room"/>
+ <GameToken Name="AB8_Reactor.final_hallway_explosion" Type="String" Value="false" Description="Triggered when final hallway explosion occurs in the Engineering Corridors."/>
+ <GameToken Name="AB8_Reactor.player_jumps_down_WES_shaft" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.player_enters_hangar4" Type="String" Value="false"/>
+ <GameToken Name="AB7_Bridge.scout_battle_starts" Type="String" Value="false"/>
+ <GameToken Name="AB6_SuitChair.morrisons_speech_started" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.players_enters_saferoom" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.player_correct_route_from_Reactor" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.troopers_attack_saferoom" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.troopers_drop_from_shaft" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.player_reaches_top_hangar3_elev" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.player_approaches_hangar2" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.warrior_rams_destroyer" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.trooper_bursts_ATC_stairwell" Type="String" Value="false"/>
+ <GameToken Name="AB9_Morrison.player_breaches_MorriDoor" Type="String" Value="false"/>
+ <GameToken Name="AB9_Morrison.morrison_dies" Type="String" Value="false"/>
+ <GameToken Name="AB10_DeckBattles.hunter_appears" Type="String" Value="false"/>
+ <GameToken Name="AB10_DeckBattles.thrown_VTOL_explodes" Type="String" Value="false"/>
+ <GameToken Name="AB10_DeckBattles.hunter_two_thirds_health_left" Type="String" Value="false"/>
+ <GameToken Name="AB10_DeckBattles.hunter_one_third_health_left" Type="String" Value="false"/>
+ <GameToken Name="AB10_DeckBattles.warrior_rises" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.player_nears_core" Type="String" Value="false" Description="Set to True when player nears the Reactor Core"/>
+ <GameToken Name="AB8_Reactor.warrior_rams_carrier" Type="String" Value="false"/>
+ <GameToken Name="AB8_Reactor.players_talks_to_engineer" Type="String" Value="false"/>
+</GameTokensLibrary>

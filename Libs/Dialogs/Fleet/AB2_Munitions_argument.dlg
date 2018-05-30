@@ -1,0 +1,7 @@
+<DialogScript Name="Fleet.AB2_Munitions_argument" Description="">
+ <Line actor="2" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab2_EC2C99BF" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I ordered those damn munitions an hour ago.## I got birds flying out halfcocked."/>
+ <Line actor="1" lookatActor="3" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab2_7aac527d" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="What&apos;s the hold up down there?"/>
+ <Line actor="0" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab2_f38d1d2e" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We have our orders sailor"/>
+ <Line actor="2" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab2_E887ACB6" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="The hell with your orders!"/>
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab2_6369ba74" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Hey back off!"/>
+</DialogScript>

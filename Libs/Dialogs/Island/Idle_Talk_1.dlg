@@ -1,0 +1,4 @@
+<DialogScript Name="Island.Idle_Talk_1" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="1" sound="ai_korean_soldier_1/idlechatter_close_00b" anim="officerTalking" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="1" sound="ai_korean_soldier_2/idlechatter_close_02b" anim="officerListening" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

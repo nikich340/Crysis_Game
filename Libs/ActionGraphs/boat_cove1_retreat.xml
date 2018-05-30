@@ -1,0 +1,16 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="20,-210,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="500,-210,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="2424" Class="AI:AIFollowPathSpeedStance" pos="190,-210,0" flags="0">
+   <Inputs entityId="0" PathFindToStart="0" Reverse="0" StartNearest="1" Loops="0" path_name="Boat_Cove1_retreat" run="3" stance="4"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2424" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="2424" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="2424" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

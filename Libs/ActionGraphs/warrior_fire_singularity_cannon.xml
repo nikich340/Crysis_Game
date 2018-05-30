@@ -1,0 +1,22 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-80,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="530,20,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="Weapon:FireWeapon" pos="180,20,0" flags="0">
+   <Inputs entityId="0" Ammo="-1" TargetId="0" TargetPos="0,0,0" AlignToTarget="1" AutoReload="1"/>
+  </Node>
+  <Node Id="5" Class="Time:Delay" pos="390,20,0" flags="0">
+   <Inputs delay="5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="StartFire" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="TargetId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="4" portIn="in" portOut="FireStarted" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="5" portIn="StopFire" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

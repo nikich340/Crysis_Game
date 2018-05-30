@@ -1,0 +1,6 @@
+<DialogScript Name="Fleet.AB9_TAC_Give_self_objective" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab9_9B62047E" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, they re swarming the flight deck. We need a more direct power source to overload their machines..."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_ED80876F" anim="" facial="" delay="0.25" facialWeight="0.5" facialFadeTime="0.5" desc="Find someplace safe. I ll get up there, but I need to make a stop first."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_4BD53C29" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Morrison, I m heading to the lab to pick up that TAC Cannon."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/morrison_fleet_ab9_FF6AE83E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Good thinking, Nomad! I m transmitting a waypoint now. Make it quick. There s something up here... something big."/>
+</DialogScript>

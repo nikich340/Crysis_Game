@@ -1,0 +1,9 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="301989888" SurfaceType="mat_pebble" Diffuse="0.62352943,0.60784316,0.57647061" Specular="0,0,0" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_concrete_without_stripes.dds" Filter="5">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

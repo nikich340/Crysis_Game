@@ -1,0 +1,7 @@
+<DialogScript Name="ascension.AB4_Fighter_Jets_Chatter" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_N0004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Vulture, stand by. F-36 escorts inbound."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_ascension_ab1_N0003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Command, this is Blue leader. Heading south at one fifty, angels thirty five."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/us_tank_1_ascension_ab1_N0012" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Blue seven riding shotgun, ETA to target three zero seconds."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/us_tank_1_ascension_ab1_N0013" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Blue leader, you got a fix on &apos;em?"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_ascension_ab1_N0004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Roger. Prepare to engage."/>
+</DialogScript>

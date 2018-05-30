@@ -1,0 +1,91 @@
+<Vegetation>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="grass_plains_variation_big" ComplexBending="0" Density="3" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/plants/jungle_grass/junglegrass_big_a.cgf" Frozen="0" GUID="{DD7A665F-09E1-4769-9F25-5AD0AF619114}" Hidden="0" Hideable="0" Id="70" Index="73" MaxViewDistRatio="0.7" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.8" SizeVar="0.5" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="141.55592,161.92838,104.875" Scale="0.55539054" />
+   <Instance Pos="139.21515,165.51186,104.875" Scale="0.53853786" />
+   <Instance Pos="142.56151,165.7905,104.875" Scale="1.0109317" />
+   <Instance Pos="140.37608,166.3615,104.875" Scale="0.77807099" />
+   <Instance Pos="144.40178,166.55223,104.875" Scale="0.89295936" />
+   <Instance Pos="148.05789,166.73749,104.875" Scale="1.030659" />
+   <Instance Pos="141.58278,168.00125,104.875" Scale="0.99271828" />
+   <Instance Pos="141.96121,169.42159,104.875" Scale="0.88260752" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="grass_plains_variation_big" ComplexBending="0" Density="3" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/plants/jungle_grass/junglegrass_big_b.cgf" Frozen="0" GUID="{2C8427E1-6AC4-455A-83FE-1FF0E8AAEF77}" Hidden="0" Hideable="0" Id="71" Index="74" MaxViewDistRatio="0.7" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.8" SizeVar="0.5" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="144.24155,161.31252,104.875" Scale="0.67706537" />
+   <Instance Pos="140.22409,164.55327,104.875" Scale="0.97394329" />
+   <Instance Pos="141.56966,164.73332,104.875" Scale="0.60104328" />
+   <Instance Pos="147.16644,164.2258,104.875" Scale="0.71573949" />
+   <Instance Pos="141.62581,165.63087,104.875" Scale="0.66558164" />
+   <Instance Pos="143.3727,165.22498,104.875" Scale="0.56877899" />
+   <Instance Pos="145.79007,166.61571,104.875" Scale="1.0212104" />
+   <Instance Pos="146.44987,167.63655,104.875" Scale="0.60982424" />
+   <Instance Pos="145.01001,169.60347,104.875" Scale="0.807239" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="grass_plains_variation_big" ComplexBending="0" Density="2" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/plants/jungle_grass/junglegrass_med_a.cgf" Frozen="0" GUID="{6C6F55EA-23CD-4289-8965-589DB1A9D8A4}" Hidden="0" Hideable="0" Id="72" Index="75" MaxViewDistRatio="0.2" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.6" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="0" >
+  <Instances>
+   <Instance Pos="169.11362,160.8522,104.875" Scale="0.60000002" />
+   <Instance Pos="143.05591,162.83997,104.875" Scale="0.60000002" />
+   <Instance Pos="167.63152,162.37971,104.875" Scale="0.60000002" />
+   <Instance Pos="143.61226,163.43446,104.875" Scale="0.60000002" />
+   <Instance Pos="144.25711,163.31209,104.875" Scale="0.60000002" />
+   <Instance Pos="142.83252,164.29234,104.875" Scale="0.60000002" />
+   <Instance Pos="145.88132,164.84503,104.875" Scale="0.60000002" />
+   <Instance Pos="147.86105,164.40892,104.875" Scale="0.60000002" />
+   <Instance Pos="148.44243,164.37657,104.875" Scale="0.60000002" />
+   <Instance Pos="141.62764,165.08978,104.875" Scale="0.60000002" />
+   <Instance Pos="143.54604,165.32997,104.875" Scale="0.60000002" />
+   <Instance Pos="144.57573,165.32906,104.875" Scale="0.60000002" />
+   <Instance Pos="145.53828,165.65529,104.875" Scale="0.60000002" />
+   <Instance Pos="141.56477,166.57268,104.875" Scale="0.60000002" />
+   <Instance Pos="142.96436,167.21509,104.875" Scale="0.60000002" />
+   <Instance Pos="145.0564,167.0686,104.875" Scale="0.60000002" />
+   <Instance Pos="145.90665,167.22913,104.875" Scale="0.60000002" />
+   <Instance Pos="146.63176,167.94235,104.875" Scale="0.60000002" />
+   <Instance Pos="148.71648,167.18549,104.875" Scale="0.60000002" />
+   <Instance Pos="145.59108,169.97275,104.875" Scale="0.60000002" />
+   <Instance Pos="146.98273,169.78629,104.875" Scale="0.60000002" />
+   <Instance Pos="144.27208,170.27,104.875" Scale="0.60000002" />
+   <Instance Pos="174.29567,170.71602,104.875" Scale="0.60000002" />
+   <Instance Pos="175.35991,170.2784,104.875" Scale="0.60000002" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="grass_plains_variation_big" ComplexBending="0" Density="2" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/plants/jungle_grass/junglegrass_med_b.cgf" Frozen="0" GUID="{D821BE5D-DDEA-4B98-8791-3C5B6288227E}" Hidden="0" Hideable="0" Id="73" Index="76" MaxViewDistRatio="0.2" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.6" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="0" >
+  <Instances>
+   <Instance Pos="144.54216,161.3293,104.875" Scale="0.60000002" />
+   <Instance Pos="140.85675,162.32634,104.875" Scale="0.60000002" />
+   <Instance Pos="145.47572,162.15604,104.875" Scale="0.60000002" />
+   <Instance Pos="167.83441,162.21234,104.875" Scale="0.60000002" />
+   <Instance Pos="144.77045,163.5013,104.875" Scale="0.60000002" />
+   <Instance Pos="139.47609,164.72966,104.875" Scale="0.60000002" />
+   <Instance Pos="148.2291,164.36314,104.875" Scale="0.60000002" />
+   <Instance Pos="146.55302,165.08307,104.875" Scale="0.60000002" />
+   <Instance Pos="147.5403,165.65559,104.875" Scale="0.60000002" />
+   <Instance Pos="142.73882,166.01968,104.875" Scale="0.60000002" />
+   <Instance Pos="139.38484,167.00574,104.875" Scale="0.60000002" />
+   <Instance Pos="143.98611,167.84592,104.875" Scale="0.60000002" />
+   <Instance Pos="148.80194,167.07104,104.875" Scale="0.60000002" />
+   <Instance Pos="142.84015,168.38396,104.875" Scale="0.60000002" />
+   <Instance Pos="147.02179,168.90308,104.875" Scale="0.60000002" />
+   <Instance Pos="147.93582,168.56706,104.875" Scale="0.60000002" />
+   <Instance Pos="142.98022,169.84122,104.875" Scale="0.60000002" />
+   <Instance Pos="144.103,169.51924,104.875" Scale="0.60000002" />
+   <Instance Pos="175.54961,170.17584,104.875" Scale="0.60000002" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="0.9" CastShadow="0" Category="grass_plains_variation_big" ComplexBending="0" Density="2" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/ground_plants/grass/grass_a.cgf" Frozen="0" GUID="{B8370AAC-C995-4ABF-A088-C35F7C9E53C1}" Hidden="0" Hideable="0" Id="78" Index="80" MaxViewDistRatio="0.3" PrecalcShadow="0" RandomRotation="0" RecvShadow="0" ShadowDistRatio="1" Size="2" SizeVar="0.3" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="0" >
+  <Instances>
+   <Instance Pos="140.72063,163.9487,104.875" Scale="1.6245695" />
+   <Instance Pos="143.71815,163.03162,104.875" Scale="1.9480454" />
+   <Instance Pos="147.70265,163.30263,104.875" Scale="2.2676902" />
+   <Instance Pos="144.78448,164.54167,104.875" Scale="1.9665294" />
+   <Instance Pos="147.43044,166.95233,104.875" Scale="1.7958997" />
+   <Instance Pos="142.47453,167.75772,104.875" Scale="1.5852175" />
+   <Instance Pos="139.80569,168.08945,104.875" Scale="2.0664144" />
+   <Instance Pos="145.59535,169.02179,104.875" Scale="1.6716876" />
+   <Instance Pos="144.97949,170.46776,104.875" Scale="1.8959696" />
+  </Instances>
+ </VegetationObject>
+</Vegetation>

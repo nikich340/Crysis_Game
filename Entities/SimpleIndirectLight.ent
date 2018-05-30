@@ -1,0 +1,4 @@
+<Entity
+ Name="SimpleIndirectLight" 
+ Script="Scripts/Entities/Lights/SimpleIndirectLight.lua"
+/>

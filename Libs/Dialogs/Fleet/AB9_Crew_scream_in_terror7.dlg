@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB9_Crew_scream_in_terror7" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab9_7BECF854" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

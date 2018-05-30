@@ -1,0 +1,38 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="0.78039223,0.78039223,0.78039223" Emissive="0,0,0" GenMask="7" MtlFlags="168" Name="x" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.27058825,0.27058825,0.27058825" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_cave_wall.dds" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/detail/cliff_cave_wall_ddn.dds" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.0099999998" DetailTextureStrength="1" FresnelBias="1" FresnelPow="5" FresnelScale="1.5" Reflect="0.1" />
+  </Material>
+  <Material Diffuse="0.75686282,0.75686282,0.75686282" Emissive="0,0,0" GenMask="7" MtlFlags="168" Name="y" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.3019608,0.3019608,0.3019608" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_cave_wall.dds" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/detail/cliff_cave_wall_ddn.dds" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.0099999998" DetailTextureStrength="1" FresnelBias="1" FresnelPow="5" FresnelScale="1.5" Reflect="0.1" />
+  </Material>
+  <Material Diffuse="0.86666673,0.86666673,0.86666673" Emissive="0,0,0" GenMask="7" MtlFlags="168" Name="z" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.29019609,0.29019609,0.29019609" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_cave_wall.dds" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture File="textures/terrain/detail/cliff_cave_wall_ddn.dds" Map="Normalmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.0099999998" DetailTextureStrength="1" FresnelBias="1" FresnelPow="5" FresnelScale="1.5" Reflect="0.1" />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+</Material>

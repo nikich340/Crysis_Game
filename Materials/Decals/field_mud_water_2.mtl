@@ -1,0 +1,18 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="302121104" SurfaceType="" Diffuse="0.60000002,0.54509807,0.45098042" Specular="0.63686281,0.63686281,0.63686281" Emissive="0.22352943,0.22352943,0.22352943" Shininess="65.599998" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/field_mud_water.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/decal/field_mud_water_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/decal/field_mud_water_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+   <TexMod TileU="0.5" TileV="0.5"/>
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="0.25" FresnelScale="4.8699999" FresnelBias="0.68300003" ObmDisplacement="0.0040000002" AmbientMultiplier="0.458"/>
+ <MaterialLayers />
+</Material>

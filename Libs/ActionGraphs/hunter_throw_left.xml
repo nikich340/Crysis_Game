@@ -1,0 +1,64 @@
+<Graph Description="Used by the hunter to throw vehicles on humans. Assumes the mass of vehicles is set to 5000!\nThe Thrown smart object state of the object thrown is always set. This state is used to make humans run away from the vehile. The state will be auto-removed after 2 seconds." Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-200,30,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="740,-120,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="AI:AIDropObject" pos="430,-120,0" flags="0">
+   <Inputs entityId="0" impulse="2,0,0"/>
+  </Node>
+  <Node Id="16" Name="ObjectPos" Class="Entity:EntityPos" pos="-230,100,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="18" Name="POS_RENAME" Class="Vec3:SubVec3" pos="-10,90,0" flags="0">
+   <Inputs A="0,0,0" B="0,0,0"/>
+  </Node>
+  <Node Id="20" Class="Game:ActorGrabObject" pos="-30,-180,0" flags="0">
+   <Inputs entityId="0" objectId="0" throw="0"/>
+  </Node>
+  <Node Id="21" Class="AI:AIModifyStates" pos="190,-190,0" flags="0">
+   <Inputs entityId="0" sostates_states="Thrown"/>
+  </Node>
+  <Node Id="47" Class="Vec3:ScaleVec3" pos="410,90,0" flags="0">
+   <Inputs vector="0,0,0" scale="2"/>
+  </Node>
+  <Node Id="48" Name="CLAMPXXX" Class="Vec3:ClampVec3" pos="190,90,0" flags="0">
+   <Inputs in="0,0,0" min="-10000,-10000,0" max="10000,10000,0"/>
+  </Node>
+  <Node Id="49" Class="Vec3:MagnitudeVec3" pos="550,130,0" flags="0">
+   <Inputs vector="0,0,0"/>
+  </Node>
+  <Node Id="50" Class="Vec3:ScaleVec3" pos="700,120,0" flags="0">
+   <Inputs vector="0,0,-0.2" scale="0"/>
+  </Node>
+  <Node Id="51" Class="Vec3:AddVec3" pos="860,90,0" flags="0">
+   <Inputs A="0,0,0" B="0,0,0"/>
+  </Node>
+  <Node Id="52" Class="AI:SmartObjectHelper" pos="-240,170,0" flags="1">
+   <Inputs entityId="0" soclass_class="Hunter" sonavhelper_helper="Hunter:HoldPosRight"/>
+  </Node>
+  <Node Id="53" Class="Time:Delay" pos="590,-120,0" flags="0">
+   <Inputs delay="0.5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="52" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="53" nodeOut="3" portIn="in" portOut="done" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="16" portIn="A" portOut="pos" enabled="1"/>
+  <Edge nodeIn="48" nodeOut="18" portIn="in" portOut="out" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="20" portIn="entityId" portOut="grabbedObjId" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="20" portIn="sink" portOut="grabbedObjId" enabled="1"/>
+  <Edge nodeIn="49" nodeOut="47" portIn="vector" portOut="out" enabled="1"/>
+  <Edge nodeIn="51" nodeOut="47" portIn="A" portOut="out" enabled="1"/>
+  <Edge nodeIn="47" nodeOut="48" portIn="vector" portOut="out" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="49" portIn="scale" portOut="length" enabled="1"/>
+  <Edge nodeIn="51" nodeOut="50" portIn="B" portOut="out" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="51" portIn="impulse" portOut="out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="52" portIn="B" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="53" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

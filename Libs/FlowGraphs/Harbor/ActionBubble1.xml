@@ -1,0 +1,163 @@
+<Graph>
+ <Nodes>
+  <Node Class="entity:Light" EntityGUID="{35894D50-F257-48C3-BF89-4EE04362858C}" EntityId="2660" flags="1" Id="56" pos="480,880,0" >
+   <Inputs Active="0" Disable="0" Enable="0" entityId="0" />
+  </Node>
+  <Node Class="entity:Observer" EntityGUID="{F1A63E7D-1036-4B16-B01C-138EA3F2BDD2}" EntityId="2234" flags="1" Id="47" pos="1970,190,0" >
+   <Inputs AcceptSound="0" Activate="0" Alert="0" DeActivate="0" Die="0" Disable="0" DisablePhysics="0" DisablePlantBomb="0" DisableSpecialUse="0" Enable="0" EnablePhysics="0" EnablePlantBomb="0" EnableSpecialUse="0" entityId="0" Follow="0" HalfHealthLeft="0" Hide="0" HoldSpot="0" Idle_Start="0" LastGroupMemberDied="0" MakeVulnerable="0" OnDeath="0" OrdFollow="0" Readability="0" Relocate="0" Ressurect="0" Signal="0" SPECIAL_ANIM_START="0" StartIdleConversation="0" StartMissionConversation="0" Stealth="0" StopConversation="0" Talk="0" Test="0" UnHide="0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{F1A63E7D-1036-4B16-B01C-138EA3F2BDD2}" EntityId="2234" flags="1" Id="34" pos="1200,550,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Game:DamageActor" EntityGUID="{EF92993E-127E-47D8-BEB5-9158DC229328}" EntityId="2445" flags="1" Id="30" pos="1350,390,0" >
+   <Inputs damage="0" entityId="0" />
+  </Node>
+  <Node Class="_comment" flags="1" Id="48" Name="Observer Contact" pos="1120,250,0" />
+  <Node Class="AI:AIGoto" EntityGUID="{19D1CB04-4313-4071-A2F7-4EEF679854F2}" EntityId="2483" flags="1" Id="33" pos="1370,470,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="entity:SoundSpot" EntityGUID="{BE2D134E-CBF3-4626-816A-7EE158C2A7EE}" EntityId="2425" flags="1" Id="24" Name="Open Fire" pos="990,460,0" >
+   <Inputs Disable="0" Enable="0" entityId="0" Play="0" Stop="0" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="8" pos="510,360,0" >
+   <Inputs delay="3" />
+  </Node>
+  <Node Class="Game:DamageActor" EntityGUID="{19D1CB04-4313-4071-A2F7-4EEF679854F2}" EntityId="2483" flags="1" Id="40" pos="1710,510,0" >
+   <Inputs damage="0" entityId="0" />
+  </Node>
+  <Node Class="Math:Add" flags="1" Id="39" pos="1550,540,0" >
+   <Inputs A="0" B="500" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{85D2A60E-0A6C-46E0-BA1E-B015D4253629}" EntityId="332" flags="1" Id="12" pos="300,-70,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="22" pos="810,530,0" >
+   <Inputs delay="3" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="31" pos="1050,400,0" >
+   <Inputs delay="0.5" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="11" pos="480,140,0" >
+   <Inputs delay="1" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{0C5690B9-732B-40BB-81E4-7FE940E35C72}" EntityId="2172" flags="1" Id="59" pos="1510,640,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="entity:Light" EntityGUID="{2EC340E6-E0C6-436E-AD2C-D5CAEE5CBDD5}" EntityId="2329" flags="1" Id="52" pos="480,700,0" >
+   <Inputs Active="0" Disable="0" Enable="0" entityId="0" />
+  </Node>
+  <Node Class="AI:AISpeed" EntityGUID="{EB7CA885-61FF-423C-AF4F-8583F5826383}" EntityId="2270" flags="1" Id="45" pos="1790,370,0" >
+   <Inputs entityId="0" run="2" />
+  </Node>
+  <Node Class="entity:DestroyableObject" EntityGUID="{BAE3D7F1-88E3-4DA3-BED9-AB68BE393535}" EntityId="2383" flags="1" Id="50" pos="140,740,0" >
+   <Inputs DisableUsable="0" EnableUsable="0" entityId="0" Explode="0" Reset="0" Used="0" />
+  </Node>
+  <Node Class="Math:Add" flags="1" Id="32" pos="1190,420,0" >
+   <Inputs A="0" B="500" />
+  </Node>
+  <Node Class="Physics:ActionImpulse" EntityGUID="{EF92993E-127E-47D8-BEB5-9158DC229328}" EntityId="2445" flags="1" Id="29" pos="1150,320,0" >
+   <Inputs entityId="0" impulseDirection="1000,100,500" />
+  </Node>
+  <Node Class="entity:Explosion" EntityGUID="{6CE96F5C-C10D-4E39-B1B6-B61C6F6D610F}" EntityId="2529" flags="1" Id="38" pos="1530,430,0" >
+   <Inputs Activate="0" Deactivate="0" entityId="0" Explode="0" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="19" pos="670,410,0" >
+   <Inputs delay="4" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="28" pos="980,340,0" >
+   <Inputs delay="4" />
+  </Node>
+  <Node Class="entity:SoundSpot" EntityGUID="{B0EC3D49-0272-4CF2-880F-8AA128B14841}" EntityId="2429" flags="1" Id="21" Name="Its here" pos="800,410,0" >
+   <Inputs Disable="0" Enable="0" entityId="0" Play="0" Stop="0" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="5" pos="360,300,0" >
+   <Inputs delay="1.5" />
+  </Node>
+  <Node Class="entity:Light" EntityGUID="{3977F535-121C-4AB5-B1CC-C740C1D2E70D}" EntityId="2341" flags="1" Id="54" pos="480,790,0" >
+   <Inputs Active="0" Disable="0" Enable="0" entityId="0" />
+  </Node>
+  <Node Class="entity:ProximityTrigger" EntityGUID="" flags="1" Id="2" pos="180,270,0" >
+   <Inputs Disable="0" Enable="0" Enter="0" entityId="0" Leave="0" />
+  </Node>
+  <Node Class="entity:SoundSpot" EntityGUID="{C38222F5-F451-4240-A0E5-2E2F305EF5B3}" EntityId="2194" flags="1" Id="4" Name="Help me!" pos="510,250,0" >
+   <Inputs Disable="0" Enable="0" entityId="0" Play="0" Stop="0" />
+  </Node>
+  <Node Class="AI:AIGoto" EntityGUID="{EB7CA885-61FF-423C-AF4F-8583F5826383}" EntityId="2270" flags="1" Id="9" pos="630,110,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="25" pos="730,630,0" >
+   <Inputs delay="14" />
+  </Node>
+  <Node Class="Entity:SetProperty" EntityGUID="{F1A63E7D-1036-4B16-B01C-138EA3F2BDD2}" EntityId="2234" flags="1" Id="26" pos="910,600,0" >
+   <Inputs entityId="0" name="species" number="2" />
+  </Node>
+  <Node Class="AI:AILookAtPoint" EntityGUID="{19D1CB04-4313-4071-A2F7-4EEF679854F2}" EntityId="2483" flags="1" Id="13" pos="540,510,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="AI:AISpeed" EntityGUID="{F1A63E7D-1036-4B16-B01C-138EA3F2BDD2}" EntityId="2234" flags="1" Id="18" pos="320,50,0" >
+   <Inputs entityId="0" run="2" />
+  </Node>
+  <Node Class="AI:AISpeed" EntityGUID="{EB7CA885-61FF-423C-AF4F-8583F5826383}" EntityId="2270" flags="1" Id="10" pos="320,130,0" >
+   <Inputs entityId="0" run="2" />
+  </Node>
+  <Node Class="AI:AILookAtPoint" EntityGUID="{EF92993E-127E-47D8-BEB5-9158DC229328}" EntityId="2445" flags="1" Id="14" pos="540,430,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="entity:SoundSpot" EntityGUID="{42E04A82-109E-405D-9E96-7303AA4C67E9}" EntityId="2222" flags="1" Id="7" Name="What the hell" pos="670,300,0" >
+   <Inputs Disable="0" Enable="0" entityId="0" Play="0" Stop="0" />
+  </Node>
+  <Node Class="AI:AIGoto" EntityGUID="{F1A63E7D-1036-4B16-B01C-138EA3F2BDD2}" EntityId="2234" flags="1" Id="17" pos="630,20,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" EntityGUID="{EB7CA885-61FF-423C-AF4F-8583F5826383}" EntityId="2270" flags="1" Id="16" pos="280,490,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Time:Delay" flags="1" Id="15" pos="320,440,0" >
+   <Inputs delay="1" />
+  </Node>
+  <Node Class="AI:AIGoto" EntityGUID="{EB7CA885-61FF-423C-AF4F-8583F5826383}" EntityId="2270" flags="1" Id="41" pos="1710,580,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="5" portIn="Play" portOut="out" />
+  <Edge nodeIn="5" nodeOut="2" portIn="in" portOut="Enter" />
+  <Edge nodeIn="9" nodeOut="11" portIn="sink" portOut="out" />
+  <Edge nodeIn="40" nodeOut="39" portIn="damage" portOut="out" />
+  <Edge nodeIn="22" nodeOut="19" portIn="in" portOut="out" />
+  <Edge nodeIn="28" nodeOut="25" portIn="in" portOut="out" />
+  <Edge nodeIn="29" nodeOut="28" portIn="activate" portOut="out" />
+  <Edge nodeIn="56" nodeOut="50" portIn="Disable" portOut="Explode" />
+  <Edge nodeIn="19" nodeOut="8" portIn="in" portOut="out" />
+  <Edge nodeIn="45" nodeOut="39" portIn="sink" portOut="out" />
+  <Edge nodeIn="17" nodeOut="10" portIn="sink" portOut="done" />
+  <Edge nodeIn="15" nodeOut="5" portIn="in" portOut="out" />
+  <Edge nodeIn="47" nodeOut="39" portIn="Die" portOut="out" />
+  <Edge nodeIn="41" nodeOut="59" portIn="pos" portOut="pos" />
+  <Edge nodeIn="9" nodeOut="12" portIn="pos" portOut="pos" />
+  <Edge nodeIn="41" nodeOut="39" portIn="sink" portOut="out" />
+  <Edge nodeIn="11" nodeOut="10" portIn="in" portOut="done" />
+  <Edge nodeIn="39" nodeOut="33" portIn="A" portOut="done" />
+  <Edge nodeIn="26" nodeOut="25" portIn="activate" portOut="out" />
+  <Edge nodeIn="25" nodeOut="2" portIn="in" portOut="Enter" />
+  <Edge nodeIn="31" nodeOut="28" portIn="in" portOut="out" />
+  <Edge nodeIn="38" nodeOut="33" portIn="Explode" portOut="done" />
+  <Edge nodeIn="7" nodeOut="8" portIn="Play" portOut="out" />
+  <Edge nodeIn="24" nodeOut="22" portIn="Play" portOut="out" />
+  <Edge nodeIn="33" nodeOut="34" portIn="pos" portOut="pos" />
+  <Edge nodeIn="8" nodeOut="5" portIn="in" portOut="out" />
+  <Edge nodeIn="10" nodeOut="2" portIn="sink" portOut="Enter" />
+  <Edge nodeIn="14" nodeOut="16" portIn="pos" portOut="pos" />
+  <Edge nodeIn="32" nodeOut="31" portIn="A" portOut="out" />
+  <Edge nodeIn="33" nodeOut="32" portIn="sink" portOut="out" />
+  <Edge nodeIn="18" nodeOut="2" portIn="sink" portOut="Enter" />
+  <Edge nodeIn="30" nodeOut="32" portIn="damage" portOut="out" />
+  <Edge nodeIn="54" nodeOut="50" portIn="Disable" portOut="Explode" />
+  <Edge nodeIn="52" nodeOut="50" portIn="Disable" portOut="Explode" />
+  <Edge nodeIn="14" nodeOut="15" portIn="sink" portOut="out" />
+  <Edge nodeIn="13" nodeOut="15" portIn="sink" portOut="out" />
+  <Edge nodeIn="21" nodeOut="19" portIn="Play" portOut="out" />
+  <Edge nodeIn="13" nodeOut="16" portIn="pos" portOut="pos" />
+  <Edge nodeIn="17" nodeOut="12" portIn="pos" portOut="pos" />
+ </Edges>
+</Graph>

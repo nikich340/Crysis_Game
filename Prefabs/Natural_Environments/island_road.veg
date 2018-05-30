@@ -1,0 +1,832 @@
+<Vegetation>
+ <VegetationObject Size="1.5" SizeVar="0" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="20" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="2" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="189" FileName="objects/natural/trees/palm_tree/palm_tree_large_e.cgf" GUID="{FCF7AD57-E1C6-4160-BB88-B2B7BCBFC3A9}" Hidden="0" Index="189" Category="Island_Road">
+  <Instances>
+   <Instance Pos="6092.32,5923.2,112.501" Scale="2" Brightness="75"/>
+   <Instance Pos="6086.85,5941.03,106.324" Scale="2" Brightness="75"/>
+   <Instance Pos="5967.67,5958.91,103.984" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6010.74,5955.72,109.379" Scale="2" Brightness="75"/>
+   <Instance Pos="6047.95,5954.95,106.837" Scale="2" Brightness="75"/>
+   <Instance Pos="6027.48,5961.08,105.569" Scale="2" Brightness="75"/>
+   <Instance Pos="6007.21,5971.23,105.537" Scale="2" Brightness="75"/>
+   <Instance Pos="5894.23,5982.01,108.054" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5896.59,5981.95,107.935" Scale="1.176" Brightness="75"/>
+   <Instance Pos="6015.6,5980.87,105.349" Scale="2" Brightness="75"/>
+   <Instance Pos="5891.59,5990.78,107.869" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5895.64,5988.64,107.594" Scale="1.176" Brightness="75"/>
+   <Instance Pos="5901.17,5985.13,108.448" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5904.71,5986.7,109.691" Scale="1.176" Brightness="75"/>
+   <Instance Pos="5927.05,5991.7,104.927" Scale="2" Brightness="75"/>
+   <Instance Pos="5977.06,5986.24,101.281" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5892.47,5997.18,108.358" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5901.96,5995.43,109.711" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5901.43,5995.9,109.647" Scale="1.176" Brightness="75"/>
+   <Instance Pos="5886.75,6003.62,107.527" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5887.25,6004.3,107.489" Scale="1.176" Brightness="75"/>
+   <Instance Pos="5938.41,6005.52,100.981" Scale="2.18117" Brightness="75"/>
+   <Instance Pos="6146.24,6004.28,102.045" Scale="2" Brightness="75"/>
+   <Instance Pos="5882.77,6014.28,108.307" Scale="2.1" Brightness="75"/>
+   <Instance Pos="5890.15,6015.22,107.997" Scale="1.176" Brightness="75"/>
+   <Instance Pos="6164.43,6008.1,103.58" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6153.51,6030.19,101.621" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5979.58,6039.27,101.041" Scale="1.77" Brightness="75"/>
+   <Instance Pos="5955.62,6049.09,108.169" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5960.31,6052.52,108.126" Scale="2.19" Brightness="75"/>
+   <Instance Pos="5988.81,6049.69,105.322" Scale="1.42" Brightness="75"/>
+   <Instance Pos="5940.94,6057.75,115.031" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5967.97,6059.11,108.038" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5977.93,6062.88,107.027" Scale="2.34" Brightness="75"/>
+   <Instance Pos="6149.4,6056.43,101.683" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5944.08,6068.63,115.586" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5957.14,6070.41,114.67" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6102.81,6068.75,101.083" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5930.56,6088.12,117.146" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5940.05,6093.58,115.097" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6198.58,6093.7,112.039" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5905.89,6105.57,122.586" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5967.21,6106.52,115.544" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6205.99,6107.75,113.46" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5940.64,6125.32,118.56" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6188.75,6126.76,113.207" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5914.05,6132.07,124.278" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5975.44,6129.52,116.79" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5986.99,6131.75,115.251" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5995.6,6132.74,114.176" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5997.8,6137.73,114.405" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6193.38,6138.07,114.695" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6212.8,6148.98,118.061" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5969.19,6157.27,118.6" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5979.67,6157.79,118.77" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6207.66,6153.81,118.008" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6009.96,6183.09,122.84" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6157.18,6182.38,120.553" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6170.12,6177.21,119.219" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6007.87,6198.06,130.409" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5991.66,6206.04,131.262" Scale="1.5" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1.5" SizeVar="0" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="20" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="2" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="190" FileName="objects/natural/trees/palm_tree/palm_tree_large_g.cgf" GUID="{9D7B8A0D-2022-45DE-BC97-D0B71DA08EBB}" Hidden="0" Index="190" Category="Island_Road">
+  <Instances>
+   <Instance Pos="6079.49,5940.38,106.1" Brightness="75"/>
+   <Instance Pos="6088.03,5937.35,107.409" Brightness="75"/>
+   <Instance Pos="5965.57,5948.18,103.966" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6003.43,5951.93,112.509" Brightness="75"/>
+   <Instance Pos="6030.89,5949.21,109.578" Brightness="75"/>
+   <Instance Pos="6005.23,5957.27,110.525" Brightness="75"/>
+   <Instance Pos="6038.81,5957.18,106.578" Brightness="75"/>
+   <Instance Pos="5972.33,5963.26,102.401" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5998.25,5966.03,110.994" Brightness="75"/>
+   <Instance Pos="5999.64,5961.34,111.498" Brightness="75"/>
+   <Instance Pos="6023.63,5967.17,105.057" Brightness="75"/>
+   <Instance Pos="6048.18,5970.42,106.544" Brightness="75"/>
+   <Instance Pos="5877.74,5978.08,116.674" Scale="0.588" Brightness="75"/>
+   <Instance Pos="6135.39,5983.87,102.539" Brightness="75"/>
+   <Instance Pos="6157.9,5992.26,102.967" Brightness="75"/>
+   <Instance Pos="5895.85,6006.97,109.014" Scale="1.05" Brightness="75"/>
+   <Instance Pos="5994.73,6001.02,101.484" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5944.54,6014.89,101.485" Scale="1.62" Brightness="75"/>
+   <Instance Pos="6150.46,6022.92,101.728" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5911.19,6029.41,109.07" Brightness="75"/>
+   <Instance Pos="5982.75,6034.34,100.969" Scale="1.52143" Brightness="75"/>
+   <Instance Pos="5946.44,6041.91,107.117" Scale="2.04" Brightness="75"/>
+   <Instance Pos="5935.94,6057.21,115.189" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5984.55,6063.76,109.767" Scale="0.96" Brightness="75"/>
+   <Instance Pos="5925.25,6071.21,116.711" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5949.86,6075.72,115.374" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5906.9,6086.73,119.297" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5949.28,6084.23,115.48" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5918.46,6095.24,119.017" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5940.22,6089.56,115.476" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6216.62,6091.59,112.395" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5941.09,6101.44,114.667" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6189.16,6099.43,111.806" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5938.45,6112.23,115.122" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5956.87,6118.61,118.434" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5944.29,6120.71,117.367" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5961.3,6124.63,118.631" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5980.54,6133.59,116.51" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6205,6128.33,115.053" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5970.92,6136.96,117.821" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5997.25,6138.4,114.483" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6218.93,6138.89,117.742" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5982.86,6148.23,118.634" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6161.01,6152.08,117.274" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6209.13,6155.1,118.044" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5985.61,6164.27,119.485" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6002.33,6167.78,118.786" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6155.71,6174.01,119.334" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6152.37,6187.38,121.327" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6163.01,6188.91,120.859" Scale="1.5" Brightness="75"/>
+   <Instance Pos="6010.14,6194.05,127.651" Scale="1.5" Brightness="75"/>
+   <Instance Pos="5997.49,6203.88,131.443" Scale="1.5" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0.2" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="10" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="1" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="191" FileName="objects/natural/trees/banana_tree/bananatree_big_b.cgf" GUID="{8CAC88A9-D779-47C8-BBBC-621FCBEBC677}" Hidden="0" Index="191" Category="Island_Road">
+  <Instances>
+   <Instance Pos="6061.73,5943.96,107.06" Scale="1.11568" Brightness="75"/>
+   <Instance Pos="6073.35,5936.88,107.237" Scale="0.977781" Brightness="75"/>
+   <Instance Pos="6006.6,5945.92,112.635" Scale="0.931548" Brightness="75"/>
+   <Instance Pos="6051.49,5949.39,107.685" Scale="0.955585" Brightness="75"/>
+   <Instance Pos="6067.33,5946.22,106.03" Scale="1.14724" Brightness="75"/>
+   <Instance Pos="6073.26,5949.47,105.616" Scale="1.18927" Brightness="75"/>
+   <Instance Pos="6019.23,5955.1,107.91" Scale="1.01474" Brightness="75"/>
+   <Instance Pos="6025.09,5955.15,107.529" Scale="1.11216" Brightness="75"/>
+   <Instance Pos="6050.13,5959.97,106.371" Scale="1.17147" Brightness="75"/>
+   <Instance Pos="6056.78,5956.08,106.43" Scale="0.90044" Brightness="75"/>
+   <Instance Pos="6057.09,5958.88,106.478" Scale="0.879755" Brightness="75"/>
+   <Instance Pos="6069.94,5959.84,106.631" Scale="1.07832" Brightness="75"/>
+   <Instance Pos="6073.46,5959.02,106.555" Scale="0.838503" Brightness="75"/>
+   <Instance Pos="6001.26,5965.15,109.447" Scale="0.924285" Brightness="75"/>
+   <Instance Pos="6021.34,5962.34,105.282" Scale="1.10068" Brightness="75"/>
+   <Instance Pos="6074.08,5963.55,107.81" Scale="0.913147" Brightness="75"/>
+   <Instance Pos="5998.78,5970.03,110.073" Scale="0.950948" Brightness="75"/>
+   <Instance Pos="6013.99,5970.4,105.049" Scale="0.895861" Brightness="75"/>
+   <Instance Pos="5983.6,5997.6,100.847" Scale="1.66506" Brightness="75"/>
+   <Instance Pos="5990.49,5998.53,101.475" Scale="1.25675" Brightness="75"/>
+   <Instance Pos="5987.14,5997.48,101.49" Scale="1.30637" Brightness="75"/>
+   <Instance Pos="5951.87,6003.99,101.095" Scale="1.89038" Brightness="75"/>
+   <Instance Pos="5945.28,6004.05,101.397" Scale="2.30877" Brightness="75"/>
+   <Instance Pos="5989.52,6003.08,101.42" Scale="1.62348" Brightness="75"/>
+   <Instance Pos="5948.21,6008.86,101.145" Scale="2.06848" Brightness="75"/>
+   <Instance Pos="5952.03,6009.17,101.053" Scale="1.71254" Brightness="75"/>
+   <Instance Pos="6096.06,6013.12,103.346" Scale="1.14077" Brightness="75"/>
+   <Instance Pos="5957.8,6021.11,101.112" Scale="1.69905" Brightness="75"/>
+   <Instance Pos="5952.67,6018.76,102.023" Scale="2.03445" Brightness="75"/>
+   <Instance Pos="5957.98,6016.37,101.032" Scale="1.81016" Brightness="75"/>
+   <Instance Pos="6023.48,6018.53,104.54" Scale="1.17503" Brightness="75"/>
+   <Instance Pos="6016.85,6020.16,101.923" Scale="1.55544" Brightness="75"/>
+   <Instance Pos="6026.45,6022.5,101.14" Scale="1.22367" Brightness="75"/>
+   <Instance Pos="6090.99,6017.57,100.848" Scale="1.15563" Brightness="75"/>
+   <Instance Pos="6094.35,6020.48,100.899" Scale="0.993879" Brightness="75"/>
+   <Instance Pos="6089.65,6021.31,100.77" Scale="1.02885" Brightness="75"/>
+   <Instance Pos="6102.28,6022.15,100.975" Scale="1.13502" Brightness="75"/>
+   <Instance Pos="6097.65,6018.32,101.064" Scale="0.89033" Brightness="75"/>
+   <Instance Pos="6102.65,6018.32,101.3" Scale="1.24646" Brightness="75"/>
+   <Instance Pos="6097.87,6021.67,100.898" Scale="1.1927" Brightness="75"/>
+   <Instance Pos="6106.52,6018.39,100.89" Scale="0.978026" Brightness="75"/>
+   <Instance Pos="6105.51,6022.95,100.864" Scale="1.12284" Brightness="75"/>
+   <Instance Pos="6122.61,6021.78,101.436" Scale="0.9451" Brightness="75"/>
+   <Instance Pos="5959,6025.46,102.522" Scale="1.96076" Brightness="75"/>
+   <Instance Pos="5964.99,6030.05,101.216" Scale="1.88978" Brightness="75"/>
+   <Instance Pos="5961.1,6030.03,103.285" Scale="2.19628" Brightness="75"/>
+   <Instance Pos="5963.66,6025.37,101.046" Scale="1.97896" Brightness="75"/>
+   <Instance Pos="6011.6,6024.13,100.936" Scale="1.87037" Brightness="75"/>
+   <Instance Pos="6124.36,6024.36,101.384" Scale="0.886524" Brightness="75"/>
+   <Instance Pos="6127.53,6025.01,101.508" Scale="1.05814" Brightness="75"/>
+   <Instance Pos="6125.74,6028.65,101.268" Scale="1.11064" Brightness="75"/>
+   <Instance Pos="6136.18,6027.46,101.289" Scale="0.868644" Brightness="75"/>
+   <Instance Pos="6151.61,6027.62,101.567" Scale="1.03823" Brightness="75"/>
+   <Instance Pos="6148.07,6030.15,101.36" Scale="0.861057" Brightness="75"/>
+   <Instance Pos="6146.76,6026.15,101.49" Scale="0.872744" Brightness="75"/>
+   <Instance Pos="5983.5,6034.54,100.968" Scale="1.70244" Brightness="75"/>
+   <Instance Pos="5979.69,6034.44,100.983" Scale="2.21282" Brightness="75"/>
+   <Instance Pos="5984.72,6039.6,100.887" Scale="2.33753" Brightness="75"/>
+   <Instance Pos="6156.5,6033.5,101.683" Scale="0.872725" Brightness="75"/>
+   <Instance Pos="6161.06,6033.68,101.744" Scale="1.09922" Brightness="75"/>
+   <Instance Pos="6166.59,6036.41,101.866" Scale="1.0623" Brightness="75"/>
+   <Instance Pos="6172.74,6033.8,101.953" Scale="1.13871" Brightness="75"/>
+   <Instance Pos="6169.27,6037.16,101.875" Scale="1.02916" Brightness="75"/>
+   <Instance Pos="6183.34,6037.6,102.589" Scale="0.881696" Brightness="75"/>
+   <Instance Pos="5979.85,6044.26,102.127" Scale="1.71265" Brightness="75"/>
+   <Instance Pos="5977.56,6040.19,101.246" Scale="1.89143" Brightness="75"/>
+   <Instance Pos="5978.12,6044.53,104.192" Scale="2.00376" Brightness="75"/>
+   <Instance Pos="5991.62,6044.96,100.988" Scale="1.80229" Brightness="75"/>
+   <Instance Pos="5986.53,6045.36,100.79" Scale="1.73038" Brightness="75"/>
+   <Instance Pos="5989.33,6047.64,102.826" Scale="1.82142" Brightness="75"/>
+   <Instance Pos="6177.31,6040.93,101.859" Scale="0.955863" Brightness="75"/>
+   <Instance Pos="6188.24,6042.56,101.845" Scale="0.93856" Brightness="75"/>
+   <Instance Pos="6030.02,6050.01,101.051" Scale="1.15526" Brightness="75"/>
+   <Instance Pos="6032.68,6051.67,102.264" Scale="1.0491" Brightness="75"/>
+   <Instance Pos="6036.22,6050.54,101.511" Scale="0.846824" Brightness="75"/>
+   <Instance Pos="5965.07,6058.03,109.368" Scale="1.8216" Brightness="75"/>
+   <Instance Pos="6102.18,6067.65,101.05" Scale="0.882798" Brightness="75"/>
+   <Instance Pos="6101.51,6070.98,101.042" Scale="1.05239" Brightness="75"/>
+   <Instance Pos="6106.04,6071.91,101.867" Scale="0.953682" Brightness="75"/>
+   <Instance Pos="6182.46,6070.13,102.133" Scale="1.00983" Brightness="75"/>
+   <Instance Pos="6188.05,6068.1,102.169" Scale="0.880464" Brightness="75"/>
+   <Instance Pos="6190.33,6067.68,101.958" Scale="0.937282" Brightness="75"/>
+   <Instance Pos="6198.19,6068.33,102.36" Scale="0.94869" Brightness="75"/>
+   <Instance Pos="6193.06,6065.27,101.856" Scale="1.18353" Brightness="75"/>
+   <Instance Pos="6192.76,6069.69,102.057" Scale="0.942089" Brightness="75"/>
+   <Instance Pos="6098.8,6073.81,101.007" Scale="0.895675" Brightness="75"/>
+   <Instance Pos="6096.46,6075.46,101.001" Scale="1.12302" Brightness="75"/>
+   <Instance Pos="6099.74,6075.13,101.007" Scale="0.833978" Brightness="75"/>
+   <Instance Pos="6104.83,6077.68,101.2" Scale="0.923909" Brightness="75"/>
+   <Instance Pos="6142.18,6076.68,106.162" Scale="1.12461" Brightness="75"/>
+   <Instance Pos="6178.6,6072.58,101.926" Scale="0.938313" Brightness="75"/>
+   <Instance Pos="6187.31,6073.1,102.789" Scale="0.977093" Brightness="75"/>
+   <Instance Pos="6185.69,6072.86,102.76" Scale="1.00712" Brightness="75"/>
+   <Instance Pos="6188.26,6073.11,102.763" Scale="0.844658" Brightness="75"/>
+   <Instance Pos="6103.66,6080.55,101.053" Scale="1.1155" Brightness="75"/>
+   <Instance Pos="6120.49,6081.98,105.504" Scale="1.10425" Brightness="75"/>
+   <Instance Pos="6127.81,6084.84,105.795" Scale="1.05072" Brightness="75"/>
+   <Instance Pos="6130.4,6083.29,105.924" Scale="0.838065" Brightness="75"/>
+   <Instance Pos="6009.71,6090,104.898" Scale="0.684876" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0.2" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="10" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="1" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="192" FileName="objects/natural/trees/banana_tree/bananatree_med_b.cgf" GUID="{7071AC55-C4B9-4742-839A-1CD4EF70FB10}" Hidden="0" Index="192" Category="Island_Road">
+  <Instances>
+   <Instance Pos="6056.83,5927.77,113.455" Scale="1.02571" Brightness="75"/>
+   <Instance Pos="6053.09,5941.92,109.679" Scale="0.987696" Brightness="75"/>
+   <Instance Pos="6056.7,5942.49,108.537" Scale="0.854812" Brightness="75"/>
+   <Instance Pos="6068.39,5936.28,108.181" Scale="1.14485" Brightness="75"/>
+   <Instance Pos="6007.85,5951.14,112.182" Scale="1.03934" Brightness="75"/>
+   <Instance Pos="6048.7,5950.92,107.602" Scale="1.11847" Brightness="75"/>
+   <Instance Pos="6058.22,5949.66,106.789" Scale="0.98741" Brightness="75"/>
+   <Instance Pos="6070.91,5948.19,105.673" Scale="1.15431" Brightness="75"/>
+   <Instance Pos="6072.42,5944.73,105.737" Scale="0.848244" Brightness="75"/>
+   <Instance Pos="5994.54,5957.72,113.127" Scale="1.1755" Brightness="75"/>
+   <Instance Pos="6012.49,5952.98,110.736" Scale="1.078" Brightness="75"/>
+   <Instance Pos="6009.09,5954.36,110.814" Scale="0.953505" Brightness="75"/>
+   <Instance Pos="6053.2,5953.79,106.774" Scale="1.00042" Brightness="75"/>
+   <Instance Pos="6058.12,5957.26,106.415" Scale="0.959087" Brightness="75"/>
+   <Instance Pos="6069.76,5953.44,105.909" Scale="1.10117" Brightness="75"/>
+   <Instance Pos="6074.61,5955.39,106.002" Scale="1.06135" Brightness="75"/>
+   <Instance Pos="6005.51,5960.3,108.891" Scale="1.02665" Brightness="75"/>
+   <Instance Pos="6012.61,5967.8,105.146" Scale="0.967389" Brightness="75"/>
+   <Instance Pos="6047.68,5960.6,106.327" Scale="0.913636" Brightness="75"/>
+   <Instance Pos="6006.44,5971.89,105.652" Scale="1.153" Brightness="75"/>
+   <Instance Pos="5984.23,5993.27,101.634" Scale="1.38828" Brightness="75"/>
+   <Instance Pos="5987.13,5998.43,101.477" Scale="1.46599" Brightness="75"/>
+   <Instance Pos="5948.66,6003.56,101.231" Scale="1.76926" Brightness="75"/>
+   <Instance Pos="5949.96,6007.39,101.1" Scale="2.11647" Brightness="75"/>
+   <Instance Pos="5944.47,6004.94,101.125" Scale="2.28347" Brightness="75"/>
+   <Instance Pos="5983.04,6002.79,100.824" Scale="1.24923" Brightness="75"/>
+   <Instance Pos="5991.55,6000.46,101.488" Scale="1.65387" Brightness="75"/>
+   <Instance Pos="5950.48,6010.89,101.07" Scale="1.70066" Brightness="75"/>
+   <Instance Pos="5945.43,6010.45,101.183" Scale="1.88461" Brightness="75"/>
+   <Instance Pos="6094.85,6012.98,103.294" Scale="0.968178" Brightness="75"/>
+   <Instance Pos="6091.5,6013.21,101.266" Scale="0.908045" Brightness="75"/>
+   <Instance Pos="6097.43,6013.13,103.425" Scale="1.33665" Brightness="75"/>
+   <Instance Pos="5953.74,6016.22,101.085" Scale="2.05513" Brightness="75"/>
+   <Instance Pos="5958.47,6021.85,101.093" Scale="1.98786" Brightness="75"/>
+   <Instance Pos="5957.96,6016.73,101.032" Scale="2.18218" Brightness="75"/>
+   <Instance Pos="5953.21,6021.07,103.605" Scale="2.4352" Brightness="75"/>
+   <Instance Pos="6012.87,6020.78,101.24" Scale="1.59003" Brightness="75"/>
+   <Instance Pos="6020.11,6020.71,102.107" Scale="1.17295" Brightness="75"/>
+   <Instance Pos="6016.87,6019.51,102.409" Scale="1.48571" Brightness="75"/>
+   <Instance Pos="6025.72,6022.31,101.188" Scale="1.57397" Brightness="75"/>
+   <Instance Pos="6094.17,6017.27,101.228" Scale="1.0714" Brightness="75"/>
+   <Instance Pos="6091.77,6021.17,100.796" Scale="0.920639" Brightness="75"/>
+   <Instance Pos="6102.89,6019.52,101.177" Scale="1.07409" Brightness="75"/>
+   <Instance Pos="6101.03,6023.23,100.927" Scale="1.16693" Brightness="75"/>
+   <Instance Pos="6104.58,6016.56,101.573" Scale="1.06479" Brightness="75"/>
+   <Instance Pos="6107.97,6017.08,100.988" Scale="1.1139" Brightness="75"/>
+   <Instance Pos="6125.57,6019.52,101.735" Scale="1.04925" Brightness="75"/>
+   <Instance Pos="6128.12,6021.29,101.742" Scale="0.859701" Brightness="75"/>
+   <Instance Pos="6138.57,6022.71,101.683" Scale="0.869576" Brightness="75"/>
+   <Instance Pos="5958.51,6026.84,104.026" Scale="1.88151" Brightness="75"/>
+   <Instance Pos="5958.86,6030.71,106.927" Scale="2.16425" Brightness="75"/>
+   <Instance Pos="5963.75,6030.99,101.615" Scale="1.75571" Brightness="75"/>
+   <Instance Pos="5967.63,6027.67,101.022" Scale="2.1712" Brightness="75"/>
+   <Instance Pos="5962.3,6025.77,101.093" Scale="2.37369" Brightness="75"/>
+   <Instance Pos="6015.19,6025.33,100.947" Scale="1.92007" Brightness="75"/>
+   <Instance Pos="6127.05,6028.37,101.291" Scale="1.15085" Brightness="75"/>
+   <Instance Pos="6124.41,6024.24,101.392" Scale="1.08001" Brightness="75"/>
+   <Instance Pos="6120.82,6024.56,101.239" Scale="0.870121" Brightness="75"/>
+   <Instance Pos="6129.97,6029.18,101.249" Scale="0.941873" Brightness="75"/>
+   <Instance Pos="6134.66,6028.64,101.237" Scale="1.10332" Brightness="75"/>
+   <Instance Pos="6143.01,6026.04,101.414" Scale="0.969243" Brightness="75"/>
+   <Instance Pos="6148.35,6026.59,101.504" Scale="1.16454" Brightness="75"/>
+   <Instance Pos="6154.31,6029.75,101.646" Scale="0.963282" Brightness="75"/>
+   <Instance Pos="6167.41,6029.16,102.118" Scale="0.953427" Brightness="75"/>
+   <Instance Pos="5968.52,6036.17,102.263" Scale="2.43647" Brightness="75"/>
+   <Instance Pos="5981.98,6033.51,100.967" Scale="1.92045" Brightness="75"/>
+   <Instance Pos="5979.44,6038.09,101.017" Scale="2.17481" Brightness="75"/>
+   <Instance Pos="5984.88,6037.25,100.952" Scale="1.88778" Brightness="75"/>
+   <Instance Pos="6158.33,6032.5,101.707" Scale="0.954204" Brightness="75"/>
+   <Instance Pos="6154.51,6036.16,101.661" Scale="1.01038" Brightness="75"/>
+   <Instance Pos="6166.28,6036.33,101.863" Scale="0.853076" Brightness="75"/>
+   <Instance Pos="6164.24,6036.2,101.85" Scale="0.873172" Brightness="75"/>
+   <Instance Pos="6170.96,6038.35,101.873" Scale="0.897362" Brightness="75"/>
+   <Instance Pos="6168.43,6032.11,101.959" Scale="0.916477" Brightness="75"/>
+   <Instance Pos="6170.37,6035.04,101.892" Scale="0.931495" Brightness="75"/>
+   <Instance Pos="6171.98,6032.08,102.042" Scale="1.19431" Brightness="75"/>
+   <Instance Pos="6182.88,6037.49,102.563" Scale="0.936232" Brightness="75"/>
+   <Instance Pos="5982.11,6042.2,101.012" Scale="1.76202" Brightness="75"/>
+   <Instance Pos="5977.77,6041.81,101.462" Scale="1.73549" Brightness="75"/>
+   <Instance Pos="5981.42,6041.32,101.032" Scale="1.7035" Brightness="75"/>
+   <Instance Pos="5989.94,6045.16,100.972" Scale="1.81568" Brightness="75"/>
+   <Instance Pos="5986.34,6044.96,100.714" Scale="1.70585" Brightness="75"/>
+   <Instance Pos="5994.09,6045.33,101.017" Scale="1.9629" Brightness="75"/>
+   <Instance Pos="5992.21,6047.75,102.407" Scale="2.0156" Brightness="75"/>
+   <Instance Pos="6030.49,6047.85,100.883" Scale="1.00217" Brightness="75"/>
+   <Instance Pos="6038.56,6047.41,100.873" Scale="1.15986" Brightness="75"/>
+   <Instance Pos="6181.18,6044.01,101.845" Scale="1.11841" Brightness="75"/>
+   <Instance Pos="5988.79,6050.17,105.929" Scale="1.91269" Brightness="75"/>
+   <Instance Pos="6031.42,6050.8,101.618" Scale="0.92264" Brightness="75"/>
+   <Instance Pos="6028.05,6051.26,101.604" Scale="1.0984" Brightness="75"/>
+   <Instance Pos="6095.23,6071.12,101.001" Scale="0.694306" Brightness="75"/>
+   <Instance Pos="6102.03,6065.78,101.038" Scale="0.926145" Brightness="75"/>
+   <Instance Pos="6099.61,6071.99,101.02" Scale="0.89371" Brightness="75"/>
+   <Instance Pos="6181.82,6066.28,101.967" Scale="0.885374" Brightness="75"/>
+   <Instance Pos="6182.63,6069.31,102.117" Scale="1.03233" Brightness="75"/>
+   <Instance Pos="6191.63,6069.25,102.079" Scale="1.00934" Brightness="75"/>
+   <Instance Pos="6197.78,6067.89,102.091" Scale="1.04418" Brightness="75"/>
+   <Instance Pos="6097.15,6077.2,101.001" Scale="1.06325" Brightness="75"/>
+   <Instance Pos="6100.95,6075.59,101.018" Scale="1.03113" Brightness="75"/>
+   <Instance Pos="6106.27,6079.01,101.678" Scale="1.05328" Brightness="75"/>
+   <Instance Pos="6105.78,6073.13,101.704" Scale="1.05699" Brightness="75"/>
+   <Instance Pos="6119.38,6076.54,105.508" Scale="0.928265" Brightness="75"/>
+   <Instance Pos="6122.78,6078.43,105.748" Scale="0.899767" Brightness="75"/>
+   <Instance Pos="6179.69,6072.8,101.959" Scale="0.941472" Brightness="75"/>
+   <Instance Pos="6189.84,6073.39,102.722" Scale="0.834598" Brightness="75"/>
+   <Instance Pos="6192.74,6072.78,102.485" Scale="0.999323" Brightness="75"/>
+   <Instance Pos="6122.62,6081.97,105.557" Scale="0.928033" Brightness="75"/>
+   <Instance Pos="6137.69,6084.44,105.497" Scale="1.03381" Brightness="75"/>
+   <Instance Pos="6136.13,6080.85,105.739" Scale="1.08162" Brightness="75"/>
+   <Instance Pos="6140.5,6085.8,105.386" Scale="0.873815" Brightness="75"/>
+   <Instance Pos="6010.92,6089.11,104.864" Scale="1.09744" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="1" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="193" FileName="objects/natural/ground_plants/grass/nicegrass_green_m.cgf" GUID="{0C199C05-A8CC-4D64-AB5F-EFD6E3FFAE2D}" Hidden="0" Index="193" Category="Island_Road"/>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="1" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="194" FileName="objects/natural/ground_plants/grass/toomb_grass_a.cgf" GUID="{4B686F03-0D5B-48FC-A047-376FC8AB2987}" Hidden="0" Index="194" Category="Island_Road">
+  <TerrainLayers>
+   <Layer Name="plains_grass_green"/>
+  </TerrainLayers>
+  <Instances>
+   <Instance Pos="5996.99,6023.57,101.077" Brightness="75"/>
+   <Instance Pos="5996.88,6023.28,101.08" Brightness="75"/>
+   <Instance Pos="5998.16,6023.44,101.067" Brightness="75"/>
+   <Instance Pos="5998.07,6023.92,101.072" Brightness="75"/>
+   <Instance Pos="5995.2,6023.25,101.067" Brightness="75"/>
+   <Instance Pos="5996.44,6022.98,101.081" Brightness="75"/>
+   <Instance Pos="5993.52,6023.65,101.057" Brightness="75"/>
+   <Instance Pos="5993.5,6022.77,101.052" Brightness="75"/>
+   <Instance Pos="5995.88,6022.97,101.077" Brightness="75"/>
+   <Instance Pos="5995.5,6022.24,101.079" Brightness="75"/>
+   <Instance Pos="5994.99,6022.24,101.069" Brightness="75"/>
+   <Instance Pos="5994.27,6023.39,101.06" Brightness="75"/>
+   <Instance Pos="5994.71,6023.93,101.063" Brightness="75"/>
+   <Instance Pos="5995.47,6022.83,101.073" Brightness="75"/>
+   <Instance Pos="5995.55,6023.18,101.071" Brightness="75"/>
+   <Instance Pos="5994.31,6022.82,101.058" Brightness="75"/>
+   <Instance Pos="5993.72,6023.26,101.055" Brightness="75"/>
+   <Instance Pos="5995.15,6022.61,101.07" Brightness="75"/>
+   <Instance Pos="5993.27,6024,101.057" Brightness="75"/>
+   <Instance Pos="5996.16,6022.51,101.086" Brightness="75"/>
+   <Instance Pos="5995.16,6023.59,101.065" Brightness="75"/>
+   <Instance Pos="5994.34,6022.46,101.057" Brightness="75"/>
+   <Instance Pos="5994.64,6022.87,101.062" Brightness="75"/>
+   <Instance Pos="5995.86,6023.9,101.064" Brightness="75"/>
+   <Instance Pos="5993.95,6022.42,101.05" Brightness="75"/>
+   <Instance Pos="5999.23,6027.36,101.058" Brightness="75"/>
+   <Instance Pos="5998.53,6027.2,101.064" Brightness="75"/>
+   <Instance Pos="5999.48,6027,101.053" Brightness="75"/>
+   <Instance Pos="5998.08,6026.97,101.069" Brightness="75"/>
+   <Instance Pos="5998.47,6027.93,101.063" Brightness="75"/>
+   <Instance Pos="5999.41,6026.54,101.05" Brightness="75"/>
+   <Instance Pos="5999.04,6026.39,101.056" Brightness="75"/>
+   <Instance Pos="5999.21,6025.83,101.042" Brightness="75"/>
+   <Instance Pos="5999.51,6025.32,101.003" Brightness="75"/>
+   <Instance Pos="5998.27,6025.28,101.064" Brightness="75"/>
+   <Instance Pos="5998.76,6025.93,101.058" Brightness="75"/>
+   <Instance Pos="5999.65,6025.64,101.017" Brightness="75"/>
+   <Instance Pos="5997.75,6026.59,101.074" Brightness="75"/>
+   <Instance Pos="5997.79,6025.47,101.077" Brightness="75"/>
+   <Instance Pos="5999.77,6028.01,101.063" Brightness="75"/>
+   <Instance Pos="5998.02,6024.44,101.076" Brightness="75"/>
+   <Instance Pos="5997.8,6026.29,101.076" Brightness="75"/>
+   <Instance Pos="5996.56,6025.12,101.073" Brightness="75"/>
+   <Instance Pos="5998.42,6024.1,101.037" Brightness="75"/>
+   <Instance Pos="5997.8,6024.86,101.077" Brightness="75"/>
+   <Instance Pos="5995.35,6025.14,101.068" Brightness="75"/>
+   <Instance Pos="5997.34,6024.52,101.074" Brightness="75"/>
+   <Instance Pos="5997.47,6025.95,101.078" Brightness="75"/>
+   <Instance Pos="5994.92,6024.32,101.064" Brightness="75"/>
+   <Instance Pos="5995.7,6024.51,101.066" Brightness="75"/>
+   <Instance Pos="5994.81,6024.93,101.065" Brightness="75"/>
+   <Instance Pos="5994.42,6025.4,101.065" Brightness="75"/>
+   <Instance Pos="5996.13,6025.43,101.074" Brightness="75"/>
+   <Instance Pos="5995.39,6025.5,101.07" Brightness="75"/>
+   <Instance Pos="5996.86,6024.45,101.071" Brightness="75"/>
+   <Instance Pos="5993.93,6025.33,101.062" Brightness="75"/>
+   <Instance Pos="5995.28,6024.05,101.063" Brightness="75"/>
+   <Instance Pos="5996.15,6024.26,101.066" Brightness="75"/>
+   <Instance Pos="5996.12,6024.96,101.07" Brightness="75"/>
+   <Instance Pos="5994.26,6024.74,101.063" Brightness="75"/>
+   <Instance Pos="5995.41,6025.86,101.073" Brightness="75"/>
+   <Instance Pos="6002.56,6029.15,100.686" Brightness="75"/>
+   <Instance Pos="6002.68,6029.44,100.814" Brightness="75"/>
+   <Instance Pos="6003.61,6029.92,101.042" Brightness="75"/>
+   <Instance Pos="6003.89,6029.35,100.713" Brightness="75"/>
+   <Instance Pos="6003.03,6029.33,100.745" Brightness="75"/>
+   <Instance Pos="6004.6,6030.13,101.044" Brightness="75"/>
+   <Instance Pos="6003.25,6029.65,100.9" Brightness="75"/>
+   <Instance Pos="6002.98,6030.2,101.077" Brightness="75"/>
+   <Instance Pos="6002.09,6029.53,100.871" Brightness="75"/>
+   <Instance Pos="6004.64,6030.61,101.053" Brightness="75"/>
+   <Instance Pos="6003.42,6030.48,101.084" Brightness="75"/>
+   <Instance Pos="6005.6,6030.76,101.003" Brightness="75"/>
+   <Instance Pos="6005,6030.41,101.023" Brightness="75"/>
+   <Instance Pos="6004.17,6030.35,101.081" Brightness="75"/>
+   <Instance Pos="6005.69,6030.28,100.967" Brightness="75"/>
+   <Instance Pos="6005.95,6030.66,100.976" Brightness="75"/>
+   <Instance Pos="6003.88,6030.29,101.091" Brightness="75"/>
+   <Instance Pos="6002.34,6028.37,100.366" Brightness="75"/>
+   <Instance Pos="6001.44,6027.78,100.463" Brightness="75"/>
+   <Instance Pos="6000.44,6028.58,100.94" Brightness="75"/>
+   <Instance Pos="6000.25,6027.45,100.944" Brightness="75"/>
+   <Instance Pos="6000.64,6028.97,100.931" Brightness="75"/>
+   <Instance Pos="6001.68,6029.32,100.834" Brightness="75"/>
+   <Instance Pos="6001.15,6027.67,100.572" Brightness="75"/>
+   <Instance Pos="6001.78,6027.21,100.236" Brightness="75"/>
+   <Instance Pos="6000.1,6027.94,101.023" Brightness="75"/>
+   <Instance Pos="6001.23,6026.47,100.41" Brightness="75"/>
+   <Instance Pos="6001.68,6028.33,100.505" Brightness="75"/>
+   <Instance Pos="6000.18,6028.27,101" Brightness="75"/>
+   <Instance Pos="6000.8,6027.41,100.699" Brightness="75"/>
+   <Instance Pos="6000.24,6025.71,100.88" Brightness="75"/>
+   <Instance Pos="6004.31,6030.77,101.076" Brightness="75"/>
+   <Instance Pos="6005.64,6031.09,101.022" Brightness="75"/>
+   <Instance Pos="6006.56,6031.68,101.051" Brightness="75"/>
+   <Instance Pos="6006.35,6030.88,100.992" Brightness="75"/>
+   <Instance Pos="6006.2,6030.27,100.945" Brightness="75"/>
+   <Instance Pos="6006.34,6031.2,101.016" Brightness="75"/>
+   <Instance Pos="6003.32,6030.18,101.083" Brightness="75"/>
+   <Instance Pos="6008.74,6031.01,100.994" Brightness="75"/>
+   <Instance Pos="6011,6031.11,100.945" Brightness="75"/>
+   <Instance Pos="6010.74,6031.64,100.982" Brightness="75"/>
+   <Instance Pos="6010.91,6030.21,100.898" Brightness="75"/>
+   <Instance Pos="6010.42,6030.82,100.948" Brightness="75"/>
+   <Instance Pos="6011.33,6030.59,100.904" Brightness="75"/>
+   <Instance Pos="6011.62,6031.38,100.941" Brightness="75"/>
+   <Instance Pos="6011.64,6030.86,100.91" Brightness="75"/>
+   <Instance Pos="6010.3,6030.38,100.93" Brightness="75"/>
+   <Instance Pos="6011.39,6030.18,100.879" Brightness="75"/>
+   <Instance Pos="6012.22,6029.79,100.85" Brightness="75"/>
+   <Instance Pos="6012.37,6031.48,100.928" Brightness="75"/>
+   <Instance Pos="6013.62,6030.78,100.866" Brightness="75"/>
+   <Instance Pos="6012.48,6030.09,100.845" Brightness="75"/>
+   <Instance Pos="6013.4,6030.48,100.854" Brightness="75"/>
+   <Instance Pos="6012.31,6031.14,100.909" Brightness="75"/>
+   <Instance Pos="6013.8,6031.71,100.909" Brightness="75"/>
+   <Instance Pos="6012.19,6030.8,100.891" Brightness="75"/>
+   <Instance Pos="6012.65,6030.71,100.878" Brightness="75"/>
+   <Instance Pos="6013.12,6029.65,100.848" Brightness="75"/>
+   <Instance Pos="6011.41,6031.89,100.977" Brightness="75"/>
+   <Instance Pos="6011.91,6031.58,100.944" Brightness="75"/>
+   <Instance Pos="6012.27,6031.99,100.96" Brightness="75"/>
+   <Instance Pos="6012.55,6029.58,100.855" Brightness="75"/>
+   <Instance Pos="6010.7,6031.35,100.967" Brightness="75"/>
+   <Instance Pos="6010.26,6031.84,101.005" Brightness="75"/>
+   <Instance Pos="6013.45,6031.45,100.903" Brightness="75"/>
+   <Instance Pos="6012.46,6030.39,100.863" Brightness="75"/>
+   <Instance Pos="6010.18,6031.54,100.993" Brightness="75"/>
+   <Instance Pos="6010.54,6029.86,100.901" Brightness="75"/>
+   <Instance Pos="6013.3,6031.86,100.928" Brightness="75"/>
+   <Instance Pos="6012.84,6030.27,100.851" Brightness="75"/>
+   <Instance Pos="6012.86,6031.93,100.942" Brightness="75"/>
+   <Instance Pos="6011.92,6029.81,100.855" Brightness="75"/>
+   <Instance Pos="6011.52,6029.35,100.879" Brightness="75"/>
+   <Instance Pos="6011.54,6029.79,100.868" Brightness="75"/>
+   <Instance Pos="6012.94,6030.57,100.866" Brightness="75"/>
+   <Instance Pos="6009.85,6030.38,100.943" Brightness="75"/>
+   <Instance Pos="6010.48,6028.68,100.903" Brightness="75"/>
+   <Instance Pos="6009.7,6028.65,100.87" Brightness="75"/>
+   <Instance Pos="6010.02,6031.25,100.983" Brightness="75"/>
+   <Instance Pos="6009.52,6029,100.868" Brightness="75"/>
+   <Instance Pos="6012.73,6029.27,100.867" Brightness="75"/>
+   <Instance Pos="6009.48,6031.07,100.984" Brightness="75"/>
+   <Instance Pos="6010.19,6029.09,100.908" Brightness="75"/>
+   <Instance Pos="6009.18,6030.61,100.966" Brightness="75"/>
+   <Instance Pos="6009.68,6030.07,100.93" Brightness="75"/>
+   <Instance Pos="6010.22,6028.21,100.902" Brightness="75"/>
+   <Instance Pos="6009.58,6029.45,100.898" Brightness="75"/>
+   <Instance Pos="6011.05,6028.26,100.903" Brightness="75"/>
+   <Instance Pos="6012.32,6029.09,100.875" Brightness="75"/>
+   <Instance Pos="6010.54,6028.31,100.902" Brightness="75"/>
+   <Instance Pos="6010.78,6030.65,100.927" Brightness="75"/>
+   <Instance Pos="6012.02,6028.57,100.894" Brightness="75"/>
+   <Instance Pos="6011.6,6028.85,100.889" Brightness="75"/>
+   <Instance Pos="6006.34,6032.33,101.073" Brightness="75"/>
+   <Instance Pos="6012.3,6032.98,100.98" Brightness="75"/>
+   <Instance Pos="6011.66,6032.88,100.991" Brightness="75"/>
+   <Instance Pos="6012.65,6032.64,100.965" Brightness="75"/>
+   <Instance Pos="6010.69,6032.41,101.006" Brightness="75"/>
+   <Instance Pos="6012.26,6032.65,100.974" Brightness="75"/>
+   <Instance Pos="6011.9,6032.01,100.97" Brightness="75"/>
+   <Instance Pos="6013.09,6032.45,100.951" Brightness="75"/>
+   <Instance Pos="6011.83,6032.47,100.98" Brightness="75"/>
+   <Instance Pos="5998.94,6043.21,101.042" Brightness="75"/>
+   <Instance Pos="5999.16,6042.67,101.048" Brightness="75"/>
+   <Instance Pos="5999.02,6044.54,101.076" Brightness="75"/>
+   <Instance Pos="5999.44,6044.85,101.101" Brightness="75"/>
+   <Instance Pos="5998.89,6042.01,101.044" Brightness="75"/>
+   <Instance Pos="5997.49,6043.5,101.023" Brightness="75"/>
+   <Instance Pos="5998.36,6043.3,101.032" Brightness="75"/>
+   <Instance Pos="5997.68,6045.36,101.108" Brightness="75"/>
+   <Instance Pos="5999.11,6045.45,101.138" Brightness="75"/>
+   <Instance Pos="5998.45,6044.05,101.039" Brightness="75"/>
+   <Instance Pos="5998.32,6042.41,101.028" Brightness="75"/>
+   <Instance Pos="5999.01,6042.31,101.046" Brightness="75"/>
+   <Instance Pos="5998.69,6043.52,101.037" Brightness="75"/>
+   <Instance Pos="5998.03,6043.46,101.028" Brightness="75"/>
+   <Instance Pos="5999.07,6043.66,101.042" Brightness="75"/>
+   <Instance Pos="5997.01,6043.95,101.024" Brightness="75"/>
+   <Instance Pos="5999.81,6045.38,101.142" Brightness="75"/>
+   <Instance Pos="5999.78,6043.16,101.056" Brightness="75"/>
+   <Instance Pos="5999.42,6043,101.051" Brightness="75"/>
+   <Instance Pos="5998.48,6045.47,101.131" Brightness="75"/>
+   <Instance Pos="5998.11,6043.75,101.031" Brightness="75"/>
+   <Instance Pos="5997.44,6043.12,101.019" Brightness="75"/>
+   <Instance Pos="5999.01,6044.17,101.051" Brightness="75"/>
+   <Instance Pos="5998.32,6045.05,101.101" Brightness="75"/>
+   <Instance Pos="5999.43,6041.61,101.065" Brightness="75"/>
+   <Instance Pos="5998.68,6044.44,101.066" Brightness="75"/>
+   <Instance Pos="5998.15,6042.98,101.027" Brightness="75"/>
+   <Instance Pos="6005.44,6046.24,100.988" Brightness="75"/>
+   <Instance Pos="6003.59,6045.45,101.032" Brightness="75"/>
+   <Instance Pos="6004.63,6043.46,101.048" Brightness="75"/>
+   <Instance Pos="6003.81,6044.33,101.042" Brightness="75"/>
+   <Instance Pos="6004.02,6045.44,101.014" Brightness="75"/>
+   <Instance Pos="6004.9,6045.76,100.993" Brightness="75"/>
+   <Instance Pos="6004.34,6046.45,101.014" Brightness="75"/>
+   <Instance Pos="6004.44,6045.73,101.001" Brightness="75"/>
+   <Instance Pos="6005.43,6045.58,100.991" Brightness="75"/>
+   <Instance Pos="6003.57,6043.89,101.048" Brightness="75"/>
+   <Instance Pos="6005.35,6043.71,101.044" Brightness="75"/>
+   <Instance Pos="6004.1,6043.72,101.049" Brightness="75"/>
+   <Instance Pos="6004.22,6044.24,101.041" Brightness="75"/>
+   <Instance Pos="6004.53,6044.02,101.045" Brightness="75"/>
+   <Instance Pos="6006.22,6046.33,100.983" Brightness="75"/>
+   <Instance Pos="6005.57,6044.17,101.036" Brightness="75"/>
+   <Instance Pos="6004.37,6046.87,101.029" Brightness="75"/>
+   <Instance Pos="6006.75,6045.08,100.994" Brightness="75"/>
+   <Instance Pos="6005.82,6045.35,100.993" Brightness="75"/>
+   <Instance Pos="6004.87,6046.17,100.994" Brightness="75"/>
+   <Instance Pos="6005.46,6046.6,101.002" Brightness="75"/>
+   <Instance Pos="6003.69,6046.41,101.04" Brightness="75"/>
+   <Instance Pos="6003.61,6045.77,101.028" Brightness="75"/>
+   <Instance Pos="6006.74,6045.91,100.967" Brightness="75"/>
+   <Instance Pos="6004.74,6044.97,101.017" Brightness="75"/>
+   <Instance Pos="6006.82,6045.54,100.979" Brightness="75"/>
+   <Instance Pos="6005.92,6043.93,101.04" Brightness="75"/>
+   <Instance Pos="6003.26,6045.35,101.047" Brightness="75"/>
+   <Instance Pos="6006.46,6045.35,100.988" Brightness="75"/>
+   <Instance Pos="6004.61,6044.57,101.03" Brightness="75"/>
+   <Instance Pos="6006.8,6044.13,101.025" Brightness="75"/>
+   <Instance Pos="6003.15,6045.72,101.053" Brightness="75"/>
+   <Instance Pos="6005.01,6043.38,101.047" Brightness="75"/>
+   <Instance Pos="6005.85,6045.94,100.972" Brightness="75"/>
+   <Instance Pos="6004.63,6045.34,101.009" Brightness="75"/>
+   <Instance Pos="6005.82,6043.58,101.042" Brightness="75"/>
+   <Instance Pos="6005.62,6044.81,101.014" Brightness="75"/>
+   <Instance Pos="6006.3,6044.73,101.01" Brightness="75"/>
+   <Instance Pos="6005.96,6044.5,101.022" Brightness="75"/>
+   <Instance Pos="6006.48,6044.39,101.02" Brightness="75"/>
+   <Instance Pos="6004.19,6043.18,101.053" Brightness="75"/>
+   <Instance Pos="6004.82,6046.85,101.023" Brightness="75"/>
+   <Instance Pos="6000.2,6044.34,101.07" Brightness="75"/>
+   <Instance Pos="6000.71,6044.07,101.052" Brightness="75"/>
+   <Instance Pos="6000.13,6043.18,101.06" Brightness="75"/>
+   <Instance Pos="6000.02,6044.81,101.104" Brightness="75"/>
+   <Instance Pos="6000.86,6044.45,101.073" Brightness="75"/>
+   <Instance Pos="6000.79,6043.25,101.059" Brightness="75"/>
+   <Instance Pos="6000.36,6044.92,101.107" Brightness="75"/>
+   <Instance Pos="6001.6,6042.02,101.078" Brightness="75"/>
+   <Instance Pos="6001.34,6043.54,101.054" Brightness="75"/>
+   <Instance Pos="6000.84,6042.11,101.076" Brightness="75"/>
+   <Instance Pos="6000.06,6043.55,101.054" Brightness="75"/>
+   <Instance Pos="6001.62,6042.72,101.067" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="1" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="1" MaxViewDistRatio="1" Material="" UseSprites="1" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="195" FileName="objects/natural/ground_plants/grass/toomb_grass_a_dry.cgf" GUID="{D5A72FD0-E34A-492A-B3CD-06BE80B8CCF7}" Hidden="0" Index="195" Category="Island_Road">
+  <Instances>
+   <Instance Pos="6014.72,6032.37,100.919" Brightness="75"/>
+   <Instance Pos="6014.26,6032.56,100.93" Brightness="75"/>
+   <Instance Pos="6013.73,6032.84,100.947" Brightness="75"/>
+   <Instance Pos="6014.36,6032.11,100.916" Brightness="75"/>
+   <Instance Pos="6015.86,6032.68,100.913" Brightness="75"/>
+   <Instance Pos="6014.65,6032.07,100.91" Brightness="75"/>
+   <Instance Pos="6015.4,6032.78,100.922" Brightness="75"/>
+   <Instance Pos="6012.66,6032.86,100.97" Brightness="75"/>
+   <Instance Pos="6014.89,6032.77,100.928" Brightness="75"/>
+   <Instance Pos="6008.99,6032.64,101.04" Brightness="75"/>
+   <Instance Pos="6008.65,6032.44,101.047" Brightness="75"/>
+   <Instance Pos="6010.37,6032.56,101.014" Brightness="75"/>
+   <Instance Pos="6008.61,6032.09,101.049" Brightness="75"/>
+   <Instance Pos="6017.59,6033.69,100.933" Brightness="75"/>
+   <Instance Pos="6016.22,6032.48,100.903" Brightness="75"/>
+   <Instance Pos="6016.76,6033.18,100.922" Brightness="75"/>
+   <Instance Pos="6017.17,6033.31,100.924" Brightness="75"/>
+   <Instance Pos="6017.36,6032.14,100.885" Brightness="75"/>
+   <Instance Pos="6017.58,6033.41,100.924" Brightness="75"/>
+   <Instance Pos="6017.86,6032.71,100.9" Brightness="75"/>
+   <Instance Pos="6018.35,6032.69,100.897" Brightness="75"/>
+   <Instance Pos="6018.47,6033.27,100.915" Brightness="75"/>
+   <Instance Pos="6017.45,6032.56,100.898" Brightness="75"/>
+   <Instance Pos="6018.6,6033.66,100.926" Brightness="75"/>
+   <Instance Pos="6018.04,6033.28,100.917" Brightness="75"/>
+   <Instance Pos="6016.64,6032.34,100.896" Brightness="75"/>
+   <Instance Pos="6007.91,6043.52,101.017" Brightness="75"/>
+   <Instance Pos="6007.58,6043.45,101.021" Brightness="75"/>
+   <Instance Pos="6007.1,6042.88,101.03" Brightness="75"/>
+   <Instance Pos="6011.4,6043.86,100.975" Brightness="75"/>
+   <Instance Pos="6011.51,6043.47,100.978" Brightness="75"/>
+   <Instance Pos="6008.18,6043.19,101.015" Brightness="75"/>
+   <Instance Pos="6008.13,6043.91,101.012" Brightness="75"/>
+   <Instance Pos="6008.89,6043.41,101.006" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="1" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="1" MaxViewDistRatio="1" Material="" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="196" FileName="objects/natural/trees/thin_leave_tree/thin_leave_tree_big_grey_green_120_deg.cgf" GUID="{5D14CD70-F5D8-46A8-91F8-28113475EFAE}" Hidden="0" Index="196" Category="Island_Road">
+  <Instances>
+   <Instance Pos="5933.9,5970.11,103.507" Brightness="75"/>
+   <Instance Pos="5969.65,5975.56,103.037" Brightness="75"/>
+   <Instance Pos="5942.6,5997.22,101.648" Brightness="75"/>
+   <Instance Pos="6001.28,5992.29,102.167" Brightness="75"/>
+   <Instance Pos="6086.14,6005.48,101.204" Brightness="75"/>
+   <Instance Pos="6133.71,6003.23,101.907" Brightness="75"/>
+   <Instance Pos="6157.03,6002.96,102.767" Scale="0.73" Brightness="75"/>
+   <Instance Pos="6201.83,6003.36,101.979" Brightness="75"/>
+   <Instance Pos="5957.17,6021.6,101.266" Scale="0.82" Brightness="75"/>
+   <Instance Pos="6100.55,6016.26,101.716" Brightness="75"/>
+   <Instance Pos="6128.62,6018.97,101.773" Brightness="75"/>
+   <Instance Pos="5921.61,6030.03,108.26" Scale="1.27" Brightness="75"/>
+   <Instance Pos="6168.33,6030.93,102.057" Scale="0.72" Brightness="75"/>
+   <Instance Pos="5939.26,6041.8,108.464" Scale="1.088" Brightness="75"/>
+   <Instance Pos="5952.85,6049.74,109.694" Scale="0.7625" Brightness="75"/>
+   <Instance Pos="5999.29,6051.4,102.771" Scale="0.67" Brightness="75"/>
+   <Instance Pos="6006.06,6051.56,101.776" Scale="0.80343" Brightness="75" Angle="29"/>
+   <Instance Pos="6020.67,6054.83,103.201" Brightness="75"/>
+   <Instance Pos="5966.4,6057.19,108.231" Scale="0.6364" Brightness="75"/>
+   <Instance Pos="6188.23,6077.92,103.394" Brightness="75"/>
+   <Instance Pos="5955.27,6086.7,115.342" Scale="0.84" Brightness="75"/>
+   <Instance Pos="6172.42,6085.57,101.926" Brightness="75"/>
+   <Instance Pos="5938.71,6117.44,116.395" Scale="1.19" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1" SizeVar="0.3" RandomRotation="0" AlignToTerrain="1" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="2" MaxViewDistRatio="1" Material="" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="197" FileName="objects/natural/ground_plants/small_leaves/small_leaves_bunch_big_a.cgf" GUID="{751F8318-9333-4786-BD34-1857E969DAA9}" Hidden="0" Index="197" Category="Island_Road">
+  <Instances>
+   <Instance Pos="2.54102,1.04053,112.633" Scale="1.39978" Brightness="75"/>
+   <Instance Pos="6061.51,5999.01,107.379" Scale="1.19164" Brightness="75"/>
+   <Instance Pos="6056.39,5999.25,108.001" Scale="1.41605" Brightness="75"/>
+   <Instance Pos="6066.89,5995.46,108.234" Scale="1.86179" Brightness="75"/>
+   <Instance Pos="6072.48,5994.79,108.244" Scale="1.69959" Brightness="75"/>
+   <Instance Pos="5987.21,6007.92,100.671" Scale="1.50115" Brightness="75"/>
+   <Instance Pos="6038.68,6001.55,108.937" Scale="1.49138" Brightness="75"/>
+   <Instance Pos="6037.54,6001.01,109.527" Scale="1.54881" Brightness="75"/>
+   <Instance Pos="6046.49,6007.25,100.922" Scale="1.16983" Brightness="75"/>
+   <Instance Pos="6040.94,6000.76,108.264" Scale="1.1247" Brightness="75"/>
+   <Instance Pos="6052.18,6007.87,100.843" Scale="1.6805" Brightness="75"/>
+   <Instance Pos="6053.96,6001.28,107.567" Scale="1.2046" Brightness="75"/>
+   <Instance Pos="6069.66,6004.9,100.785" Scale="1.63335" Brightness="75"/>
+   <Instance Pos="6078.92,6003.91,100.784" Scale="1.47407" Brightness="75"/>
+   <Instance Pos="5992.78,6015.02,101.04" Scale="1.66131" Brightness="75"/>
+   <Instance Pos="5998.18,6012.92,101.17" Scale="1.28119" Brightness="75"/>
+   <Instance Pos="5994.3,6008.15,101.484" Scale="1.33165" Brightness="75"/>
+   <Instance Pos="6002.42,6015.24,101.228" Scale="1.22865" Brightness="75"/>
+   <Instance Pos="6036.27,6010.98,100.989" Scale="1.69304" Brightness="75"/>
+   <Instance Pos="6032.33,6014.48,100.9" Scale="1.7972" Brightness="75"/>
+   <Instance Pos="6067.04,6009.75,100.78" Scale="1.5508" Brightness="75"/>
+   <Instance Pos="6087.12,6009.58,100.8" Scale="1.39726" Brightness="75"/>
+   <Instance Pos="5998.93,6021.71,100.891" Scale="1.46995" Brightness="75"/>
+   <Instance Pos="6006.92,6020.36,101.138" Scale="1.31299" Brightness="75"/>
+   <Instance Pos="6014.88,6020.36,101.567" Scale="1.12612" Brightness="75"/>
+   <Instance Pos="6009.83,6019.64,101.285" Scale="1.57812" Brightness="75"/>
+   <Instance Pos="6017.99,6022.34,101.197" Scale="1.65679" Brightness="75"/>
+   <Instance Pos="6032.02,6021.62,100.924" Scale="1.17173" Brightness="75"/>
+   <Instance Pos="6091.35,6020.88,100.798" Scale="1.35777" Brightness="75"/>
+   <Instance Pos="6092.71,6017.9,100.974" Scale="1.84995" Brightness="75"/>
+   <Instance Pos="6102.44,6019.3,101.172" Scale="1.39029" Brightness="75"/>
+   <Instance Pos="6096.33,6021.24,100.896" Scale="1.348" Brightness="75"/>
+   <Instance Pos="5980.89,6030.65,100.967" Scale="1.47" Brightness="75"/>
+   <Instance Pos="6007.31,6029,100.71" Scale="0.69" Brightness="75"/>
+   <Instance Pos="6015.05,6027.77,100.931" Scale="1.14533" Brightness="75"/>
+   <Instance Pos="6009.18,6027.24,100.79" Scale="1.32603" Brightness="75"/>
+   <Instance Pos="6022.44,6029.23,100.894" Scale="0.987715" Brightness="75"/>
+   <Instance Pos="6022.42,6024.99,101.027" Scale="1.54424" Brightness="75"/>
+   <Instance Pos="6027.21,6028.41,101.047" Scale="1.21517" Brightness="75"/>
+   <Instance Pos="6035.46,6028.25,100.768" Scale="1.22774" Brightness="75"/>
+   <Instance Pos="6119.43,6028.75,101.156" Scale="1.40774" Brightness="75"/>
+   <Instance Pos="6124.04,6026.94,101.3" Scale="1.81806" Brightness="75"/>
+   <Instance Pos="6127.68,6029.61,101.223" Scale="1.74594" Brightness="75"/>
+   <Instance Pos="6138.29,6030.43,101.132" Scale="1.85985" Brightness="75"/>
+   <Instance Pos="6145.92,6027.02,101.434" Scale="1.37098" Brightness="75"/>
+   <Instance Pos="6147.17,6031.89,101.282" Scale="1.79874" Brightness="75"/>
+   <Instance Pos="6159.82,6036.19,101.753" Scale="1.8508" Brightness="75"/>
+   <Instance Pos="6153.25,6034.9,101.6" Scale="1.38412" Brightness="75"/>
+   <Instance Pos="6162.45,6038.72,101.873" Scale="1.18577" Brightness="75"/>
+   <Instance Pos="5998.58,6044.58,101.074" Scale="1.573" Brightness="75"/>
+   <Instance Pos="5994.77,6043.45,100.865" Scale="2.86" Brightness="75"/>
+   <Instance Pos="6002.41,6045.78,101.093" Scale="1.47" Brightness="75"/>
+   <Instance Pos="6003.9,6046.78,101.039" Brightness="75"/>
+   <Instance Pos="6007.72,6047.74,101.112" Scale="1.02" Brightness="75"/>
+   <Instance Pos="6011.15,6046.38,101.034" Scale="0.86" Brightness="75"/>
+   <Instance Pos="6111.8,6045.31,101.01" Scale="1.00236" Brightness="75"/>
+   <Instance Pos="6104.69,6046.47,100.855" Scale="1.28292" Brightness="75"/>
+   <Instance Pos="6120.33,6046.61,101.171" Scale="0.843877" Brightness="75"/>
+   <Instance Pos="6173.95,6041.86,101.859" Scale="1.42232" Brightness="75"/>
+   <Instance Pos="6100.21,6053.69,101.032" Scale="1.27203" Brightness="75"/>
+   <Instance Pos="6101.59,6048.36,100.848" Scale="1.18283" Brightness="75"/>
+   <Instance Pos="6106.31,6051.55,104.586" Scale="1.09054" Brightness="75"/>
+   <Instance Pos="6107.53,6049.26,103.569" Scale="0.82736" Brightness="75"/>
+   <Instance Pos="6107.4,6054.05,105.589" Scale="1.47319" Brightness="75"/>
+   <Instance Pos="6127.4,6049.7,105.021" Scale="0.97674" Brightness="75"/>
+   <Instance Pos="6130.04,6048.06,102.188" Scale="1.01836" Brightness="75"/>
+   <Instance Pos="6103.74,6059.96,101.154" Scale="0.996378" Brightness="75"/>
+   <Instance Pos="6103.19,6063.52,101.067" Scale="1.24635" Brightness="75"/>
+   <Instance Pos="6108.02,6061.47,105.479" Scale="0.808377" Brightness="75"/>
+   <Instance Pos="6107.84,6063.72,105.381" Scale="0.781874" Brightness="75"/>
+   <Instance Pos="6107.87,6058.94,105.023" Scale="1.19462" Brightness="75"/>
+   <Instance Pos="5988.46,6071.64,112.372" Scale="1.23202" Brightness="75"/>
+   <Instance Pos="5990.6,6068.14,111.777" Scale="1.18032" Brightness="75"/>
+   <Instance Pos="6047.72,6071.94,101.255" Scale="1.27544" Brightness="75"/>
+   <Instance Pos="6101.25,6067.76,101.029" Scale="1.73459" Brightness="75"/>
+   <Instance Pos="6107.77,6071.9,106.059" Scale="0.998948" Brightness="75"/>
+   <Instance Pos="5985.42,6078.61,111.896" Scale="1.793" Brightness="75"/>
+   <Instance Pos="5987.23,6075.02,111.945" Scale="1.61405" Brightness="75"/>
+   <Instance Pos="6087.15,6077.57,101.001" Scale="0.967982" Brightness="75"/>
+   <Instance Pos="6100.41,6075.88,101.008" Scale="1.81342" Brightness="75"/>
+   <Instance Pos="6103.02,6072.72,101.077" Scale="1.87568" Brightness="75"/>
+   <Instance Pos="5983.12,6086.1,112.293" Scale="1.72248" Brightness="75"/>
+   <Instance Pos="5983.71,6082.55,112.145" Scale="1.63266" Brightness="75"/>
+   <Instance Pos="6043.18,6085.93,101.699" Scale="1.12597" Brightness="75"/>
+   <Instance Pos="6046.22,6087.38,101.953" Scale="0.814016" Brightness="75"/>
+   <Instance Pos="6068.02,6083.8,101.055" Scale="0.853307" Brightness="75"/>
+   <Instance Pos="6083.56,6082.29,101.004" Scale="0.667573" Brightness="75"/>
+   <Instance Pos="6103.26,6085.35,101.301" Scale="0.842147" Brightness="75"/>
+   <Instance Pos="6103.18,6081,101.053" Scale="1.44855" Brightness="75"/>
+   <Instance Pos="6111.12,6081.89,106.737" Scale="1.07858" Brightness="75"/>
+   <Instance Pos="6109.79,6087.99,106.539" Scale="0.950642" Brightness="75"/>
+   <Instance Pos="5983.02,6091.96,112.905" Scale="1.47312" Brightness="75"/>
+   <Instance Pos="5983.48,6095.35,112.775" Scale="1.34144" Brightness="75"/>
+   <Instance Pos="5982.48,6089.39,113.118" Scale="1.18009" Brightness="75"/>
+   <Instance Pos="5991.02,6095.2,104.585" Scale="1.5303" Brightness="75"/>
+   <Instance Pos="5989.05,6092.84,104.738" Scale="1.49908" Brightness="75"/>
+   <Instance Pos="5989.71,6092.55,103.682" Scale="1.86294" Brightness="75"/>
+   <Instance Pos="6035.53,6093.69,106.524" Scale="1.64007" Brightness="75"/>
+   <Instance Pos="6051.71,6093.54,102.04" Scale="0.886522" Brightness="75"/>
+   <Instance Pos="6058.38,6094.11,102.191" Scale="0.8135" Brightness="75"/>
+   <Instance Pos="6061.49,6088.37,101.339" Scale="0.822314" Brightness="75"/>
+   <Instance Pos="6061.63,6092.89,102.107" Scale="0.854868" Brightness="75"/>
+   <Instance Pos="6070.39,6092.82,102.293" Scale="0.938173" Brightness="75"/>
+   <Instance Pos="6102.36,6088.65,101.382" Scale="0.996378" Brightness="75"/>
+   <Instance Pos="5985.33,6097.97,112.535" Scale="1.38482" Brightness="75"/>
+   <Instance Pos="5986.93,6099.91,112.429" Scale="1.88351" Brightness="75"/>
+   <Instance Pos="5989.15,6102.4,112.416" Scale="1.33094" Brightness="75"/>
+   <Instance Pos="5993.78,6097.71,103.924" Scale="1.6745" Brightness="75"/>
+   <Instance Pos="5990.72,6104.39,111.964" Scale="1.15735" Brightness="75"/>
+   <Instance Pos="5990.98,6107.8,112.635" Scale="1.37136" Brightness="75"/>
+   <Instance Pos="5992.58,6111.09,112.761" Scale="1.237" Brightness="75"/>
+   <Instance Pos="5998.25,6118.73,113.743" Scale="1.36843" Brightness="75"/>
+   <Instance Pos="5995.97,6115.64,113.74" Scale="1.47581" Brightness="75"/>
+   <Instance Pos="6012.63,6119.86,106.399" Scale="1.8332" Brightness="75"/>
+   <Instance Pos="6037.25,6115.95,113.349" Scale="1.36011" Brightness="75"/>
+   <Instance Pos="6033.6,6116.12,112.566" Scale="1.4113" Brightness="75"/>
+   <Instance Pos="6040.84,6115.07,113.259" Scale="1.18032" Brightness="75"/>
+   <Instance Pos="6005.96,6123.11,112.601" Scale="1.58099" Brightness="75"/>
+   <Instance Pos="6001.56,6121.67,113.797" Scale="1.29612" Brightness="75"/>
+   <Instance Pos="6016.35,6125.41,112.72" Scale="1.48341" Brightness="75"/>
+   <Instance Pos="6019.17,6125.28,112.885" Scale="1.25159" Brightness="75"/>
+   <Instance Pos="6023.18,6124.38,113.266" Scale="1.1477" Brightness="75"/>
+   <Instance Pos="6031.04,6121.85,113.449" Scale="1.82685" Brightness="75"/>
+   <Instance Pos="6026.38,6122.52,112.758" Scale="1.42704" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+ <VegetationObject Size="1.5" SizeVar="0.2" RandomRotation="0" AlignToTerrain="0" UseTerrainColor="0" Bending="0" ComplexBending="0" Hideable="0" Pickable="0" AIRadius="-1" Brightness="1" Density="1" ElevationMin="100" ElevationMax="4096" SlopeMin="0" SlopeMax="255" CastShadow="0" RecvShadow="0" AlphaBlend="0" SpriteDistRatio="2" MaxViewDistRatio="1" Material="" UseSprites="0" FadeSize="1" Frozen="0" Layer_Wet="0" Layer_Dirt="0" Layer_Burned="0" Id="198" FileName="objects/natural/bushes/junglebush/junglebush_big_c.cgf" GUID="{5F5C7797-4CF5-46DE-90B2-47DDB9A8C988}" Hidden="0" Index="198" Category="Island_Road">
+  <Instances>
+   <Instance Pos="5943.29,5982.81,103.386" Scale="1.5" Brightness="75" Angle="37"/>
+   <Instance Pos="5937.63,5983.18,104.031" Scale="1.5" Brightness="75" Angle="174"/>
+   <Instance Pos="5940.51,5983.93,103.692" Scale="1.5" Brightness="75" Angle="217"/>
+   <Instance Pos="5940.52,5980.03,103.714" Scale="1.5" Brightness="75" Angle="182"/>
+   <Instance Pos="5944.32,5979.83,103.3" Scale="1.5" Brightness="75" Angle="204"/>
+   <Instance Pos="5940.55,5986.2,103.545" Scale="1.5" Brightness="75" Angle="172"/>
+   <Instance Pos="5939.07,5989.32,103.336" Scale="1.5" Brightness="75" Angle="40"/>
+   <Instance Pos="5942.75,5989,103.013" Scale="1.5" Brightness="75" Angle="216"/>
+   <Instance Pos="5937.82,5986.32,103.864" Scale="1.5" Brightness="75" Angle="222"/>
+   <Instance Pos="5942.89,5986.46,103.265" Scale="1.5" Brightness="75" Angle="229"/>
+   <Instance Pos="5945.45,5990.8,102.608" Scale="1.5" Brightness="75" Angle="54"/>
+   <Instance Pos="5942.93,5992.23,102.551" Scale="1.5" Brightness="75" Angle="46"/>
+   <Instance Pos="5940.43,5992.02,102.747" Scale="1.5" Brightness="75" Angle="9"/>
+   <Instance Pos="5955.85,6006.98,101.109" Scale="1.5" Brightness="75" Angle="225"/>
+   <Instance Pos="5954.5,6004.7,101.125" Scale="1.5" Brightness="75" Angle="215"/>
+   <Instance Pos="5952.35,6007.23,101.067" Scale="1.5" Brightness="75" Angle="19"/>
+   <Instance Pos="6050.52,6002.01,106.879" Scale="1.68464" Brightness="75"/>
+   <Instance Pos="6055.76,6007.06,101.133" Scale="1.65102" Brightness="75"/>
+   <Instance Pos="5956.33,6013.14,101.057" Scale="1.5" Brightness="75" Angle="5"/>
+   <Instance Pos="5954.99,6009.82,101.064" Scale="1.5" Brightness="75" Angle="188"/>
+   <Instance Pos="5956.41,6015.48,101.037" Scale="1.5" Brightness="75" Angle="182"/>
+   <Instance Pos="5953.75,6012.49,101.047" Scale="1.5" Brightness="75" Angle="175"/>
+   <Instance Pos="5960.21,6011.43,101.138" Scale="1.5" Brightness="75" Angle="12"/>
+   <Instance Pos="5967.93,6022.37,101.002" Scale="1.5" Brightness="75" Angle="128"/>
+   <Instance Pos="5974.28,6033.06,101.007" Scale="1.5" Brightness="75" Angle="248"/>
+   <Instance Pos="5977.61,6036.53,101.02" Scale="1.5" Brightness="75" Angle="86"/>
+   <Instance Pos="5981.1,6032.51,100.969" Scale="1.5" Brightness="75" Angle="159"/>
+   <Instance Pos="5981.37,6038.65,100.996" Scale="1.5" Brightness="75" Angle="63"/>
+   <Instance Pos="5979.91,6035.5,100.983" Scale="1.5" Brightness="75" Angle="121"/>
+   <Instance Pos="5977.36,6033.43,100.987" Scale="1.5" Brightness="75" Angle="159"/>
+   <Instance Pos="5982.26,6034.73,100.972" Scale="1.5" Brightness="75" Angle="200"/>
+   <Instance Pos="5988.92,6035.89,100.986" Scale="1.52" Brightness="75" Angle="161"/>
+   <Instance Pos="5987.98,6037.29,100.539" Scale="1.47" Brightness="75" Angle="213"/>
+   <Instance Pos="5986.07,6033.31,100.981" Brightness="75" Angle="168"/>
+   <Instance Pos="5984.78,6037.13,100.956" Scale="1.5" Brightness="75" Angle="222"/>
+   <Instance Pos="6041.28,6054.99,103.047" Scale="1.76497" Brightness="75"/>
+   <Instance Pos="6042.35,6051.28,100.978" Scale="1.74212" Brightness="75"/>
+   <Instance Pos="6042.65,6053.84,101.126" Scale="1.30047" Brightness="75"/>
+   <Instance Pos="6038.54,6063.49,101.522" Scale="1.412" Brightness="75"/>
+   <Instance Pos="6042.27,6056.38,101.238" Scale="1.72134" Brightness="75"/>
+   <Instance Pos="6106.95,6068.37,103.939" Scale="1.50724" Brightness="75"/>
+   <Instance Pos="6121.02,6065.43,105.796" Scale="1.65349" Brightness="75"/>
+  </Instances>
+ </VegetationObject>
+</Vegetation>

@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_sand_wet" Diffuse="0.87450999,0.86274499,0.84313703" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/underwater_sand.tif">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/rock_11122_ddn.tif">
+   <TexMod TileU="0.1" TileV="0.1"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.011" DetailTextureStrength="0.68699998"/>
+ <MaterialLayers />
+</Material>

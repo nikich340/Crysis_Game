@@ -1,0 +1,24 @@
+<Graph Description="" Group="Hunter" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-10,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="490,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="170,110,0" flags="0" InHideMask="15" OutHideMask="63" GraphEntity="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIWeaponSelect" pos="110,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" weapon="MOAR"/>
+  </Node>
+  <Node Id="5" Class="AI:AIShootAt" pos="300,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" targetPos="0,0,0" time="8.5" shots="-1" AimOnly="0" TargetId="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="targetPos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="4" portIn="sink" portOut="done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

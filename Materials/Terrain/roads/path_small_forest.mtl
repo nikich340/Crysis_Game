@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="440532992" SurfaceType="mat_pebble" Diffuse="0.25882399,0.21960799,0.17647099" Specular="0,0,0" Emissive="0,0,0" Shininess="40" Opacity="0.80000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_grass_woodpath.dds" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/detail/road_grass_woodpath_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="4" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

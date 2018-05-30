@@ -1,0 +1,391 @@
+<Vegetation>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="16" FadeSize="1" FileName="Objects/Natural/Trees/Palm_Tree/Palm_Tree_large_c.cgf" Frozen="1" GUID="{194DCA87-C317-4680-87C7-8C45D76D896D}" Hidden="0" Hideable="1" Id="107" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.7" SizeVar="0.2" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5191.2935,2729.3132,196.24246" Scale="1.7219666" />
+   <Instance Pos="5207.5859,2736.5947,198.18504" Scale="1.9676566" />
+   <Instance Pos="5233.1558,2756.3901,198.31659" Scale="1.8778689" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="16" FadeSize="1" FileName="Objects/Natural/Trees/Palm_Tree/Palm_Tree_Large_e.cgf" Frozen="1" GUID="{1EA98136-3AAF-44E8-BF32-FF0608880F17}" Hidden="0" Hideable="1" Id="108" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.2" SizeVar="0.2" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5220.2515,2670.4019,178.85678" Scale="1.2251742" />
+   <Instance Pos="5207.3384,2698.0442,186.61404" Scale="2.0477464" />
+   <Instance Pos="5282.5859,2703.8818,192.07324" Scale="1.4500009" />
+   <Instance Pos="5264.209,2716.3379,194.28055" Scale="1.0122333" />
+   <Instance Pos="5193.2329,2725.2488,194.87241" Scale="1.3757647" />
+   <Instance Pos="5235.0249,2728.4736,195.08679" Scale="1.2938042" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="38" FadeSize="1" FileName="objects/natural/bushes/junglebush/junglebush_big_a.cgf" Frozen="1" GUID="{17E50CB0-CE9B-4699-A743-98F4931FE6FF}" Hidden="0" Hideable="0" Id="109" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.2" SizeVar="0.3" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5245.6245,2676.5588,180.94315" Scale="1.4737988" />
+   <Instance Pos="5248.1733,2676.7874,180.64368" Scale="1.1051793" />
+   <Instance Pos="5257.5532,2694.0693,190.66431" Scale="1.0783378" />
+   <Instance Pos="5298.6855,2704.5852,192.56062" Scale="1.3112401" />
+   <Instance Pos="5220.9521,2718.9807,197.79996" Scale="1.0022457" />
+   <Instance Pos="5226.4482,2713.9473,193.81065" Scale="1.4119438" />
+   <Instance Pos="5244.5771,2717.7651,191.85646" Scale="1.4481558" />
+   <Instance Pos="5229.6631,2722.0759,195.64532" Scale="1.2533404" />
+   <Instance Pos="5212.4048,2731.6042,197.45053" Scale="1.3767205" />
+   <Instance Pos="5214.1777,2733.4438,197.68048" Scale="1.2227974" />
+   <Instance Pos="5249.2798,2728.0344,193.10138" Scale="1.0315253" />
+   <Instance Pos="5257.3574,2735.0315,194.75" Scale="0.93732262" />
+   <Instance Pos="5271.3604,2734,196.59009" Scale="0.85867637" />
+   <Instance Pos="5199.5884,2742.9622,200.93701" Scale="1.2483084" />
+   <Instance Pos="5260.9297,2736.0339,195.11621" Scale="1.3141406" />
+   <Instance Pos="5277.4995,2741.1714,196.54102" Scale="1.1121564" />
+   <Instance Pos="5191.0923,2744.9368,203.2679" Scale="1.5162072" />
+   <Instance Pos="5204.0366,2748.1609,201.99579" Scale="1.545981" />
+   <Instance Pos="5230.6714,2745.2688,197.81543" Scale="1.4109111" />
+   <Instance Pos="5237.0669,2748.4661,196.54153" Scale="1.5486178" />
+   <Instance Pos="5263.9521,2745.5134,195.6832" Scale="1.005336" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="16" FadeSize="1" FileName="objects/natural/trees/jungle_tree_large/jungle_tree_large_med_bright_green.cgf" Frozen="1" GUID="{1A11CE74-A21D-47F7-A5D6-004D4120B4DF}" Hidden="0" Hideable="1" Id="110" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="1" RecvShadow="1" ShadowDistRatio="0" Size="1" SizeVar="0.2" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Angle="62" Pos="5246.5493,2693.1289,187.59564" Scale="1.1815913" />
+   <Instance Angle="132" Pos="5288.0313,2698.3518,192.5" Scale="1.8077867" />
+   <Instance Angle="89" Pos="5263.4819,2757.5405,196.12781" Scale="1.4240259" />
+   <Instance Angle="179" Pos="5211.625,2769.4458,204.17133" Scale="1.1420149" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="16" FadeSize="0" FileName="objects/natural/trees/thin_leave_tree/thin_leave_tree_big_bright_green.cgf" Frozen="1" GUID="{1C11F0EC-025A-45C0-A5FE-2CDD6BDD329A}" Hidden="0" Hideable="1" Id="111" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="0" Size="0.8" SizeVar="-0.18" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5262.9199,2694.4885,191.62213" Scale="1.3718392" />
+   <Instance Brightness="221" Pos="5229.5371,2707.3921,187.81656" Scale="0.75548959" />
+   <Instance Pos="5286.2202,2711.0618,193.25082" Scale="1.1835126" />
+   <Instance Pos="5271.1045,2735.7124,196.40791" Scale="0.73278719" />
+   <Instance Angle="202" Pos="5297.2778,2731.7205,201.12479" Scale="1.0312136" />
+   <Instance Pos="5242.2646,2737.0552,195" Scale="0.87492883" />
+   <Instance Angle="92" Pos="5236.4746,2758.072,197.19067" Scale="1.2285609" />
+   <Instance Pos="5289.8062,2754.2969,201.61591" Scale="1.2519782" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="16" FadeSize="1" FileName="objects/natural/trees/jungle_tree_large/jungle_tree_large_med_grey_green.cgf" Frozen="1" GUID="{16BD32B5-1A2E-4DC2-B309-A52F7DB5E157}" Hidden="0" Hideable="1" Id="112" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="0" Size="0.8" SizeVar="-0.18" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5215.7114,2686.1924,179.87024" Scale="0.91725409" />
+   <Instance Pos="5227.064,2709.8049,191.34152" Scale="0.69082379" />
+   <Instance Pos="5288.6895,2718.1204,193.81018" Scale="0.80301034" />
+   <Instance Pos="5279.7422,2722.9675,197.58871" Scale="1.4325706" />
+   <Instance Pos="5196.7354,2743.6958,201.78003" Scale="0.92210579" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="50" FadeSize="1" FileName="objects/natural/trees/jungle_tree_thin/jungle_tree_thin_g.cgf" Frozen="1" GUID="{2CDCB545-C1EB-4218-9435-DC6E0B95A3B1}" Hidden="0" Hideable="1" Id="113" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.2" SizeVar="0.2" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5274.5127,2686.9675,190.77496" Scale="1.3563696" />
+   <Instance Pos="5255.8066,2703.2961,192.36368" Scale="1.1544858" />
+   <Instance Pos="5297.5405,2706.5129,192.56412" Scale="1.4010633" />
+   <Instance Pos="5210.2524,2712.2827,193.85223" Scale="1.1717566" />
+   <Instance Pos="5198.6958,2726.448,195.668" Scale="1.0479516" />
+   <Instance Pos="5228.7578,2724.5205,196.49048" Scale="1.1521989" />
+   <Instance Pos="5239.4976,2760.9507,196.93164" Scale="1.1265558" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="50" FadeSize="1" FileName="objects/natural/trees/jungle_tree_thin/jungle_tree_thin_a.cgf" Frozen="1" GUID="{11E0727C-EA5B-49D1-A2B0-F59F3B8E1D91}" Hidden="0" Hideable="1" Id="114" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.2" SizeVar="0.2" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5238.0347,2677.2483,182.80881" Scale="1.3613648" />
+   <Instance Pos="5247.4292,2676.8186,180.75986" Scale="1.0749741" />
+   <Instance Pos="5253.417,2697.6057,190.94717" Scale="1.0361434" />
+   <Instance Pos="5258.2764,2700.4514,192.34097" Scale="1.0094371" />
+   <Instance Pos="5279.542,2715.7456,195.8728" Scale="1.1898831" />
+   <Instance Pos="5225.6655,2731.8757,197.29181" Scale="1.0370398" />
+   <Instance Pos="5241.2417,2755.4016,196.59479" Scale="1.2038454" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0.5" Brightness="2" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="50" FadeSize="1" FileName="objects/natural/trees/jungle_tree_thin/jungle_tree_thin_d.cgf" Frozen="1" GUID="{1772CD97-2519-411E-A3D9-088CE9DF0584}" Hidden="0" Hideable="1" Id="115" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="1" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1.2" SizeVar="0.2" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Pos="5264.7173,2677.6975,182.84349" Scale="1.0352596" />
+   <Instance Pos="5254.3779,2695.137,190.4736" Scale="1.434785" />
+   <Instance Pos="5252.6704,2690.7781,188.57437" Scale="1.1484299" />
+   <Instance Pos="5235.0444,2706.3984,188.81091" Scale="1.0766106" />
+   <Instance Pos="5214.9517,2718.0229,196.48941" Scale="1.1593193" />
+   <Instance Pos="5229.2451,2723.3225,196.11371" Scale="1.0717393" />
+   <Instance Pos="5186.9063,2729.2449,196.12244" Scale="1.1662238" />
+   <Instance Pos="5255.1431,2742.5776,195.04126" Scale="1.1798643" />
+   <Instance Angle="51" Pos="5263.667,2737.0566,195.45837" Scale="1.1092622" />
+   <Instance Pos="5264.9341,2743.9336,195.61288" Scale="1.0621624" />
+   <Instance Pos="5191.8149,2746.3704,203.64314" Scale="1.3423506" />
+   <Instance Pos="5220.1826,2761.7866,201.2005" Scale="1.1578037" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/trees/jungle_tree_large/jungle_tree_large_big_grey_green.cgf" Frozen="1" GUID="{1CC96279-FEB6-4D70-84A1-5F4A0C2C02D7}" Hidden="0" Hideable="1" Id="116" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5248.7012,2685.5903,185.09689" />
+   <Instance Brightness="254" Pos="5276.0005,2688.2993,191.03743" Scale="1.1695679" />
+   <Instance Brightness="254" Pos="5226.4951,2699.2498,186.69696" />
+   <Instance Brightness="254" Pos="5202.9668,2708.7083,191.59071" />
+   <Instance Brightness="254" Pos="5252.0225,2705.7427,191.44446" />
+   <Instance Brightness="254" Pos="5224.9521,2716.9495,195.80328" />
+   <Instance Brightness="254" Pos="5269.6362,2712.6646,194.02957" />
+   <Instance Brightness="254" Pos="5210.8965,2734.3479,197.79349" />
+   <Instance Brightness="254" Pos="5252.8506,2728.7483,193.60994" />
+   <Instance Brightness="254" Pos="5189.9199,2736.6709,198.91772" />
+   <Instance Brightness="254" Pos="5222.2827,2746.7732,199.58298" />
+   <Instance Brightness="254" Pos="5289.5923,2744.0237,199.13733" />
+   <Instance Brightness="254" Pos="5277.7563,2755.9626,197.73599" Scale="1.27" />
+   <Instance Brightness="254" Pos="5243.5996,2765.665,200.08846" Scale="1.15" />
+   <Instance Brightness="254" Pos="5219.9834,2772.0195,202.75659" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_big_grey_green.cgf" Frozen="1" GUID="{1E5001C7-431F-40FC-9ADD-C6579D38A6C0}" Hidden="0" Hideable="1" Id="117" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="2" SizeVar="0.3" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5285.0542,2668.5156,178.89053" />
+   <Instance Brightness="254" Pos="5212.2642,2684.4163,177.34708" Scale="2.1199999" />
+   <Instance Brightness="254" Pos="5239.958,2681.7546,183.71408" Scale="1.38" />
+   <Instance Brightness="254" Pos="5246.6284,2686.9656,185.47858" />
+   <Instance Brightness="254" Pos="5251.5142,2681.2036,182.4879" />
+   <Instance Brightness="254" Pos="5195.6655,2688.5186,174.7312" Scale="1.9583999" />
+   <Instance Brightness="254" Pos="5206.0107,2693.4441,182.58673" Scale="1.88" />
+   <Instance Brightness="254" Pos="5240.1519,2689.2092,184.80981" Scale="1.5" />
+   <Instance Brightness="254" Pos="5252.4272,2691.1218,188.70064" Scale="2.4449415" />
+   <Instance Brightness="254" Pos="5267.459,2692.1885,191.27356" Scale="2.3259897" />
+   <Instance Brightness="254" Pos="5195.1509,2703.616,188.15384" Scale="1.9400001" />
+   <Instance Brightness="254" Pos="5201.4854,2699.7954,186.69891" Scale="2.6900001" />
+   <Instance Brightness="254" Pos="5217.4204,2696.3799,186.73743" />
+   <Instance Brightness="254" Pos="5245.7568,2701.8428,188.72795" Scale="1.6800001" />
+   <Instance Brightness="254" Pos="5256.0591,2698.3916,191.61122" />
+   <Instance Brightness="254" Pos="5278.8633,2698.5205,191.60791" Scale="3.4337702" />
+   <Instance Brightness="254" Pos="5297.7227,2696.0129,192.25162" Scale="3.364002" />
+   <Instance Brightness="254" Pos="5213.2817,2717.4983,195.93188" />
+   <Instance Brightness="254" Pos="5297.6187,2713.2141,192.9205" Scale="2.3716154" />
+   <Instance Brightness="254" Pos="5297.8623,2724.7644,198.6378" Scale="2.1735709" />
+   <Instance Brightness="254" Pos="5242.2246,2734.2241,194.77802" />
+   <Instance Brightness="254" Pos="5191.0161,2738.0693,199.40727" />
+   <Instance Brightness="254" Pos="5288.4888,2740.4456,199.78397" Scale="1.6895999" />
+   <Instance Brightness="254" Pos="5197.0566,2744.3564,201.97806" />
+   <Instance Brightness="254" Pos="5203.4644,2750.7634,202.27074" />
+   <Instance Brightness="254" Pos="5233.4258,2748.1421,197.48309" Scale="3.2049291" />
+   <Instance Brightness="254" Pos="5289.771,2749.1956,198.72769" Scale="2.5536647" />
+   <Instance Brightness="254" Pos="5194.9639,2757.2585,205.57367" />
+   <Instance Brightness="254" Pos="5245.1201,2759.1265,196.18884" Scale="2.2237685" />
+   <Instance Brightness="254" Pos="5257.9531,2756.8528,195.75" Scale="2.6229305" />
+   <Instance Brightness="254" Pos="5268.1665,2755.2732,196.07587" Scale="2.0039735" />
+   <Instance Brightness="254" Pos="5221.4502,2767.0447,201.86273" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/trees/banana_tree/bananatree_med_a.cgf" Frozen="1" GUID="{180B8243-0AFB-4357-89DC-EEBB872E961F}" Hidden="0" Hideable="1" Id="118" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5216.2944,2681.7036,178.60497" />
+   <Instance Brightness="254" Pos="5236.0474,2684.0059,183.75075" />
+   <Instance Brightness="254" Pos="5254.2295,2700.0022,191.55765" />
+   <Instance Brightness="254" Pos="5250.1372,2711.5962,191.6662" />
+   <Instance Brightness="254" Pos="5295.6577,2708.1594,192.75" />
+   <Instance Brightness="254" Pos="5298.6211,2711.6968,192.75" />
+   <Instance Brightness="254" Pos="5286.7949,2714.8328,193.86398" />
+   <Instance Brightness="254" Pos="5227.0029,2726.3867,197.0235" />
+   <Instance Brightness="254" Pos="5289.7104,2725.2927,199.46381" />
+   <Instance Brightness="254" Pos="5203.7881,2728.7202,196.6631" />
+   <Instance Brightness="254" Pos="5231.9873,2729.9019,195.77914" />
+   <Instance Brightness="254" Pos="5231.6792,2741.0774,196.69638" />
+   <Instance Brightness="254" Pos="5261.7832,2745.6206,195.43062" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/trees/banana_tree/bananatree_small_b.cgf" Frozen="1" GUID="{1CA63E0C-B7C2-4F42-83E4-D1B469680890}" Hidden="0" Hideable="1" Id="119" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5269.4619,2694.1299,191.50436" />
+   <Instance Brightness="254" Pos="5212.1216,2706.2864,191.87259" />
+   <Instance Brightness="254" Pos="5221.2158,2706.9934,192.09473" />
+   <Instance Brightness="254" Pos="5259.5972,2707.1379,193.4783" />
+   <Instance Brightness="254" Pos="5277.6416,2707.3918,192.16035" />
+   <Instance Brightness="254" Pos="5239.5205,2718.1826,190.13013" />
+   <Instance Brightness="254" Pos="5241.04,2716.1191,190.75287" />
+   <Instance Brightness="254" Pos="5227.8164,2727.1399,196.92529" />
+   <Instance Brightness="254" Pos="5226.9502,2733.8608,196.89037" />
+   <Instance Brightness="254" Pos="5264.3091,2732.436,195.56885" Scale="1.26" />
+   <Instance Brightness="254" Pos="5200.0923,2742.1125,200.51978" />
+   <Instance Brightness="254" Pos="5213.1079,2753.4387,201.10394" />
+   <Instance Brightness="254" Pos="5222.2944,2764.6794,201.29813" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/trees/banana_tree/bananatree_big_b.cgf" Frozen="1" GUID="{11C4835E-85F1-4415-A542-E305FE564292}" Hidden="0" Hideable="1" Id="120" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5217.981,2683.7661,179.46362" />
+   <Instance Brightness="254" Pos="5288.5464,2683.8384,190.4798" Scale="1.1" />
+   <Instance Brightness="254" Pos="5281.4155,2705.3501,192.0957" />
+   <Instance Brightness="254" Pos="5240.7017,2720.3228,190.65533" />
+   <Instance Brightness="254" Pos="5190.2739,2732.0027,197.25101" />
+   <Instance Brightness="254" Pos="5209.8345,2730.0281,197.23311" />
+   <Instance Brightness="254" Pos="5222.8125,2733.9609,197.64844" />
+   <Instance Brightness="254" Pos="5244.7886,2732.0852,194.12633" />
+   <Instance Brightness="254" Pos="5216.2031,2751.9709,200.72098" />
+   <Instance Brightness="254" Pos="5227.7354,2744.1936,198.56049" />
+   <Instance Brightness="254" Pos="5239.2817,2748.3162,196.1293" />
+   <Instance Brightness="254" Pos="5272.314,2745.7126,196.04156" />
+   <Instance Brightness="254" Pos="5228.6284,2755.0718,199.51334" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/bushes/greenfernbush/green_fern_bush_d.cgf" Frozen="1" GUID="{1B8DB972-35FE-452E-A250-FAD8392625D7}" Hidden="0" Hideable="0" Id="121" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="0.4" SizeVar="0" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5223.958,2672.1077,179.75296" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5227.2412,2686.6921,183.08479" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5269.0127,2683.9263,188.58379" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5282.5776,2685.1333,190.71872" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5228.5029,2691.032,184.38373" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5292.6108,2692.95,191.6951" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5233.4795,2708.1282,188.43301" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5256.29,2705.686,192.96346" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5255.1016,2714.7153,193.27539" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5280.9702,2719.7295,197.28725" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5219.7041,2724.311,197.6429" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5247.4771,2742.5112,195.01671" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5206.3037,2750.8159,202.06403" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5247.3931,2746.9314,195.28534" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5187.2344,2752.0796,206.9613" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5215.3188,2756.5015,201.14783" Scale="0.40000001" />
+   <Instance Brightness="254" Pos="5233.0195,2773.4312,205.17813" Scale="0.40000001" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/trees/banana_tree/bananatree_med_b.cgf" Frozen="1" GUID="{1A2BC1E4-618B-4D19-842A-F99F4D8C11C5}" Hidden="0" Hideable="1" Id="122" Index="0" MaxViewDistRatio="0.5" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="100" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5210.2642,2693.0554,183.59018" />
+   <Instance Brightness="254" Pos="5224.1221,2690.073,183.07446" />
+   <Instance Brightness="254" Pos="5303.2227,2691.0652,192.13315" Scale="1.3099999" />
+   <Instance Brightness="254" Pos="5210.4697,2707.6641,192.18274" />
+   <Instance Brightness="254" Pos="5268.6206,2708.1157,192.70135" />
+   <Instance Brightness="254" Pos="5230.9585,2722.9087,195.36774" />
+   <Instance Brightness="254" Pos="5224.292,2722.9705,197.22491" />
+   <Instance Brightness="254" Pos="5255.0034,2729.8591,194.23325" />
+   <Instance Brightness="254" Pos="5274.895,2731.9087,197.46234" />
+   <Instance Brightness="254" Pos="5261.522,2743.1958,195.25" Scale="0.87" />
+   <Instance Brightness="254" Pos="5192.9165,2756.3179,205.98578" />
+   <Instance Brightness="254" Pos="5206.7217,2765.5254,204.35046" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/rocks/forest_rocks/forest_rock_big_a.cgf" Frozen="1" GUID="{1A973133-7312-4690-8115-D5C5B68F9612}" Hidden="0" Hideable="1" Id="123" Index="0" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5264.606,2673.7053,180.34441" />
+   <Instance Brightness="254" Pos="5267.4849,2679.9487,185.39764" />
+   <Instance Brightness="254" Pos="5207.5571,2689.5457,179.867" />
+   <Instance Brightness="254" Pos="5260.2036,2694.9131,191.50372" />
+   <Instance Brightness="254" Pos="5217.7407,2716.0991,195.58351" />
+   <Instance Brightness="254" Pos="5223.2192,2725.3435,197.66168" Scale="0.71000004" />
+   <Instance Brightness="254" Pos="5283.6582,2721.7102,198.06825" />
+   <Instance Brightness="254" Pos="5253.0342,2735.679,194.70987" Scale="0.46000004" />
+   <Instance Brightness="254" Pos="5204.3735,2743.6711,200.33766" />
+   <Instance Brightness="254" Pos="5205.9946,2741.2705,199.47668" />
+   <Instance Brightness="254" Pos="5252.2676,2747.6333,195.25" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/rocks/forest_rocks/forest_rock_med_a.cgf" Frozen="1" GUID="{1C35962E-F37E-4502-9A08-10F3383FE3DD}" Hidden="0" Hideable="1" Id="124" Index="0" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5226.5732,2678.2388,180.94446" />
+   <Instance Brightness="254" Pos="5246.4624,2681.6216,183.28937" Scale="1.38" />
+   <Instance Brightness="254" Pos="5254.9399,2697.4189,191.22223" />
+   <Instance Brightness="254" Pos="5250.7612,2705.9583,190.7218" />
+   <Instance Brightness="254" Pos="5263.0396,2709.9529,193.87381" />
+   <Instance Brightness="254" Pos="5236.8208,2715.0403,189.75443" />
+   <Instance Brightness="254" Pos="5294.7417,2713.9058,193.14987" Scale="1.4" />
+   <Instance Brightness="254" Pos="5316.4048,2714.7561,187.91125" />
+   <Instance Brightness="254" Pos="5202.3716,2725.364,195.63745" />
+   <Instance Brightness="254" Pos="5283.5156,2724.3467,198.42224" />
+   <Instance Brightness="254" Pos="5250.8101,2728.5815,193.28989" />
+   <Instance Brightness="254" Pos="5210.1143,2742.9934,200.25398" />
+   <Instance Brightness="254" Pos="5228.5654,2744.2329,198.3253" />
+   <Instance Brightness="254" Pos="5269.3823,2752.3691,195.78189" />
+   <Instance Brightness="254" Pos="5202.1235,2764.7617,204.12242" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/rocks/forest_rocks/forest_rock_med_b.cgf" Frozen="1" GUID="{194DCD3D-F77F-455E-93E8-DD2ED9BDA87B}" Hidden="0" Hideable="1" Id="125" Index="0" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5225.2217,2685.9028,182.28113" />
+   <Instance Brightness="254" Pos="5247.2544,2702.4573,189.0849" />
+   <Instance Brightness="254" Pos="5241.3574,2698.7046,187.87411" />
+   <Instance Brightness="254" Pos="5224.9624,2710.0627,192.6664" />
+   <Instance Brightness="254" Pos="5227.1943,2706.4778,189.33023" />
+   <Instance Brightness="254" Pos="5252.9126,2711.7893,192.41565" />
+   <Instance Brightness="254" Pos="5245.7656,2719.5933,192.39056" />
+   <Instance Brightness="254" Pos="5262.8433,2718.4861,194.10541" />
+   <Instance Brightness="254" Pos="5295.8003,2714.5894,193.16495" />
+   <Instance Brightness="254" Pos="5207.4092,2732.0129,197.50162" />
+   <Instance Brightness="254" Pos="5215.2261,2730.7356,197.43884" />
+   <Instance Brightness="254" Pos="5263.915,2729.1882,195.28214" />
+   <Instance Brightness="254" Pos="5269.7295,2733.5752,196.26929" Scale="0.67000002" />
+   <Instance Brightness="254" Pos="5211.8076,2739.6182,198.83736" />
+   <Instance Brightness="254" Pos="5198.0352,2753.8567,204.20161" />
+   <Instance Brightness="254" Pos="5212.8345,2758.5581,201.75612" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/rocks/forest_rocks/forest_rock_small_a.cgf" Frozen="1" GUID="{13ECB524-F5DB-4A06-B78D-86976C888753}" Hidden="0" Hideable="1" Id="126" Index="0" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5238.7651,2669.207,177.51923" />
+   <Instance Brightness="254" Pos="5251.3159,2678.6274,181.37241" />
+   <Instance Brightness="254" Pos="5246.8062,2692.196,187.46198" />
+   <Instance Brightness="254" Pos="5252.5669,2689.823,188.13937" />
+   <Instance Brightness="254" Pos="5255.8398,2694.6611,190.47791" />
+   <Instance Brightness="254" Pos="5242.791,2697.5713,187.7093" />
+   <Instance Brightness="254" Pos="5254.8228,2698.5146,191.44365" />
+   <Instance Brightness="254" Pos="5262.4287,2702.4475,193.00235" />
+   <Instance Brightness="254" Pos="5261.4146,2701.9111,192.91571" />
+   <Instance Brightness="254" Pos="5266.8022,2701.1565,192.10742" />
+   <Instance Brightness="254" Pos="5245.6821,2708.9067,190.45708" />
+   <Instance Brightness="254" Pos="5210.8013,2718.7283,195.70032" />
+   <Instance Brightness="254" Pos="5225.9854,2717.3765,195.27866" />
+   <Instance Brightness="254" Pos="5246.4175,2712.1675,191.3275" />
+   <Instance Brightness="254" Pos="5193.6235,2722.2915,193.81226" />
+   <Instance Brightness="254" Pos="5214.9443,2725.28,196.77805" />
+   <Instance Brightness="254" Pos="5230.8408,2724.6423,195.79874" />
+   <Instance Brightness="254" Pos="5246.2983,2723.0349,192.86008" />
+   <Instance Brightness="254" Pos="5276.04,2721.2966,196.91708" />
+   <Instance Brightness="254" Pos="5229.8882,2733.4854,196.27795" />
+   <Instance Brightness="254" Pos="5244.522,2733.8782,194.70828" />
+   <Instance Brightness="254" Pos="5201.3872,2738.2644,199.1427" />
+   <Instance Brightness="254" Pos="5237.5405,2738.7195,195.55743" />
+   <Instance Brightness="254" Pos="5241.248,2737.8955,195.08908" />
+   <Instance Brightness="254" Pos="5271.0522,2743.947,196.25348" />
+   <Instance Brightness="254" Pos="5184.9063,2747.9602,205.75081" />
+   <Instance Brightness="254" Pos="5218.8335,2751.0105,200.32367" />
+   <Instance Brightness="254" Pos="5224.7451,2744.3193,198.72305" />
+   <Instance Brightness="254" Pos="5237.6538,2744.8818,195.9035" />
+   <Instance Brightness="254" Pos="5237.812,2749.925,196.53763" />
+   <Instance Brightness="254" Pos="5204.9595,2756.8862,202.86078" />
+   <Instance Brightness="254" Pos="5204.0161,2756.0835,202.76044" />
+   <Instance Brightness="254" Pos="5221.8936,2757.2927,200.51331" />
+   <Instance Brightness="254" Pos="5229.2554,2753.8647,199.33246" />
+   <Instance Brightness="254" Pos="5211.8057,2763.1853,202.84491" />
+   <Instance Brightness="254" Pos="5217.4131,2760.4507,201.43604" />
+   <Instance Brightness="254" Pos="5236.6011,2771.1111,206.47641" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="1024" ElevationMin="100" FadeSize="1" FileName="objects/natural/rocks/forest_rocks/forest_rock_small_b.cgf" Frozen="1" GUID="{1DAD2808-595B-4DF8-B101-A8BF613EA821}" Hidden="0" Hideable="1" Id="127" Index="0" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0" UseSprites="1" >
+  <Instances>
+   <Instance Brightness="254" Pos="5241.7104,2672.3088,179.271" />
+   <Instance Brightness="254" Pos="5293.1421,2678.6938,189.55972" />
+   <Instance Brightness="254" Pos="5290.585,2677.1394,188.88901" />
+   <Instance Brightness="254" Pos="5296.6597,2677.7327,188.54572" />
+   <Instance Brightness="254" Pos="5217.9575,2680.2427,179.01906" />
+   <Instance Brightness="254" Pos="5242.9448,2693.446,186.24576" />
+   <Instance Brightness="254" Pos="5196.8965,2698.6865,184.71277" />
+   <Instance Brightness="254" Pos="5253.3467,2700.426,191.22659" />
+   <Instance Brightness="254" Pos="5227.8643,2707.6555,189.40639" />
+   <Instance Brightness="254" Pos="5236.186,2708.186,189.29651" />
+   <Instance Brightness="254" Pos="5250.8857,2710.1313,191.39355" />
+   <Instance Brightness="254" Pos="5241.2202,2717.4434,190.73471" />
+   <Instance Brightness="254" Pos="5267.7065,2714.3875,194.58264" />
+   <Instance Brightness="254" Pos="5294.9175,2715.9819,193.4967" />
+   <Instance Brightness="254" Pos="5293.3804,2716.1558,193.62381" />
+   <Instance Brightness="254" Pos="5189.8457,2723.0044,193.60736" />
+   <Instance Brightness="254" Pos="5211.4771,2720.4861,195.88515" />
+   <Instance Brightness="254" Pos="5219.9854,2727.7505,197.71698" />
+   <Instance Brightness="254" Pos="5231.5386,2726.2468,195.91995" />
+   <Instance Brightness="254" Pos="5224.1455,2727.3926,197.48181" />
+   <Instance Brightness="254" Pos="5241.4058,2723.5095,192.49025" />
+   <Instance Brightness="254" Pos="5244.7891,2730.3606,193.60794" />
+   <Instance Brightness="254" Pos="5207.1548,2740.6426,199.19458" />
+   <Instance Brightness="254" Pos="5211.915,2740.0889,199.04445" />
+   <Instance Brightness="254" Pos="5224.5137,2736.325,197.47641" />
+   <Instance Brightness="254" Pos="5231.3896,2738.2778,196.42673" />
+   <Instance Brightness="254" Pos="5243.5337,2743.5154,195.29416" />
+   <Instance Brightness="254" Pos="5244.9839,2736.6843,194.9191" />
+   <Instance Brightness="254" Pos="5186.6172,2747.6887,205.26721" />
+   <Instance Brightness="254" Pos="5210.3442,2745.0479,200.83795" />
+   <Instance Brightness="254" Pos="5229.8496,2745.6458,198.20238" />
+   <Instance Brightness="254" Pos="5241.9551,2750.6343,196.0849" />
+   <Instance Brightness="254" Pos="5229.8232,2752.2678,199.07471" />
+   <Instance Brightness="254" Pos="5234.7046,2756.5679,197.73578" />
+   <Instance Brightness="254" Pos="5237.3765,2753.6653,197.04915" />
+   <Instance Brightness="254" Pos="5221.1338,2762.4214,201.18376" />
+   <Instance Brightness="254" Pos="5223.9326,2796.6768,228.91504" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="Wide_Trunk_Forest_Frozen" ComplexBending="0" Density="33.3" ElevationMax="255" ElevationMin="100" FadeSize="1" FileName="objects/natural/trees/jungle_tree_large/jungle_tree_large_small_bright_green.cgf" Frozen="1" GUID="{13B56BD8-82C0-492E-BE43-99EE81E85994}" Hidden="0" Hideable="0" Id="128" Index="0" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="0" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" />
+</Vegetation>

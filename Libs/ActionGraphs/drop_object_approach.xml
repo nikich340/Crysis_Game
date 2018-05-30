@@ -1,0 +1,26 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="530,-10,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:AIDropObject" flags="0" Id="5" pos="160,-130,0" >
+   <Inputs entityId="0" impulse="0,0,0" />
+  </Node>
+  <Node Class="Entity:EntityPos" flags="0" Id="3" pos="140,50,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="40,-60,0" />
+  <Node Class="AI:AIGoto" flags="1" Id="4" pos="360,-100,0" >
+   <Inputs distance="10" entityId="0" pos="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" />
+  <Edge nodeIn="4" nodeOut="5" portIn="sink" portOut="done" />
+  <Edge nodeIn="4" nodeOut="5" portIn="entityId" portOut="done" />
+  <Edge nodeIn="5" nodeOut="1" portIn="sink" portOut="UserId" />
+  <Edge nodeIn="5" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="2" nodeOut="4" portIn="end" portOut="done" />
+ </Edges>
+</Graph>

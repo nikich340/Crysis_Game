@@ -1,0 +1,50 @@
+<Graph Description="" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="-10,30,0" />
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="970,10,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Entity:EntitiesInRange" flags="0" Id="6" pos="450,60,0" >
+   <Inputs Entity1="0" Entity2="0" Range="10" />
+  </Node>
+  <Node Class="Sound:PlaySoundEvent" flags="0" Id="7" InHideMask="127" OutHideMask="7" pos="320,-30,0" >
+   <Inputs Enable="1" entityId="0" Once="0" sound_SoundEvent="Languages:Island:hawker_island_ab1_01130" Voice="0" />
+  </Node>
+  <Node Class="Game:LocalPlayer" flags="0" Id="8" pos="180,-30,0" />
+  <Node Class="Logic:Any" flags="0" Id="9" InHideMask="63" OutHideMask="1" pos="320,60,0" >
+   <Inputs />
+  </Node>
+  <Node Class="Time:Delay" flags="0" Id="10" pos="800,90,0" >
+   <Inputs delay="1" />
+  </Node>
+  <Node Class="Math:Equal" flags="0" Id="11" pos="630,60,0" >
+   <Inputs A="0" B="1" />
+  </Node>
+  <Node Class="AI:AIStance" flags="0" Id="12" pos="150,130,0" >
+   <Inputs entityId="0" stance="1" />
+  </Node>
+  <Node Class="AI:AIStance" flags="0" Id="13" pos="800,10,0" >
+   <Inputs entityId="0" stance="3" />
+  </Node>
+  <Node Class="Time:RandomDelay" flags="0" Id="14" pos="140,50,0" >
+   <Inputs MaxDelay="3" MinDelay="1" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="6" nodeOut="1" portIn="Entity2" portOut="ObjectId" />
+  <Edge enabled="1" nodeIn="6" nodeOut="1" portIn="Entity1" portOut="UserId" />
+  <Edge enabled="1" nodeIn="12" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="12" nodeOut="1" portIn="sink" portOut="UserId" />
+  <Edge enabled="1" nodeIn="13" nodeOut="1" portIn="entityId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="14" nodeOut="1" portIn="In" portOut="UserId" />
+  <Edge enabled="1" nodeIn="11" nodeOut="6" portIn="A" portOut="InRange" />
+  <Edge enabled="1" nodeIn="7" nodeOut="8" portIn="entityId" portOut="entityId" />
+  <Edge enabled="1" nodeIn="6" nodeOut="9" portIn="Trigger" portOut="out" />
+  <Edge enabled="1" nodeIn="9" nodeOut="10" portIn="in2" portOut="out" />
+  <Edge enabled="1" nodeIn="10" nodeOut="11" portIn="in" portOut="false" />
+  <Edge enabled="1" nodeIn="13" nodeOut="11" portIn="sink" portOut="true" />
+  <Edge enabled="1" nodeIn="2" nodeOut="13" portIn="end" portOut="done" />
+  <Edge enabled="1" nodeIn="7" nodeOut="14" portIn="PlayTrigger" portOut="Out" />
+  <Edge enabled="1" nodeIn="9" nodeOut="14" portIn="in1" portOut="Out" />
+ </Edges>
+</Graph>

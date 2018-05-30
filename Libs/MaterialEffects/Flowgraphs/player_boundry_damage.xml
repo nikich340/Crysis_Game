@@ -1,0 +1,76 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="273" Class="Input:Key" pos="-70,220,0" flags="0">
+   <Inputs Key="h"/>
+  </Node>
+  <Node Id="274" Class="MaterialFX:HUDStartFX" pos="86,213,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="292" Class="MaterialFX:HUDEndFX" pos="140,480,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="294" Class="Time:Delay" pos="10,480,0" flags="0">
+   <Inputs delay="1.55"/>
+  </Node>
+  <Node Id="295" Class="Image:FilterSharpen" pos="610,360,0" flags="0">
+   <Inputs Enabled="1" FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+  </Node>
+  <Node Id="296" Class="Interpol:Float" pos="430,360,0" flags="0">
+   <Inputs StartValue="50" EndValue="1" Time="0.3"/>
+  </Node>
+  <Node Id="297" Class="Image:ColorCorrection" pos="600,580,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="299" Class="Interpol:Float" pos="410,710,0" flags="0">
+   <Inputs StartValue="-1" EndValue="0" Time="0.6"/>
+  </Node>
+  <Node Id="303" Class="CrysisFX:PostFXGlobal" pos="830,600,0" flags="0">
+   <Inputs Global_Brightness="1" Global_Contrast="1" Global_Saturation="1" Global_Sharpening="1" Global_ColorC="0" Global_ColorM="0" Global_ColorY="0" Global_ColorK="0" Global_ColorHue="0"/>
+  </Node>
+  <Node Id="304" Class="Camera:ViewShake" pos="370,30,0" flags="0">
+   <Inputs Restrict="0" View="0" Angle="0,0,0" Shift="0.1,0.1,0.1" Duration="0.6" Frequency="12" Randomness="1"/>
+  </Node>
+  <Node Id="306" Class="Image:FilterRadialBlur" pos="790,390,0" flags="0">
+   <Inputs Enabled="1" FilterRadialBlurring_Amount="0" FilterRadialBlurring_ScreenPosX="0.5" FilterRadialBlurring_ScreenPosY="0.5" FilterRadialBlurring_Radius="1"/>
+  </Node>
+  <Node Id="307" Class="Interpol:Float" pos="420,460,0" flags="0">
+   <Inputs StartValue="0.3" EndValue="0" Time="0.7"/>
+  </Node>
+  <Node Id="308" Class="Interpol:Float" pos="410,580,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="0.3"/>
+  </Node>
+  <Node Id="309" Class="Image:ChromaShift" pos="610,830,0" flags="0">
+   <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+  </Node>
+  <Node Id="310" Class="Interpol:Float" pos="400,840,0" flags="0">
+   <Inputs StartValue="5" EndValue="0" Time="0.1"/>
+  </Node>
+  <Node Id="311" Class="Image:FilterBlur" pos="780,490,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+  </Node>
+  <Node Id="312" Class="Image:AlienInterference" pos="660,910,0" flags="0">
+   <Inputs Enabled="1" AlienInterference_Amount="0"/>
+  </Node>
+  <Node Id="314" Class="Sound:PlaySoundEvent" pos="430,990,0" flags="0">
+   <Inputs entityId="0" Enable="1" sound_SoundEvent="Sounds/interface:suit:suit_poison_fp" Voice="0" Once="0"/>
+  </Node>
+  <Node Id="315" Class="Game:LocalPlayer" pos="257.12277,931.07898,0" flags="0"/>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="294" nodeOut="274" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="296" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="299" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="304" nodeOut="274" portIn="Trigger" portOut="Started" enabled="1"/>
+  <Edge nodeIn="307" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="308" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="310" nodeOut="274" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="314" nodeOut="274" portIn="PlayTrigger" portOut="Started" enabled="1"/>
+  <Edge nodeIn="292" nodeOut="294" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="295" nodeOut="296" portIn="FilterSharpening_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="299" portIn="Global_User_ColorC" portOut="Value" enabled="1"/>
+  <Edge nodeIn="311" nodeOut="307" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="297" nodeOut="308" portIn="Global_User_ColorK" portOut="Value" enabled="1"/>
+  <Edge nodeIn="312" nodeOut="310" portIn="AlienInterference_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="314" nodeOut="315" portIn="entityId" portOut="entityId" enabled="1"/>
+ </Edges>
+</Graph>

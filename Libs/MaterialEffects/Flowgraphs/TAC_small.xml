@@ -1,0 +1,62 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="6" Class="Camera:ViewShake" pos="460,330,0" flags="0">
+   <Inputs Restrict="0" View="0" Angle="1,0.3,0.3" Shift="0.4,0.2,0.2" Duration="1" Frequency="30" Randomness="0.5"/>
+  </Node>
+  <Node Id="7" Class="Time:Delay" pos="300,480,0" flags="0">
+   <Inputs delay="0.5"/>
+  </Node>
+  <Node Id="9" Class="Image:FilterBlur" pos="650,450,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="1" FilterBlurring_Amount="0.3"/>
+  </Node>
+  <Node Id="12" Class="Interpol:Float" pos="460,480,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="2"/>
+  </Node>
+  <Node Id="14" Class="MaterialFX:HUDEndFX" pos="640,690,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="15" Class="MaterialFX:HUDStartFX" pos="0,390,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="16" Class="Time:Delay" pos="410,690,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="17" Class="Time:Delay" pos="300,220,0" flags="0">
+   <Inputs delay="0.6"/>
+  </Node>
+  <Node Id="18" Class="Image:ChromaShift" pos="640,230,0" flags="0">
+   <Inputs Enabled="1" FilterChromaShift_User_Amount="0.03"/>
+  </Node>
+  <Node Id="19" Class="Interpol:Float" pos="460,220,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="0.5"/>
+  </Node>
+  <Node Id="23" Class="Interpol:Float" pos="460,0,0" flags="0" InHideMask="31" OutHideMask="3">
+   <Inputs StartValue="-1" EndValue="0" Time="0.5"/>
+  </Node>
+  <Node Id="29" Class="Image:ColorCorrection" pos="630,20,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="50" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="30" Class="Time:Delay" pos="300,110,0" flags="0">
+   <Inputs delay="0.5"/>
+  </Node>
+  <Node Id="31" Class="Interpol:Float" pos="470,110,0" flags="0" InHideMask="31" OutHideMask="3">
+   <Inputs StartValue="2" EndValue="1" Time="0.5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="12" nodeOut="7" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="12" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="15" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="15" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="15" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="30" nodeOut="15" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="16" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="17" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="17" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="19" portIn="FilterChromaShift_User_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="23" portIn="Global_User_ColorK" portOut="Value" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="30" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="31" nodeOut="30" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="29" nodeOut="31" portIn="Global_User_Contrast" portOut="Value" enabled="1"/>
+ </Edges>
+</Graph>

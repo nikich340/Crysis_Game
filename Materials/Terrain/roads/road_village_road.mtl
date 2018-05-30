@@ -1,0 +1,16 @@
+<Material Diffuse="0.419608,0.419608,0.419608" Emissive="0,0,0" GenMask="37752833" MtlFlags="9" Opacity="0.99" Shader="Illum" Shininess="10" Specular="0.0352941,0.0313726,0.0282353" SurfaceType="mat_pebble" >
+ <Textures>
+  <Texture File="textures/terrain/roads/road_jungle_road.tif" Filter="6" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/detail/road_ground_stoneb_ddn.dds" Filter="6" Map="Bumpmap" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64" />
+ <MaterialLayers>
+  <Layer Active="1" Name="Frozenlayer" >
+   <PublicParams EndFrostColor="0.82,0.84,0.9" FrostAmount="0.822" FrostDetailTileU="4" FrostDetailTileV="2" FrostMultiplier="1.97" GroundColor="0.4,0.41,0.419" ReflBumpAmount="1" ReflContrast="1" SpecColor="1,1,1" SpecGlossiness="8" SpecLevel="1" StartFrostColor="0.145,0.18,0.25" VariationAmount="0.4" VariationTileU="0.5" VariationTileV="0.5" VariationTileW="0.5" />
+  </Layer>
+ </MaterialLayers>
+</Material>

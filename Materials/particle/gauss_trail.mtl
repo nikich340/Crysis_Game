@@ -1,0 +1,15 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="16" SurfaceType="" Diffuse="0.15686275,0.24705884,0.86666673" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/shockwave2_mono.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/sprites/fire_blur1_ddn.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/fire_blur1_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.2" PerturbationScale="7" PerturbationStrenght="0.5"/>
+ <MaterialLayers />
+</Material>

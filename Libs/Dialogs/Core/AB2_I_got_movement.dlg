@@ -1,0 +1,4 @@
+<DialogScript Name="Core.AB2_I_got_movement" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_12eebc36" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I ve got movement. Looks like the relic Rosenthal dug up at the excavation site. But this one s mobile. He was right; it s definitely some kind of machine."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_8bfa91d4" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I think these are the same things that we ve seen scouting around in the jungle."/>
+</DialogScript>

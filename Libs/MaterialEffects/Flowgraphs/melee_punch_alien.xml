@@ -1,0 +1,42 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="95" Class="Interpol:Float" pos="200,-20,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="96" Class="MaterialFX:HUDStartFX" pos="-151,-16,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="97" Class="MaterialFX:HUDEndFX" pos="-130,110,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="102" Class="Image:EffectBloodSplats" pos="380,60,0" flags="0">
+   <Inputs Enabled="1" BloodSplats_Type="1" BloodSplats_Amount="0" BloodSplats_Spawn="0"/>
+  </Node>
+  <Node Id="106" Class="Input:Key" pos="-290,0,0" flags="0">
+   <Inputs Key="h"/>
+  </Node>
+  <Node Id="107" Class="Time:Delay" pos="80,190,0" flags="0">
+   <Inputs delay="0.04"/>
+  </Node>
+  <Node Id="108" Class="Math:SetNumber" pos="200,210,0" flags="0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="109" Class="Logic:Any" pos="320,180,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="110" Class="Math:SetNumber" pos="180,130,0" flags="0">
+   <Inputs in="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="97" nodeOut="95" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="102" nodeOut="95" portIn="BloodSplats_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="95" nodeOut="96" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="107" nodeOut="96" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="110" nodeOut="96" portIn="set" portOut="Started" enabled="1"/>
+  <Edge nodeIn="108" nodeOut="107" portIn="set" portOut="out" enabled="1"/>
+  <Edge nodeIn="109" nodeOut="108" portIn="in2" portOut="out" enabled="1"/>
+  <Edge nodeIn="102" nodeOut="109" portIn="BloodSplats_Spawn" portOut="out" enabled="1"/>
+  <Edge nodeIn="109" nodeOut="110" portIn="in1" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,9 @@
+<GameTokensLibrary Name="Act2_M03_Airfield">
+ <GameToken Name="MissionProgress.PlayerEnteredTerminal" Type="Bool" Value="false"/>
+ <GameToken Name="MissionProgress.RunwayLightsActivated" Type="Bool" Value="false"/>
+ <GameToken Name="MissionProgress.KoreansAtVillageAlive" Type="Bool" Value="true"/>
+ <GameToken Name="MissionProgress.C17Escaped" Type="Bool" Value="false"/>
+ <GameToken Name="MissionProgress.HunterDefeated" Type="Bool" Value="false"/>
+ <GameToken Name="MissionProgress.OfficerPakAlive" Type="Bool" Value="true"/>
+ <GameToken Name="MissionProgress.C17Destroyed" Type="Bool" Value="false" Description="Set to true if the C17 that will take the  player to the next mission is destroyed."/>
+</GameTokensLibrary>

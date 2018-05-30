@@ -1,0 +1,25 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="80,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="520,20,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="30,110,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="7" Class="AI:AIGotoSpeedStance" pos="270,10,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="1" StopDistance="1" run="1" stance="4"/>
+  </Node>
+  <Node Id="8" Class="Entity:BroadcastEvent" pos="520,110,0" flags="0">
+   <Inputs send="0" event="Enter" name="AB8_Forcefield_mechanic"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="7" portIn="end" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="7" portIn="send" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="268435461" SurfaceType="mat_soil" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="13.4" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_soil_small_pepples.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/road_soil_small_pepples_ddn.tif">
+   <TexMod TileU="0.025" TileV="0.025"/>
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

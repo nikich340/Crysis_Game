@@ -1,0 +1,9 @@
+<Material MtlFlags="2048" Shader="Water" GenMask="33" SurfaceType="mat_water" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="80.5" Opacity="1">
+ <Textures>
+  <Texture Map="Bumpmap" File="textures/defaults/oceanwaves_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SoftIntersectionFactor="1" ReflectionAmount="1.74" WhiteCapsAmount="1" SunMultiplier="1.48" FresnelScale="1.24"/>
+ <MaterialLayers />
+</Material>

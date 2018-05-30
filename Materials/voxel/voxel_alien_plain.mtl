@@ -1,0 +1,69 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="128" Shader="Terrain.Layer" GenMask="402690692" SurfaceType="mat_alien_basic_wall" Diffuse="0.2392157,0.2392157,0.2392157" Specular="0.7843138,0.83921576,0.89411771" Emissive="0,0,0" Shininess="33" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/voxel/obsidian_wall.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/voxel/obsidian_wall_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/terrain/voxel/obsidian_wall_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/alien_level_texture/detail_bumpmaps/test_circular.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.93000001" FresnelScale="2.5999999" FresnelBias="0" ObmDisplacement="0" PomDisplacement="0" SelfShadowStrength="3" DetailTextureStrength="1" DetailBumpTillingU="4" DetailBumpTillingV="4" DetailBumpScale="0.5" DetailBlendAmount="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="128" Shader="Terrain.Layer" GenMask="402690692" SurfaceType="mat_alien_basic_wall" Diffuse="0.2392157,0.2392157,0.2392157" Specular="0.78823501,0.83921599,0.89411801" Emissive="0,0,0" Shininess="33" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/voxel/obsidian_wall.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/voxel/obsidian_wall_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/terrain/voxel/obsidian_wall_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/alien_level_texture/detail_bumpmaps/test_circular.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.99000001" FresnelScale="2.5999999" FresnelBias="0" ObmDisplacement="0" PomDisplacement="0.025" SelfShadowStrength="3" DetailTextureStrength="1" DetailBumpTillingU="4" DetailBumpTillingV="4" DetailBumpScale="0.55000001" DetailBlendAmount="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="128" Shader="Terrain.Layer" GenMask="402690692" SurfaceType="mat_alien_basic_wall" Diffuse="0.2392157,0.2392157,0.2392157" Specular="0.78823501,0.83921599,0.89411801" Emissive="0,0,0" Shininess="33" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/voxel/obsidian_wall.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/voxel/obsidian_wall_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="textures/terrain/voxel/obsidian_wall_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/alien_level_texture/detail_bumpmaps/test_circular.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams EnvMapAmount="0.80000001" FresnelScale="2.5999999" FresnelBias="0" ObmDisplacement="0" PomDisplacement="0.025" SelfShadowStrength="3" DetailTextureStrength="1" DetailBumpTillingU="1" DetailBumpTillingV="1" DetailBumpScale="1" DetailBlendAmount="0"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

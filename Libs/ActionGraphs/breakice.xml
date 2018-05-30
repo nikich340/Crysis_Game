@@ -1,0 +1,26 @@
+<Graph Description="" enabled="1" Group="IceAlien" >
+ <Nodes>
+  <Node Class="entity:Scout" flags="0" Id="14" pos="150,-120,0" >
+   <Inputs Disable="0" Enable="0" entityId="0" Kill="0" />
+  </Node>
+  <Node Class="Movement:MoveEntityTo" flags="0" Id="26" pos="430,20,0" >
+   <Inputs Destination="0,0,0" EaseDistance="1" entityId="0" Speed="25" Trigger="0" />
+  </Node>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="740,20,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:SmartObjectHelper" flags="0" Id="23" pos="149.45453,99.338043,0" >
+   <Inputs entityId="0" soclass_class="UnderwaterAlien" sohelper_helper="UnderwaterAlien:FlyToPos" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="1" Id="1" pos="20,10,0" />
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="26" nodeOut="1" portIn="Start" portOut="ObjectId" />
+  <Edge nodeIn="2" nodeOut="26" portIn="end" portOut="DoneTrigger" />
+  <Edge nodeIn="14" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="14" nodeOut="1" portIn="Enable" portOut="ObjectId" />
+  <Edge nodeIn="26" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="23" nodeOut="1" portIn="entityId" portOut="ObjectId" />
+  <Edge nodeIn="26" nodeOut="23" portIn="Destination" portOut="pos" />
+ </Edges>
+</Graph>

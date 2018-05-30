@@ -1,0 +1,18 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="268440199" SurfaceType="mat_mud" Diffuse="1,1,1" Specular="5.3,5.3,5.3" Emissive="0,0,0" Shininess="180.4" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/plains_field_mud.tif" Filter="5">
+   <TexMod TileU="0.9" TileV="0.9"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/plains_field_mud_spec.tif">
+   <TexMod TileU="0.9" TileV="0.9"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/plains_field_mud_ddn.tif">
+   <TexMod TileU="0.9" TileV="0.9"/>
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+   <TexMod TileU="0.9" TileV="0.9"/>
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64" EnvMapAmount="0.25" FresnelScale="1" FresnelBias="0" BumpOffset="0.011" DetailTextureStrength="1.075"/>
+ <MaterialLayers />
+</Material>

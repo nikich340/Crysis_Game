@@ -1,0 +1,51 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="168" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_rock" Diffuse="0.92156899,0.92156899,0.92156899" Specular="0.60000002,0.60000002,0.60000002" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_stones.tif">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/cliff_stones_frozen_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_stones_ddn.tif">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="168" Shader="Terrain.Layer" GenMask="268435972" SurfaceType="mat_rock" Diffuse="0.92156899,0.92156899,0.92156899" Specular="0.60000002,0.60000002,0.60000002" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_stones.tif">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/cliff_stones_frozen_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_stones_ddn.tif">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="168" Shader="Terrain.Layer" GenMask="402657796" SurfaceType="mat_rock" Diffuse="0.92156899,0.92156899,0.92156899" Specular="0.60000002,0.60000002,0.60000002" Emissive="0,0,0" Shininess="2" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_stones.tif">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+    <Texture Map="Specular" File="textures/terrain/detail/cliff_stones_frozen_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_stones_ddn.tif">
+     <TexMod TileU="0.02" TileV="0.02"/>
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.011" PomDisplacement="0.022" SelfShadowStrength="3" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

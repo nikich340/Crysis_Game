@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="303169554" SurfaceType="" Diffuse="0.435294,0.435294,0.435294" Specular="0.243137,0.243137,0.243137" Emissive="0,0,0" Shininess="3" Opacity="0.97">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/road_asphalt.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/decal/road_asphalt_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/road_asphalt_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64" BumpOffset="0.2"/>
+ <MaterialLayers />
+</Material>

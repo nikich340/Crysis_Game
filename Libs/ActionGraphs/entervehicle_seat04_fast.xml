@@ -1,0 +1,17 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="30,20,0" flags="1"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="350,20,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="Vehicle:Enter" pos="170,20,0" flags="1">
+   <Inputs entityId="0" VehicleId="0" SeatNumber="4" Fast="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="VehicleId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,480 @@
+<FXLib>
+
+<Effect name="hunter_step_default">
+	<Particle><Name>vehicle_fx.hunter_step.default</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_soil">
+	<Particle><Name>vehicle_fx.hunter_step.soil</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_mud">
+	<Particle><Name>vehicle_fx.hunter_step.mud</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_concrete">
+	<Particle><Name>vehicle_fx.hunter_step.concrete</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_water">
+	<Particle><Name>vehicle_fx.hunter_step.water</Name></Particle>
+	<FlowGraph name="air_dust_water" maxdist="8"/>
+</Effect>
+<Effect name="hunter_step_sand">
+	<Particle><Name>vehicle_fx.hunter_step.sand</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_metal">
+	<Particle><Name>vehicle_fx.hunter_step.metal</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_snow">
+	<Particle><Name>vehicle_fx.hunter_step.snow</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="hunter_step_ice">
+	<Particle><Name>vehicle_fx.hunter_step.ice</Name></Particle>
+	<RandEffect>
+		<Decal minscale="1" maxscale="1">
+			<Material>materials/decals/hunter_footstep_default</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+
+
+<Effect name="hunter_lift_default">
+	<Particle><Name>vehicle_fx.hunter_lift.default</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_soil">
+	<Particle><Name>vehicle_fx.hunter_lift.soil</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_mud">
+	<Particle><Name>vehicle_fx.hunter_lift.mud</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_concrete">
+	<Particle><Name>vehicle_fx.hunter_lift.concrete</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_water">
+	<Particle><Name>vehicle_fx.hunter_lift.water</Name></Particle>
+	<FlowGraph name="air_dust_water" maxdist="8"/>
+</Effect>
+<Effect name="hunter_lift_sand">
+	<Particle><Name>vehicle_fx.hunter_lift.sand</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_metal">
+	<Particle><Name>vehicle_fx.hunter_lift.metal</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_snow">
+	<Particle><Name>vehicle_fx.hunter_lift.snow</Name></Particle>
+</Effect>
+<Effect name="hunter_lift_ice">
+	<Particle><Name>vehicle_fx.hunter_lift.ice</Name></Particle>
+</Effect>
+
+
+<Effect name="scout_air_default">
+	<Particle><Name>vehicle_fx.scout.default</Name></Particle>
+</Effect>
+<Effect name="scout_air_soil">
+	<Particle><Name>vehicle_fx.scout.soil</Name></Particle>
+</Effect>
+<Effect name="scout_air_grass">
+	<Particle><Name>vehicle_fx.scout.grass</Name></Particle>
+</Effect>
+<Effect name="scout_air_rock">
+	<Particle><Name>vehicle_fx.scout.rock</Name></Particle>
+</Effect>
+<Effect name="scout_air_water">
+	<Particle><Name>vehicle_fx.scout.water</Name></Particle>
+	<FlowGraph name="air_dust_water" maxdist="8"/>
+</Effect>
+<Effect name="scout_air_sand">
+	<Particle><Name>vehicle_fx.scout.sand</Name></Particle>
+</Effect>
+<Effect name="scout_air_leaves">
+	<Particle><Name>vehicle_fx.scout.leaves</Name></Particle>
+</Effect>
+<Effect name="scout_air_snow">
+	<Particle><Name>vehicle_fx.scout.snow</Name></Particle>
+</Effect>
+
+
+<Effect name="trooper_air_default">
+	<Particle><Name>alien_special.trooper_trails.default</Name></Particle>
+</Effect>
+<Effect name="trooper_air_soil">
+	<Particle><Name>alien_special.trooper_trails.soil</Name></Particle>
+</Effect>
+<Effect name="trooper_air_grass">
+	<Particle><Name>alien_special.trooper_trails.grass</Name></Particle>
+</Effect>
+<Effect name="trooper_air_rock">
+	<Particle><Name>alien_special.trooper_trails.rock</Name></Particle>
+</Effect>
+<Effect name="trooper_air_water">
+	<Particle><Name>alien_special.trooper_trails.water</Name></Particle>
+	<FlowGraph name="air_dust_water" maxdist="8"/>
+</Effect>
+<Effect name="trooper_air_sand">
+	<Particle><Name>alien_special.trooper_trails.sand</Name></Particle>
+</Effect>
+<Effect name="trooper_air_leaves">
+	<Particle><Name>alien_special.trooper_trails.leaves</Name></Particle>
+</Effect>
+<Effect name="trooper_air_snow">
+	<Particle><Name>alien_special.trooper_trails.snow</Name></Particle>
+</Effect>
+
+<Effect name="trooper_jump_default">
+	<Particle><Name>alien_special.trooper_trails_large.default</Name></Particle>
+</Effect>
+<Effect name="trooper_jump_soil">
+	<Particle><Name>alien_special.trooper_trails_large.soil</Name></Particle>
+</Effect>
+<Effect name="trooper_jump_grass">
+	<Particle><Name>alien_special.trooper_trails_large.grass</Name></Particle>
+</Effect>
+<Effect name="trooper_jump_rock">
+	<Particle><Name>alien_special.trooper_trails_large.rock</Name></Particle>
+</Effect>
+<Effect name="trooper_jump_water">
+	<Particle><Name>alien_special.trooper_trails_large.water</Name></Particle>
+	<FlowGraph name="air_dust_water" maxdist="8"/>
+</Effect>
+<Effect name="trooper_jump_sand">
+	<Particle><Name>alien_special.trooper_trails_large.sand</Name></Particle>
+</Effect>
+<Effect name="trooper_jump_leaves">
+	<Particle><Name>alien_special.trooper_trails_large.leaves</Name></Particle>
+</Effect>
+<Effect name="trooper_jump_snow">
+	<Particle><Name>alien_special.trooper_trails_large.snow</Name></Particle>
+</Effect>
+
+
+<Effect name="tank_road">	
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.road_splashes</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">vehicle_fx.vehicles_surface_slip.road</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+ 	</Particle>
+ 	<Sound>
+ 	  <Name>concrete</Name>
+  </Sound>
+</Effect>
+
+<Effect name="tank_mud">
+ 	<Particle>
+ 	  <Name>vehicle_fx.tanks_surface_fx.mud_splashes</Name>
+ 	</Particle>
+  <Particle>
+    <Name userdata="slip">vehicle_fx.vehicles_surface_slip.mud</Name>
+  </Particle>
+ 	<Sound>
+ 	  <Name>soil</Name>
+ 	</Sound>
+</Effect>
+
+<Effect name="tank_soil">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.soil_dust</Name>
+	</Particle>		
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_grass">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.grass_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_rock">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.rock_splashes</Name>
+	</Particle>	
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>
+	<Sound>
+	  <Name>gravel</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_water">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.water_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>water</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_sand">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.sand_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_leaves">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.leaves_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>vegetation</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_snow">
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.snow_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_metal">	  
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.road_splashes</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.tanks_surface_fx.rim_sparks</Name>
+	</Particle>	
+	<Sound>
+	  <Name>metal</Name>
+	</Sound>
+</Effect>
+
+<Effect name="tank_concrete">	
+	<Particle>
+	  <Name>vehicle_fx.tanks_surface_fx.rock_splashes</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>
+	<Sound>
+	  <Name>concrete</Name>
+	</Sound>
+</Effect>
+
+
+
+
+<Effect name="truck_road">	
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.road_splashes</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">vehicle_fx.vehicles_surface_slip.road</Name>
+	</Particle>
+ 	<Particle>
+ 	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+ 	</Particle>
+ 	<Sound>
+ 	  <Name>concrete</Name>
+  </Sound>
+</Effect>
+
+<Effect name="truck_mud">
+ 	<Particle>
+ 	  <Name>vehicle_fx.vehicles_surface_fx.mud_splashes</Name>
+ 	</Particle>
+  <Particle>
+    <Name userdata="slip">vehicle_fx.vehicles_surface_slip.mud</Name>
+  </Particle>
+ 	<Sound>
+ 	  <Name>soil</Name>
+ 	</Sound>
+</Effect>
+
+<Effect name="truck_soil">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.soil_dust</Name>
+	</Particle>		
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+<Effect name="truck_soil_dusty">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.soil_dust_large</Name>
+	</Particle>		
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_grass">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.grass_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_rock">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.rock_splashes</Name>
+	</Particle>	
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>
+	<Sound>
+	  <Name>gravel</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_water">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.water_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>water</Name>
+	</Sound>
+</Effect>
+
+
+<Effect name="truck_water_muddy">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.water_splashes_muddy</Name>
+	</Particle>	
+	<Sound>
+	  <Name>water</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_sand">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.sand_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_leaves">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.leaves_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>vegetation</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_snow">
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.snow_splashes</Name>
+	</Particle>	
+	<Sound>
+	  <Name>soil</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_metal">	  
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>	
+	<Sound>
+	  <Name>metal</Name>
+	</Sound>
+</Effect>
+
+<Effect name="truck_concrete">	
+	<Particle>
+	  <Name>vehicle_fx.vehicles_surface_fx.rock_splashes</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="slip">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>
+	<Particle>
+	  <Name userdata="rims">vehicle_fx.vehicles_surface_fx.rim_sparks</Name>
+	</Particle>
+	<Sound>
+	  <Name>concrete</Name>
+	</Sound>
+</Effect>
+
+
+<Effect name="smallboat_water">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.small_boat</Name></Particle>
+	<Particle><Name userdata="spray">vehicle_fx.vehicles_surface_fx.small_boat_spray</Name></Particle>
+</Effect>
+
+
+<Effect name="air_default">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_soil_dust</Name></Particle>
+</Effect>
+<Effect name="air_soil">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_soil_dust</Name></Particle>
+</Effect>
+<Effect name="air_grass">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_grass_splashes</Name></Particle>
+</Effect>
+<Effect name="air_rock">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_rock_splashes</Name></Particle>
+</Effect>
+<Effect name="air_water">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_water_splashes</Name></Particle>
+	<FlowGraph name="air_dust_water" maxdist="8"/>
+</Effect>
+<Effect name="air_sand">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_sand_splashes</Name></Particle>
+</Effect>
+<Effect name="air_leaves">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_leaves_splashes</Name></Particle>
+</Effect>
+<Effect name="air_snow">
+	<Particle><Name>vehicle_fx.vehicles_surface_fx.air_snow_splashes</Name></Particle>
+</Effect>
+
+<Effect name="us_ltv_impact_rattle">
+	<Sound>
+		<Name>sounds/vehicles:us_ltv:impact_rattle</Name>
+	</Sound>
+</Effect>
+
+</FXLib>

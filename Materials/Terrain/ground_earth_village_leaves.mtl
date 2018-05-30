@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_soil" Diffuse="0.90980399,0.90980399,0.90980399" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_earth_village_leaves.tif" Filter="5">
+   <TexMod TileU="0.40000001" TileV="0.40000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/ground_earth_village_leaves_ddn.tif">
+   <TexMod TileU="0.40000001" TileV="0.40000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0020000001" PomDisplacement="0.003" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,5 @@
+<DialogScript Name="Fleet.AB9_DeckBattle_Its_working" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_91CF9F05" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Got the bastard!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab9_8CAA1F02" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="They re retreating."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_2A49CC18" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Hang tight, I m bringing her down."/>
+</DialogScript>

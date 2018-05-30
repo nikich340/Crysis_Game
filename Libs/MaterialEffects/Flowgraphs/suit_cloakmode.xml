@@ -1,0 +1,68 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="Image:EffectCondensation" pos="700,410,0" flags="0">
+   <Inputs Enabled="1" ScreenCondensation_Amount="0" ScreenCondensation_CenterAmount="5.57"/>
+  </Node>
+  <Node Id="3" Class="Interpol:Float" pos="30,500,0" flags="0">
+   <Inputs StartValue="0" EndValue="1.5" Time="0.2"/>
+  </Node>
+  <Node Id="9" Class="Interpol:Float" pos="30,630,0" flags="0">
+   <Inputs StartValue="0" EndValue="0.4" Time="0.7"/>
+  </Node>
+  <Node Id="10" Class="Image:ChromaShift" pos="480,620,0" flags="0">
+   <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+  </Node>
+  <Node Id="11" Class="Image:ColorCorrection" pos="510,730,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="12" Class="Interpol:Float" pos="30,740,0" flags="0">
+   <Inputs StartValue="1" EndValue="0.5" Time="0.7"/>
+  </Node>
+  <Node Id="83" Class="Interpol:Float" pos="180,740,0" flags="0">
+   <Inputs StartValue="0.5" EndValue="1" Time="1"/>
+  </Node>
+  <Node Id="94" Class="Logic:Any" pos="370,740,0" flags="0" InHideMask="63" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="95" Class="Interpol:Float" pos="180,630,0" flags="0">
+   <Inputs StartValue="0.4" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="96" Class="Logic:Any" pos="340,630,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="97" Class="Interpol:Float" pos="190,500,0" flags="0">
+   <Inputs StartValue="1.5" EndValue="0.3" Time="0.25"/>
+  </Node>
+  <Node Id="98" Class="Logic:Any" pos="550,370,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="99" Class="Interpol:Float" pos="380,500,0" flags="0">
+   <Inputs StartValue="0.3" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="100" Class="MaterialFX:HUDEndFX" pos="-140,720,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="101" Class="MaterialFX:HUDStartFX" pos="-160,530,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="97" nodeOut="3" portIn="Start" portOut="Done" enabled="1"/>
+  <Edge nodeIn="98" nodeOut="3" portIn="in1" portOut="Value" enabled="1"/>
+  <Edge nodeIn="95" nodeOut="9" portIn="Start" portOut="Done" enabled="1"/>
+  <Edge nodeIn="96" nodeOut="9" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="12" portIn="Start" portOut="Done" enabled="1"/>
+  <Edge nodeIn="94" nodeOut="12" portIn="in1" portOut="Value" enabled="1"/>
+  <Edge nodeIn="94" nodeOut="83" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="100" nodeOut="83" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="94" portIn="Global_User_Saturation" portOut="out" enabled="1"/>
+  <Edge nodeIn="96" nodeOut="95" portIn="in1" portOut="Value" enabled="1"/>
+  <Edge nodeIn="98" nodeOut="97" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="99" nodeOut="97" portIn="Start" portOut="Done" enabled="1"/>
+  <Edge nodeIn="1" nodeOut="98" portIn="ScreenCondensation_Amount" portOut="out" enabled="1"/>
+  <Edge nodeIn="98" nodeOut="99" portIn="in3" portOut="Value" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="101" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="101" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="101" portIn="Start" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

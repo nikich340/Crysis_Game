@@ -1,0 +1,71 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="187" Class="MaterialFX:HUDStartFX" pos="-90,-180,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="219" Class="Image:ColorCorrection" pos="430,-70,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="222" Class="Image:FilterRadialBlur" pos="440,-190,0" flags="0">
+   <Inputs Enabled="1" FilterRadialBlurring_Amount="0" FilterRadialBlurring_ScreenPosX="0.5" FilterRadialBlurring_ScreenPosY="0.5" FilterRadialBlurring_Radius="1"/>
+  </Node>
+  <Node Id="225" Class="CrysisFX:ScreenFader" pos="140,160,0" flags="0">
+   <Inputs FadeGroup="0" FadeInTime="2" FadeOutTime="8" color_FadeColor="1,0.109804,0.129412" tex_TextureName="textures/sprites/hud/nano_change_1.tif"/>
+  </Node>
+  <Node Id="235" Class="Interpol:Float" pos="160,-170,0" flags="0">
+   <Inputs StartValue="0" EndValue="1" Time="4"/>
+  </Node>
+  <Node Id="236" Class="Interpol:Float" pos="150,-40,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="4"/>
+  </Node>
+  <Node Id="237" Class="Interpol:Float" pos="160,60,0" flags="1">
+   <Inputs StartValue="1" EndValue="0" Time="5"/>
+  </Node>
+  <Node Id="238" Class="Time:Delay" pos="-10,60,0" flags="0">
+   <Inputs delay="2"/>
+  </Node>
+  <Node Id="249" Class="Game:LocalPlayer" pos="-470,-130,0" flags="0"/>
+  <Node Id="253" Class="Game:ActorCheckHealth" pos="-290,-130,0" flags="0">
+   <Inputs entityId="0" MinHealth="-1" MaxHealth="0"/>
+  </Node>
+  <Node Id="254" Class="Time:Time" pos="-450,-80,0" flags="0">
+   <Inputs paused="0"/>
+  </Node>
+  <Node Id="255" Class="HUD:DisplayInstructionMessage" pos="-80,-30,0" flags="0">
+   <Inputs text_message="wew" displayTime="10"/>
+  </Node>
+  <Node Id="256" Class="Math:FromBoolean" pos="-250,-30,0" flags="0">
+   <Inputs Value="0"/>
+  </Node>
+  <Node Id="257" Class="Start" pos="-760,-70,0" flags="0">
+   <Inputs InGame="1" InEditor="1"/>
+  </Node>
+  <Node Id="259" Class="Math:ToBoolean" pos="-600,-70,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="264" Class="Image:EffectBloodSplats" pos="-40.09388,340.10672,0" flags="0">
+   <Inputs Enabled="1" BloodSplats_Type="0" BloodSplats_Amount="0.98" BloodSplats_Spawn="1"/>
+  </Node>
+  <Node Id="265" Name="blood for headshot" Class="_comment" pos="-50,300,0" flags="0"/>
+  <Node Id="266" Class="MaterialFX:HUDEndFX" pos="-46.597137,166.07697,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="235" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="236" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="238" nodeOut="187" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="222" nodeOut="235" portIn="FilterRadialBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="219" nodeOut="236" portIn="Global_User_Saturation" portOut="Value" enabled="1"/>
+  <Edge nodeIn="219" nodeOut="237" portIn="Global_User_Brightness" portOut="Value" enabled="1"/>
+  <Edge nodeIn="266" nodeOut="237" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="225" nodeOut="238" portIn="FadeOut" portOut="out" enabled="1"/>
+  <Edge nodeIn="237" nodeOut="238" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="253" nodeOut="249" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="256" nodeOut="253" portIn="Value" portOut="InRange" enabled="1"/>
+  <Edge nodeIn="253" nodeOut="254" portIn="Trigger" portOut="tick" enabled="1"/>
+  <Edge nodeIn="259" nodeOut="256" portIn="true" portOut="True" enabled="1"/>
+  <Edge nodeIn="259" nodeOut="257" portIn="false" portOut="output" enabled="1"/>
+  <Edge nodeIn="254" nodeOut="259" portIn="paused" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

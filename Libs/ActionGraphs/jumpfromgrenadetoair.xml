@@ -1,0 +1,36 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-140,-10,0" flags="1"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="700,120,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="-20,60,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIAnimEx" pos="300,-10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" OneShot="1" animstateEx_Animation="stuntJump" Speed="2" Stance="2" Position="0,0,0" StartRadius="0.5,0.5,0.5" Direction="0,0,0" DirTolerance="2" TargetRadius="0.05"/>
+  </Node>
+  <Node Id="15" Class="Time:RandomDelay" pos="30,-10,0" flags="0">
+   <Inputs MinDelay="0.2" MaxDelay="0.75"/>
+  </Node>
+  <Node Id="16" Class="Time:Delay" pos="540,80,0" flags="0">
+   <Inputs delay="0.5"/>
+  </Node>
+  <Node Id="18" Class="entity:Grunt" pos="691.111,-35.5556,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" Spawn="0" Used="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="1" portIn="In" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="4" portIn="in" portOut="start" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="15" portIn="Sync" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="16" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="16" portIn="Kill" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

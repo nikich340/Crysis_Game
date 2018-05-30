@@ -1,0 +1,1640 @@
+<FXLib>
+
+	<Effect name="fire_spreading">
+		<Particle>
+			<Name>smoke_and_fire.ground_fire.small</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="oil_spreading">
+		<Particle>
+			<Name></Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.2" maxscale="0.4">
+				<Material>materials/decals/oil_slick_spreading</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+
+
+	<Effect name="huge_container_hit">
+		<Particle>
+			<Name>collisions.huge_container.ground</Name>
+		</Particle>
+		<Sound>
+			<Name>sounds/physics:collisions:harbor_container</Name>
+		</Sound>
+	</Effect>
+	<Effect name="bloody_alien_flesh">
+		<Particle>
+			<Name>bullet.hit_alien_body.hit</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.5" maxscale="1">
+				<Material>materials/decals/alien_blood_splat1</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+
+	<Effect name="fruit">
+		<Particle>
+			<Name>collisions.small.fruit</Name>
+		</Particle>
+		<Sound>
+			<Name>sounds/physics:destructibles:flesh_shatter</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="bloody_flesh">
+		<Particle>
+			<Name>bullet.hit_flesh.a</Name>
+		</Particle>
+		<RandEffect>
+			<Decal minscale="0.25" maxscale="0.7">
+				<Filename>textures/decal/metal.dds</Filename>
+				<Material>materials/decals/blood_splat1</Material>
+			</Decal>
+			<Decal minscale="0.25" maxscale="0.7">
+				<Filename>textures/decal/metal.dds</Filename>
+				<Material>materials/decals/blood_splat2</Material>
+			</Decal>
+			<Decal minscale="0.25" maxscale="0.7">
+				<Filename>textures/decal/metal.dds</Filename>
+				<Material>materials/decals/blood_splat5</Material>
+			</Decal>
+			<Decal minscale="0.25" maxscale="0.7">
+				<Filename>textures/decal/metal.dds</Filename>
+				<Material>materials/decals/blood_splat7</Material>
+			</Decal>
+			<Decal minscale="0.25" maxscale="0.7">
+				<Filename>textures/decal/metal.dds</Filename>
+				<Material>materials/decals/blood_splat11</Material>
+			</Decal>
+		</RandEffect>
+	</Effect>
+
+
+	<Effect name="scout_crash_default">
+		<Sound>
+			<Name>sounds/physics:collisions:scout_ground</Name>
+		</Sound>
+		<Particle>
+			<Name>alien_special.scout.ScoutCrashB_default</Name>
+		</Particle>
+	</Effect>
+	<Effect name="scout_crash_water">
+		<Sound>
+			<Name>sounds/physics:collisions:scout_water</Name>
+		</Sound>
+		<Particle>
+			<Name>alien_special.scout.ScoutCrashB_water</Name>		
+		</Particle>
+	</Effect>
+	<Effect name="scout_crash_snow">
+		<Sound>
+			<Name>sounds/physics:collisions:scout_ground</Name>
+		</Sound>
+		<Particle>
+			<Name>alien_special.scout.ScoutCrashB_snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="scout_crash_soil">
+		<Sound>
+			<Name>sounds/physics:collisions:scout_ground</Name>
+		</Sound>
+		<Particle>
+			<Name>alien_special.scout.ScoutCrashB_soil</Name>
+		</Particle>
+	</Effect>
+	<Effect name="scout_crash_metal">
+		<Sound>
+			<Name>sounds/physics:collisions:scout_metal</Name>
+		</Sound>
+		<Particle>
+			<Name>alien_special.scout.ScoutCrashB_metal</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="trooper_crash_default">
+		<Sound>
+			<Name>sounds/physics:collisions:trooper_ground</Name>
+		</Sound>
+
+	</Effect>
+	<Effect name="trooper_crash_water">
+		<Sound>
+			<Name>sounds/physics:collisions:trooper_water</Name>
+		</Sound>
+
+	</Effect>
+	<Effect name="trooper_crash_snow">
+		<Sound>
+			<Name>sounds/physics:collisions:trooper_ground</Name>
+		</Sound>
+
+	</Effect>
+	<Effect name="trooper_crash_soil">
+		<Sound>
+			<Name>sounds/physics:collisions:trooper_ground</Name>
+		</Sound>
+
+	</Effect>
+	<Effect name="trooper_crash_metal">
+		<Sound>
+			<Name>sounds/physics:collisions:trooper_metal</Name>
+		</Sound>
+		<Particle>
+			<Name>alien_special.Trooper_Trails.metal</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="shotgun_shell_water">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.shells.water</Name>
+		</Particle>
+	</Effect>
+	<Effect name="shotgun_shell_metal_thin">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_metal_thick</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_metal_thick">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_metal_thick</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_metal_grate">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_metal_grate</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_wood_hollow">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_wood_hollow</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_wood_solid">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_wood_solid</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_concrete">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_concrete</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_gravel">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_gravel</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_ice">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_ice</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_grass">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_grass</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_mud">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_grass</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.shells.mud</Name>
+		</Particle>
+	</Effect>
+	<Effect name="shotgun_shell_dirt">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_grass</Name>
+		</Sound>
+	</Effect>
+	<Effect name="shotgun_shell_default">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_shotgun:mat_grass</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="large_shell_water">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.shells.water</Name>
+		</Particle>
+	</Effect>
+	<Effect name="large_shell_metal_thin">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_metal_thin</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_metal_thick">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_metal_thick</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_metal_grate">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_metal_grate</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_wood_hollow">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_wood_hollow</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_wood_solid">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_wood_solid</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_concrete">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_concrete</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_gravel">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_gravel</Name>
+		</Sound>
+	</Effect>
+		<Effect name="large_shell_grass">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_grass</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_ice">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_ice</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_mud">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.shells.mud</Name>
+		</Particle>
+	</Effect>
+	<Effect name="large_shell_dirt">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_dirt</Name>
+		</Sound>
+	</Effect>
+	<Effect name="large_shell_default">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_medium:mat_default</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="small_shell_water">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.shells.water</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_shell_metal_thin">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_metal_thin</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_metal_thick">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_metal_thick</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_metal_grate">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_metal_grate</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_wood_hollow">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_wood_hollow</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_wood_solid">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_wood_hollow</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_concrete">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_concrete</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_gravel">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_gravel</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_ice">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_ice</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_grass">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_grass</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_mud">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.shells.mud</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_shell_dirt">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_gravel</Name>
+		</Sound>
+	</Effect>
+	<Effect name="small_shell_default">
+		<Sound>
+			<Name>Sounds/physics:bullet_casing_small:mat_gravel</Name>
+		</Sound>
+	</Effect>
+
+
+	<Effect name="alien_generic">
+		<Sound>
+			<Name>sounds/physics:mat_glass_thick:mat_glass_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.alien</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_thick_metal_thick">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_metal_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_metal_sheet">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_metal_sheet</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_grass">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_grass</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_mud">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_thick_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_glass_thick</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="metal_thick_ice">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_ice</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="metal_thick_snow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_snow</Name>
+		</Sound>
+	</Effect>	
+
+	<Effect name="metal_thick_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>	
+
+	<Effect name="metal_thick_grass_tall">
+		<Sound>
+			<Name>sounds/physics:mat_metal_thick:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>	
+	
+	<Effect name="metal_sheet_metal_sheet">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_metal_sheet</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_metal_pipe">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_metal_pipe</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_metal_grate">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_metal_grate</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="metal_sheet_metal_chainlink">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_metal_chainlink</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_grass">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_grass</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_sheet_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>	
+
+	<Effect name="metal_sheet_mud">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_sheet_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_glass_thick</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_sheet_ice">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_ice</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_sheet_snow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_sheet:mat_snow</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_pipe_metal_pipe">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_metal_pipe</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_metal_grate">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_metal_grate</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_metal_chainlink">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_metal_chainlink</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_pipe_mud">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_pipe_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_glass_thick</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_pipe_ice">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_ice</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_pipe_snow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_snow</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_pipe_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_pipe_grass_tall">
+		<Sound>
+			<Name>sounds/physics:mat_metal_pipe:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_grate_metal_grate">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_metal_grate</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_metal_chainlink">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_metal_chainlink</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_grate_mud">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_grate_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_glass_thick</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_grate_ice">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_ice</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_grate_snow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_grate:mat_snow</Name>
+		</Sound>
+	</Effect>
+
+	<Effect name="metal_chainlink_metal_chainlink">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_metal_chainlink</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_chainlink_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_chainlink_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_chainlink_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_chainlink_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_chainlink_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_metal</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="metal_chainlink_mud">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_chainlink_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_glass_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_chainlink_ice">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="metal_chainlink_snow">
+		<Sound>
+			<Name>sounds/physics:mat_metal_chainlink:mat_snow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="dirt_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_dirt:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="grass_grass">
+		<Sound>
+			<Name>sounds/physics:mat_grass:mat_grass</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="mud_mud">
+		<Sound>
+			<Name>sounds/physics:mat_mud:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="pebble_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_pebble:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="rock_rock">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_rock</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="rock_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="rock_mud">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="rock_soil">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_soil</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_glass_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_ice">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_snow">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_snow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_metal_thick">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_metal_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_concrete</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_metal_sheet">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_metal_sheet</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_concrete</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_metal_pipe">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_metal_pipe</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_concrete</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_metal_grate">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_metal_grate</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.metal_concrete</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_grass_tall">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rock_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_rock:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="rubble_mixed_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_rubble_mixed:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+		
+	<Effect name="wood_solid_wood_solid">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_wood_solid</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_solid_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_solid_grass">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_grass</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_solid_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_solid_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_solid_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_solid_mud">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_solid_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_glass_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_solid_ice">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_solid_snow">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_snow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_solid_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_solid_grass_tall">
+		<Sound>
+			<Name>sounds/physics:mat_wood_solid:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_hollow_wood_hollow">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_hollow_grass">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_grass</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_hollow_pebble">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_hollow_dirt">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_dirt</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_hollow_rubble_mixed">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_rubble_mixed</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="wood_hollow_mud">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_mud</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.soil</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_hollow_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_glass_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_hollow_ice">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_hollow_snow">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_snow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_hollow_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wood_hollow_grass_tall">
+		<Sound>
+			<Name>sounds/physics:mat_wood_hollow:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="canopy_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_canopy:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="water_water">
+		<Sound>
+			<Name>sounds/physics:mat_water:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.water</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="water_water_barrel">
+		<Sound>
+			<Name>sounds/physics:mat_water:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.water_barrel</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="glass_thin_glass_thin">
+		<Sound>
+			<Name>sounds/physics:mat_glass_thin:mat_glass_thin</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="glass_thick_glass_thick">
+		<Sound>
+			<Name>sounds/physics:mat_glass_thick:mat_glass_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.glass</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="ice_ice">
+		<Sound>
+			<Name>sounds/physics:mat_ice:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="ice_canopy">
+		<Sound>
+			<Name>sounds/physics:mat_ice:mat_canopy</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="snow_snow">
+		<Sound>
+			<Name>sounds/physics:mat_snow:mat_snow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="grass_tall_grass_tall">
+		<Sound>
+			<Name>sounds/physics:mat_grass_tall:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+
+
+	<Effect name="body_frozen_body_frozen">
+		<Sound>
+			<Name>sounds/physics:mat_body_frozen:mat_body_frozen</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="flesh_flesh">
+		<Sound>
+			<Name>sounds/physics:mat_flesh:mat_flesh</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="plastic_plastic">
+		<Sound>
+			<Name>sounds/physics:mat_plastic:mat_plastic</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="vehicle_deck_hit">
+		<Sound>
+			<Name>sounds/physics:collisions:vehicle_deck_hit</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="vehicle_boat_hit">
+		<Sound>
+			<Name>sounds/physics:collisions:vehicle_boat_hit</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="barrel_full_hit">
+		<Sound>
+			<Name>sounds/physics:collisions:barrel_full</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="barrel_empty_hit">
+		<Sound>
+			<Name>sounds/physics:collisions:barrel_empty</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="air_vehicle_ground">
+		<Sound>
+			<Name>sounds/physics:collisions:air_vehicle_ground</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.default</Name>
+		</Particle>
+	</Effect>
+	
+		<Effect name="air_vehicle_water">
+		<Sound>
+			<Name>sounds/physics:collisions:air_vehicle_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.water</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="air_vehicle_wood">
+		<Sound>
+			<Name>sounds/physics:collisions:air_vehicle_wood</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.wood</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wheeled_vehicle_ground">
+		<Sound>
+			<Name>sounds/physics:collisions:wheeled_vehicle_ground</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wheeled_vehicle_water">
+		<Sound>
+			<Name>sounds/physics:collisions:wheeled_vehicle_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.water</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="wheeled_vehicle_wood">
+		<Sound>
+			<Name>sounds/physics:collisions:wheeled_vehicle_wood</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="wheeled_vehicle_metal">
+		<Sound>
+			<Name>sounds/physics:collisions:wheeled_vehicle_ground</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.vehicle.metal</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="weapon_medium_drop">
+		<Sound name="mastersnd" >
+			<Name>sounds/physics:collisions:weapon_medium_drop</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="medium_weapon_metal" parent="weapon_medium_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_metal_thick:mat_metal_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+	<Effect name="medium_weapon_wood" parent="weapon_medium_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_wood_hollow:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="medium_weapon_vegetation" parent="weapon_medium_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_grass_tall:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="medium_weapon_ice" parent="weapon_medium_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_ice:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="medium_weapon_pebble" parent="weapon_medium_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_pebble:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+	<Effect name="medium_weapon_water" parent="weapon_medium_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_water:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.water</Name>
+		</Particle>
+	</Effect>
+	
+	<Effect name="weapon_small_drop">
+		<Sound name="mastersnd" >
+			<Name>sounds/physics:collisions:weapon_small_drop</Name>
+		</Sound>
+	</Effect>
+	
+	<Effect name="small_weapon_metal" parent="weapon_small_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_metal_thick:mat_metal_thick</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_weapon_wood" parent="weapon_small_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_wood_hollow:mat_wood_hollow</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.wood</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_weapon_vegetation" parent="weapon_small_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_grass_tall:mat_grass_tall</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.leaves</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_weapon_ice" parent="weapon_small_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_ice:mat_ice</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.snow</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_weapon_pebble" parent="weapon_small_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_pebble:mat_pebble</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.rock</Name>
+		</Particle>
+	</Effect>
+	<Effect name="small_weapon_water" parent="weapon_small_drop" >
+		<Sound name="childsnd" >
+			<Name>sounds/physics:mat_water:mat_water</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.water</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="icy_can_ground" >
+		<Sound>
+			<Name>sounds/physics:collisions:icy_can</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="grenade" >
+		<Sound>
+			<Name>sounds/physics:collisions:grenade</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+	<Effect name="grenade_big" >
+		<Sound>
+			<Name>sounds/physics:collisions:grenade_big</Name>
+		</Sound>
+		<Particle>
+			<Name>collisions.small.default</Name>
+		</Particle>
+	</Effect>
+
+</FXLib>

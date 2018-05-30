@@ -1,0 +1,9 @@
+<Material Diffuse="0.91372555,0.91372555,0.91372555" Emissive="0,0,0" GenMask="5" GlowAmount="4" MtlFlags="2048" Opacity="0.99000001" Shader="Particles" Shininess="10" Specular="0,0,0" SurfaceType="" >
+ <Textures>
+  <Texture File="textures/sprites/shockwave_grey.tif" Map="Diffuse" >
+   <TexMod RotateW="90" TileU="10" TileV="10" />
+  </Texture>
+ </Textures>
+ <PublicParams RefrBumpScale="0.1" />
+ <MaterialLayers />
+</Material>

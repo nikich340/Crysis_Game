@@ -1,0 +1,7 @@
+<Material Diffuse="0,0,0" Emissive="0,0,0" GenMask="1" MtlFlags="2048" Opacity="1" Shader="Particles" Shininess="10" Specular="0,0,0" SurfaceType="" >
+ <Textures>
+  <Texture File="textures/sprites/rain_test3.dds" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+ </Textures>
+</Material>

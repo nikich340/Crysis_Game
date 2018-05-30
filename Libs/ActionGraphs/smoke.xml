@@ -1,0 +1,33 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-10,10,0" flags="0"/>
+  <Node Id="3" Class="Entity:EntityPos" pos="-10,110,0" flags="0" InHideMask="15" OutHideMask="63" GraphEntity="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIAnimEx" pos="130,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" OneShot="0" animstateEx_Animation="smoke" Speed="1" Stance="4" Position="0,0,0" StartRadius="0.1,0.1,0.1" Direction="0,0,0" DirTolerance="5" TargetRadius="0.2"/>
+  </Node>
+  <Node Id="7" Class="Time:RandomDelay" pos="370,10,0" flags="0">
+   <Inputs MinDelay="10" MaxDelay="20"/>
+  </Node>
+  <Node Id="11" Class="AI:ActionEnd" pos="380,100,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="12" Class="AI:ActionEnd" pos="720,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="13" Class="AI:AIAnim" pos="530,10,0" flags="1" GraphEntity="0">
+   <Inputs entityId="0" animstateEx_name="idle" signal="2"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="Sync" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="4" portIn="In" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="4" portIn="end" portOut="fail" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="7" portIn="sink" portOut="Out" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="13" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="13" portIn="end" portOut="start" enabled="1"/>
+ </Edges>
+</Graph>

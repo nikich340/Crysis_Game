@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="302120960" SurfaceType="" Diffuse="0.48627454,0.48627454,0.48627454" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/sand2.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/sand_sea_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

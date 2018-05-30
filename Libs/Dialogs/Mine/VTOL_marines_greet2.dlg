@@ -1,0 +1,3 @@
+<DialogScript Name="Mine.VTOL_marines_greet2" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/marine_mine_ab1_NP0012" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Good luck out there, sir."/>
+</DialogScript>

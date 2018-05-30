@@ -1,0 +1,12 @@
+<Material MtlFlags="1" Shader="Illum" GenMask="436207616" SurfaceType="mat_snow" Diffuse="0.70980394,0.71764708,0.74117649" Specular="0.052549023,0.052549023,0.052549023" Emissive="0,0,0" Shininess="2" Opacity="0.99000001" GlowAmount="0.050000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/decals/frozen_snow_patch.dds" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/decals/frozen_snow_patch_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0049999999" PomDisplacement="0.015" SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

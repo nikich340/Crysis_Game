@@ -1,0 +1,15 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="306315282" SurfaceType="mat_pebble" Diffuse="0.356863,0.321569,0.258824" Specular="0.0784314,0.0784314,0.0784314" Emissive="0,0,0" Shininess="12" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/decals/road_muddy_off_22_decal.tif" Filter="6">
+   <TexMod OffsetU="1" OffsetV="1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/decals/road_muddy_off_22_decal_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/decals/road_muddy_off_22_decal_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64" BumpOffset="0.02"/>
+ <MaterialLayers />
+</Material>

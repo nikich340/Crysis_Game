@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB9_Crew_I_cant_take_it" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab9_2DDC239E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Ahh gaahhhd!!! I can&apos;t take it!"/>
+</DialogScript>

@@ -1,0 +1,3 @@
+<GameTokensLibrary Name="Act1_M01_Island">
+ <GameToken Name="Voluntary.Village_RadioStation_Documents" Type="Bool" Value="false"/>
+</GameTokensLibrary>

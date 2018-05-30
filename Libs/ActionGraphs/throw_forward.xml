@@ -1,0 +1,29 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="80,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="550,0,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="20,70,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIDropObject" pos="250,0,0" flags="0">
+   <Inputs entityId="0" impulse="0,0,0"/>
+  </Node>
+  <Node Id="5" Class="Vec3:ScaleVec3" pos="200,110,0" flags="1">
+   <Inputs vector="0,0,0" scale="30"/>
+  </Node>
+  <Node Id="6" Class="Time:Delay" pos="410,0,0" flags="0">
+   <Inputs delay="0.5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="3" portIn="vector" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="4" portIn="in" portOut="done" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="5" portIn="impulse" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

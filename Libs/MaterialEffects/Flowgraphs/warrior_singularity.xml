@@ -1,0 +1,39 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="78" Class="Interpol:Float" pos="130,210,0" flags="0">
+   <Inputs StartValue="0.05" EndValue="0" Time="1.2"/>
+  </Node>
+  <Node Id="79" Class="MaterialFX:HUDEndFX" pos="350,230,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="80" Class="MaterialFX:HUDStartFX" pos="70,530,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="81" Class="Image:ColorCorrection" pos="380,320,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0.05" Global_User_ColorM="0.05" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="6" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="82" Class="Interpol:Float" pos="110,310,0" flags="0">
+   <Inputs StartValue="0.05" EndValue="0" Time="1.2"/>
+  </Node>
+  <Node Id="83" Class="Interpol:Float" pos="180,430,0" flags="0">
+   <Inputs StartValue="6" EndValue="1" Time="2"/>
+  </Node>
+  <Node Id="84" Class="Time:Delay" pos="180,140,0" flags="0">
+   <Inputs delay="2.5"/>
+  </Node>
+  <Node Id="85" Class="Input:Key" pos="-140,540,0" flags="0">
+   <Inputs Key="q"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="81" nodeOut="78" portIn="Global_User_ColorC" portOut="Value" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="80" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="82" nodeOut="80" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="83" nodeOut="80" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="84" nodeOut="80" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="82" portIn="Global_User_ColorM" portOut="Value" enabled="1"/>
+  <Edge nodeIn="81" nodeOut="83" portIn="Global_User_Brightness" portOut="Value" enabled="1"/>
+  <Edge nodeIn="79" nodeOut="84" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="80" nodeOut="85" portIn="Start" portOut="Released" enabled="0"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="306184208" SurfaceType="mat_pebble" Diffuse="0.82352901,0.85490203,0.93333298" Specular="0.17254899,0.17254899,0.17254899" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_grass_woodpath_frozen.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/defaults/frost_base.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

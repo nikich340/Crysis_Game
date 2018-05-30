@@ -1,0 +1,19 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="4" Class="AI:ActionStart" pos="20,40,0" flags="0"/>
+  <Node Id="5" Class="AI:ActionEnd" pos="340,40,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="6" Class="HUD:DisplayInstructionMessage" pos="160,120,0" flags="1">
+   <Inputs message="Hold middle mouse to bring up suit menu. Use &apos;Strenght&apos; to jump higher" displayTime="10"/>
+  </Node>
+  <Node Id="7" Class="Time:Delay" pos="160,40,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="4" portIn="display" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="4" portIn="in" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="7" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

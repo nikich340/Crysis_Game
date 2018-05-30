@@ -1,0 +1,25 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-200,-20,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="350,-20,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="HUD:DisplayInstructionMessage" pos="120,-90,0" flags="0">
+   <Inputs message="Hawker inspects ship!!!" displayTime="5"/>
+  </Node>
+  <Node Id="7" Class="Entity:EntityPos" pos="-40,50,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="9" Class="AI:AIAnimEx" pos="120,-30,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" OneShot="0" animstateEx_Animation="reallyBored" Speed="-1" Stance="-1" Position="0,0,0" StartRadius="0.1,0.1,0.1" Direction="0,0,0" DirTolerance="180" TargetRadius="0.05"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="display" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="Sync" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="7" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="7" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="9" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

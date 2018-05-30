@@ -1,0 +1,48 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="Input:Key" pos="-290,80,0" flags="0">
+   <Inputs Key="o"/>
+  </Node>
+  <Node Id="11" Class="Image:ColorCorrection" pos="450,170,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="12" Class="Interpol:Float" pos="150,210,0" flags="0">
+   <Inputs StartValue="0" EndValue="-0.15" Time="0.1"/>
+  </Node>
+  <Node Id="14" Class="CrysisFX:ScreenFader" pos="210,20,0" flags="0">
+   <Inputs FadeGroup="0" FadeInTime="0.3" FadeOutTime="0.1" color_FadeColor="1,1,1" tex_TextureName="textures/sprites/hud/nano_change_1.tif"/>
+  </Node>
+  <Node Id="15" Class="Time:Delay" pos="70,20,0" flags="1">
+   <Inputs delay="0.15"/>
+  </Node>
+  <Node Id="17" Class="Time:Delay" pos="50,400,0" flags="0">
+   <Inputs delay="0.6"/>
+  </Node>
+  <Node Id="18" Class="Logic:Any" pos="310,210,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="19" Class="Interpol:Float" pos="150,300,0" flags="0">
+   <Inputs StartValue="-0.15" EndValue="0" Time="0.4"/>
+  </Node>
+  <Node Id="20" Class="Logic:Any" pos="60,210,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="21" Class="MaterialFX:HUDEndFX" pos="170,400,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="22" Class="MaterialFX:HUDStartFX" pos="-130,160,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="18" nodeOut="12" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="12" portIn="Start" portOut="Done" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="15" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="21" nodeOut="17" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="18" portIn="Global_User_ColorY" portOut="out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="19" portIn="in1" portOut="Value" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="20" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="22" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="22" portIn="in1" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

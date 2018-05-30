@@ -1,0 +1,104 @@
+<Objects>
+ <Object ColorRGB="65280" Id="{358168DB-C065-462D-9EA9-933B963B55E8}" Layer="reference_objects" MergeGeom="0" Name="reference_objects" Opened="0" Pos="1634.6064,4809.0542,128.52861" Rotate="0.90996128,0,0,0.41469327" Type="Group" >
+  <Objects>
+   <Object CastOcclusionmap="1" CastShadowMaps="1" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{4B3B2376-A8FB-48EE-BAAD-4D3FFB26F17A}" Layer="reference_objects" LodRatio="100" Name="bartable_1" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="1.1967773,-0.10742188,-0.65699768" Prefab="objects/prototype/lighting_referenz/table/table.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="556" Rotate="0.70090926,0,0,0.71325046" Type="Brush" ViewDistRatio="100" />
+   <Object CastOcclusionmap="1" CastShadowMaps="1" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{28C6A4C4-B472-4109-9233-BF90F7D1D9DB}" Layer="reference_objects" LodRatio="100" Name="bartable_2" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.3717041,-0.13623047,-0.65699768" Prefab="objects/prototype/lighting_referenz/table/table.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="556" Rotate="0.70090926,0,0,0.71325046" Type="Brush" ViewDistRatio="100" />
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{6F8365B7-CF82-493E-9D01-EA2E48C088EF}" Layer="reference_objects" LodRatio="100" Name="fire_extinguisher1" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="1.1024193,-0.37281239,0.095581055" RecvShadow="1" Rotate="1,0,0,8.3060323e-009" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="Objects/Prototype/Lighting_referenz/fire extinguisher/fire_extinguisher.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{05AC4AA9-CFAB-4E3D-A265-DED68FB4900F}" Layer="reference_objects" LodRatio="100" Name="fire_extinguisher2" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.58886719,-0.43847656,0.095581055" RecvShadow="1" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="Objects/Prototype/Lighting_referenz/fire extinguisher/fire_extinguisher.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{84CE35E5-A282-4C5F-AD3F-7FF0946FDF41}" Layer="reference_objects" LodRatio="100" Name="glassner1" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.71740723,0.063476563,0.11347961" RecvShadow="1" Rotate="0.38268346,0,0,0.9238795" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="Objects/Prototype/Lighting_referenz/Glassner/glassner.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{7854E078-E379-4FED-ADF7-37121BF0883B}" Layer="reference_objects" LodRatio="100" Name="glassner2" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.41625977,0.083007813,0.11347961" RecvShadow="1" Rotate="0.38268346,0,0,0.9238795" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="Objects/Prototype/Lighting_referenz/Glassner/glassner.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{1EAC6A1B-437F-4BD5-BB82-07D858FFB7B8}" Layer="reference_objects" LodRatio="100" Name="milka1" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.4597168,0.2109375,0.12825012" RecvShadow="1" Rotate="-0.080046758,0.080046758,0.70256144,-0.70256138" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="objects/prototype/lighting_referenz/chocolate/chocolate.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="2" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{EF042D8A-5757-436A-86B8-5C8ADAA03195}" Layer="reference_objects" LodRatio="100" Name="milka2" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.6739502,0.23046875,0.12825012" RecvShadow="1" Rotate="-0.080046758,0.080046758,0.70256144,-0.70256138" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="objects/prototype/lighting_referenz/chocolate/chocolate.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="2" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{D606FE2B-0833-4582-B7D9-29CE2B8070AD}" Layer="reference_objects" LodRatio="100" Name="Phone1" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.16552734,0.10888672,0.15351868" RecvShadow="1" Rotate="0.51503807,0,0,0.8571673" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="Objects/Prototype/Lighting_referenz/phone/Phone.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{6CF72ACD-8155-4212-BB31-B45C6AA3A952}" Layer="reference_objects" LodRatio="100" Name="Phone2" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.96813965,0.12841797,0.15351868" RecvShadow="1" Rotate="0.51503807,0,0,0.8571673" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="Objects/Prototype/Lighting_referenz/phone/Phone.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastOcclusionmap="1" CastShadowMaps="0" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{A9AF2D46-E2C8-4339-A1B9-0EFFA2E0D381}" Layer="reference_objects" LodRatio="100" Name="rifleman_heavy_head" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.35913086,0.009765625,-1.0159149" Prefab="objects/characters/heads/asian/chinese_head_01/chinese_head_01.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="548" Rotate="0.19936796,0,0,0.97992468" Type="Brush" ViewDistRatio="255" />
+   <Object CastOcclusionmap="1" CastShadowMaps="0" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{4E247913-08F2-479F-B433-91DD3ED928AB}" Layer="reference_objects" LodRatio="100" Name="rifleman_heavy_head1" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.77453613,0.029296875,-0.98695374" Prefab="objects/characters/heads/asian/chinese_head_01/chinese_head_01.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="548" Rotate="0.19936796,0,0,0.97992468" Type="Brush" ViewDistRatio="255" />
+   <Object CastOcclusionmap="1" CastShadowMaps="1" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{56C3ABAA-1FAC-4F5A-B2D3-4799BD051723}" Layer="reference_objects" LodRatio="100" Name="rifleman_heavy_head2" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.59667969,0.062011719,0.46806335" Prefab="objects/characters/heads/us/laurence_barnes/barnes.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="556" Rotate="0.026176903,0,0,0.99965733" Type="Brush" ViewDistRatio="255" />
+   <Object CastOcclusionmap="1" CastShadowMaps="0" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{905D52F3-1480-422B-8321-76CAB768A0AE}" Layer="reference_objects" LodRatio="100" Name="rifleman_heavy_head3" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.45910645,0.0234375,0.48855591" Prefab="objects/characters/heads/us/laurence_barnes/barnes.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="548" Rotate="0.26723841,0,0,0.96363044" Type="Brush" ViewDistRatio="255" />
+   <Object CastOcclusionmap="1" CastShadowMaps="1" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{1592AC6D-7FA2-4364-8DC4-A3836F5B73FE}" Layer="reference_objects" LodRatio="100" Name="rifleman_heavy_head4" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.59667969,0.062011719,0.46806335" Prefab="objects/characters/heads/us/laurence_barnes/barnes_eyes.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="556" Rotate="0.026176902,0,0,0.99965733" Type="Brush" ViewDistRatio="255" />
+   <Object CastOcclusionmap="1" CastShadowMaps="0" ColorRGB="16777215" GoodOccluder="0" Hideable="0" Id="{9CDE1E0C-5239-476D-8202-5E8B28D45D1B}" Layer="reference_objects" LodRatio="100" Name="rifleman_heavy_head5" NotTriangulate="0" OcclusionmapQuality="1" OutdoorOnly="0" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.45910645,0.0234375,0.48855591" Prefab="objects/characters/heads/us/laurence_barnes/barnes_eyes.cgf" ReceiveOcclusionmap="1" RecvShadowMaps="1" RndFlags="548" Rotate="0.26723841,0,0,0.96363044" Type="Brush" ViewDistRatio="255" />
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{4645937D-0CF0-4B27-95B4-08AD0580DEA2}" Layer="reference_objects" LodRatio="100" Name="zwieback1" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="0.43725586,-0.001953125,0.21086121" RecvShadow="1" Rotate="0.13182378,0,0,0.99127316" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="objects/prototype/lighting_referenz/cookie/cookie.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="16777215" EntityClass="BasicEntity" HiddenInGame="0" Id="{0F90EF2E-1580-43D8-994D-104E2AC6122C}" Layer="reference_objects" LodRatio="100" Name="zwieback2" Parent="{358168DB-C065-462D-9EA9-933B963B55E8}" Pos="-0.69641113,0.017578125,0.21086121" RecvShadow="1" Rotate="0.13182378,0,0,0.99127316" Type="SimpleEntity" ViewDistRatio="100" >
+    <Properties bFrozen="0" bUsable="0" damage_players="0" object_Model="objects/prototype/lighting_referenz/cookie/cookie.cgf" objFrozenModel="" soclasses_SmartObjectClass="" UseMessage="press USE to grab object!" >
+     <Animation Animation="Default" bAlwaysUpdate="0" bLoop="0" bPlaying="0" sound_AnimStart="" sound_AnimStop="" Speed="1" />
+     <Physics bActivateOnDamage="0" bCanBreakOthers="0" bPhysicalize="1" bResting="1" bRigidBody="1" bRigidBodyActive="1" Density="-1" Mass="10" >
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000" />
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" sleep_speed="0.04" />
+     </Physics>
+    </Properties>
+   </Object>
+  </Objects>
+ </Object>
+</Objects>

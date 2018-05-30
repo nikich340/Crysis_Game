@@ -1,0 +1,3652 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>kirill</Author>
+  <LastAuthor>florian</LastAuthor>
+  <LastPrinted>2007-02-23T10:35:12Z</LastPrinted>
+  <Created>2006-06-28T14:43:22Z</Created>
+  <LastSaved>2007-04-20T13:29:28Z</LastSaved>
+  <Version>11.6568</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11700</WindowHeight>
+  <WindowWidth>17325</WindowWidth>
+  <WindowTopX>8685</WindowTopX>
+  <WindowTopY>510</WindowTopY>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Sheet1!R1C1:R141C6"
+    ss:Hidden="1"/>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C1:R208C6"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="256" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultRowHeight="13.3125">
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="169.5"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:StyleID="s22" ss:AutoFitWidth="0" ss:Width="37.5"/>
+   <Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="35.25"/>
+   <Column ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="47.25"/>
+   <Column ss:StyleID="s25" ss:AutoFitWidth="0" ss:Width="55.5"/>
+   <Column ss:StyleID="s26" ss:AutoFitWidth="0" ss:Width="233.25"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s27">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">languages/dialog/ai_kyong/</Data><Comment
+      ss:Author="kirill"><ss:Data xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+         html:Face="Tahoma" html:Size="8" html:Color="#000000">kirill:</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000">&#10;this is the base path for this pack&#10;</Font></ss:Data></Comment><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s31"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s32"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s33"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s34"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s30"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s27">
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s31"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s32"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s33"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s34"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s30"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625" ss:StyleID="s36">
+    <Cell ss:StyleID="s41"><Data ss:Type="String">readability signal</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">sound file</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">probability</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">blocking time</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">blocking ID</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">type</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Kyong</Data></Cell>
+    <Cell ss:StyleID="s41"/>
+    <Cell ss:StyleID="s46"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">used after longer pauses in battle - different from normal readability</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">first_contact</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Persistent bastard </Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Imperialist bastard!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Die like a dog!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Die! Imperialist pig!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Surrender!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Give up while you still can!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_06</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You  can never win!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_07</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You'll never defeat me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_08</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">I've got you in my sights!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_09</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">I'll crush you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Fire! Fire!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Fire!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Crush him!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Open fire!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Destroy him!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">He's mine!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">used after longer pauses in battle - different from normal readability</Data></Cell>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">reportcontact</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Persistent bastard </Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Imperialist bastard!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Die like a dog!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Die! Imperialist pig!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Surrender!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">contactgroup_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Give up while you still can!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_06</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You  can never win!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_07</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You'll never defeat me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_08</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">I've got you in my sights!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">contactgroup_09</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">I'll crush you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Fire! Fire!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Fire!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Crush him!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Open fire!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Destroy him!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">contactreply_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">He's mine!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">combat_back</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloback_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Turn around!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloback_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Prepare to die!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloback_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I have you now!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloback_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Turn and face me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloback_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Face me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s59"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloback_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Drop your weapon!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">combat_close</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloclose_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Got you up close!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloclose_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Don't move!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloclose_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You're mine!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloclose_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Die!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloclose_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You're too slow for me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">contactsoloclose_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">It's over!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.6875" ss:StyleID="s63">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">ai_down</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">aidowngroup_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Group</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Worthless...</Data></Cell>
+    <Cell ss:StyleID="s60"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27.5625" ss:StyleID="s63">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">aidowngroup_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Group</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">Irrelevant...</Data></Cell>
+    <Cell ss:StyleID="s59"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s63">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">aidowngroup_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Group</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You die next, American!</Data></Cell>
+    <Cell ss:StyleID="s59"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.6875" ss:StyleID="s63">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">aidowngroup_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String"> </Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Group</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You're better than I thought!</Data></Cell>
+    <Cell ss:StyleID="s59"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.6875" ss:StyleID="s63">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">aidowngroup_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Group</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">American dog!</Data></Cell>
+    <Cell ss:StyleID="s59"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s63">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">aidowngroup_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Group</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">You will die next!</Data></Cell>
+    <Cell ss:StyleID="s59"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">blind</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">blind_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">My eyes!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">blind_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Aargh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">blind_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Can't see!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">blind_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'm blind!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">blind_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Flashbang!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="66" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">bulletrain</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Argh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Ahhh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">American scum!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll kill you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You're dead!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_06</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll destroy you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_07</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">That's nothing!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_08</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You'll have to do better than that.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_09</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">(laughing) Is that all you have?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="66" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">taking_fire</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Argh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Ahhh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">American scum!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll kill you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You're dead!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_06</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll destroy you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_07</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">That's nothing!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_08</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You'll have to do better than that.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">bulletrain_09</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">(laughing) Is that all you have?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s70">
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">throwing_grenade</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">grenade_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Catch this!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">grenade_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Eat this, yankee!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">grenade_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Grenade!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">grenade_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Grenade out!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">grenade_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Frag!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">incoming</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">incominggrenade_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Noo!!!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">incominggrenade_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You fool!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">incominggrenade_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Arghh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">incominggrenade_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You idiot!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">incominggrenade_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Incoming!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">incominggrenade_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Get down!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">searching_for_enemy</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searching_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Clever bastard!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searching_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Where are you?!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searching_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Come out!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searching_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Where 'd he go?!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searching_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Show yourself, coward.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searching_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Where is he?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searchingreply_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Group</Data><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Find him!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searchingreply_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Flush him out!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searchingreply_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Keep looking!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searchingreply_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Find him and kill him!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searchingreply_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Find him NOW!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">searchingreply_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Response</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell><Data ss:Type="String">Don't let him escape!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="52.6875" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><Data ss:Type="String">combat_seek</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">lost_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll find you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">lost_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You cannot hide, American!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">lost_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll hunt you down!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">lost_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You won't get far!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">lost_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">There's nowhere to hide!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">lost_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">You are dead when I find you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">target_down</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Hahah, not so tough after all!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">A worthy opponent, pity.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">I expected better.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Enjoy the afterlife!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">The artifact is mine!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Victory!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_06</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">Hahahaha!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_07</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">You died a coward!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">targetdown_08</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s59"><Data ss:Type="String">A victory for North Korea!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">taunt</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_00</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">You will never learn the truth.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_01</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">It is not too late to give up.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_02</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Give up. You'll never win!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_03</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">I kill you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_04</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Come out and fight!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_05</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Show yourself!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_06</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">American coward!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_07</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Fight me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_08</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">You can't hide!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_09</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Fight with honor, coward!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_10</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="_FilterDatabase"/><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll hunt you down!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">during_combat</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">You will never learn the truth.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">It is not too late to give up.</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Give up. You'll never win!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">I kill you!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Come out and fight!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">taunt_05</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Show yourself!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.5625">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_06</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">American coward!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_07</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">Fight me!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_08</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s78"><Data ss:Type="String">You can't hide!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_09</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Fight with honor, coward!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">taunt_10</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">I'll hunt you down!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">confused</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">confused_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">huh?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">confused_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">wha?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">confused_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">heh?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">confused_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">uh?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">confused_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">ay?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">confused_05</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Hmm?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="52.6875" ss:StyleID="s47">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s52"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s53"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s54"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s50"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">surprised</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_05</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.4375">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_06</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha?</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">surprise_07</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s61"><Data ss:Type="String">Wha!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">melee_death</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Uh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ooo!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Oh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Unh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_05</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Oof!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_06</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Yar!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_07</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_08</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Uh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">meleedeath_09</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ugh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s70">
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">pain</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Uh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ooo!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Oh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Unh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_05</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Oof!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_06</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Yar!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_07</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_08</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Uh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">pain_09</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ugh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">falling_death</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">fallingdeath_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Yaaaa!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">fallingdeath_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">fallingdeath_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Aaargh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">fallingdeath_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Eeeya!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">fallingdeath_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Aaa...!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s70">
+    <Cell ss:StyleID="s51"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s77"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s74"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s55"><Data ss:Type="String">death</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_00</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_01</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Uh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_02</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ooo!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_03</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Oh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_04</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Unh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_05</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Oof!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_06</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Yar!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_07</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ah!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_08</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Uh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s60"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">death_09</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s56"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s57"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s58"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="7" ss:StyleID="s79"><Data ss:Type="String">Ugh!</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s52"/>
+    <Cell ss:StyleID="s53"/>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s51"/>
+    <Cell ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s51"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s56"/>
+    <Cell ss:StyleID="s57"/>
+    <Cell ss:StyleID="s58"/>
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="8" ss:StyleID="s26"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Bottom="0.72" x:Top="0.52"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <FitHeight>6</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>66</Scale>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <Zoom>90</Zoom>
+   <Selected/>
+   <SplitHorizontal>1980</SplitHorizontal>
+   <TopRowBottomPane>126</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>143</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C6</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Alone,Group,Response&quot;</Value>
+  </DataValidation>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>sound file</Sort>
+  </Sorting>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.3125"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="0" ss:ExpandedRowCount="0" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.3125"/>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

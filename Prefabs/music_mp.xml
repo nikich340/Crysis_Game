@@ -1,0 +1,842 @@
+<PrefabsLibrary Name="music_mp">
+ <Prefab Name="music.music_all_mp_maps" Id="{C9EC5F9A-D761-48EC-ADF8-735E548D817D}">
+  <Objects>
+   <Object Type="Entity" Layer="Music" Id="{0513470C-D3F0-4DB2-9DAF-A84601D8BE58}" Name="music_flowgraph_entity" Pos="9.375,17.625,2.5" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="5" DimY="5" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientOnly">
+     <Nodes>
+      <Node Id="3" Name="Play this once when enter game" Class="_comment" pos="-700,60,0" flags="0"/>
+      <Node Id="5" Class="Sound:MusicLogicControl" pos="-420,310,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="10" Name="in triggers set theme for ingame music" Class="_comment" pos="-740,560,0" flags="0"/>
+      <Node Id="11" Class="Time:RandomDelay" pos="-600,600,0" flags="0">
+       <Inputs MinDelay="20" MaxDelay="30"/>
+      </Node>
+      <Node Id="12" Name="Win Condition Near - change music theme" Class="_comment" pos="-450,1040,0" flags="0"/>
+      <Node Id="14" Class="entity:MusicThemeSelector" pos="-440,1070,0" flags="0" EntityGUID="{642F4208-7602-4066-A474-27C10BDF3CC6}" EntityGUID_64="40667602642F4208">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="18" Name="LOSE" Class="_comment" pos="-1170,2110,0" flags="0"/>
+      <Node Id="19" Class="Sound:MusicLogicControl" pos="-430,1480,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="22" Class="entity:MusicEndTheme" pos="-270,1710,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="27" Class="entity:MusicPlayPattern" pos="-270,2550,0" flags="0" EntityGUID="{A263187B-0024-41A0-B702-42F9942FDCB8}" EntityGUID_64="41A00024A263187B">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="30" Name="IA Themes" Class="_comment" pos="2500,490,0" flags="0"/>
+      <Node Id="31" Name="PS Natural Themes" Class="_comment" pos="2750,500,0" flags="0"/>
+      <Node Id="32" Name="PS Industrial Themes" Class="_comment" pos="3140,490,0" flags="0"/>
+      <Node Id="35" Class="entity:MusicThemeSelector" pos="2490,550,0" flags="0" EntityGUID="{DDD9D761-062F-4F24-8EC7-38842D214944}" EntityGUID_64="4F24062FDDD9D761">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="37" Class="entity:MusicThemeSelector" pos="2490,630,0" flags="0" EntityGUID="{50A80BAB-E6DE-49EA-A889-52E9B8F292DE}" EntityGUID_64="49EAE6DE50A80BAB">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="39" Class="entity:MusicThemeSelector" pos="2490,710,0" flags="0" EntityGUID="{A9053D02-4C39-43D7-8DAD-8D017C0B1779}" EntityGUID_64="43D74C39A9053D02">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="41" Class="entity:MusicThemeSelector" pos="2490,790,0" flags="0" EntityGUID="{2D9614E9-8E31-499C-9F90-16038E0C19F3}" EntityGUID_64="499C8E312D9614E9">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="43" Class="entity:MusicThemeSelector" pos="2490,870,0" flags="0" EntityGUID="{31123E60-4CA4-437B-BFDB-2C64DEF55183}" EntityGUID_64="437B4CA431123E60">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="45" Class="entity:MusicThemeSelector" pos="2490,950,0" flags="0" EntityGUID="{4494E58B-8D9E-4BB7-A3DC-75AA02664349}" EntityGUID_64="4BB78D9E4494E58B">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="47" Class="entity:MusicThemeSelector" pos="2750,540,0" flags="0" EntityGUID="{112B9870-F4C5-4A1D-A8F9-DA5F0695A751}" EntityGUID_64="4A1DF4C5112B9870">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="49" Class="entity:MusicThemeSelector" pos="2750,640,0" flags="0" EntityGUID="{F167A8C0-7910-4AAA-B27C-ED653436DCF5}" EntityGUID_64="4AAA7910F167A8C0">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="51" Class="entity:MusicThemeSelector" pos="2750,730,0" flags="0" EntityGUID="{A20FBBE0-8BDA-46B1-A861-56D526119E26}" EntityGUID_64="46B18BDAA20FBBE0">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="53" Class="entity:MusicThemeSelector" pos="2750,820,0" flags="0" EntityGUID="{0E224387-5FF9-47F5-9E86-25F732866728}" EntityGUID_64="47F55FF90E224387">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="55" Class="entity:MusicThemeSelector" pos="3140,530,0" flags="0" EntityGUID="{B17073C8-60C9-4A99-BDB1-874D559779D9}" EntityGUID_64="4A9960C9B17073C8">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="57" Class="entity:MusicThemeSelector" pos="3140,620,0" flags="0" EntityGUID="{A759C035-9F1D-4776-962E-14444B32C6F6}" EntityGUID_64="47769F1DA759C035">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="59" Class="entity:MusicThemeSelector" pos="3140,720,0" flags="0" EntityGUID="{B61A1800-8A78-468B-9139-609C4EA513ED}" EntityGUID_64="468B8A78B61A1800">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="61" Class="entity:MusicThemeSelector" pos="3140,810,0" flags="0" EntityGUID="{0769440E-93FE-4A3B-B655-FA29D7D76B47}" EntityGUID_64="4A3B93FE0769440E">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="63" Class="entity:MusicThemeSelector" pos="3140,900,0" flags="0" EntityGUID="{0591AA0E-F83C-486B-A24B-8B5023C7E187}" EntityGUID_64="486BF83C0591AA0E">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="65" Class="entity:MusicThemeSelector" pos="3140,1000,0" flags="0" EntityGUID="{03250337-461F-408B-AE80-0551E86BAB11}" EntityGUID_64="408B461F03250337">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="67" Class="entity:MusicThemeSelector" pos="3140,1100,0" flags="0" EntityGUID="{DD8BF2CB-CACA-48BF-95C5-F91ACB63DA62}" EntityGUID_64="48BFCACADD8BF2CB">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="69" Class="entity:MusicThemeSelector" pos="3140,1200,0" flags="0" EntityGUID="{8EBB9BD8-E8F1-4905-88B2-48700A61BD55}" EntityGUID_64="4905E8F18EBB9BD8">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="71" Class="entity:MusicThemeSelector" pos="2750,910,0" flags="0" EntityGUID="{A22CBD8F-9FAA-4AC1-900F-F95F5431320F}" EntityGUID_64="4AC19FAAA22CBD8F">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="73" Class="entity:MusicThemeSelector" pos="2750,1010,0" flags="0" EntityGUID="{6C48F3E9-49A0-43BA-BF79-E0BD738BFD07}" EntityGUID_64="43BA49A06C48F3E9">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="75" Class="entity:MusicThemeSelector" pos="2750,1100,0" flags="0" EntityGUID="{B942ACD9-1284-496C-AB11-1C255E0BB031}" EntityGUID_64="496C1284B942ACD9">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="77" Class="entity:MusicThemeSelector" pos="2750,1190,0" flags="0" EntityGUID="{3610FBC4-F47D-43AF-B3D3-6B4B704A0DF8}" EntityGUID_64="43AFF47D3610FBC4">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="79" Class="entity:MusicThemeSelector" pos="2750,1280,0" flags="0" EntityGUID="{3BD83505-EA60-451B-BC3B-C2FC1078F614}" EntityGUID_64="451BEA603BD83505">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="81" Class="entity:MusicThemeSelector" pos="3140,1290,0" flags="0" EntityGUID="{18C11F9C-49BD-4973-937E-5FCE6376D3B8}" EntityGUID_64="497349BD18C11F9C">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="82" Name="POWER STRUGGLE" Class="_comment" pos="-700,-100,0" flags="0"/>
+      <Node Id="83" Name="___________________________________________________________________________________" Class="_comment" pos="-700,-80,0" flags="0"/>
+      <Node Id="85" Class="entity:MusicThemeSelector" pos="-540,100,0" flags="0" EntityGUID="{CF85EAFB-563B-4E2E-9726-65E97F3EB893}" EntityGUID_64="4E2E563BCF85EAFB">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="87" Class="Time:Delay" pos="-540,180,0" flags="0">
+       <Inputs delay="10"/>
+      </Node>
+      <Node Id="89" Class="entity:MusicEndTheme" pos="-380,180,0" flags="0" EntityGUID="{2E1E288D-550F-4980-9947-458DEAF665E0}" EntityGUID_64="4980550F2E1E288D">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="90" Name="Win condition canceled - RETURN TO IN-GAME" Class="_comment" pos="-450,880,0" flags="0"/>
+      <Node Id="91" Name="WIN music after delay for length of explosion" Class="_comment" pos="-430,1860,0" flags="0"/>
+      <Node Id="92" Name="END GAME EXPLOSION" Class="_comment" pos="-430,1440,0" flags="0"/>
+      <Node Id="93" Class="Time:Delay" pos="-430,1710,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="95" Class="entity:MusicPlayPattern" pos="-240,1890,0" flags="0" EntityGUID="{8387F243-11C9-4241-AF85-7563FF678A29}" EntityGUID_64="424111C98387F243">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="99" Class="Logic:DeMultiplexer" pos="1100,670,0" flags="0">
+       <Inputs Index="0" Mode="0"/>
+      </Node>
+      <Node Id="100" Class="Math:Random" pos="290,610,0" flags="0">
+       <Inputs min="0" max="7"/>
+      </Node>
+      <Node Id="101" Class="Time:RandomDelay" pos="980,310,0" flags="0">
+       <Inputs MinDelay="180" MaxDelay="300"/>
+      </Node>
+      <Node Id="102" Class="Logic:Any" pos="-250,590,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="103" Class="entity:MusicEndTheme" pos="2200,280,0" flags="0" EntityGUID="{2E1E288D-550F-4980-9947-458DEAF665E0}" EntityGUID_64="4980550F2E1E288D">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="104" Class="Time:RandomDelay" pos="1900,450,0" flags="0">
+       <Inputs MinDelay="75" MaxDelay="135"/>
+      </Node>
+      <Node Id="106" Class="Mission:CheckGameToken" pos="-80,610,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.WinConditionActive" CheckValue="0"/>
+      </Node>
+      <Node Id="107" Class="Mission:SetGameToken" pos="-440,1170,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.WinConditionActive" Value="1"/>
+      </Node>
+      <Node Id="111" Class="Mission:SetGameToken" pos="-430,910,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.WinConditionActive" Value="0"/>
+      </Node>
+      <Node Id="112" Class="Mission:CheckGameToken" pos="1480,310,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.WinConditionActive" CheckValue="0"/>
+      </Node>
+      <Node Id="115" Class="Mission:SetGameToken" pos="970,570,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.InGameMusic_Playing" Value="1"/>
+      </Node>
+      <Node Id="116" Class="Mission:CheckGameToken" pos="570,600,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.InGameMusic_Playing" CheckValue="0"/>
+      </Node>
+      <Node Id="117" Class="Mission:SetGameToken" pos="-440,1250,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.InGameMusic_Playing" Value="0"/>
+      </Node>
+      <Node Id="118" Name="in triggers set theme for ingame music" Class="_comment" pos="-620,-2070,0" flags="0"/>
+      <Node Id="119" Class="Time:RandomDelay" pos="-380,-2040,0" flags="0">
+       <Inputs MinDelay="30" MaxDelay="60"/>
+      </Node>
+      <Node Id="123" Class="entity:MusicThemeSelector" pos="790,-1960,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{50A80BAB-E6DE-49EA-A889-52E9B8F292DE}" EntityGUID_64="49EAE6DE50A80BAB">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="124" Class="entity:MusicThemeSelector" pos="790,-1900,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{A9053D02-4C39-43D7-8DAD-8D017C0B1779}" EntityGUID_64="43D74C39A9053D02">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="125" Class="entity:MusicThemeSelector" pos="790,-1830,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{2D9614E9-8E31-499C-9F90-16038E0C19F3}" EntityGUID_64="499C8E312D9614E9">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="126" Class="entity:MusicThemeSelector" pos="790,-1770,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{31123E60-4CA4-437B-BFDB-2C64DEF55183}" EntityGUID_64="437B4CA431123E60">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="127" Class="entity:MusicThemeSelector" pos="790,-1710,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{4494E58B-8D9E-4BB7-A3DC-75AA02664349}" EntityGUID_64="4BB78D9E4494E58B">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="130" Class="Logic:DeMultiplexer" pos="270,-2050,0" flags="0">
+       <Inputs Index="0" Mode="0"/>
+      </Node>
+      <Node Id="131" Class="Math:Random" pos="50,-2050,0" flags="0">
+       <Inputs min="0" max="6"/>
+      </Node>
+      <Node Id="132" Class="Time:RandomDelay" pos="810,-2370,0" flags="0">
+       <Inputs MinDelay="180" MaxDelay="300"/>
+      </Node>
+      <Node Id="133" Class="Logic:Any" pos="-80,-2050,0" flags="0" InHideMask="63" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="141" Class="entity:MusicEndTheme" pos="1860,-2370,0" flags="0" EntityGUID="{2E1E288D-550F-4980-9947-458DEAF665E0}" EntityGUID_64="4980550F2E1E288D">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="142" Class="Time:RandomDelay" pos="1640,-2310,0" flags="0">
+       <Inputs MinDelay="60" MaxDelay="120"/>
+      </Node>
+      <Node Id="144" Class="Mission:CheckGameToken" pos="1080,-2370,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" CheckValue="0"/>
+      </Node>
+      <Node Id="145" Class="Mission:SetGameToken" pos="-270,-950,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" Value="1"/>
+      </Node>
+      <Node Id="146" Name="Means - don&apos;t play ingame music anymore" Class="_comment" pos="-270,-980,0" flags="0"/>
+      <Node Id="147" Name="When game starts new make another of these but set to 0" Class="_comment" pos="-370,-1720,0" flags="0"/>
+      <Node Id="148" Name="Pick a random music theme" Class="_comment" pos="-80,-2080,0" flags="0"/>
+      <Node Id="149" Name="Stop the theme after 3-5 minutes" Class="_comment" pos="810,-2400,0" flags="0"/>
+      <Node Id="150" Name="check - Only stop if ingame music is playing - not if end music is playing" Class="_comment" pos="1080,-2400,0" flags="0"/>
+      <Node Id="151" Name="TEAM ACTION" Class="_comment" pos="-610,-2500,0" flags="0"/>
+      <Node Id="152" Name="___________________________________________________________________________________" Class="_comment" pos="-610,-2470,0" flags="0"/>
+      <Node Id="153" Name="If not in win condiition, go ahead and pick a random ingame theme" Class="_comment" pos="-80,580,0" flags="0"/>
+      <Node Id="154" Name="Is ingame music playing?" Class="_comment" pos="570,570,0" flags="0"/>
+      <Node Id="156" Name="If no - set to yes and pick a piece" Class="_comment" pos="970,540,0" flags="0"/>
+      <Node Id="157" Name="If no - music is gonna start - set timer so music doesn&apos;t go on too long" Class="_comment" pos="980,280,0" flags="0"/>
+      <Node Id="158" Name="If its not playing Win Condition, end the music and wait for another piece to start" Class="_comment" pos="1480,280,0" flags="0"/>
+      <Node Id="160" Name="PS Industrial Themes" Class="_comment" pos="1490,480,0" flags="0"/>
+      <Node Id="161" Class="entity:MusicThemeSelector" pos="1490,520,0" flags="0" EntityGUID="{B17073C8-60C9-4A99-BDB1-874D559779D9}" EntityGUID_64="4A9960C9B17073C8">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="162" Class="entity:MusicThemeSelector" pos="1490,610,0" flags="0" EntityGUID="{A759C035-9F1D-4776-962E-14444B32C6F6}" EntityGUID_64="47769F1DA759C035">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="163" Class="entity:MusicThemeSelector" pos="1490,710,0" flags="0" EntityGUID="{B61A1800-8A78-468B-9139-609C4EA513ED}" EntityGUID_64="468B8A78B61A1800">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="164" Class="entity:MusicThemeSelector" pos="1490,800,0" flags="0" EntityGUID="{0769440E-93FE-4A3B-B655-FA29D7D76B47}" EntityGUID_64="4A3B93FE0769440E">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="165" Class="entity:MusicThemeSelector" pos="1490,890,0" flags="0" EntityGUID="{0591AA0E-F83C-486B-A24B-8B5023C7E187}" EntityGUID_64="486BF83C0591AA0E">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="166" Class="entity:MusicThemeSelector" pos="1490,990,0" flags="0" EntityGUID="{03250337-461F-408B-AE80-0551E86BAB11}" EntityGUID_64="408B461F03250337">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="167" Class="entity:MusicThemeSelector" pos="1490,1090,0" flags="0" EntityGUID="{DD8BF2CB-CACA-48BF-95C5-F91ACB63DA62}" EntityGUID_64="48BFCACADD8BF2CB">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="168" Class="entity:MusicThemeSelector" pos="1490,1190,0" flags="0" EntityGUID="{8EBB9BD8-E8F1-4905-88B2-48700A61BD55}" EntityGUID_64="4905E8F18EBB9BD8">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="170" Name="IA Themes" Class="_comment" pos="790,-2070,0" flags="0"/>
+      <Node Id="171" Class="entity:MusicThemeSelector" pos="790,-2040,0" flags="0" EntityGUID="{DDD9D761-062F-4F24-8EC7-38842D214944}" EntityGUID_64="4F24062FDDD9D761">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="177" Class="Mission:SetGameToken" pos="-370,-1690,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" Value="0"/>
+      </Node>
+      <Node Id="178" Name="LOSE" Class="_comment" pos="-270,-830,0" flags="0"/>
+      <Node Id="179" Class="Sound:MusicLogicControl" pos="-270,-1360,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="181" Class="entity:MusicEndTheme" pos="-110,-1130,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="182" Class="entity:MusicPlayPattern" pos="-110,-470,0" flags="0" EntityGUID="{A263187B-0024-41A0-B702-42F9942FDCB8}" EntityGUID_64="41A00024A263187B">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="183" Name="WIN" Class="_comment" pos="-270,-1400,0" flags="0"/>
+      <Node Id="184" Name="GAME OVER" Class="_comment" pos="-900,-1390,0" flags="0"/>
+      <Node Id="185" Class="Time:Delay" pos="-270,-1130,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="186" Class="entity:MusicPlayPattern" pos="-100,-1040,0" flags="0" EntityGUID="{8387F243-11C9-4241-AF85-7563FF678A29}" EntityGUID_64="424111C98387F243">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="187" Class="Multiplayer:GameType" pos="-690,-2040,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="188" Class="Multiplayer:MP" pos="-940,-2040,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="189" Class="Sound:MusicLogicControl" pos="-210,-2310,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="191" Class="Time:Delay" pos="-210,-2040,0" flags="0">
+       <Inputs delay="1"/>
+      </Node>
+      <Node Id="192" Class="Multiplayer:MP" pos="-900,-1350,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="193" Class="Time:Delay" pos="-270,-1040,0" flags="0">
+       <Inputs delay="2"/>
+      </Node>
+      <Node Id="194" Class="Sound:MusicLogicControl" pos="-270,-790,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="195" Class="entity:MusicEndTheme" pos="-110,-560,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="196" Class="Time:Delay" pos="-270,-560,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="197" Class="Multiplayer:MP" pos="-900,-780,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="198" Class="Time:Delay" pos="-270,-470,0" flags="0">
+       <Inputs delay="2"/>
+      </Node>
+      <Node Id="199" Class="Multiplayer:MP" pos="-1200,300,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="200" Class="Time:Delay" pos="-420,590,0" flags="0">
+       <Inputs delay="1"/>
+      </Node>
+      <Node Id="201" Class="Multiplayer:MP" pos="-1040,930,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="202" Class="Multiplayer:MP" pos="-1040,1160,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="203" Class="Multiplayer:MP" pos="-1040,1490,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="210" Class="Time:Delay" pos="-430,1890,0" flags="0">
+       <Inputs delay="5"/>
+      </Node>
+      <Node Id="211" Class="Sound:MusicLogicControl" pos="-430,2140,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="212" Class="entity:MusicEndTheme" pos="-270,2370,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="213" Name="LOSE music after delay for length of explosion" Class="_comment" pos="-430,2520,0" flags="0"/>
+      <Node Id="214" Name="END GAME EXPLOSION" Class="_comment" pos="-430,2100,0" flags="0"/>
+      <Node Id="215" Class="Time:Delay" pos="-430,2370,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="217" Class="Multiplayer:MP" pos="-1170,2140,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="218" Class="Time:Delay" pos="-430,2550,0" flags="0">
+       <Inputs delay="5"/>
+      </Node>
+      <Node Id="219" Name="WIN" Class="_comment" pos="-1040,1460,0" flags="0"/>
+      <Node Id="224" Class="Mission:SetGameToken" pos="1920,380,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.InGameMusic_Playing" Value="0"/>
+      </Node>
+      <Node Id="228" Class="Multiplayer:GameType" pos="-940,300,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="229" Name="goes here with get game type" Class="_comment" pos="-940,240,0" flags="0"/>
+      <Node Id="231" Class="Mission:SetGameToken" pos="-270,-370,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" Value="1"/>
+      </Node>
+      <Node Id="232" Name="Means - don&apos;t play ingame music anymore" Class="_comment" pos="-270,-400,0" flags="0"/>
+      <Node Id="233" Name="in triggers set theme for ingame music" Class="_comment" pos="-920,-4480,0" flags="0"/>
+      <Node Id="234" Class="Time:RandomDelay" pos="-410,-4450,0" flags="0">
+       <Inputs MinDelay="15" MaxDelay="20"/>
+      </Node>
+      <Node Id="235" Class="entity:MusicThemeSelector" pos="760,-4370,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{50A80BAB-E6DE-49EA-A889-52E9B8F292DE}" EntityGUID_64="49EAE6DE50A80BAB">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="236" Class="entity:MusicThemeSelector" pos="760,-4310,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{A9053D02-4C39-43D7-8DAD-8D017C0B1779}" EntityGUID_64="43D74C39A9053D02">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="237" Class="entity:MusicThemeSelector" pos="760,-4240,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{2D9614E9-8E31-499C-9F90-16038E0C19F3}" EntityGUID_64="499C8E312D9614E9">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="238" Class="entity:MusicThemeSelector" pos="760,-4180,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{31123E60-4CA4-437B-BFDB-2C64DEF55183}" EntityGUID_64="437B4CA431123E60">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="239" Class="entity:MusicThemeSelector" pos="760,-4120,0" flags="0" InHideMask="15" OutHideMask="3" EntityGUID="{4494E58B-8D9E-4BB7-A3DC-75AA02664349}" EntityGUID_64="4BB78D9E4494E58B">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="240" Class="Logic:DeMultiplexer" pos="240,-4460,0" flags="0">
+       <Inputs Index="0" Mode="0"/>
+      </Node>
+      <Node Id="241" Class="Math:Random" pos="20,-4460,0" flags="0">
+       <Inputs min="0" max="6"/>
+      </Node>
+      <Node Id="242" Class="Time:RandomDelay" pos="780,-4780,0" flags="0">
+       <Inputs MinDelay="180" MaxDelay="300"/>
+      </Node>
+      <Node Id="243" Class="Logic:Any" pos="-110,-4460,0" flags="0" InHideMask="63" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="244" Class="entity:MusicEndTheme" pos="1890,-4860,0" flags="0" EntityGUID="{2E1E288D-550F-4980-9947-458DEAF665E0}" EntityGUID_64="4980550F2E1E288D">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="245" Class="Time:RandomDelay" pos="1610,-4760,0" flags="0">
+       <Inputs MinDelay="45" MaxDelay="120"/>
+      </Node>
+      <Node Id="246" Class="Mission:CheckGameToken" pos="1050,-4780,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" CheckValue="0"/>
+      </Node>
+      <Node Id="247" Name="Pick a random music theme" Class="_comment" pos="-110,-4490,0" flags="0"/>
+      <Node Id="248" Name="Stop the theme after 3-5 minutes" Class="_comment" pos="780,-4810,0" flags="0"/>
+      <Node Id="249" Name="check - Only stop if ingame music is playing - not if end music is playing" Class="_comment" pos="1050,-4810,0" flags="0"/>
+      <Node Id="250" Name="Instant Action" Class="_comment" pos="-640,-4910,0" flags="0"/>
+      <Node Id="251" Name="___________________________________________________________________________________" Class="_comment" pos="-640,-4880,0" flags="0"/>
+      <Node Id="252" Name="IA Themes" Class="_comment" pos="760,-4480,0" flags="0"/>
+      <Node Id="253" Class="entity:MusicThemeSelector" pos="760,-4450,0" flags="0" EntityGUID="{DDD9D761-062F-4F24-8EC7-38842D214944}" EntityGUID_64="4F24062FDDD9D761">
+       <Inputs entityId="0" EndTheme="0" Reset="0" SetTheme="0"/>
+      </Node>
+      <Node Id="255" Class="Multiplayer:MP" pos="-920,-4450,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="256" Class="Sound:MusicLogicControl" pos="-240,-4720,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="257" Class="Time:Delay" pos="-240,-4450,0" flags="0">
+       <Inputs delay="1"/>
+      </Node>
+      <Node Id="259" Class="Mission:SetGameToken" pos="-340,-3450,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" Value="1"/>
+      </Node>
+      <Node Id="260" Name="Means - don&apos;t play ingame music anymore" Class="_comment" pos="-340,-3480,0" flags="0"/>
+      <Node Id="261" Name="When game starts new make another of these but set to 0" Class="_comment" pos="-410,-4170,0" flags="0"/>
+      <Node Id="262" Class="Mission:SetGameToken" pos="-410,-4140,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" Value="0"/>
+      </Node>
+      <Node Id="263" Name="LOSE" Class="_comment" pos="-340,-3330,0" flags="0"/>
+      <Node Id="264" Class="Sound:MusicLogicControl" pos="-340,-3860,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="265" Class="entity:MusicEndTheme" pos="-180,-3630,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="266" Class="entity:MusicPlayPattern" pos="-180,-2970,0" flags="0" EntityGUID="{A263187B-0024-41A0-B702-42F9942FDCB8}" EntityGUID_64="41A00024A263187B">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="267" Name="WIN" Class="_comment" pos="-340,-3900,0" flags="0"/>
+      <Node Id="268" Name="GAME OVER" Class="_comment" pos="-950,-3900,0" flags="0"/>
+      <Node Id="269" Class="Time:Delay" pos="-340,-3630,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="270" Class="entity:MusicPlayPattern" pos="-170,-3540,0" flags="0" EntityGUID="{8387F243-11C9-4241-AF85-7563FF678A29}" EntityGUID_64="424111C98387F243">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="271" Class="Multiplayer:MP" pos="-950,-3860,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="272" Class="Time:Delay" pos="-340,-3540,0" flags="0">
+       <Inputs delay="2"/>
+      </Node>
+      <Node Id="273" Class="Sound:MusicLogicControl" pos="-340,-3290,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="274" Class="entity:MusicEndTheme" pos="-180,-3060,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="275" Class="Time:Delay" pos="-340,-3060,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="276" Class="Multiplayer:MP" pos="-940,-3280,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="277" Class="Time:Delay" pos="-340,-2970,0" flags="0">
+       <Inputs delay="2"/>
+      </Node>
+      <Node Id="279" Class="Mission:SetGameToken" pos="-340,-2870,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.GameOverMusic_Playing" Value="1"/>
+      </Node>
+      <Node Id="280" Name="Means - don&apos;t play ingame music anymore" Class="_comment" pos="-340,-2900,0" flags="0"/>
+      <Node Id="281" Name="No winning music in instant action" Class="_comment" pos="-340,-3570,0" flags="0"/>
+      <Node Id="282" Name="No losing music in instant action" Class="_comment" pos="-340,-3000,0" flags="0"/>
+      <Node Id="283" Class="Multiplayer:GameType" pos="-770,930,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="284" Class="Multiplayer:GameType" pos="-770,1160,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="285" Class="Multiplayer:GameType" pos="-780,1490,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="286" Class="Multiplayer:GameType" pos="-780,2150,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="287" Class="Math:SetNumber" pos="970,670,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="288" Class="Multiplayer:GameType" pos="-670,-4450,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="289" Class="Multiplayer:GameType" pos="-660,-3860,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="290" Class="Multiplayer:GameType" pos="-680,-3280,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="291" Class="Multiplayer:GameType" pos="-640,-1350,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="292" Class="Multiplayer:GameType" pos="-650,-780,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="295" Class="entity:MusicMoodSelector" pos="-380,-1900,0" flags="0" EntityGUID="{5F72F2A1-81FB-405D-B592-8DD5546F6942}" EntityGUID_64="405D81FB5F72F2A1">
+       <Inputs entityId="0" ResetDefaultMood="0" SetDefaultMood="0" SetMood="0"/>
+      </Node>
+      <Node Id="297" Class="entity:MusicMoodSelector" pos="-410,-4320,0" flags="0" EntityGUID="{5F72F2A1-81FB-405D-B592-8DD5546F6942}" EntityGUID_64="405D81FB5F72F2A1">
+       <Inputs entityId="0" ResetDefaultMood="0" SetDefaultMood="0" SetMood="0"/>
+      </Node>
+      <Node Id="298" Class="Mission:SetGameToken" pos="-940,390,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.InGameMusic_Playing" Value="0"/>
+      </Node>
+      <Node Id="299" Class="Mission:SetGameToken" pos="-710,2620,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.WinConditionActive" Value="0"/>
+      </Node>
+      <Node Id="300" Class="Mission:SetGameToken" pos="-710,2700,0" flags="0">
+       <Inputs gametoken_Token="Music_MP.Music.InGameMusic_Playing" Value="0"/>
+      </Node>
+      <Node Id="301" Class="Logic:Any" pos="-840,2330,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="302" Class="Math:SetNumber" pos="-400,-4540,0" flags="0">
+       <Inputs in="1.8"/>
+      </Node>
+      <Node Id="303" Class="Math:SetNumber" pos="-360,-2200,0" flags="0">
+       <Inputs in="1.8"/>
+      </Node>
+      <Node Id="304" Class="Math:SetNumber" pos="-560,360,0" flags="0">
+       <Inputs in="1.8"/>
+      </Node>
+      <Node Id="305" Class="Sound:MusicLogicControl" pos="-410,3070,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="306" Class="entity:MusicEndTheme" pos="-250,3300,0" flags="0" EntityGUID="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" EntityGUID_64="4A084A0AC8D4CA51">
+       <Inputs entityId="0" Stop="0"/>
+      </Node>
+      <Node Id="307" Name="No Tie Music:  after delay for length of explosion" Class="_comment" pos="-410,3450,0" flags="0"/>
+      <Node Id="309" Class="Time:Delay" pos="-410,3300,0" flags="0">
+       <Inputs delay="0.5"/>
+      </Node>
+      <Node Id="310" Class="entity:MusicPlayPattern" pos="-220,3480,0" flags="0" EntityGUID="{8387F243-11C9-4241-AF85-7563FF678A29}" EntityGUID_64="424111C98387F243">
+       <Inputs entityId="0" PlayPattern="0"/>
+      </Node>
+      <Node Id="311" Class="Multiplayer:MP" pos="-1020,3080,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="313" Class="Time:Delay" pos="-410,3480,0" flags="0">
+       <Inputs delay="5"/>
+      </Node>
+      <Node Id="314" Name="TIE" Class="_comment" pos="-1020,3050,0" flags="0"/>
+      <Node Id="315" Class="Multiplayer:GameType" pos="-760,3080,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="316" Class="Math:SetNumber" pos="-400,-4620,0" flags="0">
+       <Inputs in="151"/>
+      </Node>
+      <Node Id="317" Class="Time:Delay" pos="810,-5030,0" flags="0">
+       <Inputs delay="10"/>
+      </Node>
+      <Node Id="318" Class="Math:SetNumber" pos="980,-5030,0" flags="0">
+       <Inputs in="100"/>
+      </Node>
+      <Node Id="319" Class="Sound:MusicLogicControl" pos="1150,-5160,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="321" Class="Sound:MusicLogicControl" pos="1930,-4650,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="322" Class="Time:Delay" pos="1690,-4860,0" flags="0">
+       <Inputs delay="0.2"/>
+      </Node>
+      <Node Id="324" Class="Logic:Any" pos="700,-4970,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="325" Class="Multiplayer:MP" pos="440,-5030,0" flags="0">
+       <Inputs GameEndTime="180"/>
+      </Node>
+      <Node Id="332" Class="Sound:MusicLogicControl" pos="1850,-2210,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="333" Class="Time:Delay" pos="1640,-2420,0" flags="0">
+       <Inputs delay="0.2"/>
+      </Node>
+      <Node Id="335" Class="Sound:MusicLogicControl" pos="2230,610,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="336" Class="Time:Delay" pos="1980,310,0" flags="0">
+       <Inputs delay="0.2"/>
+      </Node>
+      <Node Id="338" Class="Sound:MusicLogicControl" pos="1100,920,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="339" Class="Time:Delay" pos="930,920,0" flags="0">
+       <Inputs delay="1"/>
+      </Node>
+      <Node Id="344" Class="Sound:MusicLogicControl" pos="430,-4120,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="345" Class="Time:Delay" pos="250,-4210,0" flags="0">
+       <Inputs delay="1"/>
+      </Node>
+      <Node Id="346" Class="Sound:MusicLogicControl" pos="390,-1780,0" flags="0">
+       <Inputs SetAI="0" AddAI="0" SetPlayer="0" AddPlayer="0" SetGame="0" AddGame="0" SetChange="0" AddChange="0" SetMultiplier="1"/>
+      </Node>
+      <Node Id="347" Class="Time:Delay" pos="265.09613,-1728.9724,0" flags="0">
+       <Inputs delay="1"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="200" nodeOut="11" portIn="in" portOut="Out" enabled="1"/>
+      <Edge nodeIn="89" nodeOut="87" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="22" nodeOut="93" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="161" nodeOut="99" portIn="SetTheme" portOut="Port0" enabled="1"/>
+      <Edge nodeIn="162" nodeOut="99" portIn="SetTheme" portOut="Port1" enabled="1"/>
+      <Edge nodeIn="163" nodeOut="99" portIn="SetTheme" portOut="Port2" enabled="1"/>
+      <Edge nodeIn="164" nodeOut="99" portIn="SetTheme" portOut="Port3" enabled="1"/>
+      <Edge nodeIn="165" nodeOut="99" portIn="SetTheme" portOut="Port4" enabled="1"/>
+      <Edge nodeIn="166" nodeOut="99" portIn="SetTheme" portOut="Port5" enabled="1"/>
+      <Edge nodeIn="167" nodeOut="99" portIn="SetTheme" portOut="Port6" enabled="1"/>
+      <Edge nodeIn="168" nodeOut="99" portIn="SetTheme" portOut="Port7" enabled="1"/>
+      <Edge nodeIn="116" nodeOut="100" portIn="Trigger" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="287" nodeOut="100" portIn="in" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="112" nodeOut="101" portIn="Trigger" portOut="Out" enabled="1"/>
+      <Edge nodeIn="106" nodeOut="102" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="102" nodeOut="104" portIn="in6" portOut="Out" enabled="1"/>
+      <Edge nodeIn="100" nodeOut="106" portIn="generate" portOut="True" enabled="1"/>
+      <Edge nodeIn="104" nodeOut="112" portIn="In" portOut="True" enabled="1"/>
+      <Edge nodeIn="224" nodeOut="112" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="335" nodeOut="112" portIn="Stop" portOut="True" enabled="1"/>
+      <Edge nodeIn="336" nodeOut="112" portIn="in" portOut="True" enabled="1"/>
+      <Edge nodeIn="101" nodeOut="116" portIn="In" portOut="True" enabled="1"/>
+      <Edge nodeIn="115" nodeOut="116" portIn="Trigger" portOut="True" enabled="1"/>
+      <Edge nodeIn="287" nodeOut="116" portIn="set" portOut="True" enabled="1"/>
+      <Edge nodeIn="191" nodeOut="119" portIn="in" portOut="Out" enabled="1"/>
+      <Edge nodeIn="123" nodeOut="130" portIn="SetTheme" portOut="Port1" enabled="1"/>
+      <Edge nodeIn="124" nodeOut="130" portIn="SetTheme" portOut="Port2" enabled="1"/>
+      <Edge nodeIn="125" nodeOut="130" portIn="SetTheme" portOut="Port3" enabled="1"/>
+      <Edge nodeIn="126" nodeOut="130" portIn="SetTheme" portOut="Port4" enabled="1"/>
+      <Edge nodeIn="127" nodeOut="130" portIn="SetTheme" portOut="Port5" enabled="1"/>
+      <Edge nodeIn="171" nodeOut="130" portIn="SetTheme" portOut="Port0" enabled="1"/>
+      <Edge nodeIn="130" nodeOut="131" portIn="Index" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="132" nodeOut="131" portIn="In" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="347" nodeOut="131" portIn="in" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="144" nodeOut="132" portIn="Trigger" portOut="Out" enabled="1"/>
+      <Edge nodeIn="131" nodeOut="133" portIn="generate" portOut="out" enabled="1"/>
+      <Edge nodeIn="133" nodeOut="142" portIn="in1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="142" nodeOut="144" portIn="In" portOut="True" enabled="1"/>
+      <Edge nodeIn="332" nodeOut="144" portIn="Stop" portOut="True" enabled="1"/>
+      <Edge nodeIn="333" nodeOut="144" portIn="in" portOut="True" enabled="1"/>
+      <Edge nodeIn="181" nodeOut="185" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="119" nodeOut="187" portIn="In" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="177" nodeOut="187" portIn="Trigger" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="295" nodeOut="187" portIn="SetMood" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="303" nodeOut="187" portIn="set" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="187" nodeOut="188" portIn="GetGameType" portOut="EnteredGame" enabled="1"/>
+      <Edge nodeIn="133" nodeOut="191" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="291" nodeOut="192" portIn="GetGameType" portOut="GameWon" enabled="1"/>
+      <Edge nodeIn="186" nodeOut="193" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="195" nodeOut="196" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="292" nodeOut="197" portIn="GetGameType" portOut="GameLost" enabled="1"/>
+      <Edge nodeIn="182" nodeOut="198" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="228" nodeOut="199" portIn="GetGameType" portOut="EnteredGame" enabled="1"/>
+      <Edge nodeIn="298" nodeOut="199" portIn="Trigger" portOut="EnteredGame" enabled="1"/>
+      <Edge nodeIn="102" nodeOut="200" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="283" nodeOut="201" portIn="GetGameType" portOut="EndGameInvalid" enabled="1"/>
+      <Edge nodeIn="284" nodeOut="202" portIn="GetGameType" portOut="EndGameNear" enabled="1"/>
+      <Edge nodeIn="285" nodeOut="203" portIn="GetGameType" portOut="GameWon" enabled="1"/>
+      <Edge nodeIn="95" nodeOut="210" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="212" nodeOut="215" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="286" nodeOut="217" portIn="GetGameType" portOut="GameLost" enabled="1"/>
+      <Edge nodeIn="301" nodeOut="217" portIn="in2" portOut="GameLost" enabled="1"/>
+      <Edge nodeIn="301" nodeOut="217" portIn="in3" portOut="GameTied" enabled="1"/>
+      <Edge nodeIn="301" nodeOut="217" portIn="in1" portOut="GameWon" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="218" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="228" portIn="In" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="85" nodeOut="228" portIn="SetTheme" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="87" nodeOut="228" portIn="in" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="304" nodeOut="228" portIn="set" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="257" nodeOut="234" portIn="in" portOut="Out" enabled="1"/>
+      <Edge nodeIn="235" nodeOut="240" portIn="SetTheme" portOut="Port1" enabled="1"/>
+      <Edge nodeIn="236" nodeOut="240" portIn="SetTheme" portOut="Port2" enabled="1"/>
+      <Edge nodeIn="237" nodeOut="240" portIn="SetTheme" portOut="Port3" enabled="1"/>
+      <Edge nodeIn="238" nodeOut="240" portIn="SetTheme" portOut="Port4" enabled="1"/>
+      <Edge nodeIn="239" nodeOut="240" portIn="SetTheme" portOut="Port5" enabled="1"/>
+      <Edge nodeIn="253" nodeOut="240" portIn="SetTheme" portOut="Port0" enabled="1"/>
+      <Edge nodeIn="240" nodeOut="241" portIn="Index" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="242" nodeOut="241" portIn="In" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="345" nodeOut="241" portIn="in" portOut="outRounded" enabled="1"/>
+      <Edge nodeIn="246" nodeOut="242" portIn="Trigger" portOut="Out" enabled="1"/>
+      <Edge nodeIn="241" nodeOut="243" portIn="generate" portOut="out" enabled="1"/>
+      <Edge nodeIn="243" nodeOut="245" portIn="in1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="245" nodeOut="246" portIn="In" portOut="True" enabled="1"/>
+      <Edge nodeIn="321" nodeOut="246" portIn="Stop" portOut="True" enabled="1"/>
+      <Edge nodeIn="322" nodeOut="246" portIn="in" portOut="True" enabled="1"/>
+      <Edge nodeIn="288" nodeOut="255" portIn="GetGameType" portOut="EnteredGame" enabled="1"/>
+      <Edge nodeIn="316" nodeOut="255" portIn="set" portOut="EnteredGame" enabled="1"/>
+      <Edge nodeIn="243" nodeOut="257" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="265" nodeOut="269" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="289" nodeOut="271" portIn="GetGameType" portOut="GameWon" enabled="1"/>
+      <Edge nodeIn="270" nodeOut="272" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="274" nodeOut="275" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="290" nodeOut="276" portIn="GetGameType" portOut="GameLost" enabled="1"/>
+      <Edge nodeIn="266" nodeOut="277" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="102" nodeOut="283" portIn="in3" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="111" nodeOut="283" portIn="Trigger" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="14" nodeOut="284" portIn="SetTheme" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="107" nodeOut="284" portIn="Trigger" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="117" nodeOut="284" portIn="Trigger" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="285" portIn="Stop" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="93" nodeOut="285" portIn="in" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="210" nodeOut="285" portIn="in" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="211" nodeOut="286" portIn="Stop" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="215" nodeOut="286" portIn="in" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="218" nodeOut="286" portIn="in" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="99" nodeOut="287" portIn="Index" portOut="out" enabled="1"/>
+      <Edge nodeIn="339" nodeOut="287" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="234" nodeOut="288" portIn="In" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="262" nodeOut="288" portIn="Trigger" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="297" nodeOut="288" portIn="SetMood" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="302" nodeOut="288" portIn="set" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="259" nodeOut="289" portIn="Trigger" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="264" nodeOut="289" portIn="Stop" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="269" nodeOut="289" portIn="in" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="273" nodeOut="290" portIn="Stop" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="275" nodeOut="290" portIn="in" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="279" nodeOut="290" portIn="Trigger" portOut="InstantAction" enabled="1"/>
+      <Edge nodeIn="145" nodeOut="291" portIn="Trigger" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="179" nodeOut="291" portIn="Stop" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="185" nodeOut="291" portIn="in" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="193" nodeOut="291" portIn="in" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="194" nodeOut="292" portIn="Stop" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="196" nodeOut="292" portIn="in" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="198" nodeOut="292" portIn="in" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="231" nodeOut="292" portIn="Trigger" portOut="TeamAction" enabled="1"/>
+      <Edge nodeIn="299" nodeOut="301" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="300" nodeOut="301" portIn="Trigger" portOut="out" enabled="1"/>
+      <Edge nodeIn="256" nodeOut="302" portIn="SetMultiplier" portOut="out" enabled="1"/>
+      <Edge nodeIn="189" nodeOut="303" portIn="SetMultiplier" portOut="out" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="304" portIn="SetMultiplier" portOut="out" enabled="1"/>
+      <Edge nodeIn="306" nodeOut="309" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="315" nodeOut="311" portIn="GetGameType" portOut="GameTied" enabled="1"/>
+      <Edge nodeIn="310" nodeOut="313" portIn="PlayPattern" portOut="out" enabled="1"/>
+      <Edge nodeIn="305" nodeOut="315" portIn="Stop" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="309" nodeOut="315" portIn="in" portOut="PowerStruggle" enabled="1"/>
+      <Edge nodeIn="256" nodeOut="316" portIn="SetChange" portOut="out" enabled="1"/>
+      <Edge nodeIn="318" nodeOut="317" portIn="set" portOut="out" enabled="1"/>
+      <Edge nodeIn="319" nodeOut="318" portIn="AddChange" portOut="out" enabled="1"/>
+      <Edge nodeIn="319" nodeOut="318" portIn="AddGame" portOut="out" enabled="1"/>
+      <Edge nodeIn="324" nodeOut="318" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="244" nodeOut="322" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="317" nodeOut="324" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="324" nodeOut="325" portIn="in1" portOut="EnteredGame" enabled="1"/>
+      <Edge nodeIn="141" nodeOut="333" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="103" nodeOut="336" portIn="Stop" portOut="out" enabled="1"/>
+      <Edge nodeIn="338" nodeOut="339" portIn="Start" portOut="out" enabled="1"/>
+      <Edge nodeIn="344" nodeOut="345" portIn="Start" portOut="out" enabled="1"/>
+      <Edge nodeIn="346" nodeOut="347" portIn="Start" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="MusicEndTheme" Layer="Music" Id="{C8D4CA51-4A0A-4A08-9DAC-70912554DA02}" Name="MusicEndTheme1" Pos="6.9952393,13.588501,1.5001068" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicEndTheme">
+    <Properties nEndLimitInSec="1" bFadeOut="1" bIndoorOnly="0" bOutdoorOnly="0" bPlayEnd="0" bStopAtOnce="0"/>
+   </Object>
+   <Object Type="MusicEndTheme" Layer="Music" Id="{2E1E288D-550F-4980-9947-458DEAF665E0}" Name="MusicEndTheme_playtoend" Pos="5.729126,13.401489,1.5001068" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicEndTheme">
+    <Properties nEndLimitInSec="20" bFadeOut="0" bIndoorOnly="0" bOutdoorOnly="0" bPlayEnd="1" bStopAtOnce="0"/>
+   </Object>
+   <Object Type="MusicMoodSelector" Layer="Music" Id="{5F72F2A1-81FB-405D-B592-8DD5546F6942}" Name="MusicMoodSelector_silence" Pos="9.625,13.75,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicMoodSelector">
+    <Properties bCrossfade="1" sMood="silence"/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{A263187B-0024-41A0-B702-42F9942FDCB8}" Name="MusicPlayPattern_losegame" Pos="8.5058594,11.879028,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="mp_lose" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicPlayPattern" Layer="Music" Id="{8387F243-11C9-4241-AF85-7563FF678A29}" Name="MusicPlayPattern_wingame" Pos="9.6616211,11.928467,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicPlayPattern">
+    <Properties sPattern="mp_win" bPlaySynched="0" bStopPrevious="0"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{642F4208-7602-4066-A474-27C10BDF3CC6}" Name="MusicThemeSelector_3minutes_left" Pos="6.1906738,11.732422,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="multiplayer_endgame"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{3BD83505-EA60-451B-BC3B-C2FC1078F614}" Name="MusicThemeSelector_airfield_battle" Pos="6.4066162,2.0808105,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="airfield_battle"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{B17073C8-60C9-4A99-BDB1-874D559779D9}" Name="MusicThemeSelector_airfield_terminal" Pos="6.637207,5.1843262,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="airfield_terminal"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{CF85EAFB-563B-4E2E-9726-65E97F3EB893}" Name="MusicThemeSelector_EnterGame_motivation" Pos="7.4870605,11.888672,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="startgame_1" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="startgame_1" bOutdoorOnly="0" sTheme="multiplayer_motivation"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{03250337-461F-408B-AE80-0551E86BAB11}" Name="MusicThemeSelector_ghosttown" Pos="1.6661377,4.3569336,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="ghosttown"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{0591AA0E-F83C-486B-A24B-8B5023C7E187}" Name="MusicThemeSelector_Harbor_inside" Pos="2.9020996,4.5554199,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="Harbor_inside"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{B942ACD9-1284-496C-AB11-1C255E0BB031}" Name="MusicThemeSelector_Harbor_squad_battle" Pos="4.7260742,1.9387207,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="Harbor_squad_battle"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{F167A8C0-7910-4AAA-B27C-ED653436DCF5}" Name="MusicThemeSelector_island" Pos="6.364624,0.096923828,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="island"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{B61A1800-8A78-468B-9139-609C4EA513ED}" Name="MusicThemeSelector_mine_kyong" Pos="4.7507324,4.8869629,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="mine_kyong"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{DDD9D761-062F-4F24-8EC7-38842D214944}" Name="MusicThemeSelector_reactor_fast" Pos="6.1719971,8.0170898,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="reactor_fast"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{A759C035-9F1D-4776-962E-14444B32C6F6}" Name="MusicThemeSelector_reactor_slow" Pos="5.6602783,5.0982666,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="reactor_slow"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{A9053D02-4C39-43D7-8DAD-8D017C0B1779}" Name="MusicThemeSelector_rescue_boatride" Pos="4.1019287,7.8057861,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="rescue_boatride"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{A20FBBE0-8BDA-46B1-A861-56D526119E26}" Name="MusicThemeSelector_rescue_boatride_slow" Pos="5.4554443,0.056274414,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="rescue_boatride_slow"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{2D9614E9-8E31-499C-9F90-16038E0C19F3}" Name="MusicThemeSelector_rescue_graveyard" Pos="3.0489502,7.6113281,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="rescue_graveyard"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{8EBB9BD8-E8F1-4905-88B2-48700A61BD55}" Name="MusicThemeSelector_rescue_lab" Pos="0.0056152344,4.114502,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="rescue_lab"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{DD8BF2CB-CACA-48BF-95C5-F91ACB63DA62}" Name="MusicThemeSelector_rescue_sniper" Pos="0.77197266,4.2075195,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="rescue_sniper"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{112B9870-F4C5-4A1D-A8F9-DA5F0695A751}" Name="MusicThemeSelector_rescue_swamp" Pos="7.2651367,0.32312012,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="rescue_swamp"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{6C48F3E9-49A0-43BA-BF79-E0BD738BFD07}" Name="MusicThemeSelector_riverbattle" Pos="3.6148682,1.8818359,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="riverbattle"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{4494E58B-8D9E-4BB7-A3DC-75AA02664349}" Name="MusicThemeSelector_riverbattle1" Pos="1.1925049,7.1317139,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="riverbattle"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{50A80BAB-E6DE-49EA-A889-52E9B8F292DE}" Name="MusicThemeSelector_stream" Pos="5.2355957,7.9996338,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="stream"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{3610FBC4-F47D-43AF-B3D3-6B4B704A0DF8}" Name="MusicThemeSelector_tank_open_valley" Pos="5.4506836,2.0950928,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="tank_open_valley"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{0E224387-5FF9-47F5-9E86-25F732866728}" Name="MusicThemeSelector_travel" Pos="4.3980713,-0.042480469,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="travel"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{A22CBD8F-9FAA-4AC1-900F-F95F5431320F}" Name="MusicThemeSelector_village_driving" Pos="2.7889404,1.7373047,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="village_driving"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{0769440E-93FE-4A3B-B655-FA29D7D76B47}" Name="MusicThemeSelector_village_infiltrate" Pos="3.7441406,4.6809082,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="village_infiltrate"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{31123E60-4CA4-437B-BFDB-2C64DEF55183}" Name="MusicThemeSelector_village_infiltrate1" Pos="2.0476074,7.3747559,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="village_infiltrate"/>
+   </Object>
+   <Object Type="MusicThemeSelector" Layer="Music" Id="{18C11F9C-49BD-4973-937E-5FCE6376D3B8}" Name="MusicThemeSelector_vtol" Pos="7.1405029,2.1778564,1.25" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="MusicThemeSelector">
+    <Properties sDefaultMood="" nDelayInSec="0" bEndOnExit="1" bForceChange="1" bIndoorOnly="0" bKeepMood="0" sMood="" bOutdoorOnly="0" sTheme="vtol"/>
+   </Object>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

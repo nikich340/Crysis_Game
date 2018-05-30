@@ -1,0 +1,12 @@
+<Material MtlFlags="2048" Shader="Water" GenMask="225" SurfaceType="mat_water" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/beach_white_sand.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/defaults/oceanwaves_ddn.dds" Filter="5">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams WavesSpeed="1.5" FrequencyWave0="1" AnimPhaseWav0="0.77" AnimAmplitudeWav0="1" MaxAnimAmplitudeWav0="1" FrequencyWave1="1" AnimPhaseWav1="1.333" AnimAmplitudeWav1="1" MaxAnimAmplitudeWav1="1" DebugUVScale="64" BigWavesScale="2" SmallWavesScale="1" FresnelBias="0.406" SunShinePow="175.5" SoftIntersectionFactor="0.76" FoamIntersectionFactor="4.5" ReflectionAmount="0.693" WhiteCapsAmount="0.647" SunMultiplier="4.62" FoamMultiplier="1.985"/>
+ <MaterialLayers />
+</Material>

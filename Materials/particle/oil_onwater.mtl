@@ -1,0 +1,12 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="16" SurfaceType="" Diffuse="0.96470594,0.96470594,0.96470594" Specular="2.5988235,4.202353,3.372941" Emissive="0.30588236,0.30588236,0.30588236" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/smoke_massive_white1.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/fire_blur1_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.2" PerturbationScale="4.0999999" PerturbationStrenght="0.60799998"/>
+ <MaterialLayers />
+</Material>

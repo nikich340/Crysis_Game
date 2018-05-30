@@ -1,0 +1,38 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-170,40,0" flags="1"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="440,50,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="-20,90,0" flags="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:ActionStart" pos="582,313,0" flags="0"/>
+  <Node Id="5" Class="AI:ActionEnd" pos="1192,323,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="6" Class="Entity:EntityPos" pos="732,363,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="7" Class="HUD:DisplayInfoMessage" pos="912,243,0" flags="0">
+   <Inputs message="Hawker Response: Melon" displayTime="5"/>
+  </Node>
+  <Node Id="8" Class="AI:AILookAt" pos="912,313,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" Direction="0,0,0" Duration="1"/>
+  </Node>
+  <Node Id="9" Class="HUD:DisplayInfoMessage" pos="160,-30,0" flags="1">
+   <Inputs message="Hawker Response: Journalist" displayTime="5"/>
+  </Node>
+  <Node Id="10" Class="AI:AILookAt" pos="160,40,0" flags="1">
+   <Inputs entityId="0" pos="0,0,0" Direction="0,0,0" Duration="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="display" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="10" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,11 @@
+<DialogScript Name="Fleet.AB9_DeckBattle_Uh-oh" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="4" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab9_159F9A82" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc="Uh oh "/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_AE1DBE98" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc="Son of a bitch!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_8526C0B8" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Leave me! Get out of here NOW!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_7A50F9A9" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Never gonna happen, mate."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab9_024B92D5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We re not going without you."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_039A58C5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Go! I can take this thing down!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab9_DC89D3DA" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Not without my help."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_F2F65B0B" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Are you crazy? Just go!"/>
+</DialogScript>

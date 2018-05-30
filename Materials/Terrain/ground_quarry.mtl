@@ -1,0 +1,15 @@
+<Material MtlFlags="16429" Shader="Terrain.Layer" GenMask="402690052" SurfaceType="mat_soil_dusty" Diffuse="0.69019598,0.69019598,0.69019598" Specular="0.0509804,0.0509804,0.0509804" Emissive="0,0,0" Shininess="17.9" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_soil_small_pepples.tif" Filter="5">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_pieces_ddn.dds" Filter="6">
+   <TexMod TileU="0.050000001" TileV="0.039999999"/>
+  </Texture>
+  <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_sand_003_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0080000004" PomDisplacement="0.0049999999" DetailTextureStrength="1" DetailBumpTillingU="9" DetailBumpTillingV="9" DetailBumpScale="1" DetailBlendAmount="0"/>
+ <MaterialLayers />
+</Material>

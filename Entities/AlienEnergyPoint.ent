@@ -1,0 +1,4 @@
+<Entity
+ Name="AlienEnergyPoint" 
+ Script="Scripts/Entities/Multiplayer/AlienEnergyPoint.lua"
+/>

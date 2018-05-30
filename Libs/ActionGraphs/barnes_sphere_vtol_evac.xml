@@ -1,0 +1,46 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="100,250,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="710,380,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="80,320,0" flags="0" GraphEntity="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="874" Class="AI:AIAnimEx" pos="301,241,0" flags="1" GraphEntity="0">
+   <Inputs entityId="0" OneShot="1" animstateEx_Animation="xCineSph_ab3_BarnesRescueEnd" Speed="1" Stance="-1" Position="0,0,0" StartRadius="0.01,0.01,0.01" Direction="0,0,0" DirTolerance="0" TargetRadius="0"/>
+  </Node>
+  <Node Id="964" Class="AnimatedCharacter:ColliderMode" pos="701,491,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" ColliderMode="4"/>
+  </Node>
+  <Node Id="965" Class="AnimatedCharacter:ColliderMode" pos="701,571,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" ColliderMode="5"/>
+  </Node>
+  <Node Id="992" Class="AI:AIAnim" pos="711,281,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" animstateEx_name="idle" signal="2"/>
+  </Node>
+  <Node Id="993" Class="AI:AIStance" pos="951,281,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" stance="2"/>
+  </Node>
+  <Node Id="999" Name="sets collison params on barnes so cant be pushed out of pos" Class="_comment" pos="701,451,0" flags="0"/>
+  <Node Id="1000" Class="AI:ActionEnd" pos="950,380,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="1001" Class="AI:ActionEnd" pos="1150,310,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="874" nodeOut="1" portIn="Sync" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="874" nodeOut="3" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="874" nodeOut="3" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="874" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="964" nodeOut="874" portIn="Trigger" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="965" nodeOut="874" portIn="Trigger" portOut="start" enabled="1"/>
+  <Edge nodeIn="992" nodeOut="874" portIn="sink" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="993" nodeOut="992" portIn="sink" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="1000" nodeOut="992" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="1001" nodeOut="993" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="1001" nodeOut="993" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

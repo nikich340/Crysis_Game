@@ -1,0 +1,4 @@
+<DialogScript Name="Mine.AB1_Nomad_LZ_secure" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/nomad_mine_ab1_PU004" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="LZ&apos;s secure, Major, how&apos;s it comin&apos; with that air support?"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_PU005" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Cavalry&apos;s on it&apos;s way, son."/>
+</DialogScript>

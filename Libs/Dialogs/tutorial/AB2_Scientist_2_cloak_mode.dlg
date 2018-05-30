@@ -1,0 +1,3 @@
+<DialogScript Name="Tutorial.AB2_Scientist_2_cloak_mode" Description="">
+ <Line actor="2" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/scientist_2_tutorial_ab2_F9103E41" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

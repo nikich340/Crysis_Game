@@ -1,0 +1,15 @@
+<Material MtlFlags="0" Shader="Terrain.Layer" GenMask="1543" SurfaceType="mat_ice" Diffuse="0.254902,0.254902,0.254902" Specular="0.803922,0.803922,0.803922" Emissive="0,0,0" Shininess="5" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/rock_1113_highpass.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/rock_1113_spec.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/rock_1113_ddn.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams Reflect="0.5" BumpOffset="0.03" FresnelScale="1" FresnelBias="0" FresnelPow="5" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

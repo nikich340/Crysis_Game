@@ -1,0 +1,1446 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>CRYTEK</Author>
+  <LastAuthor>CRYTEK</LastAuthor>
+  <Created>2006-06-30T10:20:17Z</Created>
+  <LastSaved>2006-08-31T14:30:45Z</LastSaved>
+  <Version>11.6568</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#CCFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#99FF99</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#CCECFF</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#ABDFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#E3E9FD</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FFCDCD</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6645</WindowHeight>
+  <WindowWidth>19170</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>3555</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s28">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:Color="#000080"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s30">
+   <Interior/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s32">
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s34">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Interior ss:Color="#00FF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s38">
+   <Interior ss:Color="#808000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s509">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#E3E9FD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s510">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#E3E9FD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s511">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior ss:Color="#E3E9FD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s543">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s545">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:Color="#000080"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s547">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s548">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s550">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s556">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:Rotate="90"
+    ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s557">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:Rotate="90"
+    ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s558">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:Rotate="90"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s559">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s560">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s561">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s562">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s563">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s564">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s565">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s566">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#99FF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s570">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#ABDFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s571">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#FF0000" ss:Bold="1"/>
+   <Interior ss:Color="#ABDFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s572">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#ABDFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s573">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Interior ss:Color="#ABDFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s574">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior ss:Color="#ABDFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Yes/No"/>
+  </Style>
+  <Style ss:ID="s575">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#000080" ss:Bold="1"/>
+   <Interior ss:Color="#ABDFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Actors" ss:RefersTo="='DataLists-DONT-TOUCH'!R2C2:R9C2"/>
+  <NamedRange ss:Name="AnimType" ss:RefersTo="='DataLists-DONT-TOUCH'!R2C3:R3C3"/>
+  <NamedRange ss:Name="Events" ss:RefersTo="='DataLists-DONT-TOUCH'!R2C1:R5C1"/>
+ </Names>
+ <Worksheet ss:Name="SampleDialogs">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=SampleDialogs!R28C1:R43C1"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="49" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="72.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="184.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="68.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="396.75"/>
+   <Row ss:StyleID="s23">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dialog</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Actor</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sound</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Animation</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Facial Expression</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">LookAtTarget</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Delay (sec)</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Comment</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">&lt;&#45;- The leftmost column 'Dialog' defines a new Dialog</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s31"><Data ss:Type="String">Animation can either be an AG Signal (prefix with $) or an AG Action</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s31"><Data ss:Type="String">If you want to play an Exact Positioned Animation add an additional ex_ prefix</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Expression [:Weight:FadeTime]</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">LookAt target can be Actor1-Actor8. But Actor will only look at during the current line</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">If you want to have a sticky look at [constantly looking], prefix the target with $, e.g. $Actor2</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell><Data ss:Type="String">Comment the Dialog: # Actors, Mood, Purpose</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">dialog_test</Data></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Angry</Data></Cell>
+    <Cell><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">.5</Data></Cell>
+    <Cell><Data ss:Type="String">Let them look at each other</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_03.wav</Data></Cell>
+    <Cell><Data ss:Type="String">$salute</Data></Cell>
+    <Cell><Data ss:Type="String">Angry</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">when a Sound is specified 'Delay' is relative to the end of the Sound and delays/brings forward the next line accordingly</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_04.wav</Data></Cell>
+    <Cell><Data ss:Type="String">$salute</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleinterestreply_00.wav</Data></Cell>
+    <Cell><Data ss:Type="String">officerTalking</Data></Cell>
+    <Cell><Data ss:Type="String">Happy</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">if no sound is specified, Delay is relative to the beginning of the action and can only delay the next line</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleseegroup_02.wav</Data></Cell>
+    <Cell><Data ss:Type="String">smoke</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">wait 1 second until Actor1 says 'Incoming Grenade'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/incominggrenade_03.wav</Data></Cell>
+    <Cell><Data ss:Type="String">$callReinforcement</Data></Cell>
+    <Cell><Data ss:Type="String">Sleep</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">When Playing an animation $ denotes a AG Signal, without an AG Action</Data></Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:Index="3" ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">A simple look at test, 2 generic Actors</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">dialog_look_at</Data></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_03.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">when a Sound is specified 'Delay' is relative to the end of the Sound and delays/brings forward the next line accordingly</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_04.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleinterestreply_00.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">if no sound is specified, Delay is relative to the beginning of the action and can only delay the next line</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleinterestreply_04.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">wait for seconds until Actor1 says 'a3.wav'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/incominggrenade_03.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+   </Row>
+   <Row ss:Index="30">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">A Facial expression test with just 1 actor. Works best on Morrison</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">facial_test</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s33"><Data ss:Type="String">officerTalking</Data></Cell>
+    <Cell><Data ss:Type="String">Angry 0.5 : 1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">make him talk look angry [fade in angry for 1 second]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">$reset</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Terrified 1:0.1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">$reset</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="36">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">Following needs 3 Actors. Actor1 turns to Actor2, salutes, turns to Actor3, salutes, and turns back to Actor1 and salutes again</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">Plays an exactly positioned animation signal 'Salute'. A direction is given in the look-at target</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">lookat2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ex_$salute</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">play an Exact Positioned Animation (EPA). The Direction is determined via the LookAt.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ex_$salute</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">EPA need to be prefixed with 'ex_'.  Then an AG Signal $ or an AG Action can be played</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ex_$salute</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="45">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">DialogScript to test sticky look-at. Actor1 will constantly try to look at Actor2 while playing the dialog</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">stickytest</Data></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">normal.wav</Data></Cell>
+    <Cell><Data ss:Type="String">officerTalking</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">$Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">-20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Empty look-at has no effect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">This line resets the look-at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/incominggrenade_03.wav</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>13</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>33</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C2:R65536C2,R1C2</Range>
+   <Type>List</Type>
+   <Value>Actors</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="SampleDialogsV2">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=SampleDialogsV2!R28C1:R43C1"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="49" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="70.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="184.5"/>
+   <Column ss:StyleID="s564" ss:AutoFitWidth="0" ss:Width="31.5"/>
+   <Column ss:StyleID="s565" ss:AutoFitWidth="0" ss:Width="31.5"/>
+   <Column ss:StyleID="s566" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s547" ss:AutoFitWidth="0" ss:Width="83.25"/>
+   <Column ss:StyleID="s510" ss:AutoFitWidth="0" ss:Width="60.75"/>
+   <Column ss:StyleID="s572" ss:AutoFitWidth="0" ss:Width="39.75"/>
+   <Column ss:StyleID="s573" ss:AutoFitWidth="0" ss:Width="69.75"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:StyleID="s21" ss:AutoFitWidth="0" ss:Width="396.75"/>
+   <Row ss:Height="58.5" ss:StyleID="s23">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Dialog</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Actor</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sound</Data></Cell>
+    <Cell ss:StyleID="s556"><Data ss:Type="String">Stop With &#10;Sound</Data></Cell>
+    <Cell ss:StyleID="s557"><Data ss:Type="String">Use Exact &#10;Positioning</Data></Cell>
+    <Cell ss:StyleID="s558"><Data ss:Type="String">AnimType</Data></Cell>
+    <Cell ss:StyleID="s543"><Data ss:Type="String">Animation</Data></Cell>
+    <Cell ss:StyleID="s509"><Data ss:Type="String">Facial&#10;Expression</Data></Cell>
+    <Cell ss:StyleID="s570"><Data ss:Type="String">Sticky</Data></Cell>
+    <Cell ss:StyleID="s571"><Data ss:Type="String">LookAtTarget</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Delay (sec)</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Comment</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s545"/>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">&lt;&#45;- The leftmost column 'Dialog' defines a new Dialog</Data></Cell>
+    <Cell ss:StyleID="s562"/>
+    <Cell ss:StyleID="s563"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s547"/>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s562"/>
+    <Cell ss:StyleID="s563"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s547"/>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s548"><Data ss:Type="String">Animation can either be an AG Signal (prefix with $) or an AG Action</Data></Cell>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s548"><Data ss:Type="String">If you want to play an Exact Positioned Animation add an additional ex_ prefix</Data></Cell>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s548"/>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s545"/>
+    <Cell ss:StyleID="s511"><Data ss:Type="String">Expression [:Weight]</Data></Cell>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s545"/>
+    <Cell ss:StyleID="s511"/>
+    <Cell ss:StyleID="s574"/>
+    <Cell ss:StyleID="s575"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s545"/>
+    <Cell ss:StyleID="s511"/>
+    <Cell ss:StyleID="s574"/>
+    <Cell ss:StyleID="s575"><Data ss:Type="String">LookAt target can be Actor1-Actor8. But Actor will only look at during the current line</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="4" ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s545"/>
+    <Cell ss:StyleID="s511"/>
+    <Cell ss:StyleID="s574"/>
+    <Cell ss:StyleID="s575"><Data ss:Type="String">If you want to have a sticky look at [constantly looking], prefix the target with $, e.g. $Actor2</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell><Data ss:Type="String">Comment the Dialog: # Actors, Mood, Purpose</Data></Cell>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+    <Cell ss:StyleID="s547"/>
+    <Cell ss:StyleID="s510"/>
+    <Cell ss:StyleID="s572"/>
+    <Cell ss:StyleID="s573"/>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">dialog_test</Data></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Angry</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">.5</Data></Cell>
+    <Cell><Data ss:Type="String">Let them look at each other</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_03.wav</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Signal</Data></Cell>
+    <Cell><Data ss:Type="String">salute</Data></Cell>
+    <Cell><Data ss:Type="String">Angry</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">when a Sound is specified 'Delay' is relative to the end of the Sound and delays/brings forward the next line accordingly</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_04.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Signal</Data></Cell>
+    <Cell><Data ss:Type="String">salute</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleinterestreply_00.wav</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">officerTalking</Data></Cell>
+    <Cell><Data ss:Type="String">Happy</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">if no sound is specified, Delay is relative to the beginning of the action and can only delay the next line</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleseegroup_02.wav</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">smoke</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">wait 1 second until Actor1 says 'Incoming Grenade'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/incominggrenade_03.wav</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Signal</Data></Cell>
+    <Cell><Data ss:Type="String">callReinforcement</Data></Cell>
+    <Cell><Data ss:Type="String">Sleep</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">When Playing an animation $ denotes a AG Signal, without an AG Action</Data></Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:Index="3" ss:StyleID="s32"/>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">A simple look at test, 2 generic Actors</Data></Cell>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">dialog_look_at</Data></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_03.wav</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">when a Sound is specified 'Delay' is relative to the end of the Sound and delays/brings forward the next line accordingly</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleheargroup_04.wav</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleinterestreply_00.wav</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">if no sound is specified, Delay is relative to the beginning of the action and can only delay the next line</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/idleinterestreply_04.wav</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">wait for seconds until Actor1 says 'a3.wav'</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/incominggrenade_03.wav</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+   </Row>
+   <Row ss:Index="30">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">A Facial expression test with just 1 actor</Data></Cell>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">facial_test</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">island/sykes_island_ab1_00950</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s550"><Data ss:Type="String">officerTalking</Data></Cell>
+    <Cell><Data ss:Type="String">Angry 1</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">-28</Data></Cell>
+    <Cell><Data ss:Type="String">Works best on Morrison</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">$reset</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Terrified 1</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Index="36">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">Following needs 3 Actors. Actor1 turns to Actor2, salutes, turns to Actor3, salutes, and turns back to Actor1 and salutes again</Data></Cell>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">Plays an exactly positioned animation signal 'Salute'. A direction is given in the look-at target</Data></Cell>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">lookat2</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Signal</Data></Cell>
+    <Cell><Data ss:Type="String">salute</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">play an Exact Positioned Animation (EPA). The Direction is determined via the LookAt.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Signal</Data></Cell>
+    <Cell><Data ss:Type="String">salute</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">EPA need to be prefixed with 'ex_'.  Then an AG Signal $ or an AG Action can be played</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Signal</Data></Cell>
+    <Cell><Data ss:Type="String">salute</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="45">
+    <Cell ss:Index="3" ss:StyleID="s32"><Data ss:Type="String">DialogScript to test sticky look-at. Actor1 will constantly try to look at Actor2 while playing the dialog</Data></Cell>
+    <Cell ss:StyleID="s559"/>
+    <Cell ss:StyleID="s560"/>
+    <Cell ss:StyleID="s561"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">stickytest</Data></Cell>
+    <Cell><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">normal.wav</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">officerTalking</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">$Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">-20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Empty look-at has no effect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">Actor2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">This line resets the look-at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Actor1</Data></Cell>
+    <Cell><Data ss:Type="String">ai_american01/incominggrenade_03.wav</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>13</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C6</Range>
+   <Type>List</Type>
+   <Value>AnimType</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C2:R65536C2,R1C2</Range>
+   <Type>List</Type>
+   <Value>Actors</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="DataLists-DONT-TOUCH">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase"
+    ss:RefersTo="='DataLists-DONT-TOUCH'!R2C2:R5C2" ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="40" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:AutoFitWidth="0" ss:Width="112.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="55.5"/>
+   <Row>
+    <Cell ss:StyleID="s37"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">Actors</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">AnimType</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Events"/></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor1</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Actors"/></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Signal</Data><NamedCell
+      ss:Name="AnimType"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Events"/></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor2</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Actors"/></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Action</Data><NamedCell
+      ss:Name="AnimType"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Events"/></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor3</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Actors"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Events"/></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor4</Data><NamedCell
+      ss:Name="_FilterDatabase"/><NamedCell ss:Name="Actors"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor5</Data><NamedCell
+      ss:Name="Actors"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor6</Data><NamedCell
+      ss:Name="Actors"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor7</Data><NamedCell
+      ss:Name="Actors"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Actor8</Data><NamedCell
+      ss:Name="Actors"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

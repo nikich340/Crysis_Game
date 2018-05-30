@@ -1,0 +1,5 @@
+<DialogScript Name="Fleet.AB8_Crew_Exertion" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab8_AF662A98" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Come on!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab8_6189DEC3" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Jeez this thing is heavy."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab8_AF662A98" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Exertion sounds"/>
+</DialogScript>

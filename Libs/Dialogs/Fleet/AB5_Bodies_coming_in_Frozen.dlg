@@ -1,0 +1,8 @@
+<DialogScript Name="Fleet.AB5_Bodies_coming_in_Frozen" Description="">
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab5_pu001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="This ain&apos;t real man"/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab5_pu001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="See the size of that thing up on Deck?"/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab5_pu002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Where they coming from?"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab5_pu001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Don&apos;t you guys have jobs to do?"/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab5_pu003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Sorry sir"/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab5_pu002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Aye aye sir"/>
+</DialogScript>

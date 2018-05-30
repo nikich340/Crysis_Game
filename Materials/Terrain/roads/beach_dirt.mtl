@@ -1,0 +1,12 @@
+<Material Diffuse="0.352941,0.376471,0.411765" Emissive="0,0,0" GenMask="37752833" MtlFlags="41" Opacity="0.99" Shader="Illum" Shininess="10" Specular="0,0,0" SurfaceType="mat_soil" >
+ <Textures>
+  <Texture File="textures/terrain/roads/beach_dirt.tif" Filter="7" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/detail/beach_sand_coarse_ddn.dds" Map="Bumpmap" >
+   <TexMod TileU="0.5" TileV="4" />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

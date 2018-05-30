@@ -1,0 +1,51 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="172" Shader="Terrain.Layer" GenMask="268468228" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_grey_blue_with_dry_bushes.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_grey_blue_with_dry_bushes_ddn.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_004_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.35800001" DetailBumpTillingU="1" DetailBumpTillingV="1" DetailBumpScale="1" DetailBlendAmount="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="y" MtlFlags="172" Shader="Terrain.Layer" GenMask="268468228" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_grey_blue_with_dry_bushes.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_grey_blue_with_dry_bushes_ddn.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_004_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SelfShadowStrength="3" DetailTextureStrength="0.35800001" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="1.5" DetailBlendAmount="0"/>
+   <MaterialLayers />
+  </Material>
+  <Material Name="z" MtlFlags="172" Shader="Terrain.Layer" GenMask="268472324" SurfaceType="mat_rock" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/detail/cliff_grey_blue_with_dry_bushes.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Bumpmap" File="textures/terrain/detail/cliff_grey_blue_with_dry_bushes_ddn.tif" Filter="5">
+     <TexMod TileU="0.0099999998" TileV="0.0099999998"/>
+    </Texture>
+    <Texture Map="Detail" File="textures/terrain/bump_detail/detail_bump_concr_004_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ObmDisplacement="0.0040000002" SelfShadowStrength="3" DetailTextureStrength="0.35800001" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="1.5" DetailBlendAmount="0"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

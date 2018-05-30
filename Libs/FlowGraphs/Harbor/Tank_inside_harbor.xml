@@ -1,0 +1,15 @@
+<Graph>
+ <Nodes>
+  <Node Class="Entity:EntityPos" EntityGUID="" flags="1" Id="5" pos="150,180,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="Start" flags="1" Id="4" pos="170,100,0" />
+  <Node Class="AI:AIGoto" EntityGUID="" flags="1" Id="3" pos="340,70,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="4" portIn="sink" portOut="output" />
+  <Edge nodeIn="3" nodeOut="5" portIn="pos" portOut="pos" />
+ </Edges>
+</Graph>

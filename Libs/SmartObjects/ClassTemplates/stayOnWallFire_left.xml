@@ -1,0 +1,7 @@
+<sotemplate>
+	<object model="stayOnWallFire_left.cgf" />
+	<helper name="so_start_1" pos="-3.35448,1.14827,0" rot="1.0,0.0,0.0,0.0" radius="0.2" projectOnGround="0" />
+	<helper name="so_end_1" pos="-3.35298,-1.06662,0" rot="1.0,0.0,0.0,0.0" radius="0.2" projectOnGround="0" />
+	<helper name="so_start_2" pos="-3.35298,1.74827,0" rot="1.0,0.0,0.0,0.0" radius="0.2" projectOnGround="0" />
+	<helper name="so_end_2" pos="-3.35448,3.96316,0" rot="1.0,0.0,0.0,0.0" radius="0.2" projectOnGround="0" />
+</sotemplate>

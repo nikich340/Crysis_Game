@@ -1,0 +1,3 @@
+<DialogScript Name="Mine.AB1_Strickland_Get_to_mine" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_PU008" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, I need you to take the front line. Get inside that mining complex and find General Kyong. My boys&apos;ll secure the perimeter of the compound. We&apos;ll have a VTOL on standby for extraction once you&apos;ve located the hostages. Good luck, soldier."/>
+</DialogScript>

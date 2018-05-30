@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="306184193" SurfaceType="mat_mud" Diffuse="0.866667,0.733333,0.6" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_dirty_track.tif" Filter="5">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

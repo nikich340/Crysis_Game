@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_grass" Diffuse="0.78823501,0.78823501,0.78823501" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/grass_ps_93_b.tif" Filter="6">
+   <TexMod TileU="0.80000001" TileV="0.80000001"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/grass_ps_93_ddn.tif">
+   <TexMod TileU="0.80000001" TileV="0.80000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.017999999" PomDisplacement="0.0049999999" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

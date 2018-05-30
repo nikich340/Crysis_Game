@@ -1,0 +1,9 @@
+<DialogScript Name="Fleet.AB8_Marines_Saw_the_Devil" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab8_AF5CF495" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Oh shit, man I gotta get out of here. I gotta get the out of this place."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab8_6D8497E1" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="What? What is it?"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab8_4825079E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I saw it."/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab8_06A30BF2" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="What!?!"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab8_FCDCA049" anim="" facial="" delay="3" facialWeight="0.5" facialFadeTime="0.5" desc="I dunno man, maybe the Devil"/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab8_A9C09EA0" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="yelps"/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab8_F26897B2" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Holy sh - I didn&apos;t sign up for this!"/>
+</DialogScript>

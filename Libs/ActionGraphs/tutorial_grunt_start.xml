@@ -1,0 +1,28 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-100,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="460,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="230,150,0" flags="1" GraphEntity="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIGotoSpeedStance" pos="230,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" pos="0,0,0" distance="0" StopDistance="0" run="2" stance="2"/>
+  </Node>
+  <Node Id="5" Class="AI:AIWeaponDraw" pos="50,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="715" Class="AI:ChangeParameter" pos="50,190,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Param="0" Value="1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="5" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="715" nodeOut="1" portIn="Trigger" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="end" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="5" portIn="sink" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

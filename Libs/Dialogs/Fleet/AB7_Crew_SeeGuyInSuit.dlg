@@ -1,0 +1,4 @@
+<DialogScript Name="Fleet.AB7_Crew_SeeGuyInSuit" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab7_PU001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="See the guy in the nanosuit? I heard he s the only one who made it outta that sphere alive."/>
+ <Line actor="2" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab7_PU001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Damn, he must be invincible or somethin . "/>
+</DialogScript>

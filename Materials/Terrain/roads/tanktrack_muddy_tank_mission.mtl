@@ -1,0 +1,18 @@
+<Material MtlFlags="40" Shader="Illum" GenMask="306184210" SurfaceType="mat_pebble" Diffuse="0.388235,0.333333,0.294118" Specular="0.270588,0.270588,0.270588" Emissive="0,0,0" Shininess="30" Opacity="0.99">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/tanktracks_x.tif" Filter="6">
+   <TexMod TileU="0.8" OffsetU="1" OffsetV="1"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/roads/tanktracks_x_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/roads/tanktracks_x_ddn.tif">
+   <TexMod TileU="0.8"/>
+  </Texture>
+  <Texture Map="Detail" File="textures/detail/mud.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

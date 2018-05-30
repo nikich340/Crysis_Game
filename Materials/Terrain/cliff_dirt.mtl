@@ -1,0 +1,33 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" MtlFlags="168" Name="x" Opacity="1" Shader="Terrain.Layer" Shininess="20" Specular="0,0,0" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_shrubbery_slope_dry.tif" Filter="7" Map="Diffuse" >
+     <TexMod OffsetV="0.66000003" TileU="0.050000001" TileV="0.050000001" />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="0.5" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" MtlFlags="168" Name="y" Opacity="1" Shader="Terrain.Layer" Shininess="20" Specular="0,0,0" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_shrubbery_slope_dry.tif" Filter="7" Map="Diffuse" >
+     <TexMod OffsetV="0.66000003" TileU="0.050000001" TileV="0.050000001" />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="0.5" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" MtlFlags="168" Name="z" Opacity="1" Shader="Terrain.Layer" Shininess="20" Specular="0,0,0" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_shrubbery_slope_dry.tif" Filter="7" Map="Diffuse" >
+     <TexMod OffsetV="0.66000003" TileU="0.050000001" TileV="0.050000001" />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="0.5" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

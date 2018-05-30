@@ -1,0 +1,12 @@
+<Material MtlFlags="2" Shader="Illum" GenMask="268435458" SurfaceType="" Diffuse="0.866667,0.862745,0.815686" Specular="1.56863,9.01961,38.4314" Emissive="1,1,1" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/paper1.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/sprites/singularity_01_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

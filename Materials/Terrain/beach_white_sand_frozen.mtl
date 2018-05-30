@@ -1,0 +1,15 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402658820" SurfaceType="mat_sand_wet" Diffuse="0.73725498,0.73725498,0.73725498" Specular="0.917647,0.917647,0.917647" Emissive="0,0,0" Shininess="2" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/beach_white_sand_frozen.tif" Filter="4">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/detail/beach_white_sand_frozen_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/beach_white_sand_ddn.tif">
+   <TexMod TileU="0.30000001" TileV="0.30000001"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.011" PomDisplacement="0.013" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

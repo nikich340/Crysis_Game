@@ -1,0 +1,35 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="25" Class="Image:FilterBlur" pos="220,290,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+  </Node>
+  <Node Id="78" Class="Interpol:Float" pos="30,320,0" flags="0">
+   <Inputs StartValue="0.5" EndValue="0" Time="2"/>
+  </Node>
+  <Node Id="191" Class="Camera:CameraShake" pos="190,480,0" flags="0">
+   <Inputs t_Activate="0" Position="0,0,0" Radius="12" Strength="2" Duration="0.5" Frequency="0.07"/>
+  </Node>
+  <Node Id="192" Class="Entity:EntityPos" pos="20,480,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="193" Class="Game:LocalPlayer" pos="-120,480,0" flags="0"/>
+  <Node Id="194" Class="MaterialFX:HUDStartFX" pos="-170,340,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="195" Class="MaterialFX:HUDEndFX" pos="160,220,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="197" Class="Time:Delay" pos="20,220,0" flags="0">
+   <Inputs delay="2.1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="25" nodeOut="78" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="191" nodeOut="192" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="192" nodeOut="193" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="194" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="191" nodeOut="194" portIn="t_Activate" portOut="Started" enabled="1"/>
+  <Edge nodeIn="197" nodeOut="194" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="195" nodeOut="197" portIn="Trigger" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,17 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="4" Class="AI:ActionStart" pos="-20,-480,0" flags="0"/>
+  <Node Id="5" Class="AI:ActionEnd" pos="470,-480,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="6" Class="AI:AISignal" pos="180,-480,0" flags="0">
+   <Inputs entityId="0" signal="FOLLOW_START" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="6" sValue="" id="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="4" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="4" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="6" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="6" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

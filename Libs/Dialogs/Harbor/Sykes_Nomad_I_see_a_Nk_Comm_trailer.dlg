@@ -1,0 +1,3 @@
+<DialogScript Name="Harbor.Sykes_Nomad_I_see_a_Nk_Comm_trailer" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="harbor/psycho_harbor_ab1_c84dc786" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

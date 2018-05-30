@@ -1,0 +1,29 @@
+<PrefabsLibrary Name="ladder_systems" >
+ <Prefab Id="{A23C7403-DDC9-45F9-8196-6A49A7CA9E2A}" Name="silo.silo_big_a" Origin="5.0035611e-026,0,9.2808221e-039" >
+  <Objects>
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="0" Id="{95E31D00-70EB-4516-943D-11FC6D69D750}" Layer="houses" LightmapQuality="1" LodRatio="100" Name="silo_big4" NotTriangulate="0" OutdoorOnly="0" Pos="12.5,12.5,10" Prefab="Objects\Library\Props\silos\silo_big.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="556" Type="Brush" ViewDistRatio="100" />
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="Ladder" HiddenInGame="0" Id="{18E07687-DA33-47F2-8ABA-7957DE749344}" Layer="houses" LodRatio="100" Name="Ladder4" Pos="12.356995,2.6382599,11.122498" RecvShadow="1" Type="Entity" ViewDistRatio="100" >
+    <Properties fileModel="objects/library/props/ladders/ladder_a.cgf" fUseDistance="2" sDirectionAxis="x" soclasses_SmartObjectClass="Ladder" />
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Id="{70A90D53-4137-4168-B98E-F98D85169663}" Name="silo.silo_small" Origin="2.618688e-035,2.1286188e-035,6.4652318e-038" >
+  <Objects>
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="0" Id="{C40586DE-A766-4F66-AEA3-999E16B566D3}" Layer="houses" LightmapQuality="1" LodRatio="100" Name="silo_small1" NotTriangulate="0" OutdoorOnly="0" Pos="1.9098511,0.83477783,7.1507645" Prefab="Objects\Library\Props\silos\silo_small.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="556" Type="Brush" ViewDistRatio="100" />
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="Ladder" HiddenInGame="0" Id="{EBE8615D-114B-435A-BE5A-5653AB0357DB}" Layer="houses" LodRatio="100" Name="Ladder5" Pos="3.416214,1.2427979,0.0057678223" RecvShadow="1" Type="Entity" ViewDistRatio="100" >
+    <Properties fileModel="objects/library/props/ladders/ladder_b.cgf" fUseDistance="2" sDirectionAxis="y" soclasses_SmartObjectClass="Ladder" />
+   </Object>
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="Ladder" HiddenInGame="0" Id="{F7B7FC37-91C2-4A89-9771-88CC64E75DE3}" Layer="houses" LodRatio="100" Name="Ladder6" Pos="4.5962067,3.0427933,15.035767" RecvShadow="1" Type="Entity" ViewDistRatio="100" >
+    <Properties fileModel="objects/library/props/ladders/ladder_b.cgf" fUseDistance="2" sDirectionAxis="y" soclasses_SmartObjectClass="Ladder" />
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Id="{E1F042D5-2F5A-43D9-9B0F-9B11C07A06BD}" Name="silo.silo_breakable" Origin="2.618688e-035,2.030302e-035,6.4652318e-038" >
+  <Objects>
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="0" Id="{29E5D35B-EEE4-49B2-9B3A-6172777BCFA7}" Layer="houses" LightmapQuality="1" LodRatio="100" Name="silo_small_breakabel1" NotTriangulate="0" OutdoorOnly="0" Pos="1.9098511,0.83477783,7.1657715" Prefab="Objects\Library\Props\silos\silo_small_breakabel.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="556" Type="Brush" ViewDistRatio="100" />
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="Ladder" HiddenInGame="0" Id="{01990DF7-3234-4FD6-B9A8-940960B8AB37}" Layer="houses" LodRatio="100" Name="Ladder7" Pos="3.4237213,1.1934128,0.0057678223" RecvShadow="1" Type="Entity" ViewDistRatio="100" >
+    <Properties fileModel="objects/library/props/ladders/ladder_b.cgf" fUseDistance="2" sDirectionAxis="y" soclasses_SmartObjectClass="Ladder" />
+   </Object>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

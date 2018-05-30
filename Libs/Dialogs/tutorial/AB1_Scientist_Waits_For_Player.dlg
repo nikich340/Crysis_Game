@@ -1,0 +1,3 @@
+<DialogScript Name="Tutorial.AB1_Scientist_Waits_For_Player" Description="">
+ <Line actor="0" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="1" flagAGEP="0" sound="tutorial/scientist_1_tutorial_ab1_847ba7bd" anim="callReinforcement" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

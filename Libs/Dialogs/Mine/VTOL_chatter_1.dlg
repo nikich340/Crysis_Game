@@ -1,0 +1,6 @@
+<DialogScript Name="Mine.VTOL_chatter_1" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/vtol_pilot_mine_ab1_NP0004" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="One-Eight, this is Vulture Three-Six, beginning approach, LZ&apos;s clear as daylight. Over."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/pilot_mine_ab1_NP0005" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Copy, three-six, drop your chalks and set up a defensive position. Resuming perimeter orbit. Over."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/vtol_pilot_mine_ab1_NP0006" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Roger, One-Eight. Stand by."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/pilot_mine_ab1_NP0007" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Command, this is One-Eight. I&apos;m seeing heavy KPA activity around the mine entrance. Suggest we secure the high ground and await reinforcements. Over."/>
+</DialogScript>

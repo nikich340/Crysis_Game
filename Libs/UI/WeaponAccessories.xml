@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <AlienMount>
+    <attachment_front X="-95" Y="-300" />
+    <attachment_side X="0" Y="0" />
+  </AlienMount>
+  <DSG1>
+    <attachment_side X="0" Y="0" />
+    <attachment_top X="-80" Y="10" />
+  </DSG1>
+  <FY71>
+    <attachment_bottom X="0" Y="10" />
+    <attachment_side X="0" Y="-5" />
+    <attachment_top X="40" Y="-20" />
+    <magazine X="-120" Y="60" />
+    <silencer_attach X="-20" Y="-30" />
+  </FY71>
+  <GaussRifle>
+    <attachment_side X="0" Y="0" />
+    <attachment_top X="40" Y="-10" />
+  </GaussRifle>
+  <Hurricane>
+    <attachment_side X="0" Y="0" />
+  </Hurricane>
+  <SCAR>
+    <attachment_bottom X="-5" Y="-10" />
+    <attachment_side X="20" Y="25" />
+    <attachment_top X="30" Y="-20" />
+    <magazine X="-60" Y="20" />
+    <silencer_attach X="-30" Y="-40" />
+  </SCAR>
+  <Shotgun>
+    <attachment_bottom_02 X="0" Y="0" />
+    <attachment_top X="-60" Y="0" />
+  </Shotgun>
+  <SMG>
+    <attachment_side X="0" Y="0" />
+    <attachment_top X="-80" Y="-10" />
+    <silencer_attach X="-30" Y="-55" />
+  </SMG>
+  <SOCOM>
+    <attachment_bottom_LAM X="-25" Y="30" />
+    <silencer_attach_socom X="-80" Y="-60" />
+  </SOCOM>
+</Root>

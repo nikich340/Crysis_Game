@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Specialeffects" GenMask="1792" SurfaceType="" Diffuse="0.13333334,0.27058825,0.38431376" Specular="0.25490198,0.25490198,0.25490198" Emissive="0,0,0" Shininess="1" Opacity="1" vertModifType="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/library/alien/ship_exterior/sphere_around_ship/sphere_hull1.dds">
+   <TexMod TileU="16" TileV="8" TexMod_RotateType="1"/>
+  </Texture>
+ </Textures>
+ <VertexDeform Type="1" DividerX="0.0099999998" DividerY="0.0099999998" NoiseScale="1,1,1">
+  <WaveX Type="1" Amp="20" Level="1" Phase="1" Freq="1"/>
+ </VertexDeform>
+ <PublicParams PlasmaScale="0.1" PlasmaSpeed="0.40000001" ElectricitySparksScale="0.1" ElectricitySparksNoise="1" ElectricitySparksSpeed="0.2" ElectricityVariation="2" ElectricityLifetime="0.5" OverallPlasmaStrenght="0.49000001" PlasmaThickness="16" MainPlasmaStrenght="1.22" BoltPlasmaStrenght="2.0999999" MainPlasmaColor="0.41960788,0.53333336,0.58039218" ElectricitySparksStrenght="1" BoltPlasmaColor="0.32549021,0.44705886,0.67450982" ElectricitySparksColor="0.23529413,0.3019608,0.76862752"/>
+ <MaterialLayers />
+</Material>

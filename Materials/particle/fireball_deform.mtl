@@ -1,0 +1,12 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="16" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/fireball1_tiled_flames3.tif">
+   <TexMod TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/fire_blur1_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="1" PerturbationScale="1" PerturbationStrenght="0.12"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,11 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="419434500" SurfaceType="mat_leaves_terrain" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/plains_dry_reeds.tif" Filter="5">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/plains_dry_reeds_ddn.tif">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+ </Textures>
+ <PublicParams DetailTextureStrength="0.935" ObmDisplacement="0.0080000004" PomDisplacement="0.011" SelfShadowStrength="3"/>
+</Material>

@@ -1,0 +1,18 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="x" MtlFlags="128" Shader="Terrain.Layer" GenMask="268435460" SurfaceType="mat_pebble" Diffuse="0.41960788,0.40000004,0.37647063" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/terrain/railroad_gravel.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/library/architecture/railroads/gravel_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams Displacement="0.025" DetailTextureStrength="1"/>
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

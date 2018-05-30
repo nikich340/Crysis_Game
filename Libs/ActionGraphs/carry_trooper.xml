@@ -1,0 +1,89 @@
+<Graph Description="" Group="" enabled="1">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="220,130,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="930,-190,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="160,210,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="AI:AIGoto" pos="370,130,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="1"/>
+  </Node>
+  <Node Id="5" Class="AI:AIDropObject" pos="770,-210,0" flags="0">
+   <Inputs entityId="0" impulse="0,0,0"/>
+  </Node>
+  <Node Id="6" Class="AI:ActionAbort" pos="180,-340,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="7" Class="AI:ActionEnd" pos="950,150,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="8" Class="AI:AIDropObject" pos="570,130,0" flags="0">
+   <Inputs entityId="0" impulse="0,0,0"/>
+  </Node>
+  <Node Id="10" Class="entity:Trooper" pos="590,-390,0" flags="0">
+   <Inputs entityId="0" Disable="0" DisableUsable="0" Enable="0" EnableUsable="0" Kill="0" Spawn="0" StartAmbush="0" Used="0"/>
+  </Node>
+  <Node Id="12" Class="Game:ActorGrabObject" pos="330,-40,0" flags="0">
+   <Inputs entityId="0" objectId="0" throw="0"/>
+  </Node>
+  <Node Id="13" Class="AI:AIModifyStates" pos="780,60,0" flags="0">
+   <Inputs entityId="0" sostates_states="ready_for_scout_transport"/>
+  </Node>
+  <Node Id="14" Class="AI:ActionStart" pos="220,-40,0" flags="0"/>
+  <Node Id="15" Class="AI:AIUseObject" pos="770,150,0" flags="0">
+   <Inputs entityId="0" objectId="0"/>
+  </Node>
+  <Node Id="17" Class="AI:ActionStart" pos="620,270,0" flags="0"/>
+  <Node Id="18" Class="Entity:EntityPos" pos="-170,-280,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="19" Class="Game:LocalPlayer" pos="-330,-280,0" flags="0"/>
+  <Node Id="22" Class="AI:AILookAt" pos="360,-300,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" Direction="0,0,0" Duration="0.3"/>
+  </Node>
+  <Node Id="23" Class="Time:Delay" pos="600,-140,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="24" Class="Vec3:SubVec3" pos="30,-220,0" flags="0">
+   <Inputs A="0,0,0" B="0,0,0"/>
+  </Node>
+  <Node Id="25" Class="Entity:EntityPos" pos="580,-20,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="27" Class="Vec3:NormalizeVec3" pos="200,-210,0" flags="0">
+   <Inputs vector="0,0,0"/>
+  </Node>
+  <Node Id="28" Class="Vec3:ScaleVec3" pos="420,-170,0" flags="1">
+   <Inputs vector="0,0,0" scale="5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="4" portIn="entityId" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="5" portIn="end" portOut="done" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="6" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="8" portIn="sink" portOut="done" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="8" portIn="entityId" portOut="done" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="12" portIn="entityId" portOut="grabbedObjId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="12" portIn="entityId" portOut="grabbedObjId" enabled="1"/>
+  <Edge nodeIn="25" nodeOut="12" portIn="entityId" portOut="grabbedObjId" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="14" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="15" portIn="end" portOut="done" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="17" portIn="objectId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="18" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="18" portIn="A" portOut="pos" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="19" portIn="entityId" portOut="entityId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="22" portIn="entityId" portOut="done" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="22" portIn="Kill" portOut="done" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="22" portIn="in" portOut="done" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="23" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="27" nodeOut="24" portIn="vector" portOut="out" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="25" portIn="B" portOut="pos" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="27" portIn="vector" portOut="out" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="28" portIn="impulse" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,9 @@
+<Material Diffuse="0.19215688,0.25098041,0.28235295" Emissive="0,0,0" GenMask="0" MtlFlags="0" Opacity="1" Shader="Common.Cloud" Shininess="20" Specular="0.34117648,0.39607847,0.45882356" SurfaceType="" >
+ <Textures>
+  <Texture File="textures/clouds/dense.dds" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams CloudAngularAtten="4.4699998" CloudBacklightingScale="1" CloudOutlineSlope="0.47" CloudOutlineThreshold="0.208" Opacity="1" />
+ <MaterialLayers />
+</Material>

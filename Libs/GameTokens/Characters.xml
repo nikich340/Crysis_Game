@@ -1,0 +1,62 @@
+<GameTokensLibrary Name="Characters" >
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Barnes.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Harper.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Sykes.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Chang.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Hawker.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Chia.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Cortez.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Morrison.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Davis.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="Hau.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="KuiFeng.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value is false if the character has been killed. Otherwise it is true." Name="ZhiShuLiong.IsAlive" Type="Bool" Value="true" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Barnes.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Barnes.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Barnes.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Barnes.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Barnes.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Hawker.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Hawker.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Hawker.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Hawker.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Hawker.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Chang.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Chang.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Chang.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Chang.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Chang.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Sykes.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Sykes.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Sykes.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Sykes.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Sykes.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Morrison.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Morrison.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Morrison.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Morrison.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Morrison.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Harper.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Harper.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Harper.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Harper.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Harper.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Cortez.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Cortez.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Cortez.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Cortez.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Cortez.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much accuracy is important to the character. Modifier reaches from -2 to +2." Name="Davis.Modifier_Accuracy" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much speed is important to the character. Modifier reaches from -2 to +2." Name="Davis.Modifier_Speed" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much conscientiousness is important to the character. Modifier reaches from -2 to +2." Name="Davis.Modifier_Concientiousness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much recklessness is important to the character. Modifier reaches from -2 to +2." Name="Davis.Modifier_Recklessness" Type="Int" Value="0" />
+ <GameToken Description="This value reflects how much cleverness is important to the character. Modifier reaches from -2 to +2." Name="Davis.Modifier_Cleverness" Type="Int" Value="0" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Barnes.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Chang.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Cortez.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Davis.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Harper.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Hawker.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Morrison.RespectForPlayer" Type="Int" Value="50" />
+ <GameToken Description="This values reflects how much the character respects the player." Name="Sykes.RespectForPlayer" Type="Int" Value="50" />
+</GameTokensLibrary>

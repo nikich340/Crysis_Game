@@ -1,0 +1,12 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="" Diffuse="0.43921572,0.42352945,0.27843139" Specular="0.17254902,0.17254902,0.17254902" Emissive="0,0,0" Shininess="16.4" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/fruit.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/fruit_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

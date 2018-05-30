@@ -1,0 +1,109 @@
+<Graph Description="" Group="test" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="2" Class="entity:ParticleEffect" pos="-240,-850,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+  </Node>
+  <Node Id="4" Class="entity:ProximityTrigger" pos="-750,-600,0" flags="0" EntityGUID="{EB03017B-174F-4A52-9189-C64958DAA87B}" EntityGUID_64="4A52174FEB03017B">
+   <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+  </Node>
+  <Node Id="5" Class="Image:ColorCorrection" pos="-70,-330,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="-0.5" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="24" Class="Time:Delay" pos="-400,-540,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="26" Class="Input:Key" pos="-740,-460,0" flags="0">
+   <Inputs Key="f"/>
+  </Node>
+  <Node Id="27" Class="Camera:ViewShake" pos="-80,-740,0" flags="0">
+   <Inputs Restrict="0" View="0" Angle="0.2,1,0.1" Shift="0.1,0.1,0.1" Duration="5" Frequency="20" Randomness="1"/>
+  </Node>
+  <Node Id="28" Class="Time:Delay" pos="-240,-560,0" flags="0">
+   <Inputs delay="0.5"/>
+  </Node>
+  <Node Id="32" Class="MaterialFX:HUDEndFX" pos="-580,-200,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="33" Class="MaterialFX:HUDStartFX" pos="-590,-540,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="34" Class="Time:Delay" pos="-570,-290,0" flags="0">
+   <Inputs delay="13.5"/>
+  </Node>
+  <Node Id="35" Class="Image:ChromaShift" pos="-60,-60,0" flags="0">
+   <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+  </Node>
+  <Node Id="36" Class="Image:VolumetricScattering" pos="70,120,0" flags="0">
+   <Inputs Enabled="1" VolumetricScattering_Amount="0" VolumetricScattering_Tilling="1" VolumetricScattering_Speed="1" clr_VolumetricScattering_Color="0.988235,0.694118,0.372549" VolumetricScattering_Type="0"/>
+  </Node>
+  <Node Id="40" Class="Image:FilterBlur" pos="230,-570,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="-0"/>
+  </Node>
+  <Node Id="42" Class="Interpol:Float" pos="-80,-590,0" flags="0">
+   <Inputs StartValue="0" EndValue="0.8" Time="0.2"/>
+  </Node>
+  <Node Id="43" Class="Interpol:Float" pos="-80,-490,0" flags="0">
+   <Inputs StartValue="0.8" EndValue="0" Time="1.5"/>
+  </Node>
+  <Node Id="44" Class="Logic:Any" pos="120,-570,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="45" Class="Time:Delay" pos="-210,-470,0" flags="0">
+   <Inputs delay="3"/>
+  </Node>
+  <Node Id="47" Class="Interpol:Float" pos="-250,-390,0" flags="0">
+   <Inputs StartValue="-0.9" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="48" Class="Interpol:Float" pos="-250,-80,0" flags="0">
+   <Inputs StartValue="0.16" EndValue="0" Time="0.5"/>
+  </Node>
+  <Node Id="49" Class="Interpol:Float" pos="-250,-210,0" flags="0">
+   <Inputs StartValue="0.6" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="50" Class="Interpol:Float" pos="-250,-300,0" flags="0">
+   <Inputs StartValue="0.3" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="55" Class="Time:Delay" pos="-400,80,0" flags="0">
+   <Inputs delay="5"/>
+  </Node>
+  <Node Id="56" Class="Interpol:Float" pos="-250,80,0" flags="0">
+   <Inputs StartValue="0" EndValue="3" Time="1"/>
+  </Node>
+  <Node Id="57" Class="Interpol:Float" pos="-250,170,0" flags="0">
+   <Inputs StartValue="3" EndValue="0" Time="7"/>
+  </Node>
+  <Node Id="58" Class="Logic:Any" pos="-60,120,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="2" nodeOut="24" portIn="Enable" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="24" portIn="Spawn" portOut="out" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="24" portIn="in" portOut="out" enabled="1"/>
+  <Edge nodeIn="47" nodeOut="24" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="49" nodeOut="24" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="50" nodeOut="24" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="33" nodeOut="26" portIn="Start" portOut="Pressed" enabled="1"/>
+  <Edge nodeIn="27" nodeOut="28" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="42" nodeOut="28" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="24" nodeOut="33" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="34" nodeOut="33" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="48" nodeOut="33" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="55" nodeOut="33" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="32" nodeOut="34" portIn="Trigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="44" nodeOut="42" portIn="in1" portOut="Value" enabled="1"/>
+  <Edge nodeIn="45" nodeOut="42" portIn="in" portOut="Done" enabled="1"/>
+  <Edge nodeIn="44" nodeOut="43" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="40" nodeOut="44" portIn="FilterBlurring_Amount" portOut="out" enabled="1"/>
+  <Edge nodeIn="43" nodeOut="45" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="47" portIn="Global_User_ColorK" portOut="Value" enabled="1"/>
+  <Edge nodeIn="35" nodeOut="48" portIn="FilterChromaShift_User_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="49" portIn="Global_User_ColorY" portOut="Value" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="50" portIn="Global_User_ColorM" portOut="Value" enabled="1"/>
+  <Edge nodeIn="56" nodeOut="55" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="57" nodeOut="56" portIn="Start" portOut="Done" enabled="1"/>
+  <Edge nodeIn="58" nodeOut="56" portIn="in1" portOut="Value" enabled="1"/>
+  <Edge nodeIn="58" nodeOut="57" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="36" nodeOut="58" portIn="VolumetricScattering_Amount" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="mat_asphalt" Diffuse="0.45490199,0.47058827,0.48627454" Specular="0,0,0" Emissive="0,0,0" Opacity="0.95999998">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/asphalt_patch_cover/6.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

@@ -1,0 +1,22 @@
+<Graph Description="dfsefgel" Group="IdleActions" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-100,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="400,0,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="10,60,0" flags="0" InHideMask="15" OutHideMask="63" GraphEntity="1">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="6" Class="AI:AIAnimEx" pos="160,-20,0" flags="0">
+   <Inputs entityId="0" OneShot="1" animstateEx_Animation="relief" Speed="0" Stance="-1" Position="0,0,0" StartRadius="0.1,0.1,0.1" Direction="0,0,0" DirTolerance="3" TargetRadius="0.05"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="Sync" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="3" portIn="Direction" portOut="fwdDir" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="3" portIn="Position" portOut="pos" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="end" portOut="done" enabled="1"/>
+ </Edges>
+</Graph>

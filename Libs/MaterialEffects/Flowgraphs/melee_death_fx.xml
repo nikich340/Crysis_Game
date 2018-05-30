@@ -1,0 +1,47 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="187" Class="MaterialFX:HUDStartFX" pos="260,390,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="219" Class="Image:ColorCorrection" pos="1010,440,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="222" Class="Image:FilterRadialBlur" pos="960,260,0" flags="0">
+   <Inputs Enabled="1" FilterRadialBlurring_Amount="0" FilterRadialBlurring_ScreenPosX="0.5" FilterRadialBlurring_ScreenPosY="0.5" FilterRadialBlurring_Radius="1"/>
+  </Node>
+  <Node Id="235" Class="Interpol:Float" pos="700,220,0" flags="0">
+   <Inputs StartValue="0" EndValue="0.7" Time="0.2"/>
+  </Node>
+  <Node Id="236" Class="Interpol:Float" pos="680,530,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="1"/>
+  </Node>
+  <Node Id="237" Class="Interpol:Float" pos="670,410,0" flags="0">
+   <Inputs StartValue="0" EndValue="1" Time="4"/>
+  </Node>
+  <Node Id="238" Class="Time:Delay" pos="530,420,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="267" Class="MaterialFX:HUDEndFX" pos="950,660,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="285" Class="Math:SetNumber" pos="720,360,0" flags="0">
+   <Inputs in="0"/>
+  </Node>
+  <Node Id="286" Class="Logic:Any" pos="880,380,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="235" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="236" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="238" nodeOut="187" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="285" nodeOut="187" portIn="set" portOut="Started" enabled="1"/>
+  <Edge nodeIn="222" nodeOut="235" portIn="FilterRadialBlurring_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="219" nodeOut="236" portIn="Global_User_Saturation" portOut="Value" enabled="1"/>
+  <Edge nodeIn="267" nodeOut="237" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="286" nodeOut="237" portIn="in2" portOut="Value" enabled="1"/>
+  <Edge nodeIn="237" nodeOut="238" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="286" nodeOut="285" portIn="in1" portOut="out" enabled="1"/>
+  <Edge nodeIn="219" nodeOut="286" portIn="Global_User_ColorK" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

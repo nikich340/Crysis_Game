@@ -1,0 +1,8 @@
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="3" MtlFlags="45" Opacity="1" Shader="Terrain.Layer" Shininess="2" Specular="0.50980395,0.50980395,0.50980395" SurfaceType="mat_concrete" >
+ <Textures>
+  <Texture File="textures/terrain/detail/road_concrete.tif" Filter="5" Map="Diffuse" >
+   <TexMod TileU="0.40000001" TileV="0.40000001" />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.039999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+</Material>

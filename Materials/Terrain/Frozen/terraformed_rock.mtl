@@ -1,0 +1,11 @@
+<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="7" MtlFlags="41" Opacity="1" Shader="Terrain.Layer" Shininess="10" Specular="0.65882355,0.65882355,0.65882355" SurfaceType="mat_rock" >
+ <Textures>
+  <Texture File="textures/terrain/detail/frozen_ground/ground_frozen_rock.tif" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/detail/frozen_ground/ground_frozen_rock_ddn.tif" Map="Normalmap" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.039999999" EnvMapAmount="0.2" FresnelBias="1" FresnelPow="2" FresnelScale="0.5" Reflect="0.1" />
+</Material>

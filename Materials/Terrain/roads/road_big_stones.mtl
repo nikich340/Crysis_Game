@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="301989888" SurfaceType="mat_pebble" Diffuse="0.63921571,0.61176473,0.56078434" Specular="0,0,0" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_big_stones.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/roads/road_big_stones_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

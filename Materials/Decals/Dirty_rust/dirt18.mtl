@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301989891" SurfaceType="" Diffuse="0.270588,0.270588,0.270588" Specular="0.0976471,0.0976471,0.0976471" Emissive="0,0,0" Shininess="5" Opacity="0.762">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/dirty_rust/dirt_052.tif" IsTileU="0" IsTileV="0">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams DebugUVScale="64"/>
+ <MaterialLayers />
+</Material>

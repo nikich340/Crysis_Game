@@ -1,0 +1,42 @@
+<Material MtlFlags="256" >
+ <SubMaterials>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="5" MtlFlags="164" Name="x" Opacity="1" Shader="Terrain.Layer" Specular="0,0,0" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_basalt.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture Amount="50" File="textures/terrain/detail/cliff_basalt_ddn.tif" Map="Bumpmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="5" MtlFlags="164" Name="y" Opacity="1" Shader="Terrain.Layer" Specular="0,0,0" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_basalt.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture Amount="50" File="textures/terrain/detail/cliff_basalt_ddn.tif" Map="Bumpmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+  <Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="5" MtlFlags="164" Name="z" Opacity="1" Shader="Terrain.Layer" Specular="0,0,0" SurfaceType="mat_rock" >
+   <Textures>
+    <Texture File="textures/terrain/detail/cliff_basalt.tif" Map="Diffuse" >
+     <TexMod />
+    </Texture>
+    <Texture Amount="50" File="textures/terrain/detail/cliff_basalt_ddn.tif" Map="Bumpmap" >
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams BumpOffset="0.029999999" DetailTextureStrength="1" FresnelBias="0" FresnelPow="5" FresnelScale="1" Reflect="0.5" />
+   <MaterialLayers />
+  </Material>
+ </SubMaterials>
+ <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

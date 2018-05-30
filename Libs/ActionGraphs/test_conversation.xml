@@ -1,0 +1,79 @@
+<Graph Description="" Group="Conversations" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="120,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="1840,-30,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="240,240,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="Entity:EntityPos" pos="240,310,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="5" Class="AI:AILookAt" pos="400,340,0" flags="0" InHideMask="63" OutHideMask="7">
+   <Inputs entityId="0" pos="0,0,0" Direction="0,0,0" Duration="0"/>
+  </Node>
+  <Node Id="6" Class="AI:AILookAt" pos="400,210,0" flags="0" InHideMask="63" OutHideMask="7">
+   <Inputs entityId="0" pos="0,0,0" Direction="0,0,0" Duration="0"/>
+  </Node>
+  <Node Id="8" Class="AI:AIAnim" pos="670,-120,0" flags="0" InHideMask="27" OutHideMask="15">
+   <Inputs entityId="0" animstateEx_name="talk" signal="2"/>
+  </Node>
+  <Node Id="9" Class="Sound:PlaySoundEvent" pos="470,-10,0" flags="0" InHideMask="118">
+   <Inputs entityId="0" Enable="1" sound_SoundEvent="languages:armada:marine9_armada_ab6_03400" Voice="0" Once="0"/>
+  </Node>
+  <Node Id="10" Class="Sound:PlaySoundEvent" pos="1600,-40,0" flags="0" InHideMask="119" OutHideMask="3">
+   <Inputs entityId="0" Enable="1" sound_SoundEvent="languages:armada:marine9_armada_ab6_03410" Voice="0" Once="0"/>
+  </Node>
+  <Node Id="11" Name="&apos;&apos;Yeah, Dunn.&apos;&apos;" Class="_comment" pos="1600,-70,0" flags="0"/>
+  <Node Id="12" Name="&apos;&apos;It was that Delta Guy...&apos;&apos;" Class="_comment" pos="470,-40,0" flags="0"/>
+  <Node Id="13" Class="Time:Delay" pos="700,10,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="14" Class="Sound:PlaySoundEvent" pos="970,-10,0" flags="0" InHideMask="119" OutHideMask="3">
+   <Inputs entityId="0" Enable="1" sound_SoundEvent="languages:armada:marine1_armada_ab6_03400" Voice="0" Once="0"/>
+  </Node>
+  <Node Id="15" Name="&apos;&apos;Lt Dunn?&apos;&apos;" Class="_comment" pos="970,-40,0" flags="0"/>
+  <Node Id="16" Class="AI:AIAnim" pos="1120,-100,0" flags="0" InHideMask="29" OutHideMask="15">
+   <Inputs entityId="0" animstateEx_name="talk" signal="2"/>
+  </Node>
+  <Node Id="17" Class="AI:ActionStart" pos="860,40,0" flags="0"/>
+  <Node Id="18" Class="AI:ActionStart" pos="1460,-100,0" flags="0"/>
+  <Node Id="19" Class="Time:Delay" pos="1260,0,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="20" Class="AI:AIAnim" pos="1750,-110,0" flags="0" InHideMask="31" OutHideMask="15">
+   <Inputs entityId="0" animstateEx_name="talk" signal="2"/>
+  </Node>
+  <Node Id="21" Class="AI:ActionStart" pos="140,350,0" flags="0"/>
+  <Node Id="22" Class="AI:ActionStart" pos="130,180,0" flags="0"/>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="8" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="PlayTrigger" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="3" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="4" portIn="pos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="9" portIn="cancel" portOut="Done" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="9" portIn="in" portOut="Done" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="10" portIn="end" portOut="Done" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="10" portIn="cancel" portOut="Done" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="13" portIn="PlayTrigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="13" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="14" portIn="cancel" portOut="Done" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="14" portIn="in" portOut="Done" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="17" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="17" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="18" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="18" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="19" portIn="PlayTrigger" portOut="out" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="19" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="21" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="21" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="21" portIn="sink" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="22" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="22" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="22" portIn="sink" portOut="UserId" enabled="1"/>
+ </Edges>
+</Graph>

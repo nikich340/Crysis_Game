@@ -1,0 +1,12 @@
+<Cloud Material="Materials/clouds/tank_morning_fluff" TextureNumCols="4" TextureNumRows="4" >
+ <Sprite Angle="1.7526016" Pos="-22.657024,21.135376,0.49229562" Radius="17.14426" texID="6" />
+ <Sprite Angle="-1.6381807" Pos="-2.8182445,12.000355,6.362711" Radius="17.564531" texID="1" />
+ <Sprite Angle="0.96016002" Pos="17.886414,6.5065975,-2.4968185" Radius="17.253853" texID="6" />
+ <Sprite Angle="1.2219062" Pos="2.8623016,1.055427,2.8723083" Radius="17.734276" texID="5" />
+ <Sprite Angle="0.96384025" Pos="-15.043294,11.459484,-1.6110951" Radius="17.03232" texID="7" />
+ <Sprite Angle="0.11461228" Pos="-16.299963,-10.028271,-2.0283575" Radius="17.714193" texID="5" />
+ <Sprite Angle="-1.2249252" Pos="-5.1891809,27.260403,-3.1770008" Radius="11.227012" texID="5" />
+ <Sprite Angle="-0.128425" Pos="4.289216,-16.987192,-0.52540612" Radius="17.874142" texID="7" />
+ <Sprite Angle="-1.1279396" Pos="6.4716821,21.648602,-1.9938332" Radius="17.164648" texID="6" />
+ <Sprite Angle="0.74998629" Pos="23.799992,-8.8858452,-2.890233" Radius="17.962889" texID="5" />
+</Cloud>

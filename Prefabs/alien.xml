@@ -1,0 +1,718 @@
+<PrefabsLibrary Name="alien">
+ <Prefab Name="sphere.inside" Id="{C81F8910-BCC0-400E-B47F-9A233367AF4C}">
+  <Objects>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{F8C1D367-900A-4090-A65E-FCAAA99707CC}" Layer="wave" LightmapQuality="1" LodRatio="100" Material="Objects/Library/Alien/Ship_Exterior/Sphere_around_Ship/zerogspherescene2" Name="floe_edge_test2" NotTriangulate="0" OutdoorOnly="0" Pos="4000,3999.9998,4000" Prefab="objects/library/alien/ship_exterior/sphere_around_ship/zero_g_sphere.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="548" Scale="40,40,40" Type="Brush" ViewDistRatio="100"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="lights.base_wall_light" Id="{D997B89D-3EAF-4A64-9764-342A15D0758D}">
+  <Objects>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="0" Id="{67B841DF-5FBB-4ABB-ADAD-ED7BCBBC227A}" Layer="Main" LightmapQuality="1" LodRatio="255" Material="objects/library/alien/generic_elements/wall_light1/wall_light1" Name="spike_481" NotTriangulate="0" OutdoorOnly="0" Pos="4.125,4.1247559,2.2069092" Prefab="objects/library/alien/generic_elements/wall_light1/wall_light1.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="548" Type="Brush" ViewDistRatio="100"/>
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="ParticleEffect" HiddenInGame="0" Id="{C9C88B0C-F86E-4B62-9693-53B6644C31F5}" Layer="Main" LodRatio="100" Name="ParticleEffect40" Pos="4.125,4.1247559,2.2069092" RecvShadow="1" Rotate="0.70710677,0.70710677,0,0" Type="Entity" ViewDistRatio="100">
+    <Properties bActive="1" fUpdateRadius="2000" ParticleEffect="Alien_Environment.light.lamp1" Scale="1" SpawnPeriod="0.1"/>
+   </Object>
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="Light" HiddenInGame="0" Id="{BE366138-80D8-4B4B-BF2F-0B4F7CBB87F1}" Layer="Main" LodRatio="100" Name="Light46" Pos="3.8168945,4.7421875,8.9629211" RecvShadow="1" Type="Entity" ViewDistRatio="100">
+    <Properties bActive="1" Radius="75">
+     <Color clrDiffuse="0.376471,0.678431,0.823529" clrSpecular="0.376471,0.678431,0.823529" fDiffuseMultiplier="2" fSpecularMultiplier="1"/>
+     <Options bAffectsThisAreaOnly="1" bCastLightmap="0" bCastShadow="1" bDot3Type="1" bFakeLight="0" bFakeRadiosity="0" bHeatSource="0" bIgnoreTerrain="0" bOcclusion="0" bUsedInRealTime="1" object_RenderGeometry=""/>
+     <Projector bProjectInAllDirs="0" fProjectorFov="60" texture_Texture=""/>
+     <Style fCoronaScale="0" nLightStyle="0"/>
+    </Properties>
+   </Object>
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="SoundSpot" HiddenInGame="0" Id="{C8F557E0-1A52-4BB5-9AD0-3053DB151E36}" Layer="Sounds" LodRatio="100" Name="LightSoundSpot93" Pos="3.7807617,4.2963867,9.0692139" RecvShadow="1" Type="SoundSpot" ViewDistRatio="100">
+    <Properties bEnabled="1" bLoop="1" bOnce="0" bPerception="0" bPlay="1" bWeatherEffected="0" fFadeValue="1" InnerRadius="15" iVolume="255" OuterRadius="35" sndSource="sounds/alien/valve.wav.wav"/>
+   </Object>
+   <Object CastShadow="1" ColorRGB="65535" EntityClass="ParticleEffect" HiddenInGame="0" Id="{A0C65FAB-E947-468B-8EE5-4C293FE3F442}" Layer="Main" LodRatio="100" Name="ParticleEffect39" Pos="3.7553711,4.3752441,8.9062958" RecvShadow="1" Type="Entity" ViewDistRatio="100">
+    <Properties bActive="1" fUpdateRadius="2000" ParticleEffect="Alien_Environment.light.lamp2" Scale="1" SpawnPeriod="0.1"/>
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Trooper_Fake.Trooper_Fake" Id="{E083C2BE-976A-4607-8101-CB4E72461CFF}">
+  <Objects>
+   <Object CastShadow="1" ColorRGB="65535" HiddenInGame="0" Id="{F3760624-E9CA-4676-B409-A751A41AC4F0}" Layer="Main" LodRatio="100" Material="Objects/Characters/Human/Asian/Rifleman/rifleman_light_a_fake" Name="Trooper_Fake.Trooper_Fake1" Pos="0.67126465,0.24060059,0.99998093" Prototype="{473D6268-6459-49B8-82BE-EE9E7039956C}" RecvShadow="1" Type="EntityArchetype" ViewDistRatio="100">
+    <Properties2 aibehavior_behaviour="Job_StandIdle" groupid="173"/>
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Name="doors.force_field" Id="{B7FE9742-9D6D-4146-8729-4794CB7C7055}">
+  <Objects>
+   <Object Type="TagPoint" Layer="AI" Id="{E3EA2DEA-5A33-4846-9B5A-8D66CCC6B376}" Name="TagPoint7" Pos="16.84,9.875,18.57" ColorRGB="16711680" EntityClass="TagPoint"/>
+   <Object Type="Brush" Layer="AI" Id="{DDC15BA7-541A-4449-8A7B-85CC2FB0D33E}" Name="colum5698" Pos="17,10,20" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/alien/props/recycling_area_gate/recycling_area_gate_b.cgf" OutdoorOnly="0" CastShadowMaps="0" RecvShadowMaps="1" CastRAMmap="1" GoodOccluder="0" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoStaticDecals="0" RAMmapQuality="1" NoIndirLighting="0" RndFlags="548"/>
+   <Object Type="Brush" Layer="AI" Id="{E8826364-5B9D-47D0-ACC9-ED9E2C008F3C}" Name="colum7983" Pos="17,10,20" Rotate="4.37114e-008,0,0,1" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/alien/props/recycling_area_gate/recycling_area_gate_b.cgf" OutdoorOnly="0" CastShadowMaps="0" RecvShadowMaps="1" CastRAMmap="1" GoodOccluder="0" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" NoStaticDecals="0" RAMmapQuality="1" NoIndirLighting="0" RndFlags="548"/>
+   <Object Type="Entity" Layer="AI" Id="{8F6C5C8D-64C7-4BD1-883B-067FBD86E3BB}" Name="ProximityTrigger24" Pos="16.9399,9.875,18.611" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="5" DimY="5" DimZ="5" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:ProximityTrigger" pos="-220,-340,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="3" Class="Image:ColorCorrection" pos="220,-270,0" flags="0">
+       <Inputs Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+      </Node>
+      <Node Id="4" Class="Interpol:Int" pos="-60,-370,0" flags="0">
+       <Inputs StartValue="0" EndValue="255" Time="1"/>
+      </Node>
+      <Node Id="5" Class="Interpol:Int" pos="150,-370,0" flags="0">
+       <Inputs StartValue="1" EndValue="0" Time="1"/>
+      </Node>
+      <Node Id="6" Class="Start" pos="-200,-110,0" flags="0"/>
+      <Node Id="7" Class="Image:FilterSharpen" pos="1060,50,0" flags="0">
+       <Inputs FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+      </Node>
+      <Node Id="8" Class="Entity:EntityPos" pos="-66,-9,0" flags="0">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="9" Class="Entity:EntityPos" pos="-70,110,0" flags="0" EntityGUID="{E3EA2DEA-5A33-4846-9B5A-8D66CCC6B376}" EntityGUID_64="48465A33E3EA2DEA">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="10" Class="Game:LocalPlayer" pos="-242,-6,0" flags="0"/>
+      <Node Id="11" Class="Vec3:SubVec3" pos="170,70,0" flags="0">
+       <Inputs A="0,0,0" B="0,0,0"/>
+      </Node>
+      <Node Id="12" Class="Vec3:NormalizeVec3" pos="290,70,0" flags="0">
+       <Inputs vector="0,0,0"/>
+      </Node>
+      <Node Id="13" Class="HUD:DisplayDebugMessage" pos="870,-30,0" flags="0">
+       <Inputs message="" posX="50" posY="50" fontSize="2"/>
+      </Node>
+      <Node Id="14" Class="Math:Clamp" pos="470,70,0" flags="0">
+       <Inputs in="0" min="0" max="30"/>
+      </Node>
+      <Node Id="15" Class="Math:Mul" pos="600,10,0" flags="0">
+       <Inputs A="0" B="2"/>
+      </Node>
+      <Node Id="16" Class="Math:Sub" pos="700,50,0" flags="0">
+       <Inputs A="10" B="0"/>
+      </Node>
+      <Node Id="17" Class="Math:Clamp" pos="870,60,0" flags="0">
+       <Inputs in="0" min="1" max="50"/>
+      </Node>
+      <Node Id="18" Class="Image:FilterBlur" pos="1020,130,0" flags="0">
+       <Inputs FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+      </Node>
+      <Node Id="19" Class="Math:Add" pos="760,130,0" flags="0">
+       <Inputs A="5" B="0"/>
+      </Node>
+      <Node Id="20" Class="Math:Div" pos="890,190,0" flags="0">
+       <Inputs A="0" B="2"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="5" nodeOut="4" portIn="StartValue" portOut="Value" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="8" portIn="A" portOut="pos" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="9" portIn="B" portOut="pos" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="10" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="11" portIn="vector" portOut="out" enabled="1"/>
+      <Edge nodeIn="14" nodeOut="12" portIn="in" portOut="lenght" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="14" portIn="B" portOut="out" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="16" portIn="B" portOut="out" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="17" portIn="FilterSharpening_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="17" portIn="message" portOut="out" enabled="1"/>
+      <Edge nodeIn="20" nodeOut="19" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="AI" Id="{33AE673C-EEB3-4697-917E-0535EB6542BD}" Name="Door_hurt" Pos="16.75,10,18" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="25" DimY="5" DimZ="25" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:ProximityTrigger" pos="-90,-110,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="3" Class="Game:DamageActor" pos="320,-90,0" flags="0">
+       <Inputs entityId="0" damage="350" Position="0,0,0"/>
+      </Node>
+      <Node Id="4" Class="Game:LocalPlayer" pos="-40,-150,0" flags="0"/>
+      <Node Id="5" Class="Entity:EntityPos" pos="150,-40,0" flags="0">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="4" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="4" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="5" portIn="Position" portOut="pos" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="AI" Id="{72EB00BC-88C3-4CFC-BF49-7935AAB49B2A}" Name="AB1_Door_trigger" Pos="16.92,10.145,20.763" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="25" DimY="17" DimZ="25" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="1" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="0" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:Door" pos="-50,-340,0" flags="0" EntityGUID="{8C5EA8E2-8300-405F-8E0A-DFCD1469599A}" EntityGUID_64="405F83008C5EA8E2">
+       <Inputs entityId="0" Close="0" Lock="0" Open="0" UnLock="0"/>
+      </Node>
+      <Node Id="4" Class="entity:ProximityTrigger" pos="-530,-230,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="6" Class="entity:ParticleEffect" pos="-70,20,0" flags="0" EntityGUID="{804A8FCF-9768-4890-B0B5-F8F374BD6756}" EntityGUID_64="48909768804A8FCF">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="8" Class="entity:ProximityTrigger" pos="0,-200,0" flags="0" EntityGUID="{33AE673C-EEB3-4697-917E-0535EB6542BD}" EntityGUID_64="4697EEB333AE673C">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="9" Class="Time:Delay" pos="-250,-150,0" flags="0">
+       <Inputs delay="12"/>
+      </Node>
+      <Node Id="11" Class="entity:SoundEventSpot" pos="-350,60,0" flags="0" EntityGUID="{A1812944-A289-484C-9512-8E155607ECE9}" EntityGUID_64="484CA289A1812944">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="13" Class="entity:SoundEventSpot" pos="-100,-540,0" flags="0" EntityGUID="{141F6D23-865E-496F-B41C-F068E92C5D74}" EntityGUID_64="496F865E141F6D23">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="15" Class="entity:SoundEventSpot" pos="-310,-540,0" flags="0" EntityGUID="{85CA5218-4EE3-4CF4-845C-D08FCB80B202}" EntityGUID_64="4CF44EE385CA5218">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="16" Class="Time:Delay" pos="-470,-30,0" flags="0">
+       <Inputs delay="8"/>
+      </Node>
+      <Node Id="18" Class="entity:Light" pos="-460,-390,0" flags="1" EntityGUID="{7854D678-9244-4146-A8AD-04D86AA5002D}" EntityGUID_64="414692447854D678">
+       <Inputs entityId="0" Active="0" Disable="0" Enable="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="2" nodeOut="4" portIn="Open" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="4" portIn="Stop" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="4" portIn="Play" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="9" portIn="Close" portOut="out" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="9" portIn="Play" portOut="out" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="16" portIn="Play" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="AI" Id="{804A8FCF-9768-4890-B0B5-F8F374BD6756}" Name="ParticleEffect127" Pos="17,10.25,19" Rotate="4.37114e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="SoundEventSpot" Layer="AI" Id="{85CA5218-4EE3-4CF4-845C-D08FCB80B202}" Name="Door_open" Pos="19,9.625,17" Rotate="4.37114e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="SoundEventSpot">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" soundName="Sounds/environment:storage_vs2:vortex_door_dissapear" bOnce="0" bPlay="0"/>
+   </Object>
+   <Object Type="SoundEventSpot" Layer="AI" Id="{A1812944-A289-484C-9512-8E155607ECE9}" Name="Door_idle" Pos="17.11,8.47501,18.943" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="SoundEventSpot">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" soundName="Sounds/environment:storage_vs2:vortex_door_idle" bOnce="0" bPlay="1"/>
+   </Object>
+   <Object Type="SoundEventSpot" Layer="AI" Id="{141F6D23-865E-496F-B41C-F068E92C5D74}" Name="Door_close" Pos="17,7.625,19" Rotate="4.37114e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="SoundEventSpot">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" soundName="Sounds/environment:storage_vs2:vortex_door_appear" bOnce="0" bPlay="0"/>
+   </Object>
+   <Object Type="Entity" Layer="AI" Id="{8C5EA8E2-8300-405F-8E0A-DFCD1469599A}" Name="Door1" Pos="17,11,18" ColorRGB="65535" Material="Materials/presets/surfacetypes/mat_invisible" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0" EntityClass="Door">
+    <Properties bLocked="0" fileModel="objects/library/alien/props/hangardoor/hangardoor_softcover.cgf" soclasses_SmartObjectClass="" fUseDistance="-1">
+     <rotation fLinearSpeed="0" bRelativeToUser="0" sRotationAxis="z" fRotationRange="0" fRotationSpeed="0"/>
+     <slide fLinearSpeed="5" sSlideAxis="z" fSlideRange="28.05" fSlideSpeed="5"/>
+     <sounds fRange="50" soundSoundOnMove="Sounds/environment:storage_vs2:large_door_open" soundSoundOnStop="" fVolume="200"/>
+    </Properties>
+   </Object>
+   <Object Prototype="{FB6E7AEB-FCFF-4C4D-8AFA-D93AC2A822C3}" Type="EntityArchetype" Layer="AI" Id="{7854D678-9244-4146-A8AD-04D86AA5002D}" Name="SpotLights.SpotLight_Storage_Tunnel_Beam_Orange2" Pos="17,9,19" Rotate="0.707107,0,0,-0.707107" ColorRGB="65535" Material="Materials/Lightbeams/lightbeam_alien" MatLayersMask="0" CastShadow="0" RecvShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" NoIndirLighting="0"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="Alien.force_field_hangar_tube" Id="{8CD9680E-A6B6-4235-839E-6C1421A9368B}">
+  <Objects>
+   <Object Type="TagPoint" Layer="Main" Id="{A26C6483-95BA-47C1-B1FE-668E1B3B006C}" Name="HUD_Effect" Pos="16,12,20" ColorRGB="1175107" EntityClass="TagPoint"/>
+   <Object Type="Brush" Layer="Main" Id="{711994C4-7273-465E-8069-C27A6F7F2744}" Name="colum9162" Pos="16,12,20" Rotate="4.37114e-008,0,0,1" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/alien/props/recycling_area_gate/recycling_area_gate_b_blue.cgf" OutdoorOnly="0" CastShadowMaps="0" CastRAMmap="1" GoodOccluder="0" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="1056"/>
+   <Object Type="Brush" Layer="Main" Id="{2183244F-45AA-4160-9B94-3FEC18FC1664}" Name="colum9161" Pos="16,12,20" ColorRGB="16777215" Flags="4" MatLayersMask="0" Prefab="objects/library/alien/props/recycling_area_gate/recycling_area_gate_b_blue.cgf" OutdoorOnly="0" CastShadowMaps="0" CastRAMmap="1" GoodOccluder="0" ReceiveRAMmap="1" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="1056"/>
+   <Object Type="Entity" Layer="Main" Id="{8AFB94BD-E536-491A-B435-C8F674D8017D}" Name="Hologram" Pos="16,2.00571,4" Rotate="3.09086e-008,0.707107,-3.09086e-008,0.707107" Scale="3,3,3" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="BasicEntity">
+    <Properties bAutoGenAIHidePts="0" object_Model="objects/library/alien/generic_elements/hologram_machine/hologram_machine_default.cga" object_ModelFrozen="" bPickable="0" soclasses_SmartObjectClass="" bUsable="0" UseMessage="press USE to grab object!">
+     <Physics bActivateOnDamage="0" bArticulated="0" Density="-1" Mass="10" bPhysicalize="1" bPushableByPlayers="1" bResting="1" bRigidBody="1" bRigidBodyActive="1">
+      <Buoyancy water_damping="0" water_density="1000" water_resistance="1000"/>
+      <Simulation bFixedDamping="0" bUseSimpleSolver="0" damping="0" max_time_step="0.02" sleep_speed="0.04"/>
+     </Physics>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{25C84237-9272-4933-BEE0-B6BAEB82A00E}" Name="Door_Trigger" Pos="15.92,12.145,20.763" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="25" DimY="17" DimZ="25" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="1" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="0" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="4" Class="entity:ProximityTrigger" pos="-750,-370,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="6" Class="entity:ParticleEffect" pos="80,-440,0" flags="0" EntityGUID="{CBE895E2-7643-4646-8AB9-2F004F6A40B4}" EntityGUID_64="46467643CBE895E2">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="8" Class="entity:ProximityTrigger" pos="80,40,0" flags="0" EntityGUID="{E5784497-103F-493B-BDF1-E878213A0DCA}" EntityGUID_64="493B103FE5784497">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="9" Class="Time:Delay" pos="-260,-340,0" flags="0">
+       <Inputs delay="12"/>
+      </Node>
+      <Node Id="11" Class="entity:SoundEventSpot" pos="70,-730,0" flags="0" EntityGUID="{512516D1-DB79-41C3-AC0F-6ABF76BEA657}" EntityGUID_64="41C3DB79512516D1">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="15" Class="entity:SoundEventSpot" pos="70,-580,0" flags="0" EntityGUID="{55613AB0-B8F6-49AA-A926-0A82C12B792E}" EntityGUID_64="49AAB8F655613AB0">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="16" Class="Time:Delay" pos="-390,-680,0" flags="0">
+       <Inputs delay="8"/>
+      </Node>
+      <Node Id="19" Class="entity:ParticleEffect" pos="80,-330,0" flags="0" EntityGUID="{92A9BBBA-3D88-40F7-90CD-345A7B4B58F6}" EntityGUID_64="40F73D8892A9BBBA">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="21" Class="entity:ParticleEffect" pos="80,-230,0" flags="0" EntityGUID="{B510598E-EB1B-4FCF-9F8D-61EF07DB2EDA}" EntityGUID_64="4FCFEB1BB510598E">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="23" Class="entity:ParticleEffect" pos="80,-130,0" flags="0" EntityGUID="{2FEB6076-0611-48D0-ADC7-271177FAC111}" EntityGUID_64="48D006112FEB6076">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="24" Class="Logic:Any" pos="-50,-570,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="26" Class="entity:ParticleEffect" pos="430,-580,0" flags="0" EntityGUID="{01C0B4D4-0E72-46BE-B4D7-6A6F329D1A45}" EntityGUID_64="46BE0E7201C0B4D4">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="28" Class="entity:ParticleEffect" pos="430,-370,0" flags="0" EntityGUID="{0C1A2B1C-3267-44A9-B9F2-3655F917CAF2}" EntityGUID_64="44A932670C1A2B1C">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="29" Class="Logic:Any" pos="290,-370,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="30" Class="Logic:Any" pos="290,-580,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="32" Class="entity:Light" pos="-540,-70,0" flags="0" EntityGUID="{B1AA5A38-B9BE-4E68-BF34-0776FDB2FE38}" EntityGUID_64="4E68B9BEB1AA5A38">
+       <Inputs entityId="0" Active="0" Disable="0" Enable="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="6" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="4" portIn="Stop" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="4" portIn="Enable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="23" nodeOut="4" portIn="Enable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="24" nodeOut="4" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="4" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="4" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="32" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="9" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="23" nodeOut="9" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="24" nodeOut="9" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="9" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="9" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="32" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="16" portIn="Play" portOut="out" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="24" portIn="Play" portOut="out" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="29" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="30" portIn="Enable" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{92A9BBBA-3D88-40F7-90CD-345A7B4B58F6}" Name="Door_closed2" Pos="16,13.502,19" Rotate="1,-0,0,-1.33118e-007" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door_closed" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{C53F0EB7-DDF9-4E98-9D5A-98949976597A}" Name="Door_Effect_Trigger" Pos="16,12,20" ColorRGB="65535" Flags="4" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="25" DimY="25" DimZ="25" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="6" Class="Start" pos="-131,600,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="7" Class="Image:FilterSharpen" pos="1810.55,261.552,0" flags="0">
+       <Inputs Enabled="1" FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+      </Node>
+      <Node Id="8" Class="Entity:EntityPos" pos="79,350,0" flags="0">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="10" Class="Game:LocalPlayer" pos="-121,350,0" flags="0"/>
+      <Node Id="11" Class="Vec3:SubVec3" pos="570.55,431.55,0" flags="0">
+       <Inputs A="0,0,0" B="0,0,0"/>
+      </Node>
+      <Node Id="12" Class="Vec3:NormalizeVec3" pos="690.55,431.55,0" flags="0">
+       <Inputs vector="0,0,0"/>
+      </Node>
+      <Node Id="14" Class="Math:Clamp" pos="870.55,431.55,0" flags="0">
+       <Inputs in="0" min="0" max="30"/>
+      </Node>
+      <Node Id="15" Class="Math:Mul" pos="1000.55,371.55,0" flags="0">
+       <Inputs A="0" B="2"/>
+      </Node>
+      <Node Id="16" Class="Math:Sub" pos="1100.55,411.55,0" flags="0">
+       <Inputs A="10" B="0"/>
+      </Node>
+      <Node Id="17" Class="Math:Clamp" pos="1420.55,161.552,0" flags="0">
+       <Inputs in="0" min="1" max="50"/>
+      </Node>
+      <Node Id="18" Class="Image:FilterBlur" pos="1970.55,541.55,0" flags="0">
+       <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+      </Node>
+      <Node Id="19" Class="Math:Add" pos="1160.55,491.55,0" flags="0">
+       <Inputs A="5" B="0"/>
+      </Node>
+      <Node Id="20" Class="Math:Div" pos="1290.55,551.55,0" flags="0">
+       <Inputs A="0" B="2"/>
+      </Node>
+      <Node Id="25" Class="Math:Clamp" pos="1460.55,491.55,0" flags="0">
+       <Inputs in="0" min="0" max="10"/>
+      </Node>
+      <Node Id="27" Class="Math:Div" pos="1600.55,511.55,0" flags="0">
+       <Inputs A="0" B="9"/>
+      </Node>
+      <Node Id="28" Name="Blurring" Class="_comment" pos="1580.55,411.55,0" flags="0"/>
+      <Node Id="29" Name="Sharpening" Class="_comment" pos="1539,110,0" flags="0"/>
+      <Node Id="31" Class="Math:Clamp" pos="1430.55,791.55,0" flags="0">
+       <Inputs in="0" min="0" max="10"/>
+      </Node>
+      <Node Id="33" Class="Math:Div" pos="1570.55,811.55,0" flags="0">
+       <Inputs A="0" B="6"/>
+      </Node>
+      <Node Id="34" Name="Chromashift" Class="_comment" pos="1550.55,711.55,0" flags="0"/>
+      <Node Id="35" Class="Image:ChromaShift" pos="1730.55,681.55,0" flags="0">
+       <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+      </Node>
+      <Node Id="36" Class="Math:Clamp" pos="1430.55,1031.55,0" flags="0">
+       <Inputs in="0" min="1" max="5"/>
+      </Node>
+      <Node Id="38" Class="Math:Div" pos="1620.55,1011.55,0" flags="0">
+       <Inputs A="0" B="1"/>
+      </Node>
+      <Node Id="39" Name="Brightening" Class="_comment" pos="1550.55,951.55,0" flags="0"/>
+      <Node Id="40" Class="Image:ChromaShift" pos="1860.55,891.55,0" flags="0">
+       <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+      </Node>
+      <Node Id="41" Class="Image:ColorCorrection" pos="1860.55,1051.55,0" flags="0">
+       <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+      </Node>
+      <Node Id="42" Class="Image:EffectFrost" pos="1680.55,1311.55,0" flags="0">
+       <Inputs Enabled="1" ScreenFrost_Amount="0" ScreenFrost_CenterAmount="1"/>
+      </Node>
+      <Node Id="43" Class="Math:Clamp" pos="1410.55,1311.55,0" flags="0">
+       <Inputs in="0" min="0" max="5"/>
+      </Node>
+      <Node Id="45" Class="Math:Div" pos="1540.55,1311.55,0" flags="0">
+       <Inputs A="0" B="5"/>
+      </Node>
+      <Node Id="46" Name="Freeze NOT REQURIED ANYMORE" Class="_comment" pos="1510.55,1241.55,0" flags="0"/>
+      <Node Id="47" Class="Entity:EntityPos" pos="369,570,0" flags="0" EntityGUID="{A26C6483-95BA-47C1-B1FE-668E1B3B006C}" EntityGUID_64="47C195BAA26C6483">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+      <Node Id="52" Class="Image:FilterSharpen" pos="1760.55,1781.55,0" flags="0">
+       <Inputs Enabled="0" FilterSharpening_Type="0" FilterSharpening_Amount="1"/>
+      </Node>
+      <Node Id="53" Class="Math:Clamp" pos="1460.55,1681.55,0" flags="0">
+       <Inputs in="0" min="0.2" max="200"/>
+      </Node>
+      <Node Id="54" Class="Image:FilterBlur" pos="1970.55,2071.55,0" flags="0">
+       <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+      </Node>
+      <Node Id="55" Class="Math:Clamp" pos="1460.55,2021.55,0" flags="0">
+       <Inputs in="0" min="0" max="10"/>
+      </Node>
+      <Node Id="56" Class="Math:Div" pos="1600.55,2041.55,0" flags="0">
+       <Inputs A="0" B="9"/>
+      </Node>
+      <Node Id="57" Name="Blurring" Class="_comment" pos="1580.55,1941.55,0" flags="0"/>
+      <Node Id="58" Name="Sharpening" Class="_comment" pos="1540.55,1641.55,0" flags="0"/>
+      <Node Id="59" Class="Math:Clamp" pos="1430.55,2321.55,0" flags="0">
+       <Inputs in="0" min="0" max="10"/>
+      </Node>
+      <Node Id="60" Class="Math:Div" pos="1570.55,2341.55,0" flags="0">
+       <Inputs A="0" B="6"/>
+      </Node>
+      <Node Id="61" Name="Chromashift" Class="_comment" pos="1550.55,2241.55,0" flags="0"/>
+      <Node Id="62" Class="Image:ChromaShift" pos="1730.55,2211.55,0" flags="0">
+       <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+      </Node>
+      <Node Id="63" Class="Math:Clamp" pos="1430.55,2561.55,0" flags="0">
+       <Inputs in="0" min="1" max="5"/>
+      </Node>
+      <Node Id="64" Class="Math:Div" pos="1620.55,2541.55,0" flags="0">
+       <Inputs A="0" B="1"/>
+      </Node>
+      <Node Id="65" Name="Brightening" Class="_comment" pos="1550.55,2481.55,0" flags="0"/>
+      <Node Id="66" Class="Image:ChromaShift" pos="1860.55,2421.55,0" flags="0">
+       <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+      </Node>
+      <Node Id="67" Class="Image:ColorCorrection" pos="1860.55,2581.55,0" flags="0">
+       <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+      </Node>
+      <Node Id="72" Name="CLOSED" Class="_comment" pos="1550.55,1561.55,0" flags="0"/>
+      <Node Id="74" Class="entity:ProximityTrigger" pos="770,2020,0" flags="1" EntityGUID="{A065509F-1B91-4FB5-8CEB-85A4CF9CF9FA}" EntityGUID_64="4FB51B91A065509F">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="75" Class="Math:SetNumber" pos="1010.55,1921.55,0" flags="0">
+       <Inputs in="1"/>
+      </Node>
+      <Node Id="76" Class="Logic:Any" pos="1230.55,1991.55,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="77" Class="Math:SetNumber" pos="1010.55,2021.55,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="78" Class="Start" pos="770.55,1921.55,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="84" Class="entity:ProximityTrigger" pos="880,-30,0" flags="0" EntityGUID="{A065509F-1B91-4FB5-8CEB-85A4CF9CF9FA}" EntityGUID_64="4FB51B91A065509F">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="85" Class="Math:SetNumber" pos="1120.55,-138.448,0" flags="0">
+       <Inputs in="0"/>
+      </Node>
+      <Node Id="86" Class="Logic:Any" pos="1340.55,-68.448,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="87" Class="Math:SetNumber" pos="1120.55,-38.448,0" flags="0">
+       <Inputs in="1"/>
+      </Node>
+      <Node Id="88" Class="Start" pos="879,-140,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="89" Class="Math:Random" pos="1350.55,2401.55,0" flags="0">
+       <Inputs min="6" max="22"/>
+      </Node>
+      <Node Id="90" Class="Time:Timer" pos="1210.55,2401.55,0" flags="0">
+       <Inputs period="0.02" min="0" max="99999" paused="0"/>
+      </Node>
+      <Node Id="94" Class="Math:Mul" pos="1620.55,1751.55,0" flags="0">
+       <Inputs A="0" B="5"/>
+      </Node>
+      <Node Id="96" Class="entity:ProximityTrigger" pos="-120,430,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="97" Class="Logic:Blocker" pos="389,370,0" flags="0">
+       <Inputs Block="0"/>
+      </Node>
+      <Node Id="98" Class="Logic:Any" pos="269,490,0" flags="0" InHideMask="63" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="99" Class="Math:ToBoolean" pos="89,480,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="100" Class="Math:SetNumber" pos="89,550,0" flags="0">
+       <Inputs in="1"/>
+      </Node>
+      <Node Id="101" Name="Assign hologram trigger here (if desired)" Class="_comment" pos="799,-70,0" flags="0"/>
+      <Node Id="102" Name="Assign hologram trigger here (if desired)" Class="_comment" pos="699,1980,0" flags="0"/>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="100" nodeOut="6" portIn="set" portOut="output" enabled="1"/>
+      <Edge nodeIn="97" nodeOut="8" portIn="In" portOut="pos" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="10" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="11" portIn="vector" portOut="out" enabled="1"/>
+      <Edge nodeIn="14" nodeOut="12" portIn="in" portOut="lenght" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="14" portIn="B" portOut="out" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="16" portIn="B" portOut="out" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="17" portIn="FilterSharpening_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="20" nodeOut="19" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="36" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="43" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="53" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="55" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="59" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="63" nodeOut="20" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="25" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="27" portIn="FilterBlurring_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="33" nodeOut="31" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="35" nodeOut="33" portIn="FilterChromaShift_User_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="38" nodeOut="36" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="38" portIn="Global_User_Brightness" portOut="out" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="45" portIn="ScreenFrost_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="47" portIn="B" portOut="pos" enabled="1"/>
+      <Edge nodeIn="94" nodeOut="53" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="56" nodeOut="55" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="60" nodeOut="59" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="60" portIn="FilterChromaShift_User_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="64" nodeOut="63" portIn="A" portOut="out" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="64" portIn="Global_User_Brightness" portOut="out" enabled="1"/>
+      <Edge nodeIn="77" nodeOut="74" portIn="set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="76" nodeOut="75" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="76" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="54" nodeOut="76" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="62" nodeOut="76" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="66" nodeOut="76" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="67" nodeOut="76" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="76" nodeOut="77" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="75" nodeOut="78" portIn="set" portOut="output" enabled="1"/>
+      <Edge nodeIn="87" nodeOut="84" portIn="set" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="86" nodeOut="85" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="86" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="86" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="35" nodeOut="86" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="40" nodeOut="86" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="86" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="42" nodeOut="86" portIn="Enabled" portOut="out" enabled="1"/>
+      <Edge nodeIn="86" nodeOut="87" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="85" nodeOut="88" portIn="set" portOut="output" enabled="1"/>
+      <Edge nodeIn="60" nodeOut="89" portIn="B" portOut="out" enabled="1"/>
+      <Edge nodeIn="89" nodeOut="90" portIn="generate" portOut="out" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="94" portIn="FilterSharpening_Amount" portOut="out" enabled="1"/>
+      <Edge nodeIn="99" nodeOut="96" portIn="false" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="99" nodeOut="96" portIn="true" portOut="Leave" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="97" portIn="A" portOut="Out" enabled="1"/>
+      <Edge nodeIn="97" nodeOut="98" portIn="Block" portOut="out" enabled="1"/>
+      <Edge nodeIn="98" nodeOut="99" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="98" nodeOut="100" portIn="in2" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{0C1A2B1C-3267-44A9-B9F2-3655F917CAF2}" Name="Door_transition2" Pos="16,13.495,19" Rotate="1,-0,0,-1.33118e-007" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="0" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door_transition" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{2FEB6076-0611-48D0-ADC7-271177FAC111}" Name="Door_open2" Pos="16,13.502,19" Rotate="1,-0,0,-1.33118e-007" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="0" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door_open" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="SoundEventSpot" Layer="Main" Id="{512516D1-DB79-41C3-AC0F-6ABF76BEA657}" Name="Door_idle" Pos="16,12,20" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SoundEventSpot">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" soundName="Sounds/environment:storage_vs2:vortex_door_idle" bOnce="0" bPlay="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{B510598E-EB1B-4FCF-9F8D-61EF07DB2EDA}" Name="Door_open" Pos="16,11,19" Rotate="8.9407e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="0" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door_open" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{CBE895E2-7643-4646-8AB9-2F004F6A40B4}" Name="Door_closed" Pos="16,11,19" Rotate="8.9407e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="1" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door_closed" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{01C0B4D4-0E72-46BE-B4D7-6A6F329D1A45}" Name="Door_transition" Pos="16,11.008,19" Rotate="8.9407e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ParticleEffect">
+    <Properties bActive="0" AttachForm="Surface" AttachType="" bCountPerUnit="0" CountScale="0.5" ParticleEffect="Alien_Environment.ForceField.door_transition" bPrime="1" PulsePeriod="0" Scale="1.2" soclasses_SmartObjectClass=""/>
+   </Object>
+   <Object Type="SoundEventSpot" Layer="Main" Id="{55613AB0-B8F6-49AA-A926-0A82C12B792E}" Name="Door_close" Pos="16,12,20" Rotate="4.37114e-008,0,0,1" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="SoundEventSpot">
+    <Properties bEnabled="1" bIgnoreCulling="0" bIgnoreObstruction="0" soundName="Sounds/environment:storage_vs2:vortex_door_appear" bOnce="0" bPlay="0"/>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{E5784497-103F-493B-BDF1-E878213A0DCA}" Name="Door_hurt_Trigger" Pos="15.75,12,18" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="25" DimY="5" DimZ="25" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:ProximityTrigger" pos="-90,-110,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="3" Class="Game:DamageActor" pos="320,-90,0" flags="0">
+       <Inputs entityId="0" damage="350" Position="0,0,0"/>
+      </Node>
+      <Node Id="4" Class="Game:LocalPlayer" pos="-40,-150,0" flags="0"/>
+      <Node Id="5" Class="Entity:EntityPos" pos="150,-40,0" flags="0">
+       <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="3" nodeOut="2" portIn="Trigger" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="4" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="4" portIn="entityId" portOut="entityId" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="5" portIn="Position" portOut="pos" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{A065509F-1B91-4FB5-8CEB-85A4CF9CF9FA}" Name="AB2_Door_Hologram" Pos="15.8,-2.311,3.58899" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="1" DimX="8" DimY="8" DimZ="8" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="AB2_Hangar_Tube" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="4" Class="entity:ProximityTrigger" pos="-190,30,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="6" Class="entity:ParticleEffect" pos="800,-420,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="8" Class="entity:ProximityTrigger" pos="780,620,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="9" Class="Time:Delay" pos="110,50,0" flags="0">
+       <Inputs delay="12"/>
+      </Node>
+      <Node Id="11" Class="entity:SoundEventSpot" pos="270,-660,0" flags="0">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="13" Class="entity:SoundEventSpot" pos="670,-660,0" flags="0">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="15" Class="entity:SoundEventSpot" pos="480,-660,0" flags="0">
+       <Inputs entityId="0" Enable="0" Once="0" Play="0" SoundName="" Stop="0"/>
+      </Node>
+      <Node Id="16" Class="Time:Delay" pos="-10,-640,0" flags="0">
+       <Inputs delay="8"/>
+      </Node>
+      <Node Id="18" Class="entity:Light" pos="320,970,0" flags="0">
+       <Inputs entityId="0" Active="0" Disable="0" Enable="0"/>
+      </Node>
+      <Node Id="19" Class="entity:ParticleEffect" pos="800,-300,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="21" Class="entity:ParticleEffect" pos="800,180,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="23" Class="entity:ParticleEffect" pos="810,310,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="48" Class="entity:ParticleEffect" pos="800,-140,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="50" Class="entity:ParticleEffect" pos="800,10,0" flags="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Restart="0" Spawn="0"/>
+      </Node>
+      <Node Id="51" Class="Time:Delay" pos="450,290,0" flags="0">
+       <Inputs delay="2"/>
+      </Node>
+      <Node Id="52" Class="Logic:Any" pos="650,-140,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="53" Class="Logic:Any" pos="660,10,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="54" Class="Time:Delay" pos="440,50,0" flags="0">
+       <Inputs delay="2"/>
+      </Node>
+      <Node Id="55" Class="Animations:PlayAnimation" pos="-180,360,0" flags="1" EntityGUID="{8AFB94BD-E536-491A-B435-C8F674D8017D}" EntityGUID_64="491AE5368AFB94BD">
+       <Inputs entityId="0" anim_Animation="" BlendInTime="0" Loop="0" PauseAnimGraph="0" ControlMovement="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="6" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="4" portIn="Stop" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="4" portIn="Play" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="4" portIn="Disable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="4" portIn="Enable" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="51" nodeOut="4" portIn="in" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="4" portIn="in1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="13" nodeOut="9" portIn="Play" portOut="out" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="9" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="21" nodeOut="9" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="23" nodeOut="9" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="52" nodeOut="9" portIn="in2" portOut="out" enabled="1"/>
+      <Edge nodeIn="54" nodeOut="9" portIn="in" portOut="out" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="16" portIn="Play" portOut="out" enabled="1"/>
+      <Edge nodeIn="23" nodeOut="51" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="53" nodeOut="51" portIn="in1" portOut="out" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="52" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="52" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="48" nodeOut="53" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="50" nodeOut="53" portIn="Disable" portOut="out" enabled="1"/>
+      <Edge nodeIn="6" nodeOut="54" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="54" portIn="Enable" portOut="out" enabled="1"/>
+      <Edge nodeIn="53" nodeOut="54" portIn="in2" portOut="out" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{8985D2E5-5B11-4165-9412-818EB9EB403E}" Name="Approach_Hologram" Pos="16,-0.397675,4.60236" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="ProximityTrigger">
+    <Properties bActivateWithUseButton="0" DimX="15" DimY="15" DimZ="15" bEnabled="1" EnterDelay="0" ExitDelay="0" bInVehicleOnly="0" bKillOnTrigger="0" bOnlyAI="0" bOnlyMyPlayer="0" bOnlyOneEntity="0" bOnlyPlayer="1" OnlySelectedEntity="None" bOnlySpecialAI="0" PlaySequence="" ReferenceName="" ScriptCommand="" TextInstruction="" bTriggerOnce="0"/>
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+     <Nodes>
+      <Node Id="2" Class="entity:ProximityTrigger" pos="-195,-233,0" flags="0" GraphEntity="0">
+       <Inputs entityId="0" Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="3" Class="Animations:PlayAnimation" pos="10,-250,0" flags="1" EntityGUID="{8AFB94BD-E536-491A-B435-C8F674D8017D}" EntityGUID_64="491AE5368AFB94BD">
+       <Inputs entityId="0" anim_Animation="machine_default_01" BlendInTime="0" Loop="0" PauseAnimGraph="0" ControlMovement="0"/>
+      </Node>
+      <Node Id="4" Class="Animations:PlayAnimation" pos="20,-110,0" flags="0" EntityGUID="{8AFB94BD-E536-491A-B435-C8F674D8017D}" EntityGUID_64="491AE5368AFB94BD">
+       <Inputs entityId="0" anim_Animation="machine_default_03" BlendInTime="0" Loop="0" PauseAnimGraph="0" ControlMovement="0"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="3" nodeOut="2" portIn="Start" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="2" portIn="Start" portOut="Leave" enabled="1"/>
+     </Edges>
+    </FlowGraph>
+   </Object>
+   <Object Prototype="{FB6E7AEB-FCFF-4C4D-8AFA-D93AC2A822C3}" Type="EntityArchetype" Layer="Main" Id="{B1AA5A38-B9BE-4E68-BF34-0776FDB2FE38}" Name="SpotLights.SpotLight_Storage_Tunnel_Beam_Orange3" Pos="16,11,19" Rotate="0.707107,0,0,-0.707107" ColorRGB="65535" Material="Materials/Lightbeams/lightbeam_alien" MatLayersMask="0" OutdoorOnly="0" CastShadow="0" GoodOccluder="0" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

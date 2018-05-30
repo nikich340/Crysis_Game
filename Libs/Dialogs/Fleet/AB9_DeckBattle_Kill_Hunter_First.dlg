@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB9_DeckBattle_Kill_Hunter_First" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_F00F4FC5" anim="" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc="How did I know you were gonna say that?"/>
+</DialogScript>

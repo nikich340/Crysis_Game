@@ -1,0 +1,4 @@
+<DialogScript Name="Mine.AB1_Nomad_InMine" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/nomad_mine_ab1_PU010" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Strickland, I&apos;m inside the mining complex."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_PU011" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Good. Now find those hostages. That place could come down any minute."/>
+</DialogScript>

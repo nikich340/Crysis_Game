@@ -1,0 +1,12 @@
+<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_sand_dry" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/ground_small_peebles_02.dds" Filter="4">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/ground_small_peebles_02_ddn.tif">
+   <TexMod TileU="0.2" TileV="0.2"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0049999999" PomDisplacement="0.0020000001" DetailTextureStrength="1"/>
+ <MaterialLayers />
+</Material>

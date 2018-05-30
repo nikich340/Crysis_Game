@@ -1,0 +1,9 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="306184192" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0.21960799,0.21960799,0.21960799" Emissive="0,0,0" Shininess="20" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_concrete_with_pepples_frozen.dds" Filter="5">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

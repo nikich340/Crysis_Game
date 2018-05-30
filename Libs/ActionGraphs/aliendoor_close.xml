@@ -1,0 +1,17 @@
+<Graph Description="This action generates a smart object Event which activates smart object rules for closing the door or keeping it open" enabled="1" Group="" >
+ <Nodes>
+  <Node Class="AI:ActionEnd" flags="0" Id="2" pos="510,0,0" >
+   <Inputs />
+  </Node>
+  <Node Class="AI:SmartObjectEvent" flags="0" Id="12" pos="210,-10,0" >
+   <Inputs objectId="0" soevent_event="AlienDoorClose" userId="0" />
+  </Node>
+  <Node Class="AI:ActionStart" flags="0" Id="1" pos="80,10,0" />
+ </Nodes>
+ <Edges>
+  <Edge enabled="1" nodeIn="12" nodeOut="1" portIn="userId" portOut="UserId" />
+  <Edge enabled="1" nodeIn="2" nodeOut="12" portIn="cancel" portOut="noRule" />
+  <Edge enabled="1" nodeIn="12" nodeOut="1" portIn="trigger" portOut="UserId" />
+  <Edge enabled="1" nodeIn="2" nodeOut="12" portIn="end" portOut="ruleName" />
+ </Edges>
+</Graph>

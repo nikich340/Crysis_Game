@@ -1,0 +1,24 @@
+<Vegetation>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="grass_planis_variation_bush" ComplexBending="0" Density="8" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_big_bright_green.cgf" Frozen="0" GUID="{245CA7FC-00D9-48A6-95C4-A315E72477C1}" Hidden="0" Hideable="0" Id="74" Index="77" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="168.31911,188.75989,104.875" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="grass_planis_variation_bush" ComplexBending="0" Density="7" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_med_yellow.cgf" Frozen="0" GUID="{33A53322-2122-4C9C-BB73-F856D74B0794}" Hidden="0" Hideable="0" Id="75" Index="78" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="166.01263,187.49422,104.875" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="1" Category="grass_planis_variation_bush" ComplexBending="0" Density="3" ElevationMax="255" ElevationMin="16" FadeSize="1" FileName="objects/natural/bushes/roundleafbush/round_leaf_bush_small_grey_green.cgf" Frozen="0" GUID="{89996D17-1FF4-45BD-B361-79C1C51F9D6A}" Hidden="0" Hideable="0" Id="76" Index="79" MaxViewDistRatio="1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="164.36171,184.73839,104.875" />
+   <Instance Pos="160.38747,185.65761,104.875" />
+   <Instance Pos="167.97668,186.55705,104.875" />
+   <Instance Pos="162.64925,187.7883,104.875" />
+   <Instance Pos="160.60683,188.32848,104.875" />
+   <Instance Pos="166.68904,190.19913,104.875" />
+   <Instance Pos="169.20901,190.06509,104.875" />
+   <Instance Pos="166.61617,192.83594,104.875" />
+  </Instances>
+ </VegetationObject>
+</Vegetation>

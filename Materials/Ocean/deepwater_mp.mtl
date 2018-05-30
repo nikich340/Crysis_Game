@@ -1,0 +1,9 @@
+<Material MtlFlags="2048" Shader="Waterocean" GenMask="33" SurfaceType="mat_water" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="0.98">
+ <Textures>
+  <Texture Map="Bumpmap" File="textures/defaults/oceanwaves_ddn.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams RippleScale="32" ParamDepth="1" ParamGravity="9.81" ParamSpeed="0.2" ParamWindDirection="0" ParamWindSpeed="3.5" ParamWaveHeight="0.38" ParamDirectionalDependence="4" ParamChoppyWaveFactor="0.1" ParamSuppressSmallWavesFactor="1e-007" BumpScale="0.2" FresnelBias="0.15" FresnelPow="4.56" SunShinePow="115.8" FresnelMinColor="0.1,0.1,0.05" FresnelMaxColor="0.619608,0.654902,0.686275" WaterMinColor="0.137255,0.14902,0.180392" WaterMaxColor="0,0,0"/>
+ <MaterialLayers />
+</Material>

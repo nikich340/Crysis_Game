@@ -1,0 +1,104 @@
+<Vegetation>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="1" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/ground_plants/grass/grass_a_pattern_big.cgf" Frozen="1" GUID="{930C3522-F8E1-4704-A61B-F857B4ABC2E2}" Hidden="0" Hideable="0" Id="1" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="155.61116,186.55251,104.875" />
+   <Instance Pos="158.79755,189.06528,104.875" />
+   <Instance Pos="160.48155,192.35005,104.875" />
+   <Instance Pos="163.16272,196.71333,104.875" />
+   <Instance Pos="165.03784,199.64238,104.875" />
+   <Instance Pos="161.45222,202.55251,104.875" />
+   <Instance Pos="166.07474,202.8931,104.875" />
+   <Instance Pos="163.09082,206.81741,104.875" />
+   <Instance Pos="166.04068,208.94797,104.875" />
+   <Instance Pos="166.33585,214.44276,104.9375" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="7" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/ground_plants/grass/grass_dry_big_b.cgf" Frozen="1" GUID="{9F282F71-5C31-4349-96BE-6E694D88E21D}" Hidden="0" Hideable="0" Id="2" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="158.10312,188.58278,104.875" />
+   <Instance Pos="161.14191,198.36708,104.875" />
+   <Instance Pos="164.54399,209.20529,104.90242" />
+   <Instance Pos="165.77579,214.33113,104.9375" />
+   <Instance Pos="166.00284,216.0246,104.9375" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="7" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/ground_plants/grass/grass_dry_big_c.cgf" Frozen="1" GUID="{50B9F5C9-3022-4D08-ADD2-730962824A01}" Hidden="0" Hideable="0" Id="3" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="161.39357,192.59792,104.875" />
+   <Instance Pos="160.40776,194.46169,104.875" />
+   <Instance Pos="161.77579,201.32829,104.875" />
+   <Instance Pos="162.45506,207.8808,104.875" />
+   <Instance Pos="166.74835,208.1665,104.875" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="5" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/ground_plants/grass/grass_dry_small_a.cgf" Frozen="1" GUID="{D69AC2DF-A34F-4C48-A3C2-35FCD3668ED3}" Hidden="0" Hideable="0" Id="4" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="153.71712,183.65752,104.875" />
+   <Instance Pos="158.11258,187.30559,104.875" />
+   <Instance Pos="156.92242,188.5771,104.875" />
+   <Instance Pos="160.43803,193.6367,104.875" />
+   <Instance Pos="161.00946,195.71619,104.875" />
+   <Instance Pos="163.41438,196.94797,104.875" />
+   <Instance Pos="161.63765,197.45317,104.875" />
+   <Instance Pos="164.8335,198.21759,104.875" />
+   <Instance Pos="162.2999,200.06244,104.875" />
+   <Instance Pos="166.03879,201.50804,104.875" />
+   <Instance Pos="163.02838,203.17123,104.875" />
+   <Instance Pos="161.97635,204.00946,104.875" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="5" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/ground_plants/grass/grass_dry_small_c.cgf" Frozen="1" GUID="{3C70DD16-207A-4F7A-8147-28F4BABEA568}" Hidden="0" Hideable="0" Id="5" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="155.69443,187.71806,104.875" />
+   <Instance Pos="160.99054,197.91486,104.875" />
+   <Instance Pos="161.68684,202.25165,104.875" />
+   <Instance Pos="162.00095,207.9281,104.875" />
+   <Instance Pos="164.85431,211.11447,104.92567" />
+   <Instance Pos="162.83728,212.42574,104.9375" />
+   <Instance Pos="165.68306,215.6613,104.9375" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="10" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_big_a.cgf" Frozen="1" GUID="{6D14A265-EC3C-459B-A5AF-6FA9D86D915D}" Hidden="0" Hideable="0" Id="6" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="162.79755,194.49196,104.875" />
+   <Instance Pos="161.72279,200.1911,104.875" />
+   <Instance Pos="161.8912,202.39546,104.875" />
+   <Instance Pos="165.37843,210.67172,104.90889" />
+   <Instance Pos="164.12015,213.26962,104.9375" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="10" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_big_b.cgf" Frozen="1" GUID="{CA01C0D9-D834-41C3-88BB-7B8AF0081D34}" Hidden="0" Hideable="0" Id="7" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="156.38316,188.15704,104.875" />
+   <Instance Pos="164.77673,207.76727,104.875" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="5" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_small_a.cgf" Frozen="1" GUID="{C50ECF6B-439C-407A-BE5F-E1BCA2869678}" Hidden="0" Hideable="0" Id="8" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="158.58751,187.92053,104.875" />
+   <Instance Pos="158.04257,192.87418,104.875" />
+   <Instance Pos="162.79376,200.71712,104.875" />
+   <Instance Pos="164.13339,204.88742,104.875" />
+   <Instance Pos="164.8335,205.77106,104.875" />
+   <Instance Pos="164.82025,206.76633,104.875" />
+   <Instance Pos="162.11636,210.64523,104.9375" />
+   <Instance Pos="163.01892,212.05109,104.9375" />
+  </Instances>
+ </VegetationObject>
+ <VegetationObject AlphaBlend="0" Bending="0" Brightness="1" CastShadow="0" Category="frozen_field_plain" ComplexBending="0" Density="5" ElevationMax="1000" ElevationMin="0" FadeSize="0" FileName="objects/natural/bushes/thinleafbush/thin_leaves_bush_small_b.cgf" Frozen="1" GUID="{BEA3D4EE-DAE2-416B-B695-2A30797E4CF8}" Hidden="0" Hideable="0" Id="9" Index="0" MaxViewDistRatio="0.1" PrecalcShadow="0" RandomRotation="0" RecvShadow="1" ShadowDistRatio="1" Size="1" SizeVar="0" SlopeMax="255" SlopeMin="0" SpriteDistRatio="0.1" UseSprites="1" >
+  <Instances>
+   <Instance Pos="154.53264,184.84958,104.875" />
+   <Instance Pos="158.39262,189.91107,104.875" />
+   <Instance Pos="161.14001,193.98108,104.875" />
+   <Instance Pos="161.73415,195.87701,104.875" />
+   <Instance Pos="160.7616,196.35194,104.875" />
+   <Instance Pos="164.59697,197.5894,104.875" />
+   <Instance Pos="164.31505,200.59792,104.875" />
+   <Instance Pos="165.00757,206.16461,104.875" />
+   <Instance Pos="162.04257,208.68874,104.89652" />
+   <Instance Pos="163.95932,208.40871,104.88777" />
+   <Instance Pos="163.80038,209.36613,104.91769" />
+   <Instance Pos="165.90823,212.18732,104.9375" />
+  </Instances>
+ </VegetationObject>
+</Vegetation>

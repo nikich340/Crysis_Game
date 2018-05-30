@@ -1,0 +1,12 @@
+<Material MtlFlags="2052" Shader="Particles" GenMask="16" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/sphere_effect_1.tif">
+   <TexMod TileU="10" TileV="10" RotateW="90"/>
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/fire_blur1_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.28" PerturbationScale="0.029999999" PerturbationStrenght="2.6129999"/>
+ <MaterialLayers />
+</Material>

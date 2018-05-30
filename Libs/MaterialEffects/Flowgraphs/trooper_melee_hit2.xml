@@ -1,0 +1,49 @@
+<Graph Description="" Group="test" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="28" Class="Time:Delay" pos="40,1730,0" flags="0">
+   <Inputs delay="2"/>
+  </Node>
+  <Node Id="61" Class="CrysisFX:ScreenFader" pos="190,1650,0" flags="0">
+   <Inputs FadeGroup="2" FadeInTime="1.5" FadeOutTime="0" color_FadeColor="1,1,1" tex_TextureName="textures/sprites/hud/trooper_hit2.tif"/>
+  </Node>
+  <Node Id="187" Class="MaterialFX:HUDStartFX" pos="-180,1410,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="188" Class="MaterialFX:HUDEndFX" pos="690,1650,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="190" Class="Image:ColorCorrection" pos="580,1370,0" flags="0">
+   <Inputs Enabled="1" Global_User_ColorC="0" Global_User_ColorM="0" Global_User_ColorY="0" Global_User_ColorK="0" Global_User_Brightness="1" Global_User_Contrast="1" Global_User_Saturation="1" Global_User_ColorHue="0"/>
+  </Node>
+  <Node Id="194" Class="Interpol:Float" pos="110,1420,0" flags="0">
+   <Inputs StartValue="0.05" EndValue="0" Time="0.5"/>
+  </Node>
+  <Node Id="196" Class="Interpol:Float" pos="110,1510,0" flags="0">
+   <Inputs StartValue="3" EndValue="1" Time="0.5"/>
+  </Node>
+  <Node Id="197" Class="Interpol:Float" pos="110,1330,0" flags="0">
+   <Inputs StartValue="0.2" EndValue="0" Time="0.5"/>
+  </Node>
+  <Node Id="200" Class="Image:FilterBlur" pos="290,1240,0" flags="0">
+   <Inputs Enabled="1" FilterBlurring_Type="0" FilterBlurring_Amount="0"/>
+  </Node>
+  <Node Id="201" Class="Interpol:Float" pos="110,1230,0" flags="0">
+   <Inputs StartValue="1" EndValue="0" Time="0.5"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="61" nodeOut="28" portIn="FadeIn" portOut="out" enabled="1"/>
+  <Edge nodeIn="188" nodeOut="61" portIn="Trigger" portOut="FadedIn" enabled="1"/>
+  <Edge nodeIn="190" nodeOut="61" portIn="Enabled" portOut="CurColor" enabled="1"/>
+  <Edge nodeIn="28" nodeOut="187" portIn="in" portOut="Started" enabled="1"/>
+  <Edge nodeIn="61" nodeOut="187" portIn="FadeOut" portOut="Started" enabled="1"/>
+  <Edge nodeIn="194" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="196" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="197" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="201" nodeOut="187" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="190" nodeOut="194" portIn="Global_User_ColorY" portOut="Value" enabled="1"/>
+  <Edge nodeIn="190" nodeOut="196" portIn="Global_User_Brightness" portOut="Value" enabled="1"/>
+  <Edge nodeIn="190" nodeOut="197" portIn="Global_User_ColorC" portOut="Value" enabled="1"/>
+  <Edge nodeIn="200" nodeOut="201" portIn="FilterBlurring_Amount" portOut="Value" enabled="1"/>
+ </Edges>
+</Graph>

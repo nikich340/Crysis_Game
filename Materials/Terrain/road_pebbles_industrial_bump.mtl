@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="402657284" SurfaceType="mat_pebble" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/detail/road_pepples_industrial.tif" Filter="5">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+  <Texture Map="Bumpmap" File="textures/terrain/detail/road_pepples_industrial_ddn.tif">
+   <TexMod TileU="0.60000002" TileV="0.60000002"/>
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" PomDisplacement="0.003" SelfShadowStrength="3" DetailTextureStrength="0.75"/>
+ <MaterialLayers />
+</Material>

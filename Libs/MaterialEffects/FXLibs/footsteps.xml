@@ -1,0 +1,168 @@
+<FXLib>
+
+<Effect name="default">
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_default</Name>
+	</Sound>
+</Effect>
+
+<Effect name="alien_floor">
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_alien_floor</Name>
+	</Sound>
+</Effect>
+
+<Effect name="alien_machine">
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_alien_machine</Name>
+	</Sound>
+</Effect>
+
+<Effect name="alien_glass">
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_alien_glass</Name>
+	</Sound>
+</Effect>
+
+<Effect name="alien_wall">
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_alien_wall</Name>
+	</Sound>
+</Effect>
+
+<Effect name="snow">
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_ice</Name>
+	</Sound>
+</Effect>
+<Effect name="snow_print" parent="snow" >
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_sand_dry</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_snow</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="sand" >
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_sand_dry</Name>
+	</Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.sand</Name>
+	</Particle>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_sand</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="sand_print" >
+	<Sound>
+		<Name>sounds/physics:footstep_walk:mat_sand_wet</Name>
+	</Sound>
+	<RandEffect>
+		<Decal minscale="0.14" maxscale="0.14">
+			<Material>materials/decals/footstep_sand</Material>
+		</Decal>
+	</RandEffect>
+</Effect>
+<Effect name="concrete">
+	<Sound><Name>sounds/physics:footstep_walk:mat_concrete</Name></Sound>
+</Effect>	
+<Effect name="wood_hollow">
+	<Sound><Name>sounds/physics:footstep_walk:mat_wood_hollow</Name></Sound>
+</Effect>
+<Effect name="grass">
+	<Sound><Name>sounds/physics:footstep_walk:mat_grass</Name></Sound>
+</Effect>
+<Effect name="dirt">
+	<Sound><Name>sounds/physics:footstep_walk:mat_dirt</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.dirt</Name>
+	</Particle>
+</Effect>
+<Effect name="wood_solid">
+	<Sound><Name>sounds/physics:footstep_walk:mat_wood_solid</Name></Sound>
+</Effect>
+<Effect name="grass_frozen">
+	<Sound><Name>sounds/physics:footstep_walk:mat_grass_frozen</Name></Sound>
+</Effect>
+<Effect name="grass_tall">
+	<Sound><Name>sounds/physics:footstep_walk:mat_grass_tall</Name></Sound>
+</Effect>
+<Effect name="gravel">
+	<Sound><Name>sounds/physics:footstep_walk:mat_gravel</Name></Sound>
+</Effect>
+<Effect name="leaves">
+	<Sound><Name>sounds/physics:footstep_walk:mat_leaves</Name></Sound>
+</Effect>
+<Effect name="metal_thick">
+	<Sound><Name>sounds/physics:footstep_walk:mat_metal_thick</Name></Sound>
+</Effect>
+<Effect name="metal_chainlink">
+	<Sound><Name>sounds/physics:footstep_walk:mat_metal_chainlink</Name></Sound>
+</Effect>
+<Effect name="metal_grate">
+	<Sound><Name>sounds/physics:footstep_walk:mat_metal_grate</Name></Sound>
+</Effect>
+<Effect name="metal_sheet">
+	<Sound><Name>sounds/physics:footstep_walk:mat_metal_sheet</Name></Sound>
+</Effect>
+<Effect name="pebble">
+	<Sound><Name>sounds/physics:footstep_walk:mat_pebble</Name></Sound>
+</Effect>
+<Effect name="rubble_stone">
+	<Sound><Name>sounds/physics:footstep_walk:mat_rubble_stone</Name></Sound>
+</Effect>
+<Effect name="rubble_wood">
+	<Sound><Name>sounds/physics:footstep_walk:mat_rubble_wood</Name></Sound>
+</Effect>
+<Effect name="rubble_metal">
+	<Sound><Name>sounds/physics:footstep_walk:mat_rubble_metal</Name></Sound>
+</Effect>
+<Effect name="rubble_mixed">
+	<Sound><Name>sounds/physics:footstep_walk:mat_rubble_mixed</Name></Sound>
+</Effect>
+<Effect name="vegetation">
+	<Sound><Name>sounds/physics:footstep_walk:mat_vegetation</Name></Sound>
+</Effect>
+<Effect name="twigs">
+	<Sound><Name>sounds/physics:footstep_walk:mat_twigs</Name></Sound>
+</Effect>
+<Effect name="rock">
+	<Sound><Name>sounds/physics:footstep_walk:mat_concrete</Name></Sound>
+</Effect>
+<Effect name="water">
+	<Sound><Name>sounds/physics:footstep_walk:mat_water_deep</Name></Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.5" maxscaledist="1">collisions.footsteps.water_shallow</Name>
+	</Particle>
+</Effect>
+<Effect name="water_shallow" parent="water" >
+	<Sound><Name>sounds/physics:footstep_walk:mat_water_shallow</Name></Sound>
+	<Particle>
+		<Name minscale="0.5" maxscale="0.5" maxscaledist="1">collisions.footsteps.water_shallow</Name>
+	</Particle>
+</Effect>
+<Effect name="wet">
+	<Sound><Name>sounds/physics:footstep_walk:mat_wet</Name></Sound>
+</Effect>
+<Effect name="mud">
+	<Sound><Name>sounds/physics:footstep_walk:mat_mud</Name></Sound>
+	<Particle>
+		<Name minscale="0.9" maxscale="0.9" maxscaledist="100">collisions.footsteps.mud</Name>
+	</Particle>
+</Effect>
+<Effect name="alien_hull">
+	<Sound><Name>sounds/physics:footstep_walk:mat_alien_basic_wall</Name></Sound>
+</Effect>
+<Effect name="gear">
+	<Sound><Name>sounds/physics:footstep_walk:gear</Name></Sound>
+</Effect>
+<Effect name="gear_search">
+	<Sound><Name>sounds/physics:footstep_walk:gear_search</Name></Sound>
+</Effect>
+
+</FXLib>

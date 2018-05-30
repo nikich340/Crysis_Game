@@ -1,0 +1,15 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-70,0,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="280,20,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="8" Class="Time:Delay" pos="100,20,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="8" nodeOut="1" portIn="in" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="8" portIn="end" portOut="out" enabled="1"/>
+ </Edges>
+</Graph>

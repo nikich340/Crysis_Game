@@ -1,0 +1,5 @@
+<DialogScript Name="Fleet.AB8_Engie_Helena_pays_off" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_C1E2BE97" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="It s working! They just fried their circuits."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab8_41FDFD11" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Don t sound so surprised. I told you this d work."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_1B1E5325" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, hurry up. You need to push down the control rods before the entire core goes into meltdown."/>
+</DialogScript>

@@ -1,0 +1,13 @@
+<DialogScript Name="Fleet.AB2_Dying_Marine" Description="">
+ <Line actor="0" lookatActor="1" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_1_fleet_ab2_pu001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Stay with us"/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_2_fleet_ab2_pu001" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="What did this to me?"/>
+ <Line actor="0" lookatActor="1" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_1_fleet_ab2_pu002" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="We don&apos;t know what they are"/>
+ <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_2_fleet_ab2_pu002" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="There&apos;s more of them"/>
+ <Line actor="2" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab2_pu001" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="What&apos;s your name soldier?"/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_fleet_ab2_pu001" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="John..."/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab2_pu002" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="John, I&apos;m Eddie"/>
+ <Line actor="1" lookatActor="2" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_fleet_ab2_pu002" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="My wife.. I wanna speak to my wife"/>
+ <Line actor="1" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab2_pu003" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Don&apos;t fall asleep on me John"/>
+ <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab2_pu004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="John? John!"/>
+</DialogScript>

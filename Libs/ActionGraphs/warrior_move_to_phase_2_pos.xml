@@ -1,0 +1,40 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="-190,-10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="1030,40,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Entity:EntityPos" pos="-60,30,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="4" Class="Movement:MoveEntityTo" pos="320,-10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Destination="0,0,0" DynamicUpdate="0" Speed="5" EaseDistance="0.5"/>
+  </Node>
+  <Node Id="11" Class="HUD:DisplayTimedDebugMessage" pos="320,-120,0" flags="0">
+   <Inputs Message="Moving to phase2 position..." DisplayTime="3" PosX="50" PosY="50" FontSize="3"/>
+  </Node>
+  <Node Id="12" Class="HUD:DisplayTimedDebugMessage" pos="890,-70,0" flags="0">
+   <Inputs Message="Phase 2 posistion reached..." DisplayTime="3" PosX="50" PosY="80" FontSize="3"/>
+  </Node>
+  <Node Id="13" Class="Time:Delay" pos="900,40,0" flags="0">
+   <Inputs delay="1"/>
+  </Node>
+  <Node Id="14" Class="Movement:RotateEntityTo" pos="320,110,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" Destination="26,0,-180" DynamicUpdate="0" Time="18"/>
+  </Node>
+  <Node Id="17" Class="Math:PortCounter" pos="620,30,0" flags="0" InHideMask="524287" OutHideMask="15">
+   <Inputs portThreshold="0" totalThreshold="2"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Start" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="1" portIn="Start" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="1" portIn="reset" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="3" portIn="Destination" portOut="pos" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="4" portIn="in01" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="13" portIn="end" portOut="out" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="14" portIn="in02" portOut="DoneTrigger" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="17" portIn="in" portOut="totalTrigger" enabled="1"/>
+ </Edges>
+</Graph>

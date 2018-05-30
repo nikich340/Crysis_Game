@@ -1,0 +1,28 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="80,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="600,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="Vehicle:Exit" pos="330,10,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="5" Class="AI:AIWeaponDraw" pos="330,110,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0"/>
+  </Node>
+  <Node Id="6" Class="Time:Delay" pos="200,110,0" flags="0">
+   <Inputs delay="0.2"/>
+  </Node>
+  <Node Id="7" Class="Logic:All" pos="480,10,0" flags="0">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="Synk" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="1" portIn="in" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="4" portIn="in1" portOut="done" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="5" portIn="in2" portOut="done" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="6" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="7" portIn="end" portOut="Out" enabled="1"/>
+ </Edges>
+</Graph>

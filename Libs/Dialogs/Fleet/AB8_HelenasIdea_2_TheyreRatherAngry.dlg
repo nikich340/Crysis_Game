@@ -1,0 +1,6 @@
+<DialogScript Name="Fleet.AB8_HelenasIdea_2_TheyreRatherAngry" Description="">
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_92671C18" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="They re drawing power, but it s not overloading them."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_6CC84442" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I think you re pissing them off."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab8_396E4203" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Damn it, I think we need a stronger power source. I ll keep working on it..."/>
+ <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_28F17C7E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Yeah, you do that."/>
+</DialogScript>

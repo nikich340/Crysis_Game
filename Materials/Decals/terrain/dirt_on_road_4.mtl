@@ -1,0 +1,18 @@
+<Material MtlFlags="9" Shader="Illum" GenMask="453116048" SurfaceType="mat_pebble" Diffuse="0.4039216,0.30588236,0.27058825" Specular="0.30588201,0.30588201,0.30588201" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/decals/dirt_on_road_4.tif" Filter="6">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/terrain/decals/dirt_on_road_4_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/decals/dirt_on_road_4_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/terrain/detail/cliff_overgrown.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="4.4000001" FresnelScale="0.2" FresnelBias="0.1" ObmDisplacement="0.0040000002" PomDisplacement="0.025" SelfShadowStrength="2" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

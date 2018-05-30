@@ -1,0 +1,18 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="303169552" SurfaceType="" Diffuse="0.41176474,0.41176474,0.41176474" Specular="0.41176474,0.53725493,0.67843139" Emissive="0,0,0" Shininess="3" Opacity="0.99000001" GlowAmount="62.599998">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/decal/alien_shell.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/decal/alien_shell_spec.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/decal/alien_shell_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Decal" File="textures/decal/alien_shell_glow.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams ObmDisplacement="0.0040000002" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

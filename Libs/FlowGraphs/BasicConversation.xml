@@ -1,0 +1,27 @@
+<Graph>
+ <Nodes>
+  <Node Class="Entity:EntityPos" flags="0" Id="8" pos="110,380,0" >
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0" />
+  </Node>
+  <Node Class="AI:AIAnim" EntityGUID="" flags="0" Id="3" pos="520,260,0" >
+   <Inputs count="1" entityId="0" name="relaxed_idle_talk_nw_03" />
+  </Node>
+  <Node Class="entity:ProximityTrigger" EntityGUID="{19B0BBD4-2387-4DCE-BF75-1A4A3BD98087}" EntityId="319" flags="0" Id="2" pos="120,260,0" >
+   <Inputs Disable="0" Enable="0" Enter="0" entityId="0" Leave="0" />
+  </Node>
+  <Node Class="AI:AILookAtPoint" EntityGUID="" flags="0" Id="4" pos="350,270,0" >
+   <Inputs entityId="0" pos="0,0,0" />
+  </Node>
+  <Node Class="entity:SoundSpot" EntityGUID="{B3574883-3849-4772-A062-F88D857E1A81}" EntityId="322" flags="0" Id="10" pos="520,370,0" >
+   <Inputs Disable="0" Enable="0" entityId="0" Play="0" Redirect="0" Stop="0" />
+  </Node>
+  <Node Class="Game:LocalPlayer" flags="0" Id="6" pos="-20,390,0" />
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="8" nodeOut="6" portIn="entityId" portOut="entityId" />
+  <Edge nodeIn="3" nodeOut="4" portIn="sink" portOut="done" />
+  <Edge nodeIn="4" nodeOut="2" portIn="sink" portOut="Enter" />
+  <Edge nodeIn="4" nodeOut="8" portIn="pos" portOut="pos" />
+  <Edge nodeIn="10" nodeOut="4" portIn="Play" portOut="done" />
+ </Edges>
+</Graph>

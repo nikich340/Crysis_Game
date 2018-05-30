@@ -1,0 +1,68 @@
+<PrefabsLibrary Name="Container">
+ <Prefab Name="harbour.container_green_open" Id="{EBB23F47-4839-41D8-809E-C92C222E6051}">
+  <Objects>
+   <Object Type="Brush" Layer="Main" Id="{FDDA342A-A1D6-4C0C-9A8D-779369CCAEA6}" Name="box1" Pos="0.93859863,12.092407,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/storage/crates/container/container_green_open.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="harbour.container_red_open" Id="{D6F6BD58-2C17-4055-A05D-FFB070720C7D}">
+  <Objects>
+   <Object Type="Brush" Layer="Main" Id="{3CF0EACB-517B-46F3-A7C0-170A3DF44D75}" Name="box1" Pos="0.93859863,12.092407,0" ColorRGB="16777215" Material="objects/library/storage/crates/container/container_red" MatLayersMask="0" Prefab="objects/library/storage/crates/container/container_green_open.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="harbour.container_blue_open" Id="{144BB715-559B-4928-86C7-B2EC45DC6DF4}">
+  <Objects>
+   <Object Type="Brush" Layer="Main" Id="{F4A01E9A-D4CC-476C-8748-94C761C15B48}" Name="box1" Pos="0.9375,12.09375,0" ColorRGB="16777215" Material="objects/library/storage/crates/container/container_blue" MatLayersMask="0" Prefab="objects/library/storage/crates/container/container_green_open.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="harbour.container_blue_doors" Id="{ACB7AF2A-DFD7-4E95-BCD3-9B9512036C41}">
+  <Objects>
+   <Object Type="Brush" Layer="Main" Id="{CED87D49-FFE1-4BEC-BE9E-4B0D8DF6E0F9}" Name="box1" Pos="0.9375,12.09375,0" ColorRGB="16777215" Material="objects/library/storage/crates/container/container_blue" MatLayersMask="0" Prefab="objects/library/storage/crates/container/container_green_open.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Entity" Layer="Main" Id="{36EC958B-67A8-4340-8B75-32D60AA28C5A}" Name="Constraint3" Pos="1.0026855,12.040649,1.5767822" Rotate="0.70722896,0,-0.70698458,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Constraint">
+    <Properties damping="0" max_bend_torque="0" max_pull_force="0" bNoSelfCollisions="1" radius="0.3" bUseEntityFrame="0">
+     <Limits x_max="110" x_min="-90" yz_max="0" yz_min="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{0C74E3EB-EA1B-4469-ABA0-2DAAA5DE51A6}" Name="Constraint4" Pos="3.6175537,11.994995,1.8228683" Rotate="0.70722896,0,-0.70698458,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Constraint">
+    <Properties damping="0" max_bend_torque="0" max_pull_force="0" bNoSelfCollisions="1" radius="0.3" bUseEntityFrame="0">
+     <Limits x_max="90" x_min="-110" yz_max="0" yz_min="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" Id="{7F325989-F02F-4D50-AD08-E900A2881596}" Name="GeomEntity6" Pos="1.0026855,12.040649,0" Rotate="1,0,0.00017281572,0" ColorRGB="65535" Material="objects/library/storage/crates/container/container_blue" MatLayersMask="0" Geometry="objects/library/storage/crates/container/door_green_right.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity"/>
+   <Object Type="GeomEntity" Layer="Main" Id="{3409B910-697A-48F1-8316-EA1D2402B886}" Name="GeomEntity5" Pos="3.6175537,11.994995,0" Rotate="1,0,0.00017281572,0" ColorRGB="65535" Material="objects/library/storage/crates/container/container_blue" MatLayersMask="0" Geometry="objects/library/storage/crates/container/door_green_left.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="harbour.container_green_doors" Id="{09D93460-4D1F-4B48-A042-59F5710708C9}">
+  <Objects>
+   <Object Type="Brush" Layer="Main" Id="{B2973012-A914-49EB-8049-6D0ED5DED526}" Name="box1" Pos="0.93859863,12.092407,0" ColorRGB="16777215" MatLayersMask="0" Prefab="objects/library/storage/crates/container/container_green_open.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Entity" Layer="Main" Id="{EBAFEF60-C2F4-4E3E-BD0D-096DF747546E}" Name="Constraint5" Pos="3.6175537,11.994995,1.8228683" Rotate="0.70722896,0,-0.70698458,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Constraint">
+    <Properties damping="0" max_bend_torque="0" max_pull_force="0" bNoSelfCollisions="1" radius="0.3" bUseEntityFrame="0">
+     <Limits x_max="90" x_min="-110" yz_max="0" yz_min="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{23C68B8F-88DA-44AF-B466-2E727C13F4F1}" Name="Constraint4" Pos="1.0026855,12.040649,1.5767822" Rotate="0.70722896,0,-0.70698458,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Constraint">
+    <Properties damping="0" max_bend_torque="0" max_pull_force="0" bNoSelfCollisions="1" radius="0.3" bUseEntityFrame="0">
+     <Limits x_max="110" x_min="-90" yz_max="0" yz_min="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" Id="{BD562C1F-7327-4C4E-860B-69E93EF0857D}" Name="GeomEntity7" Pos="1.0026855,12.040649,0" Rotate="1,0,0.00017281572,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/library/storage/crates/container/door_green_right.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity"/>
+   <Object Type="GeomEntity" Layer="Main" Id="{6DA484FE-2333-436C-B883-B203EB241BD7}" Name="GeomEntity6" Pos="3.6175537,11.994995,0" Rotate="1,0,0.00017281572,0" ColorRGB="65535" MatLayersMask="0" Geometry="objects/library/storage/crates/container/door_green_left.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity"/>
+  </Objects>
+ </Prefab>
+ <Prefab Name="harbour.container_red_doors" Id="{C573DD22-E7C6-4833-85B4-AD5E7152E4AD}">
+  <Objects>
+   <Object Type="Brush" Layer="Main" Id="{3CFF170C-40EF-430D-AA03-567632857464}" Name="box1" Pos="0.93859863,12.092407,0" ColorRGB="16777215" Material="objects/library/storage/crates/container/container_red" MatLayersMask="0" Prefab="objects/library/storage/crates/container/container_green_open.cgf" OutdoorOnly="0" CastShadowMaps="1" SupportSecondVisarea="0" CastRAMmap="0" ReceiveRAMmap="0" Hideable="0" LodRatio="100" ViewDistRatio="100" NotTriangulate="0" AIRadius="-1" NoStaticDecals="0" RAMmapQuality="1" NoAmnbShadowCaster="0" RecvWind="0" RndFlags="8"/>
+   <Object Type="Entity" Layer="Main" Id="{62B47EA7-B087-4FE0-8072-33085EE61B47}" Name="Constraint10" Pos="3.6175537,11.994995,1.8228683" Rotate="0.70722896,0,-0.70698458,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Constraint">
+    <Properties damping="0" max_bend_torque="0" max_pull_force="0" bNoSelfCollisions="1" radius="0.3" bUseEntityFrame="0">
+     <Limits x_max="90" x_min="-110" yz_max="0" yz_min="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" Id="{03CE50AC-8E5B-41D0-9F11-1F4BE1802067}" Name="Constraint9" Pos="1.0026855,12.040527,1.5767822" Rotate="0.70722896,0,-0.70698458,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="Constraint">
+    <Properties damping="0" max_bend_torque="0" max_pull_force="0" bNoSelfCollisions="1" radius="0.3" bUseEntityFrame="0">
+     <Limits x_max="90" x_min="-110" yz_max="0" yz_min="0"/>
+    </Properties>
+   </Object>
+   <Object Type="GeomEntity" Layer="Main" Id="{552B30CE-6780-4B22-90D2-309ED0232B6F}" Name="GeomEntity18" Pos="3.6175537,11.994995,0" Rotate="1,0,0.00017281572,0" ColorRGB="65535" Material="objects/library/storage/crates/container/container_red" MatLayersMask="0" Geometry="objects/library/storage/crates/container/door_green_left.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity"/>
+   <Object Type="GeomEntity" Layer="Main" Id="{BEEEE534-182B-4BB0-A040-725D5221BFB9}" Name="GeomEntity17" Pos="1.0026855,12.040527,0" Rotate="1,0,0.00017281572,0" ColorRGB="65535" Material="objects/library/storage/crates/container/container_red" MatLayersMask="0" Geometry="objects/library/storage/crates/container/door_green_right.cgf" OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity"/>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

@@ -1,0 +1,21 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="4" Class="AI:ActionStart" pos="-70,220,0" flags="0"/>
+  <Node Id="5" Class="AI:ActionEnd" pos="420,260,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="6" Class="Entity:EntityPos" pos="60,260,0" flags="0" InHideMask="15" OutHideMask="63">
+   <Inputs entityId="0" pos="0,0,0" rotate="0,0,0" scale="0,0,0"/>
+  </Node>
+  <Node Id="7" Class="AI:AIShootAt" pos="210,220,0" flags="0">
+   <Inputs entityId="0" targetPos="0,0,0" time="10" shots="1" AimOnly="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="6" nodeOut="4" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="4" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="6" portIn="targetPos" portOut="pos" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="7" portIn="end" portOut="OnShoot" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="7" portIn="cancel" portOut="fail" enabled="1"/>
+ </Edges>
+</Graph>

@@ -1,0 +1,8 @@
+<Material Diffuse="1,0.082352944,0.082352944" Emissive="0,0,0" GenMask="0" MtlFlags="2048" Opacity="1" Shader="Light.Flare" Shininess="10" Specular="0,0,0" SurfaceType="" >
+ <Textures>
+  <Texture File="textures/lights/sun_small_sparkle.dds" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <MaterialLayers />
+</Material>

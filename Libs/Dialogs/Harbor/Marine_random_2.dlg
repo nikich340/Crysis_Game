@@ -1,0 +1,3 @@
+<DialogScript Name="Harbor.Marine_random_2" Description="">
+ <Line actor="0" lookatActor="1" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="harbor/marine_3_harbor_ab1_PU0003" anim="crouchCover" facial="" delay="2" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
+</DialogScript>

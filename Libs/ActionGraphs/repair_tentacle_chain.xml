@@ -1,0 +1,30 @@
+<Graph Description="" Group="" enabled="1">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="80,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="950,30,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="AI:AIGoto" pos="380,-10,0" flags="0">
+   <Inputs entityId="0" pos="0,0,0" distance="1"/>
+  </Node>
+  <Node Id="5" Class="Time:Delay" pos="550,20,0" flags="0">
+   <Inputs delay="12"/>
+  </Node>
+  <Node Id="9" Class="entity:DestroyableObject" pos="720,-40,0" flags="0">
+   <Inputs entityId="0" DisableUsable="0" EnableUsable="0" Explode="0" Hide="0" Hit="0" Reset="0" UnHide="0" Used="0"/>
+  </Node>
+  <Node Id="11" Class="AI:SmartObjectHelper" pos="190,60,0" flags="0">
+   <Inputs entityId="0" soclass_class="Tentacle_chain" sohelper_helper="Tentacle_chain:RepairPos"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="1" portIn="entityId" portOut="ObjectId" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="4" portIn="in" portOut="succeed" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="5" portIn="Reset" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="9" portIn="end" portOut="Reset" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="11" portIn="pos" portOut="pos" enabled="1"/>
+ </Edges>
+</Graph>

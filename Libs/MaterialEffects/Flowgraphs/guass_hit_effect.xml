@@ -1,0 +1,36 @@
+<Graph Description="" Group="FXTest" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="78" Class="Interpol:Float" pos="140,-80,0" flags="0">
+   <Inputs StartValue="2" EndValue="0" Time="4"/>
+  </Node>
+  <Node Id="93" Class="Image:ChromaShift" pos="420,0,0" flags="0">
+   <Inputs Enabled="1" FilterChromaShift_User_Amount="0"/>
+  </Node>
+  <Node Id="94" Class="Time:Delay" pos="140,10,0" flags="0">
+   <Inputs delay="0.1"/>
+  </Node>
+  <Node Id="95" Class="Interpol:Float" pos="270,10,0" flags="0">
+   <Inputs StartValue="3" EndValue="0" Time="0.2"/>
+  </Node>
+  <Node Id="96" Class="MaterialFX:HUDStartFX" pos="-70,-20,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="97" Class="MaterialFX:HUDEndFX" pos="380,-50,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="100" Class="Input:Key" pos="-530,-20,0" flags="0">
+   <Inputs Key="h"/>
+  </Node>
+  <Node Id="101" Class="Image:AlienInterference" pos="340,-100,0" flags="0">
+   <Inputs Enabled="1" AlienInterference_Amount="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="97" nodeOut="78" portIn="Trigger" portOut="Done" enabled="1"/>
+  <Edge nodeIn="101" nodeOut="78" portIn="AlienInterference_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="95" nodeOut="94" portIn="Start" portOut="out" enabled="1"/>
+  <Edge nodeIn="93" nodeOut="95" portIn="FilterChromaShift_User_Amount" portOut="Value" enabled="1"/>
+  <Edge nodeIn="78" nodeOut="96" portIn="Start" portOut="Started" enabled="1"/>
+  <Edge nodeIn="94" nodeOut="96" portIn="in" portOut="Started" enabled="1"/>
+ </Edges>
+</Graph>

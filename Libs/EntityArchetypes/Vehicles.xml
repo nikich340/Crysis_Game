@@ -1,0 +1,365 @@
+<EntityPrototypeLibrary Name="Vehicles" SandboxVersion="1.1.1.5646">
+ <EntityPrototype Name="Land.Asian_AAA" Id="{5A72EDFA-692E-469D-9561-E7F2755DCF89}" Class="Asian_aaa" Description="">
+  <Properties accuracy="1" attackrange="500" bAutoGenAIHidePts="0" aicharacter_character="AAA" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="1" sightrange="500" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.Asian_Helicopter" Id="{704D8672-61C5-4461-8484-7ABF0D1FA2C9}" Class="Asian_helicopter" Description="">
+  <Properties accuracy="1" attackrange="300" bAutoGenAIHidePts="0" aicharacter_character="Heli" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="LowBudget" Paint="lb" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="20" sightrange="300" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.US_RIB" Id="{691CD991-66B9-4582-899A-ACEEA15662B3}" Class="US_smallboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Boat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank" Id="{DB3BF934-F720-46C9-82F1-E468CD204671}" Class="Asian_tank" Description="">
+  <Properties accuracy="0.3" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Truck" Id="{F055C998-C363-4D75-BBD1-2660979E7C1A}" Class="Asian_truck" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="1" aicharacter_character="Car" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_LTV" Id="{5D0F1133-1D1D-481D-91BB-3658DF5CD661}" Class="Asian_ltv" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="1" aicharacter_character="Car" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank" Id="{2B30E91B-0177-42AF-98CF-1016EC43087D}" Class="US_tank" Description="">
+  <Properties accuracy="0.3" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.US_Hovercraft" Id="{9F2FE160-2F95-46BD-8F9B-BE9ABCE4ED62}" Class="US_hovercraft" Description="">
+  <Properties bAutoGenAIHidePts="0" bDisableEngine="0" bFrozen="0" FrozenModel="" material="" Modification="" Paint="" soclasses_SmartObjectClass="" teamName="">
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.US_VTOL" Id="{57DA3D66-AA8A-4EA1-859E-9387ED6380D3}" Class="US_vtol" Description="">
+  <Properties accuracy="1" attackrange="300" bAutoGenAIHidePts="0" aicharacter_character="Vtol" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="20" sightrange="300" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Patrolboat" Id="{8735C5BF-B15F-408A-B344-F5500BF3D5A8}" Class="Asian_patrolboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Boat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_LTV" Id="{CFE77A82-900C-43C4-A58E-5271834CB414}" Class="US_ltv" Description="">
+  <Properties accuracy="1" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Car" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Truck_wHardtop" Id="{4D903295-79EF-4AF4-B19C-907DD9018294}" Class="Asian_truck" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="1" aicharacter_character="Car" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="Hardtop" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Speedboat" Id="{7F49E007-46EA-40B1-8405-9A9C5873EFC4}" Class="Civ_speedboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Boat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Speedboat_wRoof" Id="{C20F88BA-0706-4A25-B1BC-F7BFB23EB5DE}" Class="Civ_speedboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Boat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="Roofed" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Civ_Car" Id="{98A2AD19-ACE8-4C33-9645-11F40444E06F}" Class="Civ_car1" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="1" aicharacter_character="Car" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_APC" Id="{99D72547-C0AB-426E-855C-33FA3060C035}" Class="US_apc" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="APC" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="US" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Close" Id="{57B1B32F-D456-4150-8260-6BD30145A64A}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank_Spawned_Reinforcement" Id="{77417EA9-4397-4C74-A2F0-F4DC313E9967}" Class="US_tank" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="1" nTimer="1" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank_wTAC" Id="{4B965F5E-355B-4B1F-91F9-A4E4879E3058}" Class="US_tank" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="TACCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank_wGauss" Id="{AE33F832-B6E9-4316-A8CD-CDECE53492EE}" Class="US_tank" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="GaussCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_wTAC" Id="{E5108573-A182-42D0-ADB4-ED2C7A604F89}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="TACCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_wGauss" Id="{F60F9E02-0D9A-4C0A-808A-EACFCDAAD7F9}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="Tank" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="GaussCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Close_wGauss" Id="{767B5B06-1C29-435F-8A00-43406DC04DE8}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="GaussCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Close_wTAC" Id="{86366B28-970E-4E3C-A3A1-83A4FBD31C29}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="TACCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Fixed" Id="{FF109D8B-63D7-43DD-87EE-1AE233B2597E}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="400" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Fixed_wGauss" Id="{844A1878-CCBC-40CE-B9EC-45F5F706121D}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="GaussCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Fixed_wTAC" Id="{D6E36FDE-DA87-4A02-B020-EE10835E810C}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="TACCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_AAA_Fixed" Id="{5387D5B6-9DA1-41D4-A67E-B1EC2A8EEE07}" Class="Asian_aaa" Description="">
+  <Properties accuracy="1" attackrange="500" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="1" sightrange="500" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Smallboat" Id="{2EF77F05-9199-4A79-9050-7F3246DFB71B}" Class="US_smallboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="Boat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="Asian" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Patrolboat_Island" Id="{B9496A8C-57F2-42D3-82D1-D2BA31ABBF2E}" Class="Asian_patrolboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="PatrolBoat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.US_RIB_Island" Id="{4FC7F3F7-87B5-4C8A-B321-1F3187DE4B84}" Class="US_smallboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="PatrolBoat" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_AAA_wSAM" Id="{AAAD13B1-16B4-4CC8-8398-9F94686C3292}" Class="Asian_aaa" Description="">
+  <Properties accuracy="1" attackrange="500" bAutoGenAIHidePts="0" aicharacter_character="AAA" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="SAM" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="1" sightrange="500" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_AAA_Fixed_wSAM" Id="{1E63B14C-2E28-43FD-88E1-05C19DF12EF8}" Class="Asian_aaa" Description="">
+  <Properties accuracy="1" attackrange="500" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="SAM" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="1" sightrange="500" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.Asian_Helicopter_Aggressive" Id="{56E51313-8317-43FC-B99E-BF6A3DCA1227}" Class="Asian_helicopter" Description="">
+  <Properties accuracy="1" attackrange="300" bAutoGenAIHidePts="0" aicharacter_character="HeliAggressive" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="LowBudget" Paint="lb" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="20" sightrange="300" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.US_VTOL_Transport" Id="{A2069AE7-44FB-4C7D-B962-79C66DBB5B0C}" Class="US_transportVTOL" Description="">
+  <Properties accuracy="1" attackrange="320" bAutoGenAIHidePts="0" aicharacter_character="Vtol" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="60" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_LTV_Close" Id="{817ED39A-6213-4906-991E-2A71790CEA91}" Class="Asian_ltv" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="1" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.US_VTOL_Blind" Id="{340A26A9-EA6D-48ED-8604-B06225A08AED}" Class="US_vtol" Description="">
+  <Properties accuracy="1" attackrange="0" bAutoGenAIHidePts="0" aicharacter_character="Vtol" commrange="0" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="0" FOVSecondary="0" persistence="0" sightrange="0" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.US_VTOL_Ascension" Id="{B019C8CB-ADAB-4605-8ABB-D7B11CA40330}" Class="US_vtol" Description="">
+  <Properties accuracy="1" attackrange="300" bAutoGenAIHidePts="0" aicharacter_character="Vtol" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="VTOL_Ascension" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="20" sightrange="300" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Smallboat_Close" Id="{F1649C0E-34F9-4A41-8339-D275CDB639F4}" Class="US_smallboat" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="Asian" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_APC" Id="{CCB29A89-E2E0-4983-97AA-06F1C67C8D6C}" Class="US_apc" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="APC" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="NK" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank_Close" Id="{74CCF47A-1A09-483D-A6BF-0CF361885FFF}" Class="US_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_Tank_Close_Tank" Id="{548A9FEE-4EEE-4174-AB5D-EC0AAA444FA5}" Class="Asian_tank" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" bHidesPlayer="0" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="400" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_APC_Close" Id="{99F6349C-73A4-4065-AE2E-9031B5F330A7}" Class="US_apc" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="NK" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="400" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_APC_Fixed" Id="{2D710E7F-BE9F-4A63-94F0-83F06D8E1814}" Class="US_apc" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="US" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank_Fixed" Id="{5627D2EF-2C15-4296-8101-E6705F542781}" Class="US_tank" Description="">
+  <Properties accuracy="0.3" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="200" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Asian_APC_Fixed" Id="{AD827772-F564-405D-9936-861C9A3491A6}" Class="US_apc" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="" Paint="NK" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Sea.Asian_Smallboat_Harbor" Id="{B43388A7-0552-49DB-B93F-42B10DBD6D34}" Class="US_smallboat" Description="">
+  <Properties accuracy="1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="Asian" Paint="" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="200" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_Tank_wGauss_Fixed" Id="{1EC95985-47F7-41AD-A1BF-C998E52B2674}" Class="US_tank" Description="">
+  <Properties accuracy="0.1" attackrange="200" bAutoGenAIHidePts="0" aicharacter_character="TankFixed" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="GaussCannon" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="10" sightrange="400" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.Asian_Helicopter_Reinforcement" Id="{542ED3E5-230F-434E-BCA7-65EA6E357858}" Class="Asian_helicopter" Description="">
+  <Properties accuracy="1" attackrange="300" bAutoGenAIHidePts="0" aicharacter_character="HeliAggressive" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="sp" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="20" sightrange="300" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.US_LTV_Close" Id="{8A071880-CD37-4DF1-96BA-6377D82BAE85}" Class="US_ltv" Description="">
+  <Properties accuracy="1" aiSpeedMult="1" attackrange="100" bAutoGenAIHidePts="0" aicharacter_character="TankClose" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="" soclasses_SmartObjectClass="Vehicle" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Land.Police_Car" Id="{F07A821F-A9EE-40CA-A152-82656CBE77A0}" Class="Civ_car1" Description="">
+  <Properties accuracy="1" attackrange="100" bAutoGenAIHidePts="1" aicharacter_character="Car" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" Modification="PoliceCar" Paint="police" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" sightrange="100" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Air.Asian_Helicopter_HighBudget_Reinforcement" Id="{9A12B720-5F4B-4243-9928-5FA056B34834}" Class="Asian_helicopter" Description="">
+  <Properties accuracy="1" attackrange="300" bAutoGenAIHidePts="0" aicharacter_character="HeliAggressive" commrange="100" bDisableEngine="0" followDistance="5" bFrozen="0" FrozenModel="" leaderName="" material="" Modification="" Paint="sp" soclasses_SmartObjectClass="" bSpeciesHostility="1" teamName="">
+   <Perception camoScale="1" FOVPrimary="-1" FOVSecondary="-1" persistence="20" sightrange="300" sightrangeVehicle="-1" stanceScale="1" velBase="1" velScale="0.5"/>
+   <Respawn bAbandon="1" nAbandonTimer="60" bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

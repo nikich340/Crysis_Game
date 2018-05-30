@@ -1,0 +1,3 @@
+<DialogScript Name="Fleet.AB2_Yessir" Description="">
+ <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="1" flagAGEP="0" sound="fleet/crewman_1_fleet_ab2_45e1edcb" anim="salute" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Yes, sir"/>
+</DialogScript>

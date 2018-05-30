@@ -1,0 +1,12 @@
+<Material Diffuse="0.619608,0.654902,0.737255" Emissive="0,0,0" GenMask="37883907" MtlFlags="0" Opacity="0.99" Shader="Illum" Shininess="62.6" Specular="0.119608,0.143137,0.152941" SurfaceType="mat_mud" >
+ <Textures>
+  <Texture File="textures/terrain/roads/road_tank_tracks.tif" Filter="7" Map="Diffuse" >
+   <TexMod />
+  </Texture>
+  <Texture File="textures/terrain/roads/road_tank_tracks_ddn.tif" Filter="5" Map="Bumpmap" >
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams BumpOffset="0.04" DebugUVScale="64" />
+ <MaterialLayers />
+</Material>

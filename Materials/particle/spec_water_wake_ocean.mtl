@@ -1,0 +1,14 @@
+<Material MtlFlags="2048" Shader="Particles" GenMask="16" SurfaceType="" Diffuse="0.74509805,0.74509805,0.74509805" Specular="4.6999998,4.6999998,4.6999998" Emissive="0.30588236,0.30588236,0.30588236" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/watershore/foam_tiled2.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/watershore/foam_tiled2_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Custom" File="textures/sprites/fire_blur1_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AnimSpeed="0.1" PerturbationScale="0.2" PerturbationStrenght="0.1"/>
+</Material>

@@ -1,0 +1,80 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="270,-90,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="700,-90,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="5" Class="Logic:DeMultiplexer" pos="300,300,0" flags="0">
+   <Inputs Index="0" Mode="0"/>
+  </Node>
+  <Node Id="9" Class="String:SetString" pos="560,650,0" flags="0">
+   <Inputs In="Defend_path_8"/>
+  </Node>
+  <Node Id="10" Class="String:SetString" pos="560,300,0" flags="0">
+   <Inputs In="Defend_path_1"/>
+  </Node>
+  <Node Id="11" Class="String:SetString" pos="560,350,0" flags="0">
+   <Inputs In="Defend_path_2"/>
+  </Node>
+  <Node Id="12" Class="String:SetString" pos="560,400,0" flags="0">
+   <Inputs In="Defend_path_3"/>
+  </Node>
+  <Node Id="13" Class="String:SetString" pos="560,450,0" flags="0">
+   <Inputs In="Defend_path_4"/>
+  </Node>
+  <Node Id="14" Class="String:SetString" pos="560,500,0" flags="0">
+   <Inputs In="Defend_path_5"/>
+  </Node>
+  <Node Id="15" Class="String:SetString" pos="560,550,0" flags="0">
+   <Inputs In="Defend_path_6"/>
+  </Node>
+  <Node Id="16" Class="String:SetString" pos="560,600,0" flags="0">
+   <Inputs In="Defend_path_7"/>
+  </Node>
+  <Node Id="18" Class="Logic:Any" pos="830,300,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="19" Class="Logic:Any" pos="830,410,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="20" Class="Logic:Any" pos="970,300,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="22" Class="Math:Sub" pos="150,300,0" flags="0">
+   <Inputs A="0" B="1"/>
+  </Node>
+  <Node Id="23" Class="AI:AISignal" pos="1140,300,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" signal="DEFEND_START" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0"/>
+  </Node>
+  <Node Id="25" Class="AI:AISignal" pos="430,-90,0" flags="0" GraphEntity="0">
+   <Inputs entityId="0" signal="DEFEND_START" posValue="0,0,0" posValue2="0,0,0" iValue="0" fValue="0" sValue="" id="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="25" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="25" nodeOut="1" portIn="sink" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="5" portIn="Set" portOut="Port7" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="5" portIn="Set" portOut="Port0" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="5" portIn="Set" portOut="Port1" enabled="1"/>
+  <Edge nodeIn="12" nodeOut="5" portIn="Set" portOut="Port2" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="5" portIn="Set" portOut="Port3" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="5" portIn="Set" portOut="Port4" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="5" portIn="Set" portOut="Port5" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="5" portIn="Set" portOut="Port6" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="9" portIn="in4" portOut="Out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="10" portIn="in1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="11" portIn="in2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="12" portIn="in3" portOut="Out" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="13" portIn="in4" portOut="Out" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="14" portIn="in1" portOut="Out" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="15" portIn="in2" portOut="Out" enabled="1"/>
+  <Edge nodeIn="19" nodeOut="16" portIn="in3" portOut="Out" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="18" portIn="in1" portOut="out" enabled="1"/>
+  <Edge nodeIn="20" nodeOut="19" portIn="in2" portOut="out" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="20" portIn="sValue" portOut="out" enabled="1"/>
+  <Edge nodeIn="23" nodeOut="20" portIn="sink" portOut="out" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="22" portIn="Index" portOut="out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="25" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="25" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

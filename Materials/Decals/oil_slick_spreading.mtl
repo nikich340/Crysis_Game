@@ -1,0 +1,18 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="301990032" SurfaceType="" Diffuse="0.011764707,0.011764707,0.011764707" Specular="0.67451,0.78039199,0.83529401" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/sprites/oil_slick.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="textures/sprites/oil_slick.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/sprites/new_blood/blood_pool2_ddn.tif">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="textures/cubemaps/blue_sky.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="1.3099999" FresnelScale="1" FresnelBias="0.089000002" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>

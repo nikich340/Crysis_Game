@@ -1,0 +1,16 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="60,40,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="410,40,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Class="AI:AIWeaponSelect" pos="210,40,0" flags="0">
+   <Inputs entityId="0" weapon="SCAR"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="4" nodeOut="1" portIn="entityId" portOut="UserId" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="cancel" portOut="fail" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="4" portIn="end" portOut="succeed" enabled="1"/>
+ </Edges>
+</Graph>

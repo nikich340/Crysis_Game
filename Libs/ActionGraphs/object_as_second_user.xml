@@ -1,0 +1,10 @@
+<Graph Description="" Group="" enabled="1" MultiPlayer="ServerOnly">
+ <Nodes>
+  <Node Id="1" Class="AI:ActionStart" pos="30,10,0" flags="0"/>
+  <Node Id="2" Class="AI:ActionEnd" pos="320,10,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="4" Name="This is just a dummy\nendless AI action.\nIt should be used in\nactions where the\nobject is a living AI." Class="_comment" pos="140,0,0" flags="0"/>
+ </Nodes>
+ <Edges />
+</Graph>

@@ -1,0 +1,113 @@
+<PrefabsLibrary Name="storage" >
+ <Prefab Id="{F6031D60-4E4A-4E8D-BDED-C718C9DB300F}" Name="palettes.palette_barrels_c" Origin="1662485.5,5.2163093e-036,1.0675691e-022" >
+  <Objects>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{BEBA34A4-4039-4CC3-96B7-0DC3A4008BD1}" Layer="Main" Name="AIAnchor764" Pos="0.5,3.4819336,1.3747635" Rotate="0.70090914,0,0,-0.71325058" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{834D3EA7-933F-4488-AA2F-363E179147B7}" Layer="Main" Name="AIAnchor763" Pos="3.4746094,0.5,1.3747635" Rotate="0.99862957,0,0,0.052335709" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{94E3613C-751C-4789-907A-55583CB99714}" Layer="Main" Name="AIAnchor78" Pos="5.8063965,3.2271729,1.3747635" Rotate="0.70090944,0,0,0.71325028" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{2C8A9806-877B-4D4A-BE9F-AD588CFB0748}" Layer="Main" Name="AIAnchor132" Pos="3.2834473,6.4230957,1.3747635" Rotate="0.026177211,0,0,0.99965733" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="1" Id="{68C8D100-83C3-4A7E-AF51-6354AF92E805}" Layer="Main" LightmapQuality="1" LodRatio="255" Name="palette_barrels_c1" NotTriangulate="0" OutdoorOnly="0" Pos="3.2275391,3.4077148,0.87380981" Prefab="Objects\Library\Storage\Crates\palette goods\palette_barrels_c.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="612" Type="Brush" ViewDistRatio="35" />
+   <Object AreaId="0" Closed="1" ColorRGB="255" DisplayFilled="0" EntityClass="AreaShape" GroupId="0" Height="0" Id="{A66AE8A5-EBC5-4E36-AD43-02DF16858FC3}" Layer="Main" Name="ForbiddenArea32" Pos="4.7578125,5.605835,1" Type="ForbiddenArea" Width="0" >
+    <Points>
+     <Point Pos="0,0,0" />
+     <Point Pos="-3.0944824,0.0067138672,0" />
+     <Point Pos="-3.1030273,-4.3947754,0" />
+     <Point Pos="0.15942383,-4.3424072,0" />
+    </Points>
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Id="{543E51D3-03EC-45F8-B63B-3C7C88D09C68}" Name="palettes.palettes_pack_a" Origin="5.2775521e-036,0,6.4652318e-038" >
+  <Objects>
+   <Object AreaId="0" Closed="1" ColorRGB="255" DisplayFilled="0" EntityClass="AreaShape" GroupId="0" Height="0" Id="{4E14703E-3A97-408F-899E-36CAE5EDF65F}" Layer="palettes" Name="ForbiddenArea28" Pos="1.4868164,4.2617188,1" Type="ForbiddenArea" Width="0" >
+    <Points>
+     <Point Pos="0,0,0" />
+     <Point Pos="-0.10522461,-2.9088135,0" />
+     <Point Pos="2.7272949,-3.0445557,0" />
+     <Point Pos="2.5922852,0.21875,0" />
+    </Points>
+   </Object>
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="1" Id="{8D38B51A-A29D-4D00-AD59-0F134E77E6AE}" Layer="palettes" LightmapQuality="1" LodRatio="255" Name="palettes_pack_a25" NotTriangulate="0" OutdoorOnly="0" Pos="2.7431641,2.7636719,0.90000153" Prefab="Objects\library\storage\crates\palettes_pack_a.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="620" Scale="1.4,1.4,1.4" Type="Brush" ViewDistRatio="60" />
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{2A2943CF-3320-46E1-A6E6-0553B0150367}" Layer="palettes" Name="AIAnchor1543" Pos="0.5,2.722168,1.0373611" Rotate="0.68199819,0,0,-0.73135388" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{934E23CE-E306-42B6-8D05-61530C757C6A}" Layer="palettes" Name="AIAnchor1545" Pos="4.8740234,2.8779297,1.0373611" Rotate="0.70710689,0,0,0.70710665" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{C1919031-8C05-4E86-A4DF-90F8A18DC39E}" Layer="palettes" Name="AIAnchor1544" Pos="2.8212891,0.5,1.0373611" Rotate="0.99996191,0,0,0.0087262914" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{F2841585-EC2C-4A7F-B37B-F74FBC43F1A8}" Layer="palettes" Name="AIAnchor1546" Pos="2.6433105,5.171875,1.0373611" Rotate="-0.017452171,0,0,0.99984771" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+  </Objects>
+ </Prefab>
+ <Prefab Id="{449B9543-24AB-4C8E-8266-1D997D91B150}" Name="palettes.palette_barrels_a" Origin="5.2775636e-036,0,5.2897358e-038" >
+  <Objects>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{F2B68D18-D6CF-423C-B099-9D16A3FD0F81}" Layer="AI" Name="AIAnchor69" Pos="4.8989258,1.347168,2.0340729" Rotate="0.90258533,0,0,0.430511" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object AreaId="0" Closed="1" ColorRGB="255" DisplayFilled="0" EntityClass="AreaShape" GroupId="0" Height="0" Id="{91CFF1E3-B972-4D3A-8C36-57F1A7ACE99A}" Layer="AI" Name="ForbiddenArea26" Pos="3.2590332,1,1" Type="ForbiddenArea" Width="0" >
+    <Points>
+     <Point Pos="0,0,0" />
+     <Point Pos="-2.2590332,2.298584,0" />
+     <Point Pos="-0.82568359,3.7458496,0" />
+     <Point Pos="1.4060059,1.473877,0" />
+    </Points>
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{612DAC68-7F17-4155-87D4-2942EEC5A925}" Layer="AI" Name="AIAnchor72" Pos="4.6652832,4.3409424,2.0340729" Rotate="0.38268349,0,0,0.9238795" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{96C14343-4802-4DD7-8B66-7F281FE4D347}" Layer="AI" Name="AIAnchor71" Pos="1.3686523,4.5783691,2.0340729" Rotate="-0.36650115,0,0,0.9304176" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object CastLightmap="1" CastShadowMaps="0" ColorRGB="16777215" Hideable="1" Id="{FCB99C98-E8FD-4EDB-A9BB-3B098807A260}" Layer="AI" LightmapQuality="1" LodRatio="255" Name="palette_barrels4" NotTriangulate="0" OutdoorOnly="0" Pos="3.0661621,2.8439941,0.93756104" Prefab="objects/library/storage/crates/palette goods/palette_barrels_a.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="612" Rotate="0.9238795,0,0,0.38268346" Type="Brush" ViewDistRatio="35" />
+  </Objects>
+ </Prefab>
+ <Prefab Id="{45E9D7C7-B2EE-4091-A3C4-EBC54EAFA06F}" Name="palettes.palette_bottles" Origin="1.3639361e-025,0,1.8729242e+031" >
+  <Objects>
+   <Object AreaId="0" Closed="1" ColorRGB="255" DisplayFilled="0" EntityClass="AreaShape" GroupId="0" Height="0" Id="{FA648DB7-FA60-4EB3-ABF8-86AAADF0626D}" Layer="AI" Name="ForbiddenArea7" Pos="1.6188965,1.5159912,1" Type="ForbiddenArea" Width="0" >
+    <Points>
+     <Point Pos="0,0,0" />
+     <Point Pos="-0.047119141,6.3352051,0" />
+     <Point Pos="2.2756348,6.2325439,0" />
+     <Point Pos="1.9960938,0.0043945313,0" />
+    </Points>
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{1491EFCC-86AE-4EE0-96BD-6A71AB26B579}" Layer="AI" Name="AIAnchor1388" Pos="0.5,2.6815186,1.4995117" Rotate="0.66913068,0,0,-0.74314475" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{30731610-8210-459F-B8B9-5D782C2179EC}" Layer="AI" Name="AIAnchor1389" Pos="0.53393555,4.6436768,1.4995117" Rotate="0.66913068,0,0,-0.74314475" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{7AE50DC1-14D0-44C3-A91C-56766AEFBA23}" Layer="AI" Name="AIAnchor1387" Pos="2.5627441,0.5,1.4995117" Rotate="0.99862951,0,0,-0.052335892" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="1" Id="{CEDF7050-1520-4091-8A50-B7FD68936CE9}" Layer="AI" LightmapQuality="1" LodRatio="255" Name="palette_bottles1" NotTriangulate="0" OutdoorOnly="0" Pos="2.6247559,2.5718994,0.90000153" Prefab="Objects\Library\Storage\Crates\palette goods\palette_bottles.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="620" Type="Brush" ViewDistRatio="35" />
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="1" Id="{ECA3D714-97E2-41AB-930D-1F87201CFCBF}" Layer="AI" LightmapQuality="1" LodRatio="255" Name="palette_bottles2" NotTriangulate="0" OutdoorOnly="0" Pos="2.5881348,4.628418,0.90000153" Prefab="Objects\Library\Storage\Crates\palette goods\palette_bottles.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="620" Type="Brush" ViewDistRatio="35" />
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{DDC72341-7CC6-44DE-BBB3-F833D5C8F37B}" Layer="AI" Name="AIAnchor1383" Pos="0.51831055,6.8355713,1.4995117" Rotate="0.66913056,0,0,-0.74314487" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{123EB563-903D-4ED7-9B28-7BFAE6F6A303}" Layer="AI" Name="AIAnchor1390" Pos="2.6694336,8.6506348,1.4995117" Rotate="0.052335989,0,0,0.99862951" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object CastLightmap="1" CastShadowMaps="1" ColorRGB="16777215" Hideable="1" Id="{7E569EA9-0D15-4BA4-BF3D-51471128D308}" Layer="AI" LightmapQuality="1" LodRatio="255" Name="palette_bottles3" NotTriangulate="0" OutdoorOnly="0" Pos="2.503418,6.7075195,0.90000153" Prefab="Objects\Library\Storage\Crates\palette goods\palette_bottles.cgf" ReceiveLightmap="1" RecvShadowMaps="1" RndFlags="620" Type="Brush" ViewDistRatio="35" />
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{0D4CAD82-A80E-4C6B-8198-ED0EE0953746}" Layer="AI" Name="AIAnchor1386" Pos="4.4250488,2.6048584,1.4995117" Rotate="0.74314481,0,0,0.66913062" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{E0BCE8CF-8A4A-4237-89FE-3B96A087E265}" Layer="AI" Name="AIAnchor1384" Pos="4.6704102,6.7835693,1.4995117" Rotate="0.74314481,0,0,0.66913062" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+   <Object ColorRGB="65280" EntityClass="AIAnchor" Id="{86D7065F-5690-4030-9B7A-2813C20F5A8A}" Layer="AI" Name="AIAnchor1385" Pos="4.4580078,4.5230713,1.4995117" Rotate="0.74314481,0,0,0.66913062" Type="AIAnchor" >
+    <Properties aianchor_AnchorType="COMBAT_HIDESPOT" bEnabled="1" />
+   </Object>
+  </Objects>
+ </Prefab>
+</PrefabsLibrary>

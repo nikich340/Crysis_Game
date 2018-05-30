@@ -1,0 +1,12 @@
+<Material MtlFlags="41" Shader="Illum" GenMask="440401920" SurfaceType="mat_pebble" Diffuse="0.55294102,0.40392199,0.31372601" Specular="0.0666667,0.0666667,0.0666667" Emissive="0,0,0" Shininess="2" Opacity="0.60000002">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/terrain/roads/road_tanktracks.tif" Filter="5">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="textures/terrain/roads/road_tank_tracks_ddn.tif">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams PomDisplacement="0.025" SelfShadowStrength="4" AmbientMultiplier="1"/>
+ <MaterialLayers />
+</Material>
