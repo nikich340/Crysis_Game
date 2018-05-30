@@ -2006,6 +2006,26 @@
 		<SpecialAnimsList>
 	</SpecialAnimsList>
 	</AnimationDefinition>
+	
+	<!-- //animation definitions for the Colt1911 Right (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/us/colt1911/Colt1911_right_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/Colt1911_fp"/>
+		<DataBase Path="1st_person/weapons/us/colt1911/Colt1911.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+		</SpecialAnimsList>
+	</AnimationDefinition>
 
 	<!-- //animation definitions for the tactical_attachment (weapon type) -->
 	<AnimationDefinition>

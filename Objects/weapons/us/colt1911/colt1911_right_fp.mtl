@@ -1,0 +1,19 @@
+<Material Name="objects/weapons/us/colt1911/Colt1911_right_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Colt1911" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.4039216,0.4039216,0.4039216" Specular="0.88235301,0.88235301,0.88235301" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/objects/Weapons/US/colt1911/Textures/Colt1911.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/colt1911/textures/colt1911_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/colt1911/textures/colt1911_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

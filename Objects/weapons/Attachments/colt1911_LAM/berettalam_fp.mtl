@@ -1,0 +1,48 @@
+<Material Name="objects/weapons/attachments/beretta92fs_lam/BerettaLAM_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_smooth" Diffuse="0.20000002,0.20000002,0.20000002" Specular="0.17254902,0.17254902,0.17254902" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/beretta92fs_lam/textures/berettalam.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/beretta92fs_lam/textures/berettalam_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/beretta92fs_lam/textures/berettalam_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.25"/>
+  </Material>
+  <Material Name="laser_beam" MtlFlags="130" Shader="Illum" GenMask="268435456" SurfaceType="mat_nodraw" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001" GlowAmount="15">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/lam_rifle/textures/laser_beam_##00_03(0.05).tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="1">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Name="q3" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.73725492,0.26274511,0.27450982" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="0">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="0">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
