@@ -1,0 +1,10 @@
+#filepath = Animations\1st_person\weapons\US\Predator_Bow
+
+
+$AnimEventDatabase = objects\weapons\us\Predator_Bow\Predator_Bow_EventDataBase.animevents
+
+
+select_01	=	select_01.caf
+fireload_01	=	fireload_01.caf
+firerelease_01	=	firerelease_01.caf
+melee_01	=	melee_01.caf

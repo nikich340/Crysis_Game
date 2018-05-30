@@ -1,0 +1,14 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.0316122e-037" parameter="" bone="" offset="1.0316122e-037,1.4321506e-038,1.43215e-038" dir="1.0316122e-037,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/predator_bow/fireload_01.caf">
+  <event name="sound" time="0.30256999" parameter="Sounds/Predator_Bow:zvuk:fireload_01" bone="Weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/predator_bow/firerelease_01.caf">
+  <event name="sound" time="0.0036599999" parameter="Sounds/Predator_Bow:zvuk:firerelease_01" bone="Weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/predator_bow/select_01.caf">
+  <event name="sound" time="0.2737" parameter="game/Sounds/Predator_Bow:zvuk:select_01" bone="Weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

@@ -1,0 +1,23 @@
+<item name="StickArrowMode" class="Item"  priority="121">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="display_name" value="@mp_eArrow_normal" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/us/Predator_Bow/arrow_normal_fp.chr"/>
+		<thirdperson name="objects/weapons/us/Predator_Bow/arrow_normal_fp.chr"/>
+	</geometry>
+	<actions>
+		<action name="select">
+			<animation target="firstperson" name="select_att_01" speed="1.5" />
+		</action>
+		<action name="pull">
+			<animation target="firstperson" name="fireload_att_01" />
+		</action>		
+		<action name="fire">
+			<animation target="firstperson" name="firerelease_att_01" speed="1.3" />
+		</action>		
+	</actions>
+</item>

@@ -1,0 +1,56 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="mat_1" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.3019608,0.3019608,0.3019608" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/predator_bow/textures/bow_a.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/predator_bow/textures/bow_a_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/predator_bow/textures/bow_a_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="mat_2" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.3019608,0.3019608,0.3019608" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/predator_bow/textures/bow_b.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/predator_bow/textures/bow_b_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/predator_bow/textures/bow_b_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="crosshair" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0.3019608,0.3019608,0.3019608" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/predator_bow/textures/reflex_visor.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="string" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.14509805,0.21568629,0.50588238" Specular="0.26274511,0.36862746,0.78823537" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/predator_bow/textures/string.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="glow" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.074509807,0.90196085,0.11764707" Specular="0.074509807,0.92549026,0.11764707" Emissive="1,1,1" Shininess="10" Opacity="0.80000001" GlowAmount="20">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_thick_weapons" Diffuse="0,90196080,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

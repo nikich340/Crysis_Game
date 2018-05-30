@@ -1,0 +1,8 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="6.2134728e-026" parameter="" bone="" offset="6.2134728e-026,1.4320093e-038,1.4320088e-038" dir="6.2134728e-026,1.4320093e-038,1.4320088e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/predator_bow/arrow_normal/select_att_01.caf">
+  <event name="sound" time="0.50184" parameter="Sounds/Predator_Bow:zvuk:select_att_01" bone="magazine" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

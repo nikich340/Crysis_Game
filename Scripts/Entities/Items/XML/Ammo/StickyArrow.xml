@@ -1,0 +1,41 @@
+<ammo name="StickyArrow" class="Bullet">
+	<geometry>
+	</geometry>
+	<flags>
+		<param name="clientonly" value="1" />
+	</flags>
+	<whiz>
+		<param name="sound" value="sounds/physics:bullet_whiz:bullet_whiz_small" />
+		<param name="speed" value="1" />
+	</whiz>
+	<ricochet>
+		<param name="sound" value="sounds/physics:bullet_ricochet:bullet_ricochet" />
+		<param name="speed" value="2" />
+	</ricochet>
+	<physics type="particle">
+		<param name="mass" value="0.3" />
+		<param name="speed" value="800" />
+		
+		<param name="air_resistance" value="0" />
+		<param name="water_resistance" value="0" />
+		<param name="gravity" value="0, 0, -1" />
+		<param name="water_gravity" value="0, 0, -1" />
+		<param name="material" value="mat_metal" />
+		<param name="water_gravity" value="0, 0, -9.8" />
+		<param name="pierceability" value="9" />
+		<param name="single_contact" value="1" />
+		<param name="no_spin" value="1" />
+		<param name="thrust" value="0" />
+		<param name="lift" value="0" />
+		<param name="min_bounce_speed" value="0.1" />
+	</physics>
+	<params>
+		<param name="lifetime" value="300" />
+		<param name="showtime" value="0.15" />
+		<param name="bulletType" value="2" /> <!-- Bullet Type 2 - Assault rifle bullet -->
+	</params>
+	<trailUnderWater>
+		<param name="effect" value="water.bubbles.bullets" />
+		<param name="scale"  value="3.0" />
+	</trailUnderWater>
+</ammo>
