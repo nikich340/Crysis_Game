@@ -213,6 +213,41 @@ function ShiTen:OnUsed(user)
 end
 
 ----------------------------------------------------------------------------------------------------
+CreateItemTable("MG42_Mounted");
+
+MG42_Mounted.Properties.bMounted=1;
+MG42_Mounted.Properties.bUsable=1;
+MG42_Mounted.Properties.MountedLimits = {
+			pitchMin = -22,
+			pitchMax = 60,
+			yaw = 70,
+			};
+
+
+-----------------------------------------------------------------------------------------------------
+function MG42_Mounted:OnReset()
+	self.item:SetMountedAngleLimits( self.Properties.MountedLimits.pitchMin,
+																	self.Properties.MountedLimits.pitchMax,
+																	self.Properties.MountedLimits.yaw	);
+end
+
+----------------------------------------------------------------------------------------------------
+function MG42_Mounted:OnSpawn()
+	self:OnReset();
+end
+
+
+----------------------------------------------------------------------------------------------------
+function MG42_Mounted:OnUsed(user)
+	if (user.actor:IsPlayer()) then
+		Item.OnUsed(self, user);
+	else
+		g_SignalData.id = self.id;
+		AI.Signal(SIGNALFILTER_SENDER,0,"USE_MOUNTED_WEAPON_INIT",user.id,g_SignalData);
+	end
+end
+
+----------------------------------------------------------------------------------------------------
 function CreateTurret(name)
 	CreateItemTable(name);	
 	

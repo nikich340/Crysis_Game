@@ -1,0 +1,36 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="korpus" MtlFlags="130" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_thick_weapons" Diffuse="0.38823533,0.36078432,0.37254903" Specular="0.070588246,0.070588246,0.070588246" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/us/MG42/Textures/2cc22f31.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="textures/detail/detail_metal.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/mp40/textures/probe_env01.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+  <Material Name="clip" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.22352943,0.21568629,0.21568629" Specular="0.12156864,0.1137255,0.086274512" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/us/MG42/Textures/591c5138.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/mg42/textures/591c5138_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/mg42/textures/591c5138_nrm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

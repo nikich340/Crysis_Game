@@ -125,4 +125,16 @@
   </Properties>
   <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
  </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.MP40_Clip_32" Id="{80A2888C-B6A8-4049-B8A1-FD4BDB26B607}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="smgbullet" Count="32" initialSetup="" objModel="objects/weapons/us/mp40/mp40_magazin_32.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.MG42_Clip_75" Id="{33759DBB-8E4A-4A99-BB74-19D2274DFF32}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="hurricanebullet" Count="75" initialSetup="" objModel="objects/weapons/us/mg42/mg42_clip_75.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="40" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
 </EntityPrototypeLibrary>
