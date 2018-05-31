@@ -1,0 +1,13 @@
+#filepath = Animations\1st_person\weapons\Russia\M4A1gran
+$AnimEventDatabase = objects\weapons\Russia\M4A1\M4A1gran_fp.animevents
+
+
+  
+idle_right_01                           =       idle_right_01.caf
+fire_grenade_right_01                   =       fire_grenade_right_01.caf
+reload_grenade_right_01                 =       reload_grenade_right_01.caf
+
+
+
+
+
