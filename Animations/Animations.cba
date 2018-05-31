@@ -1752,6 +1752,25 @@
 		<SpecialAnimsList>
     </SpecialAnimsList>
 	</AnimationDefinition>
+	<!-- //animation definitions for the KRISS super V (weapon type) -->
+ 	<AnimationDefinition>
+ 		<DeletePosController value="0"/>
+ 		<DeleteRotController value="0"/>
+ 		<Model File="/../objects/Weapons/US/kriss_super_v/kriss_super_v.chr"/>
+ 		<Animation Path="1st_person/Weapons/US/kriss_super_v/"/>
+ 		<Database Path="1st_person/Weapons/US/kriss_super_v/kriss_super_v.dba"/>
+ 		<COMPRESSION value="1"/>
+ 		<AUTOCOMPRESSION value="0"/>
+ 		<FOOTPLANTS value="NO"/>
+ 		<HUMAN value="NO"/>
+ 		<WEAPON value="YES"/>
+ 		<RotatePosRoot value="180"/>
+ 		<RotateQuatRoot value="IDENTITY"/>
+ 		<RotatePosChild value="180"/>
+ 		<RotateQuatChild value="180"/>
+ 		<SpecialAnimsList>
+     </SpecialAnimsList>
+     </AnimationDefinition>
 	<!-- //animation definitions for the MOAC (weapon type) -->
 	<AnimationDefinition>
 		<DeletePosController value="0"/>
@@ -2005,66 +2024,6 @@
 		<RotateQuatChild value="180"/>
 		<SpecialAnimsList>
 	</SpecialAnimsList>
-	</AnimationDefinition>
-	
-	<!-- //animation definitions for the Colt1911 Right (weapon type) -->
-	<AnimationDefinition>
-		<DeletePosController value="0"/>
-		<DeleteRotController value="0"/>
-		<Model File="/../objects/weapons/us/colt1911/Colt1911_right_fp.chr"/>
-		<Animation Path="1st_person/weapons/us/Colt1911_fp"/>
-		<DataBase Path="1st_person/weapons/us/colt1911/Colt1911.dba"/>
-		<COMPRESSION value="1"/>
-		<AUTOCOMPRESSION value="0"/>
-		<FOOTPLANTS value="NO"/>
-		<HUMAN value="NO"/>
-		<WEAPON value="YES"/>
-		<RotatePosRoot value="180"/>
-		<RotateQuatRoot value="IDENTITY"/>
-		<RotatePosChild value="180"/>
-		<RotateQuatChild value="180"/>
-		<SpecialAnimsList>
-		</SpecialAnimsList>
-	</AnimationDefinition>
-	
-	<!-- //animation definitions for the TT Right (weapon type) -->
-	<AnimationDefinition>
-		<DeletePosController value="0"/>
-		<DeleteRotController value="0"/>
-		<Model File="/../objects/weapons/Russia/tokarev/TT_right_fp.chr"/>
-		<Animation Path="1st_person/weapons/Russia/TT_fp"/>
-		<DataBase Path="1st_person/weapons/Russia/tokarev/TT.dba"/>
-		<COMPRESSION value="1"/>
-		<AUTOCOMPRESSION value="0"/>
-		<FOOTPLANTS value="NO"/>
-		<HUMAN value="NO"/>
-		<WEAPON value="YES"/>
-		<RotatePosRoot value="180"/>
-		<RotateQuatRoot value="IDENTITY"/>
-		<RotatePosChild value="180"/>
-		<RotateQuatChild value="180"/>
-		<SpecialAnimsList>
-    </SpecialAnimsList>
-	</AnimationDefinition>
-	
-	<!-- //animation definitions for the HKUMP45 (weapon type) -->
-	<AnimationDefinition>
-		<DeletePosController value="0"/>
-		<DeleteRotController value="0"/>
-		<Model File="/../Objects/Weapons/US/hkump45/Hkump45_fp.chr"/>
-		<Animation Path="1st_person/weapons/us/hkump45_fp"/>
-		<DataBase Path="1st_person/weapons/us/hkump45_fp/Hkump45_fp.dba"/>
-		<COMPRESSION value="1"/>
-		<AUTOCOMPRESSION value="0"/>
-		<FOOTPLANTS value="NO"/>
-		<HUMAN value="NO"/>
-		<WEAPON value="YES"/>
-		<RotatePosRoot value="180"/>
-		<RotateQuatRoot value="IDENTITY"/>
-		<RotatePosChild value="180"/>
-		<RotateQuatChild value="180"/>
-		<SpecialAnimsList>
-    </SpecialAnimsList>
 	</AnimationDefinition>
 
 	<!-- //animation definitions for the tactical_attachment (weapon type) -->

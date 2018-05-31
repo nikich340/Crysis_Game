@@ -1,0 +1,34 @@
+#filepath =  Game\Animations\1st_person\Weapons\US\Kriss_super_v
+$AnimEventDatabase = Game\objects\weapons\us\kriss_super_v\kriss_super_v.animevents
+
+
+select_01			=	select_01.caf
+fire_bullets_right_01		=	fire_01.caf
+enter_modify			=	enter_modify.caf
+idle_modify			=	idle_modify.caf
+exit_modify			=	leave_modify.caf
+reload_chamberfull_01		=	reload_chambered.caf
+reload_chamberempty_01		=	reload_cock.caf
+remove_hand_01			=	offhand_off.caf
+idle_right_akimbo_01		=	offhand_idle.caf
+grab_weapon_01			=	offhand_on.caf
+fire_bullets_right_akimbo_01	=	fire_offhand.caf
+raise_right_01			=	raise.caf
+idle_raised_right_01		=	raised_idle.caf
+lower_right_01			=	lower.caf
+idle_right_01			=	idle_right_01.caf
+zoom_in_ironsight_01		=	zoom_in_ironsight_01.caf
+zoom_out_ironsight_01		=	zoom_out_ironsight_01.caf
+idle_right_ironsight_01		=	ironsight_idle.caf
+fire_bullets_right_ironsight_01	=	fire_ironsight_01.caf
+firemode_1			=	firemode_1.caf
+firemode_2			=	firemode_2.caf
+zoom_in_reflex_01		=	zoom_in_reflex_01.caf
+zoom_out_reflex_01		=	zoom_out_reflex_01.caf
+idle_right_reflex_01		=	idle_reflex_01.caf
+fire_bullets_right_reflex_01	=	fire_reflex_01.caf
+zoom_in_scope_01		=	zoom_in_assault_01.caf
+zoom_out_scope_01		=	zoom_out_assault_01.caf
+idle_right_scope_01		=	assault_idle_01.caf
+fire_bullets_right_scope_01	=	fire_assault_01.caf
+melee_01			=	melee_01.caf

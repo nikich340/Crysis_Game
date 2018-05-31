@@ -1,0 +1,29 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.7544709e+022" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+ </animation>
+ <animation name="game/animations/1st_person/weapons/us/kriss_super_v/enter_modify.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:shotgun:shotgun_3rd_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="game/animations/1st_person/weapons/us/kriss_super_v/leave_modify.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:shotgun:shotgun_3rd_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="game/animations/1st_person/weapons/us/kriss_super_v/lower.caf">
+  <event name="sound" time="0.0055999998" parameter="sounds/weapons:shotgun:shotgun_3rd_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="game/animations/1st_person/weapons/us/kriss_super_v/raise.caf">
+  <event name="sound" time="0.01016" parameter="sounds/weapons:shotgun:shotgun_3rd_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="game/animations/1st_person/weapons/us/kriss_super_v/reload_chambered.caf">
+  <event name="sound" time="0.0073799998" parameter="sounds/weapons:shotgun:shotgun_3rd_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.2859" parameter="sounds/weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67907" parameter="sounds/weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="game/animations/1st_person/weapons/us/kriss_super_v/reload_cock.caf">
+  <event name="sound" time="0.0036800001" parameter="sounds/weapons:shotgun:shotgun_3rd_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.19926" parameter="sounds/weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.49814999" parameter="sounds/weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74427998" parameter="sounds/weapons:scar:scar_reload_06_cockback" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.86236" parameter="sounds/weapons:scar:scar_reload_07_cockfwd" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

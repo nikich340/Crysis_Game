@@ -1,0 +1,14 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/us/kriss_super_v/diffuse.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="objects/weapons/us/kriss_super_v/specular.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="objects/weapons/us/kriss_super_v/normal.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

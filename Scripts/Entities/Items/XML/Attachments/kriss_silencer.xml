@@ -1,0 +1,11 @@
+<item name="Kriss_silencer" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/attachments/kriss_silencer.cgf"/>
+		<thirdperson name="objects/weapons/attachments/kriss_silencer.cgf" />
+	</geometry>
+</item>
