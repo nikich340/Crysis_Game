@@ -1,0 +1,13 @@
+<item name="HKUMP45AssaultScope" class="Item" priority="102">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="scopeAttachment" value="1" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/us/hkump45/attachments/Hkump45_Assaultscope.cgf" />
+		<thirdperson name="objects/weapons/us/hkump45/attachments/Hkump45_Assaultscope_tp.cgf" />
+		<aux1  name="objects/weapons/us/hkump45/attachments/Hkump45_Assaultscope_zoom.cgf" />
+	</geometry>
+</item>

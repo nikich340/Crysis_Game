@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="flashlight" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.23529413,0.27058825,0.32549021" Specular="0.54901963,0.54901963,0.54901963" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_flashlight_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_flashlight_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/attachments/textures/ump_flashlight_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.505"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,23 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Attachment_silencer" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.23529413,0.27058825,0.32549021" Specular="0.3921569,0.3921569,0.3921569" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/hkump45/Attachments/Textures/ump_silencer_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Attachments/Textures/Ump_silencer_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/Attachments/Textures/Ump_silencer_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.505"/>
+  </Material>
+  <Material Name="Proxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

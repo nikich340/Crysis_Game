@@ -1,0 +1,23 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Attachment_LAM" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/hkump45/Attachments/Textures/ump_lam_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_lam_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_lam_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Proxy" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0,62352944,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

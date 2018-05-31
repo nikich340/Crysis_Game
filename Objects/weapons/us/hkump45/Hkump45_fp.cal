@@ -1,0 +1,70 @@
+#filepath = Animations\1st_person\weapons\us\hkump45_fp
+
+$AnimEventDatabase = objects\weapons\us\hkump45\Hkump45_EventDataBase.animevents
+
+//Regular animations
+
+select_01				                  =	select_01.caf
+idle_right_01				              =	idle_right_01.caf
+fire_bullets_right_01		         	=	fire_bullets_right_01.caf
+raise_right_01			            	=	raise_right_01.caf
+idle_raised_right_01	    	    	=	idle_raised_right_01.caf
+lower_right_01			            	=	lower_right_01.caf
+grab_weapon_left_01	      	    	=	grab_weapon_left_01.caf
+remove_hand_left_01	      	    	=	remove_hand_left_01.caf
+switch_firemode_right_01	      	=	switch_firemode_right_01.caf
+switch_firemode_right_akimbo_01		=	switch_firemode_right_akimbo_01.caf
+idle_right_akimbo_01				      =	idle_right_akimbo_01.caf
+fire_bullets_right_akimbo_01			=	fire_bullets_right_akimbo_01.caf
+
+//zoom animations
+
+zoom_in_ironsight_01		        	=	zoom_in_ironsight_01.caf
+fire_bullets_right_ironsight_01		=	fire_bullets_right_ironsight_01.caf
+zoom_out_ironsight_01			        =	zoom_out_ironsight_01.caf
+idle_right_ironsight_01		      	=	idle_right_ironsight_01.caf
+
+//modify animations
+
+enter_modify_right_01		        	=	enter_modify_right_01.caf
+modify_layer_right_01		        	=	modify_layer_right_01.caf
+leave_modify_right_01		        	=	leave_modify_right_01.caf
+
+//Reloads
+
+reload_chamber_empty_right_01	  	=	reload_chamber_empty_right_01.caf
+reload_chamber_full_right_01	  	=	reload_chamber_full_right_01.caf
+
+
+//reflex
+
+zoom_in_reflex_01			            =	zoom_in_reflex_01.caf
+zoom_out_reflex_01		          	=	zoom_out_reflex_01.caf
+idle_right_reflex_01		        	=	idle_right_reflex_01.caf
+fire_bullets_right_reflex_01	  	=	fire_bullets_right_reflex_01.caf
+
+//Scope
+
+zoom_in_scope_01			            =	zoom_in_scope_01.caf
+zoom_out_scope_01			            =	zoom_out_scope_01.caf
+idle_right_scope_01		          	=	idle_right_scope_01.caf
+fire_bullets_right_scope_01		    =	fire_bullets_right_scope_01.caf
+
+//melee
+
+melee_01				                  =	melee_01.caf
+
+// zero G
+
+idle_to_zerog_right_01			      =	idle_to_zerog_right_01.caf
+idle_zerog_right_01			          =	idle_zerog_right_01.caf
+zerog_to_idle_right_01		       	=	zerog_to_idle_right_01.caf
+
+//modefications
+
+firemode_single_layer_01	      	=	firemode_single_layer_01.caf
+firemode_rapid_layer_01		      	=	firemode_rapid_layer_01.caf
+reflex_on_layer_01			          =	reflex_on_layer_01.caf
+scope_on_layer_01			            =	scope_on_layer_01.caf
+flashlight_on_layer_01		      	=	flashlight_on_layer_01.caf
+silencer_on_layer_01			        =	silencer_on_layer_01.caf

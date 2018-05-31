@@ -1,0 +1,69 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Scope" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.35294119,0.35294119,0.35294119" Specular="0.3921569,0.3921569,0.3921569" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_assaultscope_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_assaultscope_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_assaultscope_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.5" AnisotropicShape="0.25"/>
+  </Material>
+  <Material Name="Crosshair" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/attachments/textures/crosshair_sniper.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Name="Fx" MtlFlags="2176" Shader="Glass" GenMask="268436737" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/scope_assault/textures/google.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/scope_assault/textures/google_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/weapons/attachments/scope_assault/textures/mask.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams TintAmount="0" RefrBumpScale="0.50300002" ReflectionAmount="0.2" FresnelBias="0.2" FresnelScale="1" BackLightScale="0" FilterColor="1,1,1"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Name="Glass" MtlFlags="128" Shader="Specialeffects" GenMask="518" SurfaceType="" Diffuse="0.29019609,0.29019609,0.29019609" Specular="1,1,1" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_assaultscope_2_colour.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_assaultscope_2_colour.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelBias="0.574" ReflectionAmount="1.164" RefractionAmount="1" LensColor="1,1,1" ScopeCenterX="0" ScopeCenterY="0" ScopeScale="4" ScopeReflBumpScale="1" ScopeRefrBumpScale="0.0099999998"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

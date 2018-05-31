@@ -2046,6 +2046,26 @@
 		<SpecialAnimsList>
     </SpecialAnimsList>
 	</AnimationDefinition>
+	
+	<!-- //animation definitions for the HKUMP45 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Weapons/US/hkump45/Hkump45_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/hkump45_fp"/>
+		<DataBase Path="1st_person/weapons/us/hkump45_fp/Hkump45_fp.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
 
 	<!-- //animation definitions for the tactical_attachment (weapon type) -->
 	<AnimationDefinition>

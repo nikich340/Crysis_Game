@@ -1,0 +1,108 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.1323912e-038" parameter="" bone="" offset="5.7565341e-042,3.5191465e-007,1.1044642e-039" dir="5.7565341e-042,3.5191465e-007,1.1044642e-039"/>
+  <event name="" time="1.1770292e-026" parameter="" bone="" offset="1.1770292e-026,1.4321506e-038,1.43215e-038" dir="1.1770292e-026,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="5.5631272e-027" parameter="" bone="" offset="5.5631272e-027,1.4321506e-038,1.43215e-038" dir="5.5631272e-027,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="0" parameter="" bone="" offset="5.7565341e-042,3.5191465e-007,1.1044642e-039" dir="5.7565341e-042,3.5191465e-007,1.1044642e-039"/>
+  <event name="sound" time="0" parameter="Sounds/weapons:melee:fire" bone="" offset="1.1640193e-005,1.432307e-038,7.6653014e-006" dir="1.1640193e-005,1.432307e-038,7.6653014e-006"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/hkump45_fp/enter_modify_right_01.caf">
+  <event name="sound" time="0" parameter="Sounds/weapons:scar:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/hkump45_fp/melee_01.caf">
+  <event name="sound" time="0" parameter="Sounds/weapons:melee:fire" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/hkump45_fp/reload_chamber_empty_right_01.caf">
+  <event name="sound" time="0.16898" parameter="Sounds/Hkump45:Hkump45:Reload_magout_1st" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.51953" parameter="Sounds/Hkump45:Hkump45:Reload_magin_1st" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.78890002" parameter="Sounds/Hkump45:Hkump45:Reload_boltback" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.84056002" parameter="Sounds/Hkump45:Hkump45:Reload_boltrelease" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/hkump45_fp/reload_chamber_full_right_01.caf">
+  <event name="sound" time="0.2307" parameter="Sounds/Hkump45:Hkump45:Reload_magout_1st" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.71777999" parameter="Sounds/Hkump45:Hkump45:Reload_magin_1st" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/hkump45_fp/select_01.caf">
+  <event name="sound" time="0" parameter="Sounds/weapons:scar:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/deselect_01.caf">
+  <event name="sound" time="0.13521001" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.0114" parameter="Sounds/physics:player_foley:body_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/enter_modify_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.15100001" parameter="Sounds/weapons:smg:smg_reload_01_gun_up" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/grab_weapon_left_01.caf">
+  <event name="sound" time="0.90008003" parameter="Sounds/weapons:smg:smg_select_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.5794" parameter="Sounds/weapons:smg:smg_reload_08_gun_grab" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/leave_modify_right_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.10300001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.63448" parameter="Sounds/weapons:smg:smg_reload_08_gun_grab" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/lower_right_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.025" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/melee_01.caf">
+  <event name="sound" time="0.023700001" parameter="Sounds/weapons:melee:fire_fp_sw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/raise_right_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.13600001" parameter="Sounds/weapons:smg:smg_reload_01_gun_up" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/remove_hand_left_01.caf">
+  <event name="sound" time="0.19900002" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.324" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/select_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:smg:smg_select_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.54385" parameter="Sounds/weapons:smg:smg_reload_08_gun_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/select_cock_01.caf">
+  <event name="sound" time="0.42357999" parameter="Sounds/weapons:smg:smg_select_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.35510999" parameter="Sounds/weapons:smg:smg_reload_05_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.42493999" parameter="Sounds/weapons:smg:smg_reload_06_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.52700001" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.77854002" parameter="Sounds/weapons:smg:smg_reload_08_gun_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zerog_to_idle_right_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.099000007" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.48700002" parameter="Sounds/weapons:smg:smg_reload_08_gun_grab" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_in_fc_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:smg:smg_reload_04_turn_gun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_in_ironsight_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.077000007" parameter="Sounds/weapons:smg:smg_reload_01_gun_up" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_in_reflex_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:smg:smg_select_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_in_scope_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:smg:smg_reload_04_turn_gun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_out_fc_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_out_ironsight_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.014" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_out_reflex_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018000001" parameter="Sounds/weapons:smg:smg_reload_04_turn_gun" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/smg/zoom_out_scope_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:smg:smg_reload_07_gun_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

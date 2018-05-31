@@ -1,0 +1,11 @@
+<item name="HKUMP45Reflex" class="Item" priority="101">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/us/hkump45/attachments/Hkump45_Reflexsight.cgf"/>
+		<thirdperson name="objects/weapons/us/hkump45/attachments/Hkump45_Reflexsight_tp.cgf" />
+	</geometry>
+</item>

@@ -1,0 +1,58 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="ump_body" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.23529413,0.27058825,0.32549021" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/textures/ump_body_colour.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/textures/ump_body_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/textures/ump_body_ddn.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.34999999" AnisotropicShape="0.5"/>
+  </Material>
+  <Material Name="ump_magazine" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.23529413,0.27058825,0.32549021" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Hkump45/Textures/ump_magazine_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Textures/ump_magazine_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/Textures/ump_magazine_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.5" AnisotropicShape="0.25"/>
+  </Material>
+  <Material Name="ump_barrel" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.23529413,0.27058825,0.32549021" Specular="0.3921569,0.3921569,0.3921569" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Hkump45/Textures/ump_barrel_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Textures/ump_barrel_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/Textures/ump_barrel_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.505"/>
+  </Material>
+  <Material Name="ump_ironsight" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.23529413,0.27058825,0.32549021" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Hkump45/Textures/ump_ironsight_colour.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Textures/ump_ironsight_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.77200001"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

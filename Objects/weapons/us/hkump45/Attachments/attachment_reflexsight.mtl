@@ -1,0 +1,49 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="reflex1" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.20000002,0.20000002,0.20000002" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_reflex2_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_reflex2_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/weapons/us/hkump45/Attachments/Textures/ump_reflex2_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.5" AnisotropicShape="0.505"/>
+  </Material>
+  <Material Name="reflex2" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_thick_weapons" Diffuse="0.20000002,0.20000002,0.20000002" Specular="0.3137255,0.3137255,0.3137255" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/weapons/us/hkump45/attachments/textures/ump_reflex_colour.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/weapons/us/hkump45/attachments/textures/ump_reflex_spec.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.505"/>
+  </Material>
+  <Material Name="glass" MtlFlags="128" Shader="Scopes" GenMask="1" SurfaceType="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="0.050000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/reflex_rifle/textures/red_dot.tif" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ScopeScale="100" ScopeColorMultiplier="160" NoiseScale="0.75"/>
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="1">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+    </Layer>
+    <Layer Name="Wetlayer" NoDraw="1">
+     <PublicParams AnimScale="1" NoiseOffset="0" VariationTileU="4" VariationTileV="4" VariationTileW="4" WetMultiplier="1" DarkeningAmount="0.125" DetailBumpTile="0.2" BumpScale="0.30000001"/>
+    </Layer>
+    <Layer Name="CloakLayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
