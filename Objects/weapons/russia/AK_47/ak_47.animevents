@@ -1,0 +1,93 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="5.3343537e-022" parameter="" bone="" offset="5.3343537e-022,1.4320093e-038,1.4320088e-038" dir="5.3343537e-022,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="6.2212085e-026" parameter="" bone="" offset="6.2212085e-026,1.4320093e-038,1.4320088e-038" dir="6.2212085e-026,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="6.2212085e-026" parameter="" bone="" offset="6.2212085e-026,1.4320093e-038,1.4320088e-038" dir="6.2212085e-026,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="6.2212085e-026" parameter="" bone="" offset="6.2212085e-026,1.4320093e-038,1.4320088e-038" dir="6.2212085e-026,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.1353072e-023" parameter="" bone="" offset="9.1353072e-023,1.4320093e-038,1.4320088e-038" dir="9.1353072e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.1334038e-023" parameter="" bone="" offset="9.1334038e-023,1.4320093e-038,1.4320088e-038" dir="9.1334038e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0918479e-023" parameter="" bone="" offset="9.0918479e-023,1.4320093e-038,1.4320088e-038" dir="9.0918479e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0480806e-023" parameter="" bone="" offset="9.0480806e-023,1.4320093e-038,1.4320088e-038" dir="9.0480806e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0480655e-023" parameter="" bone="" offset="9.0480655e-023,1.4320093e-038,1.4320088e-038" dir="9.0480655e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0066913e-023" parameter="" bone="" offset="9.0066913e-023,1.4320093e-038,1.4320088e-038" dir="9.0066913e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0071911e-023" parameter="" bone="" offset="9.0071911e-023,1.4320093e-038,1.4320088e-038" dir="9.0071911e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0065853e-023" parameter="" bone="" offset="9.0065853e-023,1.4320093e-038,1.4320088e-038" dir="9.0065853e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0058279e-023" parameter="" bone="" offset="9.0058279e-023,1.4320093e-038,1.4320088e-038" dir="9.0058279e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.0005066e-023" parameter="" bone="" offset="9.0005066e-023,1.4321506e-038,1.43215e-038" dir="9.0005066e-023,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="9.0383972e-023" parameter="" bone="" offset="9.0383972e-023,1.4320093e-038,1.4320088e-038" dir="9.0383972e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.9897529e-023" parameter="" bone="" offset="8.9897529e-023,1.4320093e-038,1.4320088e-038" dir="8.9897529e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.984694e-023" parameter="" bone="" offset="8.984694e-023,1.4321506e-038,1.43215e-038" dir="8.984694e-023,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="9.0257804e-023" parameter="" bone="" offset="9.0257804e-023,1.4320093e-038,1.4320088e-038" dir="9.0257804e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="3.9454129e-025" parameter="" bone="" offset="3.9454129e-025,1.4320093e-038,1.4320088e-038" dir="3.9454129e-025,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="1.0316202e-037" parameter="" bone="" offset="1.0316202e-037,1.4320093e-038,1.4320088e-038" dir="1.0316202e-037,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="6.1684781e-026" parameter="" bone="" offset="6.1684781e-026,1.4320093e-038,1.4320088e-038" dir="6.1684781e-026,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.984588e-023" parameter="" bone="" offset="8.984588e-023,1.4320093e-038,1.4320088e-038" dir="8.984588e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.9818062e-023" parameter="" bone="" offset="8.9818062e-023,1.4321506e-038,1.43215e-038" dir="8.9818062e-023,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="8.9825181e-023" parameter="" bone="" offset="8.9825181e-023,1.4320093e-038,1.4320088e-038" dir="8.9825181e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.9269671e-023" parameter="" bone="" offset="8.9269671e-023,1.4320093e-038,1.4320088e-038" dir="8.9269671e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.9827301e-023" parameter="" bone="" offset="8.9827301e-023,1.4320093e-038,1.4320088e-038" dir="8.9827301e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.9848506e-023" parameter="" bone="" offset="8.9848506e-023,1.4320093e-038,1.4320088e-038" dir="8.9848506e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="8.9857442e-023" parameter="" bone="" offset="8.9857442e-023,1.4320093e-038,1.4320088e-038" dir="8.9857442e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="1.0316122e-037" parameter="" bone="" offset="1.0316122e-037,1.4320093e-038,1.4320088e-038" dir="1.0316122e-037,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.2298796e-023" parameter="" bone="" offset="9.2298796e-023,1.4320093e-038,1.4320088e-038" dir="9.2298796e-023,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="1.0316391e-037" parameter="" bone="" offset="1.0316391e-037,1.4320093e-038,1.4320088e-038" dir="1.0316391e-037,1.4320093e-038,1.4320088e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/enter_modify_right_01.caf">
+  <event name="sound" time="0.47097999" parameter="Sounds/weapons:fy71:fy71_3rd_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/grab_weapon_left_01.caf">
+  <event name="sound" time="0.81884003" parameter="Sounds/weapons:fy71:fy71_3rd_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/lower_right_01.caf">
+  <event name="sound" time="0.17669" parameter="Sounds/weapons:fy71:fy71_3rd_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/melee_01.caf">
+  <event name="sound" time="0.0073699998" parameter="Sounds/weapons:melee:fire_fp_sw" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/raise_right_01.caf">
+  <event name="sound" time="0.57562" parameter="Sounds/weapons:fy71:fy71_3rd_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/reload_chamberempty_01.caf">
+  <event name="sound" time="0.16505" parameter="Sounds/weapons:fy71:fy71_3rd_clipout" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.37224999" parameter="Sounds/weapons:fy71:fy71_reload_03_clipin" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.70879" parameter="Sounds/weapons:fy71:fy71_reload_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.71921998" parameter="Sounds/weapons:fy71:fy71_3rd_cockback" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75525999" parameter="Sounds/weapons:fy71:fy71_3rd_cockfwd" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/reload_chamberfull_01.caf">
+  <event name="sound" time="0.23985" parameter="Sounds/weapons:fy71:fy71_3rd_clipout" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.5424" parameter="Sounds/weapons:fy71:fy71_3rd_clipin" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.84214002" parameter="Sounds/weapons:fy71:reload_chamberempty" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.063129999" parameter="Sounds/weapons:fy71:fy71_3rd_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/reload_grenade_right_01.caf">
+  <event name="sound" time="0.1594" parameter="Sounds/weapons:fy71:fy71_3rd_grenopen" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.45987999" parameter="Sounds/weapons:fy71:fy71_3rd_grenadein" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.58181" parameter="Sounds/weapons:fy71:fy71_3rd_grenclose" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/select_01.caf">
+  <event name="sound" time="0.29028001" parameter="Sounds/weapons:fy71:select" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.18257999" parameter="Sounds/weapons:punch:select" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/switch_firemode_01.caf">
+  <event name="sound" time="0.43915001" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/switch_firemode_zoomed.caf">
+  <event name="sound" time="0.45848" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/switch_firemode_zoomed_ironsight_01.caf">
+  <event name="sound" time="0.51409" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/switch_firemode_zoomed_reflex_01.caf">
+  <event name="sound" time="0.51409" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/switch_firemode_zoomed_scope_01.caf">
+  <event name="sound" time="0.51409" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/zoom_in_reflex_01.caf">
+  <event name="sound" time="0.30673" parameter="Sounds/weapons:fy71:select" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russia/ak_47/zoom_out_reflex_01.caf">
+  <event name="sound" time="0.15454" parameter="Sounds/weapons:socom:socom_selct_x_03_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

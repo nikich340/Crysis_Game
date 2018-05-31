@@ -1,0 +1,68 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="tekstura_1" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="" Diffuse="0.29411766,0.29411766,0.29411766" Specular="0.17647059,0.17647059,0.17647059" Emissive="0,0,0" Shininess="150" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russia/ak_47/ak47_tex_1.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russia/ak_47/ak47_tex_1_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russia/ak_47/ak47_tex_1_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/metal/metal_damaged_01.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.465" AnisotropicShape="0.25" ReflectionAmount="1.5" FresnelBias="0.23999999" FresnelScale="2" AmbientMultiplier="2.25"/>
+  </Material>
+  <Material Name="tekstura_2" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="" Diffuse="0.37647063,0.37647063,0.37647063" Specular="0.17647059,0.17647059,0.17647059" Emissive="0,0,0" Shininess="150" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russia/ak_47/ak47_tex_2.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russia/ak_47/ak47_tex_2_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russia/ak_47/ak47_tex_2_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/metal/metal_damaged_01.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.465" AnisotropicShape="0.25" ReflectionAmount="1.5" FresnelBias="0.23999999" FresnelScale="2" AmbientMultiplier="2.25"/>
+  </Material>
+  <Material Name="tekstura_3" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="" Diffuse="0.31764707,0.31764707,0.31764707" Specular="0.17647059,0.17647059,0.17647059" Emissive="0,0,0" Shininess="150" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russia/ak_47/ak47_tex_3.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russia/ak_47/ak47_tex_3_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russia/ak_47/ak47_tex_3_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/metal/metal_damaged_01.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.465" AnisotropicShape="0.25" ReflectionAmount="1.5" FresnelBias="0.23999999" FresnelScale="2" AmbientMultiplier="2.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_thick_weapons" Diffuse="0,27450982,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
