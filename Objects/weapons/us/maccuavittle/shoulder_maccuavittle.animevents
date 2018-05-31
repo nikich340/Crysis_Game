@@ -1,0 +1,15 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.0316579e-037" parameter="" bone="" offset="1.0316579e-037,1.4321506e-038,1.43215e-038" dir="1.0316579e-037,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="5.4199182e-026" parameter="" bone="" offset="5.4199182e-026,1.4321506e-038,1.43215e-038" dir="5.4199182e-026,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shoulder_maccuavittle/reload_chamberempty_01.caf">
+  <event name="sound" time="0.21279" parameter="Sounds/maccuavittle:maccuavittle:maccu_should_open_cover" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.43223" parameter="Sounds/maccuavittle:maccuavittle:maccu_should_button" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.47191" parameter="Sounds/maccuavittle:maccuavittle:maccu_should_button" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.51705003" parameter="Sounds/maccuavittle:maccuavittle:maccu_should_button" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.68022001" parameter="Sounds/maccuavittle:maccuavittle:maccu_should_open_cover" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.089639999" parameter="Sounds/maccuavittle:maccuavittle:hand_put_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.84083998" parameter="Sounds/maccuavittle:maccuavittle:hand_put_down" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

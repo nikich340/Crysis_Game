@@ -1,0 +1,44 @@
+<ParticleLibrary Name="Lazer_beam" SandboxVersion="1.1.1.5767" ParticleVersion="18">
+ <Particles Name="Lazer_weapon.red_lazer" Id="{9E504EBF-23E6-4487-9675-C38DED7FF1A1}">
+  <Params Continuous="true" Count="0" ParticleLifeTime="0" BlendType="None" TextureTiling="4,,,4" Size="0" TailSteps="1" Speed="8.2" FillRateCost="1.23" MotionBlurScale="1.114"/>
+  <Childs>
+   <Particles Name="red_lazer1">
+    <Params Continuous="true" Count="700" BlendType="ColorBased" Texture="textures/sprites/square1.tif" Color="(,0,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.1" Stretch="0.01" Speed="100" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" MotionBlurScale="11"/>
+   </Particles>
+   <Particles Name="red_lazer2">
+    <Params Continuous="true" Count="18" BlendType="ColorBased" Texture="textures/sprites/shockwave2_mono.dds" Color="(,0,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.38" Speed="100" ViewDistanceAdjust="0.535"/>
+   </Particles>
+   <Particles Name="red_lazer3">
+    <Params Continuous="true" BlendType="ColorBased" Texture="textures/sprites/big_glow_mono.dds" Color="(,0,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.4" Speed="0" ViewDistanceAdjust="0.05"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Lazer_weapon.green_lazer" Id="{CDA59B41-500F-4F03-8805-0628DFB13F74}">
+  <Params Continuous="true" Count="0" ParticleLifeTime="0" BlendType="None" TextureTiling="4,,,4" Size="0" TailSteps="1" Speed="8.2" FillRateCost="1.23" MotionBlurScale="1.114"/>
+  <Childs>
+   <Particles Name="green_lazer1">
+    <Params Continuous="true" Count="700" BlendType="ColorBased" Texture="textures/sprites/square1.tif" Color="(0,,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.1" Stretch="0.01" Speed="100" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" MotionBlurScale="11"/>
+   </Particles>
+   <Particles Name="green_lazer2">
+    <Params Continuous="true" Count="18" BlendType="ColorBased" Texture="textures/sprites/shockwave2_mono.dds" Color="(0,,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.38" Speed="100" ViewDistanceAdjust="0.535"/>
+   </Particles>
+   <Particles Name="green_lazer3">
+    <Params Continuous="true" BlendType="ColorBased" Texture="textures/sprites/big_glow_mono.dds" Color="(0,,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.4" Speed="0" ViewDistanceAdjust="0.05"/>
+   </Particles>
+  </Childs>
+ </Particles>
+ <Particles Name="Lazer_weapon.blue_lazer" Id="{C075CCF2-7964-4B1D-88B6-199405FAE348}">
+  <Params Continuous="true" Count="0" ParticleLifeTime="0" BlendType="None" TextureTiling="4,,,4" Size="0" TailSteps="1" Speed="8.2" FillRateCost="1.23" MotionBlurScale="1.114"/>
+  <Childs>
+   <Particles Name="blue_lazer1">
+    <Params Continuous="true" Count="700" BlendType="ColorBased" Texture="textures/sprites/square1.tif" Color="(0,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.1" Stretch="0.01" Speed="100" PhysicsType="RigidBody" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" MotionBlurScale="11"/>
+   </Particles>
+   <Particles Name="blue_lazer2">
+    <Params Continuous="true" Count="18" BlendType="ColorBased" Texture="textures/sprites/shockwave2_mono.dds" Color="(0,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.38" Speed="100" ViewDistanceAdjust="0.535"/>
+   </Particles>
+   <Particles Name="blue_lazer3">
+    <Params Continuous="true" BlendType="ColorBased" Texture="textures/sprites/big_glow_mono.dds" Color="(0,0)" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.4" Speed="0" ViewDistanceAdjust="0.05"/>
+   </Particles>
+  </Childs>
+ </Particles>
+</ParticleLibrary>

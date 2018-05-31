@@ -1,0 +1,14 @@
+#filepath = Animations\1st_person\weapons\US\maccuavittle
+$AnimEventDatabase = objects\weapons\us\maccuavittle\maccuavittle.animevents
+
+
+select_01				      =	      select_01.caf
+idle_right_01                                 =       idle_right_01.caf
+fire_bullets_right_01			      =	      fire_bullets_right_01.caf
+remove_arm_left_01                            =       remove_arm_left_01.caf
+grab_weapon_left_01                           =       grab_weapon_left_01.caf
+zoom_in_ironsight_01                          =       zoom_in_ironsight_01.caf
+zoom_out_ironsight_01                         =       zoom_out_ironsight_01.caf
+idle_right_ironsight_01                       =       idle_right_ironsight_01.caf
+fire_bullets_right_ironsight_01               =       fire_bullets_right_ironsight_01.caf
+reload_chamberempty_01                          =        reload_chamberempty_01.caf

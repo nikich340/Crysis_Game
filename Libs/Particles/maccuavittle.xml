@@ -1,0 +1,8 @@
+<ParticleLibrary Name="maccuavittle" SandboxVersion="1.1.1.5767" ParticleVersion="18">
+ <Particles Name="fire.beam" Id="{A9AEB742-4240-412B-BD83-639754D533E7}">
+  <Params Continuous="true" Count="2000" ParticleLifeTime="0.17,0.525" BlendType="Additive" Texture="textures/sprites/smoke_white_tiled2_whispy.tif" TextureTiling="2,2,,4" Material="materials/particle/electricity_warping" Alpha=",,,(;0.1160714,1;0.5216666,1;1)" Color="(0.2392157,0.5215687,0.4901961)" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.5,0.228,,(,1;0.2410714,1;0.6071429,0.1136364;1)" Speed="0" GravityScale="-0.034,0.465" EmitAngle="8.4,1" RandomAngles=",,359" RandomRotationRate=",,50" DrawLast="2" FillRateCost="0"/>
+ </Particles>
+ <Particles Name="fire.beam_green" Id="{14B26FF9-62F0-4E6B-BD8A-1CA942E530B0}">
+  <Params Continuous="true" Count="2000" ParticleLifeTime="0.17,0.525" BlendType="Additive" Texture="textures/sprites/smoke_white_tiled2_whispy.tif" Material="materials/particle/electricity_warping" Alpha=",,,(0.008928572,0.04545455;0.125,1;0.4419643,1;0.9955357,0.02272727)" Color="(0.1058824,0.9333334,0.05882353)" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.5,0.228,,(,1;0.2410714,1;0.6116071,0.1136364;0.9910714,0.04545455)" Speed="0" GravityScale="-0.034,0.465" EmitAngle="8.4,1" RandomAngles=",,180" RandomRotationRate=",,50" DrawLast="2" FillRateCost="0"/>
+ </Particles>
+</ParticleLibrary>

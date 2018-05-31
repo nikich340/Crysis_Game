@@ -1,0 +1,42 @@
+﻿<ammo name="Lazer_red_gun_ammo" class="Rocket">
+  <flags>
+    <param name="clientonly" value="1" />
+  </flags>
+  <physics type="particle">
+    <param name="mass" value="0.035" />
+    <param name="speed" value="1500" />
+    <param name="radius" value="" />
+    <param name="air_resistance" value="0" />
+    <param name="water_resistance" value="0" />
+    <param name="gravity" value="0, 0, 0" />
+    <param name="water_gravity" value="0, 0, 0" />
+    <param name="thrust" value="0" />
+    <param name="lift" value="0" />
+    <param name="min_bounce_speed" value="8" />
+    <param name="material" value="" />
+    <param name="single_contact" value="1" />
+    <param name="pierceability" value="8" />
+  </physics>
+  <explosion>
+    <param name="pressure" value="0.5" />
+    <param name="min_radius" value="0.5" />
+    <param name="max_radius" value="0.5" />
+    <param name="min_phys_radius" value="0.5" />
+    <param name="max_phys_radius" value="0.5" />
+    <param name="hole_size" value="0.5" />
+    <param name="terrain_hole_size" value="0.5" />
+    <param name="effect" value="explosions.monitor.a" />
+    <param name="effect_scale" value="1" />
+  </explosion>
+  <params>
+    <param name="lifetime" value="2" />
+    <param name="showtime" value="0.5" />
+    <param name="bulletType" value="2" />
+    <!-- Bullet Type 2 - Assault rifle bullet -->
+  </params>
+  <trail>
+    <param name="effect" value="Lazer_beam.Lazer_weapon.red_lazer" />
+    <param name="scale" value=".5" />
+    <param name="sound" value="sounds/physics:bullet_whiz:missile_whiz_loop" />
+  </trail>
+</ammo>

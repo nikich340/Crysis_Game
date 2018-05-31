@@ -70,6 +70,12 @@ Player = {
 		claymoreexplosive=3,
 		rubberbullet=30*20,
 		tacgunprojectile=5,
+		suprabullet=30*10,
+        maccuavittleammo=100*3,
+        shoulder_maccuavittleammo=25*2,
+        Lazer_red_gun_ammo=100*2,
+        Lazer_green_gun_ammo=100*2,
+        Lazer_blue_gun_ammo=100*2,
 	},
 	
 	gameParams =

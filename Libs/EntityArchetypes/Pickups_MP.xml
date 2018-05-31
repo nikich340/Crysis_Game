@@ -125,15 +125,39 @@
   </Properties>
   <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
  </EntityPrototype>
- <EntityPrototype Name="Ammo/Clip.MP40_Clip_32" Id="{80A2888C-B6A8-4049-B8A1-FD4BDB26B607}" Class="CustomAmmoPickup" Description="">
-  <Properties AmmoName="smgbullet" Count="32" initialSetup="" objModel="objects/weapons/us/mp40/mp40_magazin_32.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
-   <Respawn bRespawn="1" nTimer="20" bUnique="0"/>
-  </Properties>
-  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
- </EntityPrototype>
  <EntityPrototype Name="Ammo/Clip.MG42_Clip_75" Id="{33759DBB-8E4A-4A99-BB74-19D2274DFF32}" Class="CustomAmmoPickup" Description="">
   <Properties AmmoName="hurricanebullet" Count="75" initialSetup="" objModel="objects/weapons/us/mg42/mg42_clip_75.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
    <Respawn bRespawn="1" nTimer="40" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.shoulder_maccuavittle_cache" Id="{608C932F-7A1C-4B30-AEC9-4BBF09DE0ABE}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="shoulder_maccuavittleammo" Count="25" initialSetup="" objModel="objects/weapons/us/maccuavittle/shoulder_maccuavittle_cache.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="90" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.maccuavittle_cache" Id="{DA39015B-97D3-443D-9E75-8E27F985DC1A}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="maccuavittleammo" Count="100" initialSetup="" objModel="objects/weapons/us/maccuavittle/maccuavittle_cache.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="90" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.Lazer_red_gun_cache" Id="{E70DE624-F898-453E-92B6-74052099EEE6}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="Lazer_red_gun_ammo" Count="100" initialSetup="" objModel="objects/weapons/us/maccuavittle/maccuavittle_cache.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="90" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.Lazer_blue_gun_cache" Id="{3EDFB57C-FFB5-42F6-BDAD-2F54D9B6E9A0}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="Lazer_blue_gun_ammo" Count="100" initialSetup="" objModel="objects/weapons/us/maccuavittle/maccuavittle_cache.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="90" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.Lazer_green_gun_cache" Id="{7755D1DD-2E3D-4ED0-BDDA-6282E2031F08}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="Lazer_green_gun_ammo" Count="100" initialSetup="" objModel="objects/weapons/us/maccuavittle/maccuavittle_cache.cgf" bPhysics="0" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="1" nTimer="90" bUnique="0"/>
   </Properties>
   <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
  </EntityPrototype>

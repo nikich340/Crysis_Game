@@ -1,0 +1,15 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.0316256e-037" parameter="" bone="" offset="1.0316256e-037,1.4321506e-038,1.43215e-038" dir="1.0316256e-037,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="5.4199329e-026" parameter="" bone="" offset="5.4199329e-026,1.4321506e-038,1.43215e-038" dir="5.4199329e-026,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/maccuavittle/reload_chamberempty_01.caf">
+  <event name="sound" time="0.47889" parameter="Sounds/maccuavittle:maccuavittle:maccuavittle_reload" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/maccuavittle/zoom_in_ironsight_01.caf">
+  <event name="sound" time="0.42835" parameter="Sounds/maccuavittle:maccuavittle:maccuavittle_pricel_on" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/maccuavittle/zoom_out_ironsight_01.caf">
+  <event name="sound" time="0.00182" parameter="Sounds/maccuavittle:maccuavittle:maccuavittle_pricel_of" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>
