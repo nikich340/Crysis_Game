@@ -1,0 +1,4 @@
+<AttachmentList>
+ <Attachment AName="Sigp226_silencer" Type="CA_BONE" Rotation="1,0,3.725293e-009,3.1664975e-008" Position="-0.00018454535,0.18532619,0.044309702" BName="attachement_silencer" Binding="objects/weapons/us/sigp226/attachements/sigp226_silencer.cgf"/>
+ <Attachment AName="Sigp226_LAM" Type="CA_BONE" Rotation="1,0,3.725293e-009,3.1664975e-008" Position="-0.00018455066,0.14366101,-0.0051353006" BName="attachement_LAM" Binding="objects/weapons/us/sigp226/attachements/sigp226_lam.cgf"/>
+</AttachmentList>

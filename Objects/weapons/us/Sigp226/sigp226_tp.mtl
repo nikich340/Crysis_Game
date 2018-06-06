@@ -1,0 +1,78 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="sigp226_body" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.58823532,0.58823532,0.58823532" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/sigp226/textures/Sig_p226_body_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/sigp226/Textures/Sig_p226_body_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/sigp226/textures/Sig_p226_body_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="sigp226_slide" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.58823532,0.58823532,0.58823532" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/US/Sigp226/Textures/Sig_p226_slide.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/sigp226/textures/Sig_p226_slide_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/sigp226/textures/Sig_p226_slide_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="sigp226_barrel" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.58431375,0.58431375,0.58431375" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/sigp226/textures/Sig_p226_barrel_color.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/sigp226/textures/Sig_p226_barrel_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/sigp226/textures/Sig_p226_barrel_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="sigp226_mag" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.58823532,0.58823532,0.58823532" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/US/Sigp226/Textures/Sig_p226_clip.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/sigp226/textures/Sig_p226_clip_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/sigp226/textures/Sig_p226_clip_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="sigp226_rommel" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.58823532,0.58823532,0.58823532" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/US/Sigp226/Textures/Sig_p226_rommel.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/sigp226/textures/Sig_p226_rommel_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/sigp226/textures/Sig_p226_rommel_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="sigp226_proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,11 @@
+<item name="SIGP226Silencer" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/us/sigp226/attachements/sigp226_silencer.cgf"/>
+		<thirdperson name="objects/weapons/us/sigp226/attachements/sigp226_silencer_tp.cgf" />
+	</geometry>
+</item>

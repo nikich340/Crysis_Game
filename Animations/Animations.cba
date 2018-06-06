@@ -1752,6 +1752,7 @@
 		<SpecialAnimsList>
     </SpecialAnimsList>
 	</AnimationDefinition>
+	
 	<!-- //animation definitions for the KRISS super V (weapon type) -->
  	<AnimationDefinition>
  		<DeletePosController value="0"/>
@@ -1769,8 +1770,29 @@
  		<RotatePosChild value="180"/>
  		<RotateQuatChild value="180"/>
  		<SpecialAnimsList>
-     </SpecialAnimsList>
-     </AnimationDefinition>
+    </SpecialAnimsList>
+    </AnimationDefinition>
+	 
+	 <!-- //animation definitions for the SIGP226 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Weapons/US/Sigp226/Sigp226_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/sigp226_fp"/>
+		<DataBase Path="1st_person/weapons/us/sigp226_fp/sigp226_fp.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	 
 	<!-- //animation definitions for the MOAC (weapon type) -->
 	<AnimationDefinition>
 		<DeletePosController value="0"/>

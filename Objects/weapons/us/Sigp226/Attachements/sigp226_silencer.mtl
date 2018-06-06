@@ -1,0 +1,22 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Silencer" MtlFlags="128" Shader="Metal" GenMask="268443664" SurfaceType="mat_metal_thick_weapons" Diffuse="0.17647059,0.17647059,0.17647059" Specular="0.56078434,0.56078434,0.56078434" Emissive="0,0,0" Shininess="1.7" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Objects/Weapons/US/Sigp226/Attachements/Textures/Sig_p226_silencer.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/sigp226/Attachements/Textures/Sig_p226_silencer_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/sigp226/attachements/textures/Sig_p226_silencer_ddn.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.25" ReflectionAmount="0.079999998" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
