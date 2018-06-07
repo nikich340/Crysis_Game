@@ -58,29 +58,29 @@
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/z_custom_weapons:sigp226:fire" radius="150" static="1" />
-			<sound target="thirdperson" name="sounds/z_custom_weapons:sigp226:fire" radius="150" static="1" />
+			<sound target="firstperson" name="sounds/sigp226:sigp226:fire" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/sigp226:sigp226:fire" radius="150" static="1" />
 		</action>
 		
 		<action name="fire_burst">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/z_custom_weapons:sigp226:fire_burst" radius="150" static="1" />
-			<sound target="thirdperson" name="sounds/z_custom_weapons:sigp226:fire_burst" radius="150" static="1" />
+			<sound target="firstperson" name="sounds/sigp226:sigp226:fire_burst" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/sigp226:sigp226:fire_burst" radius="150" static="1" />
 		</action>
 		
 		<action name="fire_burst_silenced">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/z_custom_weapons:sigp226:fire_burst_silenced" radius="2" static="1" />
-			<sound target="thirdperson" name="sounds/z_custom_weapons:sigp226:fire_burst_silenced" radius="2" static="1" />
+			<sound target="firstperson" name="sounds/sigp226:sigp226:fire_burst_silenced" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/sigp226:sigp226:fire_burst_silenced" radius="2" static="1" />
 		</action>
 		
 		<action name="fire_silenced">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/z_custom_weapons:sigp226:fire_silenced" radius="2" static="1" />
-			<sound target="thirdperson" name="sounds/z_custom_weapons:sigp226:fire_silenced" radius="2" static="1" />
+			<sound target="firstperson" name="sounds/sigp226:sigp226:fire_silenced" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/sigp226:sigp226:fire_silenced" radius="2" static="1" />
 		</action>
 	
 		<action name="change_firemode">
@@ -100,14 +100,14 @@
 		<action name="reload_chamber_empty">
 			<animation target="firstperson" name="reload_chamber_empty_right_01" />
 			<animation target="owner" name="reload" />
-			<sound target="firstperson" name="sounds/z_custom_weapons:sigp226:reload_chamberempty" radius="5" />
-			<!--<sound target="thirdperson" name="sounds/z_custom_weapons:sigp226:reload_chamberempty" radius="5"/>-->
+			<sound target="firstperson" name="sounds/sigp226:sigp226:reload_chamberempty" radius="5" />
+			<!--<sound target="thirdperson" name="sounds/sigp226:sigp226:reload_chamberempty" radius="5"/>-->
 		</action>
 		<action name="reload_chamber_full">
 			<animation target="firstperson" name="reload_chamber_full_right_01" />
 			<animation target="owner" name="reload" />
-			<sound target="firstperson" name="sounds/z_custom_weapons:sigp226:reload_chamberfull" radius="5" />
-			<!--<sound target="thirdperson" name="sounds/z_custom_weapons:sigp226:reload_chamberfull" radius="2"/>-->
+			<sound target="firstperson" name="sounds/sigp226:sigp226:reload_chamberfull" radius="5" />
+			<!--<sound target="thirdperson" name="sounds/sigp226:sigp226:reload_chamberfull" radius="2"/>-->
 		</action>
 		<action name="empty_clip">
 			<!--<animation target="firstperson" name="fire_bullets_right_01" />
