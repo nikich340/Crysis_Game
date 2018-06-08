@@ -1,0 +1,38 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="SubMtl1" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="mat_metal" Diffuse="0.52156866,0.52156866,0.52156866" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/stalker/fn2000/wpn_upgrade.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal" Diffuse="0.5411765,0.5411765,0.5411765" Specular="0.67000002,0.67000002,0.67000002" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/stalker/fn2000/wpn_fn2000_new.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/stalker/fn2000/wpn_fn2000_new_spec1.dds" Filter="6">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/stalker/fn2000/wpn_fn2000_new_ddn.dds" Filter="6">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_metal.dds" Filter="6">
+     <TexMod TileU="7.9299998" TileV="7.54"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.199" Glossiness="0.90100002"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/stalker/fn2000/wpn_crosshair.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

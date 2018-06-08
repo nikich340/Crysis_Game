@@ -1,0 +1,35 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.6513776e-018" parameter="" bone="" offset="1.6513776e-018,1.4321136e-038,1.432113e-038" dir="1.6513776e-018,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="3.8407948e-018" parameter="" bone="" offset="3.8407948e-018,1.4319678e-038,1.4319673e-038" dir="3.8407948e-018,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="7.3128649e-007" parameter="" bone="" offset="7.3128649e-007,1.4321136e-038,1.432113e-038" dir="7.3128649e-007,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="7.3128922e-007" parameter="" bone="" offset="7.3128922e-007,1.4321136e-038,1.432113e-038" dir="7.3128922e-007,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="2.3218248e-018" parameter="" bone="" offset="2.3218248e-018,1.4321136e-038,1.432113e-038" dir="2.3218248e-018,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="2.5522178e-018" parameter="" bone="" offset="2.5522178e-018,1.4321136e-038,1.432113e-038" dir="2.5522178e-018,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="1.3110925e-037" parameter="" bone="" offset="1.3110925e-037,1.4319678e-038,1.4319673e-038" dir="1.3110925e-037,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="1.5666767e-005" parameter="" bone="" offset="1.5666767e-005,1.4321136e-038,1.432113e-038" dir="1.5666767e-005,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="1.9517769e-036" parameter="" bone="" offset="1.9517769e-036,1.4321136e-038,1.432113e-038" dir="1.9517769e-036,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="8.9464712e-019" parameter="" bone="" offset="8.9464712e-019,1.4321136e-038,1.432113e-038" dir="8.9464712e-019,1.4321136e-038,1.432113e-038"/>
+ </animation>
+ <animation name="objects/stalker/fn2000/grab_weapon_left_01.caf">
+  <event name="sound" time="0.40957999" parameter="sounds/weapons:socom:socom_selct_x_04_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/stalker/fn2000/melee_01.caf">
+  <event name="sound" time="0.18716" parameter="sounds/weapons:melee:fire_fp_mw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/stalker/fn2000/reload_chamberfull_01.caf">
+  <event name="sound" time="0.18121" parameter="sounds/fn2000:sounds:reload_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.41541001" parameter="sounds/fn2000:sounds:reload_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.66077" parameter="sounds/fn2000:sounds:cock_back" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.77621001" parameter="sounds/fn2000:sounds:cock_fwd" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/stalker/fn2000/reload_grenade_right_01.caf">
+  <event name="sound" time="0.048519999" parameter="sounds/fn2000:sounds:cock_up_gl" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46594" parameter="sounds/fn2000:sounds:shell_in" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.71275002" parameter="sounds/fn2000:sounds:cock_down_gl" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/stalker/fn2000/remove_arm_left_01.caf">
+  <event name="sound" time="0.09409" parameter="sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.51195002" parameter="sounds/weapons:socom:socom_selct_x_03_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

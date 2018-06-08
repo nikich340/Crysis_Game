@@ -1,0 +1,30 @@
+#filepath = Objects\stalker\fn2000
+
+$AnimEventDatabase = Objects\stalker\fn2000\fn2000.animevents
+
+select_01=select_01.caf
+fire_bullets_right_01				=	fire_bullets_right_01.caf
+idle_right_01					=	idle_right_01.caf
+fire_bullets_right_ironsight_01			=	fire_bullets_right_ironsight_01.caf
+enter_modify_right_01=enter_modify_right_01.caf
+leave_modify_right_01=leave_modify_right_01.caf
+raise_right_01=raise_right_01.caf
+idle_raised_right_01=idle_raised_right_01.caf
+lower_right_01=lower_right_01.caf
+reload_chamberfull_01=reload_chamberfull_01.caf
+fire_bullets_right_akimbo_01=fire_bullets_right_akimbo_01.caf
+remove_arm_left_01=remove_arm_left_01.caf
+grab_weapon_left_01=grab_weapon_left_01.caf
+idle_right_akimbo_01=idle_right_akimbo_01.caf
+melee_01=melee_01.caf
+modify_layer_right_01=modify_layer_right_01.caf
+idle_right_ironsight_01=idle_right_ironsight_01.caf
+zoom_in_01=zoom_in_01.caf
+zoom_out_01=zoom_out_01.caf
+fire_bullets_right_ironsight_01=fire_bullets_right_ironsight_01.caf
+reload_chamberempty_01=reload_chamberfull_01.caf
+fire_bullets_right_reflex_01=fire_bullets_right_reflex_01.caf
+melee_akimbo_01=melee_akimbo_01.caf
+reload_grenade_right_01=reload_grenade_right_01.caf
+fire_grenade_right_01=fire_grenade_right_01.caf
+fire_grenade_right_akimbo_01=fire_grenade_right_akimbo_01.caf
