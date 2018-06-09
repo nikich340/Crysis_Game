@@ -1,0 +1,36 @@
+<Material Name="objects/weapons/desert_eagle/desert_eagle_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="reflection" MtlFlags="128" Shader="Metal" GenMask="268443664" SurfaceType="" Diffuse="0,0,0" Specular="6,6,6" Emissive="0,0,0" Shininess="255" Opacity="1" GlowAmount="0.050000001">
+   <Textures>
+    <Texture Map="Diffuse" File="Mods/ProjectFarCry/Game/objects/weapons/desert_eagle/textures/desert_eagle.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Mods/ProjectFarCry/Game/objects/weapons/desert_eagle/textures/desert_eagle.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Mods/ProjectFarCry/Game/objects/weapons/desert_eagle/textures/desert_eagle_dnn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="1.721" AnisotropicShape="0.33700001" ReflectionAmount="0.5" FresnelBias="1" FresnelScale="2"/>
+  </Material>
+  <Material Name="unreflection" MtlFlags="128" Shader="Metal" GenMask="268443648" SurfaceType="" Diffuse="0.82352948,0.82352948,0.82352948" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Mods/ProjectFarCry/Game/objects/weapons/desert_eagle/textures/desert_eagle.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Mods/ProjectFarCry/Game/objects/weapons/desert_eagle/textures/desert_eagle.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Mods/ProjectFarCry/Game/objects/weapons/desert_eagle/textures/desert_eagle_dnn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="1" AnisotropicShape="0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
