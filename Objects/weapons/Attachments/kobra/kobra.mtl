@@ -1,0 +1,33 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="linza" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.1254902,0.87450987,0.16078432" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="13">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/textures/machines/wpn_aimpoint_dot.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="diff" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/textures/machines/wpn_cobra.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #12" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.47058827,0.64705884,0.35294119" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.41600001" GlowAmount="25">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/textures/machines/wpn_cobra_lens.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #13" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

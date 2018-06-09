@@ -1,0 +1,76 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="MATERIAL2" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.45098042,0.45098042,0.45098042" Specular="0.1137255,0.1137255,0.1137255" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/wpn_9a91_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/wpn_9a91_s.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/wpn_9a91_n.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russian/9a91/all_textures/wpn_9a91_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="MATERIAL3" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.44705886,0.44705886,0.44705886" Specular="0.090196081,0.090196081,0.090196081" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/textures/machines/wpn_cobra.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="MATERIAL5" MtlFlags="162" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.098039225,0.098039225,0.098039225" Emissive="0,0,0" Opacity="1" AlphaTest="0.257" GlowAmount="15.1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/textures/machines/wpn_cobra_lens.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="MATERIAL4" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.45490199,0.45490199,0.45490199" Specular="0.12156864,0.12156864,0.12156864" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/dop_ak74_d.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="MATERIAL6" MtlFlags="162" Shader="Metal" GenMask="268435456" SurfaceType="" Diffuse="0.094117656,0.85490203,0.011764707" Specular="0.0039215689,0.19607845,0.015686275" Emissive="0,0,0" Shininess="65.199997" Opacity="1" AlphaTest="0.32699999" GlowAmount="13.4">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/aimpoint_dot_d.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="MATERIAL7" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.41176474,0.41176474,0.41176474" Specular="0.12156864,0.12156864,0.12156864" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/silencer_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/silencer_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/silencer_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="bullet" MtlFlags="162" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.50980395,0.50980395,0.50980395" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/s1_d.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

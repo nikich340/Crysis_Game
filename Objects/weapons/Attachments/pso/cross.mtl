@@ -1,0 +1,21 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="1" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/pso/aks74_opt_zoom_fp.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="2" MtlFlags="162" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.050980397,0.050980397,0.050980397" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/pso/crosshair_pso.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

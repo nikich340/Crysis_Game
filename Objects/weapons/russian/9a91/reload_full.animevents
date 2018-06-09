@@ -1,0 +1,66 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.534373e+027" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.534373e+027" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.9779996e+028" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.4062857e+026" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.193108e+024" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.1836173e+025" parameter="" bone="" offset="2.8025969e-045,0,2.8025969e-045" dir="2.8025969e-045,0,2.8025969e-045"/>
+  <event name="" time="1.1836173e+025" parameter="" bone="" offset="2.8025969e-045,0,2.8025969e-045" dir="2.8025969e-045,0,2.8025969e-045"/>
+  <event name="" time="1.0608818e+024" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.0608818e+024" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="4.6024269e+024" parameter="" bone="" offset="5.6051939e-045,0,2.8025969e-045" dir="5.6051939e-045,0,2.8025969e-045"/>
+  <event name="" time="4.6024269e+024" parameter="" bone="" offset="1.4012985e-045,0,2.8025969e-045" dir="1.4012985e-045,0,2.8025969e-045"/>
+  <event name="" time="3.6366068e+025" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.5550795e+024" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="2.0146803e+026" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.4763446e+027" parameter="" bone="" offset="2.8025969e-045,0,2.8025969e-045" dir="2.8025969e-045,0,2.8025969e-045"/>
+  <event name="" time="1.4763446e+027" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="1.4763446e+027" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="6.517635e+025" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+  <event name="" time="6.517635e+025" parameter="" bone="" offset="0,0,2.8025969e-045" dir="0,0,2.8025969e-045"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/enter_modify_right_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:shiten:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/lower_right_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:scar:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/melee_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:melee:fire_fp_sw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/raise_right_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:scar:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/reload_chamberempty_01.caf">
+  <event name="sound" time="0.24038" parameter="Sounds/Weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.57985997" parameter="Sounds/Weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.73114002" parameter="Sounds/Weapons/vintorez:sounds:cock_back" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.79386997" parameter="Sounds/Weapons/vintorez:sounds:cock_fwd" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.73062998" parameter="Sounds/Weapons:fy71:fy71_reload_04_chockback" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/reload_chamberfull_01.caf">
+  <event name="sound" time="0.93146002" parameter="Sounds/physics:player_foley:bodyfall_mud" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.2177" parameter="Sounds/Weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75274998" parameter="Sounds/Weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.24721999" parameter="Sounds/Weapons:fy71:fy71_reload_06_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/select_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:smg:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/switch_firemode_right_01.caf">
+  <event name="sound" time="0.49076" parameter="Sounds/Weapons:fy71:dryfire" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/zoom_in_ironsight_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:fy71:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/zoom_in_pso_01.caf">
+  <event name="sound" time="0.1674" parameter="Sounds/Weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/zoom_in_reflex_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:scar:deselect" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/russian/9a91/zoom_in_scope_01.caf">
+  <event name="sound" time="0" parameter="Sounds/Weapons:fy71:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

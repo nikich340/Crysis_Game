@@ -1,0 +1,17 @@
+<Material MtlFlags="2" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.38431376,0.38431376,0.38431376" Specular="0,0,0" Emissive="0.5529412,0.5529412,0.5529412" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/1p29_d.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/1p29_d.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/1p29_norm.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="objects/weapons/russian/9a91/all_textures/1p29_norm.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

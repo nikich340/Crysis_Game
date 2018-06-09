@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="pbs-1" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="1,1,1" Specular="0.16470589,0.16470589,0.16470589" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/pbs-1_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/pbs-1_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/pbs-1_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,50 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="1" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.47058827,0.47058827,0.47058827" Specular="0.031372551,0.031372551,0.031372551" Emissive="0,0,0" Shininess="20.799999" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/4a_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/4a_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/4a_n.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russian/9a91/all_textures/4a_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="2" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.47450984,0.47450984,0.47450984" Specular="0,0,0" Emissive="0,0,0" Shininess="69.699997" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/leotech_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/leotech_s.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/leotech_n.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russian/9a91/all_textures/leotech_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="3" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.97647065,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="16.299999" Opacity="0.98000002" AlphaTest="-1.2" GlowAmount="100">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/textures/machines/wpn_eot_lens.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/textures/machines/wpn_eot_lens.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,29 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="1" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/pso/AKS74_opt_zoom_fp.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="2" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/pso/crosshair_pso.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="3" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,0.035294119,0.058823533" Specular="0.95686281,0,0.023529414" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="19.799999">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="4" MtlFlags="130" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

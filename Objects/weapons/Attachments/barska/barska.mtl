@@ -1,0 +1,39 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="1" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.54901963,0.54901963,0.54901963" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/barska_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/barska_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/barska_n.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russian/9a91/all_textures/barska_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="2" MtlFlags="130" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/russian/9a91/all_textures/rail_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/russian/9a91/all_textures/rail_d.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/russian/9a91/all_textures/rail_n.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/russian/9a91/all_textures/rail_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
