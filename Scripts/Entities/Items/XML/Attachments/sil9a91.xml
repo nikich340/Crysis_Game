@@ -1,0 +1,11 @@
+<item name="sil9a91" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/attachments/sil9a91/sil9a91.cgf"/>
+		<thirdperson name="objects/weapons/attachments/sil9a91/sil9a91.cgf" />
+	</geometry>
+</item>

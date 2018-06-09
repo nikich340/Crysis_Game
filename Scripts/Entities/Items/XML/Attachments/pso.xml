@@ -1,0 +1,13 @@
+<item name="pso" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="scopeAttachment" value="1" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/attachments/pso/pso_fp.cgf"/>
+		<thirdperson name="objects/weapons/attachments/pso/pso_tp.cgf" />
+		<aux1  name="objects/weapons/attachments/pso/cross.cgf" />
+	</geometry>
+</item>
