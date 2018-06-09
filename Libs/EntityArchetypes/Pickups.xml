@@ -582,4 +582,100 @@
   </Properties>
   <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
  </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_full_equipment" Id="{8226D1A3-2720-4B74-8B7C-279BC6831BE7}" Class="AK_12" Description="">
+  <Properties HitPoints="0" initialSetup="AK_12_GP25Koster,AK_12_PN23Saracen,AK_12_PBS1,AK_12_Anpeq15" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_Reflex" Id="{2826CDB4-6387-4EE6-801C-E3A67BDF74A5}" Class="AK_12" Description="">
+  <Properties HitPoints="0" initialSetup="AK_12_EPK8Kobra" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_Anpeq15" Id="{6333455E-74E1-480B-8774-0941D5E45E4E}" Class="AK_12" Description="">
+  <Properties HitPoints="0" initialSetup="AK_12_Anpeq15" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_GP25Koster" Id="{2BAE7F92-1162-4E4B-948F-C962D23A1D61}" Class="AK_12" Description="">
+  <Properties HitPoints="0" initialSetup="AK_12_GP25Koster" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_Silenser" Id="{4BAD19DD-F67D-4BF8-8C52-C324AF79117E}" Class="AK_12" Description="">
+  <Properties HitPoints="0" initialSetup="AK_12_PBS1" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_Sniper_scope" Id="{0E184362-A078-4AE2-8589-64C8D6123545}" Class="AK_12" Description="">
+  <Properties HitPoints="0" initialSetup="AK_12_PN23Saracen" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_attachments_PBS1" Id="{AC303FD6-872F-4640-9C42-FF2CBA8B3531}" Class="AK_12_PBS1" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_attachments_EPK8Kobra" Id="{70E28278-01D3-48EF-8837-501CCB8451B1}" Class="AK_12_EPK8Kobra" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_attachments_Anpeq15" Id="{514578EB-4157-44F6-8F85-B22612AE52F9}" Class="AK_12_Anpeq15" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_attachments_PN23Saracen" Id="{8C03385F-869B-4A11-A20A-2279451F2EEF}" Class="AK_12_PN23Saracen" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="AK_12.AK_12_attachments_GP25Koster" Id="{B180B3FE-E86C-46F8-A325-79A8EFFE485B}" Class="AK_12_GP25Koster" Description="">
+  <Properties HitPoints="0" initialSetup="" bMounted="0" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.AK_12_bullets_300" Id="{6EB150F6-8309-4554-8150-C942ADB9BE6B}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="300" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_300.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.AK_12_bullets_30" Id="{05AFA4DA-375B-42E8-9171-0626E615F386}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="30" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_30.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.AK_12_bullets_60" Id="{0FD6E682-178F-4EFC-8940-EC98B88AFCDA}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="60" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_60.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Single.AK_12_bullets_1" Id="{83924DCA-05BA-4B48-9ECB-91FE6E9EEDF8}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="1" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_1.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Single.AK_12_VOG25" Id="{B222FAE8-1CBC-484B-86EB-E33748EE1567}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_VOG25" Count="1" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_vog25.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
 </EntityPrototypeLibrary>

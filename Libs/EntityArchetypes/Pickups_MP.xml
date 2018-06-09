@@ -161,4 +161,34 @@
   </Properties>
   <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
  </EntityPrototype>
+ <EntityPrototype Name="Ammo/Single.AK_12_VOG25" Id="{4603396A-4840-4143-99F9-F53908001364}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_VOG25" Count="1" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_vog25.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="0" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="15" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.AK_12_bullets_60" Id="{FCE8CEB4-8AF6-4326-9180-F0E1A5E480CD}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="60" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_60.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Clip.AK_12_bullets_30" Id="{55D432A5-6F9F-4DEA-B349-2148D28AFA13}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="30" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_30.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Cache.AK_12_bullets_300" Id="{FFF3C65A-39E3-4B70-AD52-FE1BE34F3683}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="300" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_300.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Single.AK_12_bullets_1" Id="{1F340FEA-F9A3-49D7-83E5-E10327E6E2AC}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="AK_12_bullet_545x39mm" Count="1" initialSetup="" objModel="objects/weapons/russia/ak_12/ak_12_bullets_1.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="0">
+   <Respawn bRespawn="0" nTimer="20" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="250" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
 </EntityPrototypeLibrary>

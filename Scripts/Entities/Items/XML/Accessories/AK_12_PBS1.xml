@@ -1,0 +1,11 @@
+<item name="AK_12_PBS1" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="Objects\weapons\Russia\AK_12\AK_12_PBS_fp.cgf"/>
+		<thirdperson name="Objects\weapons\Russia\AK_12\AK_12_PBS1.cgf" />
+	</geometry>
+</item>

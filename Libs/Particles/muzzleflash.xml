@@ -1590,4 +1590,10 @@
  <Particles Name="static.assault" Id="{689196C5-97B7-4A2F-BA20-E86A17B3EE3C}">
   <Params />
  </Particles>
+ <Particles Name="LAM.aimdot_green" Id="{EBE52448-AD9A-4FCB-B277-6C7EBC742E66}">
+  <Params Continuous="true" Count="10" ParticleLifeTime="0.04" BlendType="Additive" Texture="textures/sprites/glow1.dds" Color="(0.1098039,0.6705883,0.04705883)" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.02,,,(0.4955357,1;1)" Speed="0" BindToEmitter="true" MoveRelEmitter="true"/>
+ </Particles>
+ <Particles Name="LAM.aimdot_FP_green" Id="{50944B18-EFDA-4C25-941E-4FBC6918F2D9}">
+  <Params Continuous="true" Count="35" ParticleLifeTime="0.04" BlendType="Additive" Texture="textures/sprites/glow1.dds" Color="(0.1098039,0.6705883,0.04705883)" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="1" EmissiveHDRDynamic="2" Size="0.02,,,(0.4955357,1;1)" MinPixels="3" Speed="0" BindToEmitter="true"/>
+ </Particles>
 </ParticleLibrary>

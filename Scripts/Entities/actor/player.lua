@@ -76,6 +76,8 @@ Player = {
         Lazer_red_gun_ammo=100*2,
         Lazer_green_gun_ammo=100*2,
         Lazer_blue_gun_ammo=100*2,
+        AK_12_VOG25=10,
+        AK_12_bullet_545x39mm=60*5,
 	},
 	
 	gameParams =

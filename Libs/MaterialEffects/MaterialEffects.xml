@@ -19320,6 +19320,7 @@
    </Row>
    <Row ss:AutoFitHeight="0" ss:StyleID="s34">
     <Cell ss:StyleID="s24"><Data ss:Type="String">bullet</Data></Cell>
+	<Cell ss:StyleID="s24"><Data ss:Type="String">AK_12_bullet_545x39mm</Data></Cell>
     <Cell><Data ss:Type="String">bulletimpacts:hit_mat_metal</Data></Cell>
     <Cell ss:StyleID="s29"><Data ss:Type="String">collisions:bloody_flesh</Data></Cell>
     <Cell ss:StyleID="s29"><Data ss:Type="String">collisions:bloody_alien_flesh</Data></Cell>
