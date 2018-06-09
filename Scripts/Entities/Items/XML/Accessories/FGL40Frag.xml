@@ -1,0 +1,14 @@
+<item name="FGL40Frag" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<accessoryAmmo>
+		<ammo name="scargrenade" amount="6" />
+	</accessoryAmmo>
+	<geometry>
+		<firstperson name="objects/weapons/asian/fgl40/drum_frag.cdf"/>
+		<thirdperson name="objects/weapons/asian/fgl40/frag_drum_tp.cgf"/>
+	</geometry>
+</item>

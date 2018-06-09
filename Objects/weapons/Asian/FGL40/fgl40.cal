@@ -1,0 +1,25 @@
+#filepath = Animations\1st_person\weapons\Asian\FGL40
+
+$AnimEventDatabase = objects\weapons\asian\fgl40\fgl40_eventdatabase.animevents
+$TracksDatabase = animations\1st_person\weapons\Asian\FGL40\FGL40.dba
+select_weapon=select_01.caf
+idle_animation_01=idle_01.caf
+idle_animation_akimbo_01=one_handed_idle.caf
+reloading_open=reloading_open.caf
+reloading_loading_hand=reloading_loading_hand.caf
+reloading_close=reloading_close.caf
+fire_weapon=firing_01.caf
+switch_firemode=switch_firemode.caf
+modify_enter=modify_enter.caf
+modify_idle=modify_idle.caf
+modify_leave=modify_leave.caf
+modify_apply_attachment=modify_apply_attachment.caf
+zerog_idle_to_zerog=idle_to_zerog.caf
+zerog_idle=zerog_idle.caf
+zerog_to_normal=zerog_to_normal.caf
+raise_weapon=raise.caf
+raise_idle=raised_idle.caf
+raise_to_normal=raised_to_normal.caf
+melee_attack=melee_01.caf
+grab_weapon_left_01=grab_left_hand.caf
+remove_hand_left_01=remove_left_hand.caf

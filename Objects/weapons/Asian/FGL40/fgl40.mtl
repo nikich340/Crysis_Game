@@ -1,0 +1,87 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="part1" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="mat_metal_thick_weapons" Diffuse="0.35294119,0.36078432,0.38823533" Specular="0.42672414,0.45258617,0.5" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/asian/fgl40/fgl40_part1.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/asian/fgl40/fgl40_part1_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/asian/fgl40/fgl40_part1_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3_desaturate.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.25" AnisotropicShape="0.77200001" ReflectionAmount="0.2" FresnelBias="0.050000001" FresnelScale="13.47" AmbientMultiplier="0"/>
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="0">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="part2" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="mat_metal_thick_weapons" Diffuse="0.38823533,0.39607847,0.41960788" Specular="0.42352945,0.45098042,0.49803925" Emissive="0,0,0" Shininess="4" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/asian/fgl40/fgl40_part2.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/asian/fgl40/fgl40_part2_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/asian/fgl40/fgl40_part2_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3_desaturate.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.25" AnisotropicShape="0.58399999" ReflectionAmount="0.2" FresnelBias="0.098999999" FresnelScale="13.66" AmbientMultiplier="0"/>
+   <MaterialLayers>
+    <Layer Name="Frozenlayerwip" NoDraw="0">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="1" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="emp_drum" MtlFlags="128" Shader="Metal" GenMask="268444176" SurfaceType="mat_metal" Diffuse="0.28235295,0.29411766,0.33333334" Specular="0.45098042,0.48627454,0.59215689" Emissive="0,0,0" Shininess="5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/asian/fgl40/fgl40_part3.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/asian/fgl40/fgl40_part3_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/asian/fgl40/fgl40_part3_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sphere_hull3_desaturate.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.27900001" AnisotropicShape="0.713" ReflectionAmount="2" FresnelBias="0.139" FresnelScale="0.75"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+  <Material Name="monitor" MtlFlags="128" Shader="Illum" GenMask="285220864" SurfaceType="mat_plastic" Diffuse="0.24705884,0.24705884,0.24705884" Specular="0.06666667,0.06666667,0.06666667" Emissive="0,0,0" Shininess="10.4" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/asian/fgl40/fgl40_monitor.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Decal" File="objects/natural/ground_plants/mushrooms/lighting_mushrooms01_lightstaf.tif">
+     <TexMod TileU="2" TileV="16" OffsetU="30" OffsetV="30" TexMod_UOscillatorType="2" TexMod_VOscillatorType="2" TexMod_UOscillatorRate="5" TexMod_VOscillatorRate="5" TexMod_UOscillatorPhase="1" TexMod_VOscillatorPhase="1" TexMod_UOscillatorAmplitude="1" TexMod_VOscillatorAmplitude="1"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="0"/>
+  </Material>
+  <Material Name="SubMtl6" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_nodraw" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

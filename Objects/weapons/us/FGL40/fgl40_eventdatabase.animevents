@@ -1,0 +1,122 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="5.5632197e-027" parameter="" bone="" offset="5.5632197e-027,1.4321506e-038,1.43215e-038" dir="5.5632197e-027,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="8.6375955e-028" parameter="" bone="" offset="8.6375955e-028,1.4321506e-038,1.43215e-038" dir="8.6375955e-028,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="2.3316887e-028" parameter="" bone="" offset="2.3316887e-028,1.4321506e-038,1.43215e-038" dir="2.3316887e-028,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/deselect_01.caf">
+  <event name="sound" time="0.39800003" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/enter_modify_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.25400001" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/fire_bullets_right_01.caf">
+  <event name="sound" time="0.37200001" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_03_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.583" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_04_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/fire_bullets_right_ironsight_01.caf">
+  <event name="sound" time="0.42000002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_03_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.61200005" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_04_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/fire_bullets_right_reflex_01.caf">
+  <event name="sound" time="0.42400002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_03_cock1" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.60800004" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_04_cock2" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/fire_bullets_right_scope_01.caf">
+  <event name="sound" time="0.41300002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_03_cock1" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.59400004" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_04_cock2" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/grab_weapon_left_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46516001" parameter="Sounds/weapons:shotgun:shotgun_post_reld_02_grab" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/leave_modify_right_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.044000003" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.53310001" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_02_grbhnd" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/lower_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.25800002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/melee_01.caf">
+  <event name="sound" time="0.0068000001" parameter="Sounds/weapons:melee:fire_fp_mw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/post_reload_01.caf">
+  <event name="sound" time="0.41264999" parameter="Sounds/weapons:shotgun:shotgun_post_reld_01_dwn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74980998" parameter="Sounds/weapons:shotgun:shotgun_post_reld_02_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/post_reload_02.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:shotgun:shotgun_post_reld_01_dwn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.30208999" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_03_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.51612997" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_04_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46399999" parameter="Sounds/weapons:shotgun:shotgun_post_reld_01_dwn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.27873001" parameter="Sounds/weapons:shotgun:shotgun_3rd_grabgun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/pre_reload_01.caf">
+  <event name="sound" time="0.011" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_01_dwn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.53200001" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_02_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/raise_right_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.25" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/reload_loop_01.caf">
+  <event name="sound" time="0.38382" parameter="Sounds/weapons:shotgun:shell_insert" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/remove_hand_left_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/select_01.caf">
+  <event name="sound" time="0.011" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.23131999" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_03_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.38510001" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_04_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.72052002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/select_02.caf">
+  <event name="sound" time="0.01124" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67484999" parameter="Sounds/weapons:shotgun:shotgun_3rd_grabgun" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/switch_firemode_right_01.caf">
+  <event name="sound" time="0.35244" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zerog_to_idle_right_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.15400001" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.597" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_02_grab" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_in_fc_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/physics:player_foley:zoom" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.033" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_01_dwn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_in_ironsight_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.022000002" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_in_reflex_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.014" parameter="Sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_in_scope_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/physics:player_foley:zoom" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.033" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_01_dwn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_out_fc_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.022000002" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_01_dwn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_out_ironsight_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018000001" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_01_dwn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_out_reflex_01.caf">
+  <event name="sound" time="0.36136001" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.014" parameter="Sounds/weapons:shotgun:shotgun_post_reld_01_dwn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/shotgun/zoom_out_scope_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:suit_movement" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.022000002" parameter="Sounds/weapons:shotgun:shotgun_pre_reld_01_dwn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

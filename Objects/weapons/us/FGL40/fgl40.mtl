@@ -1,0 +1,43 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="fgl40" MtlFlags="160" Shader="Metal" GenMask="268440080" SurfaceType="mat_metal" Diffuse="0.49411768,0.49411768,0.49411768" Specular="0.33333334,0.33333334,0.33333334" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/fgl40/textures/fgl40.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/fgl40/textures/fgl40_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/fgl40/textures/fgl40_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env4.tif" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.109" Glossiness="0.861" ReflectionAmount="0.60000002" FresnelBias="0.1" FresnelScale="1"/>
+  </Material>
+  <Material Name="nodraw" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="mat_metal" Diffuse="0,588,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="plastic" MtlFlags="160" Shader="Illum" GenMask="285212688" SurfaceType="mat_metal" Diffuse="0.4784314,0.4784314,0.4784314" Specular="0.28627452,0.28627452,0.28627452" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/fgl40/textures/fgl40.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/fgl40/textures/fgl40_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/fgl40/textures/fgl40_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_concrete.dds">
+     <TexMod TileU="5" TileV="5"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

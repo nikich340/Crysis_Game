@@ -1,0 +1,50 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.1145825e-022" parameter="" bone="" offset="1.1145825e-022,1.4320093e-038,1.4320088e-038" dir="1.1145825e-022,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="1.1145825e-022" parameter="" bone="" offset="1.1145825e-022,1.4321506e-038,1.43215e-038" dir="1.1145825e-022,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="3.3544732e-026" parameter="" bone="" offset="3.3544732e-026,1.4320093e-038,1.4320088e-038" dir="3.3544732e-026,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="3.3924717e-026" parameter="" bone="" offset="3.3924717e-026,1.4319645e-038,1.4319639e-038" dir="3.3924717e-026,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="3.4008952e-026" parameter="" bone="" offset="3.4008952e-026,1.4319645e-038,1.4319639e-038" dir="3.4008952e-026,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="5.3491857e-020" parameter="" bone="" offset="5.3491857e-020,1.4319645e-038,1.4319639e-038" dir="5.3491857e-020,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5658402e-022" parameter="" bone="" offset="1.5658402e-022,1.4319645e-038,1.4319639e-038" dir="1.5658402e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5656736e-022" parameter="" bone="" offset="1.5656736e-022,1.4319645e-038,1.4319639e-038" dir="1.5656736e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5657584e-022" parameter="" bone="" offset="1.5657584e-022,1.4319645e-038,1.4319639e-038" dir="1.5657584e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5656736e-022" parameter="" bone="" offset="1.5656736e-022,1.4319645e-038,1.4319639e-038" dir="1.5656736e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5653767e-022" parameter="" bone="" offset="1.5653767e-022,1.4319645e-038,1.4319639e-038" dir="1.5653767e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5573472e-022" parameter="" bone="" offset="1.5573472e-022,1.4319645e-038,1.4319639e-038" dir="1.5573472e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5575684e-022" parameter="" bone="" offset="1.5575684e-022,1.4319645e-038,1.4319639e-038" dir="1.5575684e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5574018e-022" parameter="" bone="" offset="1.5574018e-022,1.4319645e-038,1.4319639e-038" dir="1.5574018e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.3671502e-022" parameter="" bone="" offset="1.3671502e-022,1.4321282e-038,1.4321276e-038" dir="1.3671502e-022,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="1.5807854e-022" parameter="" bone="" offset="1.5807854e-022,1.4321282e-038,1.4321276e-038" dir="1.5807854e-022,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="1.565619e-022" parameter="" bone="" offset="1.565619e-022,1.4319645e-038,1.4319639e-038" dir="1.565619e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5656736e-022" parameter="" bone="" offset="1.5656736e-022,1.4321282e-038,1.4321276e-038" dir="1.5656736e-022,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="1.5574018e-022" parameter="" bone="" offset="1.5574018e-022,1.4319645e-038,1.4319639e-038" dir="1.5574018e-022,1.4319645e-038,1.4319639e-038"/>
+  <event name="" time="1.5656736e-022" parameter="" bone="" offset="1.5656736e-022,1.4321282e-038,1.4321276e-038" dir="1.5656736e-022,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="1.5574018e-022" parameter="" bone="" offset="1.5574018e-022,1.4321282e-038,1.4321276e-038" dir="1.5574018e-022,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="3.3924717e-026" parameter="" bone="" offset="3.3924717e-026,1.4321282e-038,1.4321276e-038" dir="3.3924717e-026,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="0" parameter="" bone="" offset="3.6465934e-038,0,1.4012985e-045" dir="3.6465934e-038,0,1.4012985e-045"/>
+  <event name="" time="9.931713e-038" parameter="" bone="" offset="9.931713e-038,1.4321506e-038,1.43215e-038" dir="9.931713e-038,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/asian/fgl40/melee_01.caf">
+  <event name="sound" time="0.051660001" parameter="Sounds/weapons:melee:fire_fp_sw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/asian/fgl40/reloading_close.caf">
+  <event name="sound" time="0.92249" parameter="Sounds/weapons:automata_grenade_launcher:close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0" parameter="Sounds/weapons:automata_grenade_launcher:clothes_close" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.28781" parameter="Sounds/weapons:automata_grenade_launcher:hand" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/asian/fgl40/reloading_loading_hand.caf">
+  <event name="sound" time="0.34287" parameter="Sounds/weapons:automata_grenade_launcher:reload" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.63960999" parameter="Sounds/weapons:automata_grenade_launcher:single_click" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/asian/fgl40/reloading_open.caf">
+  <event name="sound" time="0.62636" parameter="Sounds/weapons:automata_grenade_launcher:open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.55663002" parameter="Sounds/weapons:automata_grenade_launcher:open_first_phase" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0" parameter="Sounds/weapons:automata_grenade_launcher:clothes_open" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.96020001" parameter="Sounds/weapons:automata_grenade_launcher:close_finished" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/asian/fgl40/switch_firemode.caf">
+  <event name="sound" time="0.33948001" parameter="Sounds/weapons:weapon_accessories:change_firemode" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.12997" parameter="Sounds/weapons:automata_grenade_launcher:clothes_close" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

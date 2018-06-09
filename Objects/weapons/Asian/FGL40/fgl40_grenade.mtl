@@ -1,0 +1,16 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="fgl40_grenade" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal" Diffuse="0.35294119,0.35294119,0.35294119" Specular="0.57254905,0.57254905,0.57254905" Emissive="0,0,0" Shininess="10" Opacity="1" GlowAmount="9.8999996">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/asian/fgl40/fgl40_grenade.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/asian/fgl40/fgl40_grenade_ddn.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
