@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CrysisMod">
+</Property><Property Name="Solution File" Value="D:\Games\Crysis\Mods\CloakMod1\Code\CrysisMod.sln">
+</Property><Property Name="Date" Value="11 июня 2018 г.">
+</Property><Property Name="Time" Value="6:40">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CrysisMod.sln" Description="File successfully backed up as D:\Games\Crysis\Mods\CloakMod1\Code\CrysisMod.sln.old">
+</Event><Event ErrorLevel="0" Project="GameDll" Source="GameDll.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="GameDll" Source="GameDll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="CryCommon" Source="..\..\..\Code\CryEngine\CryCommon\CryCommon.vcproj" Description="The following error has occurred during XML parsing:&#xA;&#xA;File: D:\Games\Crysis\Code\CryEngine\CryCommon\CryCommon.vcproj&#xA;Line: 10&#xA;Column: 2&#xA;Error Message:&#xA;&quot;9,00&quot; нарушает ограничение enumeration для &quot;7.00 7,00 7.10 7,10 8.00 8,00&quot;.&#xA;Не удалось проанализировать атрибут &quot;Version&quot; со значением &quot;9,00&quot;.&#xA;&#xA;The file 'D:\Games\Crysis\Code\CryEngine\CryCommon\CryCommon.vcproj' has failed to load.">
+</Event><Event ErrorLevel="2" Project="CryCommon" Source="..\..\..\Code\CryEngine\CryCommon\CryCommon.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="CryCommon" Source="..\..\..\Code\CryEngine\CryCommon\CryCommon.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CrysisMod.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="CrysisMod.sln" Description="No Conversion Required">
+</Event></UpgradeLog>
