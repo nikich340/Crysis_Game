@@ -11,6 +11,7 @@ History:
 
 *************************************************************************/
 #include "StdAfx.h"
+#include <StringUtils.h>
 #include "Game.h"
 #include "Weapon.h"
 #include "Player.h"
@@ -71,8 +72,13 @@ void CWeapon::OnShoot(EntityId shooterId, EntityId ammoId, IEntityClass* pAmmoTy
 			{
 				if (pSuit->GetMode() == NANOMODE_STRENGTH && !IsMounted())
 					pSuit->SetSuitEnergy(pSuit->GetSuitEnergy()-g_pGameCVars->g_suitRecoilEnergyCost);
-				else if(pSuit->GetMode() == NANOMODE_CLOAK)
-					pSuit->SetSuitEnergy(0.0f);
+				else if (pSuit->GetMode() == NANOMODE_CLOAK && strcmp(pAmmoType->GetName(), "StickyArrow")) {
+					if (IsSilencerAttached()) {
+						pSuit->SetSuitEnergy(pSuit->GetSuitEnergy() - 50.0f);
+					} else {
+						pSuit->SetSuitEnergy(0.0f);
+					}
+				}
 			}
 		}
 

@@ -11,6 +11,7 @@ History:
 
 *************************************************************************/
 #include "StdAfx.h"
+#include <StringUtils.h>
 #include "Throw.h"
 #include "Actor.h"
 #include "Player.h"
@@ -335,7 +336,7 @@ void CThrow::DoThrow()
 				else if(!drop)
 					pSuit->PlaySound(STRENGTH_THROW_SOUND, (pSuit->GetSlotValue(NANOSLOT_STRENGTH))*0.01f);
 			}
-			if(curMode == NANOMODE_CLOAK)
+			if(curMode == NANOMODE_CLOAK && strncmp(m_pWeapon->GetEntity()->GetName(), "Predator_Bow", 12))
 				pSuit->SetSuitEnergy(pSuit->GetSuitEnergy()-100.0f);
 		}
 	}
