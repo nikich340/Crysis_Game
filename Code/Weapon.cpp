@@ -11,6 +11,7 @@ History:
 
 *************************************************************************/
 #include "StdAfx.h"
+#include <StringUtils.h>
 #include "Game.h"
 #include "GameCVars.h"
 #include <IEntitySystem.h>
@@ -3181,6 +3182,11 @@ bool CWeapon::CheckAmmoRestrictions(EntityId pickerId)
 	return true;
 }
 
+//------------------------------------------------------
+bool CWeapon::IsPredatorBow()
+{
+	return !strncmp(GetEntity()->GetName(), "Predator_Bow", 12);
+}
 //-------------------------------------------------------------
 int CWeapon::GetMaxZoomSteps()
 {

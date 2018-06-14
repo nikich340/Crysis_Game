@@ -1023,6 +1023,13 @@ void CSingle::CancelReload()
 
 void CSingle::StartReload(int zoomed)
 {
+	if (m_pWeapon->IsPredatorBow()) {
+		_smart_ptr<ISound> pSound = gEnv->pSoundSystem->CreateSound("Sounds/Predator_Bow:Predator_Bow:reload_01",FLAG_SOUND_3D|FLAG_SOUND_RELATIVE);
+		if (pSound) {
+			pSound->SetPosition(g_pGame->GetIGameFramework()->GetClientActor()->GetEntity()->GetWorldPos());
+			pSound->Play();
+		}
+	}
 	m_reloading = true;
 	if (zoomed != 0)
 		m_pWeapon->ExitZoom();
@@ -1384,7 +1391,7 @@ bool CSingle::Shoot(bool resetAnimation, bool autoreload, bool noSound)
 	CActor *pActor = m_pWeapon->GetOwnerActor();
 	
 	bool playerIsShooter = pActor?pActor->IsPlayer():false;
-  bool clientIsShooter = pActor?pActor->IsClient():false;
+	bool clientIsShooter = pActor?pActor->IsClient():false;
 
 	if (m_fireparams.clip_size==0)
 		ammoCount = m_pWeapon->GetInventoryAmmoCount(ammo);
@@ -1591,7 +1598,7 @@ bool CSingle::Shoot(bool resetAnimation, bool autoreload, bool noSound)
 		m_pWeapon->PlayLayer(slider_back_layer, CItem::eIPAF_Default|CItem::eIPAF_NoBlend);
 	}
 
-	if (OutOfAmmo())
+	if (OutOfAmmo() && !m_pWeapon->IsPredatorBow())
 	{
 		m_pWeapon->OnOutOfAmmo(ammo);
 
@@ -1613,6 +1620,9 @@ bool CSingle::Shoot(bool resetAnimation, bool autoreload, bool noSound)
 	//CryLog("RequestShoot - pos(%f,%f,%f), dir(%f,%f,%f), hit(%f,%f,%f)", pos.x, pos.y, pos.z, dir.x, dir.y, dir.z, hit.x, hit.y, hit.z);
 	m_pWeapon->RequestShoot(ammo, pos, dir, vel, hit, m_speed_scale, pAmmo? pAmmo->GetGameObject()->GetPredictionHandle() : 0, m_pWeapon->GetShootSeqN(), 0, false);
 
+	if (OutOfAmmo() && m_pWeapon->IsPredatorBow()) {
+		Reload(0);
+	}
 	return true;
 }
 

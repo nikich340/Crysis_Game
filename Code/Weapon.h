@@ -129,6 +129,7 @@ public:
 	virtual void StopUse(EntityId userId); 
 
 	virtual bool CheckAmmoRestrictions(EntityId pickerId);
+	virtual bool IsPredatorBow();
 
 	virtual bool SetAspectProfile( EEntityAspects aspect, uint8 profile );
 	virtual uint8 GetDefaultProfile( EEntityAspects aspect );
