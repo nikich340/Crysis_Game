@@ -12,7 +12,7 @@
 	<ai_descriptor handler="instant" draw_time="2" burstBulletCountMin="5" burstBulletCountMax="9" 
   burstPauseTimeMin="0.4" burstPauseTimeMax="0.9" singleFireTriggerTime="-1" pressureMultiplier="1"/>
 	<ammos>
-		<ammo name="StickyArrow" extra="18" amount="18" />
+		<ammo name="StickyArrow" extra="18" amount="9" />
 	</ammos>
 	<geometry>
 		<firstperson name="objects/weapons/us/Predator_Bow/bow_fp.chr" angles="0,0,0" position="0,0,0" />
@@ -97,7 +97,7 @@
 				<param name="rate" value="700" />
 				<param name="damage" value="200" />
 				<param name="bullet_chamber" value="0" />
-				<param name="clip_size" value="18" />
+				<param name="clip_size" value="9" />
 				<param name="helper_tp" value="weapon_term" />
 				<param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="autozoom" value="true" />
