@@ -74,7 +74,10 @@ void CWeapon::OnShoot(EntityId shooterId, EntityId ammoId, IEntityClass* pAmmoTy
 					pSuit->SetSuitEnergy(pSuit->GetSuitEnergy()-g_pGameCVars->g_suitRecoilEnergyCost);
 				else if (pSuit->GetMode() == NANOMODE_CLOAK && strcmp(pAmmoType->GetName(), "StickyArrow")) {
 					if (IsSilencerAttached()) {
-						pSuit->SetSuitEnergy(pSuit->GetSuitEnergy() - 50.0f);
+						int firemode = pPlayer->GetCurrentItem()->GetIWeapon()->GetCurrentFireMode();
+						float damage = pPlayer->GetCurrentItem()->GetIWeapon()->GetFireMode(firemode)->GetDamage(0.0f);
+						//gEnv->pLog->LogError("[shoot cloak]: firemode %d damage %f", firemode, damage);
+						pSuit->SetSuitEnergy(pSuit->GetSuitEnergy() - damage / 6.0f);
 					} else {
 						pSuit->SetSuitEnergy(0.0f);
 					}
