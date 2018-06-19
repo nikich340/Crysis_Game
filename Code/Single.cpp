@@ -1023,13 +1023,14 @@ void CSingle::CancelReload()
 
 void CSingle::StartReload(int zoomed)
 {
-	if (m_pWeapon->IsPredatorBow()) {
+	if (m_pWeapon->IsOwnerFP() && m_pWeapon->IsPredatorBow()) {
 		_smart_ptr<ISound> pSound = gEnv->pSoundSystem->CreateSound("Sounds/Predator_Bow:Predator_Bow:reload_01",FLAG_SOUND_3D|FLAG_SOUND_RELATIVE);
 		if (pSound) {
 			pSound->SetPosition(g_pGame->GetIGameFramework()->GetClientActor()->GetEntity()->GetWorldPos());
 			pSound->Play();
 		}
 	}
+	
 	m_reloading = true;
 	if (zoomed != 0)
 		m_pWeapon->ExitZoom();
