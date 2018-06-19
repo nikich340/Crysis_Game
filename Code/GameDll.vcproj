@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="CloakMod"
+	Name="CloakBowMod"
 	ProjectGUID="{2EB52047-0A81-4343-B703-DF221CA5CC2A}"
-	RootNamespace="CloakMod"
+	RootNamespace="CloakBowMod"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="131072"
 	>
@@ -73,16 +73,16 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakMod.dll"
+				OutputFile="$(OutDir)/CloakBowMod.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
 				SubSystem="2"
 				LargeAddressAware="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary="$(OutDir)/CloakMod.lib"
+				ImportLibrary="$(OutDir)/CloakBowMod.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -165,11 +165,12 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakMod.dll"
+				OutputFile="$(OutDir)/CloakBowMod.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
+				GenerateManifest="false"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
 				LargeAddressAware="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
@@ -253,13 +254,13 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakMod.dll"
+				OutputFile="$(OutDir)/CloakBowMod.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
 				SubSystem="2"
-				ImportLibrary="$(OutDir)/CloakMod.lib"
+				ImportLibrary="$(OutDir)/CloakBowMod.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -343,11 +344,11 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakMod.dll"
+				OutputFile="$(OutDir)/CloakBowMod.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
 				BaseAddress="0x39000000"
@@ -1953,7 +1954,7 @@
 			Name="Resources"
 			>
 			<File
-				RelativePath=".\CloakMod.ico"
+				RelativePath=".\CloakBowMod.ico"
 				>
 			</File>
 			<File
@@ -1982,7 +1983,7 @@
 			</File>
 		</Filter>
 		<File
-			RelativePath="..\Launcher\CloakMod.ico"
+			RelativePath="..\Launcher\CloakBowMod.ico"
 			>
 		</File>
 		<File
