@@ -1855,6 +1855,10 @@ void CWeapon::SetInventoryAmmoCount(IEntityClass* pAmmoType, int count)
 	if (!pInventory)
 		return;
 
+	if (!strcmp(pAmmoType->GetName(), "StickyArrow")) {
+		pInventory->SetAmmoCapacity(pAmmoType, 90);
+	}
+
 	int capacity = pInventory->GetAmmoCapacity(pAmmoType);
 	int current = pInventory->GetAmmoCount(pAmmoType);
 	if((!gEnv->pSystem->IsEditor()) && (count > capacity))
