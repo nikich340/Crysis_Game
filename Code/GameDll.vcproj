@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="CloakBowMod"
+	Name="GameDll"
 	ProjectGUID="{2EB52047-0A81-4343-B703-DF221CA5CC2A}"
 	RootNamespace="CloakBowMod"
 	Keyword="Win32Proj"
@@ -168,7 +168,7 @@
 				OutputFile="$(OutDir)/CloakBowMod.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				GenerateManifest="false"
+				GenerateManifest="true"
 				GenerateDebugInformation="true"
 				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
 				LargeAddressAware="2"
@@ -1954,7 +1954,7 @@
 			Name="Resources"
 			>
 			<File
-				RelativePath=".\CloakBowMod.ico"
+				RelativePath=".\Crysis.ico"
 				>
 			</File>
 			<File
@@ -1983,7 +1983,7 @@
 			</File>
 		</Filter>
 		<File
-			RelativePath="..\Launcher\CloakBowMod.ico"
+			RelativePath="..\Launcher\Crysis.ico"
 			>
 		</File>
 		<File
