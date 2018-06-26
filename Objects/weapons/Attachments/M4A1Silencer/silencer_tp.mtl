@@ -1,0 +1,19 @@
+<Material Name="objects/weapons/Attachments/M4A1Silencer/Silencer_tp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Silencer" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.14509805,0.14509805,0.16078432" Specular="0.047058828,0.047058828,0.047058828" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m4a1silencer/textures/silencer.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/m4a1silencer/textures/silencer_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/m4a1silencer/textures/silencer_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,10 @@
+<item name="m433" class="Item" invisible="1" >
+	<params>
+		<param name="giveable" value="0" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="Objects\weapons\Attachments\XM320\m433_round.cgf"/>
+       	</geometry>
+ </item>

@@ -1,12 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<item name="M4A1silencer" class="Item">
-  <params>
-    <param name="giveable" value="1" />
-    <param name="selectable" value="0" />
-    <param name="droppable" value="0" />
-  </params>
-  <geometry>
-    <firstperson name="Objects/Weapons/US/M4A1/M4A1_silencer.cgf" />
-    <thirdperson name="Objects/Weapons/US/M4A1/M4A1_silencer_tp.cgf" />
-  </geometry>
+<item name="M4A1Silencer" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/Attachments/M4A1Silencer/Silencer_fp.cgf"/>
+		<thirdperson name="objects/weapons/Attachments/M4A1Silencer/Silencer_tp.cgf" />
+	</geometry>
 </item>

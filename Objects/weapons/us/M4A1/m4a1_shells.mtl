@@ -1,0 +1,19 @@
+<Material Name="objects/weapons/us/m4a1/m4a1_shells" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.17254902,0.17254902,0.17254902" Specular="0.24313727,0.24313727,0.24313727" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/m4a1_shells_Diffuse.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/m4a1_shells_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/m4a1_shells_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

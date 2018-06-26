@@ -1,0 +1,36 @@
+<Material Name="objects/weapons/US/M4A1/M4A1_clip_30" MtlFlags="256">
+ <SubMaterials>
+  <MaterialRef />
+  <MaterialRef />
+  <Material Name="q3" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.17254902,0.17254902,0.17254902" Specular="0.047058828,0.047058828,0.047058828" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/magazine_RK.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/magazine_rk_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/magazine_rk_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <MaterialRef />
+  <Material Name="q5" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.10588236,0.10588236,0.10588236" Specular="0.24313727,0.24313727,0.24313727" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/Ammo_556x45_1rnd_SB_Diffuse.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/ammo_556x45_1rnd_sb_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/ammo_556x45_1rnd_sb_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

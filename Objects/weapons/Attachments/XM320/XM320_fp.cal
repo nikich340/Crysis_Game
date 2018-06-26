@@ -1,0 +1,12 @@
+#filepath = Animations\1st_person\weapons\Attachments\M4A1GrenadeLauncher
+
+fire_grenade_right_01					=	fire_grenade_right_01.caf
+reload_grenade_right_01					=	reload_grenade_right_01.caf
+idle_right_01						=	idle_right_01.caf
+modify_layer_right_01					=	modify_layer_right_01.caf
+
+fire_grenade_right_akimbo_01				=	fire_grenade_right_akimbo_01.caf
+reload_grenade_right_akimbo_01				=	reload_grenade_right_akimbo_01.caf
+idle_right_akimbo_01					=	idle_right_akimbo_01.caf
+
+test_anim						=	test_anim.caf

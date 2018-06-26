@@ -1,0 +1,41 @@
+<Material Name="objects/weapons/Attachments/ACOG/ACOG_RCO_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.17254902,0.17254902,0.17254902" Specular="0.082352944,0.082352944,0.082352944" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/ACOG/Textures/Mod_Sights_ACOG_RCO_M150_RK_Diffuse.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/acog/textures/mod_sights_acog_rco_m150_rk_specular.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/acog/textures/mod_sights_acog_rco_m150_rk_normal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="q2" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.24313727,0.24313727,0.24313727" Specular="0.082352944,0.082352944,0.082352944" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/ACOG/Textures/Mod_Sights_ACOG_RCO_M150_RK_Diffuse.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/acog/textures/mod_sights_acog_rco_m150_rk_specular.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/acog/textures/mod_sights_acog_rco_m150_rk_normal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="q3" MtlFlags="2178" Shader="Glass" GenMask="268436480" SurfaceType="mat_glass" Diffuse="0.36078432,0.36078432,0.36078432" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/acog/textures/mod_sights_4x_us_acog_rco_reticle_chevron_ec_diffuse_tp.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams TintAmount="1" RefrBumpScale="0.1" ReflectionAmount="0.25" FresnelBias="0.2" FresnelScale="1" BackLightScale="1" FilterColor="1,1,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

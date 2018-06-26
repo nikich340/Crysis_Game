@@ -1422,6 +1422,21 @@
  		<SpecialAnimsList>
     </SpecialAnimsList>
     </AnimationDefinition>
+	
+	<!-- //animation definitions for the M4A1 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Weapons/US/M4A1/M4A1_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/M4A1_fp"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
 	 
 	<!-- //animation definitions for the MP5SD (weapon type) -->
 	<AnimationDefinition>

@@ -1,170 +1,91 @@
-<Material MtlFlags="256">
+<Material Name="objects/weapons/US/M4A1/M4A1_tp" MtlFlags="256">
  <SubMaterials>
-  <Material Name="silencer" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.25098041,0.25098041,0.25098041" Specular="0.082352944,0.082352944,0.082352944" Emissive="0,0,0" Shininess="9" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/silencer_diff.dds">
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/USWeap_AR15_Receiver_base_SB_Diffuse.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/silencer_gloss.dds">
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/usweap_ar15_receiver_base_sb_specular.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/silencer_norm.dds">
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/usweap_ar15_receiver_base_sb_normal.dds">
      <TexMod />
     </Texture>
    </Textures>
-   <PublicParams AmbientMultiplier="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="laser" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+  <Material Name="q2" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.24313727,0.24313727,0.24313727" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/laser_diff.dds">
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/USWeap_AR15_Foreend_m4a1_SB_Diffuse.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/laser_gloss.dds">
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/usweap_ar15_foreend_m4a1_sb_specular.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/laser_norm.dds">
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/usweap_ar15_foreend_m4a1_sb_normal.dds">
      <TexMod />
     </Texture>
    </Textures>
-   <PublicParams AmbientMultiplier="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="reflex" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+  <Material Name="q3" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.17254902,0.17254902,0.17254902" Specular="0.047058828,0.047058828,0.047058828" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/reflex_diff.dds">
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/magazine_RK.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/reflex_gloss.dds">
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/magazine_rk_spec.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/reflex_norm.dds">
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/magazine_rk_ddn.dds">
      <TexMod />
     </Texture>
    </Textures>
-   <PublicParams AmbientMultiplier="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="1" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+  <Material Name="q4" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.17254902,0.17254902,0.17254902" Specular="0.17254902,0.17254902,0.17254902" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/1_diff.dds">
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/Stocks.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/1_gloss.dds">
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/stocks_spec.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/1_norm.dds">
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/stocks_ddn.dds">
      <TexMod />
     </Texture>
    </Textures>
-   <PublicParams AmbientMultiplier="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="grip" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+  <Material Name="q5" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.10588236,0.10588236,0.10588236" Specular="0.24313727,0.24313727,0.24313727" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grip_diff.dds">
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/Ammo_556x45_1rnd_SB_Diffuse.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grip_gloss.dds">
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/ammo_556x45_1rnd_sb_spec.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grip_norm.dds">
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/ammo_556x45_1rnd_sb_ddn.dds">
      <TexMod />
     </Texture>
    </Textures>
-   <PublicParams AmbientMultiplier="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="picatinny" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+  <Material Name="q6" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.25098041,0.25098041,0.25098041" Specular="0.039215688,0.039215688,0.039215688" Emissive="0,0,0" Shininess="10" Opacity="1">
    <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/picatinny_diff.dds">
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Textures/iron_pricel.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/picatinny_gloss.dds">
+    <Texture Map="Specular" File="objects/weapons/us/m4a1/textures/iron_pricel_spec.dds">
      <TexMod />
     </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/picatinny_norm.dds">
+    <Texture Map="Normalmap" File="objects/weapons/us/m4a1/textures/iron_pricel_ddn.dds">
      <TexMod />
     </Texture>
    </Textures>
-   <PublicParams AmbientMultiplier="1"/>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
   </Material>
-  <Material Name="main" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/main_diff.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/main_gloss.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/main_norm.dds">
-     <TexMod />
-    </Texture>
-   </Textures>
-   <PublicParams AmbientMultiplier="1"/>
-  </Material>
-  <Material Name="buttstock" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/buttstock_diff.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/buttstock_gloss.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/buttstock_norm.dds">
-     <TexMod />
-    </Texture>
-   </Textures>
-   <PublicParams AmbientMultiplier="1"/>
-  </Material>
-  <Material Name="launcher" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grenade_launcher_diff.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grenade_launcher_gloss.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grenade_launcher_norm.dds">
-     <TexMod />
-    </Texture>
-   </Textures>
-   <PublicParams AmbientMultiplier="1"/>
-  </Material>
-  <Material Name="grenade" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grenade_diff.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/grenade_norm.dds">
-     <TexMod />
-    </Texture>
-   </Textures>
-   <PublicParams AmbientMultiplier="1"/>
-  </Material>
-  <Material Name="iron_sight" MtlFlags="128" Shader="Illum" GenMask="268435472" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
-   <Textures>
-    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/iron_sight_diff.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Specular" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/iron_sight_gloss.dds">
-     <TexMod />
-    </Texture>
-    <Texture Map="Bumpmap" File="Game/Objects/Weapons/US/M4A1/Texture/dds format/iron_sight_norm.dds">
-     <TexMod />
-    </Texture>
-   </Textures>
-   <PublicParams AmbientMultiplier="1"/>
-  </Material>
-  <Material Name="bullets" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
-   <Textures>
-    <Texture Map="Diffuse" File="               /      /M4A1/Texture/bullets_diff.png">
-     <TexMod />
-    </Texture>
-    <Texture Map="Bumpmap" File="               /      /M4A1/Texture/bullets_norm.png">
-     <TexMod />
-    </Texture>
-   </Textures>
-   <PublicParams AmbientMultiplier="1"/>
-  </Material>
-  <Material Name="Material #25" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.027450982,0.97254908,0.074509807" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_thick_weapons" Diffuse="1,0,29411766" Specular="0,0,0" Emissive="0,0,0" Shininess="8" Opacity="1">
    <Textures />
-   <PublicParams AmbientMultiplier="1"/>
   </Material>
  </SubMaterials>
  <PublicParams AmbientMultiplier="1"/>

@@ -6,22 +6,22 @@
 	</flags>
 	<whiz>
 		<param name="sound" value="sounds/physics:bullet_whiz:bullet_whiz_small" />
-		<param name="speed" value="22" />
+		<param name="speed" value="37" />
 	</whiz>
 	<ricochet>
 		<param name="sound" value="sounds/physics:bullet_ricochet:bullet_ricochet" />
-		<param name="speed" value="16" />
+		<param name="speed" value="22" />
 	</ricochet>
 	<physics type="particle">
-		<param name="mass" value="0.035" />
-		<param name="speed" value="710" />
+		<param name="mass" value="0.1" />
+		<param name="speed" value="1000" />
 		
 		<param name="air_resistance" value="0" />
 		<param name="water_resistance" value="0" />
 		<param name="gravity" value="0, 0, -1" />
 		<param name="water_gravity" value="0, 0, -1" />
 		<param name="material" value="mat_metal" />
-		<param name="pierceability" value="7" />
+		<param name="pierceability" value="900" />
 
 		<param name="single_contact" value="1" />
 	</physics>
@@ -30,6 +30,10 @@
 		<param name="showtime" value="0.15" />
 		<param name="bulletType" value="2" /> <!-- Bullet Type 2 - Assault rifle bullet -->
 	</params>
+	<collision>
+		<param name="effect" value="bullet.hit_TAC.impact" />
+		<param name="scale" value="0.5" />
+	</collision>
 	<trailUnderWater>
 		<param name="effect" value="water.bubbles.bullets" />
 		<param name="scale"  value="3.0" />

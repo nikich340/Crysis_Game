@@ -1,0 +1,20 @@
+<EntityPrototypeLibrary Name="M4A1" SandboxVersion="1.1.1.5767">
+ <EntityPrototype Name="Ammo/Clip.M4A1_clip_30" Id="{83999D13-BC41-44D0-A7CE-E08CCBF94022}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="fybullet" Count="30" initialSetup="" objModel="objects/weapons/US/M4A1/M4A1_clip_30.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+<EntityPrototype Name="Ammo/Clip.M4A1_clip_60" Id="{83999D13-BC41-44D0-A7CE-E08CCBF94023}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="fybullet" Count="60" initialSetup="" objModel="objects/weapons/US/M4A1/M4A1_clip_60.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+ <EntityPrototype Name="Ammo/Single.M4A1Round" Id="{AD0C0546-D8A2-403A-8D2F-A3E3C9D2DCEF}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="scargrenade" Count="1" initialSetup="" objModel="objects/weapons/attachments/XM320/m433_round.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>
