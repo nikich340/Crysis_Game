@@ -307,9 +307,7 @@
 				<stages>
 					<stage value="4" />
 					<stage value="16" />
-                                        <stage value="28" />
-                                        <stage value="40" />
-
+                    <stage value="28" />
 				</stages>
 			</zoom>
 			<zoomSway>
