@@ -1,0 +1,19 @@
+<Material Name="objects/weapons/attachments/Beretta92FS_Silencer/BerettaSilencer_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.82745105,0.82745105,0.82745105" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/Attachments/Beretta92FS_Silencer/Textures/Beretta92FS_Silencer.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/beretta92fs_silencer/textures/beretta92fs_silencer_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="q2" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.76078439,0.29411766,0.30980393" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,41 @@
+<Material Name="objects/weapons/us/beretta92fs/Beretta92FS_right_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_smooth" Diffuse="0.20000002,0.20000002,0.20000002" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Beretta92FS/Textures/Beretta92FS_1.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/beretta92fs/textures/beretta92fs_1_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.25"/>
+  </Material>
+  <Material Name="q2" MtlFlags="130" Shader="Metal" GenMask="268443648" SurfaceType="" Diffuse="0.20000002,0.20000002,0.20000002" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Beretta92FS/Textures/Beretta92FS_2.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/beretta92fs/textures/beretta92fs_2_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.25"/>
+  </Material>
+  <Material Name="q3" MtlFlags="130" Shader="Metal" GenMask="268443648" SurfaceType="mat_metal_smooth" Diffuse="0.32549021,0.32549021,0.32549021" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Beretta92FS/Textures/back_rail.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/beretta92fs/textures/back_rail_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.72941178,0.27058825,0.30588236" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

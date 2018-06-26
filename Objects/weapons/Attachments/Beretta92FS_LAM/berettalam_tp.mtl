@@ -1,0 +1,22 @@
+<Material Name="objects/weapons/attachments/beretta92fs_lam/BerettaLAM_tp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.14117648,0.14117648,0.14117648" Specular="0.14117648,0.14117648,0.14117648" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/Beretta92FS_LAM/textures/BerettaLAM.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/beretta92fs_lam/textures/berettalam_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/beretta92fs_lam/textures/berettalam_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.79215693,0.20784315,0.22352943" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,23 @@
+<Material Name="objects/weapons/us/cleric_berettas/attachments/BerettaLAM_off_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="q1" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="" Diffuse="0.28627452,0.28627452,0.28627452" Specular="0.24313727,0.24313727,0.24313727" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/cleric_berettas/attachments/textures/berettalam.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/cleric_berettas/attachments/textures/berettalam_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/cleric_berettas/attachments/textures/berettalam_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <MaterialRef />
+  <Material Name="q3" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.74901962,0.25098041,0.26274511" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -10,7 +10,7 @@
 		<special		 isLaser="1" isFlashLight="0" isLamRifle="0" giveExtraAccessory="1" extraAccessoryName="LAMFlashLight" />
 	</lam>
 	<geometry>
-	<firstperson name="Objects/Weapons/Attachments/Colt1911_LAM/BerettaLAM_fp.cgf"/>
-        <thirdperson name="Objects/Weapons/Attachments/Colt1911_LAM/BerettaLAM_tp.cgf"/>
+	<firstperson name="Objects/Weapons/Attachments/Beretta92FS_LAM/BerettaLAM_fp.cgf"/>
+        <thirdperson name="Objects/Weapons/Attachments/Beretta92FS_LAM/BerettaLAM_tp.cgf"/>
 	</geometry>
 </item>

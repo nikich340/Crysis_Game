@@ -1,0 +1,15 @@
+<EntityPrototypeLibrary Name="Beretta92FS" SandboxVersion="1.1.1.5767">
+ <EntityPrototype Name="Ammo/Clip.Beretta_clip_30" Id="{F47A104F-8992-48B1-AB93-8484BCFCEE91}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="lightbullet" Count="30" initialSetup="" objModel="objects/weapons/US/Beretta92FS/Beretta_clip_30.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0"/>
+</EntityPrototype>
+
+ <EntityPrototype Name="Ammo/Clip.Beretta_clip_15" Id="{F47A104F-8992-48B1-AB93-8484BCFCEE92}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="lightbullet" Count="30" initialSetup="" objModel="objects/weapons/US/Beretta92FS/Beretta_clip_15.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0"/>
+</EntityPrototype>
+ </EntityPrototypeLibrary>

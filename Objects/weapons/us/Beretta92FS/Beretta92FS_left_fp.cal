@@ -1,0 +1,84 @@
+#filepath = Animations\1st_person\weapons\US\Beretta92FS_fp
+
+
+
+// akimbo
+
+select_left_akimbo_01					=	select_left_akimbo_01.caf
+deselect_left_akimbo_01					=	deselect_left_akimbo_01.caf
+idle_left_akimbo_01					=	idle_left_akimbo_01.caf
+fire_bullets_left_akimbo_01				=	fire_bullets_left_akimbo_01.caf
+fire_bullets_burst_left_akimbo_01			=	fire_bullets_burst_left_akimbo_01.caf
+reload_chamber_empty_left_akimbo_01			=	reload_chamber_empty_left_akimbo_01.caf
+reload_chamber_full_left_akimbo_01			=	reload_chamber_full_left_akimbo_01.caf
+melee_left_akimbo_01					=	melee_left_akimbo_01.caf
+switch_firemode_left_akimbo_01				=	switch_firemode_left_akimbo_01.caf
+
+//firemode-switch layers (bone used:Safety_Lever_Base)
+
+firemode_left_lever_up_01					=	firemode_left_lever_up_01.caf
+firemode_left_lever_up_layer_01				        =	 firemode_left_lever_up_layer_01.caf
+firemode_left_lever_down_01					=	firemode_left_lever_down_01.caf
+firemode_left_lever_down_layer_01				=	firemode_left_lever_down_layer_01.caf
+firemode_right_lever_up_01						=	firemode_right_lever_up_01.caf
+firemode_right_lever_up_layer_01					=	firemode_right_lever_up_layer_01.caf
+firemode_right_lever_down_01						=	firemode_right_lever_down_01.caf
+firemode_right_lever_down_layer_01					=	firemode_right_lever_down_layer_01.caf
+// zero G akimbo
+
+idle_to_zerog_left_akimbo_01				=	idle_to_zerog_left_akimbo_01.caf
+idle_zerog_left_akimbo_01				=	idle_zerog_left_akimbo_01.caf
+zerog_to_idle_left_akimbo_01				=	zerog_to_idle_left_akimbo_01.caf
+
+
+//attachments layers
+
+silencer_on_layer_left_01				=	silencer_on_layer_left_01.caf
+LAM_on_layer_left_01					=	LAM_on_layer_left_01.caf
+
+
+slider_back_layered_left_01				=	slider_back_layered_left_01.caf
+
+//raise weapon
+
+
+raise_left_akimbo_01					=	raise_left_akimbo_01.caf
+idle_raised_left_akimbo_01				=	idle_raised_left_akimbo_01.caf
+lower_left_akimbo_01					=	lower_left_akimbo_01.caf
+
+//
+
+
+
+
+// not used at the moment
+//select_left_01					=	select_left_01.caf
+//deselect_left_01					=	deselect_left_01.caf
+//idle_left_01						=	idle_left_01.caf
+//fire_bullets_left_01					=	fire_bullets_left_01.caf
+//reload_chamber_full_left_01				=	reload_chamber_full_left_01.caf
+//reload_chamber_empty_left_01				=	reload_chamber_empty_left_01.caf
+
+//slider_back_layered_left_01				=	slider_back_layered_left_01.caf
+//point_down_down_left_01				=	point_down_down_left_01.caf
+//point_down_up_left_01					=	point_down_up_left_01.caf
+//point_down_layered_left_01				=	point_down_layered_left_01.caf
+
+//point_up_up_left_01					=	point_up_up_left_01.caf
+//point_up_down_left_01					=	point_up_down_left_01.caf
+//point_up_layered_left_01				=	point_up_layered_left_01.caf
+
+
+//zoom_in_left_01					=	zoom_in_left_01.caf
+//zoom_out_left_01					=	zoom_out_left_01.caf
+//zoom_layered_left_01					=	zoom_layered_left_01.caf
+
+
+//point_down_down_left_akimbo_01			=	point_down_down_left_akimbo_01.caf
+//point_down_up_left_akimbo_01				=	point_down_up_left_akimbo_01.caf
+//point_down_layered_left_akimbo_01			=	point_down_layered_left_akimbo_01.caf
+
+//point_up_up_left_akimbo_01				=	point_up_up_left_akimbo_01.caf
+//point_up_down_left_akimbo_01				=	point_up_down_left_akimbo_01.caf
+//point_up_layered_left_akimbo_01			=	point_up_layered_left_akimbo_01.caf
+// not used at the moment
