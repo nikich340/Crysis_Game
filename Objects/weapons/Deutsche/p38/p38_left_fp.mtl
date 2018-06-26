@@ -1,0 +1,22 @@
+<Material Name="objects/weapons/deutsche/p38/p38_left_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="p38" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="" Diffuse="0.16470589,0.16470589,0.16470589" Specular="0.38039219,0.38039219,0.38039219" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/deutsche/p38/Textures/p38.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/deutsche/p38/textures/p38_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/deutsche/p38/textures/p38_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="objects/weapons/deutsche/p38/textures/metal.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

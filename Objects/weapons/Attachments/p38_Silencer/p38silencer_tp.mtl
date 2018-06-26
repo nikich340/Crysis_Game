@@ -1,0 +1,16 @@
+<Material Name="objects/weapons/attachments/p38_Silencer/p38Silencer_tp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="p38sil" MtlFlags="130" Shader="Metal" GenMask="268443648" SurfaceType="" Diffuse="0.36470589,0.36470589,0.36470589" Specular="0.047058828,0.047058828,0.047058828" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/Attachments/p38_Silencer/Textures/TTSilencer.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/p38_silencer/textures/ttsilencer_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" AnisotropicShape="0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

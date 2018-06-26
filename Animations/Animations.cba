@@ -1533,6 +1533,26 @@
     </SpecialAnimsList>
     </AnimationDefinition>
 	
+	<!-- //animation definitions for the p38 Right (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Deutsche/p38/p38_right_fp.chr"/>
+		<Animation Path="1st_person/weapons/Deutsche/p38_fp"/>
+		<DataBase Path="1st_person/weapons/Deutsche/p38/p38.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	
 
 	<!-- //animation definitions for the AT_mine (weapon type) -->
 	<AnimationDefinition>

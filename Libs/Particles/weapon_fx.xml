@@ -542,4 +542,15 @@
    </Particles>
   </Childs>
  </Particles>
+ <Particles Name="shells.p38" Id="{89A3C012-A0F5-43FE-9DC7-09502C6FE64A}">
+  <Params ParticleLifeTime="22.2,0.247525" Geometry="objects/weapons/shells/shell_9mm.cgf" Size="0.02" Speed="5,0.39604" GravityScale="1" FocusAngle="62" FocusGravityDir="true" EmitAngle="14.7" InitAngles="80,55" RandomRotationRate="333,333,333" PhysicsType="SimplePhysics" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" Bounciness="1" DynamicFriction="10" MaxCollisionEvents="1" NotAffectedByFog="true"/>
+  <Childs>
+   <Particles Name="scar5">
+    <Params Count="2" ParticleLifeTime="0.52,0.475248" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" Alpha="0.267,,,(;0.07142857,1,64;1)" DiffuseLighting="0.624" DiffuseBacklighting="1" EmissiveLighting="0.158" Size="0.23,0.287,,(,0.2727273,64;1,1,64)" Speed="0.6,0.356" AirResistance="0.47" GravityScale="0.079" RandomAngles=",,180" RandomRotationRate=",,21" ConfigMin="High"/>
+   </Particles>
+   <Particles Name="socom1">
+    <Params Enabled="false" ParticleLifeTime="0.11,0.188" BlendType="Additive" Texture="textures/sprites/explosions/number9_together1.tif" TextureTiling="4,8,,,24" Color=",,,(0.03947368,(1,1,1);0.245614,(0.9176471,0.9254903,0.5333334);0.5438597,(1,0.4588236,0.4588236))" DiffuseLighting="0" DiffuseBacklighting="1" EmissiveLighting="12" Size="0.1" Stretch="0.18" SecondGeneration="true" InheritVelocity="0.089" PositionOffset="-0.03,-0.05,-0.09" Speed="0" FocusGravityDir="true" RandomAngles=",,359" RandomRotationRate=",,21" DrawNear="true"/>
+   </Particles>
+  </Childs>
+ </Particles>
 </ParticleLibrary>
