@@ -1,0 +1,42 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.6950525e-037" parameter="" bone="" offset="2.6950525e-037,1.4321282e-038,1.4321276e-038" dir="2.6950525e-037,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="1.9702718e-020" parameter="" bone="" offset="1.9702718e-020,1.4321282e-038,1.4321276e-038" dir="1.9702718e-020,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="1.970268e-020" parameter="" bone="" offset="1.970268e-020,1.4321282e-038,1.4321276e-038" dir="1.970268e-020,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="2.3316448e-026" parameter="" bone="" offset="2.3316448e-026,1.4321282e-038,1.4321276e-038" dir="2.3316448e-026,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="2.6950525e-037" parameter="" bone="" offset="2.6950525e-037,1.4321282e-038,1.4321276e-038" dir="2.6950525e-037,1.4321282e-038,1.4321276e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/enter_modify_01.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:socom:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/leave_modify_01.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:socom:deselect" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/lower_01.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:socom:deselect" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/melee_01.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:melee:fire" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/raise_01.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:socom:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/reload_chamber_empty_01.caf">
+  <event name="sound" time="0.080880001" parameter="sounds/weapons:socom:socom_reld_full_02_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.42405" parameter="sounds/weapons:socom:socom_reld_full_03_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74905998" parameter="sounds/weapons:socom:socom_reld_full_06_slide" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/reload_chamber_full_01.caf">
+  <event name="sound" time="0.08117" parameter="sounds/weapons:socom:socom_reld_full_02_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.61991" parameter="sounds/weapons:socom:socom_reld_full_03_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/select_01.caf">
+  <event name="sound" time="0.61991" parameter="sounds/weapons:socom:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/zoom_in_01.caf">
+  <event name="sound" time="0.84754002" parameter="sounds/weapons:socom:socom_reld_full_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/glock/zoom_out_01.caf">
+  <event name="sound" time="0" parameter="sounds/weapons:socom:socom_selct_x_03_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

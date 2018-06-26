@@ -1,0 +1,24 @@
+#filepath = Animations\1st_person\weapons\US\glock\
+
+
+$AnimEventDatabase = objects\weapons\us\glock\glock_fp.animevents
+
+//-------glock-------
+
+select_01 = select_01.caf
+deselect_01 = deselect_01.caf
+idle_01 = idle_01.caf
+fire_01 = fire_01.caf
+reload_chamber_empty_01 = reload_chamber_empty_01.caf
+reload_chamber_full_01 = reload_chamber_full_01.caf
+zoom_in_01 = zoom_in_01.caf
+zoom_out_01 = zoom_out_01.caf
+idle_ironsight_01 = idle_ironsight_01.caf
+enter_modify_01 = enter_modify_01.caf
+leave_modify_01 = leave_modify_01.caf
+melee_01 = melee_01.caf
+raise_01 = raise_01.caf
+idle_raised_01 = idle_raised_01.caf
+lower_01 = lower_01.caf
+slider_back_layered_01 = slider_back_layered_01.caf
+LAM_on_layer_01 = LAM_on_layer_01.caf

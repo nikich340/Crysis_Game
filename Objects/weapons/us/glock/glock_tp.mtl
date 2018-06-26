@@ -1,0 +1,29 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="001" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.45490199,0.46274513,0.46274513" Specular="0.25490198,0.25490198,0.25490198" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/glock/textures/001.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="002" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49019611,0.50980395,0.50980395" Specular="0.24705884,0.24705884,0.24705884" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/glock/textures/002.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="003" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49411768,0.50588238,0.50588238" Specular="0.25098041,0.25098041,0.25098041" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/glock/textures/003.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
