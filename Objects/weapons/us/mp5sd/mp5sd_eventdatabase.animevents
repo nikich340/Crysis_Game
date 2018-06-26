@@ -1,0 +1,30 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.0542294e-026" parameter="" bone="" offset="1.0542294e-026,1.4321506e-038,1.43215e-038" dir="1.0542294e-026,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="3.1947399e-037" parameter="" bone="" offset="3.1947399e-037,1.4320093e-038,1.4320088e-038" dir="3.1947399e-037,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="4.7715165e-012" parameter="" bone="" offset="4.7715165e-012,1.4320093e-038,1.4320088e-038" dir="4.7715165e-012,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="2.073031e-012" parameter="" bone="" offset="2.073031e-012,1.4320093e-038,1.4320088e-038" dir="2.073031e-012,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="1.9451333e-012" parameter="" bone="" offset="1.9451333e-012,1.4320093e-038,1.4320088e-038" dir="1.9451333e-012,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="2.2049885e-038" parameter="" bone="" offset="5.7565341e-042,3.0128521e-012,2.8045587e-040" dir="5.7565341e-042,3.0128521e-012,2.8045587e-040"/>
+  <event name="" time="1.9317273e-012" parameter="" bone="" offset="1.9317273e-012,1.4321506e-038,1.43215e-038" dir="1.9317273e-012,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="1.9026291e-012" parameter="" bone="" offset="1.9026291e-012,1.4320093e-038,1.4320088e-038" dir="1.9026291e-012,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="2.1320681e-022" parameter="" bone="" offset="2.1320681e-022,1.4321506e-038,1.43215e-038" dir="2.1320681e-022,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="4.2242898e-022" parameter="" bone="" offset="4.2242898e-022,1.4320093e-038,1.4320088e-038" dir="4.2242898e-022,1.4320093e-038,1.4320088e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/mp5sd/grab_weapon_left_01.caf">
+  <event name="sound" time="1" parameter="Sounds/weapons:smg:smg_reload_08_gun_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/mp5sd/reload_chamber_empty_right_01.caf">
+  <event name="sound" time="0.084859997" parameter="Sounds/weapons:sniperrifle:sniper_3rd_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.56457001" parameter="Sounds/weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.8118" parameter="Sounds/weapons:scar:scar_reload_06_cockback" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.86113" parameter="Sounds/weapons:socom:socom_reld_full_06_slide" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/mp5sd/reload_chamber_full_right_01.caf">
+  <event name="sound" time="0.09962" parameter="Sounds/weapons:sniperrifle:sniper_3rd_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.66702998" parameter="Sounds/weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/mp5sd/select_01.caf">
+  <event name="sound" time="0.36899" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

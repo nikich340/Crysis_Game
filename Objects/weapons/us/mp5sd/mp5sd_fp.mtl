@@ -1,0 +1,24 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="mp5sd_1" MtlFlags="128" Shader="Illum" GenMask="0" SurfaceType="" Diffuse="0.25490198,0.25490198,0.25490198" Specular="3.3749998,3.3749998,3.3749998" Emissive="0,0,0" Shininess="25" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/mp5sd/textures/mp5sd_diffuse_1.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/weapons/US/mp5sd/textures/mp5sd_specular_1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+  </Material>
+  <Material Name="mp5sd_2" MtlFlags="128" Shader="Illum" GenMask="0" SurfaceType="" Diffuse="0.25490198,0.25490198,0.25490198" Specular="3.3749998,3.3749998,3.3749998" Emissive="0,0,0" Shininess="25" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/mp5sd/textures/mp5sd_diffuse_2.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/weapons/US/mp5sd/textures/mp5sd_specular_2.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+  </Material>
+ </SubMaterials>
+</Material>
