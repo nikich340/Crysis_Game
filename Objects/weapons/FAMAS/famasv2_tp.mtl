@@ -1,0 +1,48 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="g18c_tp" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/objects/Weapons/textures/1aglock18c/frame.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="123" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/textures/556x45mm fa mas/body_ref.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #7311" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/side.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #7312" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl5" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

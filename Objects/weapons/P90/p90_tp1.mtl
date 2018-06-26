@@ -1,0 +1,38 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Standard_19" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/2handautomatic/p90.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/textures/2handautomatic/p90_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #653" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/2handautomatic/p90.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/textures/2handautomatic/p90_n.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/2handautomatic/p90.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/textures/2handautomatic/p90_n.dds" Amount="50">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

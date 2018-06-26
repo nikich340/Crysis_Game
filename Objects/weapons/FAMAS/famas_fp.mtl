@@ -1,0 +1,51 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Standard_7" MtlFlags="128" Shader="Illum" GenMask="285229056" SurfaceType="" Diffuse="0.86666673,0.86666673,0.86666673" Specular="0.058823533,0.058823533,0.058823533" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_metal_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="7" DetailBumpTillingV="7" DetailBumpScale="5" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="Material #80" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.84705889,0.84705889,0.84705889" Specular="0.078431375,0.078431375,0.078431375" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #81" MtlFlags="128" Shader="Illum" GenMask="285229056" SurfaceType="" Diffuse="0.86666673,0.86666673,0.86666673" Specular="0.15294118,0.15294118,0.15294118" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/side.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_wood_turn90_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="10" DetailBumpTillingV="10" DetailBumpScale="1" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="Material #82" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #83" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/textures/556x45mm fa mas/body.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

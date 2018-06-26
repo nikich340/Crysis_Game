@@ -1,0 +1,141 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="5.5727076e-027" parameter="" bone="" offset="5.5727076e-027,1.4320093e-038,1.4320088e-038" dir="5.5727076e-027,1.4320093e-038,1.4320088e-038"/>
+  <event name="" time="9.5959604e-007" parameter="" bone="" offset="9.5959604e-007,1.4321506e-038,1.43215e-038" dir="9.5959604e-007,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="2.4044874e-029" parameter="" bone="" offset="2.4044874e-029,1.4321506e-038,1.43215e-038" dir="2.4044874e-029,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="2.4044874e-029" parameter="" bone="" offset="2.4044874e-029,1.4321506e-038,1.43215e-038" dir="2.4044874e-029,1.4321506e-038,1.43215e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/crawl_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.53500003" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/deselect_01.caf">
+  <event name="sound" time="0.63000005" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/enter_modify_right_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.177" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/grab_weapon_left_01.caf">
+  <event name="sound" time="0.47600001" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/idle_to_zerog_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:body_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.287" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/leave_modify_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.24700001" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.53048003" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/lower_right_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.025" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/melee_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:melee:fire_fp_mw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/melee_02.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:melee:fire_fp_mw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/melee_akimbo_01.caf">
+  <event name="sound" time="0.021609999" parameter="Sounds/weapons:melee:fire_fp_sw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/raise_right_01.caf">
+  <event name="sound" time="0.20600002" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.022000002" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/reload_chamberempty_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.18722001" parameter="Sounds/weapons:scar:scar_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.21292999" parameter="Sounds/weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.48133999" parameter="Sounds/weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67842001" parameter="Sounds/weapons:scar:scar_reload_05_mvtcock" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.70704001" parameter="Sounds/weapons:scar:scar_reload_06_cockback" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74405003" parameter="Sounds/weapons:scar:scar_reload_07_cockfwd" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.852" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.95094001" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/reload_chamberfull_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.25029001" parameter="Sounds/weapons:scar:scar_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.31009001" parameter="Sounds/weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.63756001" parameter="Sounds/weapons:scar:scar_reload_04_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75999999" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.96806002" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/reload_grenade_right_01.caf">
+  <event name="sound" time="0.011" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.103" parameter="Sounds/weapons:scar:scar_reload_12_grenopen" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.405" parameter="Sounds/weapons:scar:scar_reload_10_grenadein" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.65912002" parameter="Sounds/weapons:scar:scar_reload_11_grenclose" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74251002" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.87845999" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/reload_grenade_right_akimbo_01.caf">
+  <event name="sound" time="0.011" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.103" parameter="Sounds/weapons:scar:scar_reload_12_grenopen" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.52004999" parameter="Sounds/weapons:scar:scar_reload_10_grenadein" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.77452999" parameter="Sounds/weapons:scar:scar_reload_11_grenclose" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.60500002" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.76700002" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/reload_tactical_right_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.162" parameter="Sounds/weapons:scar:scar_reload_02_grabclip" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.18599001" parameter="Sounds/weapons:scar:scar_reload_03_clipout" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.63839" parameter="Sounds/weapons:scar:scar_reload_04_clipin" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.77100003" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.99185002" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="weapon" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/remove_arm_left_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.125" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/select_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zero_g_intro_storage_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:body_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.51200002" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.65600002" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zerog_to_idle_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.029000001" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.74900001" parameter="Sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_in_fc_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.003" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_in_ironsight_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_in_reflex_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_in_scope_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.003" parameter="Sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_out_fc_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_out_ironsight_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_out_reflex_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/scar/zoom_out_scope_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

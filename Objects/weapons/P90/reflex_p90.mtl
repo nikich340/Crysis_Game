@@ -1,0 +1,48 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="reflex" MtlFlags="128" Shader="Metal" GenMask="268443664" SurfaceType="mat_metal_thick" Diffuse="0.30980399,0.30980399,0.30980399" Specular="0.43921599,0.43921599,0.43921599" Emissive="0,0,0" Shininess="6" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/reflex_rifle/textures/reflex.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/reflex_rifle/textures/reflex_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/reflex_rifle/textures/reflex_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.235" AnisotropicShape="0.257" ReflectionAmount="0.18000001" FresnelBias="0.19" FresnelScale="1"/>
+  </Material>
+  <Material Name="glass" MtlFlags="128" Shader="Scopes" GenMask="1" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.050000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/reflex_rifle/textures/red_dot.tif" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams ScopeScale="80" ScopeColorMultiplier="160" NoiseScale="0.75"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="CloakLayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Name="SubMtl3" MtlFlags="2176" Shader="Glass" GenMask="268436480" SurfaceType="" Diffuse="1,1,1" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="0.26699999">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/detail/detail_concrete.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams TintAmount="1" RefrBumpScale="0.1" ReflectionAmount="0.25" FresnelBias="0.2" FresnelScale="1" BackLightScale="1" FilterColor="1,1,1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="mat_metal_thick_weapons" Diffuse="1,0.141176,0.16078401" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
