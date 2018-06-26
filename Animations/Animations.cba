@@ -1402,6 +1402,26 @@
 		<SpecialAnimsList>
     </SpecialAnimsList>
 	</AnimationDefinition>
+	
+	<!-- //animation definitions for the AUG (weapon type) -->
+	<AnimationDefinition>
+ 		<DeletePosController value="0"/>
+ 		<DeleteRotController value="0"/>
+ 		<Model File="/../objects/Weapons/US/aug/aug_fp.chr"/>
+ 		<Animation Path="1st_person/Weapons/US/aug/"/>
+ 		<Database Path="1st_person/Weapons/US/aug/aug.dba"/>
+ 		<COMPRESSION value="1"/>
+ 		<AUTOCOMPRESSION value="0"/>
+ 		<FOOTPLANTS value="NO"/>
+ 		<HUMAN value="NO"/>
+ 		<WEAPON value="YES"/>
+ 		<RotatePosRoot value="180"/>
+ 		<RotateQuatRoot value="IDENTITY"/>
+ 		<RotatePosChild value="180"/>
+ 		<RotateQuatChild value="180"/>
+ 		<SpecialAnimsList>
+     </SpecialAnimsList>
+     </AnimationDefinition>
 
 
 

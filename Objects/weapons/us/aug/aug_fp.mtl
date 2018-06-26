@@ -1,0 +1,37 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="001" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49019611,0.50980395,0.50980395" Specular="0.23137257,0.23137257,0.23137257" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/aug/textures/001.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="002" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49019611,0.50588238,0.50980395" Specular="0.26666668,0.26666668,0.26666668" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/aug/textures/002.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="003" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49411768,0.50588238,0.50588238" Specular="0.29411766,0.29411766,0.29411766" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/aug/textures/003.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="004" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.49019611,0.50588238,0.50980395" Specular="0.3019608,0.3019608,0.3019608" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/weapons/US/aug/textures/004.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

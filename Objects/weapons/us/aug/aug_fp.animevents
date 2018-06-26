@@ -1,0 +1,54 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="2.7465647e-026" parameter="" bone="" offset="2.7465647e-026,1.4321282e-038,1.4321276e-038" dir="2.7465647e-026,1.4321282e-038,1.4321276e-038"/>
+  <event name="" time="5.3259182e-017" parameter="" bone="" offset="5.3259182e-017,1.4321282e-038,1.4321276e-038" dir="5.3259182e-017,1.4321282e-038,1.4321276e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/enter_modify_01.caf">
+  <event name="sound" time="0.01479" parameter="sounds/weapons:fy71:fy71_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/grab_weapon_01.caf">
+  <event name="sound" time="0.14542" parameter="sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/leave_modify_01.caf">
+  <event name="sound" time="0.025180001" parameter="sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/lower_01.caf">
+  <event name="sound" time="0.0036800001" parameter="sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/lower_akimbo_01.caf">
+  <event name="sound" time="0.0079300003" parameter="sounds/weapons:shotgun:shotgun_sel_cock_05_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/melee_01.caf">
+  <event name="sound" time="0.04163" parameter="sounds/weapons:melee:fire" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/melee_akimbo_01.caf">
+  <event name="sound" time="0.058940001" parameter="sounds/weapons:melee:fire" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/raise_01.caf">
+  <event name="sound" time="0.12397" parameter="sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/raise_akimbo_01.caf">
+  <event name="sound" time="0.12511" parameter="sounds/weapons:shotgun:shotgun_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/reload_chamberempty_01.caf">
+  <event name="sound" time="0.071369998" parameter="sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.34450001" parameter="sounds/weapons:fy71:fy71_3rd_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.55510998" parameter="sounds/weapons:fy71:fy71_3rd_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.62709999" parameter="sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.72873998" parameter="sounds/weapons:scar:scar_reload_06_cockback" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.84017998" parameter="sounds/weapons:scar:scar_reload_07_cockfwd" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/reload_chamberfull_01.caf">
+  <event name="sound" time="0.10252" parameter="sounds/weapons:scar:scar_reload_03_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.18126" parameter="sounds/weapons:scar:scar_reload_06_cockback" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.39488" parameter="sounds/weapons:scar:scar_reload_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.61337" parameter="sounds/weapons:fy71:fy71_3rd_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75358999" parameter="sounds/weapons:fy71:fy71_3rd_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.79785001" parameter="sounds/weapons:scar:scar_reload_08_wpndn" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.88546002" parameter="sounds/weapons:scar:scar_reload_09_handongun" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.91512001" parameter="sounds/weapons:scar:scar_reload_07_cockfwd" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/aug/remove_arm_01.caf">
+  <event name="sound" time="0.039379999" parameter="sounds/weapons:scar:scar_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

@@ -1,0 +1,46 @@
+#filepath = Animations\1st_person\weapons\US\aug\
+
+
+$AnimEventDatabase = objects\weapons\us\aug\aug_fp.animevents
+
+//-------aug-------
+
+select_01 = select_01.caf
+deselect_01 = deselect_01.caf
+idle_01 = idle_01.caf
+fire_bullets_01 = fire_bullets_01.caf
+switch_firemode_01 = switch_firemode_01.caf
+switch_firemode_akimbo_01 = switch_firemode_akimbo_01.caf
+reload_chamberempty_01 = reload_chamberempty_01.caf
+reload_chamberfull_01 = reload_chamberfull_01.caf
+enter_modify_01 = enter_modify_01.caf
+leave_modify_01 = leave_modify_01.caf
+zoom_in_ironsight_01 = zoom_in_ironsight_01.caf
+zoom_out_ironsight_01 = zoom_out_ironsight_01.caf
+fire_bullets_ironsight_01 = fire_bullets_ironsight_01.caf
+scope_on_layer_01 = scope_on_layer_01.caf
+idle_ironsight_01 = idle_ironsight_01.caf
+modify_layer_01 = modify_layer_01.caf
+fire_bullets_akimbo_01 = fire_bullets_akimbo_01.caf
+idle_akimbo_01 = idle_akimbo_01.caf
+remove_arm_01 = remove_arm_01.caf
+silencer_on_layer_01 = silencer_on_layer_01.caf
+zoom_in_reflex_01 = zoom_in_reflex_01.caf
+idle_reflex_01 = idle_reflex_01.caf
+zoom_out_reflex_01 = zoom_out_reflex_01.caf
+fire_bullets_reflex_01 = fire_bullets_reflex_01.caf
+zoom_in_scope_01 = zoom_in_scope_01.caf
+idle_scope_01 = idle_scope_01.caf
+zoom_out_scope_01 = zoom_out_scope_01.caf
+fire_bullets_scope_01 = fire_bullets_scope_01.caf
+melee_01 = melee_01.caf
+melee_akimbo_01 = melee_akimbo_01.caf
+grab_weapon_01 = grab_weapon_01.caf
+raise_01 = raise_01.caf
+idle_raised_01 = idle_raised_01.caf
+lower_01 = lower_01.caf
+raise_akimbo_01 = raise_akimbo_01.caf
+idle_raised_akimbo_01 = idle_raised_akimbo_01.caf
+lower_akimbo_01 = lower_akimbo_01.caf
+flashlight_on_layer_01 = flashlight_on_layer_01.caf
+TAC = TAC.caf
