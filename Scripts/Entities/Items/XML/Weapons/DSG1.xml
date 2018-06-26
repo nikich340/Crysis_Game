@@ -27,6 +27,7 @@
 		<firstperson name="objects/weapons/us/sniper_dsg1/sniper_dsg1_fp.chr" angles="0,0,0"/>
 		<thirdperson name="objects/weapons/us/sniper_dsg1/sniper_dsg1_tp.cgf" />
 		<boneAttachments>
+			<attachment target="firstperson" name="silencer_attach" bone="silencer_attach" />
 			<attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
 			<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
 			<attachment target="firstperson" name="muzzle_flash_smoke" bone="weapon_term" />
@@ -71,13 +72,14 @@
 			<sound target="firstperson" name="sounds/weapons:sniperrifle:fire%env%_fp" radius="400" static="1" />
 			<sound target="thirdperson" name="sounds/weapons:sniperrifle:fire%env%" radius="400" static="1" />
 		</action>
-
+		<action name="fire_silenced">
+<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
+<animation target="owner" name="shoot" />
+<sound target="firstperson" name="Sounds/weapons:fy71:fire_silenced_fp_single" radius="20" static="1" />
+<sound target="thirdperson" name="sounds/weapons:fy71:fire_silenced_3rd_single" radius="20" static="1" />
+</action>
 		<action name="cock">
 			<animation target="firstperson" name="cock_%hand%_01" />
-		</action>
-				
-		<action name="cock_sound">
-			<sound target="firstperson" name="Sounds/weapons:sniperrifle:sniper_reload_cock_full" static="1" />
 		</action>
 
 		<action name="melee">
@@ -147,16 +149,38 @@
 		<action name="lower">
 			<animation target="firstperson" name="lower_%hand%_%suffix%01" />
 		</action>
+		<action name="change_firemode">
+			<animation target="firstperson" name="switch_firemode_%hand%_%suffix%01" />
+			<animation target="owner" name="firemode" />
+			<sound target="firstperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="5" />
+			<sound target="thirdperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="5" />
+		</action>		
+		
+		<action name="change_firemode_zoomed">
+			<animation target="owner" name="firemode" />
+			<sound target="firstperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="3" />
+			<sound target="thirdperson" name="sounds/weapons:weapon_accessories:change_firemode" radius="3" />
+		</action>
 	</actions>
 	<layers>
+		<layer name="silencer">
+			<animation target="firstperson" name="silencer_on_layer_01" layerId="1" />
+		</layer>
+
 		<layer name="scope">
 			<animation target="firstperson" name="scope_on_layer_01" layerId="5" />
 		</layer>
+
 		<layer name="modify_layer">
 			<animation target="firstperson" name="modify_layer_%hand%_01" layerId="2" />
 		</layer>
+
 				<layer name="flashlight">
 			<animation target="firstperson" name="flashlight_on_layer_01" layerId="4" />
+		</layer>
+
+		<layer name="lever_layer_02">
+			<animation target="firstperson" name="firemode_rapid_layer_01" layerId="7" />
 		</layer>
 	</layers>
 	<firemodes>
@@ -181,6 +205,7 @@
 				<param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="secondary_damage" value="1" />
 				<param name="ai_vs_player_damage" value="80"/>
+				<!--<param name="unzoomed_cock" value="1" />-->
 			</fire>
 			<recoil>
 				<param name="max_recoil"	value="12.0" />
@@ -462,6 +487,30 @@
 		<initialsetup>
 			<!--<accessory name="SniperScope" />-->
 		</initialsetup>
+		<accessory name="Silencer">
+			<attach helper="silencer_attach" layer="silencer" />
+			<detach />
+			<params>
+				<firemodes>
+					<firemode type="single">
+						<fire>
+							<param name="damage_drop_per_meter" value="2.0" />
+							<param name="damage_drop_min_distance" value="10" />
+						</fire>
+						<muzzleflash>
+							<firstperson effect="muzzleflash.AssaultRifle.silenced_smoke" helper="muzzle_flash_effect" time="0.1" />
+							<thirdperson effect="muzzleflash.AssaultRifle.silenced_smoke_tp" helper="weapon_term" time="0.1" />			
+						</muzzleflash>
+						<actions>
+							<param name="fire" value="fire_silenced" />
+							<param name="fire_cock" value="fire_silenced" />
+							<param name="rapid_fire" value="rapid_fire_silenced" />
+							<param name="spin_down" value="spin_down_silenced" />
+						</actions>
+					</firemode>
+				</firemodes>
+			</params>
+		</accessory>
 		<accessory name="LAMRifle">
 			<attach helper="attachment_side" layer="flashlight" />
 			<detach />
@@ -489,7 +538,7 @@
 				<firemodes>
 					<firemode type="default">
 						<fire>
-							<param name="unzoomed_cock" value="1" />
+							<param name="no_cock" value="1" />
 						</fire>
 					</firemode>
 				</firemodes>
@@ -502,7 +551,7 @@
 				<firemodes>
 					<firemode type="default">
 						<fire>
-							<param name="unzoomed_cock" value="1" />
+							<param name="no_cock" value="1" />
 						</fire>
 					</firemode>
 				</firemodes>
