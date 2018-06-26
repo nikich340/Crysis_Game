@@ -1443,6 +1443,21 @@
     </SpecialAnimsList>
 	</AnimationDefinition>
 	
+	<!-- //animation definitions for the MP40 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/Deutsche/mp40/mp40_fp.chr"/>
+		<Animation Path="1st_person/weapons/Deutsche/mp40_fp"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	
 	<!-- //animation definitions for the SOCOM Right (weapon type) -->
 	<AnimationDefinition>
 		<DeletePosController value="0"/>

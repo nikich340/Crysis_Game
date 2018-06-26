@@ -1,0 +1,22 @@
+<Material Name="objects/weapons/Deutsche/Attachments/mp40Silencer_fp" MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Silencer" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.28627452,0.28627452,0.28627452" Specular="0.17647059,0.17647059,0.17647059" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Deutsche/Attachments/Textures/SIlencer.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/deutsche/attachments/textures/silencer_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/deutsche/attachments/textures/silencer_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <Material Name="SubMtl2" MtlFlags="1152" Shader="Nodraw" GenMask="0" SurfaceType="" Diffuse="0.73725492,0.28627452,0.32156864" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

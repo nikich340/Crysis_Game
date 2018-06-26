@@ -1,0 +1,11 @@
+<item name="mp40Silencer" class="Item">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/Deutsche/Attachments/mp40Silencer_fp.cgf"/>
+		<thirdperson name="objects/weapons/Deutsche/Attachments/mp40Silencer_tp.cgf" />
+	</geometry>
+</item>

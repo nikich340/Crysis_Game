@@ -1,0 +1,14 @@
+<EntityPrototypeLibrary Name="mp40" SandboxVersion="1.1.1.5767">
+ <EntityPrototype Name="Ammo/Clip.mp40_clip_30" Id="{83999D13-BC41-44D0-A7CE-E08CCBF94007}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="smgbullet" Count="30" initialSetup="" objModel="objects/weapons/Deutsche/mp40/mp40_clip_30.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+<EntityPrototype Name="Ammo/Clip.mp40_clip_60" Id="{83999D13-BC41-44D0-A7CE-E08CCBF94008}" Class="CustomAmmoPickup" Description="">
+  <Properties AmmoName="smgbullet" Count="60" initialSetup="" objModel="objects/weapons/Deutsche/mp40/mp40_clip_60.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
+   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+  </Properties>
+  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0"/>
+ </EntityPrototype>
+</EntityPrototypeLibrary>

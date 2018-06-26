@@ -531,4 +531,15 @@
    </Particles>
   </Childs>
  </Particles>
+ <Particles Name="shells.mp40" Id="{88D68F7E-4F19-4363-9963-88B615C530D9}">
+  <Params ParticleLifeTime="22.2,0.178218" Geometry="objects/weapons/shells/shell_9mm.cgf" EmissiveLighting="1" Size="0.02" Speed="3.62,0.317" GravityScale="1" FocusAngle="22.1" FocusAzimuth="300" EmitAngle="7.4" InitAngles="300,180,300" RandomRotationRate="333,333,333" PhysicsType="SimplePhysics" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" Bounciness="1" DynamicFriction="10" MaxCollisionEvents="1"/>
+  <Childs>
+   <Particles Name="scar1">
+    <Params Count="2" ParticleLifeTime="0.52,0.475248" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" Alpha="0.267,,,(;0.07142857,1,64;1)" DiffuseLighting="0.624" DiffuseBacklighting="1" EmissiveLighting="0.158" Size="0.23,0.287,,(,0.2727273,64;1,1,64)" Speed="0.6,0.356" AirResistance="0.47" GravityScale="0.079" RandomAngles=",,180" RandomRotationRate=",,21" ConfigMin="High"/>
+   </Particles>
+   <Particles Name="scar2">
+    <Params Enabled="false" Count="2" ParticleLifeTime=",0.138614" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" Size="0.1" Speed="0.1" AirResistance="1.114327"/>
+   </Particles>
+  </Childs>
+ </Particles>
 </ParticleLibrary>
