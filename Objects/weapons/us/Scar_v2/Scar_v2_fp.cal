@@ -1,0 +1,44 @@
+#filepath = Animations\1st_person\weapons\US\Scar_v2
+
+$AnimEventDatabase = Objects\Weapons\US\Scar_v2\Scar_v2_Events.animevents
+
+                                :*<<<ANIMATIONS>>>*:
+                                       *FIRE*
+fire_bullets_right_01		         =	         fire_bullets_right_01.caf
+fire_bullets_right_akimbo_01		 =	         fire_bullets_right_akimbo_01.caf
+fire_bullets_right_fc_01		 =	         fire_bullets_right_fc_01.caf
+fire_bullets_right_reflex_01		 =	         fire_bullets_right_reflex_01.caf
+fire_bullets_right_scope_01		 =	         fire_bullets_right_scope_01.caf
+                                       *IDLE*
+idle_right_01				 =	         idle_right_01.caf
+idle_right_akimbo_01			 =	         idle_right_akimbo_01.caf
+idle_raised_right_01			 =	         idle_raised_right_01.caf
+idle_right_fc_01			 =	         idle_right_fc_01.caf
+idle_right_reflex_01			 =	         idle_right_reflex_01.caf
+idle_right_scope_01			 =	         idle_right_scope_01.caf
+                                      *RELOAD*
+reload_chamberempty_01			 =	         reload_chamberempty_01.caf
+reload_chamberfull_01			 =	         reload_chamberfull_01.caf
+                                      *SELECT*
+select_01				 =	         select_01.caf
+                                      *MELEE*
+melee_01				 =	         melee_01.caf
+                                       *ZOOM*
+zoom_in_fc_01				 =	         zoom_in_fc_01.caf
+zoom_out_fc_01				 =	         zoom_out_fc_01.caf
+zoom_in_reflex_01			 =	         zoom_in_reflex_01.caf
+zoom_out_reflex_01			 =	         zoom_out_reflex_01.caf
+zoom_in_scope_01			 =	         zoom_in_scope_01.caf
+zoom_out_scope_01			 =	         zoom_out_scope_01.caf
+                                      *MODIFY*
+enter_modify_right_01			 =	         enter_modify_right_01.caf
+modify_layer_right_01			 =	         modify_layer_right_01.caf
+leave_modify_right_01			 =	         leave_modify_right_01.caf
+                                   *RAISE_WEAPON*
+raise_right_01				 =	         raise_right_01.caf
+lower_right_01				 =	         lower_right_01.caf
+                                    *ONE_HANDED*
+grab_weapon_left_01			 =	         grab_weapon_left_01.caf
+remove_arm_left_01			 =	         remove_arm_left_01.caf
+                                  *SWICH_FIREMODE*
+switch_firemode_right_01		 =	         switch_firemode_right_01.caf

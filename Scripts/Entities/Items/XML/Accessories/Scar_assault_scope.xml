@@ -1,0 +1,12 @@
+	<item name="Scar_assault_scope" class="Item" priority="0" >
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="display_name" value="Scar_assault_scope" />
+	</params>
+	<geometry>
+		<firstperson name="Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_assault_scope/Scar_assault_scope_fp.cgf" />
+		<thirdperson name="Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_assault_scope/Scar_assault_scope_tp.cgf" />
+	</geometry>
+</item>

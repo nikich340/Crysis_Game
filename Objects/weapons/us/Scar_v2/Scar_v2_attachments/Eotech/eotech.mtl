@@ -1,0 +1,43 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Eotech" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.49019611,0.53333336,0.4666667" Specular="0.57647061,0.57647061,0.57647061" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Eotech/textures/eotech_rework_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Eotech/textures/eotech_rework_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Bumpmap" File="objects/weapons/us/scar_v2/scar_v2_attachments/eotech/textures/eotech_rework_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/scar_v2/scar_v2_attachments/eotech/textures/eotech_rework_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env2.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.44800001" Glossiness="0.75" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="0.74000001"/>
+  </Material>
+  <Material Name="Proxy" MtlFlags="1152" Shader="NoDraw" GenMask="0" SurfaceType="mat_metal" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="crosshair" MtlFlags="160" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0.85490203,0.85490203,0.85490203" Shininess="4" Opacity="0.99000001" GlowAmount="30.809999" PostEffectType="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/reflex_rifle/textures/reflex_crossh.dds" IsTileU="0" IsTileV="0">
+     <TexMod TileU="1.89" TileV="1.6" OffsetU="-0.41" OffsetV="-0.31999999"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="CloakLayer" NoDraw="0">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

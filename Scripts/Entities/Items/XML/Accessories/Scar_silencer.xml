@@ -1,0 +1,12 @@
+<item name="Scar_Silencer" class="Item" >
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="display_name" value="Scar_Silencer" />
+	</params>
+	<geometry>
+		<firstperson name="Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_silencer/Scar_silencer.cgf"/>
+		<thirdperson name="Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_silencer/Scar_silencer_tp.cgf" />
+	</geometry>
+</item>

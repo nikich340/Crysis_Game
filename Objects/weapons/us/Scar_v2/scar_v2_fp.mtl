@@ -1,0 +1,56 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="main1" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.7843138,0.7843138,0.7843138" Specular="0.43137258,0.43137258,0.43137258" Emissive="0,0,0" Shininess="14" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/scar_v2/textures/case_a_screens.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/scar_v2/textures/case_a_screens_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/scarab/textures/case_a_screens_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+  <Material Name="main2" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.45098042,0.45098042,0.45098042" Specular="0.60000002,0.60000002,0.60000002" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/scar_v2/textures/case_c.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/scar_v2/textures/case_c_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/scar_v2/textures/case_c_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env4.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.23899999" Glossiness="0.75" ReflectionAmount="0.47" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+  <Material Name="main3" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="1,1,1" Specular="0.79215693,0.79215693,0.79215693" Emissive="0,0,0" Shininess="4.5" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/us/scar_v2/textures/case_b_cell.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/us/scar_v2/textures/case_b_cell_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/us/scar_v2/textures/case_b_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.56699997" Glossiness="0.70300001" ReflectionAmount="0.25" FresnelBias="0.1" FresnelScale="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

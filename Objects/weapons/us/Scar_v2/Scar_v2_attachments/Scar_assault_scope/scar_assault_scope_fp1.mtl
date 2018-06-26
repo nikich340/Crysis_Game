@@ -1,0 +1,30 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Scar_assault_scope" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="mat_metal_thick" Diffuse="0.4784314,0.53333336,0.4666667" Specular="0.36078432,0.36078432,0.36078432" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_assault_scope/textures/scope_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_assault_scope/textures/scope_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env2.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75" ReflectionAmount="0.25" FresnelBias="0" FresnelScale="1"/>
+  </Material>
+  <Material Name="Proxy" MtlFlags="128" Shader="NoDraw" GenMask="0" SurfaceType="mat_metal_thick_weapons" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10">
+   <Textures />
+  </Material>
+  <Material Name="Crosshair" MtlFlags="128" Shader="Scopes" GenMask="0" SurfaceType="" Diffuse="0.49803925,0.49803925,0.49803925" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Scar_assault_scope/textures/crosshair.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

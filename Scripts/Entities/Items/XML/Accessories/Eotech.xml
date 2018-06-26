@@ -1,0 +1,12 @@
+<item name="Eotech" class="Item" priority="0" >
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="display_name" value="Eotech" />
+	</params>
+	<geometry>
+		<firstperson name="Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Eotech/Eotech.cgf"/>
+		<thirdperson name="Objects/Weapons/US/Scar_v2/Scar_v2_attachments/Eotech/Eotech_tp.cgf" />
+	</geometry>
+</item>
