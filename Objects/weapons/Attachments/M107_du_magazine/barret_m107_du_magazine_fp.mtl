@@ -1,0 +1,34 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="M107_MAG" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="mat_metal_thick_weapons" Diffuse="0.31764707,0.31764707,0.31764707" Specular="0.45490199,0.49411768,0.58823532" Emissive="0,0,0" Shininess="7" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_du_magazine/textures/m107_du_mag_diff.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/m107_du_magazine/textures/m107_du_mag_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/m107_du_magazine/textures/m107_du_mag_norm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="GLOW" MtlFlags="128" Shader="Illum" GenMask="285220896" SurfaceType="" Diffuse="0.88235301,0,0.019607844" Specular="0,0,0" Emissive="1,1,1" Opacity="1" GlowAmount="40.299999">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/M107_du_magazine/textures/M107_DU_GLOW.dds">
+     <TexMod TexMod_VOscillatorType="2" TexMod_URotateAmplitude="13.798828" TexMod_VRotatePhase="10.69519" TexMod_VRotateCenter="100" TexMod_VOscillatorRate="1" TexMod_VOscillatorAmplitude="0.60000002"/>
+    </Texture>
+    <Texture Map="Decal" File="objects/weapons/attachments/m107_du_magazine/textures/fy71_inc_clip_decal.dds" Filter="7">
+     <TexMod TexMod_VOscillatorType="2" TexMod_VOscillatorRate="0.60000002" TexMod_VOscillatorAmplitude="5"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="15.53"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

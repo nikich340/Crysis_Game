@@ -1,0 +1,27 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="barrett_m107_fp" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/barrett_m107/textures/M107_DIFF.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/Weapons/US/barrett_m107/textures/M107_SPEC.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Game/Objects/Weapons/US/barrett_m107/textures/M107_NORM.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="barret_m107_fp_rearsight" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/US/barrett_m107/textures/M107_REARSIGHT_DIFF.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

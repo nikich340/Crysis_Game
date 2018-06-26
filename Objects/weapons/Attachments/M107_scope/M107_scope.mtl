@@ -1,0 +1,36 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Scope" MtlFlags="128" Shader="Metal" GenMask="268447744" SurfaceType="" Diffuse="0.078431375,0.078431375,0.078431375" Specular="0.45490199,0.49411768,0.58823532" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_scope/barret_scope_diff.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/m107_scope/barret_scope_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/m107_scope/barret_scope_norm.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env4.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.219" AnisotropicShape="0.68300003"/>
+  </Material>
+  <Material Name="Glass" MtlFlags="128" Shader="Specialeffects" GenMask="518" SurfaceType="" Diffuse="0.50980395,0.50980395,0.50980395" Specular="0.54901963,0.54901963,0.54901963" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_scope/barret_scope_diff.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/m107_scope/barret_scope_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelBias="1" ReflectionAmount="0.5" RefractionAmount="0.38600001" LensColor="1,1,1" ScopeCenterX="0" ScopeCenterY="0" ScopeScale="1.5" ScopeReflBumpScale="1" ScopeRefrBumpScale="0.1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

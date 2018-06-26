@@ -1,0 +1,55 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Material #19324" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.10196079,0.10196079,0.10196079" Specular="0.45490199,0.49411768,0.58823532" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/M107_scope/BARRET_SCOPE_DIFF.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/Weapons/Attachments/M107_scope/BARRET_SCOPE_SPEC.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Game/Objects/Weapons/Attachments/M107_scope/BARRET_SCOPE_NORM.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="Material #19335" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Attachments/M107_scope/BARRET_SCOPE_DIFF.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="Game/Objects/Weapons/Attachments/M107_scope/BARRET_SCOPE_SPEC.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="Game/Objects/Weapons/Attachments/M107_scope/BARRET_SCOPE_NORM.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="CROSSHAIR" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0,0,0" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="0.90100002">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_scope/crosshair.dds" Filter="7" IsTileU="0" IsTileV="0">
+     <TexMod TileU="0" TileV="0"/>
+    </Texture>
+    <Texture Map="Opacity" File="objects/weapons/attachments/scope_assault/textures/mask.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="GLASS" MtlFlags="2176" Shader="Glass" GenMask="268436736" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/scope_assault/textures/google.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Opacity" File="objects/weapons/attachments/scope_assault/textures/mask.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams TintAmount="0.109" RefrBumpScale="0" ReflectionAmount="0.25" FresnelBias="0.41600001" FresnelScale="11.98" BackLightScale="0" FilterColor="1,1,1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

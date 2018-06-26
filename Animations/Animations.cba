@@ -1803,6 +1803,7 @@
 		<SpecialAnimsList>
     </SpecialAnimsList>
 	</AnimationDefinition>
+	
 	<!-- //animation definitions for the SNIPER_DSG1 (weapon type) -->
 	<AnimationDefinition>
 		<DeletePosController value="0"/>
@@ -1822,6 +1823,27 @@
 		<SpecialAnimsList>
     </SpecialAnimsList>
 	</AnimationDefinition>
+	
+	<!-- //animation definitions for the Barrett_M107 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../Objects/Weapons/US/barrett_m107/barrett_m107_fp.chr"/>
+		<Animation Path="1st_person/weapons/us/barrett_m107"/>
+		<DataBase Path="1st_person/weapons/us/barrett_m107_fp/barrett_m107.dba"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<RotatePosRoot value="180"/>
+		<RotateQuatRoot value="IDENTITY"/>
+		<RotatePosChild value="180"/>
+		<RotateQuatChild value="180"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	
 	<!-- //animation definitions for the Transceiver (weapon type) -->
 	<AnimationDefinition>
 		<DeletePosController value="0"/>

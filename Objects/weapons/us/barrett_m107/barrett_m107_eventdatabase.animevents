@@ -1,0 +1,219 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.9222001e-026" parameter="" bone="" offset="1.9222001e-026,1.4411929e-038,1.4411923e-038" dir="1.9222001e-026,1.4411929e-038,1.4411923e-038"/>
+  <event name="" time="3.7474136e-019" parameter="" bone="" offset="3.7474136e-019,1.4411929e-038,1.4411923e-038" dir="3.7474136e-019,1.4411929e-038,1.4411923e-038"/>
+  <event name="" time="3.746452e-019" parameter="" bone="" offset="3.746452e-019,1.4411929e-038,1.4411923e-038" dir="3.746452e-019,1.4411929e-038,1.4411923e-038"/>
+  <event name="" time="5.5591429e-027" parameter="" bone="" offset="5.5591429e-027,1.4321506e-038,1.43215e-038" dir="5.5591429e-027,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="5.5729202e-027" parameter="" bone="" offset="5.5729202e-027,1.4321506e-038,1.43215e-038" dir="5.5729202e-027,1.4321506e-038,1.43215e-038"/>
+  <event name="" time="1.0589494e-019" parameter="" bone="" offset="1.0589494e-019,1.7400427e-039,1.7400371e-039" dir="1.0589494e-019,1.7400427e-039,1.7400371e-039"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/cock_right_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.27623999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46779001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.78711998" parameter="Sounds/weapons:sniperrifle:sniper_reload_07_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/deselect_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/physics:player_foley:body_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.014" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/enter_modify_right_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.025" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_cock_right_akimbo_01.caf">
+  <event name="sound" time="0.23600002" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46800002" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.60800004" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.92900002" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_01.caf">
+  <event name="sound" time="0.16600001" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.40331" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.57677001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.62300003" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.93204999" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_02.caf">
+  <event name="sound" time="0.01107" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_akimbo_01.caf">
+  <event name="sound" time="0.01148" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_fc_01.caf">
+  <event name="sound" time="0.16600001" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.47315001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.59902" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.62300003" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.85350001" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_fc_02.caf">
+  <event name="sound" time="0.00966" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_ironsight_01.caf">
+  <event name="sound" time="0.30900002" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.50016999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.65043002" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67500001" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.87712997" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_ironsight_02.caf">
+  <event name="sound" time="0.0089800004" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_reflex_01.caf">
+  <event name="sound" time="0.30900002" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.40165001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.57572001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67800003" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.83656001" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_scope_01.caf">
+  <event name="sound" time="0.317" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.38692001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.57525003" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.70400006" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_04_wpndown" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.88900006" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_scope_02.caf">
+  <event name="sound" time="0.016249999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_bullets_right_scope_03.caf">
+  <event name="sound" time="0.0084600002" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_cock_01.caf">
+  <event name="sound" time="0" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.45300001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.57099998" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.597" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_04_wpndown" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_cock_right_01.caf">
+  <event name="sound" time="0" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.43099999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.579" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.634" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_04_wpndown" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_cock_right_akimbo_01.caf">
+  <event name="sound" time="0.24300002" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46123999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.60890001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.61900002" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.89678001" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/fire_right_01.caf">
+  <event name="sound" time="0.0068299999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/grab_weapon_left_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:body_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.39355999" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/idle_to_zerog_right_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.11800001" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/leave_modify_right_01.caf">
+  <event name="sound" time="0.02266" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.59898001" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/lower_right_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.084000006" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/melee_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/weapons:melee:fire_fp_mw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/raise_right_01.caf">
+  <event name="sound" time="0.014" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.01251" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/reload_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.22184999" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.28828999" parameter="Sounds/weapons:sniperrifle:sniper_reload_03_clip_swtch" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.23222999" parameter="Sounds/weapons:sniperrifle:sniper_reload_04_clip_out" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.64861" parameter="Sounds/weapons:sniperrifle:sniper_reload_05_clip_in" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.76700002" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.95763999" parameter="Sounds/weapons:sniperrifle:sniper_reload_07_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/reload_chamber_empty_01.caf">
+  <event name="sound" time="0.01371" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.17462" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.21699999" parameter="Sounds/weapons:sniperrifle:sniper_reload_03_clip_swtch" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.20664001" parameter="Sounds/weapons:sniperrifle:sniper_reload_04_clip_out" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.44999999" parameter="Sounds/weapons:sniperrifle:sniper_reload_05_clip_in" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.58999997" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.84869999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.89433002" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.99000001" parameter="Sounds/weapons:sniperrifle:sniper_reload_07_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/reload_chamber_full_01.caf">
+  <event name="sound" time="0.003" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.25400001" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.29100001" parameter="Sounds/weapons:sniperrifle:sniper_reload_03_clip_swtch" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.289" parameter="Sounds/weapons:sniperrifle:sniper_reload_04_clip_out" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.56" parameter="Sounds/weapons:sniperrifle:sniper_reload_05_clip_in" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.69700003" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.87" parameter="Sounds/weapons:socom:socom_reld_empt_05_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/reload_cock_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.21699999" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.21699999" parameter="Sounds/weapons:sniperrifle:sniper_reload_03_clip_swtch" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.20318" parameter="Sounds/weapons:sniperrifle:sniper_reload_04_clip_out" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.43762001" parameter="Sounds/weapons:sniperrifle:sniper_reload_05_clip_in" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.58999997" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75566" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.81125998" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.90350997" parameter="Sounds/weapons:sniperrifle:sniper_reload_07_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/remove_arm_left_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/physics:player_foley:body_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/select_01.caf">
+  <event name="sound" time="0.017999999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.30000001" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/select_cock_01.caf">
+  <event name="sound" time="0.011" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_01_wpnup" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.46483999" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_02_cock1" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.63089001" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_03_cock2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.69300002" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_04_wpndown" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.87542999" parameter="Sounds/weapons:sniperrifle:sniper_reload_07_grab" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zerog_to_idle_right_01.caf">
+  <event name="sound" time="0.011000001" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.062000003" parameter="Sounds/physics:player_foley:suit_movement" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.67500001" parameter="Sounds/weapons:sniperrifle:sniper_reload_02_grabclip" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_in_fc_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018000001" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_in_ironsight_01.caf">
+  <event name="sound" time="0.74536997" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.41000003" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_in_reflex_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.022000002" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_in_scope_01.caf">
+  <event name="sound" time="0.018000001" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.018000001" parameter="Sounds/weapons:sniperrifle:sniper_reload_01_wpn_up" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_out_fc_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.014" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_04_wpndown" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_out_ironsight_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.58157003" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_out_reflex_01.caf">
+  <event name="sound" time="0.0070000002" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.0070000002" parameter="Sounds/weapons:sniperrifle:sniper_reload_06_wpn_down" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/us/barrett_m107/zoom_out_scope_01.caf">
+  <event name="sound" time="0.0099999998" parameter="Sounds/physics:player_foley:zoom" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.014" parameter="Sounds/weapons:sniperrifle:sniper_sel_cock_04_wpndown" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

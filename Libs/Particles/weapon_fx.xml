@@ -553,4 +553,12 @@
    </Particles>
   </Childs>
  </Particles>
+ <Particles Name="shells.M107" Id="{24FD6D3C-4D0B-4B9D-8676-2F169844D01B}">
+  <Params ParticleLifeTime="5,0.178218" Geometry="objects/weapons/shells/shell_5,56.cgf" EmissiveLighting="1" Speed="4" GravityScale="1" FocusAngle="30" FocusAzimuth="300" InitAngles="300,180,300" RandomRotationRate="333,333,333" PhysicsType="SimplePhysics" CollideTerrain="true" CollideStaticObjects="true" CollideDynamicObjects="true" Bounciness="0.3" MaxCollisionEvents="1"/>
+  <Childs>
+   <Particles Name="M107_A">
+    <Params Count="2" ParticleLifeTime="0.52,0.475248" Texture="textures/sprites/smoke_white_tiled2.tif" TextureTiling="2,2,,4" Alpha="0.327,,,(;0.07142857,1,64;1)" DiffuseLighting="0.624" DiffuseBacklighting="1" EmissiveLighting="0.158" Size="1.58,0.287,,(,0.2727273,64;1,1,64)" Speed="8.2,0.356" AirResistance="0.47" GravityScale="0.079" FocusGravityDir="true" RandomAngles=",,180" RandomRotationRate=",,21"/>
+   </Particles>
+  </Childs>
+ </Particles>
 </ParticleLibrary>

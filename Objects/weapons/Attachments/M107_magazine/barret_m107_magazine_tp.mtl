@@ -1,0 +1,23 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="M107_MAG" MtlFlags="128" Shader="Illum" GenMask="285212688" SurfaceType="mat_metal_thick_weapons" Diffuse="0.31764707,0.31764707,0.31764707" Specular="0.45490199,0.49411768,0.58823532" Emissive="0,0,0" Shininess="7" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_magazine/textures/m107_mag_diff.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/m107_magazine/textures/m107_mag_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/m107_magazine/textures/m107_mag_norm.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="1,0,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
+   <Textures />
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

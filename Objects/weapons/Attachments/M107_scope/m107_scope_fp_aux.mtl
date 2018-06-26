@@ -1,0 +1,53 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="ScopeFP" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_thick_weapons" Diffuse="0.078431375,0.078431375,0.078431375" Specular="0,0,0" Emissive="0,0,0" Shininess="1" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_scope/barret_scope_aux_diff.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/attachments/m107_scope/barret_scope_aux_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/m107_scope/barret_scope_aux_norm.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.219" Glossiness="0.68300003"/>
+  </Material>
+  <MaterialRef />
+  <Material Name="CROSSHAIR" MtlFlags="128" Shader="Illum" GenMask="285212672" SurfaceType="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/m107_scope/crosshair.dds">
+     <TexMod TileU="0" TileV="0"/>
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+  <Material Name="GLASS" MtlFlags="18560" Shader="Glass" GenMask="268436737" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/attachments/scope_assault/textures/google.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/attachments/scope_assault/textures/google_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams TintAmount="0" RefrBumpScale="0.50300002" ReflectionAmount="0.25" FresnelBias="0.2" FresnelScale="1" BackLightScale="1" FilterColor="1,1,1"/>
+   <MaterialLayers>
+    <Layer />
+    <Layer />
+    <Layer Name="Cloaklayer" NoDraw="1">
+     <PublicParams RefrBumpScale="1" SparksTilling="1" SparksColor="0.30000001,0.30000001,1"/>
+    </Layer>
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

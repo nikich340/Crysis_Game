@@ -1,0 +1,14 @@
+<item name="BarrettM107Scope" class="Item" priority="103">
+	<params>
+		<param name="giveable" value="1" />
+		<param name="selectable" value="0" />
+		<param name="droppable" value="0" />
+		<param name="scopeAttachment" value="1" />
+	</params>
+	<geometry>
+		<firstperson name="objects/weapons/attachments/M107_scope/M107_scope_fp.cgf"/>
+		<thirdperson name="objects/weapons/attachments/M107_scope/M107_scope_tp.cgf" />
+		<aux1  name="objects/weapons/attachments/M107_scope/m107_scope_fp_aux.cgf" />
+	</geometry>
+</item>
+

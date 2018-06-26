@@ -1,0 +1,36 @@
+#filepath = Animations\1st_person\weapons\US\barrett_m107
+$AnimEventDatabase = objects\weapons\us\barrett_m107\barrett_m107_eventdatabase.animevents
+
+select_01 = select_01.caf
+idle_right_01 = idle_right_01.caf
+
+raise_right_01 = raise_right_01.caf
+idle_raised_right_01 = idle_raised_right_01.caf
+lower_right_01 = lower_right_01.caf
+
+enter_modify_right_01 = enter_modify_right_01.caf
+modify_layer_right_01 = modify_layer_right_01.caf
+leave_modify_right_01 = leave_modify_right_01.caf
+
+remove_arm_left_01 = remove_arm_left_01.caf
+grab_weapon_left_01 = grab_weapon_left_01.caf
+
+melee_01 = melee_01.caf
+
+fire_bullets_right_01 = fire_bullets_right_01.caf
+reload_chamber_empty_01 = reload_chamber_empty_01.caf
+reload_chamber_full_01 = reload_chamber_full_01.caf
+
+zoom_in_scope_01 = zoom_in_scope_01.caf
+fire_bullets_right_scope_01 = fire_bullets_right_scope_01.caf
+idle_right_scope_01 = idle_right_scope_01.caf
+zoom_out_scope_01 = zoom_out_scope_01.caf
+
+
+zoom_in_ironsight_01 = zoom_in_ironsight_01.caf
+idle_right_ironsight_01 = idle_right_ironsight_01.caf
+zoom_out_ironsight_01 = zoom_out_ironsight_01.caf
+fire_bullets_right_ironsight_01 = fire_bullets_right_ironsight_01 .caf
+
+
+
