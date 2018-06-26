@@ -1,0 +1,8 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_metal_shell_large" Diffuse="0.32156864,0.32156864,0.32156864" Specular="0.99215698,0.94117701,0.78431398" Emissive="0,0,0" Shininess="8.8999996" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/stalker/weapons/g36/ammo/wpn_ammo.dds" Filter="7">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

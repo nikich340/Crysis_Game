@@ -1,0 +1,19 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="ammo" MtlFlags="128" Shader="Illum" GenMask="285229056" SurfaceType="" Diffuse="0.48627454,0.48627454,0.48627454" Specular="0,0,0" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/stalker/weapons/g36/ammo/wpn_ammo.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_metal_ddn.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1" DetailBumpTillingU="1" DetailBumpTillingV="1" DetailBumpScale="0.75999999" DetailBlendAmount="0"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="128" Shader="Nodraw" GenMask="0" SurfaceType="mat_fabric" Diffuse="0,588,0" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

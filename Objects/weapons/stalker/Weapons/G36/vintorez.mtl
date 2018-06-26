@@ -1,0 +1,30 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="scope" MtlFlags="128" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_pipe" Diffuse="0.45098042,0.45098042,0.45098042" Specular="0.20784315,0.20784315,0.20784315" Emissive="0,0,0" Shininess="9" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/stalker/vintorez/wpn_vss.dds" Filter="5">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/stalker/vintorez/wpn_vss_spec.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/stalker/vintorez/wpn_vss_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Detail" File="textures/detail/detail_metal.dds" Filter="5">
+     <TexMod TileU="5.8099999" TileV="6.0700002"/>
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.85600001" Glossiness="0.93099999"/>
+  </Material>
+  <Material Name="Material #26" MtlFlags="128" Shader="Illum" GenMask="268435456" SurfaceType="" Diffuse="0.47058827,0.47058827,0.47058827" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.99000001">
+   <Textures>
+    <Texture Map="Diffuse" File="Game/Objects/Weapons/Stalker/Weapons/G36/Attachments/wpn_crosshair.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AmbientMultiplier="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

@@ -1,0 +1,46 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="3.4876124e-010" parameter="" bone="" offset="3.4876124e-010,1.4321136e-038,1.432113e-038" dir="3.4876124e-010,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="2.5969377e-019" parameter="" bone="" offset="2.5969377e-019,1.4321136e-038,1.432113e-038" dir="2.5969377e-019,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="2.3429395e-019" parameter="" bone="" offset="2.3429395e-019,1.4321136e-038,1.432113e-038" dir="2.3429395e-019,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="3.4738773e-019" parameter="" bone="" offset="3.4738773e-019,1.4321136e-038,1.432113e-038" dir="3.4738773e-019,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="3.4569367e-019" parameter="" bone="" offset="3.4569367e-019,1.4321136e-038,1.432113e-038" dir="3.4569367e-019,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="4.9375858e-020" parameter="" bone="" offset="4.9375858e-020,1.4321136e-038,1.432113e-038" dir="4.9375858e-020,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="9.853422e-020" parameter="" bone="" offset="9.853422e-020,1.4321136e-038,1.432113e-038" dir="9.853422e-020,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="9.853453e-020" parameter="" bone="" offset="9.853453e-020,1.4319678e-038,1.4319673e-038" dir="9.853453e-020,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="2.1057247e-019" parameter="" bone="" offset="2.1057247e-019,1.4319678e-038,1.4319673e-038" dir="2.1057247e-019,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="2.0979203e-019" parameter="" bone="" offset="2.0979203e-019,1.4319678e-038,1.4319673e-038" dir="2.0979203e-019,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="2.0866717e-019" parameter="" bone="" offset="2.0866717e-019,1.4321136e-038,1.432113e-038" dir="2.0866717e-019,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="1.8376479e-018" parameter="" bone="" offset="1.8376479e-018,1.4319678e-038,1.4319673e-038" dir="1.8376479e-018,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="1.7648084e-019" parameter="" bone="" offset="1.7648084e-019,1.4321136e-038,1.432113e-038" dir="1.7648084e-019,1.4321136e-038,1.432113e-038"/>
+  <event name="" time="2.1725941e-007" parameter="" bone="" offset="2.1725941e-007,1.4319678e-038,1.4319673e-038" dir="2.1725941e-007,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="3.7997162e-020" parameter="" bone="" offset="3.7997162e-020,1.4319678e-038,1.4319673e-038" dir="3.7997162e-020,1.4319678e-038,1.4319673e-038"/>
+  <event name="" time="5.2811796e-037" parameter="" bone="" offset="5.2811796e-037,1.4321136e-038,1.432113e-038" dir="5.2811796e-037,1.4321136e-038,1.432113e-038"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/grab_weapon_left_01.caf">
+  <event name="sound" time="0.51766002" parameter="sounds/weapons:weapon_accessories:pickup_weapon_fp" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/leave_modify_right_01.caf">
+  <event name="sound" time="0.48322001" parameter="sounds/weapons:weapon_accessories:pickup_weapon" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/lower_right_01.caf">
+  <event name="sound" time="0.36169001" parameter="sounds/weapons:scar:deselect" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/melee_01.caf">
+  <event name="sound" time="0.01743" parameter="sounds/weapons:melee:fire_fp_sw" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/raise_right_01.caf">
+  <event name="sound" time="0.01443" parameter="sounds/weapons:shiten:select" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/reload_chamberfull_01.caf">
+  <event name="sound" time="0.12188" parameter="sounds/weapons/vintorez:sounds:reload_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.35881999" parameter="sounds/weapons/vintorez:sounds:reload_02" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.65697002" parameter="sounds/weapons/vintorez:sounds:cock_back" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75542003" parameter="sounds/weapons/vintorez:sounds:cock_fwd" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.49989" parameter="sounds/weapons/vintorez:sounds:reload_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="objects/weapons/stalker/weapons/g36/select_01.caf">
+  <event name="sound" time="0.072329998" parameter="objects/weapons/stalker/weapons/g36/sounds/draw.mp2" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="New Event" time="0" parameter="" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>
