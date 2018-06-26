@@ -1,0 +1,15 @@
+<Material Name="objects/weapons/uk/hammer50/Hammer50" MtlFlags="256">
+ <SubMaterials>
+  <MaterialRef />
+  <Material Name="q2" MtlFlags="130" Shader="Metal" GenMask="268435456" SurfaceType="mat_metal_smooth" Diffuse="0.43137258,0.43137258,0.43137258" Specular="0.17254902,0.17254902,0.17254902" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/uk/hammer50/textures/bullet.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.31400001" Glossiness="0.75"/>
+  </Material>
+  <MaterialRef />
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

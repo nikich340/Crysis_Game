@@ -1445,6 +1445,21 @@
     </SpecialAnimsList>
 	</AnimationDefinition>
 	
+	<!-- //animation definitions for the Hammer50 (weapon type) -->
+	<AnimationDefinition>
+		<DeletePosController value="0"/>
+		<DeleteRotController value="0"/>
+		<Model File="/../objects/weapons/UK/Hammer50/Hammer50_right_fp.chr"/>
+		<Animation Path="1st_person/weapons/UK/Hammer50_fp"/>
+		<COMPRESSION value="1"/>
+		<AUTOCOMPRESSION value="0"/>
+		<FOOTPLANTS value="NO"/>
+		<HUMAN value="NO"/>
+		<WEAPON value="YES"/>
+		<SpecialAnimsList>
+    </SpecialAnimsList>
+	</AnimationDefinition>
+	
 
 	<!-- //animation definitions for the AT_mine (weapon type) -->
 	<AnimationDefinition>
