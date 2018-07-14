@@ -57,8 +57,8 @@
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="Sounds/Weapons/9a91:fires:one" radius="200" static="1" />
-			<sound target="thirdperson" name="Sounds/Weapons/9a91/sil_and_tp:tp_fires:one_tp_shoot" radius="200" static="1" />
+			<sound target="firstperson" name="Sounds/9a91:fires:one" radius="200" static="1" />
+			<sound target="thirdperson" name="Sounds/9a91/sil_and_tp:tp_fires:one_tp_shoot" radius="200" static="1" />
 		</action>
 		<action name="spin_down">
 			<sound target="firstperson" name="Sounds/weapons:scar:fire_fp_tail%env%" radius="5" static="1" />
@@ -69,29 +69,29 @@
 			<sound target="thirdperson" name="Sounds/weapons:scar:fire_silenced_3rd_tail" radius="5" static="1" />
 		</action>
 		<action name="rapid_fire">
-			<sound target="firstperson" name="Sounds/Weapons/9a91:fires:loop" radius="250" static="1" synched="1"/>
-			<sound target="thirdperson" name="Sounds/Weapons/9a91/sil_and_tp:tp_fires:loop_tp" radius="250" static="1" synched="1"/>
+			<sound target="firstperson" name="Sounds/9a91:fires:loop" radius="250" static="1" synched="1"/>
+			<sound target="thirdperson" name="Sounds/9a91/sil_and_tp:tp_fires:loop_tp" radius="250" static="1" synched="1"/>
 		</action>
 		<action name="rapid_fire_silenced">
-			<sound target="firstperson" name="Sounds/Weapons/9a91/sil_and_tp:fires:silfp_loop" radius="20" static="1" synched="1"/>
-			<sound target="thirdperson" name="Sounds/Weapons/9a91/sil_and_tp:tp_fires:loop_sil_tp" radius="20" static="1" synched="1"/>
+			<sound target="firstperson" name="Sounds/9a91/sil_and_tp:fires:silfp_loop" radius="20" static="1" synched="1"/>
+			<sound target="thirdperson" name="Sounds/9a91/sil_and_tp:tp_fires:loop_sil_tp" radius="20" static="1" synched="1"/>
 		</action>
 		<action name="fire_silenced">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="Sounds/Weapons/9a91/sil_and_tp:fires:one_fp_sil" radius="18" static="1" />
-			<sound target="thirdperson" name="Sounds/Weapons/9a91/sil_and_tp:tp_fires:one_sil_tp" radius="18" static="1" />
+			<sound target="firstperson" name="Sounds/9a91/sil_and_tp:fires:one_fp_sil" radius="18" static="1" />
+			<sound target="thirdperson" name="Sounds/9a91/sil_and_tp:tp_fires:one_sil_tp" radius="18" static="1" />
 		</action>
 		
 		<action name="pbs_rapid">
-			<sound target="firstperson" name="Sounds/Weapons/9a91/pbs-1:shoots:loop_fp" radius="20" static="1" synched="1"/>
-			<sound target="thirdperson" name="Sounds/Weapons/9a91/pbs-1:shoots:loop_tp" radius="20" static="1" synched="1"/>
+			<sound target="firstperson" name="Sounds/9a91/pbs-1:shoots:loop_fp" radius="20" static="1" synched="1"/>
+			<sound target="thirdperson" name="Sounds/9a91/pbs-1:shoots:loop_tp" radius="20" static="1" synched="1"/>
 		</action>
 		<action name="pbs">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="Sounds/Weapons/9a91/pbs-1:shoots:one_fp" radius="18" static="1" />
-			<sound target="thirdperson" name="Sounds/Weapons/9a91/pbs-1:shoots:one_tp" radius="18" static="1" />
+			<sound target="firstperson" name="Sounds/9a91/pbs-1:shoots:one_fp" radius="18" static="1" />
+			<sound target="thirdperson" name="Sounds/9a91/pbs-1:shoots:one_tp" radius="18" static="1" />
 		</action>
 		<action name="fire_gl" children="1" >
 			<animation target="firstperson" name="fire_grenade_%hand%_%suffix%01" />

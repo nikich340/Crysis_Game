@@ -57,8 +57,8 @@
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="game/Sounds/error_Weapons:tutweapon:fire13" radius="200" static="0" synched="0" />
-			<sound target="thirdperson" name="game/Sounds/error_Weapons:tutweapon:fire13" radius="200" static="1" />
+			<sound target="firstperson" name="Sounds/p90:p90:fire" radius="200" static="1" />
+			<sound target="thirdperson" name="Sounds/p90:p90:fire" radius="200" static="1" />
 		</action>
 		<action name="spin_down">
 			<sound target="firstperson" name="Sounds/weapons:scar:fire_fp_tail%env%" radius="5" static="1" />
@@ -69,8 +69,8 @@
 			<sound target="thirdperson" name="Sounds/weapons:scar:fire_silenced_3rd_tail" radius="5" static="1" />
 		</action>
 		<action name="rapid_fire">
-			<sound target="firstperson" name="game/Sounds/error_Weapons:tutweapon:fire13" radius="250" static="0" synched="0"/>
-			<sound target="thirdperson" name="game/Sounds/error_Weapons:tutweapon:fire13" radius="250" static="1" synched="0"/>
+			<sound target="firstperson" name="Sounds/p90:p90:fire" radius="250" static="1" />
+			<sound target="thirdperson" name="Sounds/p90:p90:fire" radius="250" static="1" />
 		</action>
 		<action name="rapid_fire_silenced">
 			<sound target="firstperson" name="Sounds/weapons:scar:fire_silenced_fp_loop" radius="20" static="1" synched="1"/>

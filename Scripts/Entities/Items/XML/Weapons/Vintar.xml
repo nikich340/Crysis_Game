@@ -48,8 +48,8 @@
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_right_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/weapons/vintorez:sounds:fire_fp" radius="15" static="1" />
-			<sound target="thirdperson" name="sounds/weapons/vintorez:sounds:fire_3rd" radius="15" static="1" />
+			<sound target="firstperson" name="sounds/vintorez:sounds:fire_fp" radius="15" static="1" />
+			<sound target="thirdperson" name="sounds/vintorez:sounds:fire_3rd" radius="15" static="1" />
 		</action>
 		<action name="spin_down">
 			<sound target="firstperson" name="" radius="5" static="1" />
@@ -73,7 +73,7 @@
 			<!--<sound target="thirdperson" name="sounds/weapons:scar:reload_chamberfull" radius="2" />-->
 		</action>
 		<action name="empty_clip">
-			<sound target="firstperson" name="sounds/weapons/vintorez:sounds:empty" radius="2" />
+			<sound target="firstperson" name="sounds/vintorez:sounds:empty" radius="2" />
 			<sound target="thirdperson" name="" radius="2" />
 		</action>
 		<action name="null_fire">

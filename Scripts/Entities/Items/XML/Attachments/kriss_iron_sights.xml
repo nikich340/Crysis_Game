@@ -6,8 +6,8 @@
 		<param name="scopeAttachment" value="1" />
 	</params>
 	<geometry>
-		<firstperson name="objects/weapons/attachments/kriss_iron.cgf"/>
-		<thirdperson name="objects/weapons/attachments/kriss_iron.cgf" />
-		<aux1  name="objects/weapons/attachments/kriss_iron.cgf" />
+		<firstperson name="objects/weapons/attachments/kriss_iron/kriss_iron.cgf"/>
+		<thirdperson name="objects/weapons/attachments/kriss_iron/kriss_iron.cgf" />
+		<aux1  name="objects/weapons/attachments/kriss_iron/kriss_iron.cgf" />
 	</geometry>
 </item>
