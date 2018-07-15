@@ -1,8 +1,0 @@
-<Material MtlFlags="45" Shader="Terrain.Layer" GenMask="285212672" SurfaceType="mat_leaves_terrain" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/detail/forest_ground_edgy.tif">
-   <TexMod TileU="0.40000001" TileV="0.40000001"/>
-  </Texture>
- </Textures>
- <PublicParams DetailTextureStrength="1"/>
-</Material>

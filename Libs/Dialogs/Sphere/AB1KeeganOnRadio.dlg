@@ -1,5 +1,0 @@
-<DialogScript Name="Sphere.AB1KeeganOnRadio" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/marine_2_sphere_ab1_3A7264FB" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/major_strickland_sphere_ab1_3C2A6E26" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/marine_2_sphere_ab1_9C5CF30E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

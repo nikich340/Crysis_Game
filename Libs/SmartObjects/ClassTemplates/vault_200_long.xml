@@ -1,7 +1,0 @@
-<sotemplate>
-	<object model="vault_200_long.cgf" />
-	<helper name="so_start_1" pos="-5.34785e-007,-1.66513,0" rot="-1.0,0.0,0.0,0.0" radius="0.1" projectOnGround="1" />
-	<helper name="so_end_1" pos="1.87291e-006,4.50138,0" rot="0.0,0.0,0.0,-1.0" radius="0.1" projectOnGround="true" />
-	<helper name="so_start_1b" pos="3.28657e-007,1.66513,0" rot="0.0,0.0,0.0,1.0" radius="0.1" projectOnGround="1" />
-	<helper name="so_end_1b" pos="-1.14792e-006,-4.50138,0" rot="1.0,0.0,0.0,0.0" radius="0.1" projectOnGround="true" />
-</sotemplate>

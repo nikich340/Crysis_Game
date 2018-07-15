@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB7_PA_Dr_Ellis_to_MedBay" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/pa_announcement_fleet_ab7_3CC62369" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Doctor Ellis to the Medical Bay, Doctor Ellis to the Medical Bay."/>
-</DialogScript>

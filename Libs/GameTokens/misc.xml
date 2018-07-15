@@ -1,6 +1,0 @@
-<GameTokensLibrary Name="misc" >
- <GameToken Description="0 = resting at top, 1 = resting at bottom, 2 = going up, 3 = going down" Name="usCarrier.back_left_elev" Type="Int" Value="0" />
- <GameToken Description="0 = resting at top, 1 = resting at bottom, 2 = going up, 3 = going down" Name="usCarrier.back_right_elev" Type="Int" Value="0" />
- <GameToken Description="0 = resting at top, 1 = resting at bottom, 2 = going up, 3 = going down" Name="usCarrier.middle_right_elev" Type="Int" Value="0" />
- <GameToken Description="0 = resting at top, 1 = resting at bottom, 2 = going up, 3 = going down" Name="usCarrier.front_right_elev" Type="Int" Value="0" />
-</GameTokensLibrary>

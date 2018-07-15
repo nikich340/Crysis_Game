@@ -1,3 +1,0 @@
-<DialogScript Name="Mine.AB3_VTOL_Entrance_1" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/vtol_pilot_mine_ab1_vp001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

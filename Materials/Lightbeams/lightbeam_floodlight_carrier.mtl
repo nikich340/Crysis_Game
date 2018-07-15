@@ -1,9 +1,0 @@
-<Material MtlFlags="2" Shader="Templbeamproc" GenMask="1" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
- <Textures>
-  <Texture Map="Diffuse" File="textures/lights/mobile_light.dds">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams BeamLength="10" OrigLength="7.4899998" OrigWidth="1.58" StartRadius="2.9200001" EndRadius="8.4700003" FinalMultiplier="0.40000001" viewDependencyFactor="0.2" StartColor="0.67843139,0.71764708,0.77254909" EndColor="0.34117648,0.37254903,0.40784317" SoftIntersectionFactor="0.69999999"/>
- <MaterialLayers />
-</Material>

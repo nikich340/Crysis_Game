@@ -1,7 +1,0 @@
-<sotemplate>
-	<object model="Trooper_singleJump_left_01.cgf" />
-	<helper name="so_start_1" pos="1.64729,-4.10163,0" rot="-1.0,0.0,0.0,0.0" radius="0.65" projectOnGround="1" />
-	<helper name="so_end_1" pos="4.95579,6.56667,0" rot="-1.0,0.0,0.0,0.0" radius="0.65" projectOnGround="true" />
-	<helper name="so_start_02" pos="1.64729,-4.10163,0" rot="-1.0,0.0,0.0,0.0" radius="0.65" projectOnGround="1" />
-	<helper name="so_end_02" pos="4.95579,6.56667,0" rot="-1.0,0.0,0.0,0.0" radius="0.65" projectOnGround="true" />
-</sotemplate>

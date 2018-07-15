@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB8_Marine1_Armory2" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_1_fleet_ab9_arm003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="They need you on deck, sir!"/>
-</DialogScript>

@@ -1,8 +1,0 @@
-<DialogScript Name="Rescue.AB1_Objective_Strickland" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/major_strickland_rescue_ab2_c458e587" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/nomad_rescue_ab2_5e094a11" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/major_strickland_rescue_ab2_9b6bc1f5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/nomad_rescue_ab2_7d519324" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/major_strickland_rescue_ab2_78ca7342" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/nomad_rescue_ab2_d2c84291" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

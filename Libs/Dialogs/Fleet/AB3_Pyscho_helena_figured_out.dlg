@@ -1,5 +1,0 @@
-<DialogScript Name="Fleet.AB3_Pyscho_helena_figured_out" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab3_582bd608" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Helena reckons she&apos;s figured out&gt;"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab3_da89f933" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="That&apos;s great, but I doubt"/>
- <Line actor="1" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab3_0efdd510" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nah, mate"/>
-</DialogScript>

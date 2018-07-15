@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB6_Sci_SPMRaster" Description="">
- <Line actor="0" lookatActor="1" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab6_PU004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Go easy on that thing&gt; It&apos;s volatile."/>
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab6_PU004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Relax, I know what I&apos;m doing."/>
-</DialogScript>

@@ -1,4 +1,0 @@
-<Entity
- Name="GUI"
- Script="Scripts/Entities/Others/GUI.lua"
-/>

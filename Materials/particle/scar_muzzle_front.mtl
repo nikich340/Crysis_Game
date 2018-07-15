@@ -1,9 +1,0 @@
-<Material MtlFlags="6" Shader="Templbeamproc" GenMask="0" SurfaceType="" Diffuse="0.98823535,0.67058825,0.52156866" Specular="1,1,1" Emissive="1,1,1" Shininess="10" Opacity="0.99000001" GlowAmount="8.1999998">
- <Textures>
-  <Texture Map="Diffuse" File="textures/sprites/muzzleflash/marco/muzzle_yellow_f3.tif">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams BeamLength="10" OrigLength="10" OrigWidth="1" StartRadius="1" EndRadius="2" FinalMultiplier="7.1100001" viewDependencyFactor="2" StartColor="1,1,1" EndColor="1,1,1" SoftIntersectionFactor="1"/>
- <MaterialLayers />
-</Material>

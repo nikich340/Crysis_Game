@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB8_Morri_Take_elevator_up" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/morrison_fleet_ab8_EA7B109C" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="The blast door s unlocked, Lieutenant. Take the ammo elevator."/>
-</DialogScript>

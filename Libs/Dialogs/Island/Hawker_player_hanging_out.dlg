@@ -1,3 +1,0 @@
-<DialogScript Name="Island.Hawker_player_hanging_out" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/jester_island_ab3_stillhere" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

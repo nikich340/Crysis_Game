@@ -1,3 +1,0 @@
-<DialogScript Name="Tutorial.AB6_Barnes_vehicle" Description="">
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/prophet_tutorial_ab5_3C7FA0C1" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

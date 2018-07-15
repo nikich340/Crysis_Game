@@ -1,4 +1,0 @@
-<DialogScript Name="Core.AB4_Looks_like_a_way_out" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab3_PU0009" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Looks like a way out but the current&apos;s pushing me back."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab3_PU0010" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="There must be a power source nearby."/>
-</DialogScript>

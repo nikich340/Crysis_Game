@@ -1,3 +1,0 @@
-<DialogScript Name="Tutorial.AB3_Hawker_category_4_3" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/jester_tutorial_ab3_6D843801" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

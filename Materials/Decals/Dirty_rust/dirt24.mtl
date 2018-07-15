@@ -1,9 +1,0 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="" Diffuse="0.44705886,0.44705886,0.44705886" Specular="0,0,0" Emissive="0,0,0" Shininess="5" Opacity="0.99000001">
- <Textures>
-  <Texture Map="Diffuse" File="textures/decal/crack_stuck_dirt/cracks_006.dds" IsTileU="0" IsTileV="0">
-   <TexMod TileU="1.99" OffsetV="-0.38"/>
-  </Texture>
- </Textures>
- <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
- <MaterialLayers />
-</Material>

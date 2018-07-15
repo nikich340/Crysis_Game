@@ -1,6 +1,0 @@
-<DialogScript Name="Fleet.AB9_DeckBattle_Still_with_us" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_BC04EF43" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, you still with us, mate?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_6D5C20F0" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="More or less. Where are you?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_7067CF2E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I m with Helena in a VTOL. The carrier s overrun."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab9_6CB8CA1C" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Everyone s either dead or jumped ship. Hold on, we re comin  in to pick you up."/>
-</DialogScript>

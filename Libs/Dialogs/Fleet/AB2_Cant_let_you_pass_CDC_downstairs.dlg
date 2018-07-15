@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB2_Cant_let_you_pass_CDC_downstairs" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab2_PU002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I can t let you up here, lieutenant. CDC s downstairs."/>
-</DialogScript>

@@ -1,9 +1,0 @@
-<Material MtlFlags="41" Shader="Terrain.Layer" GenMask="268436481" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0.0478431,0.0478431,0.0478431" Emissive="0,0,0" Opacity="1">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/detail/road_asphalt3_smooth.dds" Filter="5">
-   <TexMod TileU="0.6" TileV="0.6"/>
-  </Texture>
- </Textures>
- <PublicParams DebugUVScale="64" DetailTextureStrength="0.75"/>
- <MaterialLayers />
-</Material>

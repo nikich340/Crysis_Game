@@ -1,9 +1,0 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="306184192" SurfaceType="" Diffuse="0.180392,0.180392,0.180392" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.77999997">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/roads/road_ferns_trail.tif" Filter="6">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams SelfShadowStrength="3" AmbientMultiplier="1"/>
- <MaterialLayers />
-</Material>

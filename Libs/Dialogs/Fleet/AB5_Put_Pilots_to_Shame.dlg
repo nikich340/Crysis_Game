@@ -1,6 +1,0 @@
-<DialogScript Name="Fleet.AB5_Put_Pilots_to_Shame" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="1" flagAGEP="0" sound="fleet/pilot_fleet_ab5_PU001" anim="" facial="" delay="0.25" facialWeight="0.5" facialFadeTime="0.5" desc="You&apos;re Nomad, right?"/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/pilot_fleet_ab5_PU002" anim="talk" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Great job out there, Lieutenant.## You put some of our best pilots to shame."/>
- <Line actor="1" lookatActor="2" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

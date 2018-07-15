@@ -1,3 +1,0 @@
-<DialogScript Name="Tutorial.AB1_Marine_idle_comment_5" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/marine_2_tutorial_ab1_129A27E5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

@@ -1,7 +1,0 @@
-<DialogScript Name="ascension.AB6_Mission_End_Player" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_2007" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="You are about five clicks from the carrier. Skies ahead are clear. Bring her home, One-Four."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/nomad_ascension_ab1_2008" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Roger that."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/psycho_ascension_ab1_0001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, you read me? We made it to the carrier. I&apos;m with Prophet and Helena. Where are you?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/nomad_ascension_ab1_D1234" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Copy, Psycho. I&apos;m inbound, ETA ten minutes."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/psycho_ascension_ab1_0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Make it quick, mate. I brought you back a little souvenir."/>
-</DialogScript>

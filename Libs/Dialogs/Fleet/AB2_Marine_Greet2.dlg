@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB2_Marine_Greet2" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab2_PU0002" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nice Suit"/>
-</DialogScript>

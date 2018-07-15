@@ -1,5 +1,0 @@
-<DialogScript Name="Fleet.AB9_EvaccingMorrison2" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_fleet_ab9_PU0005" anim="" facial="" delay="-0.25" facialWeight="0.5" facialFadeTime="0.5" desc="Get the door open! Get the fucking door open!"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_1_fleet_ab9_PU0004" anim="" facial="" delay="-0.25" facialWeight="0.5" facialFadeTime="0.5" desc="screams"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_fleet_ab9_PU0006" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="screams"/>
-</DialogScript>

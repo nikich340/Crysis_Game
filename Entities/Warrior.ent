@@ -1,4 +1,0 @@
-<Entity
- Name="Warrior"
- Script="Scripts/Entities/AI/Aliens/Warrior.lua" 
-/>

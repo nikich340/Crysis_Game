@@ -1,3 +1,0 @@
-<DialogScript Name="Sphere.AB3ProphetPlayerDeserts1" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/prophet_sphere_ab2_8E9EE6A2" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

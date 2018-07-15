@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB6_Sci_respond_to_LookAt" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="1" flagAGEP="0" sound="fleet/scientist_fleet_ab6_FC50E070" anim="rubBodyPart" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="If you see Helena, can you tell her... um... it doesn t matter."/>
- <Line actor="1" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

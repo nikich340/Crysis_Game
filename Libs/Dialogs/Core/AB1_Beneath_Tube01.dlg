@@ -1,5 +1,0 @@
-<DialogScript Name="Core.AB1_Beneath_Tube01" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/vtol_pilot_core_ab1_6932E4BE" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad? Nomad! Do you read me? We re losing your video feed! You hear me? Nomad!"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_9768df5a" anim="" facial="" delay="0.89999998" facialWeight="0.5" facialFadeTime="0.5" desc="Vulture, you re breaking up. Do you read me, over?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab1_a2d456ef" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Vulture, do you copy?"/>
-</DialogScript>

@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB8_Engie_Circuit_Breakers_disabled" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_9DA06AA2" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="OK, that should do it"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_01509455" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Great. Rod arms are now open. Head over to the reactor room and initiate the SCRAM sequence."/>
-</DialogScript>

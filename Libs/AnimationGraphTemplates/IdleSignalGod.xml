@@ -1,4 +1,0 @@
-<AGTemplate name="IdleSignalGod" extend="IdleSignalGhost">
-	<ColliderMode mode="NonPushable"/>
-</AGTemplate>
-

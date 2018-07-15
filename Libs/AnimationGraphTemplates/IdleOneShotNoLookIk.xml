@@ -1,3 +1,0 @@
-<AGTemplate name="IdleOneShotNoLookIk" extend="IdleOneShot">
-	<LookIk override="1"/>
-</AGTemplate>

@@ -1,5 +1,0 @@
-<DialogScript Name="Ice.Barnes_3" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/prophet_ice_ab2_6d001d87" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/nomad_ice_ab2_e993df2d" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ice/prophet_ice_ab2_a409ac09" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

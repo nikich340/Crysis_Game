@@ -1,5 +1,0 @@
-<Material MtlFlags="2048" Shader="Volumeparticles" GenMask="0" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Opacity="1">
- <Textures />
- <PublicParams SpeedX="0" SpeedY="0" SpeedZ="0.039999999" SpeedMultiplier="2" PositionOffset="0" TileX="0.5" TileY="0.5" TileZ="0.5" VolumeOpacity="1" FinalMultiplier="4.3299999" PowerFactor="0.83999997" SmoothMin="0" SmoothMax="0.44600001" NoiseScale="3.22" NoiseThreshold="1.64" StartColor="0,0.20392159,0.68235296" EndColor="0,0.074509807,0.97647065"/>
- <MaterialLayers />
-</Material>

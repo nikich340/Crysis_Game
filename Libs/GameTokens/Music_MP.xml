@@ -1,5 +1,0 @@
-<GameTokensLibrary Name="Music_MP">
- <GameToken Name="Music.WinConditionActive" Type="Int" Value="0"/>
- <GameToken Name="Music.InGameMusic_Playing" Type="Int" Value="0"/>
- <GameToken Name="Music.GameOverMusic_Playing" Type="Int" Value="0"/>
-</GameTokensLibrary>

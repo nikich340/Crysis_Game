@@ -1,9 +1,0 @@
-<Material MtlFlags="1" Shader="Illum" GenMask="33554435" SurfaceType="mat_concrete" Diffuse="0.811765,0.87451,0.952941" Specular="0.803602,0.803602,0.803602" Emissive="0,0,0" Shininess="2" Opacity="0.99">
- <Textures>
-  <Texture Map="Diffuse" File="textures/defaults/frostspecpattern2.dds" Filter="5">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams BumpOffset="0.04" DebugUVScale="64"/>
- <MaterialLayers />
-</Material>

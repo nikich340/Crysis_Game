@@ -1,8 +1,0 @@
-<Material MtlFlags="2052" Shader="Particles" GenMask="1" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Shininess="10" Opacity="0.99" GlowAmount="1">
- <Textures>
-  <Texture Map="Diffuse" File="textures/sprites/muzzleflash/aasideways3.tif">
-   <TexMod />
-  </Texture>
- </Textures>
- <MaterialLayers />
-</Material>

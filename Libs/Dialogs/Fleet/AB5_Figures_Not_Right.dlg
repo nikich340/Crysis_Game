@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB5_Figures_Not_Right" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab5_0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Shit.. These figures can&apos;t be right.## We&apos;re not equipped to deal with this many wounded."/>
-</DialogScript>

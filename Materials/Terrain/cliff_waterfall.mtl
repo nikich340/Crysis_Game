@@ -1,9 +1,0 @@
-<Material Diffuse="1,1,1" Emissive="0.83137262,0.83137262,0.83137262" GenMask="1" MtlFlags="45" Opacity="1" Shader="Terrain.Layer" Shininess="20" Specular="0,0,0" SurfaceType="mat_rock" >
- <Textures>
-  <Texture File="textures/terrain/reference/reference_waterfall.tif" Filter="7" Map="Diffuse" >
-   <TexMod OffsetU="0.75999999" OffsetV="0.25" TileU="0.029999999" TileV="0.02" />
-  </Texture>
- </Textures>
- <PublicParams BumpOffset="0.079999998" DetailTextureStrength="0.5" FresnelBias="0" FresnelPow="5" FresnelScale="2.1500001" Reflect="0.5" />
- <MaterialLayers />
-</Material>

@@ -1,9 +1,0 @@
-<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="1" MtlFlags="2" Opacity="0.99000001" Shader="Illum" Shininess="10" Specular="0,0,0" SurfaceType="mat_water" >
- <Textures>
-  <Texture File="textures/watershore/frame##01_25(0.4).dds" Map="Diffuse" >
-   <TexMod OffsetV="-0.1" TexMod_VOscillatorAmplitude="0.15000001" TexMod_VOscillatorPhase="-0.1" TexMod_VOscillatorRate="-0.1" TexMod_VOscillatorType="4" />
-  </Texture>
- </Textures>
- <PublicParams BumpOffset="0.039999999" DebugUVScale="64" />
- <MaterialLayers />
-</Material>

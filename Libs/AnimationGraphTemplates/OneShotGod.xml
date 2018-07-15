@@ -1,4 +1,0 @@
-<AGTemplate name="OneShotGod" extend="OneShot">
-	<ColliderMode mode="NonPushable"/>
-</AGTemplate>
-

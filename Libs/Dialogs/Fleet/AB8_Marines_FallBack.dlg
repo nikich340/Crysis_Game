@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB8_Marines_FallBack" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_3_fleet_ab8_PU001" anim="" facial="" delay="-2" facialWeight="0.5" facialFadeTime="0.5" desc="Fall back to the tower. Reload and regroup.## It ain&apos;t over yet."/>
-</DialogScript>

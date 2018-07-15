@@ -1,8 +1,0 @@
-<AGTemplate name="SimpleAlienDead">
-	<SelectWhen>
-		<Health value="0" />
-	</SelectWhen>
-
-	<Event onEnter="TurnRagdoll"/>
-</AGTemplate>
-

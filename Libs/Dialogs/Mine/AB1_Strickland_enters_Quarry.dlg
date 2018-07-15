@@ -1,4 +1,0 @@
-<DialogScript Name="Mine.AB1_Strickland_enters_Quarry" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_NP0013" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, be advised. We&apos;re securing the KPA camp and awaiting reinforcements. I&apos;ll give you any help I can but ground support&apos;s gonna take time. The one thing those hostages ain&apos;t got is time. It&apos;s up to you now, son."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/nomad_mine_ab1_NP0014" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Understood."/>
-</DialogScript>

@@ -1,9 +1,0 @@
-<DialogScript Name="Rescue.AB4_Rosenthal_Monologe" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_4b56ea33" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_8e9456e5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_4b16a77c" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_c2427f06" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_790eaa02" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_0b7b716b" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="rescue/dr_rosenthal_rescue_ab2_562fb2f7" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

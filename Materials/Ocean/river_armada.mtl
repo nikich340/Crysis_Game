@@ -1,4 +1,0 @@
-<Material MtlFlags="1024" Shader="NoDraw" GenMask="0" SurfaceType="mat_water" Diffuse="0.54509801,0.54509801,0.54509801" Specular="0.227451,0.227451,0.227451" Emissive="0,0,0" Shininess="10" Opacity="1">
- <Textures />
- <MaterialLayers />
-</Material>

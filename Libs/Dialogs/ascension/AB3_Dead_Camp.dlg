@@ -1,7 +1,0 @@
-<DialogScript Name="ascension.AB3_Dead_Camp" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_2_ascension_ab1_N0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="One-Eight to Two-Zero, you see anyone alive down there?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_ascension_ab1_N0001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Negative&gt; No response on secure channels&gt; We&apos;re too late."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_2_ascension_ab1_N0003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="God damn it. "/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_2_ascension_ab1_N0004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Proceeding to next extraction point, bearing east, three clicks."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_ascension_ab1_N0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Roger"/>
-</DialogScript>

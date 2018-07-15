@@ -1,5 +1,0 @@
-<DialogScript Name="Fleet.AB8_Crew_With_a_missile" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_855DC21B" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="With a missile?! Are you crazy?!"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab8_A236EF68" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="It ain t got no warhead, man!"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab8_ADFBC92E" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Come on! You got the suit!"/>
-</DialogScript>

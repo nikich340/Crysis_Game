@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB9_TAC_Got_TAC" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab9_13F0F82C" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I ve got the TAC cannon."/>
-</DialogScript>

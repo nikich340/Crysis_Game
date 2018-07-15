@@ -1,9 +1,0 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="306184192" SurfaceType="mat_concrete" Diffuse="0.43137258,0.43137258,0.43137258" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.198">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/roads/airfield_stripe2.dds" Filter="7">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams AmbientMultiplier="1"/>
- <MaterialLayers />
-</Material>

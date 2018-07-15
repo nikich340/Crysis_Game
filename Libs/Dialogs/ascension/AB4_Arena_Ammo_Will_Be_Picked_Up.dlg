@@ -1,4 +1,0 @@
-<DialogScript Name="ascension.AB4_Arena_Ammo_Will_Be_Picked_Up" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_2004" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Copy two-zero. One-Eight, Six-five, get down there and make the pick up. One-Four patrol the skies."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_ascension_ab1_2001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Roger, command. Nomad, keep us covered."/>
-</DialogScript>

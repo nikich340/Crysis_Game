@@ -1,5 +1,0 @@
-<DialogScript Name="Fleet.AB8_HelenasIdea_4_NotWorking" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_1373CE7F" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I don t think it s working."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab8_9F1CF17B" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Crap, okay, gimme a minute."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_AD17E496" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Whenever you re ready, doc."/>
-</DialogScript>

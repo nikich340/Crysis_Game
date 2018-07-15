@@ -1,3 +1,0 @@
-<DialogScript Name="ascension.AB3_Dead_Camp_Player" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_2001" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="One-Four, you are approaching the secondary evac point. We&apos;ve got no response from ground troops on our secure channel. You see anyone alive down there?"/>
-</DialogScript>

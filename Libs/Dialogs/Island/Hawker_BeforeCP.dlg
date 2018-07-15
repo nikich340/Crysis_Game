@@ -1,3 +1,0 @@
-<DialogScript Name="Island.Hawker_BeforeCP" Description="">
- <Line actor="0" lookatActor="1" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="island/jester_island_ab5_v2-00020" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

@@ -1,5 +1,0 @@
-<sotemplate>
-	<object model="suit_jump_300.cgf" />
-	<helper name="so_start_1" pos="0,0,0" rot="-1.0,0.0,0.0,0.0" radius="0.2" projectOnGround="1" />
-	<helper name="so_end_1" pos="0,2.1,3" rot="0.0,0.0,0.0,-1.0" radius="0.2" projectOnGround="1" />
-</sotemplate>

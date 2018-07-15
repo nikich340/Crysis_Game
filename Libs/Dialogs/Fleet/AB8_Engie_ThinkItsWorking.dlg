@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB8_Engie_ThinkItsWorking" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_C1E2BE97" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I think it&apos;s working."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab8_41FDFD11" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Don t sound so surprised."/>
-</DialogScript>

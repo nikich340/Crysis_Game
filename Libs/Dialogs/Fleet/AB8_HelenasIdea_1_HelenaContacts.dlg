@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB8_HelenasIdea_1_HelenaContacts" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/helena_fleet_ab8_DC97FA1D" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, I think I ve cracked their signal frequency. I m transmitting now... let me know if it works."/>
-</DialogScript>

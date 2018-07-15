@@ -1,4 +1,0 @@
-<AGTemplate name="IdleToIdlePPO" extend="IdleToIdle">
-	<MovementControlMethod horizontal="Animation" vertical="Animation"/>
-	<ColliderMode mode="PushesPlayersOnly"/>
-</AGTemplate>

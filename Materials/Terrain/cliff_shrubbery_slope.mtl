@@ -1,9 +1,0 @@
-<Material Diffuse="1,1,1" Emissive="0,0,0" GenMask="3" MtlFlags="45" Opacity="1" Shader="Terrain.Layer" Shininess="20" Specular="0.25098041,0.25098041,0.25098041" SurfaceType="mat_rock" >
- <Textures>
-  <Texture File="textures/terrain/reference/reference_valley_trees_on_hills.tif" Filter="7" Map="Diffuse" >
-   <TexMod TileU="0.039999999" TileV="0.039999999" />
-  </Texture>
- </Textures>
- <PublicParams BumpOffset="0.079999998" DetailTextureStrength="0.60000002" FresnelBias="0" FresnelPow="5" FresnelScale="2.1500001" Reflect="0.5" />
- <MaterialLayers />
-</Material>

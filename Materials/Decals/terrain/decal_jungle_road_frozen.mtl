@@ -1,9 +1,0 @@
-<Material MtlFlags="1" Shader="Illum" GenMask="33554435" SurfaceType="mat_concrete" Diffuse="0.6,0.65098,0.690196" Specular="0.184314,0.215686,0.243137" Emissive="0,0,0" Shininess="2" Opacity="0.99">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/decals/jungle_road_frozen_decal.tif" Filter="5">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams BumpOffset="0.04" DebugUVScale="64"/>
- <MaterialLayers />
-</Material>

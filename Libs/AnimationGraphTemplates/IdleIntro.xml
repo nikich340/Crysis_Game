@@ -1,5 +1,0 @@
-<AGTemplate name="IdleIntro" extend="IdleOneShot">
-  <SelectWhen>
-    <PseudoSpeed min="0.0" max="0.1"/>
-  </SelectWhen>
-</AGTemplate>

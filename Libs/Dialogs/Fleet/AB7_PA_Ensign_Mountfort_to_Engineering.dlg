@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB7_PA_Ensign_Mountfort_to_Engineering" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/pa_announcement_fleet_ab7_F6130568" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Ensign Mountfort, please go to Engineering. Ensign Mountfort, please go to Engineering."/>
-</DialogScript>

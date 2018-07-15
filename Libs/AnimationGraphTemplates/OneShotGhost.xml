@@ -1,3 +1,0 @@
-<AGTemplate name="OneShotGhost" extend="OneShot">
-	<ColliderMode mode="Disabled"/>
-</AGTemplate>

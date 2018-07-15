@@ -1,8 +1,0 @@
-<Material Diffuse="0.88627458,0.99607849,0.99215692" Emissive="0,0,0" GenMask="0" MtlFlags="2048" Opacity="1" Shader="Light.Flare" Shininess="10" Specular="0,0,0" SurfaceType="" >
- <Textures>
-  <Texture File="textures/sprites/alienfog1.dds" Map="Diffuse" >
-   <TexMod />
-  </Texture>
- </Textures>
- <MaterialLayers />
-</Material>

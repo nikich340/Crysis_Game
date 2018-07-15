@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB5_Saw_Your_CO" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_fleet_ab5_PU006" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I saw your CO heading down to the armory.## He&apos;s probably waiting for you, sir."/>
-</DialogScript>

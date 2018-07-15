@@ -1,6 +1,0 @@
-<sotemplate>
-	<helper name="so_start_1" pos="0,-2.85,0" rot="-1.0,0.0,0.0,0.0" radius="0.0" projectOnGround="0" />
-	<helper name="so_end_1" pos="0,2.85,1.5" rot="0.0,0.0,0.0,-1.0" radius="0.0" projectOnGround="0" />
-	<helper name="so_start_2" pos="0,2.85,1.5" rot="0,0.0,0.0,1.0" radius="0.0" projectOnGround="0" />
-	<helper name="so_end_2" pos="0,-2.85,0" rot="1.0,0.0,0.0,0" radius="0.0" projectOnGround="0" />
-</sotemplate>

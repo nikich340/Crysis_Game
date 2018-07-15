@@ -1,4 +1,0 @@
-<Entity
- Name="ExplosiveObject"
- Script="Scripts/Entities/Physics/ExplosiveObject.lua"
-/>

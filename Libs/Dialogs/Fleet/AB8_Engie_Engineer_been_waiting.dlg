@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB8_Engie_Engineer_been_waiting" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_F5421E3A" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Hey, Nomad! Been waiting for you. There s a radiation leak in the core. We can t hold these things off much longer."/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="1" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_2BC8D6AA" anim="talk" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="The reactor s gonna melt down unless we can shut it off. You ll need to swing around the other side."/>
-</DialogScript>

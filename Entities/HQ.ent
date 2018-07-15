@@ -1,4 +1,0 @@
-<Entity
- Name="HQ"
- Script="Scripts/Entities/Multiplayer/HQ.lua" 
-/>

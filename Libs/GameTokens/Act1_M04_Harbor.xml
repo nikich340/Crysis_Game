@@ -1,4 +1,0 @@
-<GameTokensLibrary Name="Act1_M04_Harbor" >
- <GameToken Description="This token switches to true if the player could defend the harbor successfully." Name="Mission.HarborDefended" Type="Bool" Value="false" />
- <GameToken Description="True if the player could not save his wounded squadmate." Name="Mission.SquadmateDied" Type="Bool" Value="false" />
-</GameTokensLibrary>

@@ -1,3 +1,0 @@
-<DialogScript Name="Core.AB6_Caught" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab5_e709b161" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I m caught in some kind of stream or riptide or something."/>
-</DialogScript>

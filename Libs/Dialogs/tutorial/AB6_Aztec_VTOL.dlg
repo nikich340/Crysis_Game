@@ -1,3 +1,0 @@
-<DialogScript Name="Tutorial.AB6_Aztec_VTOL" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="tutorial/aztec_tutorial_ab6_0a430994" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

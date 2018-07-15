@@ -1,9 +1,0 @@
-<GameTokensLibrary Name="Act1_M05_Tank">
- <GameToken Name="CommsOfficer.IsAlive" Type="Bool" Value="true" Description="Is the ComOfficer in Tank alive?"/>
- <GameToken Name="CommsOfficer.WasInterrogated" Type="Bool" Value="false" Description="Was the ComOfficer in Tank interrogated (by Cortez)?"/>
- <GameToken Name="CommsOfficer.InRange" Type="Bool" Value="false" Description="Is Comms Officer in Player&apos;s range? (4m)"/>
- <GameToken Name="CommsOfficer.AlertedVillage" Type="Bool" Value="false" Description="Did the Officer alert the AB3_Village?"/>
- <GameToken Name="PlayerStatus.InHelicopter" Type="Bool" Value="false"/>
- <GameToken Name="PlayerStatus.InAsianTank" Type="Bool" Value="false"/>
- <GameToken Name="Objectives.TanksDestroyed" Type="Int" Value="0" Description="This counts the amounts of tanks in the village that are destroyed"/>
-</GameTokensLibrary>

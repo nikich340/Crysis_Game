@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB7_Crew_PlayerWasInsideSphere" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_1_fleet_ab7_PU002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Hey, ain t you the spec ops guy who went inside that thing?"/>
- <Line actor="2" lookatActor="0" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_2_fleet_ab7_PU002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="You went in there?! Shit, you deserve a medal or somethin . "/>
-</DialogScript>

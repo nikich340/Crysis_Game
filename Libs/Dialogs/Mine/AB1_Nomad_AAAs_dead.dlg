@@ -1,4 +1,0 @@
-<DialogScript Name="Mine.AB1_Nomad_AAAs_dead" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/nomad_mine_ab1_PU005" anim="" facial="" delay="1.5" facialWeight="0.5" facialFadeTime="0.5" desc="Triple A&apos;s neutralized."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_PU007" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Copy. There&apos;s a VTOL headed your way. Keep that LZ secure."/>
-</DialogScript>

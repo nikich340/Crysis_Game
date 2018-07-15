@@ -1,9 +1,0 @@
-<Material MtlFlags="9" Shader="Illum" GenMask="301989888" SurfaceType="mat_pebble" Diffuse="0.68627453,0.72549021,0.78823531" Specular="0.090196081,0.090196081,0.090196081" Emissive="0,0,0" Shininess="40" Opacity="0.99000001">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/decals/road_muddy_wet_decal.dds" Filter="7">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams Displacement="0.025"/>
- <MaterialLayers />
-</Material>

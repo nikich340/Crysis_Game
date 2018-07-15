@@ -1,9 +1,0 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="268435456" SurfaceType="mat_nodraw" Diffuse="0.8588236,0.1254902,0.1254902" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.5">
- <Textures>
-  <Texture Map="Diffuse" File="objects/library/architecture/harbour/warehouse/harbour_warehouse_stripes.dds">
-   <TexMod TileU="0.75" TileV="0.25"/>
-  </Texture>
- </Textures>
- <PublicParams Displacement="0.025" AmbientMultiplier="1"/>
- <MaterialLayers />
-</Material>

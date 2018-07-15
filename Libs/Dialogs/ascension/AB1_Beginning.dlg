@@ -1,6 +1,0 @@
-<DialogScript Name="ascension.AB1_Beginning" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/marine_ascension_ab1_0012" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Pull her up! Pull her up!"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_0013" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="One-Four, this is Command, do you copy? "/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/nomad_ascension_ab1_0014" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Command, this is Nomad, I read you. Our pilot&apos;s dead and I think we have some engine damage. I&apos;ve got her under control but I&apos;m no pilot. Please advise."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_0015" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Copy, Nomad. Your secondary engine&apos;s failed. Maintain a low altitude or you&apos;ll overload the primary thrusters. "/>
-</DialogScript>

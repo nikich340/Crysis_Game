@@ -1,4 +1,0 @@
-<GameTokensLibrary Name="camera_ab3_level_tokens" >
- <GameToken Name="ambush_alarm" Type="Bool" Value="false" />
- <GameToken Name="hut_alarmed" Type="Bool" Value="false" />
-</GameTokensLibrary>

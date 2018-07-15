@@ -1,9 +1,0 @@
-<Material MtlFlags="2086" Shader="Fx_outersphere" GenMask="0" SurfaceType="" Diffuse="1,1,1" Specular="0,0,0" Emissive="1,1,1" Opacity="0.99" vertModifType="4">
- <Textures />
- <VertexDeform Type="4" DividerX="2.9" DividerY="15.8" NoiseScale="11.32,12.17,3.69">
-  <WaveX Type="1" Amp="19.5" Level="11.9" Phase="15.7" Freq="27.7"/>
-  <WaveY Type="1" Amp="8.2" Level="17" Phase="12.6" Freq="17.6"/>
- </VertexDeform>
- <PublicParams Tilling="4.74" DetailTilling="1.29" SpeedMultiplier="0.82" DetailSpeedMultiplier="1" OffsetBump="1.791" DetailOffsetBump="1.154" DetailDistance="351" SurfaceThickness="29.64" SmookePuffBias="1.294" SmookePuffPow="2.75" SmookePuffBeginColor="0,0,0.0509804" SmookePuffEndColor="0.00392157,0.219608,0.486275" GroundColor="1,1,1" FinalMultiplier="1.29" SunScattering="41.7" SunMultiplier="0"/>
- <MaterialLayers />
-</Material>

@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB7_Crew_WelcomeToBridge" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="1" flagAGEP="0" sound="fleet/crewman_fleet_ab7_PU002" anim="salute" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="In here, lieutenant. The Admiral s expecting you."/>
-</DialogScript>

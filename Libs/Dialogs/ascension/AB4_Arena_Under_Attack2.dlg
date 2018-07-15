@@ -1,3 +1,0 @@
-<DialogScript Name="ascension.AB4_Arena_Under_Attack2" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_N0006" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, you are off course. Take up a cover pattern and patrol the airspace until our birds are in the air."/>
-</DialogScript>

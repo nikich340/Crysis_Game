@@ -1,3 +1,0 @@
-<DialogScript Name="Harbor.Marine_medic_call_continues4" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="harbor/marine_2_harbor_ab1_80445D66" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

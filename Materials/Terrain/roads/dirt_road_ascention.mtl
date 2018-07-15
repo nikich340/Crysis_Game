@@ -1,9 +1,0 @@
-<Material MtlFlags="40" Shader="Illum" GenMask="306184192" SurfaceType="mat_pebble" Diffuse="0.26274511,0.21568629,0.17254902" Specular="0,0,0" Emissive="0,0,0" Shininess="30" Opacity="0.69999999">
- <Textures>
-  <Texture Map="Diffuse" File="textures/terrain/roads/road_muddy_off_12.dds" Filter="6">
-   <TexMod TileU="0.80000001" OffsetU="1" OffsetV="1"/>
-  </Texture>
- </Textures>
- <PublicParams AmbientMultiplier="1"/>
- <MaterialLayers />
-</Material>

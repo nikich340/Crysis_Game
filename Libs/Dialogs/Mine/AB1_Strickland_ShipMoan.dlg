@@ -1,4 +1,0 @@
-<DialogScript Name="Mine.AB1_Strickland_ShipMoan" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/nomad_mine_ab1_NP00140" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Shit... What the hell was that?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="mine/major_strickland_mine_ab1_NP0015" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc="I was about to ask you the same thing.  Something just came out of that rock. The Koreans are pulling back. Now&apos;s your chance, Nomad. Push through that last line of defense."/>
-</DialogScript>

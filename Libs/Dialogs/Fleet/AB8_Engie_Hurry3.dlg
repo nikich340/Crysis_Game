@@ -1,3 +1,0 @@
-<DialogScript Name="Fleet.AB8_Engie_Hurry3" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_eng003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Lieutenant, what the hell are you doing?##"/>
-</DialogScript>

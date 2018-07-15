@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB9_Crew_Dont_go_out_there" Description="">
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab9_68C84892" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Hey you! Don t go out there! Don t go out there man!"/>
- <Line actor="1" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

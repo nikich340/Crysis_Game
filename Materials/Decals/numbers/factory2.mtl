@@ -1,9 +1,0 @@
-<Material MtlFlags="0" Shader="Illum" GenMask="301989888" SurfaceType="" Diffuse="0.4666667,0.4666667,0.4666667" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.495">
- <Textures>
-  <Texture Map="Diffuse" File="textures/decal/numbers/2.tif">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams AmbientMultiplier="1"/>
- <MaterialLayers />
-</Material>

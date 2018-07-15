@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB8_Crew_What_you_silly_kids_doing" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_0611F829" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="What are you doing?!"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/crewman_3_fleet_ab8_FA3B00D1" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We re trapped. Ain t nobody getting up to flight deck unless we get that lift door open. We re trying to ram it."/>
-</DialogScript>

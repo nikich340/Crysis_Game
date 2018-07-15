@@ -1,6 +1,0 @@
-<DialogScript Name="Fleet.AB3_Sykes_ChitChat" Description="">
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab1_36F78981" anim="" facial="" delay="1.5" facialWeight="0.5" facialFadeTime="0.5" desc="I spoke to Prophet. I think he&apos;s losing it. Whatever happened inside that sphere really shook him up. He&apos;s on about going back to the island."/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab3_582BD608" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="Helena thinks she s figured out how these things communicate. Electrical signals or something."/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/psycho_fleet_ab3_0EFDD510" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="She reckons she can mimic their communications so we can fry their circuits. Sounds like a long shot if you ask me."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

@@ -1,4 +1,0 @@
-<Material MtlFlags="2048" Shader="Lightbeam.LightBeam" GenMask="1" SurfaceType="" Diffuse="0.9450981,0.17254902,0.28627452" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="0.119">
- <Textures />
- <MaterialLayers />
-</Material>

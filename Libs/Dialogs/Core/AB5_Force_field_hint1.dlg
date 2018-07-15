@@ -1,4 +1,0 @@
-<DialogScript Name="Core.AB5_Force_field_hint1" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab4_PU0014" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="I think these gateways are on a timer...## like a sequence."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="core/nomad_core_ab4_PU0015" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Maybe I can slip through if I time it right."/>
-</DialogScript>

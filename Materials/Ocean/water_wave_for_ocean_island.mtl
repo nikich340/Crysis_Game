@@ -1,9 +1,0 @@
-<Material MtlFlags="2048" Shader="Water" GenMask="193" SurfaceType="mat_water" Diffuse="1,1,1" Specular="0,0,0" Emissive="0,0,0" Shininess="80.5" Opacity="1">
- <Textures>
-  <Texture Map="Bumpmap" File="textures/defaults/oceanwaves_ddn.dds">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams WavesSpeed="4" FrequencyWave0="1" AnimPhaseWav0="0.75" AnimAmplitudeWav0="1" MaxAnimAmplitudeWav0="1" FrequencyWave1="1" AnimPhaseWav1="2" AnimAmplitudeWav1="0.88" MaxAnimAmplitudeWav1="1" BigWavesScale="1.2869999" SmallWavesScale="0.76800001" FresnelBias="0.82200003" SunShinePow="77" SoftIntersectionFactor="1" FoamIntersectionFactor="0" ReflectionAmount="0.347" WhiteCapsAmount="0.41800001" SunMultiplier="2.46" FoamMultiplier="1.706"/>
- <MaterialLayers />
-</Material>

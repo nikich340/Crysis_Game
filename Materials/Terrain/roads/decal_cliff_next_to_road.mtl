@@ -1,9 +1,0 @@
-<Material Diffuse="1,1,1" Emissive="1,1,1" GenMask="33554433" MtlFlags="9" Opacity="0.99" Shader="Illum" Shininess="40" Specular="0,0,0" SurfaceType="mat_pebble" >
- <Textures>
-  <Texture File="textures/terrain/detail/cliff_next_to_road.tif" Filter="6" Map="Diffuse" >
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams BumpOffset="0.04" DebugUVScale="64" />
- <MaterialLayers />
-</Material>

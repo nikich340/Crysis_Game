@@ -1,9 +1,0 @@
-<Material MtlFlags="0" Shader="Common.Cloud" GenMask="0" SurfaceType="" Diffuse="0.15294118,0.18039216,0.21960786" Specular="0.21176472,0.25490198,0.32156864" Emissive="0,0,0" Shininess="10" Opacity="1">
- <Textures>
-  <Texture Map="Diffuse" File="textures/clouds/cumulus_01.dds">
-   <TexMod />
-  </Texture>
- </Textures>
- <PublicParams HDRBrightnessAdjust="1" CloudAngularAtten="17.790001" CloudOutlineThreshold="0.119" CloudOutlineSlope="2.6900001" CloudBacklightingScale="1.577"/>
- <MaterialLayers />
-</Material>

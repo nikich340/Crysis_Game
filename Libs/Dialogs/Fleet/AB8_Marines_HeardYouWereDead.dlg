@@ -1,9 +1,0 @@
-<DialogScript Name="Fleet.AB8_Marines_HeardYouWereDead" Description="">
- <Line actor="2" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="1" lookatActor="0" flagLookAtSticky="1" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_1_fleet_ab8_z0001" anim="" facial="" delay="0.5" facialWeight="0.5" facialFadeTime="0.5" desc="Shit... Thought you were one of those creatures"/>
- <Line actor="2" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_fleet_ab8_z0001" anim="" facial="" delay="1" facialWeight="0.5" facialFadeTime="0.5" desc="You Nomad?"/>
- <Line actor="1" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/marine_1_fleet_ab8_z0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Damn, you made it. I heard you were dead."/>
- <Line actor="2" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
- <Line actor="1" lookatActor="254" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB8_Engie_High_levels_of_Radiation" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_BC7A3A75" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="We got extremely high radiation levels in there. You sure that suit can take it?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_338F84C5" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Yes, sir."/>
-</DialogScript>

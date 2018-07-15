@@ -1,5 +1,0 @@
-<DialogScript Name="ascension.AB2_Plateau_Under_Attack3" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/pilot_1_ascension_ab1_N0006" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Command, we are under heavy fire! Where the hell are those jets?"/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_N0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="ETA two minutes."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="ascension/squadron_commander_ascension_ab1_N0003" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Nomad, splash those bandits, our birds are getting slammed down there."/>
-</DialogScript>

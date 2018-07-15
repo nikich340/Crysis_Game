@@ -1,8 +1,0 @@
-<Material MtlFlags="2048" Shader="Light.Flare" GenMask="0" SurfaceType="" Diffuse="0.533333,0.215686,0.243137" Specular="0,0,0" Emissive="0,0,0" Shininess="10" Opacity="1">
- <Textures>
-  <Texture Map="Diffuse" File="textures/lights/decent_flare.dds">
-   <TexMod />
-  </Texture>
- </Textures>
- <MaterialLayers />
-</Material>

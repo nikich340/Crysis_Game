@@ -1,3 +1,0 @@
-<DialogScript Name="Sphere.AB5MarineIncomingFire" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="sphere/crewman_1_sphere_ab2_z0002" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc=""/>
-</DialogScript>

@@ -1,4 +1,0 @@
-<Entity
- Name="Factory"
- Script="Scripts/Entities/Multiplayer/Factory.lua" 
-/>

@@ -1,4 +1,0 @@
-<DialogScript Name="Fleet.AB8_Engie_SCRAMinit" Description="">
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/nomad_fleet_ab8_8C0E8E43" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="SCRAM sequence initiated."/>
- <Line actor="0" lookatActor="255" flagLookAtSticky="0" flagSoundStopsAnim="0" flagAGSignal="0" flagAGEP="0" sound="fleet/engineer_fleet_ab8_173F788F" anim="" facial="" delay="0" facialWeight="0.5" facialFadeTime="0.5" desc="Good work, Nomad. The control rods should bottom now."/>
-</DialogScript>

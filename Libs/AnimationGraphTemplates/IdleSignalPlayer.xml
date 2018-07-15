@@ -1,4 +1,0 @@
-<AGTemplate name="IdleSignalPlayer" extend="IdleSignal">
-	<MovementControlMethod horizontal="Entity" vertical="SmoothedEntity"/>
-</AGTemplate>
-
