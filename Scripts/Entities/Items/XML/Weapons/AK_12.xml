@@ -610,7 +610,7 @@
       <attach helper="attachment_bottom" layer="gl" />
       <detach />
     </accessory>
-    <accessory name="AK_12_PBS1">
+    <accessory name="AK_12_PBS1_Silencer">
       <attach helper="silencer_attach" layer="silencer" />
       <detach />
       <params>

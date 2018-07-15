@@ -1,4 +1,4 @@
-<item name="sil9a91" class="Item">
+<item name="sil9a91_silencer" class="Item">
 	<params>
 		<param name="giveable" value="1" />
 		<param name="selectable" value="0" />

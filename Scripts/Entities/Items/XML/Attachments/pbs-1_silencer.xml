@@ -1,4 +1,4 @@
-<item name="pbs-1" class="Item">
+<item name="pbs-1_silencer" class="Item">
 	<params>
 		<param name="giveable" value="1" />
 		<param name="selectable" value="0" />

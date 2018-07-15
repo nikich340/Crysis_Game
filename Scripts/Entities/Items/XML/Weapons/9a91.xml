@@ -661,7 +661,7 @@
 			<accessory name="GrenadeShell" />
 			<accessory name="SCARNormalAmmo" />
 		</initialsetup>
-		<accessory name="sil9a91">
+		<accessory name="sil9a91_silencer">
 			<attach helper="silencer_attach" layer="silencer" />
 			<detach />
 			<params>
@@ -705,7 +705,7 @@
 			<attach helper="attachment_top" layer="scope" />
 			<detach />
 		</accessory>
-		<accessory name="pbs-1">
+		<accessory name="pbs-1_silencer">
 			<attach helper="silencer_attach" layer="silencer" />
 			<detach />
 			<params>
