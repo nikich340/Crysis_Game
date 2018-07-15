@@ -18,6 +18,7 @@
 #include "GameUtils.h"
 #include "Player.h"
 #include "GameRules.h"
+#include <functional>
 
 void SGrabStats::Serialize(TSerialize ser)
 {
