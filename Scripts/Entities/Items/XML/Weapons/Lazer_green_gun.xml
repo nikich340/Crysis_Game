@@ -203,7 +203,7 @@
       <fire>
         <param name="ammo_type" value="Lazer_green_gun_ammo" />
         <param name="rate" value="500" />
-        <param name="damage" value="200" />
+        <param name="damage" value="175" />
         <param name="reload_time" value="2.75" />
         <param name="bullet_chamber" value="1" />
         <param name="clip_size" value="200" />

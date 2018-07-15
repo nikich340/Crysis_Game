@@ -157,12 +157,12 @@
         <param name="rate" value="60" />
         <param name="clip_size" value="25" />
         <param name="bullet_chamber" value="1" />
-        <param name="damage" value="10000" />
+        <param name="damage" value="500" />
         <param name="reload_time" value="3.5" />
         <param name="helper_tp" value="weapon_term" />
         <param name="nearmiss_signal" value="OnNearMiss" />
         <param name="secondary_damage" value="1" />
-        <param name="ai_vs_player_damage" value="10000" />
+        <param name="ai_vs_player_damage" value="500" />
         <!--<param name="unzoomed_cock" value="1" />-->
       </fire>
       <recoil>
