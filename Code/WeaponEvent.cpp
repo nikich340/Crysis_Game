@@ -77,7 +77,7 @@ void CWeapon::OnShoot(EntityId shooterId, EntityId ammoId, IEntityClass* pAmmoTy
 						int firemode = pPlayer->GetCurrentItem()->GetIWeapon()->GetCurrentFireMode();
 						float damage = pPlayer->GetCurrentItem()->GetIWeapon()->GetFireMode(firemode)->GetDamage(0.0f);
 						//gEnv->pLog->LogError("[shoot cloak]: firemode %d damage %f", firemode, damage);
-						pSuit->SetSuitEnergy(pSuit->GetSuitEnergy() - damage / 6.0f);
+						pSuit->SetSuitEnergy(pSuit->GetSuitEnergy() - damage / 4.0f);
 					} else {
 						pSuit->SetSuitEnergy(0.0f);
 					}
