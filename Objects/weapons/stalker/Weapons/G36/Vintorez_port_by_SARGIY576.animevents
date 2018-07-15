@@ -33,11 +33,11 @@
   <event name="sound" time="0.01443" parameter="sounds/weapons:shiten:select" bone="" offset="0,0,0" dir="0,0,0"/>
  </animation>
  <animation name="objects/weapons/stalker/weapons/g36/reload_chamberfull_01.caf">
-  <event name="sound" time="0.12188" parameter="sounds/weapons/vintorez:sounds:reload_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
-  <event name="sound" time="0.35881999" parameter="sounds/weapons/vintorez:sounds:reload_02" bone="" offset="0,0,0" dir="0,0,0"/>
-  <event name="sound" time="0.65697002" parameter="sounds/weapons/vintorez:sounds:cock_back" bone="" offset="0,0,0" dir="0,0,0"/>
-  <event name="sound" time="0.75542003" parameter="sounds/weapons/vintorez:sounds:cock_fwd" bone="" offset="0,0,0" dir="0,0,0"/>
-  <event name="sound" time="0.49989" parameter="sounds/weapons/vintorez:sounds:reload_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.12188" parameter="sounds/vintorez:sounds:reload_clipout" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.35881999" parameter="sounds/vintorez:sounds:reload_02" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.65697002" parameter="sounds/vintorez:sounds:cock_back" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.75542003" parameter="sounds/vintorez:sounds:cock_fwd" bone="" offset="0,0,0" dir="0,0,0"/>
+  <event name="sound" time="0.49989" parameter="sounds/vintorez:sounds:reload_clipin" bone="" offset="0,0,0" dir="0,0,0"/>
  </animation>
  <animation name="objects/weapons/stalker/weapons/g36/select_01.caf">
   <event name="sound" time="0.072329998" parameter="objects/weapons/stalker/weapons/g36/sounds/draw.mp2" bone="" offset="0,0,0" dir="0,0,0"/>
