@@ -2315,8 +2315,10 @@ void CWeapon::PatchFireModeWithAccessory(IFireMode *pFireMode, const char *firem
 	{
 
 		//Attach silencer (and LAM)
-		if (ait->first == g_pItemStrings->Silencer || ait->first == g_pItemStrings->SOCOMSilencer)
+		std::string s = ait->first;
+		if ((s.length() > 6 && s.substr(s.length() - 7, 7) == "ilencer") || ait->first == g_pItemStrings->Silencer || ait->first == g_pItemStrings->SOCOMSilencer) {
 			silencerAttached = true;
+		}
 
 		SAccessoryParams *params=GetAccessoryParams(ait->first);
 		if (params && params->params)
