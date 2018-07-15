@@ -127,7 +127,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <WholeProgramOptimization>false</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>.\;..\..\Code\CryEngine\CryCommon;..\..\Code\CryEngine\CryAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\;..\..\..\Code\CryEngine\CryCommon;..\..\..\Code\CryEngine\CryAction;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>GAMEDLL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <ExceptionHandling />
