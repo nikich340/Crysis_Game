@@ -1,0 +1,423 @@
+<item name="Colt1911_equip_silencer_LAM" class="Weapon" category="small" priority="0">
+	<params>
+		<param name="giveable" 		value="1" />
+		<param name="selectable" 	value="1" />
+		<param name="pose" 				value="pistol" />
+		<param name="mass"				value="11" />
+		<param name="melee_attack_firemode"		value="melee" />
+		<param name="raiseable"		value="true" />
+		<param name="raise_distance" value="0.70" />
+		<!--<param name="attach_to_back" value="1" />
+		<param name="bone_attachment_01" value="pistol_attachment_right" />
+                <param name="bone_attachment_02" value="pistol_attachment_left" />-->
+		<dualwield>
+                        <item value="Colt1911" />
+			<suffix value="akimbo_" />
+                        <pose value="dualpistol" />
+		</dualwield>
+		</params>
+	<ai_descriptor handler="instant" stBulletCountMin="1" stBulletCountMax="3"
+		draw_time="0.1" sweep_width="1.5" sweep_frequency="2.5"
+		spreadRadius="0.35" stPauseTimeMin="0.8" stPauseTimeMax="3.5" singleFireTriggerTime="0.25" />	
+	<ammos>
+		<ammo name="lightbullet" extra="0" amount="8" minAmmo="3" />
+	</ammos>
+	<geometry>
+                <firstperson name="objects/weapons/us/Colt1911/Colt1911_left_fp.chr" 
+		hand="left" angles="0,0,0" />
+		<firstperson name="objects/weapons/us/colt1911/Colt1911_right_fp.chr" hand="right" angles="0,0,0" />
+		<thirdperson name="objects/weapons/us/colt1911/Colt1911_tp.cgf" angles="0,0,0" />
+		<boneAttachments>
+                        <attachment target="firstperson" name="silencer_attach_Colt1911"
+bone="silencer_attach" />                                                                                                   <attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
+			<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
+                         <attachment target="firstperson" name="attachment_bottom_LAM" bone="attachment_bottom" />
+			<attachment target="firstperson" name="attachment_bottom_LAM_light" bone="attachment_bottom" />
+			<attachment target="firstperson" name="attachment_bottom_LAM_Laser" bone="attachment_bottom" />
+		</boneAttachments>
+	</geometry>
+	<actions>
+		<action name="select">
+			<animation target="firstperson" name="select_%hand%_%suffix%01" />
+			<animation target="owner" name="select" />
+                        <sound target="firstperson" name="sounds/Colt1911:Select:Select" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:Select:Select" radius="2" />
+		</action>
+		<action name="deselect">
+			<animation target="firstperson" name="deselect_%hand%_%suffix%01" />
+			<animation target="owner" name="deselect" />
+			<sound target="firstperson" name="sounds/Colt1911:deselect:deselect" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:deselect:deselect" radius="2" />
+		</action>
+		<action name="idle">
+			<animation target="firstperson" name="idle_%hand%_%suffix%01" speed="0.7"/>
+			<animation target="owner" name="idle" />
+		</action>
+			
+		<action name="pickedup">
+			<sound target="firstperson" name="Sounds/weapons:weapon_accessories:pickup_weapon_fp" radius="2" />
+			<sound target="thirdperson" name="Sounds/weapons:weapon_accessories:pickup_weapon" radius="2" />
+		</action>
+
+		<action name="fire">
+			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
+			<animation target="owner" name="shoot" />
+			<sound target="firstperson" name="sounds/Colt1911:fire:fire" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/Colt1911:fire_tp:fire_tp" radius="150" static="1" />
+		</action>
+
+                <action name="fire_silenced">
+			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
+			<animation target="owner" name="shoot" />
+			<sound target="firstperson" name="sounds/Colt1911:fire_silenced:fire_silenced" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/Colt1911:fire_silenced_tp:fire_silenced_tp" radius="2" static="1" />
+		</action>
+		
+		<action name="fire_st">
+			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
+			<animation target="owner" name="shoot" />
+			<sound target="firstperson" name="sounds/Colt1911:Fire_st:Fire_st" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/Colt1911:Fire_st_tp:Fire_st_tp" radius="150" static="1" />
+		</action>
+		
+			<action name="change_firemode">
+			<animation target="firstperson" name="switch_firemode_%hand%_%suffix%01" />
+			<animation target="owner" name="firemode" />
+			<sound target="firstperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
+			<sound target="thirdperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
+		</action>	
+		
+		<action name="change_firemode_zoomed">
+			<animation target="firstperson" name="switch_firemode_ironsight_right_01" />
+			<animation target="owner" name="firemode" />
+			<sound target="firstperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
+			<sound target="thirdperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
+		</action>		
+		
+		<action name="reload_chamber_empty">
+			<animation target="firstperson" name="reload_chamber_empty_%hand%_%suffix%01" />
+			<animation target="owner" name="reload" />
+<sound target="firstperson" name="Sounds/Colt1911:reload_empty:reload_empty" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:reload_empty:reload_empty" radius="5" />
+		</action>
+		<action name="reload_chamber_full">
+			<animation target="firstperson" name="reload_chamber_full_%hand%_%suffix%01" />
+			<animation target="owner" name="reload" />
+<sound target="firstperson"                         name="Sounds/Colt1911:reload_full:reload_full" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:reload_full_tp:reload_full_tp" radius="2" />
+		</action>
+		<action name="empty_clip">
+			<!--<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
+			<animation target="owner" name="shoot" />-->
+			<sound target="firstperson"                         name="Sounds/Colt1911:dryfire:dryfire" radius="2" />
+			<sound target="thirdperson" name="Sounds/Colt1911:dryfire:dryfire" radius="2" />
+		</action>
+		<action name="null_fire">
+			<sound target="firstperson" name="Sounds/Colt1911:null_fire:null_fire" radius="2" />
+		</action>	
+		<action name="zoom_in">
+			<animation target="firstperson" name="zoom_in_%suffix%%hand%_01" speed="2" />
+		</action>
+		<action name="zoom_out">
+			<animation target="firstperson" name="zoom_out_%suffix%%hand%_01" speed="2" />
+		</action>
+		
+		<action name="offhand_on">
+			<animation target="firstperson" name="remove_arm_%offhand%_01" speed="2.0"/>
+		</action>
+		<action name="offhand_off">
+			<animation target="firstperson" name="grab_weapon_%offhand%_01" />
+		</action>
+		
+		<action name="enter_modify">
+			<animation target="firstperson" name="enter_modify_%hand%_01" />
+      <animation target="ownerloop" name="modify_weapon" />
+    </action>
+		<action name="leave_modify">
+			<animation target="firstperson" name="leave_modify_%hand%_%suffix%01" />
+      <animation target="ownerloop" name="idle" />
+    </action>
+		<action name="melee">
+			<animation target="firstperson" name="melee_%hand%_%suffix%01" />
+			<animation target="owner" name="melee" />
+			<!--<sound target="firstperson" name="sounds/weapons:melee:fire" radius="5" />-->
+			<sound target="thirdperson" name="sounds/weapons:melee:fire" radius="5" />
+		</action>
+		<action name="hit">
+			<sound target="firstperson" name="sounds/physics:bullet_impact:melee_impact" radius="5" />
+			<sound target="thirdperson" name="sounds/physics:bullet_impact:melee_impact" radius="5" />
+		</action>
+		
+		<action name="raise">
+			<animation target="firstperson" name="raise_%hand%_%suffix%01" />
+                        <sound target="firstperson"                                                 name="Sounds/Colt1911:raise:raise" radius="2" />
+			<sound target="thirdperson" name="Sounds/Colt1911:raise:raise" radius="2" />
+		</action>
+		
+		<action name="idle_raised">
+			<animation target="firstperson" name="idle_raised_%hand%_%suffix%01" />
+		</action>
+		
+		<action name="lower">
+			<animation target="firstperson" name="lower_%hand%_%suffix%01" />
+		</action>
+		
+	</actions>
+	<layers>
+		<layer name="slider_back">
+			<animation target="firstperson" name="slider_back_layered_%hand%_01" layerId="4" />
+			<bones>
+				<bone name="Slider_Base" />
+				<bone name="Slider_Release_Base" />
+			</bones>
+		</layer>
+		<layer name="modify_layer">
+			<animation target="firstperson" name="modify_layer_%hand%_01" layerId="2" />
+		
+		</layer>
+		<layer name="LAM_layer">
+			<animation target="firstperson" name="LAM_on_layer_%hand%_01" layerId="5" />
+		</layer>
+		<layer name="silencer">
+			<animation target="firstperson" name="silencer_on_layer_%hand%_01" 
+layerId="6" />
+		</layer>
+		<layer name="lever_layer_2">
+			<animation target="firstperson" name="firemode_lever_up_layer_01"
+
+		 layerId="7" />
+		</layer>
+	</layers>
+	<firemodes>
+		<firemode type="default">
+			<fire>
+				<param name="ammo_type" value="lightbullet" />
+				<param name="rate" value="1500" />
+				<param name="damage" value="150" />
+				<param name="clip_size" value="8" />
+				<param name="helper_tp" value="weapon_term" />
+				<param name="bullet_chamber" value="1" />
+				<param name="slider_layer" value="slider_back" />
+				<param name="ooatracer_treshold" value="3" />
+				<param name="nearmiss_signal" value="OnNearMiss" />
+				<param name="helper_tp"	value="weapon_term" />
+				<param name="reload_time" value="1.5" />
+				<param name="damage_drop_per_meter" value="0.3" />
+				<param name="damage_drop_min_distance" value="25" />
+				<param name="auto_fire"   value="true" />
+			</fire>
+			<tracer>
+				<param name="geometryFP" 	value="objects/effects/tracer_standard_new.cgf" />
+				<param name="geometry" 	value="objects/effects/tracer_standard_new.cgf" />
+				<param name="effectFP" 		value="weapon_fx.tracer.standardfp" />
+				<param name="effect" 		value="weapon_fx.tracer.standard" />
+				<paran name="speed" 		value="300" />
+				<param name="speedFP"   value="360" />
+				<param name="frequency" value="2" />
+				<param name="helper_fp"	value="weapon_term" />
+				<param name="helper_tp"	value="weapon_term" />
+			</tracer>
+			<outofammotracer>
+				<param name="geometryFP" 	value="objects/effects/tracer_standard_red_new.cgf" />
+				<param name="geometry" 	value="objects/effects/tracer_standard_red_new.cgf" />
+				<param name="effectFP" 		value="weapon_fx.tracer.standardfp" />
+				<param name="effect" 		value="weapon_fx.tracer.standard" />
+				<paran name="speed" 		value="300" />
+				<param name="speedFP"   value="360" />
+				<param name="frequency" value="2" />
+				<param name="helper_fp"	value="weapon_term" />
+				<param name="helper_tp"	value="weapon_term" />				
+			</outofammotracer>
+			<st>
+				<param name="rate" value="180" />
+				<param name="nshots" value="3" />
+				<param name="noSound" value="1" />
+			</st>
+			<recoil>
+				<param name="max_recoil"	value="4" />
+				<param name="attack" 			value="0.8" />
+				<param name="decay" 			value="1.1" />
+				<param name="maxx" 				value="12.5" />
+				<param name="maxy" 				value="0" />
+				<param name="randomness" 	value="0.3" />
+				<hints>
+					<hint x="0.01" 	y="0.00" />
+					<hint x="0.02" 	y="0.00" />
+					<hint x="0.35" 	y="-0.25" />					
+					<hint x="0.50" 	y="0.25" />
+					<hint x="0.85"	y="0.33" />
+					<hint x="0.50" 	y="0.15" />
+					<hint x="1.50" 	y="0.05" />
+					<hint x="1.00" 	y="-0.15" />
+					<hint x="0.75" y="-0.10" />
+					<hint x="1.00" 	y="-0.25" />
+					<hint x="1.00" 	y="-0.15" />
+					<hint x="1.25" 	y="0.0" />
+					<hint x="1.00" 	y="0.15" />
+					<hint x="0.75"	y="0.0" />		
+				</hints>
+			</recoil>		
+			<spread>
+				<param name="min" value="2.5" />
+				<param name="max" value="4.0" />
+				<param name="attack" value="0.75" />
+				<param name="decay" value="0.7" />
+				<param name="speed_m" value="1.5" />				
+			</spread>			
+			<muzzleflash>
+				<firstperson effect="muzzleflash.AssaultRifle.SMG" helper="muzzle_flash_effect" light_helper="muzzle_flash_light" light_radius="2" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8" />
+				<thirdperson effect="muzzleflash.AssaultRifle.SMG_tp" helper="weapon_term" light_helper="weapon_term" light_radius="2.3" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8" />
+			</muzzleflash>
+			<reject>
+				<firstperson effect="weapon_fx.shells.ClericBerettas" helper="shells" />
+				<thirdperson effect="weapon_fx.shells.ClericBerettas" helper="shells" />
+			</reject>	
+			<recoil>
+				<param name="angular_impulse" value="0.1" />
+				<param name="back_impulse" value="0.1" />
+			</recoil>		
+		</firemode>
+		<firemode name="Single" type="Single">
+		</firemode>
+		<firemode name="st" type="st">
+			<fire>
+				<param name="rate" value="1200" />
+			</fire>
+			<actions>
+				<param name="fire" value="fire_st" />
+				<param name="fire_cock" value="fire_st" />
+			</actions>
+		</firemode>
+		<firemode name="melee" type="Melee">
+			<melee>
+				<param name="helper" value="collision" />
+				<param name="offset" value="0.85" />
+				<param name="damage" value="50" />
+				<param name="impulse" value="20" />
+				<param name="delay" value="0.15" />
+				<param name="duration" value="0.35" />
+			</melee>
+			<actions>
+				<param name="attack" value="melee" />
+			</actions>
+		</firemode>
+	</firemodes>
+	<zoommodes>
+		<zoommode type="default">
+			<zoom>
+				<param name="dof_mask" value="textures/weapons/ironzoom_blurmask.dds" />
+				<param name="alternate_dof_mask" value="textures/weapons/Colt1911_dof.dds" />
+				<param name="suffix" value="ironsight_" />
+				<param name="suffix_FC" value="fc_"/>
+				<param name="support_FC_IronSight" value="true" />
+				<param name="zoom_in_time" value="0.115" />
+				<param name="zoom_out_time" value="0.115" />
+				<stages>
+					<stage value="1.4" />
+				</stages>
+			</zoom>
+			<zoomSway>
+				<param name="maxX" value="0.012" />
+				<param name="maxY" value="0.015" />
+				<param name="stabilizeTime" value="1.0"/>
+				<param name="minScale" value="0.5"/>
+				<param name="strengthScale" value="0.66"/>
+				<param name="strengthScaleTime" value="0.66"/>
+				<param name="crouchScale" value="0.66"/>
+				<param name="proneScale" value="0.66"/>
+			</zoomSway>
+			<spreadMod>
+        <param name="max_mod" value="0.1"/>
+        <param name="attack_mod" value="1.0"/>
+        <param name="decay_mod" value="1.0"/>
+        <param name="speed_m_mod" value="0.5" />
+        <param name="min_mod" value="0.01"/>
+        <param name="rotation_m_mod" value="1.5"/>
+        <param name="spread_crouch_m_mod" value="0.75"/>
+        <param name="spread_prone_m_mod" value="0.75"/>
+        <param name="spread_jump_m_mod" value="1.0"/>
+      </spreadMod>
+      <recoilMod>
+        <param name="max_recoil_mod" value="0.5" />
+        <param name="attack_mod" value="1.0" />
+        <param name="decay_mod" value="0.75" />
+        <param name="impulse_mod" value="1.0" />
+        <param name="maxx_mod" value="0.75" />
+        <param name="maxy_mod" value="0.75" />
+        <param name="angular_impulse_mod" value="1.0" />
+        <param name="back_impulse_mod" value="1.0" />
+        <param name="recoil_crouch_m_mod" value="0.75" />
+        <param name="recoil_prone_m_mod" value="0.75" />
+        <param name="recoil_jump_m_mod" value="2.0" />
+        <param name="recoil_strMode_m_mod" value="0.75" />
+      </recoilMod>
+		</zoommode>
+		<zoommode name="ironsight" type="IronSight">
+				<param name="dof_mask" value="textures/weapons/ironzoom_blurmask.dds" />
+				<param name="alternate_dof_mask" value="textures/weapons/Colt1911_dof.dds" />
+		</zoommode>
+	</zoommodes>
+	<accessories>
+		<initialsetup>
+			<accessory name="BerettaSilencer" />
+			<accessory name="BerettaLAM" />
+		</initialsetup>
+		<accessory name="BerettaSilencer">
+			<attach helper="silencer_attach_Colt1911" layer="silencer" />
+			<detach />
+			<params>
+				<firemodes>
+					<firemode type="default">
+						<fire>
+							<param name="damage_drop_per_meter" value="1.5" />
+						</fire>
+						<muzzleflash>
+							<firstperson effect="muzzleflash.AssaultRifle.silenced_smoke" helper="muzzle_flash_effect" time="0.1" />
+							<thirdperson effect="muzzleflash.AssaultRifle.silenced_smoke_tp" helper="weapon_term" time="0.1" />	
+						</muzzleflash>						
+						<actions>
+							<param name="fire" value="fire_silenced" />
+							<param name="fire_cock" value="fire_silenced" />
+							<param name="fire_st" value="fire_st_silenced" />
+						</actions>
+					</firemode>
+					<firemode type="st">
+						<fire>
+							<param name="damage_drop_per_meter" value="1.5" />
+							<param name="damage_drop_min_distance" value="10" />
+						</fire>
+						<muzzleflash>
+							<firstperson effect="muzzleflash.AssaultRifle.silenced_smoke" helper="muzzle_flash_effect" time="0.1" />
+							<thirdperson effect="muzzleflash.AssaultRifle.silenced_smoke_tp" helper="weapon_term" time="0.1" />	
+						</muzzleflash>						
+						<actions>
+							<param name="fire" value="fire_st_silenced" />
+							<param name="fire_cock" value="fire_st_silenced" />
+							<param name="fire_st" value="fire_st_silenced" />
+						</actions>
+					</firemode>
+				</firemodes>
+			</params>
+		</accessory>
+		<accessory name="BerettaLAM">
+			<attach helper="attachment_bottom_LAM" layer="LAM_layer" />
+			<detach />
+			<params>
+				<firemodes>
+					<firemode type="default">
+						<spread>
+  						<param name="min" value="0.5" />
+  						<param name="max" value="3.0" />
+  						<param name="speed_m" value="0.05" />
+  						<param name="rotation_m" value="0.05" />   
+						</spread>
+					</firemode>
+				</firemodes>
+			</params>	
+		</accessory>
+		<accessory name="BerettaLAMFlashLight">
+			<attach helper="attachment_bottom_LAM" layer="LAM_layer" />
+			<detach />
+		</accessory>
+	</accessories>
+</item>

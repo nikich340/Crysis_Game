@@ -1,4 +1,4 @@
-<item name="M4A1" class="Weapon" category="medium" priority="13">
+<item name="mp40_equip_silencer" class="Weapon" category="medium" priority="13">
 	<params>
 		<param name="giveable" 		value="1" />
 		<param name="selectable" 	value="1" />
@@ -10,155 +10,130 @@
 		<param name="attach_to_back" value="1" />
 		<param name="bone_attachment_01" value="back_item_attachment_01" />
 		<param name="bone_attachment_02" value="back_item_attachment_02" />
-		<dualwield>
+			<dualwield>
 			<suffix value="akimbo_" />
 		</dualwield>
 	</params>
 	<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="10"
-	draw_time="1.0" sweep_width="1.5" sweep_frequency="2.5" 
-	burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
+		draw_time="1.0" sweep_width="1.5" sweep_frequency="2.5" 
+		burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
 	<ammos>
-		<ammo name="fybullet" extra="0" amount="30" minAmmo="15"/>
-		<ammo name="scargrenade" extra="0" amount="0" accessoryAmmo="1"/>
-		<ammo name="tacbullet" extra="0" amount="0" accessoryAmmo="5" />
+		<ammo name="smgbullet" extra="0" amount="30" minAmmo="15"/>
+	        <ammo name="tacbullet" extra="0" amount="0" accessoryAmmo="5" />
 	</ammos>
 	<geometry>
-		<firstperson name="objects/weapons/US/M4A1/M4A1_fp.chr" angles="0,0,0" />
-		<thirdperson name="objects/weapons/US/M4A1/M4A1_tp.cgf" angles="0,0,0"/>
+		<firstperson name="objects/weapons/deutsche/mp40/mp40_fp.chr" angles="0,0,0" />
+		<thirdperson name="objects/weapons/deutsche/mp40/mp40_tp.cgf" angles="0,0,0"/>
 		<boneAttachments>
-			<attachment target="firstperson" name="silencer_attach" bone="silencer_attach" />
-			<attachment target="firstperson" name="attachment_bottom" bone="attachment_bottom" />
-			<attachment target="firstperson" name="attachment_top" bone="attachment_top" />
+       			<attachment target="firstperson" name="silencer_attach" bone="silencer_attach" />
 			<attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
 			<attachment target="firstperson" name="muzzle_flash_smoke" bone="weapon_term" />
-			<attachment target="firstperson" name="grenade_flash_effect" bone="weapon_term" />
-			<attachment target="firstperson" name="grenade_flash_light" bone="weapon_term" />
-			<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
-			<attachment target="firstperson" name="attachment_side" bone="attachment_side" />
-			<attachment target="firstperson" name="attachment_side_light" bone="attachment_side"/>
-			<attachment target="firstperson" name="attachment_side_Laser" bone="attachment_side"/>        
-		</boneAttachments>
+                        <attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" /> 
+     </boneAttachments>
 	</geometry>
-	<actions>
+           <actions>
 		<action name="select">
 			<animation target="firstperson" name="select_01" />
 			<animation target="owner" name="select" />
-			<sound target="firstperson" name="sounds/M4A1:select:select" 
-			radius="2" />
-			<sound target="thirdperson" name="sounds/M4A1:select_tp:select_tp" radius="2" />
-		</action>               
-		<action name="deselect">
+                        <sound target="firstperson" name="sounds/mp40:select:select" 
+radius="2" />
+			<sound target="thirdperson" name="sounds/mp40:select:select" radius="2" />
+                </action>               
+       		<action name="deselect">
 			<animation target="firstperson" name="deselect_01" />
 			<animation target="owner" name="deselect" />
-			<sound target="firstperson" name="sounds/weapons:fy71:deselect" radius="2" />
-			<sound target="thirdperson" name="sounds/weapons:fy71:deselect" radius="2" />
+			<sound target="firstperson" name="sounds/mp40:deselect:deselect" radius="2" />
+			<sound target="thirdperson" name="sounds/deselect:deselect" radius="2" />
 		</action>
 		<action name="idle" children="1" >
 			<animation target="firstperson" name="idle_%hand%_%suffix%01" speed="0.7"/>
 			<animation target="owner" name="idle" />
 		</action>
-		<action name="pickedup">
+            		<action name="pickedup">
 			<sound target="firstperson" name="Sounds/weapons:weapon_accessories:pickup_weapon_fp" radius="2" />
 			<sound target="thirdperson" name="Sounds/weapons:weapon_accessories:pickup_weapon" radius="2" />
 		</action>
-		
+
 		<action name="spin_down">
-			<sound target="firstperson" name="Sounds/M4A1:spin_down:spin_down" radius="5" static="1" />
-			<sound target="thirdperson" name="Sounds/M4A1:spin_down_tp:spin_down_tp" radius="5" static="1" />
+			<sound target="firstperson" name="Sounds/mp40:spin_down:spin_down" radius="5" static="1" />
+			<sound target="thirdperson" name="Sounds/mp40:spin_down_tp:spin_down_tp" radius="5" static="1" />
 		</action>
 		<action name="spin_down_silenced">
-			<sound target="firstperson" name="Sounds/M4A1:fire_silenced_fp_tail" radius="5" static="1" />
-			<sound target="thirdperson" name="Sounds/M4A1:fire_silenced_tp_tail" radius="5" static="1" />
+			<sound target="firstperson" name="Sounds/mp40:fire_silenced_fp_tail" radius="5" static="1" />
+			<sound target="thirdperson" name="Sounds/mp40:fire_silenced_tp_tail" radius="5" static="1" />
 		</action>
-		
+
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="Sounds/M4A1:fire:fire" radius="250" static="1" />
-			<sound target="thirdperson" name="Sounds/M4A1:fire_tp:fire_tp" radius="250" static="1" />
+			<sound target="firstperson" name="Sounds/mp40:mp40_fire_single:mp40_fire_single" radius="250" static="1" />
+			<sound target="thirdperson" name="Sounds/mp40:mp40_fire_single_tp:mp40_fire_single_tp" radius="250" static="1" />
 		</action>
 		
 		<action name="rapid_fire">
-			<sound target="firstperson" name="Sounds/M4A1:fire_rapid:fire_rapid" radius="275" static="1" synched="1" />
-			<sound target="thirdperson" name="Sounds/M4A1:fire_rapid_tp:fire_rapid_tp" radius="275" static="1" synched="1" />
+			<sound target="firstperson" name="Sounds/mp40:fire:fire" radius="275" static="1" synched="1" />
+			<sound target="thirdperson" name="Sounds/mp40:fire_tp:fire_tp" radius="275" static="1" synched="1" />
 		</action>
 		
 		<action name="rapid_fire_silenced">
-			<sound target="firstperson" name="Sounds/M4A1:fire_rapid_silenced:fire_rapid_silenced" radius="20" static="1" synched="1"/>
-			<sound target="thirdperson" name="Sounds/M4A1:fire_rapid_silenced_tp:fire_rapid_silenced_tp" radius="20" static="1" synched="1"/>
+			<sound target="firstperson" name="Sounds/mp40:fire_silenced:fire_silenced" radius="20" static="1" synched="1"/>
+			<sound target="thirdperson" name="Sounds/mp40:fire_silenced_tp:fire_silenced_tp" radius="20" static="1" synched="1"/>
 		</action>
 		
 		<action name="fire_silenced">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="Sounds/M4A1:fire_silenced:fire_silenced" radius="19" static="1" />
-			<sound target="thirdperson" name="sounds/M4A1:fire_silenced_tp:fire_silenced_tp" radius="19" static="1" />
+			<sound target="firstperson" name="Sounds/mp40:fire_silenced:fire_silenced" radius="19" static="1" />
+			<sound target="thirdperson" name="sounds/mp40:fire_silenced_tp:fire_silenced_tp" radius="19" static="1" />
 		</action>
-		
+
 		
 		<action name="fire_gl" children="1" >
-			<animation target="firstperson" name="fire_grenade_%hand%_%suffix%01" />
-			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/M4A1:fire_grenade:fire_grenade" radius="25" static="1" />
-			<sound target="thirdperson" name="sounds/M4A1:fire_grenade_tp:fire_grenade_tp" radius="25" static="1" />
+                        <animation target="firstperson" name="fire_grenade_%hand%_%suffix%01" />
+                        <animation target="owner" name="shoot" />
+                       			<sound target="firstperson" name="sounds/weapons:scar:fire_grenademode_fp" radius="25" static="1" />
+			<sound target="thirdperson" name="sounds/weapons:scar:fire_grenademode" radius="25" static="1" />
 		</action>
-		
-		<action name="fire_tac" children="1">
+
+                <action name="fire_tac" children="1">
 			<animation target="firstperson" name="fire_tactical_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/M4A1:fire_tac_fp:fire_tac_fp" radius="2" static="1" />
-			<sound target="thirdperson" name="sounds/M4A1:fire_tac_fp:fire_tac_fp" radius="2" static="1" />
+			<sound target="firstperson" name="sounds/mp40:fire_tac_fp:fire_tac_fp" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/mp40:fire_tac_fp:fire_tac_fp" radius="2" static="1" />
 		</action>
 		
-		<action name="change_firemode">
-			<animation target="firstperson" name="switch_firemode_%hand%_%suffix%01" />
-			<animation target="owner" name="firemode" />
-			<sound target="firstperson" name="sounds/M4A1:switch_firemode:switch_firemode" radius="2" />
-			<sound target="thirdperson" name="sounds/M4A1:switch_firemode:switch_firemode" radius="2" />
-		</action>		
-		
-		<action name="change_firemode_zoomed">
-			<animation target="owner" name="firemode" />
-			<sound target="firstperson" name="sounds/M4A1:switch_firemode_zoomed:switch_firemode_zoomed" radius="3" />
-			<sound target="thirdperson" name="sounds/M4A1:switch_firemode_zoomed:switch_firemode_zoomed" radius="3" />
-		</action>
-		
-		<action name="reload_chamber_empty">
+	        <action name="reload_chamber_empty">
 			<animation target="firstperson" name="reload_chamberempty_01" />
 			<animation target="owner" name="reload_chamber_empty" />
-			<sound target="firstperson" name="sounds/M4A1:reload_chamberempty:reload_chamberempty" radius="5" />
-			<sound target="thirdperson" name="sounds/M4A1:reload_chamberempty_tp:reload_chamberempty_tp" radius="5" />
+                        <sound target="firstperson"
+name="sounds/mp40:reload_chamberempty:reload_chamberempty" radius="5" />
+			<sound target="thirdperson" name="sounds/mp40:reload_chamberempty:reload_chamberempty" radius="5" />
 		</action>
 		<action name="reload_chamber_full">
 			<animation target="firstperson" name="reload_chamberfull_01" />
 			<animation target="owner" name="reload_chamber_full" />
-			<sound target="firstperson" name="sounds/M4A1:reload_chamber_full:reload_chamber_full" radius="2" />
-			<sound target="thirdperson" name="sounds/M4A1:reload_chamber_full:reload_chamber_full" radius="2" />
-		</action>
+                        <sound target="firstperson"
+name="sounds/mp40:reload_chamber_full:reload_chamber_full" radius="2" />
+			<sound target="thirdperson" name="sounds/mp40:reload_chamber_full:reload_chamber_full" radius="2" />
+	       </action>
 		
-		<action name="reload_gl" children="1" >
-			<animation target="firstperson" name="reload_grenade_%hand%_%suffix%01" />
-			<animation target="owner" name="reload_gl" />
-			<sound target="firstperson" name="sounds/M4A1:reload_grenade_launcher:reload_grenade_launcher" radius="5" />
-			<sound target="thirdperson" name="sounds/M4A1:reload_grenade_launcher:reload_grenade_launcher" radius="5" />
-		</action>
 		
 		<action name="empty_clip">
 			<sound target="firstperson" name="Sounds/weapons:FY71:dryfire_fp" radius="2" />
 			<sound target="thirdperson" name="Sounds/weapons:FY71:dryfire" radius="2" />
 		</action>
 		<action name="null_fire">
-			<sound target="firstperson" name="Sounds/interface:hud:null_fire" radius="2" />
+                       <sound target="firstperson" name="Sounds/interface:hud:null_fire" radius="2" />
 		</action>	
 		<action name="enter_modify">
 			<animation target="firstperson" name="enter_modify_%hand%_01" />
-			<animation target="ownerloop" name="modify_weapon" />
-		</action>
+      <animation target="ownerloop" name="modify_weapon" />
+    </action>
 		<action name="leave_modify">
 			<animation target="firstperson" name="leave_modify_%hand%_01" />
-			<animation target="ownerloop" name="idle" />
-		</action>
-		
+      <animation target="ownerloop" name="idle" />
+    </action>
+
 		<action name="zoom_in">
 			<animation target="firstperson" name="zoom_in_%suffix%01" speed="2" />
 		</action>
@@ -169,16 +144,16 @@
 		<action name="melee">
 			<animation target="firstperson" name="melee_01" />
 			<animation target="owner" name="melee" />
-			
-			<sound target="firstperson" name="sounds/M4A1:melee:melee" radius="5" />-->
-			<sound target="thirdperson" name="sounds/M4A1:melee:melee" radius="5" />
+		
+                        <sound target="firstperson" name="sounds/mp40:melee:melee" radius="5" />-->
+			<sound target="thirdperson" name="sounds/mp40:melee:melee" radius="5" />
 		</action>
 		
 		<action name="hit">
 			<sound target="firstperson" name="sounds/physics:bullet_impact:melee_impact_mw" radius="5" />
 			<sound target="thirdperson" name="sounds/physics:bullet_impact:melee_impact_mw" radius="5" />
 		</action>
-		
+
 		<action name="offhand_on">
 			<animation target="firstperson" name="remove_arm_%offhand%_01" speed="3.0" />
 		</action>
@@ -188,8 +163,8 @@
 		
 		<action name="raise">
 			<animation target="firstperson" name="raise_%hand%_%suffix%01" />
-			<sound target="firstperson" name="sounds/M4A1:raise:raise" radius="2" static="1" />
-			<sound target="thirdperson" name="sounds/M4A1:raise:raise" radius="2" static="1" />
+               <sound target="firstperson" name="sounds/mp40:raise:raise" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/mp40:raise:raise" radius="2" static="1" />
 		</action>
 		
 		<action name="idle_raised">
@@ -200,10 +175,14 @@
 			<animation target="firstperson" name="lower_%hand%_%suffix%01" />
 		</action>
 	</actions>
-	<layers>
-		<layer name="scope">
-			<animation target="firstperson" name="scope_on_layer_01" layerId="1" />
-		</layer>
+<layers>
+                <layer name="slider_back">
+			<animation target="firstperson" name="slider_back_layered_%hand%_01" layerId="1" />
+			<bones>
+				<bone name="lever" />
+				<bone name="lever_01" />
+			</bones>
+                </layer>
 		<layer name="modify_layer">
 			<animation target="firstperson" name="modify_layer_%hand%_01" layerId="2" />
 		</layer>
@@ -226,19 +205,20 @@
 	<firemodes>
 		<firemode type="default">
 			<fire>
-				<param name="ammo_type" value="fybullet" />
-				<param name="rate" value="800" />
-				<param name="damage" value="82" />
+				<param name="ammo_type" value="smgbullet" />
+				<param name="rate" value="711" />
+				<param name="damage" value="155" />
 				<param name="reload_time" value="2.75" />
 				<param name="bullet_chamber" value="1" />
+                                <param name="slider_layer" value="slider_back" />
 				<param name="helper_tp" value="weapon_term" />
-				<param name="nearmiss_signal" value="OnNearMiss" />
+                                <param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="damage_drop_per_meter" value="0.2" />
-				<param name="secondary_damage" value="1" />				       				<param name="damage_drop_min_distance" value="50" />
-				<param name="ai_vs_player_damage" value="83"/>
+                                <param name="secondary_damage" value="1" />				       				<param name="damage_drop_min_distance" value="50" />
+                                <param name="ai_vs_player_damage" value="83"/>
 			</fire>
 			<recoil>
-				<param name="max_recoil"	value="4" />
+                              <param name="max_recoil"	value="4" />
 				<param name="attack" 			value="0.4" />
 				<param name="decay" 			value="1.25" />
 				<param name="maxx" 				value="30" />
@@ -255,7 +235,7 @@
 					<hint x="0.50" 	y="0.00" />
 					<hint x="0.50" 	y="0.00" />
 					<hint x="0.50" 	y="0.00" />
-				</hints>
+			</hints>
 			</recoil>		
 			<spread>
 				<param name="min" value="1.75" />
@@ -266,16 +246,16 @@
 			</spread>
 			<muzzleflash>
 				<firstperson effect="muzzleflash.AssaultRifle.FY71" helper="muzzle_flash_effect" light_helper="muzzle_flash_light" light_radius="2" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8" />
-				<thirdperson effect="muzzleflash.AssaultRifle.M4A1_tp" helper="weapon_term" light_helper="weapon_term" light_radius="2.3" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8" />
+				<thirdperson effect="muzzleflash.AssaultRifle.mp40_tp" helper="weapon_term" light_helper="weapon_term" light_radius="2.3" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8" />
 			</muzzleflash>
 			<reject>
-				<firstperson effect="weapon_fx.shells.m4a1" helper="shells" />
-				<thirdperson effect="weapon_fx.shells.m4a1" helper="shells" />
+				<firstperson effect="weapon_fx.shells.mp40" helper="shells" />
+				<thirdperson effect="weapon_fx.shells.mp40" helper="shells" />
 			</reject>			
 		</firemode>
 		<firemode name="Rapid" type="Rapid">
 			<tracer>
-				<param name="geometryFP" 	value="objects/effects/tracer_standard_new.cgf" />
+			  <param name="geometryFP" 	value="objects/effects/tracer_standard_new.cgf" />
 				<param name="geometry" 	value="objects/effects/tracer_standard_new.cgf" />
 				<param name="effectFP" 		value="weapon_fx.tracer.standardfp" />
 				<param name="effect" 		value="weapon_fx.tracer.standard" />
@@ -316,30 +296,6 @@
 				<thirdperson effect="weapon_fx.gun.cold_steam_on_barrel" helper="weapon_term" />
 			</muzzlesmoke_ice>
 		</firemode>
-		<firemode name="Single" type="Single">
-			<outofammotracer>
-				<param name="geometryFP" 	value="objects/effects/tracer_standard_red_new.cgf" />
-				<param name="geometry" 	value="objects/effects/tracer_standard_red_new.cgf" />
-				<param name="effectFP" 		value="weapon_fx.tracer.standardfp" />
-				<param name="effect" 		value="weapon_fx.tracer.standard" />
-				<paran name="speed" 		value="300" />
-				<param name="speedFP"   value="710" />
-				<param name="frequency" value="2" />
-			</outofammotracer>
-			<tracer>
-				<param name="geometryFP" 	value="objects/effects/tracer_standard_new.cgf" />
-				<param name="geometry" 	value="objects/effects/tracer_standard_new.cgf" />
-				<param name="effectFP" 		value="weapon_fx.tracer.standardfp" />
-				<param name="effect" 		value="weapon_fx.tracer.standard" />
-				<param name="speed" 		value="300" />
-				<param name="speedFP"   value="710" />
-				<param name="frequency" value="2" />
-			</tracer>			
-			<fire>
-				<param name="ooatracer_treshold" value="5" />
-				<param name="auto_fire" value="true" />
-			</fire>		
-		</firemode>
 		<firemode name="melee" type="Melee">
 			<melee>
 				<param name="helper" value="Collision" />
@@ -353,14 +309,14 @@
 				<param name="attack" value="melee" />
 			</actions>
 		</firemode>
-		<firemode name="M4A1GrenadeLauncher" type="Single" enabled="0">
+		<firemode name="mp40GrenadeLauncher" type="Single" enabled="0">
 			<fire>
 				<param name="ammo_type" value="scargrenade" />
 				<param name="clip_size" value="1" />
 				<param name="max_clips" value="10" />
 				<param name="rate" value="40" />                                                               <param name="damage" value="250" />
-				<param name="reload_time" value="3.2" />
-				<param name="bullet_chamber" value="0" />
+       				<param name="reload_time" value="3.2" />
+                                <param name="bullet_chamber" value="0" />
 				<param name="helper_tp" value="0_term" />
 				<param name="aim_helper" value="1" />
 				<param name="distance" value="-1" />
@@ -374,15 +330,15 @@
 				<thirdperson effect="" helper="" />
 			</reject>								
 			<actions>
-				<param name="fire" value="fire_gl" />
+                                <param name="fire" value="fire_gl" />
 				<param name="fire_cock" value="fire_gl" />
 				<param name="reload_chamber_empty" value="reload_gl"/>
 				<param name="reload_chamber_full" value="reload_gl"/>
 				<param name="reload" value="reload_gl"/>
 			</actions>
-		</firemode>
-		
-		<firemode name="aaa" type="Single" enabled="0" >
+                 </firemode>
+
+                <firemode name="aaa" type="Single" enabled="0" >
 			<fire>
 				<param name="ammo_type" value="tacbullet" />
 				<param name="clip_size" value="-1" />
@@ -402,9 +358,9 @@
 				<thirdperson effect="" helper="" />
 			</reject>		
 		</firemode>
-	</firemodes>
+     </firemodes>
 	
-	<zoommodes>
+<zoommodes>
 		<zoommode name="ironsight" type="IronSight">
 			<zoom>
 				<param name="suffix" value="ironsight_" />
@@ -416,7 +372,7 @@
 				<stages>
 					<stage value="1.4" />
 				</stages>
-			</zoom>
+		  </zoom>
 			<zoomSway>
 				<param name="maxX" value="0.012" />
 				<param name="maxY" value="0.015" />
@@ -452,9 +408,9 @@
 		        <param name="recoil_jump_m_mod" value="2.0" />
 		        <param name="recoil_strMode_m_mod" value="2.0" />
 			</recoilMod>
-			
+		
 		</zoommode>
-		<zoommode name="reflexsight" type="IronSight" enabled="0" >
+                 <zoommode name="reflexsight" type="IronSight" enabled="0" >
 			<zoom>
 				<param name="suffix" value="reflex_" />
 				<param name="dof_mask" value="textures/weapons/ironzoom_blurmask.dds" />
@@ -505,7 +461,7 @@
 		        <param name="recoil_strMode_m_mod" value="2.0" />
 			</recoilMod>
 		</zoommode>
-		<zoommode name="M4A1" type="Scope" enabled="0" >
+		<zoommode name="mp40opt" type="Scope" enabled="0" >
 			<zoom>
 				<param name="suffix" value="scope_" />
 				<param name="blur_amount" value="1" />
@@ -530,7 +486,7 @@
 				<param name="crouchScale" value="0.75"/>
 				<param name="proneScale" value="0.5"/>
 			</zoomSway>
-			<spreadMod>
+       			<spreadMod>
 		        <param name="max_mod" value="0.1"/>
 		        <param name="attack_mod" value="1.0"/>
 		        <param name="decay_mod" value="1.0"/>
@@ -543,8 +499,8 @@
 			</spreadMod>
 			<recoilMod>
 				<param name="max_recoil_mod" value="0.5" />
-				<param name="attack_mod" value="0.4" />
-				<param name="decay_mod" value="1.25" />
+		        	<param name="attack_mod" value="0.4" />
+		        	<param name="decay_mod" value="1.25" />
 				<param name="impulse_mod" value="1.0" />
 				<param name="maxx_mod" value="0.5" />
 				<param name="maxy_mod" value="1.0" />
@@ -559,41 +515,39 @@
 	</zoommodes>
 	<accessories>
 		<initialsetup>
-			<accessory name="M4A1ironsights" />
+			<accessory name="mp40Silencer" />
 		</initialsetup>
-		<accessory name="M4A1opt" zoommode="M4A1" >
+		<accessory name="mp40opt" zoommode="mp40opt" >
 			<attach helper="attachment_top" layer="scope" />
 			<detach />
-		</accessory>
-		<accessory name="M4A1Lam">
+                </accessory>
+
+               <accessory name="aaa"  firemodes="aaa" exclusive="1" client_only="0">
+			<attach helper="attachment_bottom" layer="gl" />
+			<detach />
+	       </accessory>
+
+               <accessory name="mp40LAMRifle2">
 			<attach helper="attachment_side" layer="flashlight" />
 			<detach />
 			<params>
 				<firemodes>
 					<firemode type="default">
 						<spread>
-							<param name="min" value="0.5" />
-							<param name="max" value="3.0" />
-							<param name="speed_m" value="0.05" />
-							<param name="rotation_m" value="0.05" />                       
+  						<param name="min" value="0.5" />
+  						<param name="max" value="3.0" />
+  						<param name="speed_m" value="0.05" />
+  						<param name="rotation_m" value="0.05" />                       
 						</spread>
 					</firemode>
 				</firemodes>
 			</params>
 		</accessory>
-		<accessory name="M4A1Lights">
+		<accessory name="mp40LAMRifleFlashLight2">
 			<attach helper="attachment_side" layer="flashlight" />
 			<detach />
 		</accessory>
-		<accessory name="M4A1GrenadeLauncher" firemodes="M4A1GrenadeLauncher" exclusive="1">
-			<attach helper="attachment_bottom" layer="gl" />
-			<detach />
-		</accessory>
-		<accessory name="M4A1ironsights" zoommode="ironsight" >
-			<attach helper="attachment_top" layer="scope" />
-			<detach />
-		</accessory>
-		<accessory name="M4A1Silencer">
+		<accessory name="mp40Silencer">
 			<attach helper="silencer_attach" layer="silencer" />
 			<detach />
 			<params>

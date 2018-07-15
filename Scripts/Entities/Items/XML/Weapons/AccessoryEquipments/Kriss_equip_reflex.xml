@@ -1,4 +1,4 @@
-<item name="Kriss" class="Weapon" category="medium" priority="10">
+<item name="Kriss_equip_reflex" class="Weapon" category="medium" priority="10">
 	<params>
 		<param name="giveable" 		value="1" />
 		<param name="selectable" 	value="1" />
@@ -543,7 +543,7 @@
 	</zoommodes>
 	<accessories>
 		<initialsetup>
-			<accessory name="Kriss_ironsights" />
+			<accessory name="Reflex" />
 		</initialsetup>
 		<accessory name="Kriss_silencer">
 			<attach action="attach_silencer" helper="silencer_attach" layer="silencer" />

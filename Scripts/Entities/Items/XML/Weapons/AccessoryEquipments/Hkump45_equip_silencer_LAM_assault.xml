@@ -1,4 +1,4 @@
-<item name="Kriss" class="Weapon" category="medium" priority="10">
+<item name="Hkump45_equip_silencer_LAM_assault" class="Weapon" category="medium" priority="10">
 	<params>
 		<param name="giveable" 		value="1" />
 		<param name="selectable" 	value="1" />
@@ -18,16 +18,17 @@
 	</params>
 	<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="15" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
 	<ammos>
-		<ammo name="smgbullet" extra="0" amount="50" minAmmo="25"/>
+		<ammo name="smgbullet" extra="0" amount="30" minAmmo="30"/>
 	</ammos>
 	<geometry>
-		<firstperson name="objects/weapons/us/kriss_super_v/kriss_super_v.chr" angles="0,0,0"/>
-		<thirdperson name="objects/weapons/us/kriss_super_v/kriss_super_v.chr"/>
+		<firstperson name="objects/weapons/us/Hkump45/Hkump45_fp.chr" angles="0,0,0"/>
+		<thirdperson name="objects/weapons/us/Hkump45/Hkump45_tp.cgf"/>
 		<boneAttachments>
 			<attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
+			<attachment target="firstperson" name="muzzle_flash_effect_silenced" bone="silencer_attach" />
 			<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
 			<attachment target="firstperson" name="muzzle_flash_smoke" bone="weapon_term" />
-			<attachment target="firstperson" name="sights" bone="sights" />
+			<attachment target="firstperson" name="attachment_top" bone="attachment_top" />
 			<attachment target="firstperson" name="silencer_attach" bone="silencer_attach" />
 			<attachment target="firstperson" name="attachment_side" bone="attachment_side" />
 			<attachment target="firstperson" name="attachment_side_light" bone="attachment_side"/>
@@ -47,7 +48,7 @@
 			<sound target="thirdperson" name="sounds/weapons:smg:deselect" radius="2" />
 		</action>
 		<action name="idle">
-			<animation target="firstperson" name="idle_%hand%_%suffix%01" speed="0.2" />
+			<animation target="firstperson" name="idle_%hand%_%suffix%01" speed="0.7" />
 			<animation target="owner" name="idle" />
 		</action>
 		
@@ -59,17 +60,17 @@
 		<action name="fire_cock">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/weapons:smg:fire_fp" radius="150" static="1" />
-			<sound target="thirdperson" name="sounds/weapons:smg:fire" radius="150" static="1" />
+			<sound target="firstperson" name="Sounds/Hkump45:Hkump45:fire_single_1st" radius="150" static="1" />
+			<sound target="thirdperson" name="Sounds/Hkump45:Hkump45:fire_single_3rd" radius="150" static="1" />
 		</action>
 
 		<action name="fire">
-			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" speed="2" />
+			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/weapons:smg:fire_fp_single%env%" radius="150" static="1" />
-			<sound target="thirdperson" name="sounds/weapons:smg:fire_3rd_single%env%" radius="150" static="1" />
+			<sound target="firstperson" name="sounds/Hkump45:Hkump45:fire_single_1st" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/Hkump45:Hkump45:fire_single_3rd" radius="150" static="1" />
 		</action>
-		
+				
 		<action name="change_firemode">
 			<animation target="firstperson" name="switch_firemode_%hand%_%suffix%01" />
 			<animation target="owner" name="firemode" />
@@ -84,30 +85,30 @@
 		</action>
 		
 		<action name="rapid_fire">
-			<sound target="firstperson" name="Sounds/weapons:smg:fire_fp_loop" radius="175" static="1" synched="1"/>
-			<sound target="thirdperson" name="Sounds/weapons:smg:fire_3rd_loop" radius="175" static="1" synched="1"/>
+			<sound target="firstperson" name="Sounds/Hkump45:Hkump45:fire_loop_1st" radius="175" static="1" synched="1"/>
+			<sound target="thirdperson" name="Sounds/Hkump45:Hkump45:fire_loop_3rd" radius="175" static="1" synched="1"/>
 		</action>
 		<action name="spin_down">
-			<sound target="firstperson" name="Sounds/weapons:smg:fire_fp_tail%env%" radius="5" static="1" />
-			<sound target="thirdperson" name="Sounds/weapons:smg:fire_3rd_tail%env%" radius="5" static="1" />
+			<sound target="firstperson" name="Sounds/Hkump45:Hkump45:fire_loop_tail_1st" radius="5" static="1" />
+			<sound target="thirdperson" name="Sounds/Hkump45:Hkump45:fire_loop_tail_3rd" radius="5" static="1" />
 		</action>
 		<action name="spin_down_silenced">
-			<sound target="firstperson" name="Sounds/weapons:smg:fire_silenced_fp_tail" radius="5" static="1" />
-			<sound target="thirdperson" name="Sounds/weapons:smg:fire_silenced_3rd_tail" radius="5" static="1" />
+			<sound target="firstperson" name="Sounds/Hkump45:Hkump45:fire_loop_tail_silenced_1st" radius="5" static="1" />
+			<sound target="thirdperson" name="Sounds/Hkump45:Hkump45:fire_loop_tail_silenced_3rd" radius="5" static="1" />
 		</action>
 		<action name="rapid_fire_silenced">
-			<sound target="firstperson" name="Sounds/weapons:smg:fire_silenced_fp_loop" radius="5" static="1" synched="1"/>
-			<sound target="thirdperson" name="Sounds/weapons:smg:fire_silenced_3rd_loop" radius="5" static="1" synched="1"/>
+			<sound target="firstperson" name="Sounds/Hkump45:Hkump45:fire_loop_silenced_1st" radius="5" static="1" synched="1"/>
+			<sound target="thirdperson" name="Sounds/Hkump45:Hkump45:fire_loop_silenced_3rd" radius="5" static="1" synched="1"/>
 		</action>
 		<action name="fire_silenced">
-			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" speed="2" />
+			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/weapons:smg:fire_silenced_fp_single" radius="2" static="1" />
-			<sound target="thirdperson" name="sounds/weapons:smg:fire_silenced_3rd_single" radius="2" static="1" />
+			<sound target="firstperson" name="sounds/Hkump45:Hkump45:fire_single_silenced_1st" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/Hkump45:Hkump45:fire_single_silenced_3rd" radius="2" static="1" />
 		</action>
 		
 		<action name="melee">
-			<animation target="firstperson" name="melee_01" speed="1.5" />
+			<animation target="firstperson" name="melee_01" />
 			<animation target="owner" name="melee" />
 			<!--<sound target="firstperson" name="sounds/weapons:melee:fire" radius="5" />-->
 			<sound target="thirdperson" name="sounds/weapons:melee:fire" radius="5" />
@@ -119,14 +120,14 @@
 		</action>
 
 		<action name="reload_chamber_empty">
-			<animation target="firstperson" name="reload_chamberempty_01" speed="2" />
+			<animation target="firstperson" name="reload_chamber_empty_right_%suffix%01" />
 			<animation target="owner" name="reload_chamber_empty" />
 			<sound target="thirdperson" name="sounds/weapons:fy71:reload_chamberempty" radius="5" />
 		</action>
 
 		<action name="reload_chamber_full">
-			<animation target="firstperson" name="reload_chamberfull_01" speed="2" />
-			<animation target="owner" name="reload_chamber_full" speed="1.5" />
+			<animation target="firstperson" name="reload_chamber_full_right_01" />
+			<animation target="owner" name="reload_chamber_full" />
 			<!--<sound target="thirdperson" name="sounds/weapons:fy71:reload_chamberfull" radius="5" />-->
 		</action>
 		
@@ -138,44 +139,46 @@
 			<sound target="firstperson" name="Sounds/interface:hud:null_fire" radius="2" />
 		</action>			
 		<action name="zoom_in">
-			<animation target="firstperson" name="zoom_in_%suffix%01" speed="2" />
+			<animation target="firstperson" name="zoom_in_%suffix%01" speed="1" />
 		</action>
 		<action name="zoom_out">
-			<animation target="firstperson" name="zoom_out_%suffix%01" speed="2" />
+			<animation target="firstperson" name="zoom_out_%suffix%01" speed="1" />
 		</action>
 		
 		<action name="enter_modify">
-			<animation target="firstperson" name="enter_modify" />
-     			<animation target="ownerloop" name="modify_weapon" />
-    		</action>
-    		<action name="leave_modify">
-     			<animation target="firstperson" name="exit_modify" />
-      			<animation target="ownerloop" name="idle" />
-   		</action>
+			<animation target="firstperson" name="enter_modify_%hand%_01" />
+      <animation target="ownerloop" name="modify_weapon" />
+    </action>
+    <action name="leave_modify">
+      <animation target="firstperson" name="leave_modify_%hand%_01" />
+      <animation target="ownerloop" name="idle" />
+    </action>
 		<action name="offhand_on">
-			<animation target="firstperson" name="remove_hand_01" speed="3.0"/>
+			<animation target="firstperson" name="remove_hand_%offhand%_01" speed="3.0"/>
 		</action>
 		<action name="offhand_off">
-			<animation target="firstperson" name="grab_weapon_01" />
+			<animation target="firstperson" name="grab_weapon_%offhand%_01" />
 		</action>
 		
 		<action name="raise">
-			<animation target="firstperson" name="raise_%hand%_%suffix%01" speed="1" />
+			<animation target="firstperson" name="raise_%hand%_%suffix%01" />
 		</action>
+		
 		<action name="idle_raised">
-			<animation target="firstperson" name="idle_raised_%hand%_%suffix%01" speed="0.2" />
+			<animation target="firstperson" name="idle_raised_%hand%_%suffix%01" />
 		</action>
 		
 		<action name="lower">
-			<animation target="firstperson" name="lower_%hand%_%suffix%01" speed="1" />
+			<animation target="firstperson" name="lower_%hand%_%suffix%01" />
 		</action>
 	</actions>
 	<layers>
 		<layer name="scope">
-			<animation target="firstperson" name="scope_on_layer" layerId="1" />
+			<animation target="firstperson" name="scope_on_layer_01" layerId="1" />
+			
 		</layer>
 		<layer name="modify_layer">
-			<animation target="firstperson" name="idle_modify" layerId="2" />
+			<animation target="firstperson" name="modify_layer_%hand%_01" layerId="2" />
 		</layer>
 		<layer name="flashlight">
 			<animation target="firstperson" name="flashlight_on_layer_01" layerId="3" />
@@ -184,25 +187,25 @@
 			<animation target="firstperson" name="silencer_on_layer_01" layerId="4" />
 		</layer>
 		<layer name="lever_layer_1">
-			<animation target="firstperson" name="firemode_1" layerId="5" />
+			<animation target="firstperson" name="firemode_rapid_layer_01" layerId="5" />
 		</layer>
 		<layer name="lever_layer_2">
-			<animation target="firstperson" name="firemode_2" layerId="6" />
+			<animation target="firstperson" name="firemode_single_layer_01" layerId="6" />
 		</layer>
 	</layers>
 	<firemodes>
 		<firemode type="default">
 			<fire>
 				<param name="ammo_type" value="smgbullet" />
-				<param name="rate" value="950" />
-				<param name="damage" value="45" />
-				<param name="reload_time" value="3" />
+				<param name="rate" value="600" />
+				<param name="damage" value="100" />
+				<param name="reload_time" value="2.5" />
 				<param name="bullet_chamber" value="1" />
 				<param name="helper_tp" value="weapon_term" />
-				<param name="clip_size" value="50" />
+				<param name="clip_size" value="30" />
 				<param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="damage_drop_per_meter" value="0.5" />
-				<param name="damage_drop_min_distance" value="25" />
+				<param name="damage_drop_min_distance" value="40" />
 			</fire>
 			<recoil>
 				<param name="max_recoil"	value="2" />
@@ -225,8 +228,8 @@
 				</hints>
 			</recoil>		
 			<spread>
-				<param name="min" value="2.5" />
-				<param name="max" value="4.0" />
+				<param name="min" value="1.5" />
+				<param name="max" value="3.0" />
 				<param name="attack" value="0.8" />
 				<param name="decay" value="0.5" />
 				<param name="speed_m" value="1.5" />
@@ -236,7 +239,7 @@
 				<thirdperson effect="muzzleflash.AssaultRifle.SMG_tp" helper="weapon_term" light_helper="weapon_term" light_radius="2.3" light_time="0.010" light_color="1,1,0.8" light_diffuse_mult="8" />
 			</muzzleflash>
 			<muzzlesmoke_ice>
-				<firstperson effect="weapon_fx.gun.cold_steam_on_barrel" helper="muzzle_flash_smoke" />
+				<firstperson effect="weapon_fx.gun.cold_steam_on_barrel" helper="weapon_term" />
 				<thirdperson effect="weapon_fx.gun.cold_steam_on_barrel" helper="weapon_term" />
 			</muzzlesmoke_ice>
 			<reject>
@@ -335,6 +338,8 @@
 				<param name="zoom_out_time" value="0.2" />
 				<param name="scope_offset" value="0,0.003,0" />
 				<param name="hbob_ratio" value="5" />
+				<param name="scope_mode" value="1" />
+				<param name="scope_nearFov" value="50" />	
 				<stages>
 					<stage value="1.4" />
 				</stages>
@@ -385,7 +390,7 @@
 				<param name="reflex_dotEffect" value="Objects/Weapons/Attachments/reflex_rifle/dot.cgf" />
 				<param name="hbob_ratio" value="5" />
 				<param name="scope_mode" value="1" />
-				<param name="scope_nearFov" value="24" />	
+				<param name="scope_nearFov" value="35" />	
 				<stages>
 					<stage value="1.4" />
 				</stages>
@@ -426,7 +431,7 @@
 		        <param name="recoil_strMode_m_mod" value="1.5" />
 			</recoilMod>
 		</zoommode>
-		<zoommode name="assaultscope" type="IronSight" enabled="0" >
+		<zoommode name="assaultscope" type="Scope" enabled="0" >
 			<zoom>
 				<param name="suffix" value="scope_" />
 				<param name="blur_amount" value="1" />
@@ -435,7 +440,7 @@
 				<param name="zoom_in_time" value="0.2" />
 				<param name="zoom_out_time" value="0.2" />
 				<param name="scope_mode" value="1" />
-				<param name="scope_nearFov" value="6" />
+				<param name="scope_nearFov" value="4" />
 				<param name="scope_offset" value="0.0,0.13,0.0" />
 				<stages>
 					<stage value="3.5" />
@@ -477,75 +482,19 @@
 		        <param name="recoil_strMode_m_mod" value="1.5" />
 			</recoilMod>
 			<scope>
-				<param name="scope" value="scope_assault" />
+				<param name="scope" value="scope_default" />
 				<param name="dark_in_time" value="0.15" />
 				<param name="dark_out_time" value="0.15" />
 			</scope>
-		</zoommode>
-		<zoommode name="sniper" type="Scope" enabled="0" >
-			<zoom>
-				<param name="suffix" value="scope_" />
-				<param name="blur_amount" value="1" />
-				<param name="blur_mask" value="textures/weapons/assaultscope_blur.dds" />
-				<param name="dof_mask" value="textures/weapons/assaultscope_blur.dds" />
-				<param name="zoom_in_time" value="0.15" />
-				<param name="zoom_out_time" value="0.125" />
-				<param name="scope_mode" value="1" />
-				<param name="scope_nearFov" value="6" />
-				<param name="scope_offset" value="0.0005,0.18,0.0058" />
-				<param name="hbob_ratio" value="2.5" />
-				<stages>
-					<stage value="4" />
-					<stage value="10" />
-				</stages>
-			</zoom>
-			<scope>
-				<param name="scope" value="scope_sniper" />
-				<param name="dark_in_time" value="0.15" />
-				<param name="dark_out_time" value="0.15" />
-			</scope>
-			<zoomSway>
-				<param name="maxX" value="0.012" />
-				<param name="maxY" value="0.015" />
-				<param name="stabilizeTime" value="2.0"/>
-				<param name="minScale" value="0.75"/>
-				<param name="strengthScale" value="0.6"/>
-				<param name="strengthScaleTime" value="0.75"/>
-				<param name="crouchScale" value="0.75"/>
-				<param name="proneScale" value="0.75"/>
-			</zoomSway>
-			<spreadMod>
-        <param name="max_mod" value="0.5"/>
-        <param name="attack_mod" value="2.0"/>
-        <param name="decay_mod" value="1.0"/>
-        <param name="speed_m_mod" value="0.5" />
-        <param name="min_mod" value="0.25"/>
-        <param name="rotation_m_mod" value="1.5"/>
-        <param name="spread_crouch_m_mod" value="0.75"/>
-        <param name="spread_prone_m_mod" value="0.75"/>
-        <param name="spread_jump_m_mod" value="1.0"/>
-      </spreadMod>
-      			<recoilMod>
-		        <param name="max_recoil_mod" value="0.75" />
-		        <param name="attack_mod" value="0.75" />
-		        <param name="decay_mod" value="1.0" />
-		        <param name="impulse_mod" value="1.0" />
-		        <param name="maxx_mod" value="1.5" />
-		        <param name="maxy_mod" value="1.5" />
-		        <param name="angular_impulse_mod" value="1.0" />
-		        <param name="back_impulse_mod" value="1.0" />
-		        <param name="recoil_crouch_m_mod" value="0.75" />
-		        <param name="recoil_prone_m_mod" value="0.75" />
-		        <param name="recoil_jump_m_mod" value="1.0" />
-		        <param name="recoil_strMode_m_mod" value="1.5" />
-			</recoilMod>
 		</zoommode>
 	</zoommodes>
 	<accessories>
 		<initialsetup>
-			<accessory name="Kriss_ironsights" />
+			<accessory name="HKUMP45Silencer" />
+			<accessory name="HKUMP45LAM" />
+			<accessory name="HKUMP45AssaultScope" />
 		</initialsetup>
-		<accessory name="Kriss_silencer">
+		<accessory name="HKUMP45Silencer">
 			<attach action="attach_silencer" helper="silencer_attach" layer="silencer" />
 			<detach action="detach_silencer" />
 			<params>
@@ -556,7 +505,7 @@
 							<param name="damage_drop_min_distance" value="10" />
 						</fire>
 						<muzzleflash>
-							<firstperson effect="muzzleflash.AssaultRifle.silenced_smoke" helper="muzzle_flash_effect" time="0.1" />
+							<firstperson effect="muzzleflash.AssaultRifle.silenced_smoke" helper="muzzle_flash_effect_silenced" time="0.1" />
 							<thirdperson effect="muzzleflash.AssaultRifle.silenced_smoke_tp" helper="weapon_term" time="0.1" />				
 						</muzzleflash>
 						<actions>
@@ -569,20 +518,36 @@
 				</firemodes>
 			</params>
 		</accessory>
-		<accessory name="AssaultScope" zoommode="assaultscope" >
-			<attach helper="sights" layer="scope" />
+		<!--<accessory name="Flashlight">
+			<attach helper="attachment_side" layer="flashlight" />
+			<detach />
+		</accessory>-->
+		<accessory name="HKUMP45LAM">
+			<attach helper="attachment_side" layer="flashlight" />
+			<detach />
+        <params>
+				<firemodes>
+					<firemode type="default">
+						<spread>
+  						<param name="min" value="0.5" />
+  						<param name="max" value="3.0" />
+  						<param name="speed_m" value="0.05" />
+  						<param name="rotation_m" value="0.05" />                  
+						</spread>
+					</firemode>
+				</firemodes>
+			</params>	
+		</accessory>
+		<accessory name="HKUMP45FlashLight">
+			<attach helper="attachment_side" layer="flashlight" />
 			<detach />
 		</accessory>
-		<accessory name="Kriss_ironsights" zoommode="ironsight" >
-			<attach helper="sights" layer="scope" />
+		<accessory name="HKUMP45AssaultScope" zoommode="assaultscope" >
+			<attach helper="attachment_top" layer="scope" />
 			<detach />
 		</accessory>
-		<accessory name="SniperScope" zoommode="sniper" >
-			<attach helper="sights" layer="scope" />
-			<detach />
-		</accessory>
-		<accessory name="Reflex" zoommode="reflexsight" >
-			<attach helper="sights" layer="scope" />
+		<accessory name="HKUMP45Reflex" zoommode="reflexsight" >
+			<attach helper="attachment_top" layer="scope" />
 			<detach />
 		</accessory>
 	</accessories>

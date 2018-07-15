@@ -1,4 +1,4 @@
-<item name="M4A1" class="Weapon" category="medium" priority="13">
+<item name="M4A1_equip_LAM_assault" class="Weapon" category="medium" priority="13">
 	<params>
 		<param name="giveable" 		value="1" />
 		<param name="selectable" 	value="1" />
@@ -559,7 +559,8 @@
 	</zoommodes>
 	<accessories>
 		<initialsetup>
-			<accessory name="M4A1ironsights" />
+			<accessory name="M4A1Lam" />
+			<accessory name="M4A1opt" />
 		</initialsetup>
 		<accessory name="M4A1opt" zoommode="M4A1" >
 			<attach helper="attachment_top" layer="scope" />
