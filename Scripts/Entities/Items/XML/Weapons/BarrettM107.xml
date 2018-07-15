@@ -334,16 +334,16 @@
       </spreadMod>
 
       <recoilMod>
-        <param name="max_recoil_mod" value="2.0" />
+        <param name="max_recoil_mod" value="1.0" />
         <param name="attack_mod" value="1.0" />
         <param name="decay_mod" value="1.0" />
         <param name="impulse_mod" value="1.0" />
         <param name="maxx_mod" value="0.5" />
-        <param name="maxy_mod" value="2.95" />
+        <param name="maxy_mod" value="0.75" />
         <param name="angular_impulse_mod" value="1.0" />
         <param name="back_impulse_mod" value="1.0" />
-        <param name="recoil_crouch_m_mod" value="1" />
-        <param name="recoil_prone_m_mod" value="0.75" />
+        <param name="recoil_crouch_m_mod" value="0.75" />
+        <param name="recoil_prone_m_mod" value="0.5" />
         <param name="recoil_jump_m_mod" value="2.0" />
         <param name="recoil_strMode_m_mod" value="1.5" />
       </recoilMod>
