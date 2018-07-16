@@ -6,9 +6,9 @@
 <soundbank_nextid>1</soundbank_nextid>
 <sounddef_nextid>0</sounddef_nextid>
 <build_project>1</build_project>
-<build_headerfile>1</build_headerfile>
-<build_banklists>1</build_banklists>
-<build_programmerreport>1</build_programmerreport>
+<build_headerfile>0</build_headerfile>
+<build_banklists>0</build_banklists>
+<build_programmerreport>0</build_programmerreport>
 <currentbank>Beretta92FS_bank00</currentbank>
 <eventcategory>
 <name>music</name>
@@ -356,7 +356,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -517,7 +517,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -678,7 +678,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -839,7 +839,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1000,7 +1000,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1128,7 +1128,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1289,7 +1289,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1450,7 +1450,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1611,7 +1611,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1915,7 +1915,7 @@
 <_PC_optimisesamplerate>0</_PC_optimisesamplerate>
 <_PC_forcesoftware>0</_PC_forcesoftware>
 <_PC_maxstreams>32</_PC_maxstreams>
-<_PC_fileseq>16</_PC_fileseq>
+<_PC_fileseq>1</_PC_fileseq>
 <_XBOX_format>PCM</_XBOX_format>
 <_XBOX_quality>50</_XBOX_quality>
 <_XBOX_optimisesamplerate>0</_XBOX_optimisesamplerate>
@@ -1963,7 +1963,7 @@
 <currentplatform>PC</currentplatform>
 <_PC_encryptionkey></_PC_encryptionkey>
 <_PC_builddirectory></_PC_builddirectory>
-<_PC_audiosourcedirectory></_PC_audiosourcedirectory>
+<_PC_audiosourcedirectory>D:/Games/Crysis/Game</_PC_audiosourcedirectory>
 <_PC_prebuildcommands></_PC_prebuildcommands>
 <_PC_postbuildcommands></_PC_postbuildcommands>
 <_XBOX_encryptionkey></_XBOX_encryptionkey>

@@ -394,7 +394,7 @@
 <guid>{eacaa981-a6ee-46e2-b603-ca8e66c2301a}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>1</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire</name>
@@ -453,7 +453,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -522,7 +522,7 @@
 <guid>{1003fda4-cb03-4838-bead-4c2ed95d3dec}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_tp</name>
@@ -581,7 +581,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -650,7 +650,7 @@
 <guid>{74867db8-d1e1-4eb1-ac69-745e55a42d30}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_rapid</name>
@@ -709,7 +709,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -778,7 +778,7 @@
 <guid>{bfd96f65-2e16-4995-8e9a-bdbf4af5040f}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_rapid_tp</name>
@@ -837,7 +837,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -906,7 +906,7 @@
 <guid>{b46c1e8a-a497-4585-88cd-625882c17608}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>spin_down</name>
@@ -965,7 +965,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1034,7 +1034,7 @@
 <guid>{cb5cb838-fe68-43cd-876f-030a8a28ae30}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>spin_down_tp</name>
@@ -1093,7 +1093,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1162,7 +1162,7 @@
 <guid>{a4af4471-b7ac-414a-af0b-5c9488c8a3b3}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>select</name>
@@ -1221,7 +1221,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1290,7 +1290,7 @@
 <guid>{72de171a-25d0-4be8-b0ef-5886041d217f}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>select_tp</name>
@@ -1349,7 +1349,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1418,7 +1418,7 @@
 <guid>{a84bb56b-ea18-47f5-8e8a-2e55d5b766d0}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>reload_chamberempty</name>
@@ -1477,7 +1477,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1546,7 +1546,7 @@
 <guid>{5d1548f7-8780-494e-a260-4d87f9b20f92}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>reload_chamberempty_tp</name>
@@ -1605,7 +1605,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1674,7 +1674,7 @@
 <guid>{708b4056-b1b3-49c0-93be-c02796b4e630}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>reload_chamber_full</name>
@@ -1733,7 +1733,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1802,7 +1802,7 @@
 <guid>{076e283f-46e7-4f68-ad2a-4efdca79d17d}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>reload_chamber_full_tp</name>
@@ -1861,7 +1861,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1930,7 +1930,7 @@
 <guid>{7f9075e2-10b1-4cee-a850-4397e1289009}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>switch_firemode</name>
@@ -1989,7 +1989,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2058,7 +2058,7 @@
 <guid>{08ab77fe-9070-4118-a4da-eeb5796daf45}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>switch_firemode_zoomed</name>
@@ -2117,7 +2117,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2186,7 +2186,7 @@
 <guid>{b74faa5d-671a-4bf2-a89f-57bbd3f10cc4}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>raise</name>
@@ -2245,7 +2245,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2314,7 +2314,7 @@
 <guid>{ad07d1b8-8fb0-41d9-9451-8ede11318c3f}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_silenced</name>
@@ -2373,7 +2373,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2442,7 +2442,7 @@
 <guid>{6cdce5a5-4c44-47b8-8131-597e61eee3cf}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_silenced_tp</name>
@@ -2501,7 +2501,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2570,7 +2570,7 @@
 <guid>{d3d580f7-a659-4d78-8ac1-c5c8a654709e}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_rapid_silenced</name>
@@ -2629,7 +2629,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2698,7 +2698,7 @@
 <guid>{ecf020c1-8bc1-4f69-80de-eae783565794}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_rapid_silenced_tp</name>
@@ -2757,7 +2757,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2826,7 +2826,7 @@
 <guid>{683c1cb7-c3cf-4bfd-a2e3-7b376202fce8}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>spin_down_silenced</name>
@@ -2885,7 +2885,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2954,7 +2954,7 @@
 <guid>{aff83a88-e8c9-436b-a5f0-ba3c25e5c803}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>spin_down_silenced_tp</name>
@@ -3013,7 +3013,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -3082,7 +3082,7 @@
 <guid>{674b6c39-f120-4f27-bf63-a3950b71eece}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_grenade</name>
@@ -3141,7 +3141,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -3210,7 +3210,7 @@
 <guid>{2c8ccd97-ba96-40f1-b472-f7c063525b5b}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>fire_grenade_tp</name>
@@ -3269,7 +3269,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -3338,7 +3338,7 @@
 <guid>{dac835b6-3a87-41bc-bf0f-1ab53142e587}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>reload_grenade_launcher</name>
@@ -3397,7 +3397,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -3466,7 +3466,7 @@
 <guid>{8a8fbe34-a198-4cea-a148-50e0b329b0d6}</guid>
 <eventgroup_nextid>0</eventgroup_nextid>
 <event_nextid>0</event_nextid>
-<open>0</open>
+<open>1</open>
 <notes></notes>
 <event>
 <name>melee</name>
@@ -3525,7 +3525,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -3991,7 +3991,7 @@
 <currentplatform>PC</currentplatform>
 <_PC_encryptionkey></_PC_encryptionkey>
 <_PC_builddirectory></_PC_builddirectory>
-<_PC_audiosourcedirectory></_PC_audiosourcedirectory>
+<_PC_audiosourcedirectory>D:/Games/Crysis/Game/M4A1</_PC_audiosourcedirectory>
 <_PC_prebuildcommands></_PC_prebuildcommands>
 <_PC_postbuildcommands></_PC_postbuildcommands>
 <_XBOX_encryptionkey></_XBOX_encryptionkey>

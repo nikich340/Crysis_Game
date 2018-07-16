@@ -330,7 +330,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -458,7 +458,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -619,7 +619,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -780,7 +780,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -941,7 +941,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1102,7 +1102,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1263,7 +1263,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1424,7 +1424,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1552,7 +1552,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1680,7 +1680,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1808,7 +1808,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -1936,7 +1936,7 @@
 <mindistance>1</mindistance>
 <maxdistance>10000</maxdistance>
 <headrelative>World_relative</headrelative>
-<oneshot>No</oneshot>
+<oneshot>Yes</oneshot>
 <istemplate>No</istemplate>
 <usetemplate></usetemplate>
 <notes></notes>
@@ -2288,7 +2288,7 @@
 <currentplatform>PC</currentplatform>
 <_PC_encryptionkey></_PC_encryptionkey>
 <_PC_builddirectory></_PC_builddirectory>
-<_PC_audiosourcedirectory>D:/Electronic Arts/Crytec/Crysis/Game/Sounds</_PC_audiosourcedirectory>
+<_PC_audiosourcedirectory>D:/Games/Crysis/Game/Hammer50</_PC_audiosourcedirectory>
 <_PC_prebuildcommands></_PC_prebuildcommands>
 <_PC_postbuildcommands></_PC_postbuildcommands>
 <_XBOX_encryptionkey></_XBOX_encryptionkey>
