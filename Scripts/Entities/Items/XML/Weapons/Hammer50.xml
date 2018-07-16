@@ -407,7 +407,7 @@ layerId="7" />
 				</firemodes>
 			</params>	
 		</accessory>
-		<accessory name="BerettaLAMFlashLight">
+		<accessory name="LAMFlashLight">
 			<attach helper="attachment_bottom_LAM" layer="LAM_layer" />
 			<detach />
 		</accessory>

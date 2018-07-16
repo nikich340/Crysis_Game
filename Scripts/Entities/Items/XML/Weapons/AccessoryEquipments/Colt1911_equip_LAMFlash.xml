@@ -1,4 +1,4 @@
-<item name="Beretta92FS_equip_LAM" class="Weapon" category="small" priority="0">
+<item name="Colt1911_equip_LAMFlash" class="Weapon" category="small" priority="0">
 	<params>
 		<param name="giveable" 		value="1" />
 		<param name="selectable" 	value="1" />
@@ -11,7 +11,7 @@
 		<param name="bone_attachment_01" value="pistol_attachment_right" />
                 <param name="bone_attachment_02" value="pistol_attachment_left" />-->
 		<dualwield>
-                        <item value="Beretta92FS" />
+                        <item value="Colt1911" />
 			<suffix value="akimbo_" />
                         <pose value="dualpistol" />
 		</dualwield>
@@ -20,15 +20,15 @@
 		draw_time="0.1" sweep_width="1.5" sweep_frequency="2.5"
 		spreadRadius="0.35" stPauseTimeMin="0.8" stPauseTimeMax="3.5" singleFireTriggerTime="0.25" />	
 	<ammos>
-		<ammo name="lightbullet" extra="0" amount="15" minAmmo="8" />
+		<ammo name="lightbullet" extra="0" amount="8" minAmmo="3" />
 	</ammos>
 	<geometry>
-                <firstperson name="objects/weapons/us/Beretta92FS/Beretta92FS_left_fp.chr" 
+                <firstperson name="objects/weapons/us/Colt1911/Colt1911_left_fp.chr" 
 		hand="left" angles="0,0,0" />
-		<firstperson name="objects/weapons/us/Beretta92FS/Beretta92FS_right_fp.chr" hand="right" angles="0,0,0" />
-		<thirdperson name="objects/weapons/us/Beretta92FS/Beretta92FS_tp.cgf" angles="0,0,0" />
+		<firstperson name="objects/weapons/us/colt1911/Colt1911_right_fp.chr" hand="right" angles="0,0,0" />
+		<thirdperson name="objects/weapons/us/colt1911/Colt1911_tp.cgf" angles="0,0,0" />
 		<boneAttachments>
-                        <attachment target="firstperson" name="silencer_attach_Beretta92FS"
+                        <attachment target="firstperson" name="silencer_attach_Colt1911"
 bone="silencer_attach" />                                                                                                   <attachment target="firstperson" name="muzzle_flash_effect" bone="weapon_term" />
 			<attachment target="firstperson" name="muzzle_flash_light" bone="weapon_term" />
                          <attachment target="firstperson" name="attachment_bottom_LAM" bone="attachment_bottom" />
@@ -40,14 +40,14 @@ bone="silencer_attach" />                                                       
 		<action name="select">
 			<animation target="firstperson" name="select_%hand%_%suffix%01" />
 			<animation target="owner" name="select" />
-                        <sound target="firstperson" name="sounds/Beretta92FS:Select:Select" radius="2" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:Select:Select" radius="2" />
+                        <sound target="firstperson" name="sounds/Colt1911:Select:Select" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:Select:Select" radius="2" />
 		</action>
 		<action name="deselect">
 			<animation target="firstperson" name="deselect_%hand%_%suffix%01" />
 			<animation target="owner" name="deselect" />
-			<sound target="firstperson" name="sounds/Beretta92FS:deselect:deselect" radius="2" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:deselect:deselect" radius="2" />
+			<sound target="firstperson" name="sounds/Colt1911:deselect:deselect" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:deselect:deselect" radius="2" />
 		</action>
 		<action name="idle">
 			<animation target="firstperson" name="idle_%hand%_%suffix%01" speed="0.7"/>
@@ -62,58 +62,58 @@ bone="silencer_attach" />                                                       
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/Beretta92FS:fire:fire" radius="150" static="1" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:fire_tp:fire_tp" radius="150" static="1" />
+			<sound target="firstperson" name="sounds/Colt1911:fire:fire" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/Colt1911:fire_tp:fire_tp" radius="150" static="1" />
 		</action>
 
                 <action name="fire_silenced">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/Beretta92FS:fire_silenced:fire_silenced" radius="2" static="1" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:fire_silenced_tp:fire_silenced_tp" radius="2" static="1" />
+			<sound target="firstperson" name="sounds/Colt1911:fire_silenced:fire_silenced" radius="2" static="1" />
+			<sound target="thirdperson" name="sounds/Colt1911:fire_silenced_tp:fire_silenced_tp" radius="2" static="1" />
 		</action>
 		
 		<action name="fire_st">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/Beretta92FS:Fire_st:Fire_st" radius="150" static="1" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:Fire_st_tp:Fire_st_tp" radius="150" static="1" />
+			<sound target="firstperson" name="sounds/Colt1911:Fire_st:Fire_st" radius="150" static="1" />
+			<sound target="thirdperson" name="sounds/Colt1911:Fire_st_tp:Fire_st_tp" radius="150" static="1" />
 		</action>
 		
 			<action name="change_firemode">
 			<animation target="firstperson" name="switch_firemode_%hand%_%suffix%01" />
 			<animation target="owner" name="firemode" />
-			<sound target="firstperson" name="sounds/Beretta92FS:Firemode:Firemode" radius="3" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:Firemode:Firemode" radius="3" />
+			<sound target="firstperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
+			<sound target="thirdperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
 		</action>	
 		
 		<action name="change_firemode_zoomed">
 			<animation target="firstperson" name="switch_firemode_ironsight_right_01" />
 			<animation target="owner" name="firemode" />
-			<sound target="firstperson" name="sounds/Beretta92FS:Firemode:Firemode" radius="3" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:Firemode:Firemode" radius="3" />
+			<sound target="firstperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
+			<sound target="thirdperson" name="sounds/Colt1911:Firemode:Firemode" radius="3" />
 		</action>		
 		
 		<action name="reload_chamber_empty">
 			<animation target="firstperson" name="reload_chamber_empty_%hand%_%suffix%01" />
 			<animation target="owner" name="reload" />
-<sound target="firstperson" name="Sounds/Beretta92FS:reload_empty:reload_empty" radius="2" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:reload_empty:reload_empty" radius="5" />
+<sound target="firstperson" name="Sounds/Colt1911:reload_empty:reload_empty" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:reload_empty:reload_empty" radius="5" />
 		</action>
 		<action name="reload_chamber_full">
 			<animation target="firstperson" name="reload_chamber_full_%hand%_%suffix%01" />
 			<animation target="owner" name="reload" />
-<sound target="firstperson"                         name="Sounds/Beretta92FS:clipin:clipin" radius="2" />
-			<sound target="thirdperson" name="sounds/Beretta92FS:clipin:clipin" radius="2" />
+<sound target="firstperson"                         name="Sounds/Colt1911:reload_full:reload_full" radius="2" />
+			<sound target="thirdperson" name="sounds/Colt1911:reload_full_tp:reload_full_tp" radius="2" />
 		</action>
 		<action name="empty_clip">
 			<!--<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />-->
-			<sound target="firstperson"                         name="Sounds/Beretta92FS:dryfire:dryfire" radius="2" />
-			<sound target="thirdperson" name="Sounds/Beretta92FS:dryfire:dryfire" radius="2" />
+			<sound target="firstperson"                         name="Sounds/Colt1911:dryfire:dryfire" radius="2" />
+			<sound target="thirdperson" name="Sounds/Colt1911:dryfire:dryfire" radius="2" />
 		</action>
 		<action name="null_fire">
-			<sound target="firstperson" name="Sounds/Beretta92FS:null_fire:null_fire" radius="2" />
+			<sound target="firstperson" name="Sounds/Colt1911:null_fire:null_fire" radius="2" />
 		</action>	
 		<action name="zoom_in">
 			<animation target="firstperson" name="zoom_in_%suffix%%hand%_01" speed="2" />
@@ -150,8 +150,8 @@ bone="silencer_attach" />                                                       
 		
 		<action name="raise">
 			<animation target="firstperson" name="raise_%hand%_%suffix%01" />
-                        <sound target="firstperson"                                                 name="Sounds/Beretta92FS:raise:raise" radius="2" />
-			<sound target="thirdperson" name="Sounds/Beretta92FS:raise:raise" radius="2" />
+                        <sound target="firstperson"                                                 name="Sounds/Colt1911:raise:raise" radius="2" />
+			<sound target="thirdperson" name="Sounds/Colt1911:raise:raise" radius="2" />
 		</action>
 		
 		<action name="idle_raised">
@@ -192,9 +192,9 @@ layerId="6" />
 		<firemode type="default">
 			<fire>
 				<param name="ammo_type" value="lightbullet" />
-				<param name="rate" value="450" />
-				<param name="damage" value="89" />
-				<param name="clip_size" value="15" />
+				<param name="rate" value="1500" />
+				<param name="damage" value="150" />
+				<param name="clip_size" value="8" />
 				<param name="helper_tp" value="weapon_term" />
 				<param name="bullet_chamber" value="1" />
 				<param name="slider_layer" value="slider_back" />
@@ -306,7 +306,7 @@ layerId="6" />
 		<zoommode type="default">
 			<zoom>
 				<param name="dof_mask" value="textures/weapons/ironzoom_blurmask.dds" />
-				<param name="alternate_dof_mask" value="textures/weapons/Beretta92FS_dof.dds" />
+				<param name="alternate_dof_mask" value="textures/weapons/Colt1911_dof.dds" />
 				<param name="suffix" value="ironsight_" />
 				<param name="suffix_FC" value="fc_"/>
 				<param name="support_FC_IronSight" value="true" />
@@ -354,15 +354,15 @@ layerId="6" />
 		</zoommode>
 		<zoommode name="ironsight" type="IronSight">
 				<param name="dof_mask" value="textures/weapons/ironzoom_blurmask.dds" />
-				<param name="alternate_dof_mask" value="textures/weapons/Beretta92FS_dof.dds" />
+				<param name="alternate_dof_mask" value="textures/weapons/Colt1911_dof.dds" />
 		</zoommode>
 	</zoommodes>
 	<accessories>
 		<initialsetup>
-			<accessory name="BerettaLAM" />
+			<accessory name="LAMFlashLight" />
 		</initialsetup>
 		<accessory name="BerettaSilencer">
-			<attach helper="silencer_attach_Beretta92FS" layer="silencer" />
+			<attach helper="silencer_attach_Colt1911" layer="silencer" />
 			<detach />
 			<params>
 				<firemodes>

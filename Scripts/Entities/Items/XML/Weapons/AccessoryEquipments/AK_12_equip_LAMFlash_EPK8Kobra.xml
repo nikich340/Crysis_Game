@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<item name="AK_12_equip_LAM_EPK8Kobra" class="Weapon" category="medium" priority="13">
+<item name="AK_12_equip_LAMFlash_EPK8Kobra" class="Weapon" category="medium" priority="13">
   <params>
     <param name="giveable" value="1" />
     <param name="selectable" value="1" />
@@ -564,7 +564,7 @@
   </zoommodes>
   <accessories>
     <initialsetup>
-      <accessory name="LAMRifle" />
+      <accessory name="LAMRifleFlashLight" />
       <accessory name="AK_12_EPK8Kobra" />
     </initialsetup>
     <accessory name="FY71NormalAmmo">
