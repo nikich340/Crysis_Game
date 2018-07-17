@@ -20,7 +20,7 @@
 		draw_time="0.1" sweep_width="1.5" sweep_frequency="2.5"
 		spreadRadius="0.35" burstPauseTimeMin="0.8" burststPauseTimeMax="3.5" singleFireTriggerTime="0.25" />	
 	<ammos>
-		<ammo name="lightbullet" extra="0" amount="8" minAmmo="3" />
+		<ammo name="lightbullet" extra="16" amount="8" minAmmo="3" />
 	</ammos>
 	<geometry>
                 <firstperson name="objects/weapons/deutsche/p38/p38_left_fp.chr" 

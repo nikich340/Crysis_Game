@@ -22,7 +22,7 @@
 	
 	<ammos>
 		<ammo name="m107bullet" extra="0" amount="10" minAmmo="5" accessoryAmmo="0"/>
-		<ammo name="m107incendiarybullet" extra="0" amount="0" accessoryAmmo="10"/>
+		<ammo name="m107incendiarybullet" extra="10" amount="0" accessoryAmmo="10"/>
 		<ammo name="m107dubullet" extra="0" amount="0" accessoryAmmo="5"/>
 	</ammos>
 	<geometry>

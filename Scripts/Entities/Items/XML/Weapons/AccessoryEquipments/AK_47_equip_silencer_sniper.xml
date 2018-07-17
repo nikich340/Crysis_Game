@@ -17,8 +17,8 @@
   </params>
   <ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="10" draw_time="1.0" sweep_width="1.5" sweep_frequency="2.5" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
   <ammos>
-    <ammo name="fybullet" extra="0" amount="30" minAmmo="15" />
-    <ammo name="scargrenade" extra="0" amount="0" accessoryAmmo="1" />
+    <ammo name="fybullet" extra="60" amount="30" minAmmo="15" />
+    <ammo name="scargrenade" extra="2" amount="0" accessoryAmmo="1" />
     <ammo name="tacbullet" extra="0" amount="0" accessoryAmmo="5" />
   </ammos>
   <geometry>

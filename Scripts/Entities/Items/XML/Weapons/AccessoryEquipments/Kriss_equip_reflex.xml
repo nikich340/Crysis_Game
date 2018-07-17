@@ -18,7 +18,7 @@
 	</params>
 	<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="15" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
 	<ammos>
-		<ammo name="smgbullet" extra="0" amount="50" minAmmo="25"/>
+		<ammo name="smgbullet" extra="100" amount="50" minAmmo="25"/>
 	</ammos>
 	<geometry>
 		<firstperson name="objects/weapons/us/kriss_super_v/kriss_super_v.chr" angles="0,0,0"/>

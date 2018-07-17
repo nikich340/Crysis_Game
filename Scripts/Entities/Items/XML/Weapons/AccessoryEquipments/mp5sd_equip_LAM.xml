@@ -18,7 +18,7 @@
 	</params>
 	<ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="15" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
 	<ammos>
-		<ammo name="smgbullet" extra="0" amount="30" minAmmo="30"/>
+		<ammo name="smgbullet" extra="60" amount="30" minAmmo="30"/>
 	</ammos>
 	<geometry>
 		<firstperson name="objects/weapons/us/mp5sd/mp5sd_fp.chr" angles="0,0,0" />

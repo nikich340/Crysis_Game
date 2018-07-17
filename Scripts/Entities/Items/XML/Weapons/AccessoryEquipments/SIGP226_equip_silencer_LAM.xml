@@ -18,7 +18,7 @@
 		draw_time="1.0" sweep_width="1.5" sweep_frequency="2.5"
 		spreadRadius="0.35" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="0.25" />	
 	<ammos>
-		<ammo name="lightbullet" extra="0" amount="16" minAmmo="10" />
+		<ammo name="lightbullet" extra="32" amount="16" minAmmo="10" />
 	</ammos>
 	<geometry>
 		<firstperson name="objects/weapons/us/socom/socom_left_fp.chr" hand="left" angles="0,0,0" />

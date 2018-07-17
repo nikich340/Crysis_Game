@@ -20,7 +20,7 @@
 		draw_time="0.1" sweep_width="1.5" sweep_frequency="2.5"
 		spreadRadius="0.35" stPauseTimeMin="0.8" stPauseTimeMax="3.5" singleFireTriggerTime="0.25" />	
 	<ammos>
-		<ammo name="lightbullet" extra="0" amount="15" minAmmo="8" />
+		<ammo name="lightbullet" extra="30" amount="15" minAmmo="8" />
 	</ammos>
 	<geometry>
                 <firstperson name="objects/weapons/us/Beretta92FS/Beretta92FS_left_fp.chr" 

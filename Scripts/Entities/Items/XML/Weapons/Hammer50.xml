@@ -18,7 +18,7 @@
 		draw_time="0.1" sweep_width="1.5" sweep_frequency="2.5"
 		spreadRadius="0.35" stPauseTimeMin="0.8" stPauseTimeMax="3.5" singleFireTriggerTime="0.25" />	
 	<ammos>
-		<ammo name="lightbullet" extra="0" amount="9" minAmmo="3" />
+		<ammo name="lightbullet" extra="18" amount="9" minAmmo="3" />
 	</ammos>
 	<geometry>
                 <firstperson name="objects/weapons/UK/Hammer50/Hammer50_left_fp.chr" 
