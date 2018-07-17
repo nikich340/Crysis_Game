@@ -1,8 +1,0 @@
-<EntityPrototypeLibrary Name="p38" SandboxVersion="1.1.1.5767">
- <EntityPrototype Name="Ammo/Clip.p38magazine_16" Id="{F47A104F-8992-48B1-AB93-8419BCFCED38}" Class="CustomAmmoPickup" Description="">
-  <Properties AmmoName="lightbullet" Count="16" initialSetup="" objModel="objects/weapons/deutsche/p38/p38magazine_16.cgf" bPhysics="1" bPickable="1" soclasses_SmartObjectClass="" bUsable="1">
-   <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
-  </Properties>
-  <ObjectVars OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="150" HiddenInGame="0" RecvWind="0"/>
-</EntityPrototype>
- </EntityPrototypeLibrary>
