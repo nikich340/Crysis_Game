@@ -1,4 +1,4 @@
-<item name="Predator_Bow" class="Weapon" category="medium" priority="0"  >
+<item name="Predator_Bow" class="Weapon" category="small" priority="0"  >
 	<params>
 		<param name="giveable" 		value="1" />
 		<param name="selectable" 	value="1" />
