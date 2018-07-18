@@ -193,7 +193,7 @@ layerId="6" />
 			<fire>
 				<param name="ammo_type" value="lightbullet" />
 				<param name="rate" value="999" />
-				<param name="damage" value="112" />
+				<param name="damage" value="70" />
 				<param name="clip_size" value="8" />
 				<param name="helper_tp" value="weapon_term" />
 				<param name="bullet_chamber" value="1" />

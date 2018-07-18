@@ -203,7 +203,7 @@
       <fire>
         <param name="ammo_type" value="maccuavittleammo" />
         <param name="rate" value="2000" />
-        <param name="damage" value="100" />
+        <param name="damage" value="200" />
         <param name="reload_time" value="2.75" />
         <param name="bullet_chamber" value="1" />
         <param name="clip_size" value="200" />
@@ -211,6 +211,7 @@
         <param name="nearmiss_signal" value="OnNearMiss" />
         <param name="damage_drop_per_meter" value="0.1" />
         <param name="damage_drop_min_distance" value="50" />
+		<param name="ai_vs_player_damage" value="100" />
       </fire>
       <recoil>
         <param name="max_recoil" value="4" />

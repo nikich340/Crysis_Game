@@ -234,6 +234,7 @@
    			        <param name="bullet_chamber" value="1" />
    			        <param name="helper_tp" value="weapon_term" />
    			        <param name="distance" value="-1" />
+					<param name="ai_vs_player_damage" value="130" />
       			</fire>
       			<spread>
         			<param name="min" value="1.0" />

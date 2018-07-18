@@ -97,13 +97,14 @@
       <fire>
         <param name="ammo_type" value="hurricanebullet" />
         <param name="rate" value="700" />
-        <param name="damage" value="280" />
+        <param name="damage" value="100" />
         <param name="clip_size" value="-1" />
         <param name="reload_time" value="3.2" />
         <param name="bullet_chamber" value="1" />
         <param name="helper_tp" value="weapon_term" />
         <param name="nearmiss_signal" value="OnNearMiss" />
         <param name="distance" value="700" />
+		<param name="ai_vs_player_damage" value="50" />
       </fire>
       <heating>
         <param name="attack" value="0.045" />

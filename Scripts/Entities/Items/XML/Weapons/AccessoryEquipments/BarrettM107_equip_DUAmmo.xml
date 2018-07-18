@@ -162,7 +162,7 @@
 				<param name="helper_tp" value="weapon_term" />
 				<param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="secondary_damage" value="1" />
-				<param name="ai_vs_player_damage" value="80"/>
+				<param name="ai_vs_player_damage" value="100"/>
 				<!--<param name="unzoomed_cock" value="1" />-->
 			</fire>
 			
@@ -392,8 +392,8 @@
 					<firemode type="default">
 						<fire>
 							<param name="ammo_type" value="m107dubullet" />
-							<param name="damage" value="250" />
-							
+							<param name="damage" value="600" />
+							<param name="ai_vs_player_damage" value="250" />
 						</fire>
 					</firemode>
 				</firemodes>

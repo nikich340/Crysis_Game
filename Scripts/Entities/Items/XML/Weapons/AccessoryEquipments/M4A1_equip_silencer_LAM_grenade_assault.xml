@@ -228,14 +228,14 @@
 			<fire>
 				<param name="ammo_type" value="fybullet" />
 				<param name="rate" value="800" />
-				<param name="damage" value="82" />
+				<param name="damage" value="100" />
 				<param name="reload_time" value="2.75" />
 				<param name="bullet_chamber" value="1" />
 				<param name="helper_tp" value="weapon_term" />
 				<param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="damage_drop_per_meter" value="0.2" />
 				<param name="secondary_damage" value="1" />				       				<param name="damage_drop_min_distance" value="50" />
-				<param name="ai_vs_player_damage" value="83"/>
+				<param name="ai_vs_player_damage" value="50"/>
 			</fire>
 			<recoil>
 				<param name="max_recoil"	value="4" />

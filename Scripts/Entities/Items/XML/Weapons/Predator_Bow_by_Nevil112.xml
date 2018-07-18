@@ -95,7 +95,7 @@
 				<param name="ammo_type" value="StickyArrow" />
 				<param name="hit_type" value="ht_Bullet" />
 				<param name="rate" value="700" />
-				<param name="damage" value="200" />
+				<param name="damage" value="250" />
 				<param name="bullet_chamber" value="0" />
 				<param name="clip_size" value="9" />
 				<param name="helper_tp" value="weapon_term" />
@@ -104,6 +104,7 @@
 				<param name="secondary_damage" value="1" />
 				<param name="damage_drop_per_meter" value="0.15" />
 				<param name="damage_drop_min_distance" value="30" />
+				<param name="ai_vs_player_damage" value="100" />
 			</fire>
 			<recoil>
 				<param name="max_recoil" value="1"/>

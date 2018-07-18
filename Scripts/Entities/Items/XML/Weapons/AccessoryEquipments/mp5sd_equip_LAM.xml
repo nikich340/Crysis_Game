@@ -150,7 +150,7 @@
 			<fire>
 				<param name="ammo_type" 	value="smgbullet" />
 				<param name="rate" 		value="700" />
-				<param name="damage" 		value="100" />
+				<param name="damage" 		value="50" />
 				<param name="reload_time" 	value="3" />
 				<param name="bullet_chamber" 	value="1" />
 				<param name="helper_tp" 	value="weapon_term" />
@@ -158,6 +158,7 @@
 				<param name="nearmiss_signal" 	value="OnNearMiss" />
 				<param name="damage_drop_per_meter" value="0.2" />
 				<param name="damage_drop_min_distance" value="30" />
+				<param name="ai_vs_player_damage" value="25" />
 			</fire>
 			<recoil>
 				<param name="max_recoil"	value="2" />
@@ -269,7 +270,7 @@
 			<melee>
 				<param name="helper" value="collision" />
 				<param name="offset" value="0.9" />
-				<param name="damage" value="90" />
+				<param name="damage" value="50" />
 				<param name="impulse" value="20" />
 				<param name="delay" value="0.25" />
 				<param name="duration" value="0.4" />

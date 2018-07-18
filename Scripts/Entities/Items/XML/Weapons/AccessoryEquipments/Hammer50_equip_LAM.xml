@@ -189,7 +189,7 @@ layerId="7" />
 			<fire>
 				<param name="ammo_type" value="lightbullet" />
 				<param name="rate" value="500" />
-				<param name="damage" value="300" />
+				<param name="damage" value="100" />
 				<param name="clip_size" value="9" />
 				<param name="helper_tp" value="weapon_term" />
 				<param name="bullet_chamber" value="1" />
@@ -201,6 +201,7 @@ layerId="7" />
 				<param name="damage_drop_per_meter" value="0.3" />
 				<param name="damage_drop_min_distance" value="25" />
 				<param name="auto_fire"   value="true" />
+				<param name="ai_vs_player_damage" value="50" />
 			</fire>
 			<tracer>
 				<param name="geometryFP" 	value="objects/effects/tracer_standard_new.cgf" />

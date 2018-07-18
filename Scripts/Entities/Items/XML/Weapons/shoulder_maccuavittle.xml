@@ -162,7 +162,7 @@
         <param name="helper_tp" value="weapon_term" />
         <param name="nearmiss_signal" value="OnNearMiss" />
         <param name="secondary_damage" value="1" />
-        <param name="ai_vs_player_damage" value="500" />
+        <param name="ai_vs_player_damage" value="250" />
         <!--<param name="unzoomed_cock" value="1" />-->
       </fire>
       <recoil>

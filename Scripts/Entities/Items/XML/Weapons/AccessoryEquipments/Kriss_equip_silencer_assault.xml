@@ -203,7 +203,8 @@
 				<param name="nearmiss_signal" value="OnNearMiss" />
 				<param name="damage_drop_per_meter" value="0.5" />
 				<param name="damage_drop_min_distance" value="25" />
-			</fire>
+				<param name="ai_vs_player_damage" value="25" />
+				</fire>
 			<recoil>
 				<param name="max_recoil"	value="2" />
 				<param name="attack" 			value="0.4" />
