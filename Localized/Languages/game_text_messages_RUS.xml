@@ -11,7 +11,7 @@
   <LastAuthor>Пользователь Windows</LastAuthor>
   <LastPrinted>2003-10-30T09:38:41Z</LastPrinted>
   <Created>2002-06-17T19:14:00Z</Created>
-  <LastSaved>2007-09-30T18:12:09Z</LastSaved>
+  <LastSaved>2018-07-18T06:17:13Z</LastSaved>
   <Company>Electronic Arts</Company>
   <Version>12.00</Version>
  </DocumentProperties>
@@ -84,6 +84,14 @@
      <Text>Commander (camera)</Text>
      <Text>Team Two (camera)</Text>
     </Crn>
+   </Xct>
+  </SupBook>
+  <SupBook>
+   <Path>\PROGRAMS\Chembio16\ChemDraw for Excel\ChemDrawExcel16.xla</Path>
+   <SheetName>Sheet1</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
    </Xct>
   </SupBook>
   <WindowHeight>11640</WindowHeight>
@@ -1245,7 +1253,7 @@
     ss:Hidden="1"/>
    <NamedRange ss:Name="Print_Area" ss:RefersTo="=Sheet1!R1C3:R2C16"/>
   </Names>
-  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="550" x:FullColumns="1"
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="646" x:FullColumns="1"
    x:FullRows="1" ss:StyleID="s64" ss:DefaultRowHeight="13.2">
    <Column ss:StyleID="s65" ss:AutoFitWidth="0" ss:Width="13.8"/>
    <Column ss:StyleID="s66" ss:Width="253.79999999999998"/>
@@ -1384,7 +1392,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s102">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s102">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1396,7 +1404,7 @@
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s101">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s101">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s114"><Data ss:Type="String">Objective_Updated</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1425,7 +1433,7 @@
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s109"><NamedCell ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Island_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1440,7 +1448,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Высадка</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s127"><Data ss:Type="String">Island_Chapter2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1470,7 +1478,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Зов Луски</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Village_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1500,7 +1508,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Переправа</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Rescue_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1530,7 +1538,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Выход</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Harbor_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1545,7 +1553,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Брэдли</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s127"><Data ss:Type="String">Harbor_Chapter2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1575,7 +1583,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Натиск</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Tank_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1605,7 +1613,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">План &quot;Альфа&quot;</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Mine_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1620,7 +1628,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Подземные толчки</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s127"><Data ss:Type="String">Mine_Chapter2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1650,7 +1658,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Страж</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Core_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1665,7 +1673,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Законы природы</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s127"><Data ss:Type="String">Core_Chapter2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1695,7 +1703,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Легион</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Ice_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1725,7 +1733,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Путь наверх</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Sphere_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1740,7 +1748,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Цитадель</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s127"><Data ss:Type="String">Sphere_Chapter2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1785,7 +1793,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Турбулентность</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s120"><Data ss:Type="String">Fleet_Chapter1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s121"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1800,7 +1808,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Благие намерения</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:Index="2" ss:StyleID="s127"><Data ss:Type="String">Fleet_Chapter2</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s118"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -1857,7 +1865,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row ss:StyleID="s101">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s101">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s120"><Data ss:Type="String">Island_Task_Land_At_LZ</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1873,7 +1881,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Приземлитесь в зоне высадки.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s101">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s101">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s127"><Data ss:Type="String">Island_Task_Land_At_LZ_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1952,7 +1960,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Island_Task_Get_To_Beach</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -1977,7 +1985,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Island_Task_Get_To_Beach_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2084,7 +2092,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Шут</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Island_Task_Aid_Aztec</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2166,7 +2174,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Прибудьте в зону высадки</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s101">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s101">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s127"><Data ss:Type="String">Island_Task_Rendezvous_At_LZ_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2354,7 +2362,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s102">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s102">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Island_Task_Retrieve_Data_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2496,7 +2504,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Есть сведения, что заложников держат на месте раскопок. Найдите это место и освободите ученых.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Island_Task_Find_Jester</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2521,7 +2529,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Island_Task_Find_Jester_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2562,7 +2570,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Шут</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -2619,7 +2627,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Место раскопок обнаружено. Проследуйте к нему и оцените обстановку.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Village_Task_Comms_Trailer</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2786,7 +2794,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Школа</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Village_Task_Destoy_Tanks</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2831,7 +2839,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Танк</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Village_Goal_Rescue_Hostages_03</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2876,7 +2884,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Проследуйте к месту встречи.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Village_Task_Meet_With_Barnes_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2937,7 +2945,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">В районе полно корейцев. Продолжаем движение.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s148"><Data ss:Type="String">Village_Task_Meet_With_Barnes_02_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2952,7 +2960,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Пророк</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Village_Goal_Rescue_Hostages_04</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -2982,7 +2990,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Второй заложник мертв. Найдите трех оставшихся. По данным разведки, Розенталя и его помощников держат на месте раскопок.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Village_Task_Proceed_To_Cave</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3027,7 +3035,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Система пещер</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s146"><Data ss:Type="String">Village_Task_Tank1_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3057,7 +3065,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Танк</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3084,7 +3092,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Goal_Rescue_Hostages_05</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3160,7 +3168,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Task_Destroy_Jammer_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3198,7 +3206,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Генератор помех</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Task_Infiltrate_Base</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3294,7 +3302,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Task_Get_To_Excavation_Site_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3398,7 +3406,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Исследовательский комплекс</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Goal_Rescue_Hostages_06</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3544,7 +3552,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Task_Secure_Extraction_Point_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3582,7 +3590,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Точка эвакуации</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Task_Get_In_Vtol</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3607,7 +3615,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Rescue_Task_Get_In_Vtol_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -3675,7 +3683,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Американские войска штурмуют гавань, захваченную противником. Помогите им, а затем пройдите в шахту и освободите заложников.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s102">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s102">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -3917,7 +3925,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Корейский крейсер</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Harbor_Task_Defend_Position</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4037,7 +4045,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Туннель</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s146"><Data ss:Type="String">Harbor_AAA1_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4052,7 +4060,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">ПВО</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s148"><Data ss:Type="String">Harbor_AAA2_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4082,7 +4090,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">ПВО</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4140,7 +4148,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Генерал Кхон держит заложников в шахте. Поддержите прорыв наших войск в долину.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s170"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s171"><Data ss:Type="String">Tank_Task_Push_Train</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4185,7 +4193,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Станция</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s170"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s171"><Data ss:Type="String">Tank_Task_Secure_Train</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4230,7 +4238,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Станция</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s170"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s171"><Data ss:Type="String">Tank_Task_Destroy_Boxcar</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4276,7 +4284,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Вагон</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s170"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s171"><Data ss:Type="String">Tank_Task_Push_TankStorage</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4306,7 +4314,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">База бронетехники</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Tank_Task_Destroy_Tank_Depot</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4351,7 +4359,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">База бронетехники</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Tank_Task_Destroy_AAA</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4441,7 +4449,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Возвышенность</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Tank_Task_Retrieve_Gauss_Rifle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4486,7 +4494,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Точка сброса</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s170"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s171"><Data ss:Type="String">Tank_Task_Get_To_Mine</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4501,7 +4509,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Пройдите к шахте.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s170"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s171"><Data ss:Type="String">Tank_Task_Get_To_Mine_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4529,7 +4537,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Шахта</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s146"><Data ss:Type="String">Tank_AAA1_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4545,7 +4553,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">ПВО</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s148"><Data ss:Type="String">Tank_AAA2_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4576,7 +4584,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">ПВО</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -4603,7 +4611,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Mine_Goal_Rescue_Civilian_Hostages_08</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4710,7 +4718,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Офис</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Mine_Task_Get_To_LZ</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4897,7 +4905,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Шахта</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Mine_Task_Locate_Hostages</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -4972,7 +4980,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Заложники</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Mine_Task_Kill_Kyong</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5093,7 +5101,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Заложник</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Mine_Goal_Reach_Extraction_Point</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5153,7 +5161,7 @@
     <Cell ss:StyleID="s116"/>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5180,7 +5188,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Core_Goal_Reach_Extraction_Point</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5271,7 +5279,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Транспортник ждет снаружи. Найдите выход из пещеры и поднимитесь на борт.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5298,7 +5306,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Ice_Goal_Evacuate_Island_01</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5358,7 +5366,7 @@
     <Cell ss:StyleID="s116"/>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Ice_Task_Locate_Soldiers</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5433,7 +5441,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Последнее место связи</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Ice_Task_Stay_Alive</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5508,7 +5516,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Пророк</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Ice_Task_Stay_Escort_Barnes</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5583,7 +5591,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Выведите Пророка.</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -5610,7 +5618,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Goal_Evac_Island_02</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5702,7 +5710,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Разведгруппа Стриклэнда</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Talk_Keegan</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5778,7 +5786,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Киган</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Assist_Stricklands_Men</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -5902,7 +5910,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Машина</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Assist_Helena</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6055,7 +6063,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Место крушения</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Meet_Strickland</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6087,7 +6095,7 @@
     <Cell ss:StyleID="s116" ss:HRef="E:\tpartlett\My Documents\Localization\french\Game\Languages\aztec_island_ab2_00074.mp3"/>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Meet_Strickland_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6134,7 +6142,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Майор Стриклэнд</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Defend_Evac</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6211,7 +6219,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Точка эвакуации</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s117"><Data ss:Type="String">Sphere_Task_Enter_Vtol</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6289,7 +6297,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Транспортник</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6316,7 +6324,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Ascension_Goal</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6368,7 +6376,7 @@
     <Cell ss:StyleID="s116"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Ascension_Task</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6393,7 +6401,7 @@
     <Cell ss:StyleID="s116"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell><Data ss:Type="String">Ascension_Task_Text</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6628,7 +6636,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Конвой</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s103"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -6655,7 +6663,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Fleet_Goal_Debrief</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -6717,7 +6725,7 @@
     <Cell ss:StyleID="s116"/>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Fleet_Task_Go_To_CDC</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -7204,7 +7212,7 @@
     <Cell ss:StyleID="s116"/>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row ss:StyleID="s116">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s116">
     <Cell ss:StyleID="s135"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s127"><Data ss:Type="String">Fleet_Task_Locate_Engineer_Loc</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -7765,7 +7773,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Корабль пришельцев</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Fleet_Task_Get_In_Vtol</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -7843,7 +7851,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">Самолет</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s137"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s138"><Data ss:Type="String">Fleet_Goal_Escape_Carrier</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -7905,7 +7913,7 @@
     <Cell ss:StyleID="s116"/>
     <Cell ss:StyleID="s116"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s107"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -7934,7 +7942,7 @@
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s102"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s158"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s193"><Data ss:Type="String">weapon_ammo_full</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -7960,7 +7968,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s158"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s196"><Data ss:Type="String">ammo_maxed_out</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -7986,7 +7994,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">normal_cloak_disabled</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8011,7 +8019,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">pick_weapon</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8036,7 +8044,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">enter_vehicle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8063,7 +8071,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">pick_object</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8088,7 +8096,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">pick_item</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8113,7 +8121,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">grab_enemy</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8140,7 +8148,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">use_door</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8165,7 +8173,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">use_mine</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8190,7 +8198,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">use_mounted</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8215,7 +8223,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">use_ladder</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8242,7 +8250,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">grab_object</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8269,7 +8277,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">use_vehicle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8319,7 +8327,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">IronSight</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8346,7 +8354,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">NoAttachment</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8371,7 +8379,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">AssaultScope</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8600,7 +8608,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">Reflex</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8733,7 +8741,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">Silencer</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8758,7 +8766,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">SniperScope</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8783,7 +8791,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">GaussScope</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8810,7 +8818,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">SOCOMSilencer</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8835,7 +8843,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">TacticalAttachmentEMP</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8901,7 +8909,7 @@
     <Cell ss:StyleID="s141"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s141"/>
    </Row>
-   <Row ss:StyleID="s141">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s141">
     <Cell ss:StyleID="s158"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s200"><Data ss:Type="String">StunAttachment</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8934,7 +8942,7 @@
     <Cell ss:Index="19"><Data ss:Type="String">НАНОМОДУЛЬ</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">bullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8959,7 +8967,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">flashbang</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -8986,7 +8994,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">explosivegrenade</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9011,7 +9019,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s202"><Data ss:Type="String">explosivegrenadeAI</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9061,7 +9069,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">gaussbullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9086,7 +9094,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">HurricaneBullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9113,7 +9121,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">incendiarybullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9138,7 +9146,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">lightbullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9163,7 +9171,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">smgbullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9190,7 +9198,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">rubberbullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9215,7 +9223,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">scargrenade</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9240,7 +9248,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">shotgunshell</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9265,7 +9273,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">smokegrenade</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9290,7 +9298,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">sniperbullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9340,7 +9348,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">tacgunprojectile</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9365,7 +9373,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">AlienMount</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9392,7 +9400,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">AVMine</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9417,7 +9425,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">AVExplosive</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9469,7 +9477,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">Claymore</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9494,7 +9502,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">DSG1</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9521,7 +9529,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">FY71</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9546,7 +9554,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">GaussRifle</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9571,7 +9579,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">Hurricane</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9598,7 +9606,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">LAW</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9623,7 +9631,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">SCAR</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9650,7 +9658,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">SCARTutorial</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9677,7 +9685,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">Shotgun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9702,7 +9710,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">SMG</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9729,7 +9737,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">SOCOM</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9756,7 +9764,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">TACGun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9808,7 +9816,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">Parachute</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9833,7 +9841,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">RadarKit</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9858,7 +9866,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><Data ss:Type="String">RepairKit</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -9987,7 +9995,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">game_take_ammo_from</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10012,7 +10020,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">fybullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10039,7 +10047,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">claymoreexplosive</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10064,7 +10072,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">tagbullet</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10089,7 +10097,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s199"><Data ss:Type="String">ui_chat_team</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10114,7 +10122,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s106"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s104"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -10159,7 +10167,7 @@
     <Cell ss:Index="20" ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s205"><Data ss:Type="String">Island.Intro</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10234,7 +10242,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Look_around</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10336,7 +10344,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s210"><Data ss:Type="String">Tutorial.Suit_menu_speed</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10363,7 +10371,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s210"><Data ss:Type="String">Tutorial.Suit_menu_strength</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10390,7 +10398,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s210"><Data ss:Type="String">Tutorial.Suit_menu_armor</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10415,7 +10423,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s210"><Data ss:Type="String">Tutorial.Suit_menu_cloak</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10481,7 +10489,7 @@
     <Cell ss:Index="19" ss:StyleID="s214"><Data ss:Type="String">[ %[default:hud_show_multiplayer_scoreboard] ] - задания и карта</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Crouch</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10558,7 +10566,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Pick_up</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10923,7 +10931,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Melee</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -10975,7 +10983,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Jump</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11000,7 +11008,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Shoot</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11025,7 +11033,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Aim</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11206,7 +11214,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Sprint</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11374,7 +11382,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Binoculars</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11424,7 +11432,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Grenade</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11474,7 +11482,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Vehicle_enter</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11540,7 +11548,7 @@
     <Cell ss:Index="19" ss:StyleID="s219"><Data ss:Type="String">[ %[vehicle:v_changeseat1] ], [ %[vehicle:v_changeseat2] ], [ %[vehicle:v_changeseat3] ], [ %[vehicle:v_changeseat4] ], [ %[vehicle:v_changeseat5] ] - выбор места</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Vehicle_camera</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -11565,7 +11573,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s153"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Vehicle_mounted_gun</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -12430,7 +12438,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s95"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s197"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s96"><Data ss:Type="String">Core</Data><NamedCell
@@ -12803,7 +12811,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
-   <Row ss:StyleID="s141">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s141">
     <Cell ss:StyleID="s158"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s222"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s224"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -12895,7 +12903,7 @@
     <Cell ss:StyleID="s216"><Data ss:Type="String">ЯДЕРНОЕ ОРУДИЕ</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s232">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s232">
     <Cell ss:StyleID="s234"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s235"><Data ss:Type="String">downloading_data</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -13159,7 +13167,7 @@
     <Cell ss:StyleID="s216"><Data ss:Type="String">Производство Crytek</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s232">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s232">
     <Cell ss:StyleID="s234"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s235"><Data ss:Type="String">intro_movie_sub3</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -13207,7 +13215,7 @@
     <Cell ss:StyleID="s216"><Data ss:Type="String">Режим скорости</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s232">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s232">
     <Cell ss:StyleID="s234"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s235"><Data ss:Type="String">intro_movie_sub5</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -13255,7 +13263,7 @@
     <Cell ss:StyleID="s216"><Data ss:Type="String">Режим защиты</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
-   <Row ss:StyleID="s141">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s141">
     <Cell ss:StyleID="s158"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s235"><Data ss:Type="String">intro_movie_sub7</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
@@ -13339,6 +13347,767 @@
     <Cell ss:Index="19" ss:StyleID="s216"><Data ss:Type="String">Удерживайте [Кнопка Back], чтобы просмотреть список заданий</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Custom Weapons</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Predator_Bow</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PREDATOR BOW</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">ЛУК &quot;ХИЩНИК&quot;</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Colt1911</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">COLT1911</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">COLT1911</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Colt1911_equip_LAMFlash</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">COLT1911 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">COLT1911 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Colt1911_equip_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">COLT1911 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">COLT1911 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Colt1911_equip_silencer_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">COLT1911 modification C</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">COLT1911 модификация C</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">TT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">TT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">TT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">TT_equip_silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">TT modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">TT модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45_equip_LAM_reflex</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45_equip_silencer_LAM_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_47</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK47</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK47</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_47_equip_LAMFlash_reflex</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK47 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK47 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_47_equip_LAM_reflex</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK47 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK47 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_47_equip_silencer_LAM_grenade_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK47 modification C</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK47 модификация C</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1_equip_LAM_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1_equip_silencer_LAM_grenade_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS SUPER V</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">KRISS SUPER V</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_equip_reflex</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS SUPER V modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">KRISS SUPER V модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_equip_silencer_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS SUPER V modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">KRISS SUPER V модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">MG42</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MG42</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MG42</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">maccuavittle</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MACCUAVITTLE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MACCUAVITTLE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">shoulder_maccuavittle</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SHOULDER MACCUAVITTLE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SHOULDER MACCUAVITTLE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Lazer_green_gun</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GREEN LAZER GUN</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">GREEN LAZER GUN</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Lazer_blue_gun</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BLUE LAZER GUN</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BLUE LAZER GUN</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Lazer_red_gun</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">RED LAZER GUN</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">RED LAZER GUN</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SIGP226</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226_equip_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SIGP226 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226_equip_silencer_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SIGP226 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">9a91</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">9A91</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">9A91</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">FGL40</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FGL40</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">FGL40</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK12</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_LAMFlash_EPK8Kobra</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK12 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_greenLAM_EPK8Kobra</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK12 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_silencer_greenLAM_gp25_Saracen</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification C</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AK12 модификация C</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Desert_Eagle</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DESERT EAGLE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">DESERT EAGLE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BERETTA92FS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS_equip_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BERETTA92FS модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS_equip_silencer_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BERETTA92FS модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Hammer50</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HAMMER50</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HAMMER50</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Hammer50_equip_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HAMMER50 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HAMMER50 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">aug</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AUG</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">AUG</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">glock</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GLOCK</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">GLOCK</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp5sd</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP5SD</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MP5SD</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp5sd_equip_LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP5SD modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MP5SD модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp40</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP40</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MP40</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp40_equip_silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP40 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MP40 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">p38</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P38</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">P38</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">p38_equip_silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P38 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">P38 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">p90</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P90</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">P90</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">famas</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FAMAS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">FAMAS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Vintar</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">VINTOREZ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">VINTOREZ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107_equip_DUAmmo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107_equip_HEAmmo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SCAR v2</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2_equip_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 modification A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SCAR v2 модификация A</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2_equip_silencer_assault</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 modification B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SCAR v2 модификация B</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Custom Weapons Accessories</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BerettaSilencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BERETTA ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BerettaLAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA LAZER PONTER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BERETTA ЦЕЛЕУКАЗАТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">TTSilencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">TT SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">TT ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 LAZER POINTER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 ЦЕЛЕУКАЗАТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45FlashLight</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 FLASHLIGHT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 ФОНАРЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45Reflex</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 REFLEX SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 КОЛЛ. ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45AssaultScope</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 ASSAULT SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">HKUMP45 ШТУРМ. ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1opt</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 ASSAULT SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String"> </Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 ШТУРМ. ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Lam</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 LAZER POINTER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 ЦЕЛЕУКАЗАТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Lights</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 FLASHLIGHT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 ФОНАРЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1GrenadeLauncher</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 GRENADE LAUNCHER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 ПОДСТВОЛЬНЫЙ ГРАНАТОМЁТ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1ironsights</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 IRON SIGHTS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 ОТКРЫТЫЙ ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">M4A1 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">KRISS ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_ironsights</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS IRON SIGHTS</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">KRISS ОТКРЫТЫЙ ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SIGP226 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226LAM</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 LAZER POINTER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SIGP226 ЦЕЛЕУКАЗАТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226LAMFlashLight</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 FLASHLIGHT</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SIGP226 ФОНАРЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">FGL40Frag</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FGL40 FRAG</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">FGL40 ОСКОЛОЧНАЯ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">FGL40EMP</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FGL40 EMP</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">FGL40 ЭМИ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_Anpeq15</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ANPEQ15 LAZER POINTER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">ANPEQ15 ЦЕЛЕУКАЗАТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_GP25Koster</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GP25KOSTER GRENADE LAUNCHER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">GP25KOSTER ПОДСТВОЛЬНЫЙ ГРАНАТОМЁТ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_PBS1_Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PBS1 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">PBS1 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_EPK8Kobra</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EPK8KOBRA SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">EPK8KOBRA ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_PN23Saracen</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PN23SARACEN SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">PN23SARACEN ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp40Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP40 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">MP40 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">p38Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P38 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">P38 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107Scope</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 SNIPER SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 СНАЙП. ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107NormalAmmo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 AMMO</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 БОЕПРИПАСЫ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107HEAmmo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 INCENDIARY AMMO</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 ЗАЖИГАТЕЛЬНЫЕ БОЕПРИПАСЫ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107DUAmmo</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 EXPLOSIVE AMMO</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 РАЗРЫВНЫЕ БОЕПРИПАСЫ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107Magazine</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 MAGAZINE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">BARRETT M107 МАГАЗИН</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_Silencer</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 SILENCER</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SCAR v2 ГЛУШИТЕЛЬ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Eotech</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EOTECH SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">EOTECH ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_assault_scope</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 ASSAULT SCOPE</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19"><Data ss:Type="String">SCAR v2 ШТУРМ. ПРИЦЕЛ</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
   </Table>
   <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
    <PageSetup>
@@ -13349,6 +14118,7 @@
     <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
      x:Top="0.98425196850393704"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
@@ -13356,12 +14126,13 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
+   <Zoom>130</Zoom>
    <Selected/>
    <FreezePanes/>
    <FrozenNoSplit/>
    <FilterOn/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>336</TopRowBottomPane>
+   <TopRowBottomPane>627</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -13369,8 +14140,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>349</ActiveRow>
-     <ActiveCol>19</ActiveCol>
+     <ActiveRow>644</ActiveRow>
+     <ActiveCol>18</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

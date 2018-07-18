@@ -1138,12 +1138,12 @@
     <Cell ss:StyleID="s94"/>
     <Cell ss:StyleID="s95"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">gm_tab_to_open_objectives</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s96"><Data ss:Type="String">Press TAB  to view your objectives</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:StyleID="s97">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
     <Cell ss:StyleID="s101"/>
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s99"/>
@@ -1155,7 +1155,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s112"/>
     <Cell ss:StyleID="s113"><Data ss:Type="String">Objective_Updated</Data></Cell>
     <Cell ss:StyleID="s110"/>
@@ -1179,7 +1179,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Island_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Divided We Fall</Data></Cell>
@@ -1190,7 +1190,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Island_Chapter2</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">First Light</Data></Cell>
@@ -1212,7 +1212,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Village_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Trespass</Data></Cell>
@@ -1234,7 +1234,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Rescue_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Left Behind</Data></Cell>
@@ -1256,7 +1256,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Harbor_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Bradley</Data></Cell>
@@ -1267,7 +1267,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Harbor_Chapter2</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">Incursion</Data></Cell>
@@ -1289,7 +1289,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Tank_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Team Idaho</Data></Cell>
@@ -1311,7 +1311,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Mine_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Tremors</Data></Cell>
@@ -1322,7 +1322,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Mine_Chapter2</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">Descent</Data></Cell>
@@ -1344,7 +1344,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Core_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Laws Of Nature</Data></Cell>
@@ -1355,7 +1355,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Core_Chapter2</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">Abyss</Data></Cell>
@@ -1377,7 +1377,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Ice_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Frozen</Data></Cell>
@@ -1399,7 +1399,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Sphere_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Stronghold</Data></Cell>
@@ -1410,7 +1410,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Sphere_Chapter2</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">Hunter</Data></Cell>
@@ -1443,7 +1443,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Fleet_Chapter1</Data></Cell>
     <Cell ss:StyleID="s125"/>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Good Intentions</Data></Cell>
@@ -1454,7 +1454,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Fleet_Chapter2</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">To Hell And Back</Data></Cell>
@@ -1486,7 +1486,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Land_At_LZ</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1522,7 +1522,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Island_Goal_Rescue_Hostages_01</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -1546,7 +1546,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Get_To_Beach</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1582,7 +1582,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Meet_Jester</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1618,7 +1618,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Aid_Aztec</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1654,7 +1654,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Rendezvous_At_LZ</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1666,7 +1666,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Island_Task_Rendezvous_At_LZ_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -1690,7 +1690,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s143"><Data ss:Type="String">Island_Task_Disable_Jammer</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">Secondary</Data></Cell>
@@ -1726,7 +1726,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s143"><Data ss:Type="String">Island_Task_Investigate_Command_Post</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -1762,7 +1762,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Retrieve_Data</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -1774,7 +1774,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Island_Task_Retrieve_Data_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -1798,7 +1798,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Break_KPA_Checkpoint</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1846,7 +1846,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Goal_Locate_Excavation_Site</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1870,7 +1870,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Island_Task_Find_Jester</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1882,7 +1882,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Island_Task_Find_Jester_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -1917,7 +1917,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Goal_Rescue_Hostages_02</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1939,7 +1939,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Comms_Trailer</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1961,7 +1961,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Goal_Rescue_Hostage</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1983,7 +1983,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Find_Hostage_Village</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -1994,7 +1994,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Village_Task_Find_Hostage_Village_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2016,7 +2016,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Radar_Dish</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">secondary</Data></Cell>
@@ -2060,7 +2060,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Destoy_Tanks</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2071,7 +2071,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Village_Task_Destoy_Tanks_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2093,7 +2093,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Goal_Rescue_Hostages_03</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2115,7 +2115,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Meet_With_Barnes</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2126,7 +2126,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Village_Task_Meet_With_Barnes_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2148,7 +2148,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Meet_With_Barnes_02</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -2159,7 +2159,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Village_Task_Meet_With_Barnes_02_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2181,7 +2181,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Goal_Rescue_Hostages_04</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2203,7 +2203,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Village_Task_Proceed_To_Cave</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2214,7 +2214,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Village_Task_Proceed_To_Cave_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2269,7 +2269,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Goal_Rescue_Hostages_05</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2291,7 +2291,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Destroy_Jammer</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">Secondary</Data></Cell>
@@ -2324,7 +2324,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Infiltrate_Base</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2346,7 +2346,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Goal_Rescue_Scientist</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2368,7 +2368,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Get_To_Excavation_Site</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2401,7 +2401,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Get_Inside_The_Dome</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -2434,7 +2434,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Goal_Rescue_Hostages_06</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2456,7 +2456,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Get_To_Extraction_Point</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2489,7 +2489,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Secure_Extraction_Point</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -2500,7 +2500,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Rescue_Task_Secure_Extraction_Point_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2522,7 +2522,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Task_Get_In_Vtol</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2533,7 +2533,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Rescue_Task_Get_In_Vtol_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2555,7 +2555,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Rescue_Goal_Assist_US_Forces</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2588,7 +2588,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Goal_Rescue_Civilian_Hostages_06</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2610,7 +2610,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Task_Meet_Bradley</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2632,7 +2632,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Task_Destroy_AAAs</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2643,7 +2643,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Harbor_Task_Destroy_AAAs_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2665,7 +2665,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Task_Infiltrate_Village</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">secondary</Data></Cell>
@@ -2720,7 +2720,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Task_Paint_Target</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -2731,7 +2731,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Harbor_Task_Paint_Target_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2753,7 +2753,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Task_Defend_Position</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2764,7 +2764,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Harbor_Task_Defend_Position_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -2786,7 +2786,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Harbor_Task_Meet_Strickland</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -2863,7 +2863,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Goal_Rescue_Civilian_Hostages_07</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -2885,7 +2885,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Push_Train</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -2896,7 +2896,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Push_Train_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -2918,7 +2918,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Secure_Train</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -2929,7 +2929,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Secure_Train_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -2951,7 +2951,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Destroy_Boxcar</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -2962,7 +2962,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Destroy_Boxcar_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -2984,7 +2984,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Push_TankStorage</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -3006,7 +3006,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Destroy_Tank_Depot</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -3017,7 +3017,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Destroy_Tank_Depot_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -3039,7 +3039,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Destroy_AAA</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -3072,7 +3072,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Paint_Target</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -3083,7 +3083,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Paint_Target_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -3105,7 +3105,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Retrieve_Gauss_Rifle</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -3116,7 +3116,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Retrieve_Gauss_Rifle_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -3138,7 +3138,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Tank_Task_Get_To_Mine</Data></Cell>
     <Cell ss:StyleID="s156"/>
@@ -3149,7 +3149,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Tank_Task_Get_To_Mine_Text</Data></Cell>
     <Cell ss:StyleID="s158"/>
@@ -3215,7 +3215,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Goal_Rescue_Civilian_Hostages_08</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3237,7 +3237,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Infiltrate_Office</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">Secondary</Data></Cell>
@@ -3270,7 +3270,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Get_To_LZ</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3292,7 +3292,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Clear_Crusher</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -3325,7 +3325,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Infiltrate_Mine</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -3336,7 +3336,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Mine_Task_Infiltrate_Mine_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3358,7 +3358,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Locate_Hostages</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3369,7 +3369,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Mine_Task_Locate_Hostages_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3391,7 +3391,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Kill_Kyong</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3413,7 +3413,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Task_Escort_Helena</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -3424,7 +3424,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Mine_Task_Escort_Helena_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3446,7 +3446,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Mine_Goal_Reach_Extraction_Point</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3479,7 +3479,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Core_Goal_Reach_Extraction_Point</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3501,7 +3501,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Core_Task_Find_A_Way_Out</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">To be a task</Data></Cell>
@@ -3534,7 +3534,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ice_Goal_Evacuate_Island_01</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3556,7 +3556,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ice_Task_Locate_Soldiers</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3589,7 +3589,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ice_Task_Stay_Alive</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3600,7 +3600,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Ice_Task_Stay_Alive_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3622,7 +3622,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ice_Task_Stay_Escort_Barnes</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3666,7 +3666,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Goal_Evac_Island_02</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3688,7 +3688,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Meet_Team</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3710,7 +3710,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Talk_Keegan</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3721,7 +3721,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Sphere_Task_Talk_Keegan_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3743,7 +3743,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Assist_Stricklands_Men</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3765,7 +3765,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Get_In_LTV</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -3776,7 +3776,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Sphere_Task_Get_In_LTV_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3798,7 +3798,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Assist_Helena</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3831,7 +3831,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Protect_Helena</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -3842,7 +3842,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Sphere_Task_Protect_Helena_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3864,7 +3864,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Meet_Strickland</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3875,7 +3875,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Sphere_Task_Meet_Strickland_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3897,7 +3897,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Defend_Evac</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3908,7 +3908,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Sphere_Task_Defend_Evac_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3930,7 +3930,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Sphere_Task_Enter_Vtol</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3941,7 +3941,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Sphere_Task_Enter_Vtol_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -3974,7 +3974,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Goal</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -3996,7 +3996,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Task</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4007,7 +4007,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Ascension_Task_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4029,7 +4029,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Plateau</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4040,7 +4040,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s150"><Data ss:Type="String">Ascension_Plateau_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4062,7 +4062,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Task_Camp</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4084,7 +4084,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Vtols</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4117,7 +4117,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Vtols2</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4150,7 +4150,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s147"><Data ss:Type="String">Ascension_Task_Convoy</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4183,7 +4183,7 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Goal_Debrief</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4207,7 +4207,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Go_To_CDC</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4219,7 +4219,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Go_To_CDC_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4243,7 +4243,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Go_To_Armory</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -4255,7 +4255,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Go_To_Armory_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4281,7 +4281,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:Index="19" ss:StyleID="s160"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Go_To_Armory_Chair</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -4293,7 +4293,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Go_To_Armory_Chair_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4319,7 +4319,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:Index="19" ss:StyleID="s160"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Go_To_Bridge</Data></Cell>
     <Cell ss:StyleID="s122"><Data ss:Type="String">updated from above</Data></Cell>
@@ -4331,7 +4331,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Go_To_Bridge_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4355,7 +4355,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Goal_Defend_Carrier</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4379,7 +4379,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s161">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s161">
     <Cell ss:StyleID="s163"/>
     <Cell ss:StyleID="s164"><Data ss:Type="String">Fleet_Task_Defend_Flight_Deck</Data></Cell>
     <Cell ss:StyleID="s165"><Data ss:Type="String">To be a task</Data></Cell>
@@ -4391,7 +4391,7 @@
     <Cell ss:StyleID="s169"/>
     <Cell ss:StyleID="s169"/>
    </Row>
-   <Row ss:StyleID="s161">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s161">
     <Cell ss:StyleID="s163"/>
     <Cell ss:StyleID="s170"><Data ss:Type="String">Fleet_Task_Defend_Flight_Deck_Text</Data></Cell>
     <Cell ss:StyleID="s171"/>
@@ -4415,7 +4415,7 @@
     <Cell ss:StyleID="s169"/>
     <Cell ss:StyleID="s169"/>
    </Row>
-   <Row ss:StyleID="s108">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s108">
     <Cell ss:StyleID="s155"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Goal_Prevent_Meltdown</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">To be a task</Data></Cell>
@@ -4439,7 +4439,7 @@
     <Cell ss:StyleID="s118"/>
     <Cell ss:StyleID="s118"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Locate_Engineer</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4451,7 +4451,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Locate_Engineer_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4475,7 +4475,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Disable_Circuit_Breakers</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4487,7 +4487,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Disable_Circuit_Breakers_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4511,7 +4511,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Shut_Down_Reactor</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4523,7 +4523,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Shut_Down_Reactor_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4547,7 +4547,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Lower_Control_Rods</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -4559,7 +4559,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Lower_Control_Rods_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4583,7 +4583,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Get_To_Flight_Deck</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4595,7 +4595,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Get_To_Flight_Deck_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4619,7 +4619,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Retrieve_TAC</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
@@ -4631,7 +4631,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Retrieve_TAC_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4655,7 +4655,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Destroy_Hunter</Data></Cell>
     <Cell ss:StyleID="s125"><Data ss:Type="String">updated from above</Data></Cell>
     <Cell ss:StyleID="s126"><Data ss:Type="String">Destroy the alien exosuit.</Data></Cell>
@@ -4666,7 +4666,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:Index="2" ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Destroy_Hunter_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
     <Cell ss:StyleID="s132"><Data ss:Type="String">Defend the aircraft carrier and destroy the alien exosuit.</Data></Cell>
@@ -4688,7 +4688,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Destroy_Warrior</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4700,7 +4700,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Destroy_Warrior_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4724,7 +4724,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Task_Get_In_Vtol</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4736,7 +4736,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s131"><Data ss:Type="String">Fleet_Task_Get_In_Vtol_Text</Data></Cell>
     <Cell ss:StyleID="s122"/>
@@ -4760,7 +4760,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s120">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s120">
     <Cell ss:StyleID="s140"/>
     <Cell ss:StyleID="s124"><Data ss:Type="String">Fleet_Goal_Escape_Carrier</Data></Cell>
     <Cell ss:StyleID="s125"/>
@@ -4784,7 +4784,7 @@
     <Cell ss:StyleID="s130"/>
     <Cell ss:StyleID="s130"/>
    </Row>
-   <Row ss:StyleID="s97">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
     <Cell ss:StyleID="s139"/>
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s99"/>
@@ -4796,12 +4796,12 @@
     <Cell ss:StyleID="s107"/>
     <Cell ss:StyleID="s107"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s176"><Data ss:Type="String">weapon_ammo_full</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">%1 AMMO FULL</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">ammo_maxed_out</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">%1 FULL</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -4816,22 +4816,22 @@
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TAKE %1</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">enter_vehicle</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ENTER VEHICLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">pick_object</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">USE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">pick_item</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TAKE %1</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">grab_enemy</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">GRAB ENEMY</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -4846,17 +4846,17 @@
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">DISARM</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">use_mounted</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">USE WEAPON</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">use_ladder</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">CLIMB</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">grab_object</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">PICK UP</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -4866,116 +4866,116 @@
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ENTER VEHICLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">grab_ammo</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">YOU PICKED UP %2 %1</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">IronSight</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">IRON SIGHTS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">NoAttachment</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">NO ATTACHMENT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AssaultScope</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ASSAULT SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">GrenadeLauncher</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">GRENADE LAUNCHER ATTACHMENT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">LAM</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">LASER POINTER (PISTOL)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">LAMFlashlight</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FLASHLIGHT (PISTOL)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">LAMRifle</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">LASER POINTER (RIFLE)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">LAMRifleFlashlight</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FLASHLIGHT (RIFLE)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">MOACAttach</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ALIEN MOAC ATTACHMENT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">MOARAttach</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ALIEN MOAR ATTACHMENT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">ScoutSearchBeam</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SCOUT SEARCH BEAM</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Reflex</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">REFLEX SIGHT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SCARNormalAmmo</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SCAR NORMAL AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SCARIncendiaryAmmo</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SCAR INCENDIARY AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">FY71NormalAmmo</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FY71 NORMAL AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">FY71IncendiaryAmmo</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FY71 INCENDIARY AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SCARTagAmmo</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TACTICAL GPS AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Silencer</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SILENCER (RIFLE)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SniperScope</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SNIPER SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">GaussScope</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ELECTRONIC SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -4985,12 +4985,12 @@
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SILENCER (PISTOL)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TacticalAttachmentEMP</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">EMP ATTACHMENT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:StyleID="s183"/>
     <Cell ss:StyleID="s184"><Data ss:Type="String">TranquilizierAttachment</Data></Cell>
     <Cell ss:StyleID="s181"/>
@@ -5002,7 +5002,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:StyleID="s189"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:StyleID="s183"/>
     <Cell ss:StyleID="s184"><Data ss:Type="String">TacticalAttachment</Data></Cell>
     <Cell ss:StyleID="s181"/>
@@ -5014,7 +5014,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:StyleID="s189"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:StyleID="s183"/>
     <Cell ss:StyleID="s184"><Data ss:Type="String">StunAttachment</Data></Cell>
     <Cell ss:StyleID="s181"/>
@@ -5026,7 +5026,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:StyleID="s189"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:StyleID="s183"/>
     <Cell ss:StyleID="s184"><Data ss:Type="String">NanoAttachment</Data></Cell>
     <Cell ss:StyleID="s181"/>
@@ -5038,32 +5038,32 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:StyleID="s189"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">bullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SCAR AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">flashbang</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FLASHBANG</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s190"><Data ss:Type="String">explosivegrenade</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FRAG GRENADE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s190"><Data ss:Type="String">explosivegrenadeAI</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FRAG GRENADE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">C4explosive</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">EXPLOSIVE CHARGE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">gaussbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">GAUSS AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -5078,27 +5078,27 @@
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">INCENDIARY AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">lightbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">PISTOL AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">smgbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SMG AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">rubberbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">NON-LETHAL AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">scargrenade</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">RIFLE GRENADE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">shotgunshell</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SHOTGUN AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -5108,172 +5108,172 @@
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SMOKE GRENADE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">sniperbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SNIPER AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">tacbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TRANQUILIZER AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">tacgunprojectile</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TAC GRENADE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AlienMount</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ALIEN MOAC</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AVMine</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">MINE (AT)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AVExplosive</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">MINE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">C4</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">EXPLOSIVE CHARGE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Claymore</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">CLAYMORE (AP)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">DSG1</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">PRECISION RIFLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s177"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">FY71</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FY71</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">GaussRifle</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">GAUSS RIFLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Hurricane</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">MINIGUN</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">LAW</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">MISSILE LAUNCHER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SCAR</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SCAR</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SCARTutorial</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SCAR</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Shotgun</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SHOTGUN</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SMG</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">SUBMACHINE GUN</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SOCOM</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">PISTOL</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TACGun</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TAC LAUNCHER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">LockpickKit</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ELECTRONIC LOCKPICK</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Parachute</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">PARACHUTE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">RadarKit</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">PORTABLE RADAR</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">RepairKit</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">REPAIR TORCH</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TechCharger</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">ENERGY COLLECTOR</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">empgrenade</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">NANO DISRUPTOR GRENADE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">killed_friend</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">YOU KILLED A FRIENDLY!</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">game_exchange_weapon</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">EXCHANGE %1 WITH %2 </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">game_take_ammo_from</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TAKE %1 AMMO </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">fybullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">FY71 AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">claymoreexplosive</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">CLAYMORE MINE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">tagbullet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">TRACKING AMMO</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">ui_chat_team</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s177"><Data ss:Type="String">%1 (TEAM)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:StyleID="s97">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s97">
     <Cell ss:StyleID="s139"/>
     <Cell ss:StyleID="s102"/>
     <Cell ss:StyleID="s99"/>
@@ -5292,19 +5292,19 @@
     <Cell ss:StyleID="s64"/>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Island.Intro</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">August 7th, 2020 </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Island.SevenDays</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">Seven days later…</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Island.SetScene</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">Lingshan Islands, Phillippines Sea - August 14th, 2020</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -5373,7 +5373,7 @@
     <Cell ss:StyleID="s180"><Data ss:Type="String">Weapon configuration</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell><Data ss:Type="String">Tutorial.Objectives</Data></Cell>
     <Cell ss:StyleID="s64"/>
@@ -5408,21 +5408,21 @@
     <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[default:use] ] - Pick up object</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Use</Data></Cell>
     <Cell ss:StyleID="s109"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[default:use] ] - Use object</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.PickWeapon</Data></Cell>
     <Cell ss:StyleID="s109"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[default:use] ] - Pick up weapon</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.UseTurret</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5436,14 +5436,14 @@
     <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[default:use] ] - Use ladders.  [ %[player:moveforward] ], [ %[player:moveback] ] to climb</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.GrabStrength</Data></Cell>
     <Cell ss:StyleID="s109"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[default:use] ] in suit strength mode - Grab an enemy</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.WeaponSlots</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5451,7 +5451,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.WeaponDrop</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5459,7 +5459,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.DestroyVegetation</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5467,7 +5467,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.DestroyHuts</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5475,7 +5475,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.RapidSuitSwitch</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5483,7 +5483,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:Index="2" ss:StyleID="s180"><Data ss:Type="String">Tutorial.HintCloak</Data></Cell>
     <Cell ss:StyleID="s180"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Use cloak mode to hide from enemies.</Data></Cell>
@@ -5495,7 +5495,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:Index="19" ss:StyleID="s184"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:Index="2" ss:StyleID="s180"><Data ss:Type="String">Tutorial.HintSpeed</Data></Cell>
     <Cell ss:StyleID="s180"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Use speed mode to move faster.</Data></Cell>
@@ -5507,7 +5507,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:Index="19" ss:StyleID="s184"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:Index="2" ss:StyleID="s180"><Data ss:Type="String">Tutorial.HintStrength</Data></Cell>
     <Cell ss:StyleID="s180"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Use strength mode to jump higher.</Data></Cell>
@@ -5519,7 +5519,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:Index="19" ss:StyleID="s184"/>
    </Row>
-   <Row ss:StyleID="s179">
+   <Row ss:AutoFitHeight="0" ss:StyleID="s179">
     <Cell ss:Index="2" ss:StyleID="s180"><Data ss:Type="String">Tutorial.HintArmor</Data></Cell>
     <Cell ss:StyleID="s180"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Use armor mode to sustain more damage.</Data></Cell>
@@ -5531,7 +5531,7 @@
     <Cell ss:StyleID="s189"/>
     <Cell ss:Index="19" ss:StyleID="s184"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Throw</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5539,7 +5539,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Melee</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5547,7 +5547,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.MeleeStrength</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5555,7 +5555,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Jump</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5563,7 +5563,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Shoot</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5571,7 +5571,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Aim</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5579,7 +5579,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Tutorial.AimExit</Data></Cell>
     <Cell ss:StyleID="s180"/>
@@ -5587,7 +5587,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Aim2</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5595,7 +5595,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Aim3</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5603,7 +5603,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Reload</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5611,7 +5611,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Radar</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5619,7 +5619,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Stealth_meter</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5627,7 +5627,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Sprint</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5635,7 +5635,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Strength_jump</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5643,7 +5643,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Cloak</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5651,7 +5651,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Weapon_modification</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5659,7 +5659,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Weapon_modification2</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5682,7 +5682,7 @@
     <Cell ss:StyleID="s180"><Data ss:Type="String">Hold [ %[player:hud_weapon_mod] ] - Close weapon configuration screen</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Binoculars</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5690,7 +5690,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Armor</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5698,7 +5698,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Grenade</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5706,7 +5706,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.GrenadeStrength</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5714,7 +5714,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Vehicle_enter</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5722,7 +5722,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Tutorial.Vehicle_exit</Data></Cell>
     <Cell ss:StyleID="s180"/>
@@ -5738,7 +5738,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s180"><Data ss:Type="String">Tutorial.Vehicle_camera</Data></Cell>
     <Cell ss:StyleID="s180"/>
@@ -5746,7 +5746,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Vehicle_mounted_gun</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5754,7 +5754,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Fire_mode</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5762,7 +5762,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Night_vision</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5770,7 +5770,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Prone</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5778,7 +5778,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Prone2</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5794,7 +5794,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.MouseMapDrag</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5802,7 +5802,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.GrenadeSwitch</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5810,7 +5810,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Lean</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5890,7 +5890,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.AssaultScope</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5898,7 +5898,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.SniperScope</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5906,7 +5906,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.RifleLaser</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5914,7 +5914,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.RifleFlashlight</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5922,7 +5922,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.PistolLaser</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5930,7 +5930,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.PistolFlashlight</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5978,7 +5978,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.C4</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5986,7 +5986,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.FragGrenade</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -5994,7 +5994,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.SmokeGrenade</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -6002,7 +6002,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.FlashbangGrenade</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -6010,7 +6010,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.TankFireCannon</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -6018,7 +6018,7 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.TankFireMinigun</Data></Cell>
     <Cell ss:StyleID="s109"/>
@@ -6073,180 +6073,180 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Ascension.MoveForward</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_moveforward] ] - Move forward</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Ascension.MoveBack</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_moveback] ] - Move backwards</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Ascension.Ascend</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_moveup] ] - Move higher</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Descend</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_movedown] ] - Move lower</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Rotate</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_rotatedir] ] - Turn</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Pitch</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_rotatepitch] ] - Pitch</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Strafe</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_strafeleft] ], [ %[vtol:v_straferight] ] - Strafe left and right</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Boost</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_boost] ] - Activate afterburner</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Missiles</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[default:zoom] ] - Fire missiles</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Minigun</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[default:attack1] ] - Fire minigun</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"><Data ss:Type="String">Ascension.Roll</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">[ %[vtol:v_rollleft] ], [ %[vtol:v_rollright] ] - Roll</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s109"/>
     <Cell ss:Index="4" ss:StyleID="s178"/>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">HintDifficulty</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s198"><Data ss:Type="String">Tip: You can alter the difficulty level from the options menu.</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s178"><Data ss:Type="String">LAWScope</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">Scope</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s178"><Data ss:Type="String">TACGun_Fleet</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">TAC CANNON</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">downloading_data</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s200"><Data ss:Type="String">DOWNLOADING DATA</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">prophet_status</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s200"><Data ss:Type="String">PROPHET</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s178"><Data ss:Type="String">GamePad_Tutorial.Move</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s200"><Data ss:Type="String">[ %[player:xi_movex] and %[player:xi_movey] ] to move</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s178"><Data ss:Type="String">GamePad_Tutorial.Look_around</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s200"><Data ss:Type="String">[ %[player:xi_rotateyaw] and %[player:xi_rotatepitch] ] to look around</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s178"><Data ss:Type="String">GamePad_Tutorial.Vehicle_seat_change</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s200"><Data ss:Type="String">[ %[vehicle:v_changeseat] ] – Change seat</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s178"><Data ss:Type="String">MOAC</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">MOAC</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_intel1</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s202"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_nvidia1</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s202"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_crytek1</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s202"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_movie_sub1</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_movie_sub2</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_movie_sub3</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String"> </Data></Cell>
@@ -6260,449 +6260,579 @@
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_movie_sub5</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_movie_sub6</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="s201"><Data ss:Type="String">intro_movie_sub7</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String"> </Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">GamePad_Tutorial.Suit_menu</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">Press [Left Trigger] - Access suit controls</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">GamePad_Tutorial.Night_vision</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">Press and Hold [Start Button] - Night vision</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">GamePad_Tutorial.GrenadeSwitch</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">Press and Hold [Y Button] - Change Grenade Type</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s196"><Data ss:Type="String">P</Data></Cell>
     <Cell ss:StyleID="Default"><Data ss:Type="String">GamePad_Tutorial.Objectives</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s199"><Data ss:Type="String">Press and Hold [Back Button] - View Objectives and Map</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+    <Cell><Data ss:Type="String">Custom Weapons</Data></Cell>
+    <Cell ss:StyleID="s178"/>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Predator_Bow</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">PREDATOR BOW</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911_equip_LAMFlash</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911_equip_LAM</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911_equip_silencer_LAM</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911 modification C</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TT</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">TT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TT_equip_silencer</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">TT modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">HKUMP45</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">HKUMP45</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">HKUMP45_equip_LAM_reflex</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">HKUMP45 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">HKUMP45_equip_silencer_LAM_assault</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">HKUMP45 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47_equip_LAMFlash_reflex</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47_equip_LAM_reflex</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47_equip_silencer_LAM_grenade_assault</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47 modification C</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">M4A1</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">M4A1</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">M4A1_equip_LAM_assault</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">M4A1 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">M4A1_equip_silencer_LAM_grenade_assault</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">M4A1 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Kriss</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">KRISS SUPER V</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Kriss_equip_reflex</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">KRISS SUPER V modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Kriss_equip_silencer_assault</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">KRISS SUPER V modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">MG42</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">MG42</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">maccuavittle</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">MACCUAVITTLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">shoulder_maccuavittle</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">SHOULDER MACCUAVITTLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Lazer_green_gun</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">GREEN LAZER GUN</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Lazer_blue_gun</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">BLUE LAZER GUN</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Lazer_red_gun</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">RED LAZER GUN</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SIGP226</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">SIGP226</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SIGP226_equip_LAM</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">SIGP226 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SIGP226_equip_silencer_LAM</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">SIGP226 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">9a91</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">9A91</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row>
-    <Cell ss:Index="2" ss:StyleID="s178"/>
-    <Cell ss:Index="4" ss:StyleID="s178"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">FGL40</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">FGL40</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row ss:Index="584">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_LAMFlash_EPK8Kobra</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_greenLAM_EPK8Kobra</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_silencer_greenLAM_gp25_Saracen</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification C</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Desert_Eagle</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">DESERT EAGLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS_equip_LAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS_equip_silencer_LAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Hammer50</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HAMMER50</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Hammer50_equip_LAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HAMMER50 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">aug</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">AUG</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">glock</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GLOCK</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp5sd</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP5SD</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp5sd_equip_LAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP5SD modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:Index="2"><Data ss:Type="String">mp40</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP40</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">mp40_equip_silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP40 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">p38</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P38</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">p38_equip_silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P38 modification A</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">p90</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P90</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">famas</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FAMAS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
+    <Cell ss:Index="2"><Data ss:Type="String">Vintar</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">VINTOREZ</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107_equip_DUAmmo</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107_equip_HEAmmo</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2_equip_assault</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2_equip_silencer_assault</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3"><Data ss:Type="String">Custom Weapons Accessories</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BerettaSilencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BerettaLAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BERETTA LAZER PONTER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">TTSilencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">TT SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45LAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 LAZER POINTER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45FlashLight</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 FLASHLIGHT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45Reflex</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 REFLEX SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">HKUMP45AssaultScope</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 ASSAULT SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1opt</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 ASSAULT SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Lam</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 LAZER POINTER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Lights</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 FLASHLIGHT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1GrenadeLauncher</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 GRENADE LAUNCHER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1ironsights</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 IRON SIGHTS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">M4A1 SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_ironsights</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">KRISS IRON SIGHTS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226LAM</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 LAZER POINTER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">SIGP226LAMFlashLight</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 FLASHLIGHT</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">FGL40Frag</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FGL40 FRAG</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">FGL40EMP</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FGL40 EMP</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_Anpeq15</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ANPEQ15 LAZER POINTER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_GP25Koster</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GP25KOSTER GRENADE LAUNCHER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_PBS1_Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PBS1 SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_EPK8Kobra</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EPK8KOBRA SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_PN23Saracen</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PN23SARACEN SCOPE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:Index="2"><Data ss:Type="String">mp40Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MP40 SILENCER</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:Index="2"><Data ss:Type="String">p38Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">P38 SILENCER</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107Scope</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 SNIPER SCOPE</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107NormalAmmo</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 AMMO</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107HEAmmo</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 INCENDIARY AMMO</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107DUAmmo</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 EXPLOSIVE AMMO</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107Magazine</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 MAGAZINE</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 SILENCER</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">Eotech</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EOTECH SCOPE</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Scar_assault_scope</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 ASSAULT SCOPE</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -6723,91 +6853,91 @@
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
@@ -6819,52 +6949,52 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
@@ -6873,94 +7003,94 @@
    <Row ss:AutoFitHeight="0" ss:Height="63.75">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -6969,37 +7099,28 @@
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7008,19 +7129,7 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7029,13 +7138,19 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7047,154 +7162,10 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7209,25 +7180,13 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7236,6 +7195,36 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
@@ -7245,22 +7234,130 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7278,19 +7375,52 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -7308,433 +7438,433 @@
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
   </Table>
@@ -7747,6 +7877,7 @@
     <PageMargins x:Bottom="0.98425196850393704" x:Left="0" x:Right="0"
      x:Top="0.98425196850393704"/>
    </PageSetup>
+   <Unsynced/>
    <Print>
     <ValidPrinterInfo/>
     <PaperSizeIndex>9</PaperSizeIndex>
@@ -7756,7 +7887,7 @@
    </Print>
    <Selected/>
    <SplitHorizontal>2328</SplitHorizontal>
-   <TopRowBottomPane>114</TopRowBottomPane>
+   <TopRowBottomPane>599</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -7766,8 +7897,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>113</ActiveRow>
-     <ActiveCol>3</ActiveCol>
+     <ActiveRow>559</ActiveRow>
+     <ActiveCol>17</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
