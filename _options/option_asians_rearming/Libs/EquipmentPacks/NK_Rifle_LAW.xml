@@ -1,6 +1,6 @@
-<EquipPack name="NK_Rifle_LAW" primary="AK_12_equip_silencer_greenLAM_gp25_Saracen">
+<EquipPack name="NK_Rifle_LAW" primary="AK_47_equip_silencer_LAM_grenade_assault">
  <Items>
-  <AK_12_equip_silencer_greenLAM_gp25_Saracen type="ItemGivable"/>
+  <AK_47_equip_silencer_LAM_grenade_assault type="ItemGivable"/>
   <Colt1911_equip_LAM type="ItemGivable"/>
   <LAW type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>

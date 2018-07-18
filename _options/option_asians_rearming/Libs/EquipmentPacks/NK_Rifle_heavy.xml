@@ -1,6 +1,6 @@
-<EquipPack name="NK_Rifle_heavy" primary="AK_47">
+<EquipPack name="NK_Rifle_heavy" primary="AK_12">
  <Items>
-  <AK_47 type="ItemGivable"/>
+  <AK_12 type="ItemGivable"/>
   <Beretta92FS type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
  </Items>

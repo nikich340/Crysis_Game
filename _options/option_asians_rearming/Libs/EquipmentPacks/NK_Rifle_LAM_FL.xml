@@ -1,6 +1,6 @@
-<EquipPack name="NK_Rifle_LAM_FL" primary="AK_12_equip_LAMFlash_EPK8Kobra">
+<EquipPack name="NK_Rifle_LAM_FL" primary="AK_47_equip_LAMFlash_reflex">
  <Items>
-  <AK_12_equip_LAMFlash_EPK8Kobra type="ItemGivable"/>
+  <AK_47_equip_LAMFlash_reflex type="ItemGivable"/>
   <Colt1911_equip_LAMFlash type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
  </Items>

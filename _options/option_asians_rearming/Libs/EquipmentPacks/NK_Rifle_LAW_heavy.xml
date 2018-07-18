@@ -1,6 +1,6 @@
-<EquipPack name="NK_Rifle_LAW_heavy" primary="AK_47_equip_LAM_reflex">
+<EquipPack name="NK_Rifle_LAW_heavy" primary="AK_12_equip_silencer_greenLAM_gp25_Saracen">
  <Items>
-  <AK_47_equip_LAM_reflex type="ItemGivable"/>
+  <AK_12_equip_silencer_greenLAM_gp25_Saracen type="ItemGivable"/>
   <Beretta92FS_equip_LAM type="ItemGivable"/>
   <LAW type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>

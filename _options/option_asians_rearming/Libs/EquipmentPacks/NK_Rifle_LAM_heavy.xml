@@ -1,6 +1,6 @@
-<EquipPack name="NK_Rifle_LAM_heavy" primary="AK_47_equip_LAM_reflex">
+<EquipPack name="NK_Rifle_LAM_heavy" primary="AK_12_equip_greenLAM_EPK8Kobra">
  <Items>
-  <AK_47_equip_LAM_reflex type="ItemGivable"/>
+  <AK_12_equip_greenLAM_EPK8Kobra type="ItemGivable"/>
   <Beretta92FS_equip_LAM type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
  </Items>

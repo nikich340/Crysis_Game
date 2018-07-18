@@ -1,6 +1,6 @@
-<EquipPack name="NK_Rifle_SF" primary="AK_47_equip_silencer_LAM_grenade_assault">
+<EquipPack name="NK_Rifle_SF" primary="AK_12_equip_silencer_greenLAM_gp25_Saracen">
  <Items>
-  <AK_47_equip_silencer_LAM_grenade_assault type="ItemGivable"/>
+  <AK_12_equip_silencer_greenLAM_gp25_Saracen type="ItemGivable"/>
   <Hammer50_equip_LAM type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
