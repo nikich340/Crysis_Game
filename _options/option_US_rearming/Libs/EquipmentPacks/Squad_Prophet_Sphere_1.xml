@@ -1,8 +1,6 @@
-<EquipPack name="Squad_Jester_Island" primary="Scar_v2">
+<EquipPack name="Squad_Prophet_Sphere_1" primary="Hammer50">
  <Items>
-  <Scar_v2 type="ItemGivable"/>
-  <Hammer50_equip_LAM type="ItemGivable"/>
-  <LAMRifle type="ItemGivable"/>
+  <Hammer50 type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

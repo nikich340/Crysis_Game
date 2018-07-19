@@ -1,11 +1,10 @@
 <EquipPack name="US_SpecialForces" primary="Scar_v2_equip_silencer_assault">
  <Items>
   <Scar_v2_equip_silencer_assault type="ItemGivable"/>
+  <Beretta92FS_equip_silencer_LAM type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <Silencer type="ItemGivable"/>
   <AssaultScope type="ItemGivable"/>
-  <SOCOM type="ItemGivable"/>
-  <SOCOMSilencer type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="a2ahomingmissile" amount="0"/>

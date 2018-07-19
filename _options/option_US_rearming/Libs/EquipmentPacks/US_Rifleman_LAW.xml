@@ -1,7 +1,7 @@
 <EquipPack name="US_Rifleman_LAW" primary="Scar_v2_equip_assault">
  <Items>
   <Scar_v2_equip_assault type="ItemGivable"/>
-  <SOCOM type="ItemGivable"/>
+  <Beretta92FS type="ItemGivable"/>
   <LAW type="ItemGivable"/>
   <AssaultScope type="ItemGivable"/>
  </Items>

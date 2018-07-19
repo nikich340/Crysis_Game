@@ -1,6 +1,6 @@
-<EquipPack name="Squad_Jester_Island" primary="Scar_v2">
+<EquipPack name="Squad_Psycho_Harbor" primary="BarrettM107_equip_HEAmmo">
  <Items>
-  <Scar_v2 type="ItemGivable"/>
+  <BarrettM107_equip_HEAmmo type="ItemGivable"/>
   <Hammer50_equip_LAM type="ItemGivable"/>
   <LAMRifle type="ItemGivable"/>
  </Items>
@@ -44,7 +44,6 @@
   <Ammo name="sniperbullet" amount="0"/>
   <Ammo name="tacbullet" amount="0"/>
   <Ammo name="tacgunprojectile" amount="0"/>
-  <Ammo name="tacgunprojectileEx" amount="0"/>
   <Ammo name="tacprojectile" amount="0"/>
   <Ammo name="tagbullet" amount="0"/>
   <Ammo name="tank125" amount="0"/>
@@ -52,13 +51,14 @@
   <Ammo name="tankaa" amount="0"/>
   <Ammo name="towmissile" amount="0"/>
   <Ammo name="vtol20" amount="0"/>
+  <Ammo name="gausstankbullet" amount="0"/>
+  <Ammo name="tacgunprojectileEx" amount="0"/>
   <Ammo name="AK_12_VOG25" amount="0"/>
   <Ammo name="AK_12_bullet_545x39mm" amount="0"/>
   <Ammo name="Lazer_blue_gun_ammo" amount="0"/>
   <Ammo name="Lazer_green_gun_ammo" amount="0"/>
   <Ammo name="Lazer_red_gun_ammo" amount="0"/>
   <Ammo name="StickyArrow" amount="0"/>
-  <Ammo name="gausstankbullet" amount="0"/>
   <Ammo name="m107bullet" amount="0"/>
   <Ammo name="m107dubullet" amount="0"/>
   <Ammo name="m107incendiarybullet" amount="0"/>

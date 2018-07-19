@@ -1,7 +1,7 @@
 <EquipPack name="Squad_Prophet_Sphere_2" primary="Scar_v2">
  <Items>
   <Scar_v2 type="ItemGivable"/>
-  <SOCOM type="ItemGivable"/>
+  <Hammer50 type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>
