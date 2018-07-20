@@ -132,7 +132,7 @@ AI.LogEvent("sniper:ChecktargetProximity >>>>> NO TARGET");
 	
 AI.LogEvent("sniper:ChecktargetProximity >>>>> "..fDistance);
 	
-		if(fDistance < 20)then
+		if(fDistance < 15) then
 			AI.Signal(SIGNALFILTER_SENDER,0,"SniperCloseContact",entity.id);
 			entity:SelectPipe(0,"cv_scramble");
 			entity:InsertSubpipe(AIGOALPIPE_NOTDUPLICATE, "cv_short_cover_fire");

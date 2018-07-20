@@ -95,7 +95,7 @@ AIBehaviour.SuitHurricaneIdle = {
 		entity:Readibility("idle_interest_hear",1,1,0.6,1);
 		AI.Signal(SIGNALFILTER_SENDER, 1, "TO_THREATENED",entity.id);
 	end,
-
+	
 	---------------------------------------------
 	OnThreateningSoundHeard = function( self, entity, fDistance )
 		-- called when the enemy hears a scary sound
@@ -358,6 +358,7 @@ AIBehaviour.SuitHurricaneIdle = {
 --			System.Log("  - no reload available");
 			do return end
 		end
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
 		entity:Reload();
 	end,
 
@@ -380,7 +381,10 @@ AIBehaviour.SuitHurricaneIdle = {
 	SUIT_ARMOR_MODE = function (self, entity, sender)
 		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_ARMOR);
 	end,
-
+	---------------------------------------------
+	SUIT_CLOAK_MODE = function (self, entity, sender)
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
+	end,
 	---------------------------------------------
 	OnFallAndPlayWakeUp = function( self, entity )
 		-- check if we should check the sound or not.

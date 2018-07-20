@@ -141,7 +141,10 @@ AIBehaviour.SuitSniperThreatened = {
 	---------------------------------------------
 	OnDamage = function ( self, entity, sender)
 	end,
-
+	---------------------------------------------
+	OnTargetCloaked = function(self, entity)
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
+	end,
 	---------------------------------------------
 	ENEMYSEEN_DURING_COMBAT = function (self, entity, sender)
 		if(AI.GetTargetType(entity.id) ~= AITARGET_ENEMY) then

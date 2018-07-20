@@ -11,6 +11,7 @@ AIBehaviour.SuitSniperAttack = {
 	-----------------------------------------------------
 	Constructor = function (self, entity)
 
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_ARMOR);
 		entity:MakeAlerted();
 
 		entity.AI.lastBulletReactionTime = _time - 10;
@@ -45,7 +46,7 @@ AIBehaviour.SuitSniperAttack = {
 	
 	---------------------------------------------
 	COVER_NORMALATTACK = function (self, entity, sender)
-		
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_ARMOR);
 		entity.AI.meleeBlock = 0;
 		entity.AI.reloadBlock = 0;
 		entity.AI.stuntBlock = 0;
@@ -107,6 +108,7 @@ AIBehaviour.SuitSniperAttack = {
 
 	---------------------------------------------
 	OnEnemyMemory = function( self, entity )
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
 		entity:TriggerEvent(AIEVENT_DROPBEACON);
 		entity.AI.lastTargetSeenTime = _time;
 	end,
@@ -153,6 +155,7 @@ AIBehaviour.SuitSniperAttack = {
 	
 	---------------------------------------------
 	OnNoTargetVisible = function (self, entity)
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
 		AI.Signal(SIGNALFILTER_SENDER,1,"TO_THREATENED",entity.id);
 	end,
 	
@@ -217,6 +220,11 @@ AIBehaviour.SuitSniperAttack = {
 	OnThreateningSoundHeard = function( self, entity, fDistance )
 	end,
 
+	---------------------------------------------
+	OnTargetCloaked = function(self, entity)
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
+	end,
+
 	--------------------------------------------------	
 	OnOutOfAmmo = function (self,entity, sender)
 	
@@ -239,6 +247,7 @@ AIBehaviour.SuitSniperAttack = {
 			entity.AI.reloadBlock = 1;
 		else
 			if (entity.AI.reloadBlock == 0) then
+				entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
 				entity:Reload();
 			end
 		end

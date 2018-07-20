@@ -30,6 +30,8 @@ AIBehaviour.SuitHurricaneAttack = {
 	
 	---------------------------------------------
 	COVER_NORMALATTACK = function (self, entity, sender)
+	
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_ARMOR);
 		
 		local dt = _time - entity.AI.lastTargetSeenTime;
 
@@ -68,6 +70,7 @@ AIBehaviour.SuitHurricaneAttack = {
 
 	---------------------------------------------
 	OnEnemyMemory = function( self, entity )
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
 		entity:TriggerEvent(AIEVENT_DROPBEACON);
 		entity.AI.lastTargetSeenTime = _time;
 	end,
@@ -87,6 +90,10 @@ AIBehaviour.SuitHurricaneAttack = {
 	end,
 	
 	---------------------------------------------
+	OnNoTargetVisible = function (self, entity)
+		AI.Signal(SIGNALFILTER_SENDER,1,"TO_THREATENED",entity.id);
+	end,
+	---------------------------------------------
 	OnNoTargetAwareness = function (self, entity)
 		AI.Signal(SIGNALFILTER_SENDER,1,"TO_THREATENED",entity.id);
 	end,
@@ -100,7 +107,10 @@ AIBehaviour.SuitHurricaneAttack = {
 			entity:SelectPipe(0,"su_bullet_reaction");
 		end
 	end,
-	
+	---------------------------------------------
+	OnTargetCloaked = function(self, entity)
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
+	end,
 	---------------------------------------------
 	OnBulletRain = function(self, entity, sender, data)
 	end,

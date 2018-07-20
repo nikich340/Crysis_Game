@@ -13,6 +13,8 @@ AIBehaviour.SuitHurricaneThreatened = {
 	---------------------------------------------
 	Constructor = function (self, entity)
 
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
+		
 		-- store original position.
 		if(not entity.AI.idlePos) then
 			entity.AI.idlePos = {x=0, y=0, z=0};
@@ -70,6 +72,7 @@ AIBehaviour.SuitHurricaneThreatened = {
 	---------------------------------------------
 	CheckToChangeTarget = function( self, entity )
 		-- If the attention target has changed a lot, choose new approach.
+		entity:NanoSuitMode(BasicAI.SuitMode.SUIT_CLOAK);
 		local	attPos = g_Vectors.temp_v1;
 		AI.GetAttentionTargetPosition(entity.id, attPos);
 		local dist = DistanceVectors(attPos, entity.AI.target);

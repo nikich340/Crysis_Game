@@ -162,6 +162,7 @@ AIBehaviour.SuitSniperIdle = {
 		end
 
 		AI.Signal(SIGNALFILTER_GROUPONLY_EXCEPT,1,"INCOMING_FIRE",entity.id);
+		AI.Signal(SIGNALFILTER_SENDER, 1, "TO_THREATENED",entity.id);
 
 		-- dummy call to this one, just to make sure that the initial position is checked correctly.
 --		AI_Utils:IsTargetOutsideStandbyRange(entity);
@@ -353,7 +354,7 @@ AIBehaviour.SuitSniperIdle = {
 		if (AI.GetTargetType(entity.id) ~= AITARGET_NONE) then
 			dist = AI.GetAttentionTargetDistance(entity.id);
 		end
-		if (dist < 35) then
+		if (dist < 15) then
 			-- shotgun/pistol
 			entity:SelectSecondaryWeapon();
 --			AI.EnableWeaponAccessory(entity.id, AIWEPA_LASER, false);
