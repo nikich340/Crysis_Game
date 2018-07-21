@@ -1,0 +1,44 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Helmet" MtlFlags="128" Shader="Cloth" GenMask="268501248" SurfaceType="mat_kevlar" Diffuse="0.50196099,0.50196099,0.50196099" Specular="0.99607849,1,0.90196085" Emissive="0.11764707,0.11764707,0.11764707" Shininess="10" Opacity="1" PostEffectType="4">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/asian/nanosuit/nanosuit_asian_helmet.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/human/asian/nanosuit/nanosuit_asian_helmet_spec.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/human/us/nanosuit/nanosuit_us_helmet_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/defaultcm.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="1" AnisotropicShape="0.60000002" DiffuseExponent="0.5" FuzzynessSmoothness="1" FuzzynessStrength="2" FuzzynessSpread="2.9200001" FuzzynessSaturation="1" SpecularMultiplier="0.30000001" CloakShadowBias="0.25"/>
+  </Material>
+  <Material Name="Light" MtlFlags="128" Shader="Cloth" GenMask="268500992" SurfaceType="mat_kevlar" Diffuse="0,0.101961,0.35686299" Specular="0,0.63137299,1" Emissive="0,0.113725,0.184314" Shininess="5" Opacity="1" PostEffectType="4">
+   <Textures>
+    <Texture Map="Diffuse" File="textures/defaults/white.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="1" DiffuseExponent="1" FuzzynessSmoothness="2" FuzzynessStrength="1" FuzzynessSpread="1" FuzzynessSaturation="1" CloakShadowBias="0.25"/>
+  </Material>
+  <Material Name="Glass" MtlFlags="128" Shader="Metal" GenMask="268435472" SurfaceType="" Diffuse="0.054901965,0.058823533,0" Specular="0.039215688,0.039215688,0.039215688" Emissive="0.11764707,0.11764707,0.11764707" Shininess="10" Opacity="1" GlowAmount="18">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/asian/nanosuit/nanosuit_asian_helmet_glass.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/human/us/nanosuit/nanosuit_helm _glasses_mask_ddn.tif">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap.dds" TexType="3">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.15899999" Glossiness="0.75" ReflectionAmount="10" FresnelBias="0.366" FresnelScale="3"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

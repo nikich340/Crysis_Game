@@ -1,0 +1,50 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="Helmet" MtlFlags="128" Shader="Cloth" GenMask="268468480" SurfaceType="mat_kevlar" Diffuse="0.3921569,0.3921569,0.3921569" Specular="0.12156864,0.10980393,0.094117656" Emissive="0,0,0" Shininess="2" Opacity="1" GlowAmount="5">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/us/nanosuit/nanosuit_helm _mask_lights.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/human/us/nanosuit/nanosuit_helm _mask_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/human/us/nanosuit/nanosuit_helm _mask_ddn.dds" Filter="7" Amount="50">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/library/architecture/aircraftcarrier/textures/reflections1.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="10" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="0" AnisotropicShape="0.25" SparksPow="0" SparksMultiplier="1" SparksPhase="0" SparksFrequency="4" SparksColor="1,0.023529414,0.023529414" DiffuseExponent="1" FuzzynessSmoothness="2" FuzzynessStrength="0.5" FuzzynessSpread="1" FuzzynessSaturation="1" SpecularMultiplier="0.5" MetallicAmount="1" ReflectionAmount="2" FresnelBias="1" FresnelScale="0" FresnelScaleShadowBias="1"/>
+   <MaterialLayers>
+    <Layer Name="FrozenLayerWip" NoDraw="0">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="0.5" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="Glasses" MtlFlags="128" Shader="Metal" GenMask="268443696" SurfaceType="" Diffuse="0.06666667,0,0" Specular="0.58823532,0.1137255,0.090196081" Emissive="0,0,0" Shininess="6" Opacity="1" GlowAmount="30">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/us/nanosuit/nanosuit_helm _glasses_mask.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/human/us/nanosuit/nanosuit_helm _glasses_mask_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/library/architecture/aircraftcarrier/textures/reflections1.dds" Filter="1" TexType="3">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularMultiplier="0.125" AnisotropicShape="0.80000001" ReflectionAmount="0.125" FresnelBias="1" FresnelScale="0" AmbientMultiplier="1"/>
+   <MaterialLayers>
+    <Layer Name="FrozenLayerWip" NoDraw="0">
+     <PublicParams VariationTilling="1" TillingU="1" TillingV="1" ReflectionAmount="0.23999999" TopSnowAmount="0.5" TintColor="1,1,1"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

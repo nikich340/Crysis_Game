@@ -1,0 +1,36 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="arms" MtlFlags="128" Shader="Cloth" GenMask="268501248" SurfaceType="mat_kevlar" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.44705886,0.47450984,0.54901963" Emissive="0,0,0" Shininess="55" Opacity="1" PostEffectType="4">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/arms_global/hand_dif1.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/arms_global/hand_showroom_spec1.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/arms_global/hand_showroom_ddn1.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="1" AnisotropicShape="0.60000002" DiffuseExponent="0.287" FuzzynessSmoothness="0.88" FuzzynessStrength="4.3899999" FuzzynessSpread="2" FuzzynessSaturation="1" SpecularMultiplier="0.40099999" CloakShadowBias="0.25"/>
+  </Material>
+  <Material Name="nanosuit" MtlFlags="132" Shader="Cloth" GenMask="268500992" SurfaceType="mat_kevlar" Diffuse="0.50196081,0.50196081,0.50196081" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1" PostEffectType="4">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/arms_global/arm_dif1.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/arms_global/arm_showroom_spec1.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/arms_global/arm_showroom_ddn1.dds" Filter="7">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="1" DiffuseExponent="1" FuzzynessSmoothness="2" FuzzynessStrength="1" FuzzynessSpread="1" FuzzynessSaturation="1" CloakShadowBias="0.25"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>

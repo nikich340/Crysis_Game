@@ -1,0 +1,73 @@
+<Material MtlFlags="256">
+ <SubMaterials>
+  <Material Name="arms" MtlFlags="128" Shader="Cloth" GenMask="268468480" SurfaceType="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="0.44705886,0.47450984,0.54901963" Emissive="0,0,0" Shininess="55" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/arms_global/arms_nanosuit_asian.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/arms_global/arms_nanosuit_asian_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/arms_global/arms_nanosuit_asian_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="3" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="0" AnisotropicShape="0.40000001" SparksPow="6.54" SparksMultiplier="11.79" SparksPhase="15" SparksFrequency="4" SparksColor="0.18431373,0.015686275,0.015686275" DiffuseExponent="0.75" FuzzynessSmoothness="1.5" FuzzynessStrength="2" FuzzynessSpread="2" FuzzynessSaturation="1" SpecularMultiplier="0.15000001" MetallicAmount="0" ReflectionAmount="0" FresnelBias="1" FresnelScale="0.75" FresnelScaleShadowBias="1"/>
+  </Material>
+  <Material Name="nanosuit" MtlFlags="132" Shader="Cloth" GenMask="268468496" SurfaceType="mat_kevlar" Diffuse="0.50196081,0.50196081,0.50196081" Specular="1,1,1" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/human/asian/nanosuit/nanosuit_asian_lower.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/characters/human/asian/nanosuit/nanosuit_asian_lower_spec.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/characters/human/asian/nanosuit/nanosuit_asian_lower_ddn.tif" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="1" AnisotropicShape="0.25" SparksPow="6.54" SparksMultiplier="3" SparksPhase="20" SparksFrequency="2" SparksColor="0.33725491,0.054901965,0.054901965" DiffuseExponent="0.109" FuzzynessSmoothness="2.75" FuzzynessStrength="1.35" FuzzynessSpread="0.99000001" FuzzynessSaturation="1" SpecularMultiplier="0.31400001" MetallicAmount="0" ReflectionAmount="3" FresnelBias="0.465" FresnelScale="27.870001" FresnelScaleShadowBias="1"/>
+  </Material>
+  <Material Name="nanosuit" MtlFlags="132" Shader="Cloth" GenMask="268468480" SurfaceType="mat_kevlar" Diffuse="0.50196081,0.50196081,0.50196081" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/arms_global/arm_dif.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/arms_global/arm_showroom_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/arms_global/arm_showroom_ddn.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/camera_river_cubemap_bright.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="0" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="0" AnisotropicShape="0.505" SparksPow="2.4400001" SparksMultiplier="2.05" SparksPhase="23.299999" SparksFrequency="2.6700001" SparksColor="0.33725491,0.054901965,0.054901965" DiffuseExponent="0.109" FuzzynessSmoothness="2.75" FuzzynessStrength="1.35" FuzzynessSpread="0.99000001" FuzzynessSaturation="1" SpecularMultiplier="0.31400001" MetallicAmount="0" ReflectionAmount="3" FresnelBias="0.465" FresnelScale="27.870001" FresnelScaleShadowBias="1"/>
+  </Material>
+  <Material Name="arms" MtlFlags="128" Shader="Cloth" GenMask="268468480" SurfaceType="" Diffuse="0.50196081,0.50196081,0.50196081" Specular="1,1,1" Emissive="0,0,0" Shininess="255" Opacity="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/weapons/arms_global/hand_dif.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="objects/weapons/arms_global/hand_showroom_spec.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="objects/weapons/arms_global/hand_showroom_ddn.dds" Filter="7">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="objects/weapons/us/socom/socom_env.tif">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnimFrequency="3" AnimAmplitudeWav0="0" AnimAmplitudeWav2="0" AnimPhase="0" AnisotropicShape="0.40000001" SparksPow="6.54" SparksMultiplier="15.07" SparksPhase="18" SparksFrequency="4" SparksColor="0.18431373,0.015686275,0.015686275" DiffuseExponent="0.75" FuzzynessSmoothness="0.88" FuzzynessStrength="1.34" FuzzynessSpread="1" FuzzynessSaturation="1" SpecularMultiplier="0.15000001" MetallicAmount="0" ReflectionAmount="0" FresnelBias="1" FresnelScale="0.75" FresnelScaleShadowBias="1"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams AmbientMultiplier="1"/>
+</Material>
