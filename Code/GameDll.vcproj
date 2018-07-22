@@ -4,7 +4,7 @@
 	Version="9,00"
 	Name="GameDll"
 	ProjectGUID="{2EB52047-0A81-4343-B703-DF221CA5CC2A}"
-	RootNamespace="CloakBowMod"
+	RootNamespace="ComplexWeaponSuitMod"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="131072"
 	>
@@ -73,16 +73,16 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakBowMod.dll"
+				OutputFile="$(OutDir)/ComplexWeaponSuitMod.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/ComplexWeaponSuitMod.pdb"
 				SubSystem="2"
 				LargeAddressAware="2"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
-				ImportLibrary="$(OutDir)/CloakBowMod.lib"
+				ImportLibrary="$(OutDir)/ComplexWeaponSuitMod.lib"
 				TargetMachine="1"
 			/>
 			<Tool
@@ -165,12 +165,12 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakBowMod.dll"
+				OutputFile="$(OutDir)/ComplexWeaponSuitMod.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				GenerateManifest="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/ComplexWeaponSuitMod.pdb"
 				LargeAddressAware="2"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
@@ -254,13 +254,13 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakBowMod.dll"
+				OutputFile="$(OutDir)/ComplexWeaponSuitMod.dll"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/ComplexWeaponSuitMod.pdb"
 				SubSystem="2"
-				ImportLibrary="$(OutDir)/CloakBowMod.lib"
+				ImportLibrary="$(OutDir)/ComplexWeaponSuitMod.lib"
 				TargetMachine="17"
 			/>
 			<Tool
@@ -344,11 +344,11 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				OutputFile="$(OutDir)/CloakBowMod.dll"
+				OutputFile="$(OutDir)/ComplexWeaponSuitMod.dll"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile="$(OutDir)/CloakBowMod.pdb"
+				ProgramDatabaseFile="$(OutDir)/ComplexWeaponSuitMod.pdb"
 				OptimizeReferences="2"
 				EnableCOMDATFolding="2"
 				BaseAddress="0x39000000"

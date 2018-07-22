@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{2EB52047-0A81-4343-B703-DF221CA5CC2A}</ProjectGuid>
-    <RootNamespace>CloakBowMod</RootNamespace>
+    <RootNamespace>ComplexWeaponSuitMod</RootNamespace>
     <Keyword>Win32Proj</Keyword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -108,15 +108,15 @@
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)CloakBowMod.dll</OutputFile>
+      <OutputFile>$(OutDir)ComplexWeaponSuitMod.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)CloakBowMod.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ComplexWeaponSuitMod.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
       <LargeAddressAware>true</LargeAddressAware>
       <RandomizedBaseAddress>false</RandomizedBaseAddress>
       <DataExecutionPrevention />
-      <ImportLibrary>$(OutDir)CloakBowMod.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)ComplexWeaponSuitMod.lib</ImportLibrary>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
@@ -144,10 +144,10 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)CloakBowMod.dll</OutputFile>
+      <OutputFile>$(OutDir)ComplexWeaponSuitMod.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)CloakBowMod.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ComplexWeaponSuitMod.pdb</ProgramDatabaseFile>
       <LargeAddressAware>true</LargeAddressAware>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -178,12 +178,12 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)CloakBowMod.dll</OutputFile>
+      <OutputFile>$(OutDir)ComplexWeaponSuitMod.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)CloakBowMod.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ComplexWeaponSuitMod.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
-      <ImportLibrary>$(OutDir)CloakBowMod.lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)ComplexWeaponSuitMod.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
@@ -211,10 +211,10 @@
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
-      <OutputFile>$(OutDir)CloakBowMod.dll</OutputFile>
+      <OutputFile>$(OutDir)ComplexWeaponSuitMod.dll</OutputFile>
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ProgramDatabaseFile>$(OutDir)CloakBowMod.pdb</ProgramDatabaseFile>
+      <ProgramDatabaseFile>$(OutDir)ComplexWeaponSuitMod.pdb</ProgramDatabaseFile>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <BaseAddress>0x39000000</BaseAddress>
