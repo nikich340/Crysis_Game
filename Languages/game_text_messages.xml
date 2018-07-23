@@ -5639,7 +5639,7 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Strength_jump</Data></Cell>
     <Cell ss:StyleID="s109"/>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[player:jump] ] in suit strength mode - strength jump.</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[player:jump] ] in suit strength mode - strength jump. Press [ %[player:leanleft] ] to enable strength mode, press it again to disable</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -5647,7 +5647,7 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Cloak</Data></Cell>
     <Cell ss:StyleID="s109"/>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">Hold [ %[default:hud_suit_menu] ] - Access suit controls</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">Hold [ %[default:hud_suit_menu] ] - Access suit controls. Press [ %[player:leanright] ] to enable cloak, press it again to disable</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -7887,7 +7887,7 @@
    </Print>
    <Selected/>
    <SplitHorizontal>2328</SplitHorizontal>
-   <TopRowBottomPane>599</TopRowBottomPane>
+   <TopRowBottomPane>472</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -7897,8 +7897,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>559</ActiveRow>
-     <ActiveCol>17</ActiveCol>
+     <ActiveRow>483</ActiveRow>
+     <ActiveCol>1</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

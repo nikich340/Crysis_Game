@@ -69,8 +69,8 @@ CPlayerInput::CPlayerInput( CPlayer * pPlayer ) :
 		//ADD_HANDLER(zerogbrake, OnActionZeroGBrake);
 		ADD_HANDLER(gyroscope, OnActionGyroscope);
 		ADD_HANDLER(gboots, OnActionGBoots);
-		ADD_HANDLER(leanleft, OnActionLeanLeft);
-		ADD_HANDLER(leanright, OnActionLeanRight);
+		ADD_HANDLER(leanleft, OnActionStrengthMode);
+		ADD_HANDLER(leanright, OnActionSuitCloak);
 		//ADD_HANDLER(holsteritem, OnActionHolsterItem);
 		ADD_HANDLER(use, OnActionUse);
 
@@ -1212,6 +1212,13 @@ bool CPlayerInput::OnActionCrouch(EntityId entityId, const ActionId& actionId, i
 
 bool CPlayerInput::OnActionSprint(EntityId entityId, const ActionId& actionId, int activationMode, float value)
 {
+	if (activationMode == eAAM_OnPress) {
+		prevMode = m_pPlayer->GetNanoSuit()->GetMode();
+		SAFE_HUD_FUNC(OnQuickMenuSpeedPreset());
+	} else if (activationMode == eAAM_OnRelease) {
+		if (prevMode != NANOMODE_SPEED)
+			m_pPlayer->GetNanoSuit()->SetMode(prevMode);
+	}
 	if (CanMove())
 	{
 		if (value > 0.0f)
@@ -1478,9 +1485,14 @@ bool CPlayerInput::OnActionSpeedMode(EntityId entityId, const ActionId& actionId
 
 bool CPlayerInput::OnActionStrengthMode(EntityId entityId, const ActionId& actionId, int activationMode, float value)
 {
-	if (!m_pPlayer->m_stats.spectatorMode)
+	if (!m_pPlayer->m_stats.spectatorMode && activationMode == eAAM_OnPress)
 	{
-		SAFE_HUD_FUNC(OnQuickMenuStrengthPreset());
+		if (m_pPlayer->GetNanoSuit()->GetMode() == NANOMODE_STRENGTH) {
+			SAFE_HUD_FUNC(OnQuickMenuDefensePreset());
+		}
+		else {
+			SAFE_HUD_FUNC(OnQuickMenuStrengthPreset());
+		}
 	}
 	return false;
 }
@@ -1496,9 +1508,14 @@ bool CPlayerInput::OnActionDefenseMode(EntityId entityId, const ActionId& action
 
 bool CPlayerInput::OnActionSuitCloak(EntityId entityId, const ActionId& actionId, int activationMode, float value)
 {
-	if (!m_pPlayer->m_stats.spectatorMode)
+	if (!m_pPlayer->m_stats.spectatorMode && activationMode == eAAM_OnPress)
 	{
-		SAFE_HUD_FUNC(OnCloak());
+		if (m_pPlayer->GetNanoSuit()->GetMode() == NANOMODE_CLOAK) {
+			SAFE_HUD_FUNC(OnQuickMenuDefensePreset());
+		}
+		else {
+			SAFE_HUD_FUNC(OnCloak());
+		}
 	}
 	return false;
 }

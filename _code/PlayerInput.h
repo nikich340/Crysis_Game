@@ -145,6 +145,7 @@ private:
 	int m_lastSerializeFrameID;
 
 	bool m_doubleJumped;
+	ENanoMode prevMode = NANOMODE_DEFENSE;
 
 	static TActionHandler<CPlayerInput>	s_actionHandler;
 };
