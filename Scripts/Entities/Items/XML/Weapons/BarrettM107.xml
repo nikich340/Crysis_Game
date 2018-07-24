@@ -64,8 +64,8 @@
 		<action name="fire">
 			<animation target="firstperson" name="fire_bullets_%hand%_%suffix%01" />
 			<animation target="owner" name="shoot" />
-			<sound target="firstperson" name="sounds/m107:m107:fire" radius="400" static="1" />
-			<sound target="thirdperson" name="sounds/m107:m107:fire" radius="400" static="1" />
+			<sound target="firstperson" name="sounds/BarrettM107:BarrettM107:fire" radius="400" static="1" />
+			<sound target="thirdperson" name="sounds/BarrettM107:BarrettM107:fire" radius="400" static="1" />
 		</action>
 		
 		
