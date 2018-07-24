@@ -69,6 +69,9 @@ History:
 #include "Radio.h"
 
 #include "LCD/LCDWrapper.h"
+//--JR
+#include "BulletTime.h"
+//----
 
 static const float NIGHT_VISION_ENERGY = 30.0f;
 
@@ -281,6 +284,10 @@ CHUD::CHUD()
 	m_prevSpectatorHealth = -1;
 	m_prevSpectatorTarget = 0;
 
+	//--JR
+	keyGOC = false;
+	keySLOW = false;
+	//----
 	//the hud exists as long as the game exists
 	gEnv->pGame->GetIGameFramework()->RegisterListener(this, "hud", FRAMEWORKLISTENERPRIORITY_HUD);
 }
@@ -1728,6 +1735,47 @@ void CHUD::OnQuickMenuSpeedPreset()
 	else
 		PlaySound(ESound_TemperatureBeep);
 }
+//--JR
+void CHUD::OnQuickMenuSlowPreset(bool key)
+{
+	keySLOW = key;
+
+	if(!keySLOW)
+	{
+		if(!g_pGame->GetBulletTime()->IsActive())
+			g_pGame->GetBulletTime()->Activate(true);
+		else if (g_pGame->GetBulletTime()->IsActive())
+			g_pGame->GetBulletTime()->Activate(false);
+	}
+}
+
+void CHUD::OnQuickMenuGOCPreset(bool key)
+{
+	if(!g_pGameCVars->goc_enable)
+		return;
+
+	keyGOC = key;
+
+	if(!keyGOC)
+	{
+		CActor *pClientActor = static_cast<CActor *>(g_pGame->GetIGameFramework()->GetClientActor());
+
+		if(!pClientActor->IsThirdPerson())
+		{	
+			if(g_pGame->GetHUD()->GetCurrentWeapon() && g_pGame->GetHUD()->GetCurrentWeapon()->IsZoomed())
+				g_pGame->GetHUD()->GetCurrentWeapon()->ExitZoom();
+
+			g_pGameCVars->goc_tpcrosshair = 1;
+			pClientActor->ToggleThirdPerson();
+		}
+		else if(pClientActor->IsThirdPerson())
+		{
+			g_pGameCVars->goc_tpcrosshair = 0;
+			pClientActor->ToggleThirdPerson();
+		}
+	}
+}
+//----
 
 //-----------------------------------------------------------------------------------------------------
 
@@ -4172,7 +4220,7 @@ void CHUD::SetFireMode(IItem *pItem, IFireMode *pFM, bool forceUpdate)
 			SAFE_HUD_FUNC(ShowProgress(-1));
 	}
 
-	if(pItem->GetIWeapon() && pItem->GetIWeapon()->IsZoomed() && !g_pGameCVars->g_enableAlternateIronSight)
+	if(pItem->GetIWeapon() && pItem->GetIWeapon()->IsZoomed() && !g_pGameCVars->g_enableAlternateIronSight && !g_pGameCVars->goc_enable)
 	{
 		if(m_pHUDCrosshair->GetCrosshairType() != 0)
 			m_pHUDCrosshair->SetCrosshair(0);

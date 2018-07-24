@@ -58,6 +58,9 @@ struct SCVars
 	float goc_targetz;
 
 	// bullet time CVars
+	//--JR
+	int		bt_enable;
+	//----
 	int		bt_ironsight;
 	int		bt_speed;
 	int		bt_end_reload;

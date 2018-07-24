@@ -105,6 +105,10 @@ private:
 	bool OnActionStrengthMode(EntityId entityId, const ActionId& actionId, int activationMode, float value);
 	bool OnActionDefenseMode(EntityId entityId, const ActionId& actionId, int activationMode, float value);
 	bool OnActionSuitCloak(EntityId entityId, const ActionId& actionId, int activationMode, float value);
+	//--JR
+	bool OnActionQuickGOC(EntityId entityId, const ActionId& actionId, int activationMode, float value);
+	bool OnActionQuickBT(EntityId entityId, const ActionId& actionId, int activationMode, float value);
+	//----
 
 	// Cheats
 	bool OnActionThirdPerson(EntityId entityId, const ActionId& actionId, int activationMode, float value);

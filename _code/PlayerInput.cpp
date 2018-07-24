@@ -97,6 +97,11 @@ CPlayerInput::CPlayerInput( CPlayer * pPlayer ) :
 		ADD_HANDLER(xi_use, OnActionUse);
 
 		ADD_HANDLER(invert_mouse, OnActionInvertMouse);
+		
+		//--JR
+		ADD_HANDLER(quickGOC, OnActionQuickGOC);
+		ADD_HANDLER(quickBT, OnActionQuickBT);
+		//----
 
 	#undef ADD_HANDLER
 	}
@@ -1519,6 +1524,20 @@ bool CPlayerInput::OnActionSuitCloak(EntityId entityId, const ActionId& actionId
 	}
 	return false;
 }
+
+//--JR
+bool CPlayerInput::OnActionQuickGOC(EntityId entityId, const ActionId& actionId, int activationMode, float value)
+{
+	SAFE_HUD_FUNC(OnQuickMenuGOCPreset(false));
+	return false;
+}
+
+bool CPlayerInput::OnActionQuickBT(EntityId entityId, const ActionId& actionId, int activationMode, float value)
+{
+	SAFE_HUD_FUNC(OnQuickMenuSlowPreset(false));
+	return false;
+}
+//----
 
 bool CPlayerInput::OnActionThirdPerson(EntityId entityId, const ActionId& actionId, int activationMode, float value)
 {

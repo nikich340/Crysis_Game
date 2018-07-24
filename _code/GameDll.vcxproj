@@ -240,6 +240,7 @@
     <ClCompile Include="Claymore.cpp" />
     <ClCompile Include="ClientSynchedStorage.cpp" />
     <ClCompile Include="CompatibilityAlienMovementController.cpp" />
+    <ClCompile Include="Cursor.cpp" />
     <ClCompile Include="DebugGun.cpp" />
     <ClCompile Include="Detonate.cpp" />
     <ClCompile Include="DllMain.cpp" />
@@ -435,6 +436,7 @@
     <ClInclude Include="Claymore.h" />
     <ClInclude Include="ClientSynchedStorage.h" />
     <ClInclude Include="CompatibilityAlienMovementController.h" />
+    <ClInclude Include="Cursor.h" />
     <ClInclude Include="DebugGun.h" />
     <ClInclude Include="Detonate.h" />
     <ClInclude Include="EMPField.h" />

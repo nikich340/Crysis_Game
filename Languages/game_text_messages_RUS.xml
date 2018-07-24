@@ -11236,7 +11236,7 @@
     <Cell ss:StyleID="s211"><Data ss:Type="String">Tutorial.Strength_jump</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s212"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s213"><Data ss:Type="String">[ %[player:jump] ] in suit strength mode - strength jump. Press [ %[player:leanleft] ] to enable strength mode, press it again to disable</Data><NamedCell
+    <Cell ss:StyleID="s213"><Data ss:Type="String">[ %[player:jump] ] in suit strength mode - strength jump. Press [ %[player:leanleft] ] to enable/disable strength mode</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s161"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s195"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -11244,7 +11244,7 @@
     <Cell ss:Index="10" ss:StyleID="s161"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s161"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s161"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="19" ss:StyleID="s213"><Data ss:Type="String">[ %[player:jump] ] в режиме силы - усиленный прыжок. Нажмите [ %[player:leanleft] ] для включения режима силы, нажмите опять для выключения</Data><NamedCell
+    <Cell ss:Index="19" ss:StyleID="s213"><Data ss:Type="String">[ %[player:jump] ] в режиме силы - усиленный прыжок. Нажмите [ %[player:leanleft] ] для вкл./выкл. режима силы</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
    </Row>
    <Row ss:AutoFitHeight="0" ss:Height="25.5">
@@ -11252,7 +11252,7 @@
     <Cell ss:StyleID="s207"><Data ss:Type="String">Tutorial.Cloak</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s208"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s208"><Data ss:Type="String">Hold [ %[default:hud_suit_menu] ] - Access suit controls. Press [ %[player:leanright] ] to enable cloak, press it again to disable</Data><NamedCell
+    <Cell ss:StyleID="s208"><Data ss:Type="String">Hold [ %[default:hud_suit_menu] ] - Access suit controls. Press [ %[player:leanright] ] to enable/disable cloak, press [F1] to enable/disable 3rd view, press [F2] to enable/disable time delay</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s98"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -11269,7 +11269,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="19" ss:StyleID="s112"><Data ss:Type="String">Удерживайте [ %[default:hud_suit_menu] ], чтобы вызвать меню костюма. Нажмите [ %[player:leanright] ] чтобы включить маскировку, нажмите снова чтобы выключить её</Data><NamedCell
+    <Cell ss:Index="19" ss:StyleID="s112"><Data ss:Type="String">Удерживайте [ %[default:hud_suit_menu] ], чтобы вызвать меню костюма. Нажмите [ %[player:leanright] ] для вкл./выкл. режима маскировки, нажмите [F1] для вкл./выкл. вида от 3-его лица, нажмите [F2] для вкл./выкл. замедления времени</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
@@ -11760,8 +11760,7 @@
     <Cell ss:StyleID="s205"><Data ss:Type="String">Tutorial.Lean</Data><NamedCell
       ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s112"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:StyleID="s112"><Data ss:Type="String">[ %[player:leanleft] ], [ %[player:leanright] ] - Lean left and right</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s112"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s136"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s99"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s100"><NamedCell ss:Name="_FilterDatabase"/></Cell>
@@ -11775,8 +11774,7 @@
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
-    <Cell ss:Index="19" ss:StyleID="s112"><Data ss:Type="String">[ %[player:leanleft] ], [ %[player:leanright] ] - наклон вправо и влево</Data><NamedCell
-      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="19" ss:StyleID="s112"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"><NamedCell ss:Name="_FilterDatabase"/></Cell>
     <Cell ss:StyleID="s101"/>
    </Row>
@@ -14124,7 +14122,7 @@
    <FrozenNoSplit/>
    <FilterOn/>
    <SplitHorizontal>1</SplitHorizontal>
-   <TopRowBottomPane>460</TopRowBottomPane>
+   <TopRowBottomPane>481</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -14132,8 +14130,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>461</ActiveRow>
-     <ActiveCol>18</ActiveCol>
+     <ActiveRow>482</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

@@ -68,7 +68,9 @@ History:
 
 #include "Binocular.h"
 #include "SoundMoods.h"
-
+//--JR
+#include "BulletTime.h"
+//----
 // enable this to check nan's on position updates... useful for debugging some weird crashes
 #define ENABLE_NAN_CHECK
 
@@ -809,7 +811,14 @@ void CPlayer::Update(SEntityUpdateContext& ctx, int updateSlot)
 	if (GetHealth()<=0)
 	{
 		// if the player gets killed while para shooting, remove it
-		ChangeParachuteState(0);		
+		ChangeParachuteState(0);	
+
+		//--JR
+		if(IsClient() && g_pGame->GetBulletTime()->IsActive())
+		{
+			g_pGame->GetBulletTime()->Activate(false);
+		}	
+		//----
 	}
 
 	if (!m_stats.isRagDoll && GetHealth()>0 && !m_stats.isFrozen)
@@ -1724,11 +1733,8 @@ IEntity *CPlayer::LinkToVehicle(EntityId vehicleId)
 	}
 	else
 	{
-    if (IsThirdPerson() && !g_pGameCVars->goc_enable)
-      ToggleThirdPerson();
-
-		if (g_pGameCVars->goc_enable && !IsThirdPerson())
-			ToggleThirdPerson();
+		if (IsThirdPerson())
+		  ToggleThirdPerson();
 
 		CALL_PLAYER_EVENT_LISTENERS(OnExitVehicle(this));
 		m_vehicleViewDir.Set(0,1,0);

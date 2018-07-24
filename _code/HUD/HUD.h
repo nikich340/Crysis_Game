@@ -155,6 +155,12 @@ public:
 	void OnQuickMenuStrengthPreset();
 	void OnQuickMenuDefensePreset();
 	void OnCloak();
+	//--JR
+	void OnQuickMenuSlowPreset(bool key);
+	void OnQuickMenuGOCPreset(bool key);
+	bool keyGOC;
+	bool keySLOW;
+	//----
 
 	// Overridden for specific functionality
 	virtual void UpdateRatio();

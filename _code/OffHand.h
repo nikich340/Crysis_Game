@@ -186,6 +186,10 @@ public:
 
 	virtual void ForcePendingActions() {}
 
+	//--JR
+	bool GetWasInGOC(){return m_bWasInGOC;};
+	//----
+
 private:
 
 	EntityId SpawnRockProjectile(IRenderNode *pRenderNode);
@@ -250,6 +254,11 @@ private:
 
 	//Input actions
 	static TActionHandler<COffHand> s_actionHandler;
+
+	//--JR
+	bool m_bWasInGOC;
+	void CheckGOCView();
+	//----
 
 	bool ProcessOffHandActions(EOffHandActions eOHA, int input, int activationMode, float value = 0.0f);
 	bool OnActionUse(EntityId actorId, const ActionId& actionId, int activationMode, float value);

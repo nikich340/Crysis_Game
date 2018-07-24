@@ -44,7 +44,7 @@ static void BroadcastChangeSafeMode( ICVar * )
 	}
 }
 
-void CmdBulletTimeMode( IConsoleCmdArgs* cmdArgs)
+/*void CmdBulletTimeMode( IConsoleCmdArgs* cmdArgs)
 {
 	g_pGameCVars->goc_enable = 0;
 	g_pGameCVars->goc_tpcrosshair = 0;
@@ -55,15 +55,15 @@ void CmdBulletTimeMode( IConsoleCmdArgs* cmdArgs)
 	g_pGameCVars->bt_end_reload = 1;
 	g_pGameCVars->bt_end_select = 1;
 	g_pGameCVars->bt_end_melee = 0;
-}
+}*/
 
-void CmdGOCMode( IConsoleCmdArgs* cmdArgs)
+/*void CmdGOCMode( IConsoleCmdArgs* cmdArgs)
 {
 	g_pGameCVars->goc_enable = 1;
 	g_pGameCVars->goc_tpcrosshair = 1;
 	
 	g_pGameCVars->bt_ironsight = 1;
-	g_pGameCVars->bt_speed = 0;
+	g_pGameCVars->bt_speed = 1;
 	g_pGameCVars->bt_energy_decay = 0;
 	g_pGameCVars->bt_end_reload = 1;
 	g_pGameCVars->bt_end_select = 1;
@@ -75,7 +75,7 @@ void CmdGOCMode( IConsoleCmdArgs* cmdArgs)
 	{
 		pPlayer->ToggleThirdPerson();
 	}
-}
+}*/
 
 // game related cvars must start with an g_
 // game server related cvars must start with sv_
@@ -103,28 +103,30 @@ void SCVars::InitCVars(IConsole *pConsole)
 	//FIXME:just for testing
 	pConsole->Register("cl_strengthscale", &cl_strengthscale, 1.0f, 0, "nanosuit strength scale");
 
-	/*
-	// GOC
-	pConsole->Register("goc_enable", &goc_enable, 0, VF_CHEAT, "gears of crysis");
-	pConsole->Register("goc_tpcrosshair", &goc_tpcrosshair, 0, VF_CHEAT, "keep crosshair in third person");
-	pConsole->Register("goc_targetx", &goc_targetx, 0.5f, VF_CHEAT, "target position of camera");
-	pConsole->Register("goc_targety", &goc_targety, -2.5f, VF_CHEAT, "target position of camera");
-	pConsole->Register("goc_targetz", &goc_targetz, 0.2f, VF_CHEAT, "target position of camera");
-	pConsole->AddCommand("GOCMode", CmdGOCMode, VF_CHEAT, "Enable GOC mode");
 	
+	// GOC
+	pConsole->Register("goc_enable", &goc_enable, 1, VF_DUMPTODISK, "gears of crysis");
+	pConsole->Register("goc_tpcrosshair", &goc_tpcrosshair, 0, VF_DUMPTODISK, "keep crosshair in third person");
+	pConsole->Register("goc_targetx", &goc_targetx, 0.5f, VF_DUMPTODISK, "target position of camera");
+	pConsole->Register("goc_targety", &goc_targety, -2.5f, VF_DUMPTODISK, "target position of camera");
+	pConsole->Register("goc_targetz", &goc_targetz, 0.2f, VF_DUMPTODISK, "target position of camera");
+	//pConsole->AddCommand("GOCMode", CmdGOCMode, VF_DUMPTODISK, "Enable GOC mode");
 	// BulletTime
-	pConsole->Register("bt_speed", &bt_speed, 0, VF_CHEAT, "bullet-time when in speed mode");
-	pConsole->Register("bt_ironsight", &bt_ironsight, 0, VF_CHEAT, "bullet-time when in ironsight");
-	pConsole->Register("bt_end_reload", &bt_end_reload, 0, VF_CHEAT, "end bullet-time when reloading");
-	pConsole->Register("bt_end_select", &bt_end_select, 0, VF_CHEAT, "end bullet-time when selecting a new weapon");
-	pConsole->Register("bt_end_melee", &bt_end_melee, 0, VF_CHEAT, "end bullet-time when melee");
-	pConsole->Register("bt_time_scale", &bt_time_scale, 0.2f, VF_CHEAT, "bullet-time time scale to apply");
-	pConsole->Register("bt_pitch", &bt_pitch, -0.4f, VF_CHEAT, "sound pitch shift for bullet-time");
-	pConsole->Register("bt_energy_max", &bt_energy_max, 1.0f, VF_CHEAT, "maximum bullet-time energy");
-	pConsole->Register("bt_energy_decay", &bt_energy_decay, 2.5f, VF_CHEAT, "bullet time energy decay rate");
-	pConsole->Register("bt_energy_regen", &bt_energy_regen, 0.5f, VF_CHEAT, "bullet time energy regeneration rate");
-	pConsole->AddCommand("bulletTimeMode", CmdBulletTimeMode, VF_CHEAT, "Enable bullet time mode");
-	*/
+	//--JR
+	pConsole->Register("bt_enable", &bt_enable, 1, VF_DUMPTODISK, "bullet-time");
+	//----
+	pConsole->Register("bt_speed", &bt_speed, 0, VF_DUMPTODISK, "bullet-time when in speed mode");
+	pConsole->Register("bt_ironsight", &bt_ironsight, 0, VF_DUMPTODISK, "bullet-time when in ironsight");
+	pConsole->Register("bt_end_reload", &bt_end_reload, 0, VF_DUMPTODISK, "end bullet-time when reloading");
+	pConsole->Register("bt_end_select", &bt_end_select, 0, VF_DUMPTODISK, "end bullet-time when selecting a new weapon");
+	pConsole->Register("bt_end_melee", &bt_end_melee, 0, VF_DUMPTODISK, "end bullet-time when melee");
+	pConsole->Register("bt_time_scale", &bt_time_scale, 0.2f, VF_DUMPTODISK, "bullet-time time scale to apply");
+	pConsole->Register("bt_pitch", &bt_pitch, -0.4f, VF_DUMPTODISK, "sound pitch shift for bullet-time");
+	pConsole->Register("bt_energy_max", &bt_energy_max, 1.0f, VF_DUMPTODISK, "maximum bullet-time energy");
+	pConsole->Register("bt_energy_decay", &bt_energy_decay, 0.0f, VF_DUMPTODISK, "bullet time energy decay rate");
+	pConsole->Register("bt_energy_regen", &bt_energy_regen, 0.5f, VF_DUMPTODISK, "bullet time energy regeneration rate");
+	//pConsole->AddCommand("bulletTimeMode", CmdBulletTimeMode, VF_DUMPTODISK, "Enable bullet time mode");
+	
 
 	pConsole->Register("dt_enable", &dt_enable, 0, 0, "suit actions activated by double-tapping");
 	pConsole->Register("dt_time", &dt_time, 0.25f, 0, "time in seconds between double taps");

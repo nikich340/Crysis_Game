@@ -5639,7 +5639,7 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Strength_jump</Data></Cell>
     <Cell ss:StyleID="s109"/>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[player:jump] ] in suit strength mode - strength jump. Press [ %[player:leanleft] ] to enable strength mode, press it again to disable</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[player:jump] ] in suit strength mode - strength jump. Press [ %[player:leanleft] ] to enable/disable strength mode</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -5647,7 +5647,7 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Cloak</Data></Cell>
     <Cell ss:StyleID="s109"/>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">Hold [ %[default:hud_suit_menu] ] - Access suit controls. Press [ %[player:leanright] ] to enable cloak, press it again to disable</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">Hold [ %[default:hud_suit_menu] ] - Access suit controls. Press [ %[player:leanright] ] to enable/disable cloak, press [F1] to enable/disable 3rd view, press [F2] to enable/disable time delay</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -5814,7 +5814,7 @@
     <Cell ss:StyleID="s62"/>
     <Cell ss:StyleID="s109"><Data ss:Type="String">Tutorial.Lean</Data></Cell>
     <Cell ss:StyleID="s109"/>
-    <Cell ss:StyleID="s109"><Data ss:Type="String">[ %[player:leanleft] ], [ %[player:leanright] ] - Lean left and right</Data></Cell>
+    <Cell ss:StyleID="s109"/>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -7887,7 +7887,7 @@
    </Print>
    <Selected/>
    <SplitHorizontal>2328</SplitHorizontal>
-   <TopRowBottomPane>472</TopRowBottomPane>
+   <TopRowBottomPane>448</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -7897,8 +7897,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>483</ActiveRow>
-     <ActiveCol>1</ActiveCol>
+     <ActiveRow>460</ActiveRow>
+     <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>

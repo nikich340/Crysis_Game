@@ -644,6 +644,9 @@
     </ClCompile>
     <ClCompile Include="DllMain.cpp" />
     <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="Cursor.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Actor.h">
@@ -1130,6 +1133,9 @@
       <Filter>Flash</Filter>
     </ClInclude>
     <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Cursor.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="GameActions.actions">

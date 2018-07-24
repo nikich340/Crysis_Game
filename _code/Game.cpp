@@ -56,7 +56,10 @@
 
 #include "ISaveGame.h"
 #include "ILoadGame.h"
-
+//--JR
+#include "Cursor.h"
+#undef GetUserName
+//----
 #define GAME_DEBUG_MEM  // debug memory usage
 #undef  GAME_DEBUG_MEM
 
@@ -114,7 +117,10 @@ CGame::CGame()
 	m_pDebugAM = 0;
 	m_pDefaultAM = 0;
 	m_pMultiplayerAM = 0;
-
+	//--JR
+	m_pCursor = new CCursor();
+	gEnv->pConsole->ExecuteString("con_restricted 0");
+	//----
 	GetISystem()->SetIGame( this );
 }
 
@@ -135,6 +141,9 @@ CGame::~CGame()
 	SAFE_DELETE(m_pItemStrings);
 	SAFE_DELETE(m_pItemSharedParamsList);
 	SAFE_DELETE(m_pCVars);
+	//--JR
+	SAFE_DELETE(m_pCursor);
+	//----
 	g_pGame = 0;
 	g_pGameCVars = 0;
 	g_pGameActions = 0;
@@ -402,6 +411,12 @@ int CGame::Update(bool haveFocus, unsigned int updateFlags)
 		m_pBulletTime->Update();
 		m_pSoundMoods->Update();
 	}
+	else
+	{
+		if(m_pBulletTime->IsActive())
+			gEnv->pSoundSystem->SetMasterPitch(0.0f);
+	}
+
 
 	m_pFramework->PostUpdate( true, updateFlags );
 
@@ -448,6 +463,10 @@ void CGame::EditorResetGame(bool bStart)
 	}
 	else
 	{
+		//--JR
+		if(g_pGame->GetBulletTime()->IsActive())
+			g_pGame->GetBulletTime()->Activate(false);
+		//----
 		SAFE_DELETE(m_pHUD);
 	}
 }
@@ -462,7 +481,7 @@ void CGame::PlayerIdSet(EntityId playerId)
 		if (m_pHUD == 0)
 		{
 			m_pHUD = new CHUD();
-			m_pHUD->Init();
+			m_pHUD->Init();		
 		}
 	}
 

@@ -18,8 +18,12 @@ CBulletTime::CBulletTime()
 
 void CBulletTime::Update()
 {
-	if (!(g_pGameCVars->bt_speed || g_pGameCVars->bt_ironsight) || gEnv->bMultiplayer)
+	//--JR
+	//if (!(g_pGameCVars->bt_speed || g_pGameCVars->bt_ironsight) || gEnv->bMultiplayer)
+	//	return;	
+	if (gEnv->bMultiplayer)
 		return;
+	//----
 
 	// normalized frametime
 	float frameTime = gEnv->pTimer->GetFrameTime();
@@ -39,6 +43,8 @@ void CBulletTime::Update()
 		{
 			Activate(false);
 		}
+		
+		gEnv->pSoundSystem->SetMasterPitch(g_pGameCVars->bt_pitch);
 	}
 	else
 	{

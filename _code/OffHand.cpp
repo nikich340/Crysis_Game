@@ -26,6 +26,7 @@ History:
 #include "HUD/HUDCrosshair.h"
 #include "WeaponSystem.h"
 #include "Projectile.h"
+#include "GameCVars.h"
 
 #define KILL_NPC_TIMEOUT	7.25f
 #define TIME_TO_UPDATE_CH 0.25f
@@ -169,7 +170,8 @@ m_checkForConstraintDelay(2),
 m_startPickUp(false),
 m_pRockRN(NULL),
 m_bCutscenePlaying(false),
-m_restoreStateAfterLoading(false)
+m_restoreStateAfterLoading(false),
+m_bWasInGOC(false)
 {
 	m_useFPCamSpacePP = false; //Offhand doesn't need it
 	m_forceThrow = false;
@@ -918,7 +920,7 @@ void COffHand::UpdateHeldObject()
 
 		//Update entity WorldTM 
 		int id=m_stats.fp?eIGS_FirstPerson:eIGS_ThirdPerson;
-
+		
 		Matrix34 finalMatrix(Matrix34(GetSlotHelperRotation(id, "item_attachment", true)));
 		finalMatrix.Scale(m_holdScale);	
 		finalMatrix.SetTranslation(GetSlotHelperPos(id, "item_attachment", true));
@@ -940,7 +942,6 @@ void COffHand::UpdateHeldObject()
 		}
 		//====================================
 		pEntity->SetWorldTM(finalMatrix,ENTITY_XFORM_USER);
-
 	}
 }
 
@@ -1446,26 +1447,45 @@ void COffHand::CancelAction()
 	SetOffHandState(eOHS_INIT_STATE);
 }
 
+//--JR
+void COffHand::CheckGOCView()
+{
+	CPlayer *pLocalPlayer = static_cast<CPlayer*>(GetOwnerActor());
+
+	if(pLocalPlayer && !pLocalPlayer->IsThirdPerson() && g_pGameCVars->goc_enable && m_bWasInGOC)
+	{
+		m_bWasInGOC = false;
+		pLocalPlayer->ToggleThirdPerson();
+		CheckViewChange();
+	}
+}
+//----
+
 //=============================================================================
 void COffHand::FinishAction(EOffHandActions eOHA)
 {
+	
+
 	switch(eOHA)
 	{
-		case eOHA_SWITCH_GRENADE: EndSwitchGrenade();
+		case eOHA_SWITCH_GRENADE:							EndSwitchGrenade();
 															break;
 
-		case eOHA_PICK_ITEM:			EndPickUpItem();
+		case eOHA_PICK_ITEM:								EndPickUpItem();
 															break;
 
-		case eOHA_GRAB_NPC:				m_currentState = eOHS_HOLDING_NPC;
+		case eOHA_GRAB_NPC:									m_currentState = eOHS_HOLDING_NPC;
 															break;
 
-		case eOHA_THROW_NPC:			GetScheduler()->TimerAction(300, CSchedulerAction<FinishOffHandAction>::Create(FinishOffHandAction(eOHA_RESET,this)), true);
+		case eOHA_THROW_NPC:								GetScheduler()->TimerAction(300, CSchedulerAction<FinishOffHandAction>::Create(FinishOffHandAction(eOHA_RESET,this)), true);
 															ThrowNPC();
 															m_currentState = eOHS_TRANSITIONING;
+															//--JR
+															CheckGOCView();
+															//----
 															break;
 		
-		case eOHA_PICK_OBJECT:		m_currentState = eOHS_HOLDING_OBJECT;
+		case eOHA_PICK_OBJECT:								m_currentState = eOHS_HOLDING_OBJECT;
 															break;
 
 		case eOHA_THROW_OBJECT:		{
@@ -1490,6 +1510,9 @@ void COffHand::FinishAction(EOffHandActions eOHA)
 															}												
 															m_currentState = eOHS_TRANSITIONING;
 															}
+															//--JR
+															CheckGOCView();
+															//----
 															break;
 		
 		case eOHA_RESET:					//Reset main weapon status and reset offhand
@@ -2574,14 +2597,24 @@ void COffHand::EndPickUpItem()
 //=======================================================================================
 void COffHand::PickUpObject(bool isLivingEnt /* = false */)
 {	
+	CPlayer *pPlayer = static_cast<CPlayer*>(GetOwnerActor());
+	//--JR
+	if(pPlayer->IsThirdPerson() && g_pGameCVars->goc_enable)
+	{
+		pPlayer->ToggleThirdPerson();
+		CheckViewChange();
+		m_bWasInGOC = true;
+	}
+	//----
+
 	//Grab NPCs-----------------
 	if(isLivingEnt)
 		if(!GrabNPC())
 			CancelAction();
 	//-----------------------
-
 	//Don't pick up in prone
-	CPlayer *pPlayer = static_cast<CPlayer*>(GetOwnerActor());
+	
+
 	if(pPlayer && pPlayer->GetStance()==STANCE_PRONE)
 	{
 		CancelAction();
@@ -2647,9 +2680,10 @@ void COffHand::PickUpObject(bool isLivingEnt /* = false */)
 	{
 		m_currentState	= eOHS_PICKING;
 		m_pickingTimer	= 0.3f;
+		CActor *pClientActor = static_cast<CActor *>(g_pGame->GetIGameFramework()->GetClientActor());	
 		SetDefaultIdleAnimation(CItem::eIGS_FirstPerson,m_grabTypes[m_grabType].idle);
 		PlayAction(m_grabTypes[m_grabType].pickup);
-		GetScheduler()->TimerAction(GetCurrentAnimationTime(eIGS_FirstPerson), CSchedulerAction<FinishOffHandAction>::Create(FinishOffHandAction(eOHA_PICK_OBJECT,this)), false);
+		GetScheduler()->TimerAction(GetCurrentAnimationTime(eIGS_FirstPerson), CSchedulerAction<FinishOffHandAction>::Create(FinishOffHandAction(eOHA_PICK_OBJECT,this)), false);	
 		m_startPickUp = true;
 	}
 	else
@@ -2683,7 +2717,6 @@ void COffHand::ThrowObject(int activationMode, bool isLivingEnt /*= false*/)
 			pFireMode->SetRecoilMultiplier(1.0f);		//Restore normal recoil for the weapon
 		}
 	}
-
 }
 
 //==========================================================================================
@@ -2907,7 +2940,6 @@ void COffHand::ThrowNPC(bool kill /*= true*/)
 	}
 
 	GetGameObject()->DisablePostUpdates(this); //Disable again
-
 }
 
 //==============================================================================

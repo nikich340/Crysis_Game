@@ -35,7 +35,9 @@
 struct ISystem;
 struct IConsole;
 struct ILCD;
-
+//--JR
+class CCursor;
+//----
 class	CScriptBind_Actor;
 class CScriptBind_Item;
 class CScriptBind_Weapon;
@@ -270,7 +272,9 @@ protected:
 	bool								m_inDevMode;
 
 	EntityId m_uiPlayerID;
-
+	//--JR
+	CCursor				*m_pCursor;
+	//----
 	SCVars*	m_pCVars;
 	SItemStrings					*m_pItemStrings;
 	CItemSharedParamsList *m_pItemSharedParamsList;

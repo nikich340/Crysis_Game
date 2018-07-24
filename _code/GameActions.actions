@@ -102,6 +102,9 @@ DECL_ACTION(xi_rotatepitch)
 DECL_ACTION(xi_v_rotateyaw)
 DECL_ACTION(xi_v_rotatepitch)
 
+	// GOC / BT
+DECL_ACTION(quickGOC)
+DECL_ACTION(quickBT)
 
 	// HUD
 DECL_ACTION(hud_nanosuit_nextitem)
