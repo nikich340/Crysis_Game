@@ -1,9 +1,10 @@
-<EquipPack name="NK_Rifle_Gren_heavy" primary="AK_47">
+<EquipPack name="NK_Rifle_Gren_heavy" primary="AK_12">
  <Items>
-  <AK_47 type="ItemGivable"/>
+  <AK_12 type="ItemGivable"/>
   <Beretta92FS type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <AK_12_EPK8Kobra type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

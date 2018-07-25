@@ -1,9 +1,12 @@
-<EquipPack name="NK_SMG_SF_heavy" primary="Hkump45_equip_silencer_LAM_assault">
+<EquipPack name="NK_SMG_SF_heavy" primary="HKUMP45">
  <Items>
-  <Hkump45_equip_silencer_LAM_assault type="ItemGivable"/>
+  <HKUMP45 type="ItemGivable"/>
   <Desert_Eagle type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <HKUMP45AssaultScope type="ItemGivable"/>
+  <HKUMP45LAM type="ItemGivable"/>
+  <HKUMP45Silencer type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

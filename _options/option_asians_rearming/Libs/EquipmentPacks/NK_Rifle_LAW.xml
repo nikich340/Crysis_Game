@@ -1,9 +1,13 @@
-<EquipPack name="NK_Rifle_LAW" primary="AK_47_equip_silencer_LAM_grenade_assault">
+<EquipPack name="NK_Rifle_LAW" primary="AK_47">
  <Items>
-  <AK_47_equip_silencer_LAM_grenade_assault type="ItemGivable"/>
-  <Colt1911_equip_LAM type="ItemGivable"/>
+  <AK_47 type="ItemGivable"/>
+  <Colt1911 type="ItemGivable"/>
   <LAW type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <LAMRifle type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
+  <GrenadeLauncher type="ItemGivable"/>
+  <Reflex type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

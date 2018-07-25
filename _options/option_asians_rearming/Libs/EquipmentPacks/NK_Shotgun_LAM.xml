@@ -1,9 +1,10 @@
 <EquipPack name="NK_Shotgun_LAM" primary="Shotgun">
  <Items>
   <Shotgun type="ItemGivable"/>
-  <Colt1911_equip_LAM type="ItemGivable"/>
+  <Colt1911 type="ItemGivable"/>
   <LAMRifle type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

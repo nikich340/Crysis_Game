@@ -3,6 +3,7 @@
   <HKUMP45 type="ItemGivable"/>
   <Beretta92FS type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <HKUMP45Reflex type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

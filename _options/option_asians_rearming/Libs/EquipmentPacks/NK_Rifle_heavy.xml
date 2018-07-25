@@ -3,6 +3,7 @@
   <AK_12 type="ItemGivable"/>
   <Beretta92FS type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <AK_12_EPK8Kobra type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

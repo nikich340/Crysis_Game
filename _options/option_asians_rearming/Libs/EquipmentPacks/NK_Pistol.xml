@@ -1,7 +1,8 @@
-<EquipPack name="NK_Pistol" primary="Colt1911_equip_LAM">
+<EquipPack name="NK_Pistol" primary="Colt1911">
  <Items>
-  <Colt1911_equip_LAM type="ItemGivable"/>
+  <Colt1911 type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

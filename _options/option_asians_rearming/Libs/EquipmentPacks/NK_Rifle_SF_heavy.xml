@@ -1,9 +1,13 @@
-<EquipPack name="NK_Rifle_SF_heavy" primary="M4A1_equip_silencer_LAM_grenade_assault">
+<EquipPack name="NK_Rifle_SF_heavy" primary="M4A1">
  <Items>
-  <M4A1_equip_silencer_LAM_grenade_assault type="ItemGivable"/>
+  <M4A1 type="ItemGivable"/>
   <Desert_Eagle type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <M4A1Lam type="ItemGivable"/>
+  <M4A1opt type="ItemGivable"/>
+  <M4A1Silencer type="ItemGivable"/>
+  <M4A1GrenadeLauncher type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

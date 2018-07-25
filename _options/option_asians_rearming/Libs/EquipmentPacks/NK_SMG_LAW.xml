@@ -1,9 +1,11 @@
-<EquipPack name="NK_SMG_LAW" primary="mp5sd_equip_LAM">
+<EquipPack name="NK_SMG_LAW" primary="mp5sd">
  <Items>
-  <mp5sd_equip_LAM type="ItemGivable"/>
-  <Colt1911_equip_LAM type="ItemGivable"/>
+  <mp5sd type="ItemGivable"/>
+  <Colt1911 type="ItemGivable"/>
   <LAW type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <LAMRifleFlashLight type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

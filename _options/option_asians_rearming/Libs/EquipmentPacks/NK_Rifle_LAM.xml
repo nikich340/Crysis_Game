@@ -1,8 +1,11 @@
-<EquipPack name="NK_Rifle_LAM" primary="AK_47_equip_LAM_reflex">
+<EquipPack name="NK_Rifle_LAM" primary="AK_47">
  <Items>
-  <AK_47_equip_LAM_reflex type="ItemGivable"/>
-  <Colt1911_equip_LAM type="ItemGivable"/>
+  <AK_47 type="ItemGivable"/>
+  <Colt1911 type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <Reflex type="ItemGivable"/>
+  <LAMRifle type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

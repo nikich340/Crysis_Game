@@ -1,9 +1,13 @@
-<EquipPack name="NK_Rifle_LAW_heavy" primary="AK_12_equip_silencer_greenLAM_gp25_Saracen">
+<EquipPack name="NK_Rifle_LAW_heavy" primary="AK_12">
  <Items>
-  <AK_12_equip_silencer_greenLAM_gp25_Saracen type="ItemGivable"/>
-  <Beretta92FS_equip_LAM type="ItemGivable"/>
+  <AK_12 type="ItemGivable"/>
+  <Beretta92FS type="ItemGivable"/>
   <LAW type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <AK_12_Anpeq15 type="ItemGivable"/>
+  <AK_12_EPK8Kobra type="ItemGivable"/>
+  <AK_12_GP25Koster type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

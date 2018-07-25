@@ -1,10 +1,12 @@
 <EquipPack name="NK_Sniper_Sniper" primary="DSG1">
  <Items>
   <DSG1 type="ItemGivable"/>
-  <SIGP226_equip_silencer_LAM type="ItemGivable"/>
+  <SIGP226 type="ItemGivable"/>
   <Silencer type="ItemGivable"/>
   <SniperScope type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <SIGP226LAM type="ItemGivable"/>
+  <SIGP226Silencer type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

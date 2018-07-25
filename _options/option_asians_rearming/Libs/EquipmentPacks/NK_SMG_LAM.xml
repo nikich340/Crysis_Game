@@ -1,8 +1,10 @@
-<EquipPack name="NK_SMG_LAM" primary="mp5sd_equip_LAM">
+<EquipPack name="NK_SMG_LAM" primary="mp5sd">
  <Items>
-  <mp5sd_equip_LAM type="ItemGivable"/>
-  <Colt1911_equip_LAM type="ItemGivable"/>
+  <mp5sd type="ItemGivable"/>
+  <Colt1911 type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <LAMRifle type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

@@ -1,9 +1,14 @@
-<EquipPack name="NK_Rifle_SF" primary="AK_12_equip_silencer_greenLAM_gp25_Saracen">
+<EquipPack name="NK_Rifle_SF" primary="AK_12">
  <Items>
-  <AK_12_equip_silencer_greenLAM_gp25_Saracen type="ItemGivable"/>
-  <Hammer50_equip_LAM type="ItemGivable"/>
+  <AK_12 type="ItemGivable"/>
+  <Hammer50 type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
+  <AK_12_Anpeq15 type="ItemGivable"/>
+  <AK_12_GP25Koster type="ItemGivable"/>
+  <AK_12_PN23Saracen type="ItemGivable"/>
+  <AK_12_PBS1_Silencer type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

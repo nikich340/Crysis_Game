@@ -1,11 +1,12 @@
 <EquipPack name="NK_Shotgun_SF" primary="Shotgun">
  <Items>
   <Shotgun type="ItemGivable"/>
-  <Hammer50_equip_LAM type="ItemGivable"/>
+  <Hammer50 type="ItemGivable"/>
   <AIGrenades type="ItemGivable"/>
   <LAMRifle type="ItemGivable"/>
   <Reflex type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

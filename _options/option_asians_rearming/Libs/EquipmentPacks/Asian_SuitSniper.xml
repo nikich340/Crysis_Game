@@ -1,9 +1,12 @@
 <EquipPack name="Asian_SuitSniper" primary="BarrettM107">
  <Items>
   <BarrettM107 type="ItemGivable"/>
-  <Hkump45_equip_LAM_reflex type="ItemGivable"/>
+  <HKUMP45 type="ItemGivable"/>
   <AIFlashbangs type="ItemGivable"/>
   <AISmokeGrenades type="ItemGivable"/>
+  <HKUMP45Reflex type="ItemGivable"/>
+  <HKUMP45LAM type="ItemGivable"/>
+  <BarrettM107DUAmmo type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

@@ -1,8 +1,9 @@
-<EquipPack name="Asian_SuitSniperAkimbo" primary="BarrettM107_equip_DUAmmo">
+<EquipPack name="Asian_SuitSniperAkimbo" primary="BarrettM107">
  <Items>
-  <BarrettM107_equip_DUAmmo type="ItemGivable"/>
+  <BarrettM107 type="ItemGivable"/>
   <Desert_Eagle type="ItemGivable"/>
   <AIFlashbangs type="ItemGivable"/>
+  <BarrettM107DUAmmo type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>
