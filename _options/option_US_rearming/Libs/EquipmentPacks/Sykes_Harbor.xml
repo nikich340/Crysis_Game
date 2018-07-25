@@ -1,7 +1,8 @@
-<EquipPack name="Sykes_Harbor" primary="BarrettM107_equip_HEAmmo">
+<EquipPack name="Sykes_Harbor" primary="BarrettM107">
  <Items>
-  <BarrettM107_equip_HEAmmo type="ItemGivable"/>
+  <BarrettM107 type="ItemGivable"/>
   <LAMRifle type="ItemGivable"/>
+  <BarrettM107DUAmmo type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="a2ahomingmissile" amount="0"/>

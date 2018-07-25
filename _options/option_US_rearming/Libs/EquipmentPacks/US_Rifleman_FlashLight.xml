@@ -1,8 +1,9 @@
 <EquipPack name="US_Rifleman_FlashLight" primary="SCAR">
  <Items>
   <SCAR type="ItemGivable"/>
-  <Beretta92FS_equip_LAM type="ItemGivable"/>
+  <Beretta92FS type="ItemGivable"/>
   <LAMRifleFlashLight type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

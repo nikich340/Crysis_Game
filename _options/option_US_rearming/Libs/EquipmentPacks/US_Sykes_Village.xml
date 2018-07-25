@@ -1,7 +1,7 @@
-<EquipPack name="US_Sykes_Village" primary="Scar_v2_equip_assault">
+<EquipPack name="US_Sykes_Village" primary="Scar_v2">
  <Items>
-  <Scar_v2_equip_assault type="ItemGivable"/>
-  <SniperScope type="ItemGivable"/>
+  <Scar_v2 type="ItemGivable"/>
+  <Scar_assault_scope type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

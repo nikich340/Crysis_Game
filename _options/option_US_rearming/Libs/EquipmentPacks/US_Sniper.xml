@@ -1,8 +1,9 @@
-<EquipPack name="US_Sniper" primary="DSG1">
+<EquipPack name="US_Sniper" primary="BarrettM107">
  <Items>
-  <DSG1 type="ItemGivable"/>
-  <SIGP226_equip_silencer_LAM type="ItemGivable"/>
-  <SniperScope type="ItemGivable"/>
+  <BarrettM107 type="ItemGivable"/>
+  <SIGP226 type="ItemGivable"/>
+  <SIGP226LAM type="ItemGivable"/>
+  <SIGP226Silencer type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="a2ahomingmissile" amount="0"/>

@@ -1,9 +1,9 @@
-<EquipPack name="US_Rifleman_LAW" primary="Scar_v2_equip_assault">
+<EquipPack name="US_Rifleman_LAW" primary="Scar_v2">
  <Items>
-  <Scar_v2_equip_assault type="ItemGivable"/>
+  <Scar_v2 type="ItemGivable"/>
   <Beretta92FS type="ItemGivable"/>
   <LAW type="ItemGivable"/>
-  <AssaultScope type="ItemGivable"/>
+  <Scar_assault_scope type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>

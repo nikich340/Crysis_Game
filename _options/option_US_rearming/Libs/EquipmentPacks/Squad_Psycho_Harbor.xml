@@ -1,8 +1,10 @@
-<EquipPack name="Squad_Psycho_Harbor" primary="BarrettM107_equip_HEAmmo">
+<EquipPack name="Squad_Psycho_Harbor" primary="BarrettM107">
  <Items>
-  <BarrettM107_equip_HEAmmo type="ItemGivable"/>
-  <Hammer50_equip_LAM type="ItemGivable"/>
+  <BarrettM107 type="ItemGivable"/>
+  <Hammer50 type="ItemGivable"/>
   <LAMRifle type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
+  <BarrettM107DUAmmo type="ItemGivable"/>
  </Items>
  <Ammos>
   <Ammo name="50bullet" amount="0"/>
