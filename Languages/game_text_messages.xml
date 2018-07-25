@@ -6323,38 +6323,8 @@
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911_equip_LAMFlash</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911_equip_LAM</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Colt1911_equip_silencer_LAM</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">COLT1911 modification C</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TT</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">TT</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">TT_equip_silencer</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">TT modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -6365,38 +6335,8 @@
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">HKUMP45_equip_LAM_reflex</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">HKUMP45 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">HKUMP45_equip_silencer_LAM_assault</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">HKUMP45 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47_equip_LAMFlash_reflex</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47_equip_LAM_reflex</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">AK_47_equip_silencer_LAM_grenade_assault</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">AK47 modification C</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -6407,32 +6347,8 @@
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">M4A1_equip_LAM_assault</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">M4A1 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">M4A1_equip_silencer_LAM_grenade_assault</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">M4A1 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Kriss</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">KRISS SUPER V</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Kriss_equip_reflex</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">KRISS SUPER V modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">Kriss_equip_silencer_assault</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">KRISS SUPER V modification B</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
@@ -6479,18 +6395,6 @@
     <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SIGP226_equip_LAM</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">SIGP226 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">SIGP226_equip_silencer_LAM</Data></Cell>
-    <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">SIGP226 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-    <Cell ss:Index="19" ss:StyleID="s178"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2" ss:StyleID="s178"><Data ss:Type="String">9a91</Data></Cell>
     <Cell ss:Index="4" ss:StyleID="s178"><Data ss:Type="String">9A91</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
@@ -6505,319 +6409,357 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">AK_12</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">AK12</Data></Cell>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_LAMFlash_EPK8Kobra</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification A</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_greenLAM_EPK8Kobra</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">AK_12_equip_silencer_greenLAM_gp25_Saracen</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">AK12 modification C</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Desert_Eagle</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">DESERT EAGLE</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS_equip_LAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">Beretta92FS_equip_silencer_LAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BERETTA92FS modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Hammer50</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">HAMMER50</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">Hammer50_equip_LAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">HAMMER50 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">aug</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">AUG</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">glock</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">GLOCK</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">mp5sd</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">MP5SD</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">mp5sd_equip_LAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">MP5SD modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:Index="2"><Data ss:Type="String">mp40</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">MP40</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">mp40_equip_silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">MP40 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="2"><Data ss:Type="String">p38</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">P38</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">p38_equip_silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">P38 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">p90</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">P90</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">famas</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">FAMAS</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="51">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Vintar</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">VINTOREZ</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BarrettM107</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107_equip_DUAmmo</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 modification A</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">BarrettM107_equip_HEAmmo</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Scar_v2</Data></Cell>
     <Cell ss:Index="4"><Data ss:Type="String">SCAR v2</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2_equip_assault</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 modification A</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Custom Accessories</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">Scar_v2_equip_silencer_assault</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 modification B</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="3"><Data ss:Type="String">Custom Weapons Accessories</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BerettaSilencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BERETTA SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (BERETTA)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="19" ss:StyleID="s178"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BerettaLAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BERETTA LAZER PONTER</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
+    <Cell ss:Index="4"><Data ss:Type="String">LAZER PONTER (BERETTA)</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">TTSilencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">TT SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (TT)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="2"><Data ss:Type="String">HKUMP45Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (HKUMP45)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">HKUMP45LAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 LAZER POINTER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">LAZER POINTER (HKUMP45)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">HKUMP45FlashLight</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 FLASHLIGHT</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FLASHLIGHT (HKUMP45)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">HKUMP45Reflex</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 REFLEX SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">REFLEX SCOPE (HKUMP45)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">HKUMP45AssaultScope</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">HKUMP45 ASSAULT SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ASSAULT SCOPE (HKUMP45)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">M4A1opt</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">M4A1 ASSAULT SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ASSAULT SCOPE (M4A1)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">M4A1Lam</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">M4A1 LAZER POINTER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">LAZER POINTER (M4A1)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">M4A1Lights</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">M4A1 FLASHLIGHT</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FLASHLIGHT (M4A1)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">M4A1GrenadeLauncher</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">M4A1 GRENADE LAUNCHER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GRENADE LAUNCHER (M4A1)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">M4A1ironsights</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">M4A1 IRON SIGHTS</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="2"><Data ss:Type="String">M4A1Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">M4A1 SILENCER</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
-    <Cell ss:Index="2"><Data ss:Type="String">Kriss_silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">KRISS SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">IRON SIGHTS (M4A1)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">M4A1Silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (M4A1)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">Kriss_silencer</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (KRISS)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:Index="2"><Data ss:Type="String">Kriss_ironsights</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">KRISS IRON SIGHTS</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">IRON SIGHTS (KRISS)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">SIGP226Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (SIGP226)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="2"><Data ss:Type="String">SIGP226LAM</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 LAZER POINTER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">LAZER POINTER (SIGP226)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">SIGP226LAMFlashLight</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SIGP226 FLASHLIGHT</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FLASHLIGHT (SIGP226)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">FGL40Frag</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">FGL40 FRAG</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">FRAG GRENADE (FGL40)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
     <Cell ss:Index="2"><Data ss:Type="String">FGL40EMP</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">FGL40 EMP</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EMP GRENADE (FGL40)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0">
+   <Row ss:AutoFitHeight="0" ss:Height="51">
     <Cell ss:Index="2"><Data ss:Type="String">AK_12_Anpeq15</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">ANPEQ15 LAZER POINTER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ANPEQ15 LAZER POINTER (AK12)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="2"><Data ss:Type="String">AK_12_GP25Koster</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">GP25KOSTER GRENADE LAUNCHER (AK12)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
-    <Cell ss:Index="2"><Data ss:Type="String">AK_12_GP25Koster</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">GP25KOSTER GRENADE LAUNCHER</Data></Cell>
-    <Cell ss:Index="6" ss:StyleID="s69"/>
-   </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="38.25">
     <Cell ss:Index="2"><Data ss:Type="String">AK_12_PBS1_Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">PBS1 SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PBS1 SILENCER (AK12)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">AK_12_EPK8Kobra</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">EPK8KOBRA SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EPK8KOBRA SCOPE (AK12)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">AK_12_PN23Saracen</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">PN23SARACEN SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">PN23SARACEN SCOPE (AK12)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">mp40Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">MP40 SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (MP40)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">p38Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">P38 SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (P38)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BarrettM107Scope</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 SNIPER SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SNIPER SCOPE (BARRETT M107)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BarrettM107NormalAmmo</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 AMMO</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">NORMAL AMMO (BARRETT M107)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BarrettM107HEAmmo</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 INCENDIARY AMMO</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">INCENDIARY AMMO (BARRETT M107)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BarrettM107DUAmmo</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 EXPLOSIVE AMMO</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EXPLOSIVE AMMO (BARRETT M107)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">BarrettM107Magazine</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">BARRETT M107 MAGAZINE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">MAGAZINE (BARRETT M107)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Scar_Silencer</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 SILENCER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">SILENCER (SCAR v2)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
-   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Eotech</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">EOTECH SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">EOTECH SCOPE (SCAR v2)</Data></Cell>
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell ss:Index="2"><Data ss:Type="String">Scar_assault_scope</Data></Cell>
-    <Cell ss:Index="4"><Data ss:Type="String">SCAR v2 ASSAULT SCOPE</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">ASSAULT SCOPE (SCAR v2)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="38.25">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="63.75">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="76.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:Index="6" ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
     <Cell ss:Index="6" ss:StyleID="s69"/>
    </Row>
    <Row ss:AutoFitHeight="0">
@@ -7885,9 +7827,10 @@
     <HorizontalResolution>600</HorizontalResolution>
     <VerticalResolution>600</VerticalResolution>
    </Print>
+   <Zoom>130</Zoom>
    <Selected/>
-   <SplitHorizontal>2328</SplitHorizontal>
-   <TopRowBottomPane>448</TopRowBottomPane>
+   <SplitHorizontal>3060</SplitHorizontal>
+   <TopRowBottomPane>603</TopRowBottomPane>
    <ActivePane>2</ActivePane>
    <Panes>
     <Pane>
@@ -7897,8 +7840,8 @@
     </Pane>
     <Pane>
      <Number>2</Number>
-     <ActiveRow>460</ActiveRow>
-     <ActiveCol>5</ActiveCol>
+     <ActiveRow>615</ActiveRow>
+     <ActiveCol>3</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
