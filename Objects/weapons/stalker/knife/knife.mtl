@@ -1,0 +1,17 @@
+<Material MtlFlags="0" Shader="Illum" GenMask="268435600" SurfaceType="mat_metal_pipe" Diffuse="0.49019611,0.49019611,0.49019611" Specular="1,1,1" Emissive="0,0,0" Shininess="84.5" Opacity="1">
+ <Textures>
+  <Texture Map="Diffuse" File="objects/weapons/stalker/knife/wpn_knife.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Specular" File="objects/weapons/stalker/knife/wpn_knife_spec.dds">
+   <TexMod />
+  </Texture>
+  <Texture Map="Normalmap" File="objects/weapons/stalker/knife/wpn_knife_ddn.dds" Amount="50">
+   <TexMod />
+  </Texture>
+  <Texture Map="Environment" File="objects/weapons/us/socom/socom_env2.dds">
+   <TexMod />
+  </Texture>
+ </Textures>
+ <PublicParams EnvMapAmount="2.6800001" FresnelScale="0" FresnelBias="0.15800001" AmbientMultiplier="1"/>
+</Material>

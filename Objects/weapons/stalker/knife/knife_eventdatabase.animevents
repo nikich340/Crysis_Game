@@ -1,0 +1,14 @@
+<anim_event_list>
+ <animation name="">
+  <event name="" time="1.1554834e-019" parameter="" bone="" offset="1.1554834e-019,1.4321136e-038,1.432113e-038" dir="1.1554834e-019,1.4321136e-038,1.432113e-038"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/stalker/knife/impact_01.caf">
+  <event name="sound" time="0.30224001" parameter="Game/sounds/weapons/knife:knife:melee" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/stalker/knife/impact_02.caf">
+  <event name="sound" time="0.25325" parameter="Game/sounds/weapons/knife:knife:melee" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+ <animation name="animations/1st_person/weapons/stalker/knife/select_01.caf">
+  <event name="sound" time="0.81936997" parameter="sounds/weapons:punch:select_fp" bone="" offset="0,0,0" dir="0,0,0"/>
+ </animation>
+</anim_event_list>

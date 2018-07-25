@@ -1,0 +1,18 @@
+#filepath = Animations\1st_person\weapons\stalker\knife
+
+
+$AnimEventDatabase = Objects\Weapons\Stalker\knife\knife_EventDataBase.animevents
+
+
+
+
+select_01					=	select_01.caf
+
+
+impact_01=impact_01.caf
+impact_02=impact_02.caf
+idle_right_01=idle_right_01.caf
+
+
+
+

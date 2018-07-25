@@ -1,0 +1,11 @@
+#filepath  Objects\Weapons\Meele\Akaviri_katana\
+
+//-------stances-------
+
+select_01=select.caf
+idle_01=idle_01.caf
+
+//--------Impact--------
+
+impact_01=impact_01.caf
+impact_02=impact_02.caf
