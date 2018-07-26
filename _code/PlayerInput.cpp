@@ -1221,7 +1221,7 @@ bool CPlayerInput::OnActionSprint(EntityId entityId, const ActionId& actionId, i
 		prevMode = m_pPlayer->GetNanoSuit()->GetMode();
 		SAFE_HUD_FUNC(OnQuickMenuSpeedPreset());
 	} else if (activationMode == eAAM_OnRelease) {
-		if (prevMode != NANOMODE_SPEED)
+		if (m_pPlayer->GetNanoSuit()->GetMode() == NANOMODE_SPEED && prevMode != NANOMODE_SPEED)
 			m_pPlayer->GetNanoSuit()->SetMode(prevMode);
 	}
 	if (CanMove())
