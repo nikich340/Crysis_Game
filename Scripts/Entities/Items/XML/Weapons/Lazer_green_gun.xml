@@ -17,7 +17,7 @@
   </params>
   <ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="10" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
   <ammos>
-    <ammo name="Lazer_green_gun_ammo" extra="100" amount="100" minAmmo="10" />
+    <ammo name="Lazer_green_gun_ammo" extra="100" amount="50" minAmmo="10" />
   </ammos>
   <geometry>
     <firstperson name="objects/weapons/us/maccuavittle/maccuavittle_fp.chr" angles="0,0,0" position="0,0,0" />
@@ -206,7 +206,7 @@
         <param name="damage" value="175" />
         <param name="reload_time" value="2.75" />
         <param name="bullet_chamber" value="1" />
-        <param name="clip_size" value="200" />
+        <param name="clip_size" value="50" />
         <param name="helper_tp" value="weapon_term" />
         <param name="nearmiss_signal" value="OnNearMiss" />
         <param name="damage_drop_per_meter" value="0.1" />
@@ -253,7 +253,7 @@
         <thirdperson effect="" helper="shells" />
       </reject>
     </firemode>
-    <firemode name="Rapid" type="Rapid">
+    <firemode name="Rapid" type="Rapid" enabled="0">
       <tracer>
         <param name="geometryFP" value="objects/effects/tracer_standard_new.cgf" />
         <param name="geometry" value="objects/effects/tracer_standard_new.cgf" />
@@ -299,7 +299,7 @@
         <thirdperson effect="weapon_fx.gun.cold_steam_on_barrel" helper="weapon_term" />
       </muzzlesmoke_ice>
     </firemode>
-    <firemode name="Single" type="Single">
+    <firemode name="Single" type="Single" enabled="0">
       <tracer>
         <param name="geometryFP" value="objects/effects/tracer_standard_new.cgf" />
         <param name="geometry" value="objects/effects/tracer_standard_new.cgf" />

@@ -17,7 +17,7 @@
   </params>
   <ai_descriptor handler="instant" burstBulletCountMin="1" burstBulletCountMax="10" burstPauseTimeMin="0.8" burstPauseTimeMax="3.5" singleFireTriggerTime="-1" />
   <ammos>
-    <ammo name="maccuavittleammo" extra="100" amount="100" minAmmo="10" />
+    <ammo name="maccuavittleammo" extra="100" amount="50" minAmmo="10" />
   </ammos>
   <geometry>
     <firstperson name="objects/weapons/us/maccuavittle/maccuavittle_fp.chr" angles="0,0,0" position="0,0,0" />
@@ -145,7 +145,7 @@
       <!--<sound target="thirdperson" name="sounds/weapons:scar:reload_grenademode" radius="5" />-->
     </action>
     <action name="melee">
-      <animation target="firstperson" name="melee_%suffix%01" />
+      <animation target="firstperson" name="melee_01" />
       <animation target="owner" name="melee" />
       <!--<sound target="thirdperson" name="sounds/weapons:melee:fire" radius="5" />-->
     </action>
@@ -203,15 +203,15 @@
       <fire>
         <param name="ammo_type" value="maccuavittleammo" />
         <param name="rate" value="2000" />
-        <param name="damage" value="200" />
+        <param name="damage" value="50" />
         <param name="reload_time" value="2.75" />
         <param name="bullet_chamber" value="1" />
-        <param name="clip_size" value="200" />
+        <param name="clip_size" value="50" />
         <param name="helper_tp" value="weapon_term" />
         <param name="nearmiss_signal" value="OnNearMiss" />
         <param name="damage_drop_per_meter" value="0.1" />
         <param name="damage_drop_min_distance" value="50" />
-		<param name="ai_vs_player_damage" value="100" />
+		<param name="ai_vs_player_damage" value="25" />
       </fire>
       <recoil>
         <param name="max_recoil" value="4" />
