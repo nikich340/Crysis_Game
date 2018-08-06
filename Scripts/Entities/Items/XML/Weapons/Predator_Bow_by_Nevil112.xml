@@ -145,7 +145,7 @@
 			<melee>
 				<param name="helper" value="collision" />
 				<param name="offset" value="0.35" />
-				<param name="damage" value="300" />
+				<param name="damage" value="150" />
 				<param name="impulse" value="80" />
 				<param name="delay" value="0.10" />
 				<param name="duration" value="0.45" />
