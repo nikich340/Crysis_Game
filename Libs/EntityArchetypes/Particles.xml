@@ -1,8 +1,0 @@
-<EntityPrototypeLibrary Name="Particles" SandboxVersion="1.1.1.400" >
- <EntityPrototype Class="ParticleEffect" Description="" Id="{716B9C25-064D-4E7B-A1F0-9826A4651A42}" Name="water.wave_hitting_rock_splash" >
-  <Properties bActive="1" fUpdateRadius="100" ParticleEffect="water.rock_splash.a" Scale="0.5" SpawnPeriod="4" />
- </EntityPrototype>
- <EntityPrototype Class="ParticleEffect" Description="" Id="{C46A6F63-A052-4782-8182-08385A35BCAA}" Name="water.river_stream_around_rocks" >
-  <Properties bActive="1" fUpdateRadius="100" ParticleEffect="water.river.stream_around_rocks" Scale="1" SpawnPeriod="0.1" />
- </EntityPrototype>
-</EntityPrototypeLibrary>
