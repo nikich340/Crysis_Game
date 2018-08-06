@@ -1,0 +1,106 @@
+<EquipPack name="Player_Sphere" primary="AlienMount">
+ <Items>
+  <AlienMount type="ItemGivable"/>
+  <SCAR type="ItemGivable"/>
+  <Hammer50 type="ItemGivable"/>
+  <Fists type="ItemGivable"/>
+  <Silencer type="ItemGivable"/>
+  <SOCOMSilencer type="ItemGivable"/>
+  <Reflex type="ItemGivable"/>
+  <AssaultScope type="ItemGivable"/>
+  <SniperScope type="ItemGivable"/>
+  <GrenadeLauncher type="ItemGivable"/>
+  <TacticalAttachment type="ItemGivable"/>
+  <LAM type="ItemGivable"/>
+  <LAMFlashLight type="ItemGivable"/>
+  <LAMRifle type="ItemGivable"/>
+  <LAMRifleFlashLight type="ItemGivable"/>
+  <OffHand type="ItemGivable"/>
+  <AlienCloak type="ItemGivable"/>
+  <NightVision type="ItemGivable"/>
+  <Binoculars type="ItemGivable"/>
+  <BerettaLAM type="ItemGivable"/>
+  <BerettaSilencer type="ItemGivable"/>
+  <AK_12_Anpeq15 type="ItemGivable"/>
+  <AK_12_EPK8Kobra type="ItemGivable"/>
+  <AK_12_GP25Koster type="ItemGivable"/>
+  <AK_12_PBS1_Silencer type="ItemGivable"/>
+  <HKUMP45FlashLight type="ItemGivable"/>
+  <HKUMP45LAM type="ItemGivable"/>
+  <HKUMP45Reflex type="ItemGivable"/>
+  <HKUMP45Silencer type="ItemGivable"/>
+  <Kriss_silencer type="ItemGivable"/>
+  <M4A1GrenadeLauncher type="ItemGivable"/>
+  <M4A1Lam type="ItemGivable"/>
+  <M4A1Silencer type="ItemGivable"/>
+  <M4A1Lights type="ItemGivable"/>
+  <SIGP226LAM type="ItemGivable"/>
+  <SIGP226LAMFlashLight type="ItemGivable"/>
+  <SIGP226Silencer type="ItemGivable"/>
+  <TTSilencer type="ItemGivable"/>
+  <AK_12_PN23Saracen type="ItemGivable"/>
+  <M4A1opt type="ItemGivable"/>
+  <HKUMP45AssaultScope type="ItemGivable"/>
+ </Items>
+ <Ammos>
+  <Ammo name="a2ahomingmissile" amount="0"/>
+  <Ammo name="acmo" amount="0"/>
+  <Ammo name="bullet" amount="200"/>
+  <Ammo name="bunkerbuster" amount="0"/>
+  <Ammo name="c4explosive" amount="0"/>
+  <Ammo name="dumbaamissile" amount="0"/>
+  <Ammo name="exocetmissile" amount="0"/>
+  <Ammo name="explosivegrenade" amount="3"/>
+  <Ammo name="flashbang" amount="3"/>
+  <Ammo name="gaussbullet" amount="0"/>
+  <Ammo name="heavyacmo" amount="0"/>
+  <Ammo name="helicoptermissile" amount="0"/>
+  <Ammo name="homingmissile" amount="0"/>
+  <Ammo name="hurricanebullet" amount="0"/>
+  <Ammo name="incendiarybullet" amount="0"/>
+  <Ammo name="lightacmo" amount="0"/>
+  <Ammo name="lightbullet" amount="0"/>
+  <Ammo name="rocket" amount="0"/>
+  <Ammo name="scargrenade" amount="0"/>
+  <Ammo name="shotgunshell" amount="0"/>
+  <Ammo name="singularityprojectile" amount="0"/>
+  <Ammo name="smokegrenade" amount="3"/>
+  <Ammo name="sniperbullet" amount="0"/>
+  <Ammo name="tacbullet" amount="0"/>
+  <Ammo name="tacprojectile" amount="0"/>
+  <Ammo name="tagbullet" amount="0"/>
+  <Ammo name="tank125" amount="0"/>
+  <Ammo name="tank30" amount="0"/>
+  <Ammo name="tankaa" amount="0"/>
+  <Ammo name="towmissile" amount="0"/>
+  <Ammo name="50bullet" amount="0"/>
+  <Ammo name="avexplosive" amount="0"/>
+  <Ammo name="claymoreexplosive" amount="0"/>
+  <Ammo name="rubberbullet" amount="0"/>
+  <Ammo name="scoutsingularityprojectile" amount="0"/>
+  <Ammo name="tacgunprojectile" amount="0"/>
+  <Ammo name="WarriorSingularityProjectile" amount="0"/>
+  <Ammo name="explosivegrenadeAI" amount="0"/>
+  <Ammo name="FlashbangAI" amount="0"/>
+  <Ammo name="a2ahomingmissile_ascmod" amount="0"/>
+  <Ammo name="empgrenade" amount="0"/>
+  <Ammo name="vtol20" amount="0"/>
+  <Ammo name="MGbullet" amount="0"/>
+  <Ammo name="fybullet" amount="0"/>
+  <Ammo name="smgbullet" amount="0"/>
+  <Ammo name="Tank_singularityprojectile" amount="0"/>
+  <Ammo name="gausstankbullet" amount="0"/>
+  <Ammo name="tacgunprojectileEx" amount="0"/>
+  <Ammo name="AK_12_VOG25" amount="0"/>
+  <Ammo name="AK_12_bullet_545x39mm" amount="0"/>
+  <Ammo name="Lazer_blue_gun_ammo" amount="0"/>
+  <Ammo name="Lazer_green_gun_ammo" amount="0"/>
+  <Ammo name="Lazer_red_gun_ammo" amount="0"/>
+  <Ammo name="StickyArrow" amount="0"/>
+  <Ammo name="m107bullet" amount="0"/>
+  <Ammo name="m107dubullet" amount="0"/>
+  <Ammo name="m107incendiarybullet" amount="0"/>
+  <Ammo name="maccuavittleammo" amount="0"/>
+  <Ammo name="shoulder_maccuavittleammo" amount="0"/>
+ </Ammos>
+</EquipPack>
