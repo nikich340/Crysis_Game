@@ -102,6 +102,7 @@ CPlayerInput::CPlayerInput( CPlayer * pPlayer ) :
 		ADD_HANDLER(quickGOC, OnActionQuickGOC);
 		ADD_HANDLER(quickBT, OnActionQuickBT);
 		//----
+		ADD_HANDLER(hud_switch, OnActionHudSwitch);
 
 	#undef ADD_HANDLER
 	}
@@ -1538,6 +1539,11 @@ bool CPlayerInput::OnActionQuickBT(EntityId entityId, const ActionId& actionId, 
 	return false;
 }
 //----
+bool CPlayerInput::OnActionHudSwitch(EntityId entityId, const ActionId& actionId, int activationMode, float value)
+{
+	g_pGameCVars->cl_hud = !g_pGameCVars->cl_hud;
+	return false;
+}
 
 bool CPlayerInput::OnActionThirdPerson(EntityId entityId, const ActionId& actionId, int activationMode, float value)
 {

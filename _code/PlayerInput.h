@@ -109,6 +109,7 @@ private:
 	bool OnActionQuickGOC(EntityId entityId, const ActionId& actionId, int activationMode, float value);
 	bool OnActionQuickBT(EntityId entityId, const ActionId& actionId, int activationMode, float value);
 	//----
+	bool OnActionHudSwitch(EntityId entityId, const ActionId& actionId, int activationMode, float value);
 
 	// Cheats
 	bool OnActionThirdPerson(EntityId entityId, const ActionId& actionId, int activationMode, float value);

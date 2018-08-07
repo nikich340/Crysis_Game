@@ -75,6 +75,9 @@
 		<action name="quickBT" onPress="1">
 			<key name="f2"/>
 		</action>
+		<action name="hud_switch" onPress="1">
+			<key name="f3"/>
+		</action>
 		<action name="skip_cutscene" onPress="1" noModifiers="1">
 			<key name="space"/>
 		</action>

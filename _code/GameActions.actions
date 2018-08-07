@@ -141,6 +141,7 @@ DECL_ACTION(hud_select3)
 DECL_ACTION(hud_select4)
 DECL_ACTION(hud_select5)
 DECL_ACTION(hud_mptutorial_disable)
+DECL_ACTION(hud_switch)
 
 // Vehicle
 DECL_ACTION(v_changeseat1)
