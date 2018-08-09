@@ -1884,14 +1884,68 @@ end
 
 ----------------------------------------------------------------------------------
 function BasicAI:CheckWeaponAttachments()
+--- Custom Weapons ---
+	self:CheckSingleWeaponAttachment("9a91","sil9a91_silencer",true);
+	self:CheckSingleWeaponAttachment("9a91","leotech",true);
+	
+	self:CheckSingleWeaponAttachment("AK_12","AK_12_PBS1_Silencer",true);
+	self:CheckSingleWeaponAttachment("AK_12","AK_12_Anpeq15",true);
+	self:CheckSingleWeaponAttachment("AK_12","AK_12_GP25Koster",true);
+	self:CheckSingleWeaponAttachment("AK_12","AK_12_EPK8Kobra",true);
+	self:CheckSingleWeaponAttachment("AK_12","AK_12_PN23Saracen",true);
+	
+	self:CheckSingleWeaponAttachment("BarrettM107","BarrettM107DUAmmo",true);
+	self:CheckSingleWeaponAttachment("BarrettM107","BarrettM107HEAmmo",true);
+	
+	self:CheckSingleWeaponAttachment("Beretta92FS","BerettaSilencer",true);
+	self:CheckSingleWeaponAttachment("Beretta92FS","BerettaLAM",true);
+	self:CheckSingleWeaponAttachment("Colt1911","BerettaSilencer",true);
+	self:CheckSingleWeaponAttachment("Colt1911","BerettaLAM",true);
+	self:CheckSingleWeaponAttachment("Hammer50","BerettaSilencer",true);
+	self:CheckSingleWeaponAttachment("Hammer50","BerettaLAM",true);
+	self:CheckSingleWeaponAttachment("TT","TTSilencer",true);
+	self:CheckSingleWeaponAttachment("TT","BerettaLAM",true);
+	
+	self:CheckSingleWeaponAttachment("HKUMP45","HKUMP45Silencer",true);
+	self:CheckSingleWeaponAttachment("HKUMP45","HKUMP45LAM",true);
+	self:CheckSingleWeaponAttachment("HKUMP45","HKUMP45FlashLight",true);
+	self:CheckSingleWeaponAttachment("HKUMP45","HKUMP45AssaultScope",true);
+	self:CheckSingleWeaponAttachment("HKUMP45","HKUMP45Reflex",true);
+	
+	self:CheckSingleWeaponAttachment("Kriss","Kriss_silencer",true);
+	
+	self:CheckSingleWeaponAttachment("M4A1","M4A1Silencer",true);
+	self:CheckSingleWeaponAttachment("M4A1","M4A1Lam",true);
+	self:CheckSingleWeaponAttachment("M4A1","M4A1Lights",true);
+	self:CheckSingleWeaponAttachment("M4A1","M4A1GrenadeLauncher",true);
+	self:CheckSingleWeaponAttachment("M4A1","M4A1opt",true);
+	
+	self:CheckSingleWeaponAttachment("mp40","mp40Silencer",true);
+	
+	self:CheckSingleWeaponAttachment("p38","p38Silencer",true);
+	self:CheckSingleWeaponAttachment("p38","p38LAM",true);
+	
+	self:CheckSingleWeaponAttachment("p90","Reflex_p90",true);
+	
+	self:CheckSingleWeaponAttachment("Scar_v2","Scar_Silencer",true);
+	self:CheckSingleWeaponAttachment("Scar_v2","Scar_assault_scope",true);
+	self:CheckSingleWeaponAttachment("Scar_v2","Eotech",true);
+	
+	self:CheckSingleWeaponAttachment("SIGP226","SIGP226Silencer",true);
+	self:CheckSingleWeaponAttachment("SIGP226","SIGP226LAM",true);
+	self:CheckSingleWeaponAttachment("SIGP226","SIGP226LAMFlashLight",true);
+	
+--- Original Weapons ---
 	self:CheckSingleWeaponAttachment(self.primaryWeapon,"Silencer",true);
 	self:CheckSingleWeaponAttachment(self.primaryWeapon,"LAMRifle",true);
 	self:CheckSingleWeaponAttachment(self.primaryWeapon,"LAMRifleFlashLight",true);
+	self:CheckSingleWeaponAttachment(self.primaryWeapon,"GrenadeLauncher",true);
+	self:CheckSingleWeaponAttachment(self.primaryWeapon,"TacticalAttachment",true);
 	self:CheckSingleWeaponAttachment(self.primaryWeapon,"SniperScope",true);
 	self:CheckSingleWeaponAttachment(self.primaryWeapon,"AssaultScope",true);
 	self:CheckSingleWeaponAttachment(self.primaryWeapon,"Reflex",true);
-	self:CheckSingleWeaponAttachment("SOCOM","LAM",true);
 	self:CheckSingleWeaponAttachment("SOCOM","SOCOMSilencer",true);
+	self:CheckSingleWeaponAttachment("SOCOM","LAM",true);
 	self:CheckSingleWeaponAttachment("SOCOM","LAMFlashLight",true);
 end
 
