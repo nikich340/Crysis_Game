@@ -3191,7 +3191,7 @@ bool CWeapon::CheckAmmoRestrictions(EntityId pickerId)
 //------------------------------------------------------
 bool CWeapon::IsPredatorBow()
 {
-	return !strncmp(GetEntity()->GetName(), "Predator_Bow", 12);
+	return !strncmp(GetEntity()->GetClass()->GetName(), "Predator_Bow", 12);
 }
 //-------------------------------------------------------------
 int CWeapon::GetMaxZoomSteps()

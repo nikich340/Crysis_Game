@@ -761,6 +761,11 @@ void CGame::LoadActionMaps(const char* filename)
 	{
 		pActionMapMan->Clear();
 		pActionMapMan->LoadFromXML(rootNode);
+
+		pActionMapMan->GetActionMap("player")->CreateAction("quickGOC", eAAM_OnPress, "f1");
+		pActionMapMan->GetActionMap("default")->CreateAction("quickBT", eAAM_OnPress, "f2");
+		pActionMapMan->GetActionMap("default")->CreateAction("hud_switch", eAAM_OnPress, "f3");
+
 		m_pDefaultAM = pActionMapMan->GetActionMap("default");
 		m_pDebugAM = pActionMapMan->GetActionMap("debug");
 		m_pMultiplayerAM = pActionMapMan->GetActionMap("multiplayer");
