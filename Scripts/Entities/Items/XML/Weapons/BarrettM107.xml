@@ -22,8 +22,8 @@
 	
 	<ammos>
 		<ammo name="m107bullet" extra="10" amount="10" minAmmo="5" accessoryAmmo="0"/>
-		<ammo name="m107incendiarybullet" extra="0" amount="0" accessoryAmmo="10"/>
-		<ammo name="m107dubullet" extra="0" amount="0" accessoryAmmo="5"/>
+		<ammo name="m107incendiarybullet" extra="10" amount="0" accessoryAmmo="10"/>
+		<ammo name="m107dubullet" extra="10" amount="0" accessoryAmmo="5"/>
 	</ammos>
 	<geometry>
 		<firstperson name="objects/weapons/us/barrett_m107/barrett_m107_fp.chr" angles="0,0,0" position="0,0,0" />
